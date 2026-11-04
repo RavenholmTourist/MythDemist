@@ -241,7 +241,7 @@ export function CoopView({ store, players }: { store: RunStore<CoopRun>; players
                   key={c.id}
                   className={`col-head ${isGameBoundary(ci) ? 'boundary' : ''} ${hover?.b === c.id ? 'hl' : ''}`}
                 >
-                  <Portrait id={c.id} size={34} />
+                  <Portrait id={c.id} size={41} />
                   <span className="col-label">
                     <span className={`game-tag game-${c.game.toLowerCase()}`}>{c.game}</span>
                     {c.name}
@@ -254,7 +254,7 @@ export function CoopView({ store, players }: { store: RunStore<CoopRun>; players
             {CHARACTERS.map((t, ri) => (
               <tr key={t.id} className={isGameBoundary(ri) ? 'boundary' : ''}>
                 <th className={`row-head ${hover?.a === t.id ? 'hl' : ''}`}>
-                  <Portrait id={t.id} size={30} showName />
+                  <Portrait id={t.id} size={36} showName />
                 </th>
                 {CHARACTERS.map((c, ci) => {
                   const run = byPair.get(key(t.id, c.id))

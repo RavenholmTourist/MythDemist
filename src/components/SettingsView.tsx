@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react'
 import { CHARACTERS } from '../characters'
+import { buildBackup, downloadJson, parseBackup } from '../lib/backup'
 import { usePortraits } from '../lib/portraits'
 import { MAX_PLAYERS, PLAYER_COLORS, type PlayersStore } from '../lib/usePlayers'
 import type { RunStore } from '../lib/useRunStore'
@@ -61,28 +62,16 @@ export function SettingsView({ playersStore, coop, solo }: Props) {
     soloRuns.filter((r) => r.playerId === id).length
 
   function exportData() {
-    const backup: TrackerBackup = {
-      app: 'sor4-survival-tracker',
-      version: 2,
-      exportedAt: new Date().toISOString(),
-      players: list,
-      coop: coopRuns,
-      solo: soloRuns,
-    }
-    const blob = new Blob([JSON.stringify(backup, null, 2)], { type: 'application/json' })
-    const a = document.createElement('a')
-    a.href = URL.createObjectURL(blob)
-    a.download = `sor4-tracker-backup-${new Date().toISOString().slice(0, 10)}.json`
-    a.click()
-    URL.revokeObjectURL(a.href)
+    downloadJson(buildBackup(list, coopRuns, soloRuns), `sor4-tracker-backup-${new Date().toISOString().slice(0, 10)}.json`)
   }
 
   async function importFile(file: File) {
     setStatus(null)
     try {
       const parsed = JSON.parse(await file.text())
-      if (parsed?.app === 'sor4-survival-tracker') {
-        setPending({ kind: 'backup', data: parsed as TrackerBackup })
+      const backup = parseBackup(parsed)
+      if (backup) {
+        setPending({ kind: 'backup', data: backup })
       } else if (parsed && !Array.isArray(parsed) && Array.isArray(parsed.coop)) {
         // Old app's "Export JSON" shape: {coop: [...], solo: [...]}
         setMapA(list[0]?.id ?? '')

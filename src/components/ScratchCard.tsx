@@ -1,6 +1,5 @@
-import { useEffect, useRef, useState, type ReactNode } from 'react'
-import { usePortraits } from '../lib/portraits'
-import { PortraitFallback } from './Portrait'
+import { useEffect, useRef, type ReactNode } from 'react'
+import { Portrait } from './Portrait'
 
 interface Props {
   title: string
@@ -196,30 +195,14 @@ export function ScratchCard({ title, accent, revealed, locked, lockedHint, onRev
   )
 }
 
-export function CharacterFace({ id, label, game, name, portrait, portraitAlt }: {
+export function CharacterFace({ id, game, name }: {
   id: string
-  label: string
   game: string
   name: string
-  portrait: string
-  portraitAlt: string
 }) {
-  const { overrides } = usePortraits()
-  const srcs = [overrides[id], portrait, portraitAlt].filter(Boolean) as string[]
-  const [stage, setStage] = useState(0)
   return (
     <>
-      {stage >= srcs.length ? (
-        <PortraitFallback id={id} size={104} className="scratch-portrait" />
-      ) : (
-        <img
-          src={srcs[stage]}
-          alt={label}
-          data-id={id}
-          className="scratch-portrait"
-          onError={() => setStage((s) => s + 1)}
-        />
-      )}
+      <Portrait id={id} size={104} className="scratch-portrait" />
       <span className={`game-tag game-${game.toLowerCase()}`}>{game}</span>
       <span className="scratch-name">{name}</span>
     </>

@@ -49,8 +49,8 @@ Recreate the tracker in this repo, generalised from the hardcoded two-player ver
 
 - Character id format: `{game}-{name}` (e.g. `sor4-axel`). Portraits live at `public/img/portraits/{id}.png`.
 - `hasAltBlitz` is `false` for SoR1 characters only.
-- **Portraits (decided):** ship the existing wiki-sourced art for now (free fan tracker, accepted risk), behind a **pluggable portrait system** — lookup order: user-uploaded override → `portraits/{id}.png` → `portraits-duo/{id}.png` → letter tile. Uploads managed in Settings (IDB blobs).
-- **Art direction (locked):** final portrait style = full-colour character art, silhouette cutout on transparent bg (Floyd-style), in an invisible square for consistent scaling/positioning. **Game marker = just the numeral 1/2/3/4 bottom-left in the game's colour — NO "SOR" text.** Game colours: SoR1 `#ff6b6b` red, SoR2 `#5ec8ff` blue, SoR3 `#8be36b` green, SoR4 `#ffcc00` yellow (same as `game-tag` CSS vars — keep them in sync).
+- **Portraits (decided):** selected cutouts live in `art-src/review-cutouts/`; normalized review masters in `art-src/final-review/`; app assets are the same 21 files in `public/img/portraits/`. Lookup order: user-uploaded override → bundled portrait → duotone fallback → letter tile. Uploads managed in Settings (IDB blobs).
+- **Art direction (locked):** full-colour character art/sprites, cut out on transparent bg and normalized to 256×256 transparent PNGs. `python scripts/normalize_portraits.py` regenerates from review cutouts. Pixel sprites use nearest-neighbour upscale; painted art uses smooth scaling. **Game marker = numeral 1/2/3/4 bottom-left in the game's colour — NO "SOR" text.** Game colours: SoR1 `#ff6b6b` red, SoR2 `#5ec8ff` blue, SoR3 `#8be36b` green, SoR4 `#ffcc00` yellow (same as `game-tag` CSS vars — keep them in sync). Number marker size is 120 px on the 256px canvas.
 - **Source art:** `art-src/full/{id}.png` = best full-body art per slot scraped from the SoR wiki (Fandom API + CDN, curl w/ browser headers — urllib gets TLS-fingerprint-blocked, API works w/o auth). SoR4 slots = clean alpha cutouts already. SoR3 = painted art. SoR2 = B&W line art. Weak slots: sor1-adam (bio card w/ text), sor1-axel (52×98 low-res), sor3-shiva (line art) — flag for replacement via ComfyUI or better sources.
 - **ComfyUI plan (owner installing):** restyle SoR1/2/3 art into SoR4's illustration style while keeping each character's classic design (img2img/IP-Adapter on `art-src/full/`). `_tmp/` holds scrape intermediates + contact sheets.
 
@@ -93,7 +93,7 @@ Recreate the tracker in this repo, generalised from the hardcoded two-player ver
 - `db.ts` — IndexedDB `kv` store wrapper (`dbGet`/`dbSet`/`dbDel`), `DB_KEYS` constants, calls `navigator.storage.persist()`. Single store keyed by `runs:coop`, `runs:solo`, `players`, `portraits`.
 - `useRunStore.ts` — `{runs, loading, saving, error, reload, setAll, mutate}` per kind (`'coop'`/`'solo'`), backed by IDB. `mutate(fn)` re-reads latest then writes — keeps the shape a future sync layer needs.
 - `usePlayers.ts` — `PlayersStore` (players/save/saveAll/remove/get), `MAX_PLAYERS = 4`, `PLAYER_COLORS` palette (first two = original Thomas/Craig colours), `UNKNOWN_PLAYER` fallback for dangling ids.
-- `portraits.tsx` — `PortraitsProvider` + `usePortraits()` context. Overrides stored as IDB blobs, served as object URLs. Lookup order in `Portrait`/`CharacterFace`: override → bundled `img/portraits/{id}.png` → `PortraitFallback` letter tile on img error.
+- `portraits.tsx` — `PortraitsProvider` + `usePortraits()` context. Overrides stored as IDB blobs, served as object URLs. `Portrait` supports press-and-hold (400ms) to show a screen-centred enlarged preview until release. Lookup order: override → bundled `img/portraits/{id}.png` → duotone `img/portraits-duo/{id}.png` → `PortraitFallback` letter tile on img error.
 - `coop.ts` — `Side = 0|1` (0 = rows, 1 = cols), `pairKey`, `pairingKey`, `runPairing`, `total`, `winner → 0|1|'tie'`, `initial(name)` for dot letters.
 - `time.ts` — `parseTime` requires two-digit `mm:ss` or `h:mm:ss`. `1:2` is REJECTED — was a real bug, do not loosen. `formatTime` renders `00:12:34`.
 - localStorage only for UI prefs: `sor4.pairing`, `sor4.solo-player`.
@@ -110,6 +110,8 @@ Recreate the tracker in this repo, generalised from the hardcoded two-player ver
 - The GitHub PAT/Contents-API layer (`github.ts`, Settings token UI) is dropped entirely from the port.
 
 Existing data to migrate: `data/coop-runs.json` (43 runs) + `data/solo-runs.json` (3 runs) at repo root (kept out of `public/` deliberately — not shipped). Import via Settings → Import JSON; three legacy shapes are detected — bare `thomas`/`craig` coop arrays, bare solo arrays, and the old app's `{coop, solo}` export bundle — all get a player-mapping dialog then merge by id. Export format is `TrackerBackup` (`{app, version: 2, players, coop, solo}`) — full replace on restore.
+
+**Drive sync (planned v2, owner approved):** opt-in Google Drive backup via GIS token client + `drive.appdata`/`drive.file` scope; no backend. Pre-work done: serialization lives in `src/lib/backup.ts` (`buildBackup`/`parseBackup`/`downloadJson`) — a Drive impl should reuse these, not re-serialize. Needs a Google Cloud project + OAuth client ID (owner's account); unverified-app consent warning is acceptable.
 
 ---
 

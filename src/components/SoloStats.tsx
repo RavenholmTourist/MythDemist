@@ -17,7 +17,7 @@ const COMBOS: [MoveVariant, MoveVariant][] = [
 function RunRow({ r, onOpen, right }: { r: SoloRun; onOpen: (r: SoloRun) => void; right: React.ReactNode }) {
   return (
     <li onClick={() => onOpen(r)}>
-      <Portrait id={r.character} size={28} />
+      <Portrait id={r.character} size={34} />
       <span className="grow">
         {getCharacter(r.character).label} <span className="muted">· {cap(r.blitz)[0]}B / {cap(r.star)[0]}S</span>
       </span>

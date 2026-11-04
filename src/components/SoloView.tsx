@@ -185,7 +185,7 @@ export function SoloView({ store, players }: { store: RunStore<SoloRun>; players
             {CHARACTERS.map((ch, ri) => (
               <tr key={ch.id} className={isGameBoundary(ri) ? 'boundary' : ''}>
                 <th className="row-head">
-                  <Portrait id={ch.id} size={34} showName />
+                  <Portrait id={ch.id} size={41} showName />
                 </th>
                 {COMBOS.map((c) => {
                   const blocked = !ch.hasAltBlitz && c.blitz === 'alternate'

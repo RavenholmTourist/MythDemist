@@ -27,7 +27,7 @@ function PortraitBadge({ id, side, pair }: { id: string; side: Side; pair: [Play
   const cls = side === 0 ? 'a' : 'b'
   return (
     <span className="portrait-badge">
-      <Portrait id={id} size={30} />
+      <Portrait id={id} size={36} />
       <span className={`winner-dot ${cls}`}>{playerInitial(pair[side].name)}</span>
     </span>
   )
@@ -236,7 +236,7 @@ export function CoopStats({ runs, a, b, onOpen }: Props) {
                 {charStats(who).map((x) => (
                   <tr key={x.ch.id}>
                     <th>
-                      <Portrait id={x.ch.id} size={26} /> {x.ch.label}
+                      <Portrait id={x.ch.id} size={31} /> {x.ch.label}
                     </th>
                     <td>{x.n}</td>
                     <td>{x.avgLevel.toFixed(1)}</td>
@@ -337,7 +337,7 @@ export function CoopStats({ runs, a, b, onOpen }: Props) {
                   <th />
                   {multiNames.map((n) => (
                     <th key={n}>
-                      <Portrait id={latestOf(n)} size={34} />
+                      <Portrait id={latestOf(n)} size={41} />
                     </th>
                   ))}
                 </tr>
@@ -346,7 +346,7 @@ export function CoopStats({ runs, a, b, onOpen }: Props) {
                 {multiNames.map((tn) => (
                   <tr key={tn}>
                     <th>
-                      <Portrait id={latestOf(tn)} size={34} />
+                      <Portrait id={latestOf(tn)} size={41} />
                     </th>
                     {multiNames.map((cn) => {
                       const cell = nameGrid(tn, cn)

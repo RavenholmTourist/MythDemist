@@ -141,19 +141,27 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('ten labours', catalogue['sourceReferences']['main']['excerpt'])
         self.assertIn('not be reckoned among the ten', catalogue['sourceReferences']['hydra']['excerpt'])
         self.assertIn('not admit this labour either among the ten', catalogue['sourceReferences']['augeas']['excerpt'])
+        lion = json.loads((base / 'week-05-day-02-the-nemean-lion.json').read_text(encoding='utf-8'))
         opening = json.loads((base / 'week-05-day-03-madness-and-service.json').read_text(encoding='utf-8'))
         self.assertIn('driven mad', opening['sourceReferences']['main']['excerpt'])
         self.assertIn('serving Eurystheus', opening['sourceReferences']['main']['excerpt'])
         apotheosis = json.loads((base / 'week-05-day-04-death-and-apotheosis.json').read_text(encoding='utf-8'))
+        pindar = json.loads((base / 'week-05-day-05-strong-man-or-problem.json').read_text(encoding='utf-8'))
+        self.assertIn('Arcesilaus', ' '.join(choice['text'] for choice in pindar['quiz'][0]['choices']))
         excerpt = apotheosis['sourceReferences']['main']['excerpt']
         self.assertIn('constructed a pyre', excerpt)
         self.assertIn('obtained immortality', excerpt)
         self.assertIn('Mount Oeta', excerpt)
-        for lesson in (catalogue, apotheosis):
+        pindar = json.loads((base / 'week-05-day-05-strong-man-or-problem.json').read_text(encoding='utf-8'))
+        for lesson in (catalogue, lion, apotheosis, pindar):
             for question in lesson['quiz']:
                 texts = [choice['text'] for choice in question['choices']]
                 self.assertEqual(len(set(texts)), len(texts))
-                self.assertFalse(any('Athenian assembly' in text or 'cave of Polyphemus' in text for text in texts))
+                self.assertFalse(any(phrase in text for text in texts for phrase in (
+                    'Athenian assembly', 'cave of Polyphemus', 'Jason trap it in the Argo',
+                    'Oedipus’', 'Achilles’', 'confessing the murder of Laius',
+                    'explaining the bed test to Penelope'
+                )))
                 self.assertNotIn('..', question['explanation'])
         assessment = json.loads((ROOT / 'content/curriculum/greek/greek-heroes-week-05.json').read_text(encoding='utf-8'))['assessment']['questions']
         catalogue_check = assessment[0]['question']
@@ -162,6 +170,7 @@ class RegressionTests(unittest.TestCase):
         apotheosis_check = assessment[3]['question']
         self.assertIn('Library 2.5.2', ' '.join(choice['text'] for choice in apotheosis_check['choices']))
         self.assertNotIn('Chryses', ' '.join(choice['text'] for choice in apotheosis_check['choices']))
+        self.assertIn('Iolaus', ' '.join(choice['text'] for choice in assessment[1]['question']['choices']))
 
 
 if __name__ == '__main__':

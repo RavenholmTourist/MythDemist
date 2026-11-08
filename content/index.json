@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T19:43:40.735587+00:00",
+  "generatedAt": "2026-11-08T19:52:52.226832+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -992,11 +992,11 @@
                 },
                 {
                   "id": "b",
-                  "text": "The first arrow kills the lion immediately."
+                  "text": "He replaces the arrows with a heavier bow and keeps attacking from outside."
                 },
                 {
                   "id": "c",
-                  "text": "Eurystheus fights the lion while Heracles watches."
+                  "text": "Iolaus burns the lion\u2019s hide so Heracles can seize it."
                 }
               ],
               "answerId": "a",
@@ -1086,7 +1086,7 @@
                 },
                 {
                   "id": "c",
-                  "text": "It praises Theron but does not connect the festival with Heracles."
+                  "text": "It omits the festival\u2019s founder and focuses only on Theron\u2019s victory."
                 }
               ],
               "answerId": "a",
@@ -8423,11 +8423,11 @@
                     },
                     {
                       "id": "b",
-                      "text": "The first arrow kills the lion immediately."
+                      "text": "He replaces the arrows with a heavier bow and keeps attacking from outside."
                     },
                     {
                       "id": "c",
-                      "text": "Eurystheus fights the lion while Heracles watches."
+                      "text": "Iolaus burns the lion\u2019s hide so Heracles can seize it."
                     }
                   ],
                   "answerId": "a",
@@ -8517,7 +8517,7 @@
                     },
                     {
                       "id": "c",
-                      "text": "It praises Theron but does not connect the festival with Heracles."
+                      "text": "It omits the festival\u2019s founder and focuses only on Theron\u2019s victory."
                     }
                   ],
                   "answerId": "a",

@@ -108,7 +108,7 @@
       "choices": [
         {
           "id": "a",
-          "text": "Oedipus’"
+          "text": "Hieron of Syracuse"
         },
         {
           "id": "b",
@@ -116,11 +116,11 @@
         },
         {
           "id": "c",
-          "text": "Achilles’"
+          "text": "Arcesilaus of Cyrene"
         }
       ],
       "answerId": "b",
-      "explanation": "Theron’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Olympian 2 addresses Theron of Acragas and praises his chariot victory.",
       "sourceRefIds": [
         "main"
       ],
@@ -135,11 +135,11 @@
       "choices": [
         {
           "id": "a",
-          "text": "Confessing the murder of Laius"
+          "text": "Recounting the labour list as the ode’s main subject"
         },
         {
           "id": "b",
-          "text": "Explaining the bed test to Penelope"
+          "text": "Serving as the victor whose athletic success the ode celebrates"
         },
         {
           "id": "c",
@@ -147,7 +147,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "Connecting the festival’s heroic foundation with praise of the victor. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "The opening connects Herakles with the Olympic festival, then turns to the contemporary victor Theron.",
       "sourceRefIds": [
         "main"
       ],

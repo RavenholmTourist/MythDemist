@@ -1,13 +1,13 @@
 {
   "id": "nor.gods.day01.odin-wisdom",
-  "version": 1,
+  "version": 2,
   "weekId": "nor.gods.week01",
   "pantheon": "norse",
   "themeMode": "pantheon",
   "title": "Odin: Wisdom Has a Price",
   "subtitle": "Knowledge, leadership, and cost in the Prose Edda",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "norse",
     "odin",
@@ -17,46 +17,47 @@
   "learningObjectives": [
     {
       "id": "obj.odin.wisdom",
-      "text": "Explain that Odin\u2019s authority in the Prose Edda is tied to knowledge, leadership, and costly exchange."
+      "text": "Explain the eye pledge in Snorri's Mimer's Well episode."
     },
     {
       "id": "obj.edda.source",
-      "text": "Describe the Prose Edda as a later handbook that preserves and interprets older Norse material."
+      "text": "Distinguish that prose episode from Havamal's rune ordeal."
     }
   ],
   "sourceReferences": {
-    "ref-prose-edda-gylfaginning": {
+    "mimer": {
       "recordId": "pg-18947",
       "sourceId": "nor.snorri.prose-edda",
-      "work": "The Prose Edda",
+      "work": "Gylfaginning (in the Prose Edda)",
       "author": "Snorri Sturluson",
       "translator": "Rasmus B. Anderson",
-      "locator": "Prose Edda\u2014Odin\u2019s pursuit of wisdom",
+      "locator": "Mimer's Well in Gylfaginning; local text normalized characters 72397-72633",
       "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "his was Chaos. And Fimbultyr said: Let Ymer be slain and let order be established. And straightway Odin and his brothers--the bright sons of Bure--gave Ymer a mortal wound, and from his body made they the universe; from his flesh, the earth; from his blood, the sea; from his bones, the rocks; from his hair, the trees; from his skull, the vaulted heavens; fr",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
     },
-    "ref-secondary": {
+    "runes": {
       "recordId": "pg-73533",
       "sourceId": "nor.poetic-edda",
-      "work": "The Poetic Edda",
+      "work": "Havamal (in the Poetic Edda)",
       "author": "Anonymous Old Norse poets",
       "translator": "Henry Adams Bellows",
-      "locator": "H\u00e1vam\u00e1l\u2014Odin, wisdom, and sacrifice",
+      "locator": "Havamal, stanzas 139-140; local text normalized characters 102346-102711",
       "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "rse \u00fe by \u201cth\u201d throughout, instead of spasmodically by \u201cd,\u201d as in many texts: e.g., Othin instead of Odin. For the Norse \u00f8 I have used its equivalent, \u201c\u00f6,\u201d e.g., V\u00f6lund; for the \u01eb I have used \u201co\u201d and not \u201ca,\u201d e.g., Voluspo, not Valuspa or Voluspa. To avoid confusion with accents the long vowel marks of the Icelandic are consistently omitted, as likewise in mo",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "139. I ween that I hung | on the windy tree, Hung there for nights full nine; With the spear I was wounded, | and offered I was To Othin, myself to myself, On the tree that none | may ever know What root beneath it runs. 140. None made me happy | with loaf or horn, And there below I looked; I took up the runes, | shrieking I took them, And forthwith back I fell.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Odin is not just a ruler",
-      "body": "Odin is the All-Father, but his authority is deeply intellectual: counsel, poetry, foresight, and knowledge gained through risky exchange.",
+      "title": "An eye for a drink",
+      "body": "In Gylfaginning, Mimer's well contains wisdom. Odin receives a drink only after leaving one eye as a pledge.",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "mimer"
       ],
       "objectiveIds": [
         "obj.odin.wisdom"
@@ -65,11 +66,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "The Edda is a later handbook",
-      "body": "Snorri\u2019s Prose Edda preserves Norse myth while arranging it as guidance for poets. It is invaluable evidence, but not a neutral ancient transcript.",
+      "title": "Snorri's account",
+      "body": "Source quotation (translated; whitespace normalized): “The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.”",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "mimer"
       ],
       "objectiveIds": [
         "obj.edda.source"
@@ -78,24 +78,23 @@
     {
       "id": "card-03",
       "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "title": "A different ordeal in Havamal",
+      "body": "Source quotation (translated; whitespace normalized): “139. I ween that I hung | on the windy tree, Hung there for nights full nine; With the spear I was wounded, | and offered I was To Othin, myself to myself, On the tree that none | may ever know What root beneath it runs. 140. None made me happy | with loaf or horn, And there below I looked; I took up the runes, | shrieking I took them, And forthwith back I fell.”",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "runes"
       ],
       "objectiveIds": [
-        "obj.edda.source"
+        "obj.odin.wisdom"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Keep the episodes separate",
+      "body": "The prose account concerns Mimer's well; Havamal 139-140 describes Odin hanging, being wounded, and taking up runes. These are distinct literary episodes.",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "mimer",
+        "runes"
       ],
       "objectiveIds": [
         "obj.edda.source"
@@ -104,15 +103,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Knowledge with a cost",
-      "body": "In Norse tradition, wisdom is won through exchange, ordeal, and sacrifice. Odin\u2019s power is therefore linked to what he is willing to give up.",
+      "title": "Wisdom has a cost",
+      "body": "Both texts link knowledge with sacrifice, but their shared theme does not make their episodes the same event or a record of one historical rite.",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "mimer",
+        "runes"
       ],
       "objectiveIds": [
-        "obj.odin.wisdom",
-        "obj.edda.source"
+        "obj.odin.wisdom"
       ]
     }
   ],
@@ -120,86 +118,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What best describes the Prose Edda\u2019s role?",
+      "prompt": "What does Odin pledge at Mimer's well in Gylfaginning?",
       "choices": [
         {
           "id": "a",
-          "text": "A medieval handbook that preserves and organizes mythic traditions"
+          "text": "One eye"
         },
         {
           "id": "b",
-          "text": "A Greek epic about Troy"
+          "text": "His spear"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "A collection of Egyptian hymns"
+          "text": "His mead horn"
         }
       ],
       "answerId": "a",
-      "explanation": "Snorri\u2019s Prose Edda is invaluable because it preserves mythic material, but it is also a later handbook for poets.",
+      "explanation": "Snorri says Mimer grants the drink after Odin leaves one eye as a pledge.",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "mimer"
       ],
       "objectiveIds": [
-        "obj.edda.source"
+        "obj.odin.wisdom"
       ],
       "deepDive": {
-        "prompt": "Explore the Edda\u2019s source frame.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "Who wrote the Prose Edda and why?",
-          "How does a handbook differ from epic poetry?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-prose-edda-gylfaginning",
-          "ref-secondary"
+          "mimer"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "Which idea is central to Odin in this lesson?",
+      "prompt": "Which work tells of Odin hanging on the tree and taking up runes?",
       "choices": [
         {
           "id": "a",
-          "text": "Wisdom and knowledge gained at a cost"
+          "text": "Gylfaginning's Mimer's Well passage"
         },
         {
           "id": "b",
-          "text": "Agricultural fertility only"
+          "text": "Grimnismal's list of divine halls"
         },
         {
           "id": "c",
-          "text": "Sea monsters and storms"
-        },
-        {
-          "id": "d",
-          "text": "The invention of writing in Egypt"
+          "text": "Havamal, stanzas 139-140"
         }
       ],
-      "answerId": "a",
-      "explanation": "The Prose Edda presents Odin as an authority associated with counsel, poetry, and costly knowledge.",
+      "answerId": "c",
+      "explanation": "The rune ordeal is narrated in Havamal; Snorri's Mimer passage tells a different sacrifice.",
       "sourceRefIds": [
-        "ref-prose-edda-gylfaginning",
-        "ref-secondary"
+        "runes",
+        "mimer"
       ],
       "objectiveIds": [
-        "obj.odin.wisdom"
+        "obj.edda.source"
       ],
       "deepDive": {
-        "prompt": "Explore Odin\u2019s pursuit of wisdom.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "What does Odin give or risk for knowledge?",
-          "How does this differ from Achilles\u2019 heroic problem?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-prose-edda-gylfaginning",
-          "ref-secondary"
+          "runes",
+          "mimer"
         ]
       }
     }
@@ -213,9 +201,9 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Initial Norse scaffold lesson. Deepened to the five-card lesson standard."
+    "status": "draft",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite with locally matched quotations. Independent line-by-line scholarly, translation, and pedagogy review remains pending."
   }
 }

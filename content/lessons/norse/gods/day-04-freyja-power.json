@@ -1,13 +1,13 @@
 {
   "id": "norse.week01.day04.freyja-power",
-  "version": 1,
+  "version": 2,
   "weekId": "nor.gods.week01",
   "pantheon": "norse",
   "themeMode": "pantheon",
   "title": "Freyja: Desire, Magic, and Power",
   "subtitle": "A goddess whose roles resist one label",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "freyja",
     "desire",
@@ -17,46 +17,47 @@
   "learningObjectives": [
     {
       "id": "obj.freyja-power.concept",
-      "text": "Identify the main idea in Freyja: Desire, Magic, and Power."
+      "text": "Explain what Snorri and Grímnismál say about Freyja and the slain."
     },
     {
       "id": "obj.freyja-power.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Compare the prose account with its cited poetic passage."
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "prose": {
       "recordId": "pg-18947",
       "sourceId": "nor.snorri.prose-edda",
-      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "work": "Gylfaginning (in the Prose Edda)",
       "author": "Snorri Sturluson",
       "translator": "Rasmus B. Anderson",
-      "locator": "Prose Edda\u2014Freyja among the gods",
+      "locator": "Freyja and Folkvang in Gylfaginning; local text normalized characters 86916-87244",
       "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "ay and Thursday and Friday are named after, and press questions in reference to Tyr, Odin, Thor and Freyja, we get at best but a wise and knowing look. Are we, then, as a nation, like the ancient Jews, and do we bend the knee before the gods of foreign nations and forsake the altars of our own gods? What if we then should suffer the fate of that unhappy peop",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Freyja is the most famous of the goddesses. She has in heaven a dwelling which is called Folkvang, and when she rides to the battle, one half of the slain belong to her, and the other half to Odin. As is here said: Folkvang it is called, And there rules Freyja. For the seats in the hall Half of the slain She chooses each day;",
+      "evidenceType": "quotation",
+      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
     },
-    "ref-secondary": {
+    "poem": {
       "recordId": "pg-73533",
       "sourceId": "nor.poetic-edda",
-      "work": "The Poetic Edda",
+      "work": "Grímnismál (in the Poetic Edda)",
       "author": "Anonymous Old Norse poets",
       "translator": "Henry Adams Bellows",
-      "locator": "\u00derymskvi\u00f0a/Hyndlulj\u00f3\u00f0\u2014Freyja",
+      "locator": "Grímnismál, stanza 14; local text normalized characters 149488-149647",
       "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "ones; the initial rhyme is as in the Fornyrthislag. The following is an example: Horsk vas h\u00fasfreyja, | hug\u00fei at mannviti, lag heyr\u00fei or\u00fea, | hvat \u00e1 laun m\u00e1eltu; \u00fe\u00e1 vas vant vitri, | vildi \u00feeim hjalpa: skyldu of s\u00e1e sigla, | en sj\u01eblf n\u00e9 kvamskat. A poem in Fornyrthislag is normally entitled -kvitha (Thrymskvitha, Guthrunar",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "14. The ninth is Folkvang, | where Freyja decrees Who shall have seats in the hall; The half of the dead | each day does she choose, And half does Othin have.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Freyja: Desire, Magic, and Power",
-      "body": "Freyja\u2019s traditions gather love, sexuality, magic, wealth, and connection to the dead into a powerful but varied profile.",
+      "title": "A share of the slain",
+      "body": "Snorri's Gylfaginning says Freyja chooses half of those slain in battle for seats in Folkvang; Odin receives the other half.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose"
       ],
       "objectiveIds": [
         "obj.freyja-power.concept"
@@ -65,37 +66,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Snorri's prose account",
+      "body": "Source quotation (translated; whitespace normalized): “Freyja is the most famous of the goddesses. She has in heaven a dwelling which is called Folkvang, and when she rides to the battle, one half of the slain belong to her, and the other half to Odin. As is here said: Folkvang it is called, And there rules Freyja. For the seats in the hall Half of the slain She chooses each day;”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose"
       ],
       "objectiveIds": [
-        "obj.freyja-power.source"
+        "obj.freyja-power.concept"
       ]
     },
     {
       "id": "card-03",
       "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "title": "The poetic stanza",
+      "body": "Source quotation (translated; whitespace normalized): “14. The ninth is Folkvang, | where Freyja decrees Who shall have seats in the hall; The half of the dead | each day does she choose, And half does Othin have.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem"
       ],
       "objectiveIds": [
-        "obj.freyja-power.source"
+        "obj.freyja-power.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Compare the witnesses carefully",
+      "body": "Anderson's edition identifies the verse as Grímnismál 14. Treat the prose and poem as related source testimony, not as two unrelated confirmations of a historical afterlife system.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose",
+        "poem"
       ],
       "objectiveIds": [
         "obj.freyja-power.source"
@@ -104,14 +103,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "Do not flatten the claim",
+      "body": "These passages describe a literary division of the battle-dead. They do not establish that every Norse community held one uniform belief about the afterlife.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose",
+        "poem"
       ],
       "objectiveIds": [
-        "obj.freyja-power.concept"
+        "obj.freyja-power.source"
       ]
     }
   ],
@@ -119,85 +118,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What makes Freyja\u2019s profile varied?",
+      "prompt": "In Gylfaginning, who chooses half of those slain in battle?",
       "choices": [
         {
           "id": "a",
-          "text": "She joins desire, magic, wealth, and the dead"
+          "text": "Freyja"
         },
         {
           "id": "b",
-          "text": "Only storms"
+          "text": "Odin"
         },
         {
           "id": "c",
-          "text": "Only farming"
-        },
-        {
-          "id": "d",
-          "text": "Only smithing"
+          "text": "Frigg"
         }
       ],
       "answerId": "a",
-      "explanation": "Freyja\u2019s traditions gather love, sexuality, magic, wealth, and connection to the dead into a powerful but varied profile.",
+      "explanation": "Snorri assigns half to Freyja and half to Odin.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose"
       ],
       "objectiveIds": [
         "obj.freyja-power.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "prose"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What does Grímnismál 14 add to the prose description?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "It says Thor chooses every fallen warrior"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "It gives a complete account of all Norse burial customs"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "A poetic stanza names Folkvang and says Freyja chooses half the dead"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "c",
+      "explanation": "The stanza supports a source-specific comparison, not a universal account of practice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem",
+        "prose"
       ],
       "objectiveIds": [
         "obj.freyja-power.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "poem",
+          "prose"
         ]
       }
     }
@@ -212,8 +202,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite with locally matched quotations. Independent line-by-line scholarly, translation, and pedagogy review remains pending."
   }
 }

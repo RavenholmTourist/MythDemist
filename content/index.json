@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T19:52:52.226832+00:00",
+  "generatedAt": "2026-11-08T21:59:54.085416+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -3649,7 +3649,7 @@
     },
     {
       "id": "nor.gods.day01.odin-wisdom",
-      "version": 1,
+      "version": 2,
       "pantheon": "norse",
       "title": "Odin: Wisdom Has a Price",
       "weekId": "nor.gods.week01",
@@ -3659,7 +3659,7 @@
         "wisdom",
         "prose-edda"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/norse/norse-gods/day-01-odin-wisdom.json",
       "objectiveIds": [
         "obj.odin.wisdom",
@@ -3687,7 +3687,7 @@
     },
     {
       "id": "norse.week01.day02.thor-protection",
-      "version": 1,
+      "version": 2,
       "pantheon": "norse",
       "title": "Thor: Strength and Protection",
       "weekId": "nor.gods.week01",
@@ -3696,14 +3696,13 @@
         "protection",
         "strength"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/norse/gods/day-02-thor-protection.json",
       "objectiveIds": [
         "obj.thor-protection.concept",
         "obj.thor-protection.source"
       ],
       "recordIds": [
-        "pg-18947",
         "pg-73533"
       ],
       "rewardArtId": null,
@@ -3722,7 +3721,7 @@
     },
     {
       "id": "norse.week01.day03.loki-ambiguity",
-      "version": 1,
+      "version": 2,
       "pantheon": "norse",
       "title": "Loki: Cunning and Ambiguity",
       "weekId": "nor.gods.week01",
@@ -3731,14 +3730,13 @@
         "cunning",
         "ambiguity"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/norse/gods/day-03-loki-ambiguity.json",
       "objectiveIds": [
         "obj.loki-ambiguity.concept",
         "obj.loki-ambiguity.source"
       ],
       "recordIds": [
-        "pg-18947",
         "pg-73533"
       ],
       "rewardArtId": null,
@@ -3757,7 +3755,7 @@
     },
     {
       "id": "norse.week01.day04.freyja-power",
-      "version": 1,
+      "version": 2,
       "pantheon": "norse",
       "title": "Freyja: Desire, Magic, and Power",
       "weekId": "nor.gods.week01",
@@ -3767,7 +3765,7 @@
         "magic",
         "power"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/norse/gods/day-04-freyja-power.json",
       "objectiveIds": [
         "obj.freyja-power.concept",
@@ -3795,7 +3793,7 @@
     },
     {
       "id": "norse.week01.day05.ragnarok-fate",
-      "version": 1,
+      "version": 2,
       "pantheon": "norse",
       "title": "Fate and Ragnar\u00f6k",
       "weekId": "nor.gods.week01",
@@ -3804,7 +3802,7 @@
         "fate",
         "ending"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/norse/gods/day-05-ragnarok-fate.json",
       "objectiveIds": [
         "obj.ragnarok-fate.concept",

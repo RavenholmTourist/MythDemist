@@ -1,13 +1,13 @@
 {
   "id": "norse.week01.day02.thor-protection",
-  "version": 1,
+  "version": 2,
   "weekId": "nor.gods.week01",
   "pantheon": "norse",
   "themeMode": "pantheon",
   "title": "Thor: Strength and Protection",
   "subtitle": "A defender whose power is practical",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "thor",
     "protection",
@@ -16,46 +16,59 @@
   "learningObjectives": [
     {
       "id": "obj.thor-protection.concept",
-      "text": "Identify the main idea in Thor: Strength and Protection."
+      "text": "Trace the theft of Mjollnir and the condition Thrym sets for its return."
     },
     {
       "id": "obj.thor-protection.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Explain how Þrymskviða uses disguise and comic reversal."
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "pg-18947",
-      "sourceId": "nor.snorri.prose-edda",
-      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
-      "author": "Snorri Sturluson",
-      "translator": "Rasmus B. Anderson",
-      "locator": "Prose Edda\u2014Thor and threats to the gods",
-      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "before using this eBook. Title: The Younger Edda; Also called Snorre's Edda, or The Prose Edda Author: Snorri Sturluson Translator: Rasmus Bj\u00f6rn Anderson Release date: July 31, 2006 [eBook #18947] Most recently updated: August 4, 2024 Language: English Other information and formats: www.gutenberg.org/ebooks/18947 Credits: Pr",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "loss": {
       "recordId": "pg-73533",
       "sourceId": "nor.poetic-edda",
-      "work": "The Poetic Edda",
+      "work": "Þrymskviða (in the Poetic Edda)",
       "author": "Anonymous Old Norse poets",
       "translator": "Henry Adams Bellows",
-      "locator": "\u00derymskvi\u00f0a\u2014Thor, hammer, and recovery",
+      "locator": "Þrymskviða, stanzas 1-7; local text normalized characters 264958-266219",
       "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "miskvitha 138 Lokasenna 151 Thrymskvitha 174 Alvissmol 183 Baldrs Draumar 195 Rigsthula 201 Hyndluljoth 217 Svipd",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "1. Wild was Vingthor | when he awoke, And when his mighty | hammer he missed; He shook his beard, | his hair was bristling, As the son of Jorth | about him sought. 2. Hear now the speech | that first he spake: “Harken, Loki, | and heed my words, Nowhere on earth | is it known to man, Nor in heaven above: | our hammer is stolen.” 3. To the dwelling fair | of Freyja went they, Hear now the speech | that first he spake: “Wilt thou, Freyja, | thy feather-dress lend me, That so my hammer | I may seek?” Freyja spake: 4. “Thine should it be | though of silver bright, And I would give it | though ’twere of gold.” Then Loki flew, | and the feather-dress whirred, Till he left behind him | the home of the gods, And reached at last | the realm of the giants. 5. Thrym sat on a mound, | the giants’ master, Leashes of gold | he laid for his dogs, And stroked and smoothed | the manes of his steeds. Thrym spake: 6. “How fare the gods, | how fare the elves? Why comst thou alone | to the giants’ land?” Loki spake: “Ill fare the gods, | ill fare the elves! Hast thou hidden | Hlorrithi’s hammer?” Thrym spake: 7. “I have hidden | Hlorrithi’s hammer, Eight miles down | deep in the earth; And back again | shall no man bring it If Freyja I win not | to be my wife.”",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+    },
+    "disguise": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "Þrymskviða (in the Poetic Edda)",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "Þrymskviða, stanzas 16-20; local text normalized characters 267726-268388",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "16. Then Thor the mighty | his answer made: “Me would the gods | unmanly call If I let bind | the bridal veil.” 17. Then Loki spake, | the son of Laufey: “Be silent, Thor, | and speak not thus; Else will the giants | in Asgarth dwell If thy hammer is brought not | home to thee.” 18. Then bound they on Thor | the bridal veil, And next the mighty | Brisings’ necklace. 19. Keys around him | let they rattle, And down to his knees | hung woman’s dress; With gems full broad | upon his breast, And a pretty cap | to crown his head. 20. Then Loki spake, | the son of Laufey: “As thy maid-servant thither | I go with thee; We two shall haste | to the giants’ home.”",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+    },
+    "return": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "Þrymskviða (in the Poetic Edda)",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "Þrymskviða, stanzas 31-32; local text normalized characters 270240-270597",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "31. The heart in the breast | of Hlorrithi laughed When the hard-souled one | his hammer beheld; First Thrym, the king | of the giants, he killed, Then all the folk | of the giants he felled. 32. The giant’s sister | old he slew, She who had begged | the bridal fee; A stroke she got | in the shilling’s stead. And for many rings | the might of the hammer.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Thor: Strength and Protection",
-      "body": "Thor\u2019s strength is framed around defense, weather, travel, and confronting threats to gods and humans.",
+      "title": "The hammer is missing",
+      "body": "Thor wakes and discovers Mjollnir is gone. Thrym admits that he has hidden it and names the price he wants for returning it.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "loss"
       ],
       "objectiveIds": [
         "obj.thor-protection.concept"
@@ -64,53 +77,51 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Thrym's condition",
+      "body": "Source quotation (translated; whitespace normalized): “1. Wild was Vingthor | when he awoke, And when his mighty | hammer he missed; He shook his beard, | his hair was bristling, As the son of Jorth | about him sought. 2. Hear now the speech | that first he spake: “Harken, Loki, | and heed my words, Nowhere on earth | is it known to man, Nor in heaven above: | our hammer is stolen.” 3. To the dwelling fair | of Freyja went they, Hear now the speech | that first he spake: “Wilt thou, Freyja, | thy feather-dress lend me, That so my hammer | I may seek?” Freyja spake: 4. “Thine should it be | though of silver bright, And I would give it | though ’twere of gold.” Then Loki flew, | and the feather-dress whirred, Till he left behind him | the home of the gods, And reached at last | the realm of the giants. 5. Thrym sat on a mound, | the giants’ master, Leashes of gold | he laid for his dogs, And stroked and smoothed | the manes of his steeds. Thrym spake: 6. “How fare the gods, | how fare the elves? Why comst thou alone | to the giants’ land?” Loki spake: “Ill fare the gods, | ill fare the elves! Hast thou hidden | Hlorrithi’s hammer?” Thrym spake: 7. “I have hidden | Hlorrithi’s hammer, Eight miles down | deep in the earth; And back again | shall no man bring it If Freyja I win not | to be my wife.””",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "loss"
       ],
       "objectiveIds": [
-        "obj.thor-protection.source"
+        "obj.thor-protection.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "A disguise is proposed",
+      "body": "Thor objects to wearing a bridal veil. Loki argues that the giants may occupy Asgard if the hammer is not recovered; the gods then dress Thor for the journey.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disguise"
       ],
       "objectiveIds": [
-        "obj.thor-protection.source"
+        "obj.thor-protection.concept"
       ]
     },
     {
       "id": "card-04",
-      "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "kind": "source",
+      "title": "The return of Mjollnir",
+      "body": "Source quotation (translated; whitespace normalized): “31. The heart in the breast | of Hlorrithi laughed When the hard-souled one | his hammer beheld; First Thrym, the king | of the giants, he killed, Then all the folk | of the giants he felled. 32. The giant’s sister | old he slew, She who had begged | the bridal fee; A stroke she got | in the shilling’s stead. And for many rings | the might of the hammer.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "return"
       ],
       "objectiveIds": [
-        "obj.thor-protection.source"
+        "obj.thor-protection.concept"
       ]
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "method",
+      "title": "Read the poem's comic reversal",
+      "body": "Bellows translates the bridal disguise as comedy. Treat this tone as a feature of Þrymskviða, not as a rule for every Thor story.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "loss",
+        "disguise",
+        "return"
       ],
       "objectiveIds": [
-        "obj.thor-protection.concept"
+        "obj.thor-protection.source"
       ]
     }
   ],
@@ -118,85 +129,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Why is Thor often a defender rather than only a warrior?",
+      "prompt": "What condition does Thrym set for returning Mjollnir?",
       "choices": [
         {
           "id": "a",
-          "text": "Thor protects gods and humans through direct strength"
+          "text": "Thor must give up Mjollnir permanently"
         },
         {
           "id": "b",
-          "text": "Odin\u2019s secret wisdom"
+          "text": "The gods must surrender Asgard"
         },
         {
           "id": "c",
-          "text": "Loki\u2019s verbal ambiguity"
-        },
-        {
-          "id": "d",
-          "text": "Healing sleep"
+          "text": "Freyja must marry him"
         }
       ],
-      "answerId": "a",
-      "explanation": "Thor\u2019s strength is framed around defense, weather, travel, and confronting threats to gods and humans.",
+      "answerId": "c",
+      "explanation": "Thrym says no one will return the hammer unless he wins Freyja as his wife.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "loss"
       ],
       "objectiveIds": [
         "obj.thor-protection.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "loss"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What does Loki do when Thor resists the disguise?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Tells Thor to abandon the hammer"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Warns that the giants may keep the hammer and threaten Asgard"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Offers to fight Thrym alone while Thor waits"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "Loki argues that the hammer must be recovered to prevent the giants from entering Asgard.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disguise"
       ],
       "objectiveIds": [
         "obj.thor-protection.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "disguise"
         ]
       }
     }
@@ -211,8 +211,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite with locally matched quotations. Independent line-by-line scholarly, translation, and pedagogy review remains pending."
   }
 }

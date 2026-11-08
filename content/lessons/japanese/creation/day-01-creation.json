@@ -212,9 +212,9 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+    "status": "draft",
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Structural scaffold only. Independent source, claim, locator, and pedagogy review is pending."
   }
 }

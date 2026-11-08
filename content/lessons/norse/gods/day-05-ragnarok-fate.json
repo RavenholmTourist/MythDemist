@@ -1,13 +1,13 @@
 {
   "id": "norse.week01.day05.ragnarok-fate",
-  "version": 1,
+  "version": 2,
   "weekId": "nor.gods.week01",
   "pantheon": "norse",
   "themeMode": "pantheon",
-  "title": "Fate and Ragnar\u00f6k",
+  "title": "Fate and Ragnarök",
   "subtitle": "An ending built into the world",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "ragnarok",
     "fate",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.ragnarok-fate.concept",
-      "text": "Identify the main idea in Fate and Ragnar\u00f6k."
+      "text": "Describe the renewed world in Völuspá 59 and Gylfaginning 58."
     },
     {
       "id": "obj.ragnarok-fate.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Distinguish the poem from Snorri's prose retelling."
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "prose": {
       "recordId": "pg-18947",
       "sourceId": "nor.snorri.prose-edda",
-      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "work": "Gylfaginning (in the Prose Edda)",
       "author": "Snorri Sturluson",
       "translator": "Rasmus B. Anderson",
-      "locator": "Gylfaginning\u2014Ragnar\u00f6k and fate",
+      "locator": "Gylfaginning 58, the renewed world; local text normalized characters 159549-159741",
       "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "es of the gods, of the giants and of men are swallowed up by the sea, and the end has come. This is Ragnarok, the twilight of the gods. But the radiant dawn follows the night. The earth, completely green, rises again from the sea, and where the mews have but just been rocking on restless waves, rich fields unplowed and unsown, now wave their golden harvests",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "58. Then said Ganglere: Do any gods live then? Is there any earth or heaven? Har answered: The earth rises again from the sea, and is green and fair. The fields unsown produce their harvests.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
     },
-    "ref-secondary": {
+    "poem": {
       "recordId": "pg-73533",
       "sourceId": "nor.poetic-edda",
-      "work": "The Poetic Edda",
+      "work": "Völuspá (in the Poetic Edda)",
       "author": "Anonymous Old Norse poets",
       "translator": "Henry Adams Bellows",
-      "locator": "V\u00f6lusp\u00e1\u2014creation and Ragnar\u00f6k",
+      "locator": "Völuspá, stanzas 59-61; local text normalized characters 45061-45558",
       "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "l. Doom of the gods: the phrase \u201cragna r\u00f6k\u201d has been rather unfortunately Anglicized into the word \u201cragnarok\u201d (the Norse term is not a proper name), and r\u00f6k, \u201cdoom,\u201d has been confused with r\u00f6kkr, \u201cdarkness,\u201d and so translated \u201cdusk of the Gods,\u201d or \u201cG\u00f6tterd\u00e4mmerung.\u201d 40. In the manuscript most of this stanza is abbreviated to the first letters of the words.",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "59. Now do I see | the earth anew Rise all green | from the waves again; The cataracts fall, | and the eagle flies, And fish he catches | beneath the cliffs. 60. The gods in Ithavoll | meet together, Of the terrible girdler | of earth they talk, And the mighty past | they call to mind, And the ancient runes | of the Ruler of Gods. 61. In wondrous beauty | once again Shall the golden tables | stand mid the grass, Which the gods had owned | in the days of old, . . . . . . . . | . . . . . . . .",
+      "evidenceType": "quotation",
+      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Fate and Ragnar\u00f6k",
-      "body": "Ragnar\u00f6k gives Norse myth a tragic horizon: even gods move toward a known catastrophe rather than escaping consequence.",
+      "title": "The story continues after catastrophe",
+      "body": "Völuspá does not end its vision with the burning and sinking of the old world. Stanza 59 describes the earth rising green again from the waves.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem"
       ],
       "objectiveIds": [
         "obj.ragnarok-fate.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The Völuspá stanza",
+      "body": "Source quotation (translated; whitespace normalized): “59. Now do I see | the earth anew Rise all green | from the waves again; The cataracts fall, | and the eagle flies, And fish he catches | beneath the cliffs. 60. The gods in Ithavoll | meet together, Of the terrible girdler | of earth they talk, And the mighty past | they call to mind, And the ancient runes | of the Ruler of Gods. 61. In wondrous beauty | once again Shall the golden tables | stand mid the grass, Which the gods had owned | in the days of old, . . . . . . . . | . . . . . . . .”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem"
       ],
       "objectiveIds": [
-        "obj.ragnarok-fate.source"
+        "obj.ragnarok-fate.concept"
       ]
     },
     {
       "id": "card-03",
       "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "title": "Snorri's prose question and answer",
+      "body": "Source quotation (translated; whitespace normalized): “58. Then said Ganglere: Do any gods live then? Is there any earth or heaven? Har answered: The earth rises again from the sea, and is green and fair. The fields unsown produce their harvests.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose"
       ],
       "objectiveIds": [
-        "obj.ragnarok-fate.source"
+        "obj.ragnarok-fate.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Compare poem and retelling",
+      "body": "Völuspá speaks through a prophetic voice; Gylfaginning retells the events in a question-and-answer frame. Keep each work's wording and framing attached to the claim.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem",
+        "prose"
       ],
       "objectiveIds": [
         "obj.ragnarok-fate.source"
@@ -103,14 +102,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "An ending with a sequel",
+      "body": "Both excerpts make renewal part of their account, but their narrative forms differ. Do not turn these two texts into a single timeless Norse canon.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem",
+        "prose"
       ],
       "objectiveIds": [
-        "obj.ragnarok-fate.concept"
+        "obj.ragnarok-fate.source"
       ]
     }
   ],
@@ -118,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Why is Ragnar\u00f6k important?",
+      "prompt": "What does Völuspá 59 say happens to the earth?",
       "choices": [
         {
           "id": "a",
-          "text": "It frames divine power inside fate and ending"
+          "text": "It remains sunk beneath the sea"
         },
         {
           "id": "b",
-          "text": "It removes all monsters"
+          "text": "It is replaced by an untouched world with no prior catastrophe"
         },
         {
           "id": "c",
-          "text": "It guarantees safety"
-        },
-        {
-          "id": "d",
-          "text": "It is only a harvest tale"
+          "text": "It rises green again from the waves"
         }
       ],
-      "answerId": "a",
-      "explanation": "Ragnar\u00f6k gives Norse myth a tragic horizon: even gods move toward a known catastrophe rather than escaping consequence.",
+      "answerId": "c",
+      "explanation": "The stanza names renewal after the preceding catastrophe.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "poem"
       ],
       "objectiveIds": [
         "obj.ragnarok-fate.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "poem"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "According to Gylfaginning 58, which gods survive to see the renewed world?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Freyja and Frigg"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Vidar and Vale"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Thor and Loki"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "Snorri names Vidar and Vale in this answer; compare it with the poem's own prophecy.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "prose"
       ],
       "objectiveIds": [
         "obj.ragnarok-fate.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Explore the named source passage.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "What words in this excerpt support the answer?",
+          "Which details belong to this source rather than another version?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "prose"
         ]
       }
     }
@@ -211,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite with locally matched quotations. Independent line-by-line scholarly, translation, and pedagogy review remains pending."
   }
 }

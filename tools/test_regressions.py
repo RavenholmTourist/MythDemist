@@ -172,6 +172,23 @@ class RegressionTests(unittest.TestCase):
         self.assertNotIn('Chryses', ' '.join(choice['text'] for choice in apotheosis_check['choices']))
         self.assertIn('Iolaus', ' '.join(choice['text'] for choice in assessment[1]['question']['choices']))
 
+    def test_norse_starter_pack_has_passage_specific_evidence(self):
+        files = sorted((ROOT / 'content/lessons/norse').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertTrue(all(ref.get('evidenceType') == 'quotation' for ref in lesson['sourceReferences'].values()), lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            cards = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+            self.assertNotIn('starter lesson uses the local scaffold source', cards, lesson['id'])
+            self.assertNotIn('additional corpus record gives a second lens', cards, lesson['id'])
+            self.assertNotIn('What should you keep attached to this claim?', [item['prompt'] for item in lesson['quiz']])
+
 
 if __name__ == '__main__':
     unittest.main()

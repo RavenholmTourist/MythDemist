@@ -25,21 +25,21 @@
     },
     {
       "day": 3,
-      "title": "Susanoo: Storm and Reconciliation",
+      "title": "Susanoo: Disruption and Consequence",
       "status": "available",
       "lessonId": "japanese.week01.day03.susanoo-storm",
       "lessonPath": "content/lessons/japanese/kami/day-03-susanoo-storm.json"
     },
     {
       "day": 4,
-      "title": "Kami and Boundaries",
+      "title": "Urashima Taro: A Return Across Time",
       "status": "available",
       "lessonId": "japanese.week01.day04.kami-boundaries",
       "lessonPath": "content/lessons/japanese/kami/day-04-kami-boundaries.json"
     },
     {
       "day": 5,
-      "title": "Izanami: Creation and Boundary",
+      "title": "Izanami: Death and Separation",
       "status": "available",
       "lessonId": "japanese.week01.day05.izanami-boundary",
       "lessonPath": "content/lessons/japanese/kami/day-05-izanami-boundary.json"

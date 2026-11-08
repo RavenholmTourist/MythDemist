@@ -11,7 +11,7 @@
   "days": [
     {
       "day": 1,
-      "title": "Baba Yaga: Dangerous Helper",
+      "title": "Baba Yaga in Vasilissa the Fair",
       "lessonId": "sla.folklore.day01.baba-yaga",
       "lessonPath": "content/lessons/slavic/baba-yaga/day-01-baba-yaga.json",
       "status": "available"
@@ -32,14 +32,14 @@
     },
     {
       "day": 4,
-      "title": "The Water King: Boundaries and Bargains",
+      "title": "The Water King: Bargains and Impossible Tasks",
       "status": "available",
       "lessonId": "slavic.week01.day04.water-king-bargain",
       "lessonPath": "content/lessons/slavic/folklore/day-04-water-king-bargain.json"
     },
     {
       "day": 5,
-      "title": "The Firebird: Wonder and Quest",
+      "title": "The Firebird: A Chapbook Quest",
       "status": "available",
       "lessonId": "slavic.week01.day05.firebird-quest",
       "lessonPath": "content/lessons/slavic/folklore/day-05-firebird-quest.json"

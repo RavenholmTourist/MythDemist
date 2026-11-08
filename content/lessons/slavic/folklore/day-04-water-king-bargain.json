@@ -1,13 +1,13 @@
 {
   "id": "slavic.week01.day04.water-king-bargain",
-  "version": 1,
+  "version": 2,
   "weekId": "sla.folklore.week01",
   "pantheon": "slavic",
   "themeMode": "pantheon",
-  "title": "The Water King: Boundaries and Bargains",
-  "subtitle": "Supernatural power at the water\u2019s edge",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "The Water King: Bargains and Impossible Tasks",
+  "subtitle": "Supernatural power at the water’s edge",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "water-king",
     "bargain",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.water-king-bargain.concept",
-      "text": "Identify the main idea in The Water King: Boundaries and Bargains."
+      "text": "What is the Water King's first task for the prince?"
     },
     {
       "id": "obj.water-king-bargain.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How does Vasilissa help the prince complete the task?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "bridge": {
       "recordId": "pg-22373",
       "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales",
-      "author": "various collectors",
-      "translator": "W. R. S. Ralston",
-      "locator": "The Water King and Vasilissa the Wise",
+      "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, the crystal bridge task)",
+      "author": "W. R. S. Ralston",
+      "translator": "not applicable; Ralston writes in English",
+      "locator": "The Water King and Vasilissa the Wise, the crystal bridge task; local text normalized characters 235511-235775",
       "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "111 XVIII. THE WATER SNAKE 126 XIX. THE WATER KING AND VASILISSA THE WISE 130 XX. THE BABA YAGA 148 XXI. VASILISSA THE FAIR 158 XXII. THE WITCH",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "The Water King saw him, and said: \"Hail, friend! why have you been so long in coming to me? I have grown weary of waiting for you. Now set to work. Here is your first task. Build me in one night a great crystal bridge, so that it shall be ready for use to-morrow.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
     },
-    "ref-secondary": {
-      "recordId": "pg-48761",
-      "sourceId": "sla.folklore.sixty-slavonic-tales",
-      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
-      "author": "various collectors and storytellers",
-      "translator": "A. H. Wratislaw",
-      "locator": "Slavonic variants\u2014water and bargain motifs",
-      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
-      "excerpt": "ese imaginary beings are represented under the latter, and in No. 6 under the former aspect. _Two_ waters, one of death and the other of life, are found in the Bohemian stories, just as in the Russian ones--a point wherein the Slavonic tales regularly differ from those of Western Europe, which only acknowledge the water of life. As Mr. Ralston remarks ('Son",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "help": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, Vasilissa summons help)",
+      "author": "W. R. S. Ralston",
+      "translator": "not applicable; Ralston writes in English",
+      "locator": "The Water King and Vasilissa the Wise, Vasilissa summons help; local text normalized characters 237214-237887",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "Vasilissa the Wise opened her window and asked: \"What are you crying for, Prince?\" \"How can I help crying? Your father has ordered me to plant a garden in one night!\" \"That's nothing! lie down and sleep: the morning is wiser than the evening.\" She made him go to sleep, but she herself went out on the steps, called and whistled with a mighty whistle. From every side there ran together gardeners of all sorts, and they planted a garden green, and in the garden birds sang, on the trees flowers blossomed, from the boughs hung ripe apples and pears. Early in the morning Vasilissa the Wise awoke the Prince: \"Get up, Prince! the garden is ready: Papa is coming to see it.\"",
+      "evidenceType": "quotation",
+      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The Water King: Boundaries and Bargains",
-      "body": "Water beings mark dangerous boundaries where bargains, service, materials, and worlds can be exchanged.",
+      "title": "A favor becomes a debt",
+      "body": "In Ralston's tale, an eagle first asks the king to spare it and feed it. Years later, it carries him across the sea, where a promise leads the king's son into the Water King's service.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "bridge"
       ],
       "objectiveIds": [
         "obj.water-king-bargain.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The first task",
+      "body": "Source quotation (Ralston's English text; whitespace normalized): “The Water King saw him, and said: \"Hail, friend! why have you been so long in coming to me? I have grown weary of waiting for you. Now set to work. Here is your first task. Build me in one night a great crystal bridge, so that it shall be ready for use to-morrow.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "bridge"
       ],
       "objectiveIds": [
-        "obj.water-king-bargain.source"
+        "obj.water-king-bargain.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "Vasilissa answers the problem",
+      "body": "The prince despairs over the deadline. Vasilissa tells him to sleep, summons builders with a whistle, and the bridge is ready by morning.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "help"
       ],
       "objectiveIds": [
-        "obj.water-king-bargain.source"
+        "obj.water-king-bargain.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "A collected folktale, not a universal myth",
+      "body": "Ralston records a Russian folk tale with motifs that also occur elsewhere. The specific eagle, task, and Vasilissa episode belong to this version.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "bridge",
+        "help"
       ],
       "objectiveIds": [
         "obj.water-king-bargain.source"
@@ -103,11 +102,11 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "Bargains have consequences",
+      "body": "The tale connects a saved animal, a favor repaid, and an impossible task imposed on the king's son.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "bridge",
+        "help"
       ],
       "objectiveIds": [
         "obj.water-king-bargain.concept"
@@ -118,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does the water boundary create?",
+      "prompt": "What is the Water King's first task for the prince?",
       "choices": [
         {
           "id": "a",
-          "text": "A space for dangerous exchange"
+          "text": "Build a crystal bridge in one night"
         },
         {
           "id": "b",
-          "text": "A tax court"
+          "text": "Find Koschei's egg in the underworld"
         },
         {
           "id": "c",
-          "text": "A harvest dance"
-        },
-        {
-          "id": "d",
-          "text": "A writing school"
+          "text": "Keep watch for the Firebird until dawn"
         }
       ],
       "answerId": "a",
-      "explanation": "Water beings mark dangerous boundaries where bargains, service, materials, and worlds can be exchanged.",
+      "explanation": "The Water King sets a one-night deadline for the crystal bridge.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "bridge"
       ],
       "objectiveIds": [
         "obj.water-king-bargain.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "bridge"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How does Vasilissa help the prince complete the task?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "She asks the eagle to carry the bridge"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "She turns the Water King into a wolf"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "She summons builders while he rests"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "c",
+      "explanation": "The source says Vasilissa calls workers who build the bridge overnight.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "help"
       ],
       "objectiveIds": [
         "obj.water-king-bargain.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "help"
         ]
       }
     }
@@ -211,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claims, variants, and pedagogy still require review."
   }
 }

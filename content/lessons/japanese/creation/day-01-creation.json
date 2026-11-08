@@ -1,13 +1,13 @@
 {
   "id": "jpn.kami.day01.creation",
-  "version": 1,
+  "version": 2,
   "weekId": "jpn.kami.week01",
   "pantheon": "japanese",
   "themeMode": "pantheon",
   "title": "Izanagi and Izanami",
-  "subtitle": "Creation, descent, and separation",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "subtitle": "A creation retelling and its source frame",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "japanese",
     "izanagi",
@@ -17,46 +17,35 @@
   "learningObjectives": [
     {
       "id": "obj.creation.concept",
-      "text": "Identify the central source-grounded idea in Izanagi and Izanami."
+      "text": "What forms Onogoro in Rinder's retelling?"
     },
     {
       "id": "obj.creation.source",
-      "text": "Classify the cited source and its limits."
+      "text": "What kind of source is Old-World Japan?"
     }
   ],
   "sourceReferences": {
-    "ref-old-world-japan": {
+    "main": {
       "recordId": "pg-46863",
       "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan",
+      "work": "Old-World Japan: The creation episode in Old-World Japan",
       "author": "Frank Rinder",
       "translator": "Frank Rinder",
-      "locator": "Old-World Japan\u2014creation, Izanagi, and Izanami",
+      "locator": "The creation episode in Old-World Japan; local text normalized characters 6915-7386",
       "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "the great Shinto deities, of the creation of Japan and of the world, of the Orpheus-like descent of Izanagi to Hades, and of his subsequent fight with the demons. That Chinese civilisation has exercised a profound influence on that of Japan, cannot be doubted. A scholar of repute has indicated that evidence of this is to be found even in writings so early a",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Japanese Fairy Tales\u2014comparative popular tradition",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "Contents PREFACE JAPANESE FAIRY TALES MY LORD BAG OF RICE THE TONGUE-CUT SPARROW THE STORY OF URASHIMA TARO, THE FISHER LAD THE FARMER AND THE BADGER THE \u201cSHINANSHA,\u201d OR THE SOUTH POINTING CARRIAGE THE ADVENTURES OF KINTARO, THE GOLDEN BOY THE STORY OF PRINCESS HASE. A STORY OF OLD JAPAN THE STORY OF THE MAN WHO DID NOT WISH TO DIE THE BAMBOO-CUT",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess of the Clouds: \"There must needs be a kingdom beneath us, let us visit it.\" When he had so said, he plunged his jewelled spear into the seething mass below. The drops that fell from the point of the spear congealed and became the island of Onogoro.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Creation has an emotional arc",
-      "body": "Japanese creation traditions connect divine generation, loss, pollution, and separation rather than producing a tidy origin story.",
+      "title": "The scene",
+      "body": "Rinder's retelling opens with Izanagi and Izanami above an unformed world. Izanagi stirs the waters with a jeweled spear; drops from its point congeal as the island of Onogoro.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.creation.concept"
@@ -65,11 +54,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "A later retelling",
-      "body": "Old-World Japan retells Kojiki and Nihongi traditions for English readers. It is useful flavor, but primary references should be added next.",
+      "title": "The spear stirs the unformed world",
+      "body": "Source quotation (local English retelling; whitespace normalized): “Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess of the Clouds: \"There must needs be a kingdom beneath us, let us visit it.\" When he had so said, he plunged his jewelled spear into the seething mass below. The drops that fell from the point of the spear congealed and became the island of Onogoro.”",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.creation.concept"
@@ -77,25 +65,23 @@
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The source gives a literary creation scene, not a direct quotation from an ancient Japanese chronicle. Name Rinder's retelling when describing its details.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.creation.source"
+        "obj.creation.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the source boundary",
+      "body": "This local record is a modern English compilation by Frank Rinder, not a direct Kojiki translation. Use it for the story as retold in this book; seek the Kojiki text for claims about its wording.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.creation.source"
@@ -103,15 +89,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "Descent changes the world",
-      "body": "Izanagi\u2019s descent after Izanami turns creation into a story of grief, boundary, and impurity.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Track the sequence: divine pair, jeweled spear, drops, island. Do not turn this one retelling into the whole of Japanese creation tradition.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.creation.concept"
+        "obj.creation.source"
       ]
     }
   ],
@@ -119,86 +104,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does this starter lesson emphasize?",
+      "prompt": "What forms Onogoro in Rinder's retelling?",
       "choices": [
         {
           "id": "a",
-          "text": "Creation joined to loss and separation"
+          "text": "Drops falling from Izanagi's jeweled spear"
         },
         {
           "id": "b",
-          "text": "A Roman civil war"
+          "text": "A mirror thrown by Amaterasu"
         },
         {
           "id": "c",
-          "text": "A Russian witch"
-        },
-        {
-          "id": "d",
-          "text": "Welsh kingship"
+          "text": "A box carried home by Urashima"
         }
       ],
       "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "explanation": "The passage says the drops from the spear congeal into Onogoro.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.creation.source"
+        "obj.creation.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-old-world-japan",
-          "ref-secondary"
+          "main"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "How should Old-World Japan be classified here?",
+      "prompt": "What kind of source is Old-World Japan?",
       "choices": [
         {
           "id": "a",
-          "text": "As a later retelling"
+          "text": "A direct English translation of the Kojiki"
         },
         {
           "id": "b",
-          "text": "As the Kojiki itself"
+          "text": "A contemporary witness to the creation story"
         },
         {
           "id": "c",
-          "text": "As a modern video game"
-        },
-        {
-          "id": "d",
-          "text": "As Egyptian scripture"
+          "text": "A modern compilation and retelling"
         }
       ],
-      "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "answerId": "c",
+      "explanation": "The local record is Rinder's early-modern English-language retelling, not a translation presented as the Kojiki itself.",
       "sourceRefIds": [
-        "ref-old-world-japan",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.creation.source"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-old-world-japan",
-          "ref-secondary"
+          "main"
         ]
       }
     }
@@ -215,6 +188,6 @@
     "status": "draft",
     "reviewedBy": null,
     "reviewedAt": null,
-    "notes": "Structural scaffold only. Independent source, claim, locator, and pedagogy review is pending."
+    "notes": "Source-specific rewrite with verbatim local retellings. Independent source, community, and pedagogy review remains pending."
   }
 }

@@ -270,6 +270,52 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('Budge', thoth['sourceReferences']['budge']['note'])
         self.assertIn('what I abominate is sin.', thoth['sourceReferences']['hunefer']['excerpt'])
 
+    def test_japanese_starter_pack_distinguishes_retellings_and_folktale(self):
+        files = sorted((ROOT / 'content/lessons/japanese').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation')
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Onogoro', titles['Izanagi and Izanami'])
+        self.assertIn('Heavenly Rock Dwelling', titles['Amaterasu: Light and Withdrawal'])
+        self.assertIn('flayed with a backward flaying', titles['Susanoo: Disruption and Consequence'])
+        self.assertIn('folktale', titles['Urashima Taro: A Return Across Time'])
+        self.assertIn('Land of Gloom', titles['Izanami: Death and Separation'])
+        urashima = next(path for path in files if 'kami-boundaries' in path.name)
+        lesson = json.loads(urashima.read_text(encoding='utf-8'))
+        self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-4018'})
+
+    def test_slavic_starter_pack_uses_named_ralston_passages(self):
+        files = sorted((ROOT / 'content/lessons/slavic').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-22373'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation')
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            combined = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+            self.assertNotIn('starter lesson uses the local scaffold source', combined)
+            titles[lesson['title']] = combined
+        self.assertIn('Vasilissa the Fair', titles['Baba Yaga in Vasilissa the Fair'])
+        self.assertIn('egg', titles['Koschei: Hidden Death'])
+        self.assertIn('doll', titles['Vasilissa: Courage and Tasks'])
+        self.assertIn('crystal bridge', titles['The Water King: Bargains and Impossible Tasks'])
+        self.assertIn('chapbook', titles['The Firebird: A Chapbook Quest'])
+
 
 if __name__ == '__main__':
     unittest.main()

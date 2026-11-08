@@ -1,13 +1,13 @@
 {
   "id": "japanese.week01.day02.amaterasu-light",
-  "version": 1,
+  "version": 2,
   "weekId": "jpn.kami.week01",
   "pantheon": "japanese",
   "themeMode": "pantheon",
   "title": "Amaterasu: Light and Withdrawal",
-  "subtitle": "A world changed by retreat and return",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "subtitle": "An offense, a cave, and a staged return",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "amaterasu",
     "light",
@@ -16,46 +16,59 @@
   "learningObjectives": [
     {
       "id": "obj.amaterasu-light.concept",
-      "text": "Identify the main idea in Amaterasu: Light and Withdrawal."
+      "text": "What immediately precedes Amaterasu's withdrawal in this retelling?"
     },
     {
       "id": "obj.amaterasu-light.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How do the assembled gods draw Amaterasu out?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "offense": {
       "recordId": "pg-46863",
       "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan",
+      "work": "Old-World Japan: Old-World Japan, Susa-no-o's actions before Amaterasu withdraws",
       "author": "Frank Rinder",
       "translator": "Frank Rinder",
-      "locator": "Old-World Japan\u2014Amaterasu and divine light",
+      "locator": "Old-World Japan, Susa-no-o's actions before Amaterasu withdraws; local text normalized characters 14365-15621",
       "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "file was produced from images generously made available by The Internet Archive) *** START OF THE PROJECT GUTENBERG EBOOK OLD-WORLD JAPAN: LEGENDS OF THE LAND OF THE GODS *** Old-World Japan Legends of the Land of the Gods + + Re-told by Frank Rinder + With Illustrations by T. H. Robinson",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     },
-    "ref-secondary": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Japanese Fairy Tales\u2014supernatural order and restoration",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "for its prey! Now is the time to kill it.\u201d Hidesato looked where his host pointed, and, in the dim light of the starlit evening, behind the two balls of fire he saw the long body of an enormous centipede winding round the mountains, and the light in its hundred feet glowed like so many distant lanterns moving slowly towards the shore. Hidesato showed not t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "cave": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan: Old-World Japan, the Heavenly Rock Dwelling",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan, the Heavenly Rock Dwelling; local text normalized characters 15621-15888",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "Ama-terasu, trembling at the horrible sight, pricked her finger with the weaving shuttle, and, profoundly indignant at the cruelty of her brother, withdrew into a cave and closed behind her the door of the Heavenly Rock Dwelling. The universe was plunged in darkness.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
+    },
+    "festival": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan: Old-World Japan, Uzume's dance and Amaterasu's return",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan, Uzume's dance and Amaterasu's return; local text normalized characters 17525-19114",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "The great festival began. Uzume, the goddess of mirth, led the dance and song. Leaves of the spindle tree crowned her head; club-moss, from the heavenly mount Kagu, formed her sash; her flowing sleeves were bound with the creeper-vine; and in her hand she carried leaves of the wild bamboo and waved a wand of sun-grass hung with tiny melodious bells. Uzume blew on a bamboo flute, while the eight hundred myriad deities accompanied her on wooden clappers and instruments formed of bow-strings, across which were rapidly drawn stalks of reed and grass. Great fires were lighted around the cave, and, as these were reflected in the face of the mirror, \"the long-singing birds of eternal night\" began to crow as if the day dawned. The merriment increased. The dance grew wilder and wilder, and the gods laughed until the heavens shook as if with thunder. Ama-terasu, in her quiet retreat, heard, unmoved, the crowing of the cocks and the sounds of music and dancing, but when the heavens shook with the laughter of the gods, she peeped from her cave and said: \"What means this? I thought heaven and earth were dark, but now there is light. Uzume dances and all the gods laugh.\" Uzume answered: \"It is true that I dance and that the gods laugh, because in our midst is a goddess whose splendour equals your own. Behold!\" Ama-terasu gazed into the mirror, and wondered greatly when she saw therein a goddess of exceeding beauty. She stepped from her cave and forthwith a cord of rice-straw was drawn across the entrance. Darkness fled from the Central Land of Reed-Plains, and there was light.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Amaterasu: Light and Withdrawal",
-      "body": "Amaterasu\u2019s withdrawal plunges the world into crisis, showing how divine presence and social order depend on return.",
+      "title": "The scene",
+      "body": "Rinder's retelling says Susa-no-o's destructive behavior culminates in a flayed colt frightening Amaterasu while she weaves. She withdraws into the Heavenly Rock Dwelling, and the world grows dark.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense"
       ],
       "objectiveIds": [
         "obj.amaterasu-light.concept"
@@ -64,37 +77,38 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The retreat darkens the world",
+      "body": "Source quotation (local English retelling; whitespace normalized): “Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense"
       ],
       "objectiveIds": [
-        "obj.amaterasu-light.source"
+        "obj.amaterasu-light.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The account links an offense in the heavenly household to darkness beyond it. It then describes the gods using music, dance, and a mirror to draw Amaterasu out.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense",
+        "cave",
+        "festival"
       ],
       "objectiveIds": [
-        "obj.amaterasu-light.source"
+        "obj.amaterasu-light.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the source boundary",
+      "body": "Keep the sequence attached to Rinder's modern retelling. Do not claim that every Japanese version gives the same details or the same ritual practice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense",
+        "cave",
+        "festival"
       ],
       "objectiveIds": [
         "obj.amaterasu-light.source"
@@ -102,15 +116,16 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Notice how the cave episode makes light depend on a social response by the assembled deities, not on force alone.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense",
+        "cave",
+        "festival"
       ],
       "objectiveIds": [
-        "obj.amaterasu-light.concept"
+        "obj.amaterasu-light.source"
       ]
     }
   ],
@@ -118,85 +133,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What crisis follows Amaterasu\u2019s withdrawal?",
+      "prompt": "What immediately precedes Amaterasu's withdrawal in this retelling?",
       "choices": [
         {
           "id": "a",
-          "text": "Loss of light and order"
+          "text": "Urashima opening a forbidden box"
         },
         {
           "id": "b",
-          "text": "A Roman war"
+          "text": "Izanagi plunging the spear into the sea"
         },
         {
           "id": "c",
-          "text": "A flood only"
-        },
-        {
-          "id": "d",
-          "text": "A tax dispute"
+          "text": "Susa-no-o's violent act in the weaving hall"
         }
       ],
-      "answerId": "a",
-      "explanation": "Amaterasu\u2019s withdrawal plunges the world into crisis, showing how divine presence and social order depend on return.",
+      "answerId": "c",
+      "explanation": "Rinder says the sight of the flayed colt shocks Amaterasu, who retreats into the cave.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "offense"
       ],
       "objectiveIds": [
         "obj.amaterasu-light.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "offense"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How do the assembled gods draw Amaterasu out?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "They ask Urashima to carry a message"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "They hold a noisy festival, and she looks toward the mirror"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "They break down the cave by force"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The passage describes Uzume's dance and a mirror whose reflection catches Amaterasu's attention.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "festival"
       ],
       "objectiveIds": [
         "obj.amaterasu-light.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "festival"
         ]
       }
     }
@@ -211,8 +215,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local retellings. Independent source, community, and pedagogy review remains pending."
   }
 }

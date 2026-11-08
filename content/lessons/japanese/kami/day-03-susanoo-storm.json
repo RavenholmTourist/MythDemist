@@ -1,13 +1,13 @@
 {
   "id": "japanese.week01.day03.susanoo-storm",
-  "version": 1,
+  "version": 2,
   "weekId": "jpn.kami.week01",
   "pantheon": "japanese",
   "themeMode": "pantheon",
-  "title": "Susanoo: Storm and Reconciliation",
-  "subtitle": "Disorder turned toward protection",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Susanoo: Disruption and Consequence",
+  "subtitle": "A disruptive brother and the cave episode",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "susanoo",
     "storm",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.susanoo-storm.concept",
-      "text": "Identify the main idea in Susanoo: Storm and Reconciliation."
+      "text": "What happens to the fields as Susanoo weeps in this retelling?"
     },
     {
       "id": "obj.susanoo-storm.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What wider consequence follows Amaterasu's withdrawal?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "disruption": {
       "recordId": "pg-46863",
       "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan",
+      "work": "Old-World Japan: Old-World Japan, Susanoo's destructive conduct",
       "author": "Frank Rinder",
       "translator": "Frank Rinder",
-      "locator": "Old-World Japan\u2014Susanoo and the storm figure",
+      "locator": "Old-World Japan, Susanoo's destructive conduct; local text normalized characters 14365-15621",
       "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "file was produced from images generously made available by The Internet Archive) *** START OF THE PROJECT GUTENBERG EBOOK OLD-WORLD JAPAN: LEGENDS OF THE LAND OF THE GODS *** Old-World Japan Legends of the Land of the Gods + + Re-told by Frank Rinder + With Illustrations by T. H. Robinson",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     },
-    "ref-secondary": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Japanese Fairy Tales\u2014comparative supernatural trials",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "iwa. No sooner had he set foot on the bridge than he saw lying right across his path a huge serpent-dragon. Its body was so big that it looked like the trunk of a large pine tree and it took up the whole width of the bridge. One of its huge claws rested on the parapet of one side of the bridge, while its tail lay right against the other. The monster seemed t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "withdrawal": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan: Old-World Japan, Amaterasu withdraws",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan, Amaterasu withdraws; local text normalized characters 15621-15888",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "Ama-terasu, trembling at the horrible sight, pricked her finger with the weaving shuttle, and, profoundly indignant at the cruelty of her brother, withdrew into a cave and closed behind her the door of the Heavenly Rock Dwelling. The universe was plunged in darkness.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Susanoo: Storm and Reconciliation",
-      "body": "Susanoo\u2019s behavior begins in disruption but also moves toward heroic confrontation and restored balance.",
+      "title": "The scene",
+      "body": "In Rinder's retelling, Susanoo's actions damage the fields and culminate in violence at Amaterasu's weaving hall. She withdraws into the cave, and darkness spreads.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption"
       ],
       "objectiveIds": [
         "obj.susanoo-storm.concept"
@@ -64,37 +65,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Susanoo's conduct has consequences",
+      "body": "Source quotation (local English retelling; whitespace normalized): “Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption"
       ],
       "objectiveIds": [
-        "obj.susanoo-storm.source"
+        "obj.susanoo-storm.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "This passage makes a family conflict matter beyond the family: Amaterasu's withdrawal changes the world's light. Keep it distinct from other Susanoo episodes and later retellings.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption",
+        "withdrawal"
       ],
       "objectiveIds": [
-        "obj.susanoo-storm.source"
+        "obj.susanoo-storm.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the source boundary",
+      "body": "The citation is Rinder's modern compilation of Japanese mythic traditions. It supports claims about this retelling, not every account of Susanoo or all Japanese religious practice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption",
+        "withdrawal"
       ],
       "objectiveIds": [
         "obj.susanoo-storm.source"
@@ -102,15 +102,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Follow the consequence chain from the damaged fields to the weaving-hall offense and Amaterasu's withdrawal.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption",
+        "withdrawal"
       ],
       "objectiveIds": [
-        "obj.susanoo-storm.concept"
+        "obj.susanoo-storm.source"
       ]
     }
   ],
@@ -118,85 +118,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Susanoo\u2019s arc allow?",
+      "prompt": "What happens to the fields as Susanoo weeps in this retelling?",
       "choices": [
         {
           "id": "a",
-          "text": "Disorder moving toward protection"
+          "text": "They turn into a palace for Amaterasu"
         },
         {
           "id": "b",
-          "text": "Pure silence"
+          "text": "The grass withers, flowers are blighted, and crops are damaged"
         },
         {
           "id": "c",
-          "text": "Only farming"
-        },
-        {
-          "id": "d",
-          "text": "Only trade"
+          "text": "They become a sea of rice overnight"
         }
       ],
-      "answerId": "a",
-      "explanation": "Susanoo\u2019s behavior begins in disruption but also moves toward heroic confrontation and restored balance.",
+      "answerId": "b",
+      "explanation": "Rinder describes the grass withering, flowers blighting, and rice crops being destroyed.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "disruption"
       ],
       "objectiveIds": [
         "obj.susanoo-storm.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "disruption"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What wider consequence follows Amaterasu's withdrawal?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "The world is plunged into darkness"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "The Dragon King's palace sinks into the sea"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "The island of Onogoro disappears"
         }
       ],
       "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "explanation": "The cited passage says darkness spreads after she closes the cave.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "withdrawal"
       ],
       "objectiveIds": [
         "obj.susanoo-storm.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "withdrawal"
         ]
       }
     }
@@ -211,8 +200,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local retellings. Independent source, community, and pedagogy review remains pending."
   }
 }

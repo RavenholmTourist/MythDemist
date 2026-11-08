@@ -1,13 +1,13 @@
 {
   "id": "japanese.week01.day05.izanami-boundary",
-  "version": 1,
+  "version": 2,
   "weekId": "jpn.kami.week01",
   "pantheon": "japanese",
   "themeMode": "pantheon",
-  "title": "Izanami: Creation and Boundary",
-  "subtitle": "Birth, death, and separation",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Izanami: Death and Separation",
+  "subtitle": "A return from the underworld is refused",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "izanami",
     "creation",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.izanami-boundary.concept",
-      "text": "Identify the main idea in Izanami: Creation and Boundary."
+      "text": "Why does Izanami say she cannot return to earth?"
     },
     {
       "id": "obj.izanami-boundary.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How does Izanagi escape the underworld guardians?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "yomi": {
       "recordId": "pg-46863",
       "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan",
+      "work": "Old-World Japan: Old-World Japan, Izanagi finds Izanami in the underworld",
       "author": "Frank Rinder",
       "translator": "Frank Rinder",
-      "locator": "Old-World Japan\u2014Izanami, death, and the underworld",
+      "locator": "Old-World Japan, Izanagi finds Izanami in the underworld; local text normalized characters 12540-13428",
       "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "th. These two beings were the powerful God of the Air, Izanagi, and the fair Goddess of the Clouds, Izanami. From them sprang all life. Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess o",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Japanese Fairy Tales\u2014return and supernatural boundaries",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "t Hidesato insisted on going home, saying that he had now finished what he had come to do, and must return. The Dragon King and his family were all very sorry to have him leave so soon, but since he would go they begged him to accept a few small presents (so they said) in token of their gratitude to him for delivering them forever from their horrible enemy t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "he gazed intently into her eyes ere he could recognise her. Izanami was angry that Izanagi had not listened to her commands, for she knew how fruitless would be his efforts. Without the sanction of the ruler of the under-world, she could not return to earth, and this consent she had tried in vain to obtain. Izanagi, hard pressed by the eight monsters who guard the Land of Gloom, had to flee for his life. He defended himself valiantly with his sword; then he threw down his head-dress, and it was transformed into bunches of purple grapes; he also cast behind him the comb, by means of which he had obtained light, and from it sprang tender shoots of bamboo. While the monsters eagerly devoured the luscious grapes and tender shoots, Izanagi gained the broad flight of steps which led back to earth. At the top he paused and cried to Izanami: \"All hope of our reunion is now at an end.",
+      "evidenceType": "quotation",
+      "note": "Rinder's modern retelling, not a direct Kojiki translation."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Izanami: Creation and Boundary",
-      "body": "Izanami\u2019s death transforms creative partnership into the boundary between living and dead worlds.",
+      "title": "The scene",
+      "body": "Rinder's retelling has Izanagi find Izanami in the underworld, changed and unable to return without the ruler's sanction. He flees, distracting the guardians with grapes and bamboo; then he declares their separation eternal.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
         "obj.izanami-boundary.concept"
@@ -64,37 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The failed return",
+      "body": "Source quotation (local English retelling; whitespace normalized): “he gazed intently into her eyes ere he could recognise her. Izanami was angry that Izanagi had not listened to her commands, for she knew how fruitless would be his efforts. Without the sanction of the ruler of the under-world, she could not return to earth, and this consent she had tried in vain to obtain. Izanagi, hard pressed by the eight monsters who guard the Land of Gloom, had to flee for his life. He defended himself valiantly with his sword; then he threw down his head-dress, and it was transformed into bunches of purple grapes; he also cast behind him the comb, by means of which he had obtained light, and from it sprang tender shoots of bamboo. While the monsters eagerly devoured the luscious grapes and tender shoots, Izanagi gained the broad flight of steps which led back to earth. At the top he paused and cried to Izanami: \"”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
-        "obj.izanami-boundary.source"
+        "obj.izanami-boundary.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The story sets a boundary between the living and the dead through a failed attempt at reunion. This is Rinder's retelling, not a transcript of one fixed Japanese doctrine.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
-        "obj.izanami-boundary.source"
+        "obj.izanami-boundary.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the source boundary",
+      "body": "Read the underworld episode as a narrative in a modern compilation. Keep the translator's choices, names, and story sequence attached to it.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
         "obj.izanami-boundary.source"
@@ -102,15 +88,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Compare this attempted return with Urashima's return: distinct stories, distinct source genres, and different consequences.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
-        "obj.izanami-boundary.concept"
+        "obj.izanami-boundary.source"
       ]
     }
   ],
@@ -118,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What changes after Izanami\u2019s death?",
+      "prompt": "Why does Izanami say she cannot return to earth?",
       "choices": [
         {
           "id": "a",
-          "text": "A boundary between living and dead"
+          "text": "Izanagi has opened Urashima's box"
         },
         {
           "id": "b",
-          "text": "A royal census"
+          "text": "The heavenly bridge has disappeared"
         },
         {
           "id": "c",
-          "text": "A sea treaty"
-        },
-        {
-          "id": "d",
-          "text": "A writing system"
+          "text": "She has not received the underworld ruler's consent"
         }
       ],
-      "answerId": "a",
-      "explanation": "Izanami\u2019s death transforms creative partnership into the boundary between living and dead worlds.",
+      "answerId": "c",
+      "explanation": "The retelling says Izanami tried in vain to obtain the ruler's sanction.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
         "obj.izanami-boundary.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "yomi"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How does Izanagi escape the underworld guardians?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "He asks Susanoo to carry him"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "He throws grapes and bamboo behind him, distracting them"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "He bargains with the Dragon King"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The passage says the guardians chase him while he scatters food and plants behind him.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "yomi"
       ],
       "objectiveIds": [
         "obj.izanami-boundary.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local version.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "What does this retelling not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "yomi"
         ]
       }
     }
@@ -211,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local retellings. Independent source, community, and pedagogy review remains pending."
   }
 }

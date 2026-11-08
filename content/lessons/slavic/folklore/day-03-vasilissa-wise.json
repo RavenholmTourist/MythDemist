@@ -1,13 +1,13 @@
 {
   "id": "slavic.week01.day03.vasilissa-wise",
-  "version": 1,
+  "version": 2,
   "weekId": "sla.folklore.week01",
   "pantheon": "slavic",
   "themeMode": "pantheon",
   "title": "Vasilissa: Courage and Tasks",
   "subtitle": "Heroism through service and judgment",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "vasilissa",
     "tasks",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.vasilissa-wise.concept",
-      "text": "Identify the main idea in Vasilissa: Courage and Tasks."
+      "text": "What does Vasilissa's mother tell her to do with the doll?"
     },
     {
       "id": "obj.vasilissa-wise.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What task does the doll complete at Baba Yaga's house?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "doll": {
       "recordId": "pg-22373",
       "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales",
-      "author": "various collectors",
-      "translator": "W. R. S. Ralston",
-      "locator": "Vasilissa tales\u2014tasks and judgment",
+      "work": "Russian Fairy Tales (Vasilissa the Fair, her mother's instructions)",
+      "author": "W. R. S. Ralston",
+      "translator": "not applicable; Ralston writes in English",
+      "locator": "Vasilissa the Fair, her mother's instructions; local text normalized characters 275814-276113",
       "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "XVIII. THE WATER SNAKE 126 XIX. THE WATER KING AND VASILISSA THE WISE 130 XX. THE BABA YAGA 148 XXI. VASILISSA THE FAIR 158 XXII. THE WITCH 171",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Listen, Vasilissa, dear; remember and obey these last words of mine. I am going to die. And now, together with my parental blessing, I bequeath to you this doll. Keep it always by you, and never show it to anybody; and whenever any misfortune comes upon you, give the doll food, and ask its advice.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
     },
-    "ref-secondary": {
-      "recordId": "pg-48761",
-      "sourceId": "sla.folklore.sixty-slavonic-tales",
-      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
-      "author": "various collectors and storytellers",
-      "translator": "A. H. Wratislaw",
-      "locator": "Slavonic variants\u2014Vasilissa-type heroines",
-      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
-      "excerpt": "* * * * With the above story should be compared that of 'The Water King, and Vasilissa the Wise' (Ralston, p. 120). A large number of tales that may also be compared with it are mentioned by Mr. Ralston in pp. 132-133 of his Russian Folk-tales. As to the interpretation of 'Prince Unexpected,' it is very tempting to look upon Kostchey's",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "task": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales (Vasilissa the Fair, the doll completes the work)",
+      "author": "W. R. S. Ralston",
+      "translator": "not applicable; Ralston writes in English",
+      "locator": "Vasilissa the Fair, the doll completes the work; local text normalized characters 285591-286315",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "The doll had cleared the wheat to the very last grain. \"Ah, my preserver!\" cried Vasilissa, \"you've saved me from danger!\" \"All you've got to do now is to cook the dinner,\" answered the doll, slipping into Vasilissa's pocket. \"Cook away, in God's name, and then take some rest for your health's sake!\" Towards evening Vasilissa got the table ready, and awaited the Baba Yaga. It began to grow dusky; the black rider appeared for a moment at the gate, and all grew dark. Only the eyes of the skulls sent forth their light. The trees began to crack, the leaves began to rustle, up drove the Baba Yaga. Vasilissa went out to meet her. \"Is everything done?\" asks the Yaga. \"Please to look for yourself, granny!\" says Vasilissa.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Vasilissa: Courage and Tasks",
-      "body": "Vasilissa\u2019s trials turn obedience, discernment, and courage into a different heroic pattern from open combat.",
+      "title": "A gift with instructions",
+      "body": "Before she dies, Vasilissa's mother gives her a doll and tells her to feed it and ask for counsel when trouble comes.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "doll"
       ],
       "objectiveIds": [
         "obj.vasilissa-wise.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The mother's instructions",
+      "body": "Source quotation (Ralston's English text; whitespace normalized): “Listen, Vasilissa, dear; remember and obey these last words of mine. I am going to die. And now, together with my parental blessing, I bequeath to you this doll. Keep it always by you, and never show it to anybody; and whenever any misfortune comes upon you, give the doll food, and ask its advice.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "doll"
       ],
       "objectiveIds": [
-        "obj.vasilissa-wise.source"
+        "obj.vasilissa-wise.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "The work is done",
+      "body": "At Baba Yaga's house, Vasilissa fears she will fail. The doll clears the wheat while she rests, allowing her to face the morning inspection.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "task"
       ],
       "objectiveIds": [
-        "obj.vasilissa-wise.source"
+        "obj.vasilissa-wise.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Stay with this collected tale",
+      "body": "Ralston presents this as Vasilissa the Fair, a Russian folktale. Do not turn one tale's doll into evidence of a universal Slavic household ritual.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "doll",
+        "task"
       ],
       "objectiveIds": [
         "obj.vasilissa-wise.source"
@@ -103,11 +102,11 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "Help is relational",
+      "body": "The doll's help follows Vasilissa's care and her mother's instruction; the tale connects survival with attention and trust.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "doll",
+        "task"
       ],
       "objectiveIds": [
         "obj.vasilissa-wise.concept"
@@ -118,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What helps Vasilissa survive?",
+      "prompt": "What does Vasilissa's mother tell her to do with the doll?",
       "choices": [
         {
           "id": "a",
-          "text": "Courage, aid, and discernment"
+          "text": "Trade it to Baba Yaga for a horse"
         },
         {
           "id": "b",
-          "text": "Only royal blood"
+          "text": "Feed it and ask its advice when misfortune comes"
         },
         {
           "id": "c",
-          "text": "Only weapons"
-        },
-        {
-          "id": "d",
-          "text": "Only wealth"
+          "text": "Hide it from every family member and never use it"
         }
       ],
-      "answerId": "a",
-      "explanation": "Vasilissa\u2019s trials turn obedience, discernment, and courage into a different heroic pattern from open combat.",
+      "answerId": "b",
+      "explanation": "The mother's instruction explicitly links feeding the doll with asking its advice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "doll"
       ],
       "objectiveIds": [
         "obj.vasilissa-wise.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "doll"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What task does the doll complete at Baba Yaga's house?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Clearing the wheat"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Building the Water King's bridge"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Finding Koschei's hidden egg"
         }
       ],
       "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "explanation": "The source says Vasilissa finds the wheat cleared after the doll helps her.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "task"
       ],
       "objectiveIds": [
         "obj.vasilissa-wise.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "task"
         ]
       }
     }
@@ -211,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claims, variants, and pedagogy still require review."
   }
 }

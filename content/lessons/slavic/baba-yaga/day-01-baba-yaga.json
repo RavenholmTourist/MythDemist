@@ -1,13 +1,13 @@
 {
   "id": "sla.folklore.day01.baba-yaga",
-  "version": 1,
+  "version": 2,
   "weekId": "sla.folklore.week01",
   "pantheon": "slavic",
   "themeMode": "pantheon",
-  "title": "Baba Yaga: Dangerous Helper",
+  "title": "Baba Yaga in Vasilissa the Fair",
   "subtitle": "Ambiguous power in Slavic folklore",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "slavic",
     "baba-yaga",
@@ -17,46 +17,35 @@
   "learningObjectives": [
     {
       "id": "obj.baba-yaga.concept",
-      "text": "Identify the central source-grounded idea in Baba Yaga: Dangerous Helper."
+      "text": "What does the doll do for Vasilissa while Baba Yaga is away?"
     },
     {
       "id": "obj.baba-yaga.source",
-      "text": "Classify the cited source and its limits."
+      "text": "What kind of evidence is this episode?"
     }
   ],
   "sourceReferences": {
-    "ref-russian-tales": {
+    "scene": {
       "recordId": "pg-22373",
       "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales",
-      "author": "various collectors",
-      "translator": "W. R. S. Ralston",
-      "locator": "Russian Fairy Tales\u2014The Baba Yaga",
+      "work": "Russian Fairy Tales (Vasilissa the Fair, Baba Yaga's daily routine)",
+      "author": "W. R. S. Ralston",
+      "translator": "not applicable; Ralston writes in English",
+      "locator": "Vasilissa the Fair, Baba Yaga's daily routine; local text normalized characters 285045-285560",
       "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "s on Bluebeard's Chamber; 4. The Water King or Subaqueous Demon--Female Embodiments of Evil: 1. The Baba Yaga or Hag, and 2. The Witch, feminine counterparts of the Snake 75 CHAPTER III. MYTHOLOGICAL. _Miscellaneous Impersonations._ One-eyed Likho, a story of the Polyphemus Cycle--Woe, the Po",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
-      "recordId": "pg-48761",
-      "sourceId": "sla.folklore.sixty-slavonic-tales",
-      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
-      "author": "various collectors and storytellers",
-      "translator": "A. H. Wratislaw",
-      "locator": "Slavonic variants\u2014witch and helper figures",
-      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
-      "excerpt": "as of pure lead; round it flew the twelve ravens, and in front of it stood an old woman--it was Jezibaba[2]--leaning on a long leaden staff. 'Ah, my son! whither have you come? Here there is neither bird nor insect to be seen, much less a human being,' said Jezibaba to the prince. 'Flee, if life is dear to you; for, if my son comes, he will devour you.' 'Ah!",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "The Baba Yaga went out into the courtyard and whistled--before her appeared a mortar with a pestle and a broom. The red horseman appeared--the sun rose. The Baba Yaga seated herself in the mortar, and drove out of the courtyard, shooting herself along with the pestle, sweeping away her traces with the broom. Vasilissa was left alone, so she examined the Baba Yaga's house, wondered at the abundance there was in everything, and remained lost in thought as to which work she ought to take to first. She looked up;",
+      "evidenceType": "quotation",
+      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Not simply evil",
-      "body": "Baba Yaga can threaten, test, guide, or aid a hero. Her ambiguity makes her more interesting than a simple villain.",
+      "title": "At Baba Yaga's house",
+      "body": "In Ralston's Vasilissa the Fair, the witch leaves the girl with difficult work. The scene makes the household itself a test.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
         "obj.baba-yaga.concept"
@@ -65,11 +54,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Folklore, not scripture",
-      "body": "Ralston\u2019s collection gathers Russian folk tales from nineteenth-century collections. These are living story traditions, not a fixed pantheon.",
+      "title": "The task is tested at dawn",
+      "body": "Source quotation (Ralston's English text; whitespace normalized): “The Baba Yaga went out into the courtyard and whistled--before her appeared a mortar with a pestle and a broom. The red horseman appeared--the sun rose. The Baba Yaga seated herself in the mortar, and drove out of the courtyard, shooting herself along with the pestle, sweeping away her traces with the broom. Vasilissa was left alone, so she examined the Baba Yaga's house, wondered at the abundance there was in everything, and remained lost in thought as to which work she ought to take to first. She looked up;”",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
         "obj.baba-yaga.concept"
@@ -77,25 +65,23 @@
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Threat and help coexist",
+      "body": "Vasilissa is frightened by Baba Yaga, but an enchanted doll helps her meet the demands. Avoid reducing this tale's figure to a universal villain type.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
-        "obj.baba-yaga.source"
+        "obj.baba-yaga.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Name the collector and tale",
+      "body": "Ralston's Russian Fairy Tales is a nineteenth-century collection and interpretation of stories; this scene is one recorded version, not a scripture or pan-Slavic canon.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
         "obj.baba-yaga.source"
@@ -103,15 +89,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The helper can be dangerous",
-      "body": "Slavic tales often test the hero through beings whose help and threat are inseparable.",
+      "kind": "flavor",
+      "title": "An uneasy helper",
+      "body": "The tale leaves Vasilissa with a dangerous household and help that depends on her following her mother's instructions.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
-        "obj.baba-yaga.concept"
+        "obj.baba-yaga.source"
       ]
     }
   ],
@@ -119,86 +104,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How is Baba Yaga best introduced?",
+      "prompt": "What does the doll do for Vasilissa while Baba Yaga is away?",
       "choices": [
         {
           "id": "a",
-          "text": "As an ambiguous power who can threaten or help"
+          "text": "Completes the wheat-clearing task"
         },
         {
           "id": "b",
-          "text": "As an Olympian god"
+          "text": "Hides Baba Yaga's mortar"
         },
         {
           "id": "c",
-          "text": "As a Roman emperor"
-        },
-        {
-          "id": "d",
-          "text": "As an Egyptian pyramid"
+          "text": "Turns the house into a palace"
         }
       ],
       "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "explanation": "The cited passage says Vasilissa finds the work completed and credits her doll.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
-        "obj.baba-yaga.source"
+        "obj.baba-yaga.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-russian-tales",
-          "ref-secondary"
+          "scene"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What kind of evidence is Ralston\u2019s collection?",
+      "prompt": "What kind of evidence is this episode?",
       "choices": [
         {
           "id": "a",
-          "text": "A collection of folk tales"
+          "text": "A law code used by every Slavic community"
         },
         {
           "id": "b",
-          "text": "A royal chronicle"
+          "text": "A contemporary eyewitness report"
         },
         {
           "id": "c",
-          "text": "A scientific treatise"
-        },
-        {
-          "id": "d",
-          "text": "A Roman poem"
+          "text": "A Russian folktale recorded and translated by Ralston"
         }
       ],
-      "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "answerId": "c",
+      "explanation": "The source is a nineteenth-century folklore collection, not an eyewitness record or universal canon.",
       "sourceRefIds": [
-        "ref-russian-tales",
-        "ref-secondary"
+        "scene"
       ],
       "objectiveIds": [
         "obj.baba-yaga.source"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the named folktale passage.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "Is this Ralston's translation, summary, or editorial comparison?"
         ],
         "sourceRefIds": [
-          "ref-russian-tales",
-          "ref-secondary"
+          "scene"
         ]
       }
     }
@@ -215,6 +188,6 @@
     "status": "draft",
     "reviewedBy": null,
     "reviewedAt": null,
-    "notes": "Structural scaffold only. Independent source, claim, locator, and pedagogy review is pending."
+    "notes": "Source-specific editorial rewrite; independent claims, variants, and pedagogy still require review."
   }
 }

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T22:44:24.974118+00:00",
+  "generatedAt": "2026-11-08T23:30:51.365329+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -4174,9 +4174,9 @@
     },
     {
       "id": "sla.folklore.day01.baba-yaga",
-      "version": 1,
+      "version": 2,
       "pantheon": "slavic",
-      "title": "Baba Yaga: Dangerous Helper",
+      "title": "Baba Yaga in Vasilissa the Fair",
       "weekId": "sla.folklore.week01",
       "tags": [
         "slavic",
@@ -4184,15 +4184,14 @@
         "folklore",
         "witches"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/slavic/baba-yaga/day-01-baba-yaga.json",
       "objectiveIds": [
         "obj.baba-yaga.concept",
         "obj.baba-yaga.source"
       ],
       "recordIds": [
-        "pg-22373",
-        "pg-48761"
+        "pg-22373"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4212,7 +4211,7 @@
     },
     {
       "id": "slavic.week01.day02.koschei-hidden-death",
-      "version": 1,
+      "version": 2,
       "pantheon": "slavic",
       "title": "Koschei: Hidden Death",
       "weekId": "sla.folklore.week01",
@@ -4221,15 +4220,14 @@
         "death",
         "folklore"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-02-koschei-hidden-death.json",
       "objectiveIds": [
         "obj.koschei-hidden-death.concept",
         "obj.koschei-hidden-death.source"
       ],
       "recordIds": [
-        "pg-22373",
-        "pg-48761"
+        "pg-22373"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4247,7 +4245,7 @@
     },
     {
       "id": "slavic.week01.day03.vasilissa-wise",
-      "version": 1,
+      "version": 2,
       "pantheon": "slavic",
       "title": "Vasilissa: Courage and Tasks",
       "weekId": "sla.folklore.week01",
@@ -4256,15 +4254,14 @@
         "tasks",
         "courage"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-03-vasilissa-wise.json",
       "objectiveIds": [
         "obj.vasilissa-wise.concept",
         "obj.vasilissa-wise.source"
       ],
       "recordIds": [
-        "pg-22373",
-        "pg-48761"
+        "pg-22373"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4282,24 +4279,23 @@
     },
     {
       "id": "slavic.week01.day04.water-king-bargain",
-      "version": 1,
+      "version": 2,
       "pantheon": "slavic",
-      "title": "The Water King: Boundaries and Bargains",
+      "title": "The Water King: Bargains and Impossible Tasks",
       "weekId": "sla.folklore.week01",
       "tags": [
         "water-king",
         "bargain",
         "boundary"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-04-water-king-bargain.json",
       "objectiveIds": [
         "obj.water-king-bargain.concept",
         "obj.water-king-bargain.source"
       ],
       "recordIds": [
-        "pg-22373",
-        "pg-48761"
+        "pg-22373"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4317,24 +4313,23 @@
     },
     {
       "id": "slavic.week01.day05.firebird-quest",
-      "version": 1,
+      "version": 2,
       "pantheon": "slavic",
-      "title": "The Firebird: Wonder and Quest",
+      "title": "The Firebird: A Chapbook Quest",
       "weekId": "sla.folklore.week01",
       "tags": [
         "firebird",
         "quest",
         "wonder"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-05-firebird-quest.json",
       "objectiveIds": [
         "obj.firebird-quest.concept",
         "obj.firebird-quest.source"
       ],
       "recordIds": [
-        "pg-22373",
-        "pg-48761"
+        "pg-22373"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4352,7 +4347,7 @@
     },
     {
       "id": "jpn.kami.day01.creation",
-      "version": 1,
+      "version": 2,
       "pantheon": "japanese",
       "title": "Izanagi and Izanami",
       "weekId": "jpn.kami.week01",
@@ -4362,14 +4357,13 @@
         "izanami",
         "creation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/japanese/creation/day-01-creation.json",
       "objectiveIds": [
         "obj.creation.concept",
         "obj.creation.source"
       ],
       "recordIds": [
-        "pg-4018",
         "pg-46863"
       ],
       "rewardArtId": null,
@@ -4390,7 +4384,7 @@
     },
     {
       "id": "japanese.week01.day02.amaterasu-light",
-      "version": 1,
+      "version": 2,
       "pantheon": "japanese",
       "title": "Amaterasu: Light and Withdrawal",
       "weekId": "jpn.kami.week01",
@@ -4399,14 +4393,13 @@
         "light",
         "retreat"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-02-amaterasu-light.json",
       "objectiveIds": [
         "obj.amaterasu-light.concept",
         "obj.amaterasu-light.source"
       ],
       "recordIds": [
-        "pg-4018",
         "pg-46863"
       ],
       "rewardArtId": null,
@@ -4425,23 +4418,22 @@
     },
     {
       "id": "japanese.week01.day03.susanoo-storm",
-      "version": 1,
+      "version": 2,
       "pantheon": "japanese",
-      "title": "Susanoo: Storm and Reconciliation",
+      "title": "Susanoo: Disruption and Consequence",
       "weekId": "jpn.kami.week01",
       "tags": [
         "susanoo",
         "storm",
         "reconciliation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-03-susanoo-storm.json",
       "objectiveIds": [
         "obj.susanoo-storm.concept",
         "obj.susanoo-storm.source"
       ],
       "recordIds": [
-        "pg-4018",
         "pg-46863"
       ],
       "rewardArtId": null,
@@ -4460,24 +4452,23 @@
     },
     {
       "id": "japanese.week01.day04.kami-boundaries",
-      "version": 1,
+      "version": 2,
       "pantheon": "japanese",
-      "title": "Kami and Boundaries",
+      "title": "Urashima Taro: A Return Across Time",
       "weekId": "jpn.kami.week01",
       "tags": [
         "kami",
         "sacred",
         "place"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-04-kami-boundaries.json",
       "objectiveIds": [
         "obj.kami-boundaries.concept",
         "obj.kami-boundaries.source"
       ],
       "recordIds": [
-        "pg-4018",
-        "pg-46863"
+        "pg-4018"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4495,23 +4486,22 @@
     },
     {
       "id": "japanese.week01.day05.izanami-boundary",
-      "version": 1,
+      "version": 2,
       "pantheon": "japanese",
-      "title": "Izanami: Creation and Boundary",
+      "title": "Izanami: Death and Separation",
       "weekId": "jpn.kami.week01",
       "tags": [
         "izanami",
         "creation",
         "boundary"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-05-izanami-boundary.json",
       "objectiveIds": [
         "obj.izanami-boundary.concept",
         "obj.izanami-boundary.source"
       ],
       "recordIds": [
-        "pg-4018",
         "pg-46863"
       ],
       "rewardArtId": null,

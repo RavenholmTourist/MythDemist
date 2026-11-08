@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w08d04.heroes-in-landscape",
+  "version": 2,
+  "weekId": "grc.heroes.week08",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Heroes in Landscape",
+  "subtitle": "Memory attaches to places",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "greek"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w08d04.heroes-in-landscape.claim",
+      "text": "Explain this episode: Whose observations is Frazer discussing in this passage?"
+    },
+    {
+      "id": "obj.grc.heroes.w08d04.heroes-in-landscape.source",
+      "text": "Use the cited passage to explain: What does a named legendary tomb establish by itself?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-56002",
+      "sourceId": "sch.frazer.greek-scenery-legend-history",
+      "work": "Studies in Greek Scenery, Legend and History",
+      "author": "James George Frazer",
+      "translator": "not applicable",
+      "locator": "Studies in Greek Scenery, introductory discussion of Pausanias and Sipylus; local text, normalized characters 21544-21845",
+      "localPath": "content/corpus/greek/scholarship/frazer-greek-scenery-legend-history-56002.txt",
+      "excerpt": "wheeling above the lonely tarn of Tantalus in the heart of the hills; he had beheld the stately tomb of the same hero on Mount Sipylus, the ruined city at the bottom of the clear lake, the rock-hewn throne of Pelops crowning the dizzy peak that overhangs the cañon, and the dripping rock which popular",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Frazer discusses Pausanias’ familiarity with Mount Sipylus, including monuments linked with Tantalus, Pelops, and Niobe. Here Frazer is describing an ancient writer’s observations; the paragraph is not Frazer’s own eyewitness confirmation of those heroes.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “wheeling above the lonely tarn of Tantalus in the heart of the hills; he had beheld the stately tomb of the same hero on Mount Sipylus, the ruined city at the bottom of the clear lake, the rock-hewn throne of Pelops crowning the dizzy peak that overhangs the cañon, and the dripping rock which popular”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: places can preserve stories without proving their events. Frazer’s dated scholarship must be checked against the ancient testimony he discusses.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Identify each layer of testimony: a legendary association, Pausanias’ description, and Frazer’s discussion of it. None should be silently promoted into direct proof that a legendary event occurred.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Landscape gives heroic afterlife a physical address.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose observations is Frazer discussing in this passage?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pausanias’"
+        },
+        {
+          "id": "b",
+          "text": "Achilles’"
+        },
+        {
+          "id": "c",
+          "text": "Penelope’s"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Pausanias’. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What does a named legendary tomb establish by itself?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The historical truth of every attached episode"
+        },
+        {
+          "id": "b",
+          "text": "An association between a place and a story, not proof the hero lived there"
+        },
+        {
+          "id": "c",
+          "text": "A contemporary birth certificate for the hero"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "An association between a place and a story, not proof the hero lived there. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

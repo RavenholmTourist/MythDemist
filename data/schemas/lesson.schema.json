@@ -1,0 +1,140 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythdemist.local/schemas/lesson.schema.json",
+  "title": "Mythos lesson module",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "weekId",
+    "pantheon",
+    "themeMode",
+    "title",
+    "estimatedMinutes",
+    "difficulty",
+    "learningObjectives",
+    "sourceReferences",
+    "narrativeBlocks",
+    "quiz",
+    "review"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(\\.[a-z0-9-]+)+$" },
+    "version": { "type": "integer", "minimum": 1 },
+    "weekId": { "type": "string" },
+    "pantheon": { "type": "string" },
+    "themeMode": { "enum": ["pantheon", "neutral"] },
+    "rewardArtId": { "type": "string" },
+    "title": { "type": "string", "minLength": 1 },
+    "subtitle": { "type": "string" },
+    "estimatedMinutes": { "type": "number", "exclusiveMinimum": 0 },
+    "difficulty": { "type": "integer", "minimum": 1, "maximum": 5 },
+    "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "learningObjectives": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "text": { "type": "string" }
+        }
+      }
+    },
+    "sourceReferences": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "object",
+        "required": ["recordId", "sourceId", "work", "locator", "localPath", "excerpt"],
+        "additionalProperties": false,
+        "properties": {
+          "recordId": { "type": "string" },
+          "sourceId": { "type": "string" },
+          "work": { "type": "string" },
+          "author": { "type": "string" },
+          "translator": { "type": "string" },
+          "locator": { "type": "string" },
+          "localPath": { "type": "string" },
+          "excerpt": { "type": "string", "minLength": 1 },
+          "evidenceType": { "enum": ["quotation", "paraphrase"] },
+          "evidenceQuote": { "type": "string", "minLength": 1 },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "narrativeBlocks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "kind", "title", "body", "sourceRefIds", "objectiveIds"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "kind": { "enum": ["context", "source", "synthesis", "method", "flavor"] },
+          "title": { "type": "string" },
+          "body": { "type": "string" },
+          "sourceRefIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "objectiveIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+        }
+      }
+    },
+    "quiz": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "type", "prompt", "choices", "answerId", "explanation", "sourceRefIds", "objectiveIds"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "type": { "const": "single-choice" },
+          "prompt": { "type": "string" },
+          "choices": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "object",
+              "required": ["id", "text"],
+              "additionalProperties": false,
+              "properties": {
+                "id": { "type": "string" },
+                "text": { "type": "string" }
+              }
+            }
+          },
+          "answerId": { "type": "string" },
+          "explanation": { "type": "string" },
+          "sourceRefIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "objectiveIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+          "deepDive": {
+            "type": "object",
+            "required": ["prompt", "suggestedQuestions", "sourceRefIds"],
+            "additionalProperties": false,
+            "properties": {
+              "prompt": { "type": "string" },
+              "suggestedQuestions": { "type": "array", "items": { "type": "string" }, "minItems": 1 },
+              "sourceRefIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+            }
+          }
+        }
+      }
+    },
+    "feedbackOptions": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+    "review": {
+      "type": "object",
+      "required": ["status", "reviewedBy", "reviewedAt"],
+      "additionalProperties": false,
+      "properties": {
+        "status": { "enum": ["draft", "reviewed", "needs-revision"] },
+        "reviewedBy": { "type": ["string", "null"] },
+        "reviewedAt": { "type": ["string", "null"] },
+        "notes": { "type": "string" }
+      }
+    }
+  }
+}

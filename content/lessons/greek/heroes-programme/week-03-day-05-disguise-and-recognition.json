@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w03d05.disguise-and-recognition",
+  "version": 2,
+  "weekId": "grc.heroes.week03",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Disguise and Recognition",
+  "subtitle": "Identity is proven slowly",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w03d05.disguise-and-recognition.claim",
+      "text": "Explain this episode: What does Penelope use to test Odysseus?"
+    },
+    {
+      "id": "obj.grc.heroes.w03d05.disguise-and-recognition.source",
+      "text": "Use the cited passage to explain: Why is the bed a strong recognition test?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Penelope does not accept the stranger’s identity on appearance alone. Her instruction about moving their bed draws out knowledge of its construction around a rooted olive tree: a private, shared history becomes evidence of identity.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Identity in the Odyssey is proved relationally. The hero must be recognized by the people and places that can still read him correctly.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Penelope’s test asks for private knowledge, not another boast of heroic achievement. The rooted bed connects identity with the particular household to which Odysseus is returning.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The final heroic skill is patience after arrival, when revenge is available but restoration is not yet complete.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Penelope use to test Odysseus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Their marriage bed"
+        },
+        {
+          "id": "b",
+          "text": "The Cyclops’ cup"
+        },
+        {
+          "id": "c",
+          "text": "A shield left at Troy"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Their marriage bed. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is the bed a strong recognition test?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Athena has written Odysseus’ name on it."
+        },
+        {
+          "id": "b",
+          "text": "Its construction is knowledge shared within their marriage."
+        },
+        {
+          "id": "c",
+          "text": "Every visitor to Ithaca has seen it moved."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Its construction is knowledge shared within their marriage.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

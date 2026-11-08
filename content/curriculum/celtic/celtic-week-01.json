@@ -1,0 +1,60 @@
+{
+  "id": "cel.tales.week01",
+  "title": "Welsh Tales",
+  "subtitle": "Kingship, journeys, enchantment, and otherworlds",
+  "pantheon": "celtic",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "celtic-knot",
+    "accent": "emerald"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Pwyll: Kingship and the Otherworld",
+      "lessonId": "cel.tales.day01.pwyll-otherworld",
+      "lessonPath": "content/lessons/celtic/pwyll-otherworld/day-01-pwyll-otherworld.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Branwen: Hospitality and Consequence",
+      "status": "available",
+      "lessonId": "celtic.week01.day02.branwen-sovereignty",
+      "lessonPath": "content/lessons/celtic/tales/day-02-branwen-sovereignty.json"
+    },
+    {
+      "day": 3,
+      "title": "Manawydan: Patience and Enchantment",
+      "status": "available",
+      "lessonId": "celtic.week01.day03.manawydan-patience",
+      "lessonPath": "content/lessons/celtic/tales/day-03-manawydan-patience.json"
+    },
+    {
+      "day": 4,
+      "title": "Math: Law, Magic, and Sovereignty",
+      "status": "available",
+      "lessonId": "celtic.week01.day04.math-sovereignty",
+      "lessonPath": "content/lessons/celtic/tales/day-04-math-sovereignty.json"
+    },
+    {
+      "day": 5,
+      "title": "Taliesin: Poetry and Transformation",
+      "status": "available",
+      "lessonId": "celtic.week01.day05.taliesin-change",
+      "lessonPath": "content/lessons/celtic/tales/day-05-taliesin-change.json"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.celtic-otherworld",
+      "title": "The Celtic Otherworld",
+      "description": "Welsh tales make the supernatural a close neighboring realm where encounters test honor, promises, and kingship.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-5160"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

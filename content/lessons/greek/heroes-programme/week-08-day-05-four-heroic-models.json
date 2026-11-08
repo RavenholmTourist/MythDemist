@@ -1,0 +1,229 @@
+{
+  "id": "grc.heroes.w08d05.four-heroic-models",
+  "version": 2,
+  "weekId": "grc.heroes.week08",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Four Heroic Models",
+  "subtitle": "Comparison without flattening",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w08d05.four-heroic-models.claim",
+      "text": "Explain this episode: Which pairing belongs to the cited Odyssey scene?"
+    },
+    {
+      "id": "obj.grc.heroes.w08d05.four-heroic-models.source",
+      "text": "Use the cited passage to explain: Why does this comparison need more than an Iliad citation?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 24, Priam appeals to Achilles; Book 24, normalized characters 25898-26200",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "heracles": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.4.12, service to Eurystheus; book 2 · chapter 4 · section 12, normalized characters 0-301",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "odysseus": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "theseus": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, unification of Attica; local text, normalized characters 40458-40761",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Compare four selected roles, not four fixed personalities: Achilles facing grief, Odysseus recognised at home, Heracles serving Eurystheus, and Theseus founding civic order. Each contrast needs evidence from its own work.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet”",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The point of comparison is not to rank them but to see how each source constructs value and consequence.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Check all four references before making the comparison. An Iliad passage can support a claim about Achilles, but it cannot by itself establish Penelope’s test, Heracles’ service, or Theseus’ civic role.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Carry this method into the next programme: compare without flattening.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Which pairing belongs to the cited Odyssey scene?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Theseus and Patroclus’ armour"
+        },
+        {
+          "id": "b",
+          "text": "Odysseus and Penelope’s recognition test"
+        },
+        {
+          "id": "c",
+          "text": "Achilles and the Cretan thread"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Odysseus and Penelope’s recognition test. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does this comparison need more than an Iliad citation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Iliad contains every surviving heroic narrative."
+        },
+        {
+          "id": "b",
+          "text": "A comparison has no factual claims to support."
+        },
+        {
+          "id": "c",
+          "text": "Claims about the other heroes require their own source passages."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Claims about the other heroes require their own source passages.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main",
+        "heracles",
+        "odysseus",
+        "theseus"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d05.four-heroic-models.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

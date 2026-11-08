@@ -1,0 +1,170 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.norse-gods-fate",
+      "title": "Norse Gods and Fate",
+      "description": "Eight weeks on Odin, Thor, Loki, goddesses, fate, and Ragnar\u00f6k.",
+      "weeks": [
+        "Odin and knowledge",
+        "Thor and protection",
+        "Loki and ambiguity",
+        "Goddesses and power",
+        "Elves, dwarfs, and giants",
+        "Heroes and fate",
+        "Ragnar\u00f6k",
+        "Memory and aftermath"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.norse-edda-source": {
+      "title": "The Prose Edda as a source",
+      "body": "Snorri\u2019s Prose Edda is a medieval handbook for poets. It preserves mythic stories, but it also organizes and explains them for a later Christian-era audience.",
+      "recordIds": [
+        "pg-18947",
+        "pg-73533"
+      ],
+      "nextTopicIds": [
+        "topic.norse-wisdom-sacrifice",
+        "topic.norse-genre-lens",
+        "topic.norse-power-cost"
+      ],
+      "cards": [
+        {
+          "title": "A handbook, not a scripture",
+          "body": "The Prose Edda was written to help poets understand and compose traditional poetry. Its frame matters when we read it as evidence.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        },
+        {
+          "title": "Preservation with an agenda",
+          "body": "Snorri preserves older material while arranging it in a new literary and intellectual setting. That makes the work invaluable\u2014and also not neutral.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        }
+      ]
+    },
+    "topic.norse-wisdom-sacrifice": {
+      "title": "Wisdom and sacrifice",
+      "body": "Norse tradition repeatedly links knowledge to cost. Odin\u2019s authority is not free power; it is knowledge gained through ordeal, exchange, and risk.",
+      "recordIds": [
+        "pg-18947",
+        "pg-73533"
+      ],
+      "nextTopicIds": [
+        "topic.slavic-ambiguous-helper",
+        "topic.japanese-creation-boundary",
+        "topic.iliad-anger-honor"
+      ],
+      "cards": [
+        {
+          "title": "Knowledge has a price",
+          "body": "Odin\u2019s pursuit of wisdom is framed through sacrifice and bargaining. Intelligence and foresight are achieved, not merely possessed.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        },
+        {
+          "title": "A different heroic pressure",
+          "body": "Where Achilles asks what honor costs, Odin asks what foresight costs. That comparison works best when each tradition stays attached to its own sources.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        }
+      ]
+    },
+    "topic.norse-genre-lens": {
+      "title": "Poetry, handbook, and myth",
+      "body": "The Prose Edda teaches readers how poetic references work. That makes genre central: a mythic encyclopedia asks different questions from an epic or a play.",
+      "recordIds": [
+        "pg-18947",
+        "pg-73533"
+      ],
+      "nextTopicIds": [
+        "topic.norse-edda-source",
+        "topic.norse-wisdom-sacrifice"
+      ],
+      "cards": [
+        {
+          "title": "Genre changes evidence",
+          "body": "A handbook can explain stories explicitly, but its organization is itself an interpretation. Track both the story and the frame.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        },
+        {
+          "title": "Use it carefully",
+          "body": "Snorri is essential for Norse mythology, but comparing him to Homer means comparing different kinds of work across different cultural moments.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        }
+      ]
+    },
+    "topic.norse-power-cost": {
+      "title": "Power and cost",
+      "body": "Norse traditions repeatedly frame power through bargain, ordeal, and knowledge that exacts a price.",
+      "recordIds": [
+        "pg-18947",
+        "pg-73533"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Norse traditions repeatedly frame power through bargain, ordeal, and knowledge that exacts a price.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-18947",
+            "pg-73533"
+          ]
+        }
+      ]
+    },
+    "topic.norse-fate-end": {
+      "title": "Fate and the final ending",
+      "body": "Norse stories often build meaning from limits that cannot be escaped, including the approaching end of the gods.",
+      "recordIds": [
+        "pg-73533"
+      ],
+      "nextTopicIds": [
+        "topic.shared.fate-return",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Norse stories often build meaning from limits that cannot be escaped, including the approaching end of the gods.",
+          "recordIds": [
+            "pg-73533"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-73533"
+          ]
+        }
+      ]
+    }
+  }
+}

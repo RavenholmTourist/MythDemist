@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.baltic-traditions",
+      "title": "Baltic Traditions",
+      "description": "Eight weeks on Baltic sources, stories, and regional variation.",
+      "weeks": [
+        "Baltic Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.baltic-fate-helpers": {
+      "title": "Baltic folk traditions",
+      "body": "Baltic folk traditions can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-6746",
+        "pg-66919"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "Baltic folk traditions belongs first to its own tradition.",
+          "recordIds": [
+            "pg-6746",
+            "pg-66919"
+          ]
+        }
+      ]
+    }
+  }
+}

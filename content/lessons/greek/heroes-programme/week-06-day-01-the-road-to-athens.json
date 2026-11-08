@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w06d01.the-road-to-athens",
+  "version": 2,
+  "weekId": "grc.heroes.week06",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Road to Athens",
+  "subtitle": "Public usefulness becomes heroic",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "lives"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w06d01.the-road-to-athens.claim",
+      "text": "Explain this episode: Which journey shapes Theseus’ early exploits?"
+    },
+    {
+      "id": "obj.grc.heroes.w06d01.the-road-to-athens.source",
+      "text": "Use the cited passage to explain: Why compare these deeds with Heracles’?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, road to Athens; local text, normalized characters 11878-12184",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "himself of all those that should offer any. And first of all, in a set combat, he slew Periphetes, in the neighborhood of Epidaurus, who used a club for his arms, and from thence had the name of Corynetes, or the club-bearer; who seized upon him, and forbade him to go forward in his journey. Being pleased",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Plutarch tells how Theseus travels to Athens by land and confronts violent figures along the road. The young hero models himself on Heracles, but his journey also prepares his recognition in Athens.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “himself of all those that should offer any. And first of all, in a set combat, he slew Periphetes, in the neighborhood of Epidaurus, who used a club for his arms, and from thence had the name of Corynetes, or the club-bearer; who seized upon him, and forbade him to go forward in his journey. Being pleased”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The road is a political training ground: each removed threat helps explain why a community might want this hero as a founder.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Plutarch shapes a legendary life from inherited material. Theseus’ emulation of Heracles helps explain the young hero’s choices within that biography; it is not an eyewitness account of his journey.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "A founder myth turns heroic violence into a claim about safety and shared identity.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Which journey shapes Theseus’ early exploits?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The voyage to Colchis"
+        },
+        {
+          "id": "b",
+          "text": "The march from Troy with Hector"
+        },
+        {
+          "id": "c",
+          "text": "The overland road to Athens"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The overland road to Athens. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why compare these deeds with Heracles’?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Theseus’ emulation is part of Plutarch’s account of his ambition."
+        },
+        {
+          "id": "b",
+          "text": "They prove Theseus and Heracles are the same person."
+        },
+        {
+          "id": "c",
+          "text": "They show Plutarch is narrating the Iliad’s opening."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Theseus’ emulation is part of Plutarch’s account of his ambition.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

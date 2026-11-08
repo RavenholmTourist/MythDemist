@@ -1,0 +1,61 @@
+{
+  "id": "chi.myth.week01",
+  "title": "Chinese Myth and Cosmic Order",
+  "subtitle": "Creation, flood, moon, heroes, and cosmic repair",
+  "pantheon": "chinese",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "chinese-dragon",
+    "accent": "jade"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Heaven, Earth, and Creation",
+      "lessonId": "chinese.week01.day01.heaven-earth",
+      "lessonPath": "content/lessons/chinese/myth/day-01-heaven-earth.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "N\u00fcwa: Repairing the World",
+      "lessonId": "chinese.week01.day02.nuwa-repair",
+      "lessonPath": "content/lessons/chinese/myth/day-02-nuwa-repair.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Yu: Taming the Flood",
+      "lessonId": "chinese.week01.day03.yu-flood",
+      "lessonPath": "content/lessons/chinese/myth/day-03-yu-flood.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Chang\u2019e and the Moon",
+      "lessonId": "chinese.week01.day04.change-moon",
+      "lessonPath": "content/lessons/chinese/myth/day-04-change-moon.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Immortals and Moral Order",
+      "lessonId": "chinese.week01.day05.immortals-order",
+      "lessonPath": "content/lessons/chinese/myth/day-05-immortals-order.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.chinese-cosmic-order",
+      "title": "Cosmic order and repair",
+      "description": "Chinese myth often treats the cosmos as something fragile that heroes, gods, and sages must repair and rebalance.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-15250",
+        "pg-26070"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

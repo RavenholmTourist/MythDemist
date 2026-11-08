@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "norse",
+  "records": [
+    {
+      "id": "pg-18947",
+      "title": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "sourceType": "primary-text-translation",
+      "ancientAuthors": [
+        "Snorri Sturluson"
+      ],
+      "translator": "Rasmus B. Anderson",
+      "sourceIds": [
+        "nor.snorri.prose-edda"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18947",
+      "localPath": "primary/prose-edda-anderson-18947.txt",
+      "rightsStatus": "public-domain-us-gutenberg",
+      "notes": "Older English translation stored for private study; preserve the Project Gutenberg notice. The file is titled The Younger Edda and includes the Prose Edda tradition."
+    },
+    {
+      "id": "pg-73533",
+      "title": "The Poetic Edda",
+      "sourceType": "primary-text-translation",
+      "ancientAuthors": [
+        "Anonymous Old Norse poets"
+      ],
+      "translator": "Henry Adams Bellows",
+      "sourceIds": [
+        "nor.poetic-edda"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/73533",
+      "localPath": "primary/poetic-edda-bellows-73533.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Mythological and heroic lays in English translation; complements the Prose Edda by preserving poetic versions and variant emphases."
+    }
+  ]
+}

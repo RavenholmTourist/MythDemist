@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w04d04.flight-and-pursuit",
+  "version": 2,
+  "weekId": "grc.heroes.week04",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Flight and Pursuit",
+  "subtitle": "Victory creates consequences",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "argonautica"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w04d04.flight-and-pursuit.claim",
+      "text": "Explain this episode: Who kills Apsyrtus in Apollonius’ account?"
+    },
+    {
+      "id": "obj.grc.heroes.w04d04.flight-and-pursuit.source",
+      "text": "Use the cited passage to explain: What makes the return voyage morally troubled?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Book 4, the killing of Apsyrtus; Book 4, normalized characters 12225-12531",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "his right a huge pine-torch, and near him in front stood up his mighty spear. And Apsyrtus held in his hands the reins of the steeds. But already the ship was cleaving the sea before her, urged on by stalwart oarsmen, and the stream of the mighty river rushing down. But the king in grievous anguish lifted",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Escape with the fleece does not finish the moral story. In Apollonius’ version, Medea helps lure Apsyrtus into an encounter where Jason kills him. The flight requires a reckoning with the bloodshed, including purification by Circe.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “his right a huge pine-torch, and near him in front stood up his mighty spear. And Apsyrtus held in his hands the reins of the steeds. But already the ship was cleaving the sea before her, urged on by stalwart oarsmen, and the stream of the mighty river rushing down. But the king in grievous anguish lifted”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The return voyage reveals the cost inside the victory: success has been purchased by acts that cannot be separated from it.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Attach this killing to Apollonius’ version. Other tellings of Apsyrtus differ; do not insert their details into this episode or assume that gaining the fleece settles the consequences of the escape.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Euripides isolates exactly this problem and makes it the center of tragedy.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Who kills Apsyrtus in Apollonius’ account?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heracles"
+        },
+        {
+          "id": "b",
+          "text": "Jason"
+        },
+        {
+          "id": "c",
+          "text": "Pelias"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Jason. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What makes the return voyage morally troubled?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The fleece has been returned voluntarily to Aeetes."
+        },
+        {
+          "id": "b",
+          "text": "The crew have forgotten where Iolcus is."
+        },
+        {
+          "id": "c",
+          "text": "The escape involves betrayal and bloodshed requiring purification."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The escape involves betrayal and bloodshed requiring purification.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

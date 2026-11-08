@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w05d04.death-and-apotheosis",
+  "version": 2,
+  "weekId": "grc.heroes.week05",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Death and Apotheosis",
+  "subtitle": "Suffering crosses a boundary",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "epitome"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w05d04.death-and-apotheosis.claim",
+      "text": "Explain this episode: Where is Heracles’ pyre built?"
+    },
+    {
+      "id": "obj.grc.heroes.w05d04.death-and-apotheosis.source",
+      "text": "Use the cited passage to explain: What does apotheosis mean in this episode?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.7.7, the pyre and reception among the gods; book 2 · chapter 7 · section 7, normalized characters 2438-2965",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "he came of age, proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it. When no one would do so, Poeas, passing by to look for his flocks, set a light to it. On him Hercules bestowed his bow. While the pyre was burning, it is said that a cloud passed under Hercules and with a peal of thunder wafted him up to heaven. Thereafter he obtained immortality, and being reconciled to Hera he married her daughter Hebe, by whom he had sons, Alexiares and Anicetus.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "The poisoned garment causes Heracles unbearable suffering. He has a pyre built on Mount Oeta; the Library then tells of his ascent to heaven, reconciliation with Hera, and marriage to Hebe. Apotheosis means reception into divine life, not survival by ordinary healing.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “he came of age, proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it. When no one would do so, Poeas, passing by to look for his flocks, set a light to it. On him Hercules bestowed his bow. While the pyre was burning, it is said that a cloud passed under Hercules and with a peal of thunder wafted him up to heaven. Thereafter he obtained immortality, and being reconciled to Hera he married her daughter Hebe, by whom he had sons, Alexiares and Anicetus.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Apotheosis answers a life too extreme for normal categories, but it does not erase the violence or pain that came before.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Apotheosis names a change of status into divine life, not an ordinary recovery from injury. Cite Library 2.7.7 for this ending; the Epitome’s Trojan returns are not the relevant passage.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Ask what a source believes can repair or transform a damaged heroic life.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Where is Heracles’ pyre built?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Mount Oeta"
+        },
+        {
+          "id": "b",
+          "text": "Mount Pelion"
+        },
+        {
+          "id": "c",
+          "text": "Mount Cithaeron"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The Library says Heracles built the pyre on Mount Oeta in Trachis.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What does apotheosis mean in this episode?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heracles remains mortal but is released from Eurystheus’ service."
+        },
+        {
+          "id": "b",
+          "text": "Heracles is received among the gods."
+        },
+        {
+          "id": "c",
+          "text": "Heracles becomes a hero honoured only through a tomb."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Here the Library describes Heracles’ ascent, immortality, reconciliation with Hera, and marriage to Hebe.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

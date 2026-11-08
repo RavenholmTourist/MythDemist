@@ -1,0 +1,132 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.slavic-foundations",
+      "title": "Slavic Foundations",
+      "description": "Eight weeks introducing major Slavic traditions.",
+      "weeks": [
+        "Slavic Folklore",
+        "Gods and powers",
+        "Heroes and journeys",
+        "Otherworlds",
+        "Ritual and place",
+        "Fate and transformation",
+        "Variant sources",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.slavic-ambiguous-helper": {
+      "title": "The dangerous helper",
+      "body": "Slavic folklore often gives heroes ambiguous supernatural figures whose aid must be earned through courage and wit.",
+      "recordIds": [
+        "pg-22373",
+        "pg-48761"
+      ],
+      "nextTopicIds": [
+        "topic.norse-wisdom-sacrifice",
+        "topic.celtic-otherworld",
+        "topic.japanese-creation-boundary",
+        "topic.slavic-boundary-bargain"
+      ],
+      "cards": [
+        {
+          "title": "Why this matters",
+          "body": "Slavic folklore often gives heroes ambiguous supernatural figures whose aid must be earned through courage and wit.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        },
+        {
+          "title": "Compare across pantheons",
+          "body": "Use this as a bridge into shared themes, while keeping the tradition and source type distinct.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        }
+      ]
+    },
+    "topic.shared-trickster-power": {
+      "title": "Shared Theme: Trickster Power",
+      "body": "A cross-pantheon bridge topic. It compares a shared theme while keeping each pantheon\u2019s sources and versions distinct.",
+      "recordIds": [
+        "pg-22373",
+        "pg-48761"
+      ],
+      "nextTopicIds": [],
+      "cards": [
+        {
+          "title": "A shared question",
+          "body": "How does this pantheon frame the theme differently from the others you have met?",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        }
+      ]
+    },
+    "topic.slavic-boundary-bargain": {
+      "title": "Boundaries and bargains",
+      "body": "Slavic folktales place power at boundaries\u2014water, forests, witches\u2019 homes\u2014where bargains and tests decide survival.",
+      "recordIds": [
+        "pg-22373",
+        "pg-48761"
+      ],
+      "nextTopicIds": [
+        "topic.shared.otherworld-boundaries",
+        "topic.shared.cunning-power"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Slavic folktales place power at boundaries\u2014water, forests, witches\u2019 homes\u2014where bargains and tests decide survival.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        }
+      ]
+    },
+    "topic.slavic-quest-helper": {
+      "title": "Quests and dangerous helpers",
+      "body": "Heroes succeed by navigating beings who can threaten, test, and aid them in the same encounter.",
+      "recordIds": [
+        "pg-22373",
+        "pg-48761"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Heroes succeed by navigating beings who can threaten, test, and aid them in the same encounter.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-22373",
+            "pg-48761"
+          ]
+        }
+      ]
+    }
+  }
+}

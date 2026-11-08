@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.maya-traditions",
+      "title": "Maya Traditions",
+      "description": "Eight weeks on Maya sources, stories, and regional variation.",
+      "weeks": [
+        "Maya Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.maya-twins": {
+      "title": "Creation and first people",
+      "body": "Creation and first people can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-56550",
+        "pg-58464"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "Creation and first people belongs first to its own tradition.",
+          "recordIds": [
+            "pg-56550",
+            "pg-58464"
+          ]
+        }
+      ]
+    }
+  }
+}

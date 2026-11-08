@@ -1,0 +1,218 @@
+{
+  "id": "roman.week01.day03.venus-desire",
+  "version": 1,
+  "weekId": "rom.myth.week01",
+  "pantheon": "roman",
+  "themeMode": "pantheon",
+  "title": "Venus: Desire and Legacy",
+  "subtitle": "Love as political and mythic force",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "venus",
+    "desire",
+    "legacy"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.venus-desire.concept",
+      "text": "Identify the main idea in Venus: Desire and Legacy."
+    },
+    {
+      "id": "obj.venus-desire.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "roman-pg-21765",
+      "sourceId": "rom.ovid.metamorphoses-1-7",
+      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses I\u2013VII\u2014Venus and desire",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+      "excerpt": "the mulberry is turned from white to black, and that of the discovery of the intrigues of Mars and Venus, on the information of the Sun. They also tell how the Sun assumed the form of Eurynome, that he might enjoy her daughter Leucotho\u00eb; how Clytie, becoming jealous of her sister, was transformed into a sun-flower; and how Salmacis and Hermaphroditus had be",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses VIII\u2013XV\u2014love, lineage, and legacy",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "er incestuous intercourse with her father, was changed into the myrrh tree; and how Adonis (to whom Venus relates the transformation of Hippomenes and Atalanta into lions) was transformed into an anemone. BOOK XI. Orpheus is torn to pieces by the Thracian women; on which, a serpent, which attacks his face, is changed into stone. The women are transformed",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Venus: Desire and Legacy",
+      "body": "Roman Venus joins desire to ancestry, destiny, and public legacy rather than treating love as private decoration.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What wider force does Venus connect to?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Ancestry, destiny, and public legacy"
+        },
+        {
+          "id": "b",
+          "text": "Only cooking"
+        },
+        {
+          "id": "c",
+          "text": "Only ship repair"
+        },
+        {
+          "id": "d",
+          "text": "Only grammar"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Roman Venus joins desire to ancestry, destiny, and public legacy rather than treating love as private decoration.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.venus-desire.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

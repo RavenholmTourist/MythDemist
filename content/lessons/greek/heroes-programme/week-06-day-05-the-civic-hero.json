@@ -1,0 +1,191 @@
+{
+  "id": "grc.heroes.w06d05.the-civic-hero",
+  "version": 2,
+  "weekId": "grc.heroes.week06",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Civic Hero",
+  "subtitle": "Theseus is not Heracles",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "library"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w06d05.the-civic-hero.claim",
+      "text": "Explain this episode: Which pairing fits the cited accounts?"
+    },
+    {
+      "id": "obj.grc.heroes.w06d05.the-civic-hero.source",
+      "text": "Use the cited passage to explain: Why call these roles a comparison rather than fixed definitions?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, the unification narrative; local text, normalized characters 40458-40761",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "heracles": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.4.12, service to Eurystheus; book 2 · chapter 4 · section 12, normalized characters 0-301",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Compare two source-specific roles: Plutarch’s Theseus brings Attica into a civic community, while the Library’s Heracles serves Eurystheus through imposed labours. These are useful contrasts, not exhaustive definitions of either hero.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going”",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Different communities need different heroes. The comparison reveals what each tradition is trying to justify or preserve.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Keep both citations in view. Plutarch supports the civic-founder comparison; the Library supports imposed service. Neither passage defines everything that Theseus or Heracles can mean in other works.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Civic heroism turns power into an account of belonging and order.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Which pairing fits the cited accounts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Theseus and civic unification; Heracles and imposed service"
+        },
+        {
+          "id": "b",
+          "text": "Theseus and the Sirens; Heracles and Penelope’s bed"
+        },
+        {
+          "id": "c",
+          "text": "Theseus and Troy’s ransom; Heracles and the Golden Fleece"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Theseus and civic unification; Heracles and imposed service. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why call these roles a comparison rather than fixed definitions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A hero can appear in only one genre."
+        },
+        {
+          "id": "b",
+          "text": "Each work selects only part of a larger heroic tradition."
+        },
+        {
+          "id": "c",
+          "text": "Both works were dictated by the same hero."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Each work selects only part of a larger heroic tradition.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main",
+        "heracles"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d05.the-civic-hero.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

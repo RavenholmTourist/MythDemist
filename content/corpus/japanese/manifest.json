@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "japanese",
+  "records": [
+    {
+      "id": "pg-46863",
+      "title": "Old-World Japan",
+      "sourceType": "primary-or-retelling-text",
+      "ancientAuthors": [
+        "Frank Rinder"
+      ],
+      "translator": "Frank Rinder",
+      "sourceIds": [
+        "jpn.old-world-japan"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/46863",
+      "localPath": "primary/old-world-japan-rinder-46863.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+    },
+    {
+      "id": "pg-4018",
+      "title": "Japanese Fairy Tales",
+      "sourceType": "folklore-retelling-collection",
+      "ancientAuthors": [
+        "traditional tales; collected by Yei Theodora Ozaki"
+      ],
+      "translator": "Yei Theodora Ozaki",
+      "sourceIds": [
+        "jpn.folklore.japanese-fairy-tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/4018",
+      "localPath": "primary/japanese-fairy-tales-ozaki-4018.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Popular story collection with moral, supernatural, and heroic episodes; complements the Kojiki-derived myth retellings."
+    }
+  ]
+}

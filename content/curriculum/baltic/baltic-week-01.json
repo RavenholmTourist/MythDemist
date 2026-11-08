@@ -1,0 +1,50 @@
+{
+  "id": "baltic.tradition.week01",
+  "title": "Baltic Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "baltic",
+  "coverageType": "folklore",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "baltic-mark",
+    "accent": "amber"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Baltic folk traditions",
+      "lessonId": "baltic.week01.day01.baltic-folk-traditions",
+      "lessonPath": "content/lessons/baltic/tradition/day-01-baltic-folk-traditions.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Lithuanian heroes",
+      "lessonId": "baltic.week01.day02.lithuanian-heroes",
+      "lessonPath": "content/lessons/baltic/tradition/day-02-lithuanian-heroes.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Sun and sacred groves",
+      "lessonId": "baltic.week01.day03.sun-and-sacred-groves",
+      "lessonPath": "content/lessons/baltic/tradition/day-03-sun-and-sacred-groves.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Fate and helpers",
+      "lessonId": "baltic.week01.day04.fate-and-helpers",
+      "lessonPath": "content/lessons/baltic/tradition/day-04-fate-and-helpers.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "European variants",
+      "lessonId": "baltic.week01.day05.european-variants",
+      "lessonPath": "content/lessons/baltic/tradition/day-05-european-variants.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

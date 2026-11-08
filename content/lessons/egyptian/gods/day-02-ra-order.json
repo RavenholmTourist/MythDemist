@@ -1,0 +1,218 @@
+{
+  "id": "egyptian.week01.day02.ra-order",
+  "version": 1,
+  "weekId": "egy.gods.week01",
+  "pantheon": "egyptian",
+  "themeMode": "pantheon",
+  "title": "Ra: Sun and Cosmic Order",
+  "subtitle": "Power as daily renewal",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "ra",
+    "sun",
+    "maat"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.ra-order.concept",
+      "text": "Identify the main idea in Ra: Sun and Cosmic Order."
+    },
+    {
+      "id": "obj.ra-order.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legends of the Gods",
+      "author": "E. A. Wallis Budge",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Legends of the Gods\u2014Ra traditions",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "uced by John B. Hare and Carrie R. Lorenz LEGENDS OF THE GODS The Egyptian Texts, edited with Translations by E. A. Wallis Budge London, 1912 [Editorial note: Throughout the text \"####\" represents images which cannot be transcribed.] PREFACE The welcome which has been accorded to the volumes of this Series, and the fact tha",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-15932",
+      "sourceId": "egy.literature-ancient-egyptians",
+      "work": "The Literature of the Ancient Egyptians",
+      "author": "various Egyptian authors",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Hymns to the Sky-goddess and Sun-god",
+      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+      "excerpt": "e Liturgy of Funerary Offerings 16 Hymns to the Sky-goddess and Sun-god 18 The King in Heaven 20 The Hunting and Slaughter of the Gods by the King 21 III. STORIES OF MAGICIANS WHO LIVED UNDER THE ANCIENT EMPIRE: 25",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Ra: Sun and Cosmic Order",
+      "body": "Ra\u2019s solar movement models order as something repeatedly won and restored, not simply possessed once.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Ra\u2019s daily journey symbolize?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Order renewed through struggle"
+        },
+        {
+          "id": "b",
+          "text": "Permanent confusion"
+        },
+        {
+          "id": "c",
+          "text": "A harvest festival"
+        },
+        {
+          "id": "d",
+          "text": "A trade agreement"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Ra\u2019s solar movement models order as something repeatedly won and restored, not simply possessed once.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ra-order.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

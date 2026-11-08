@@ -1,0 +1,61 @@
+{
+  "id": "ind.epics.week01",
+  "title": "Dharma and the Indian Epics",
+  "subtitle": "Duty, exile, love, war, and divine counsel",
+  "pantheon": "indian",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "indian-lotus",
+    "accent": "marigold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Dharma: Duty Under Pressure",
+      "lessonId": "indian.week01.day01.dharma-duty",
+      "lessonPath": "content/lessons/indian/epics/day-01-dharma-duty.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Rama: Exile and Honor",
+      "lessonId": "indian.week01.day02.rama-exile",
+      "lessonPath": "content/lessons/indian/epics/day-02-rama-exile.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Sita: Separation and Trial",
+      "lessonId": "indian.week01.day03.sita-separation",
+      "lessonPath": "content/lessons/indian/epics/day-03-sita-separation.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Dice and Catastrophic War",
+      "lessonId": "indian.week01.day04.dice-war",
+      "lessonPath": "content/lessons/indian/epics/day-04-dice-war.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Krishna: Counsel and Divine Vision",
+      "lessonId": "indian.week01.day05.krishna-counsel",
+      "lessonPath": "content/lessons/indian/epics/day-05-krishna-counsel.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.indian-dharma",
+      "title": "Dharma under pressure",
+      "description": "Indian epic traditions make duty complicated by loyalty, justice, family, kingship, and circumstance.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-19630",
+        "pg-57265"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

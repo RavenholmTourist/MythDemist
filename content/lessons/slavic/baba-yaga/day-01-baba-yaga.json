@@ -1,0 +1,220 @@
+{
+  "id": "sla.folklore.day01.baba-yaga",
+  "version": 1,
+  "weekId": "sla.folklore.week01",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "title": "Baba Yaga: Dangerous Helper",
+  "subtitle": "Ambiguous power in Slavic folklore",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "slavic",
+    "baba-yaga",
+    "folklore",
+    "witches"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.baba-yaga.concept",
+      "text": "Identify the central source-grounded idea in Baba Yaga: Dangerous Helper."
+    },
+    {
+      "id": "obj.baba-yaga.source",
+      "text": "Classify the cited source and its limits."
+    }
+  ],
+  "sourceReferences": {
+    "ref-russian-tales": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales",
+      "author": "various collectors",
+      "translator": "W. R. S. Ralston",
+      "locator": "Russian Fairy Tales\u2014The Baba Yaga",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "s on Bluebeard's Chamber; 4. The Water King or Subaqueous Demon--Female Embodiments of Evil: 1. The Baba Yaga or Hag, and 2. The Witch, feminine counterparts of the Snake 75 CHAPTER III. MYTHOLOGICAL. _Miscellaneous Impersonations._ One-eyed Likho, a story of the Polyphemus Cycle--Woe, the Po",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-48761",
+      "sourceId": "sla.folklore.sixty-slavonic-tales",
+      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "author": "various collectors and storytellers",
+      "translator": "A. H. Wratislaw",
+      "locator": "Slavonic variants\u2014witch and helper figures",
+      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
+      "excerpt": "as of pure lead; round it flew the twelve ravens, and in front of it stood an old woman--it was Jezibaba[2]--leaning on a long leaden staff. 'Ah, my son! whither have you come? Here there is neither bird nor insect to be seen, much less a human being,' said Jezibaba to the prince. 'Flee, if life is dear to you; for, if my son comes, he will devour you.' 'Ah!",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Not simply evil",
+      "body": "Baba Yaga can threaten, test, guide, or aid a hero. Her ambiguity makes her more interesting than a simple villain.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Folklore, not scripture",
+      "body": "Ralston\u2019s collection gathers Russian folk tales from nineteenth-century collections. These are living story traditions, not a fixed pantheon.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The helper can be dangerous",
+      "body": "Slavic tales often test the hero through beings whose help and threat are inseparable.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How is Baba Yaga best introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As an ambiguous power who can threaten or help"
+        },
+        {
+          "id": "b",
+          "text": "As an Olympian god"
+        },
+        {
+          "id": "c",
+          "text": "As a Roman emperor"
+        },
+        {
+          "id": "d",
+          "text": "As an Egyptian pyramid"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-russian-tales",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What kind of evidence is Ralston\u2019s collection?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A collection of folk tales"
+        },
+        {
+          "id": "b",
+          "text": "A royal chronicle"
+        },
+        {
+          "id": "c",
+          "text": "A scientific treatise"
+        },
+        {
+          "id": "d",
+          "text": "A Roman poem"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-russian-tales",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.baba-yaga.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-russian-tales",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+  }
+}

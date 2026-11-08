@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "egyptian",
+  "records": [
+    {
+      "id": "pg-9411",
+      "title": "Legends of the Gods",
+      "sourceType": "primary-or-retelling-text",
+      "ancientAuthors": [
+        "E. A. Wallis Budge"
+      ],
+      "translator": "E. A. Wallis Budge",
+      "sourceIds": [
+        "egy.legends-of-the-gods"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/9411",
+      "localPath": "primary/legends-of-the-gods-budge-9411.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+    },
+    {
+      "id": "pg-15932",
+      "title": "The Literature of the Ancient Egyptians",
+      "sourceType": "translated-anthology",
+      "ancientAuthors": [
+        "various Egyptian authors"
+      ],
+      "translator": "E. A. Wallis Budge",
+      "sourceIds": [
+        "egy.literature-ancient-egyptians"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15932",
+      "localPath": "primary/literature-ancient-egyptians-budge-15932.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Broad translated anthology including Pyramid Texts, funerary material, magical stories, hymns, and moral writing."
+    }
+  ]
+}

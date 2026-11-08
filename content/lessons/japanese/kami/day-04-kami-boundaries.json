@@ -1,0 +1,218 @@
+{
+  "id": "japanese.week01.day04.kami-boundaries",
+  "version": 1,
+  "weekId": "jpn.kami.week01",
+  "pantheon": "japanese",
+  "themeMode": "pantheon",
+  "title": "Kami and Boundaries",
+  "subtitle": "Sacredness located in persons and places",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "kami",
+    "sacred",
+    "place"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.kami-boundaries.concept",
+      "text": "Identify the main idea in Kami and Boundaries."
+    },
+    {
+      "id": "obj.kami-boundaries.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan\u2014the God-period and kami traditions",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "-profess to outline the events of the vast cycles of years from the time of Ame-no-mi-naka-nushi-no-kami's birth in the Plain of High Heaven, \"when the earth, young and like unto floating oil, drifted about medusa-like,\" to the death of the Empress Suiko, A.D. 628. The first six tales in this little volume are founded on some of the most significant and pic",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-4018",
+      "sourceId": "jpn.folklore.japanese-fairy-tales",
+      "work": "Japanese Fairy Tales",
+      "author": "traditional tales; collected by Yei Theodora Ozaki",
+      "translator": "Yei Theodora Ozaki",
+      "locator": "Japanese Fairy Tales\u2014supernatural beings and boundaries",
+      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
+      "excerpt": "ous, and as Urashima spoke they were won by his kind smile and gentle words and began \u201cto be of his spirit,\u201d as they say in Japan. Gradually they all came up to him, the ringleader of the little band holding out the tortoise to him. \u201cVery well, Ojisan, we will give you the tortoise if you will give us the money!\u201d And Urashima took the tortoise and gave the",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Kami and Boundaries",
+      "body": "Japanese traditions do not present one simple pantheon ladder. Kami include divine beings, ancestors, forces, and sacred places.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What makes kami hard to flatten?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They include beings, forces, ancestors, and places"
+        },
+        {
+          "id": "b",
+          "text": "They are only kings"
+        },
+        {
+          "id": "c",
+          "text": "They are only planets"
+        },
+        {
+          "id": "d",
+          "text": "They are only books"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Japanese traditions do not present one simple pantheon ladder. Kami include divine beings, ancestors, forces, and sacred places.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.kami-boundaries.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

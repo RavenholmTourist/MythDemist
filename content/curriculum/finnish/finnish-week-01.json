@@ -1,0 +1,50 @@
+{
+  "id": "finnish.tradition.week01",
+  "title": "Finnish Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "finnish",
+  "coverageType": "myth-cycle",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "finnish-mark",
+    "accent": "pine"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "V\u00e4in\u00e4m\u00f6inen and song",
+      "lessonId": "finnish.week01.day01.vainamoinen-and-song",
+      "lessonPath": "content/lessons/finnish/tradition/day-01-vainamoinen-and-song.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "The Sampo",
+      "lessonId": "finnish.week01.day02.the-sampo",
+      "lessonPath": "content/lessons/finnish/tradition/day-02-the-sampo.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Ilmarinen the smith",
+      "lessonId": "finnish.week01.day03.ilmarinen-the-smith",
+      "lessonPath": "content/lessons/finnish/tradition/day-03-ilmarinen-the-smith.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Louhi and Pohjola",
+      "lessonId": "finnish.week01.day04.louhi-and-pohjola",
+      "lessonPath": "content/lessons/finnish/tradition/day-04-louhi-and-pohjola.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Kullervo and consequence",
+      "lessonId": "finnish.week01.day05.kullervo-and-consequence",
+      "lessonPath": "content/lessons/finnish/tradition/day-05-kullervo-and-consequence.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

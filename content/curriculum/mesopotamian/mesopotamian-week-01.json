@@ -1,0 +1,61 @@
+{
+  "id": "mesopot.gilgamesh.week01",
+  "title": "Gilgamesh and Mesopotamian Power",
+  "subtitle": "Kingship, wildness, friendship, flood, and mortality",
+  "pantheon": "mesopotamian",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "mesopotamian-star",
+    "accent": "clay"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Gilgamesh: Kingship and Excess",
+      "lessonId": "mesopotamian.week01.day01.kingship-excess",
+      "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-01-kingship-excess.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Enkidu: The Wild Companion",
+      "lessonId": "mesopotamian.week01.day02.enkidu-wild",
+      "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-02-enkidu-wild.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Friendship and Grief",
+      "lessonId": "mesopotamian.week01.day03.friendship-grief",
+      "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-03-friendship-grief.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Flood and Mortality",
+      "lessonId": "mesopotamian.week01.day04.flood-mortality",
+      "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-04-flood-mortality.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "A Fragmentary Epic",
+      "lessonId": "mesopotamian.week01.day05.fragmented-source",
+      "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-05-fragmented-source.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.mesopotamia-kingship",
+      "title": "Kingship and excess",
+      "description": "Gilgamesh begins with a hero-king whose power is extraordinary but socially dangerous.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-11000",
+        "pg-18897"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

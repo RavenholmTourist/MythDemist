@@ -1,0 +1,217 @@
+{
+  "id": "yoruba.week01.day04.tortoise-tales",
+  "version": 1,
+  "weekId": "yoruba.tradition.week01",
+  "pantheon": "yoruba",
+  "themeMode": "pantheon",
+  "title": "Tortoise tales",
+  "subtitle": "Source-linked yoruba starter lesson",
+  "estimatedMinutes": 3,
+  "difficulty": 1,
+  "tags": [
+    "yoruba",
+    "tradition"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.yoruba.4.concept",
+      "text": "Identify the main idea in Tortoise tales."
+    },
+    {
+      "id": "obj.yoruba.4.source",
+      "text": "Keep the claim attached to its source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-primary": {
+      "recordId": "pg-38038",
+      "sourceId": "yoruba.west-african-religion",
+      "work": "Fetichism in West Africa",
+      "author": "various West African traditions",
+      "translator": "Robert Hamill Nassau",
+      "locator": "Tortoise tales",
+      "localPath": "content/corpus/yoruba/primary/fetichism-west-africa-nassau-38038.txt",
+      "excerpt": "Local corpus source.",
+      "note": "Starter tradition-library reference."
+    },
+    "ref-secondary": {
+      "recordId": "pg-34655",
+      "sourceId": "yoruba.southern-nigeria-folktales",
+      "work": "Folk Stories from Southern Nigeria",
+      "author": "various Nigerian traditions",
+      "translator": "Elphinstone Dayrell",
+      "locator": "Tortoise tales",
+      "localPath": "content/corpus/yoruba/primary/folk-stories-southern-nigeria-34655.txt",
+      "excerpt": "Comparative local corpus source.",
+      "note": "Second source lens."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Tortoise tales",
+      "body": "Tortoise tales is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "A second lens",
+      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read it",
+      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Connect without flattening",
+      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How should Tortoise tales be introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Through its own sources and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "A universal pantheon"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "No source boundary"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Tortoise tales is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.concept"
+      ],
+      "deepDive": {
+        "prompt": "Check the local source.",
+        "suggestedQuestions": [
+          "What source type is this?",
+          "What does it support?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should remain attached to this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source, genre, and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "Only a character name"
+        },
+        {
+          "id": "c",
+          "text": "Only a modern label"
+        },
+        {
+          "id": "d",
+          "text": "Nothing"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Small traditions need careful source and living-context labels.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.yoruba.4.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Pantheon, folklore, or living tradition?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Small-tradition starter lesson."
+  }
+}

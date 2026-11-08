@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "celtic",
+  "records": [
+    {
+      "id": "pg-5160",
+      "title": "The Mabinogion",
+      "sourceType": "primary-or-retelling-text",
+      "ancientAuthors": [
+        "various Welsh traditions"
+      ],
+      "translator": "Lady Charlotte Guest",
+      "sourceIds": [
+        "cel.mabinogion"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5160",
+      "localPath": "primary/mabinogion-guest-5160.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+    },
+    {
+      "id": "pg-16464",
+      "title": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
+      "sourceType": "primary-text-translation",
+      "ancientAuthors": [
+        "Anonymous Irish traditions"
+      ],
+      "translator": "Joseph Dunn",
+      "sourceIds": [
+        "cel.tain-bo-cualnge"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/16464",
+      "localPath": "primary/tain-bo-cualnge-dunn-16464.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Irish epic material centered on the cattle raid and C\u00fa Chulainn; complements the Welsh Mabinogion rather than treating Celtic myth as one canon."
+    }
+  ]
+}

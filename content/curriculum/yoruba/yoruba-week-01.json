@@ -1,0 +1,50 @@
+{
+  "id": "yoruba.tradition.week01",
+  "title": "Yoruba Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "yoruba",
+  "coverageType": "living-tradition",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "yoruba-mark",
+    "accent": "purple"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Orishas and living religion",
+      "lessonId": "yoruba.week01.day01.orishas-and-living-religion",
+      "lessonPath": "content/lessons/yoruba/tradition/day-01-orishas-and-living-religion.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Divination and destiny",
+      "lessonId": "yoruba.week01.day02.divination-and-destiny",
+      "lessonPath": "content/lessons/yoruba/tradition/day-02-divination-and-destiny.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Ancestors and community",
+      "lessonId": "yoruba.week01.day03.ancestors-and-community",
+      "lessonPath": "content/lessons/yoruba/tradition/day-03-ancestors-and-community.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Tortoise tales",
+      "lessonId": "yoruba.week01.day04.tortoise-tales",
+      "lessonPath": "content/lessons/yoruba/tradition/day-04-tortoise-tales.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Animals and moral lessons",
+      "lessonId": "yoruba.week01.day05.animals-and-moral-lessons",
+      "lessonPath": "content/lessons/yoruba/tradition/day-05-animals-and-moral-lessons.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w07d01.agamemnon-returns",
+  "version": 2,
+  "weekId": "grc.heroes.week07",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Agamemnon Returns",
+  "subtitle": "Victory meets domestic violence",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "oresteia"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w07d01.agamemnon-returns.claim",
+      "text": "Explain this episode: What signal does the Watchman await?"
+    },
+    {
+      "id": "obj.grc.heroes.w07d01.agamemnon-returns.source",
+      "text": "Use the cited passage to explain: Why is victory an insecure ending here?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-08604",
+      "sourceId": "grc.aeschylus.oresteia",
+      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+      "author": "Aeschylus",
+      "translator": "E. D. A. Morshead",
+      "locator": "Agamemnon, opening Watchman and the return; local text, normalized characters 3112-3416",
+      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+      "excerpt": "Palace stand statues of the gods, and altars prepared for sacrifices._ _A Watchman_ I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "A watchman awaits the beacon announcing Troy’s fall. Agamemnon’s victorious return will not restore a peaceful house: Clytemnestra kills him, and the sacrifice of Iphigenia stands among the grievances that the play brings home from war.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “Palace stand statues of the gods, and altars prepared for sacrifices._ _A Watchman_ I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Agamemnon’s return is the anti-Odyssey: the damaged house is not restored but fully exposed.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "The opening Watchman’s relief is not the play’s final judgement on victory. Read forward into the damaged household before assuming that a successful war guarantees a safe return.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Heroic success abroad does not settle moral damage at home.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What signal does the Watchman await?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An oracle naming Laius’ killer"
+        },
+        {
+          "id": "b",
+          "text": "A beacon announcing Troy’s fall"
+        },
+        {
+          "id": "c",
+          "text": "The Sirens’ song"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "A beacon announcing Troy’s fall. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is victory an insecure ending here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Greek army has not yet sailed for Troy."
+        },
+        {
+          "id": "b",
+          "text": "Clytemnestra is absent from the play."
+        },
+        {
+          "id": "c",
+          "text": "The returning king faces violence and unresolved grievances at home."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The returning king faces violence and unresolved grievances at home.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

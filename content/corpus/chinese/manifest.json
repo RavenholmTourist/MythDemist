@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "chinese",
+  "records": [
+    {
+      "id": "pg-15250",
+      "title": "Myths and Legends of China",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Chinese traditions"
+      ],
+      "translator": "E. T. C. Werner",
+      "sourceIds": [
+        "chi.myths-legends-china"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/15250",
+      "localPath": "primary/myths-legends-china-werner-15250.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "An early 20th-century synthesis drawing on Chinese literary sources; useful as a broad scaffold, not a neutral canon."
+    },
+    {
+      "id": "pg-26070",
+      "title": "Chinese Folk-Lore Tales",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various storytellers"
+      ],
+      "translator": "J. Macgowan",
+      "sourceIds": [
+        "chi.folklore-tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26070",
+      "localPath": "primary/chinese-folk-lore-tales-macgowan-26070.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A public-domain folklore collection that adds popular story traditions alongside Werner\u2019s synthesis."
+    }
+  ]
+}

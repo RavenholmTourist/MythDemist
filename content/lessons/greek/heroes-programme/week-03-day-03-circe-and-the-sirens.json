@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w03d03.circe-and-the-sirens",
+  "version": 2,
+  "weekId": "grc.heroes.week03",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Circe and the Sirens",
+  "subtitle": "Planning survives temptation",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w03d03.circe-and-the-sirens.claim",
+      "text": "Explain this episode: How are the crew protected from the Sirens’ song?"
+    },
+    {
+      "id": "obj.grc.heroes.w03d03.circe-and-the-sirens.source",
+      "text": "Use the cited passage to explain: Why does Odysseus give instructions before hearing the song?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 12, Circe’s instructions about the Sirens; local text file lines 5365-5370 (physical file lines, not ancient verse numbers)",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "Therefore pass these Sirens by, and stop your men’s ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,99 and they must lash the rope’s ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Circe warns Odysseus about the Sirens. The crew must block their ears with wax; Odysseus can listen only while bound to the mast, with orders that prevent his later wishes from overruling the plan.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “Therefore pass these Sirens by, and stop your men’s ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,99 and they must lash the rope’s ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: This is a model of practical wisdom: know the danger, accept the limit, and design a safeguard before the test begins.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "The crew and their captain use different safeguards. Wax prevents hearing; the mast prevents action. The instructions matter because the plan anticipates a later demand to abandon it.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Use the same question later with tragic heroes: do they plan for weakness, or mistake confidence for strength?",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How are the crew protected from the Sirens’ song?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They answer with a louder song."
+        },
+        {
+          "id": "b",
+          "text": "Wax blocks their ears."
+        },
+        {
+          "id": "c",
+          "text": "They all bind themselves to the mast."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Wax blocks their ears.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does Odysseus give instructions before hearing the song?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The crew have already heard the song safely."
+        },
+        {
+          "id": "b",
+          "text": "Circe has promised the Sirens will remain silent."
+        },
+        {
+          "id": "c",
+          "text": "The plan anticipates that temptation will change his wishes."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The plan anticipates that temptation will change his wishes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

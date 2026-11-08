@@ -1,0 +1,218 @@
+{
+  "id": "roman.week01.day04.mars-war-state",
+  "version": 1,
+  "weekId": "rom.myth.week01",
+  "pantheon": "roman",
+  "themeMode": "pantheon",
+  "title": "Mars: War and the State",
+  "subtitle": "Violence framed by order and identity",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "mars",
+    "war",
+    "state"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.mars-war-state.concept",
+      "text": "Identify the main idea in Mars: War and the State."
+    },
+    {
+      "id": "obj.mars-war-state.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "roman-pg-21765",
+      "sourceId": "rom.ovid.metamorphoses-1-7",
+      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses I\u2013VII\u2014Mars and Roman identity",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+      "excerpt": "ose blood the mulberry is turned from white to black, and that of the discovery of the intrigues of Mars and Venus, on the information of the Sun. They also tell how the Sun assumed the form of Eurynome, that he might enjoy her daughter Leucotho\u00eb; how Clytie, becoming jealous of her sister, was transformed into a sun-flower; and how Salmacis and Hermaphrodit",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses VIII\u2013XV\u2014Roman heroic and state themes",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "queen; and that Venus inspired Pasipha\u00eb with it, to be revenged for having been surprised with Mars by Apollo, her father. Plato, Plutarch, and other writers acknowledge that these stories were invented from the hatred which the Greeks bore to the king of Crete. As, however, these extravagant fables have generally some foundation in fact, we ar",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Mars: War and the State",
+      "body": "Roman Mars is more than a fighter: war becomes bound to citizenship, protection, and collective identity.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How does Roman Mars differ from simple violence?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "War is tied to order and identity"
+        },
+        {
+          "id": "b",
+          "text": "He is only a poet"
+        },
+        {
+          "id": "c",
+          "text": "He avoids armies"
+        },
+        {
+          "id": "d",
+          "text": "He is a water spirit"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Roman Mars is more than a fighter: war becomes bound to citizenship, protection, and collective identity.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.mars-war-state.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

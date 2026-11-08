@@ -1,0 +1,218 @@
+{
+  "id": "celtic.week01.day04.math-sovereignty",
+  "version": 1,
+  "weekId": "cel.tales.week01",
+  "pantheon": "celtic",
+  "themeMode": "pantheon",
+  "title": "Math: Law, Magic, and Sovereignty",
+  "subtitle": "Rulership tested by transgression",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "math",
+    "law",
+    "sovereignty"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.math-sovereignty.concept",
+      "text": "Identify the main idea in Math: Law, Magic, and Sovereignty."
+    },
+    {
+      "id": "obj.math-sovereignty.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Mabinogion",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "Math son of Mathonwy",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on the Notes appended to the various Tales, I have found myself led unavoidably in",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-16464",
+      "sourceId": "cel.tain-bo-cualnge",
+      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
+      "author": "Anonymous Irish traditions",
+      "translator": "Joseph Dunn",
+      "locator": "T\u00e1in\u2014kingship and contested authority",
+      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
+      "excerpt": "ploits of Cuchulain, 46. VIIa The Slaying of the Smith's Hound by Cuchulain, 54. VIIb The Taking of Arms by Cuchulain and The Slaying of the Three Sons of Necht Scene, 60. VIIc A Separate Version as far as the Slaying Of Orlam, 80. VIII The Slaying of Orlam, 82. VIIIa The Slaying of the Three MacArach, 85. VIIIb The Combat of L",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Math: Law, Magic, and Sovereignty",
+      "body": "The Fourth Branch joins royal authority to magical transformation, broken norms, and difficult judgment.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Math\u2019s branch join together?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Law, magic, and sovereignty"
+        },
+        {
+          "id": "b",
+          "text": "Only fishing"
+        },
+        {
+          "id": "c",
+          "text": "Only astronomy"
+        },
+        {
+          "id": "d",
+          "text": "Only diplomacy"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The Fourth Branch joins royal authority to magical transformation, broken norms, and difficult judgment.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.math-sovereignty.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

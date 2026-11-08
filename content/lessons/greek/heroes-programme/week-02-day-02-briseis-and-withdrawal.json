@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w02d02.briseis-and-withdrawal",
+  "version": 2,
+  "weekId": "grc.heroes.week02",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Briseis and Withdrawal",
+  "subtitle": "A prize becomes a wound",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim",
+      "text": "Explain this episode: What does Agamemnon take from Achilles?"
+    },
+    {
+      "id": "obj.grc.heroes.w02d02.briseis-and-withdrawal.source",
+      "text": "Use the cited passage to explain: What is Achilles’ immediate response to the insult?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, the taking of Briseis; Book 1, normalized characters 9247-9550",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "my ship and my followers, but I shall come to your tent and take your own prize Briseis, that you may learn how much stronger I am than you are, and that another may fear to set himself up as equal or comparable with me.” The son of Peleus was furious, and his heart within his shaggy breast was divided",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Agamemnon must return Chryseis, but demands another captive as compensation. He takes Briseis from Achilles, who withdraws from fighting. Both women are treated as prizes in the leaders’ dispute.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “my ship and my followers, but I shall come to your tent and take your own prize Briseis, that you may learn how much stronger I am than you are, and that another may fear to set himself up as equal or comparable with me.” The son of Peleus was furious, and his heart within his shaggy breast was divided”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Achilles withdraws rather than duel Agamemnon, but his choice does not leave the community untouched; the army loses the fighter it needs.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Keep Chryseis and Briseis distinct. One captive’s return prompts the seizure of another. The leaders speak about honour, but their exchange also exposes how women are treated as possessions.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Keep asking whose suffering makes heroic honor possible.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Agamemnon take from Achilles?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Trojan king’s ransom"
+        },
+        {
+          "id": "b",
+          "text": "Briseis"
+        },
+        {
+          "id": "c",
+          "text": "The armour made by Hephaestus"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Briseis. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What is Achilles’ immediate response to the insult?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He kills Agamemnon in the assembly."
+        },
+        {
+          "id": "b",
+          "text": "He leads the assault on Troy that night."
+        },
+        {
+          "id": "c",
+          "text": "He withdraws his fighting support."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "He withdraws his fighting support.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "maya",
+  "coverageType": "regional-tradition",
+  "records": [
+    {
+      "id": "pg-56550",
+      "title": "The Popol Vuh",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "K\u02bciche\u02bc traditions"
+      ],
+      "translator": "various translators",
+      "sourceIds": [
+        "maya.popol-vuh"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/56550",
+      "localPath": "primary/popol-vuh-56550.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-58464",
+      "title": "Essays of an Americanist",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Daniel G. Brinton"
+      ],
+      "translator": "Daniel G. Brinton",
+      "sourceIds": [
+        "maya.americanist"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/58464",
+      "localPath": "primary/americanist-essays-brinton-58464.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

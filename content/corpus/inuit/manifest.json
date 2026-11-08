@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "inuit",
+  "coverageType": "regional-tradition",
+  "records": [
+    {
+      "id": "pg-28932",
+      "title": "Eskimo Folk-Tales",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Inuit traditions"
+      ],
+      "translator": "Knud Rasmussen",
+      "sourceIds": [
+        "inuit.folk-tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/28932",
+      "localPath": "primary/eskimo-folk-tales-28932.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-24569",
+      "title": "A Treasury of Eskimo Tales",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Inuit traditions"
+      ],
+      "translator": "Clara K. Bayliss",
+      "sourceIds": [
+        "inuit.tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/24569",
+      "localPath": "primary/treasury-eskimo-tales-24569.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "id": "basque.week01.day01.mari-and-sacred-mountains",
+  "version": 1,
+  "weekId": "basque.tradition.week01",
+  "pantheon": "basque",
+  "themeMode": "pantheon",
+  "title": "Mari and sacred mountains",
+  "subtitle": "Source-linked basque starter lesson",
+  "estimatedMinutes": 3,
+  "difficulty": 1,
+  "tags": [
+    "basque",
+    "tradition"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.basque.1.concept",
+      "text": "Identify the main idea in Mari and sacred mountains."
+    },
+    {
+      "id": "obj.basque.1.source",
+      "text": "Keep the claim attached to its source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-primary": {
+      "recordId": "pg-34902",
+      "sourceId": "basque.legends",
+      "work": "Basque Legends",
+      "author": "various Basque traditions",
+      "translator": "Wentworth Webster",
+      "locator": "Mari and sacred mountains",
+      "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
+      "excerpt": "Local corpus source.",
+      "note": "Starter tradition-library reference."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Mari and sacred mountains",
+      "body": "Mari and sacred mountains is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "A second lens",
+      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read it",
+      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Connect without flattening",
+      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How should Mari and sacred mountains be introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Through its own sources and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "A universal pantheon"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "No source boundary"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Mari and sacred mountains is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.concept"
+      ],
+      "deepDive": {
+        "prompt": "Check the local source.",
+        "suggestedQuestions": [
+          "What source type is this?",
+          "What does it support?"
+        ],
+        "sourceRefIds": [
+          "ref-primary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should remain attached to this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source, genre, and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "Only a character name"
+        },
+        {
+          "id": "c",
+          "text": "Only a modern label"
+        },
+        {
+          "id": "d",
+          "text": "Nothing"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Small traditions need careful source and living-context labels.",
+      "sourceRefIds": [
+        "ref-primary"
+      ],
+      "objectiveIds": [
+        "obj.basque.1.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Pantheon, folklore, or living tradition?"
+        ],
+        "sourceRefIds": [
+          "ref-primary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Small-tradition starter lesson."
+  }
+}

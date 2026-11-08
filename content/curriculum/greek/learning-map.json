@@ -1,0 +1,240 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.greek-heroes",
+      "title": "Heroes and Epic Traditions",
+      "description": "Eight weeks on heroic ideals, quests, war, tragedy, and changing versions.",
+      "weeks": [
+        "Heroic ideals",
+        "Achilles and the Iliad",
+        "Odysseus and return",
+        "Jason and Medea",
+        "Heracles",
+        "Theseus and Athens",
+        "Heroes on stage",
+        "Afterlives of heroes"
+      ]
+    },
+    {
+      "id": "arc.greek-gods",
+      "title": "Gods, Power, and Worship",
+      "description": "Eight weeks on Olympians, divine families, cult, sacrifice, and contested stories.",
+      "weeks": [
+        "Olympian order",
+        "Zeus and succession",
+        "Athena and craft",
+        "Apollo and Artemis",
+        "Aphrodite and desire",
+        "Dionysus and ecstasy",
+        "Demeter and Persephone",
+        "Cult and local variation"
+      ]
+    },
+    {
+      "id": "arc.greek-underworld",
+      "title": "Death, Underworld, and Afterlife",
+      "description": "Eight weeks on Hades, katabasis, mourning, judgment, and heroic descents.",
+      "weeks": [
+        "Death and Hades",
+        "Persephone",
+        "Odysseus among the dead",
+        "Heracles below",
+        "Orpheus",
+        "Judgment and memory",
+        "Monsters of the underworld",
+        "Hope and return"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.iliad-anger-honor": {
+      "title": "Anger, honor, and consequence",
+      "body": "The Iliad does not begin with the whole Trojan War. It begins with Achilles\u2019 anger and the suffering it causes. Read that opening as a study in honor: a heroic quality can be excellent and destructive at once.",
+      "recordIds": [
+        "pg-02199"
+      ],
+      "nextTopicIds": [
+        "topic.odyssey-cunning-identity",
+        "topic.heroic-variants",
+        "topic.epic-openings"
+      ],
+      "cards": [
+        {
+          "title": "The war inside the war",
+          "body": "The Iliad opens with a quarrel inside the Greek camp, not with the fall of Troy. Achilles\u2019 injured honor becomes a pressure point for the entire army.",
+          "recordIds": [
+            "pg-02199"
+          ]
+        },
+        {
+          "title": "Excellence has a social cost",
+          "body": "Achilles is outstanding as a warrior, but his withdrawal harms the people who depend on him. The poem asks whether heroic prestige can justify communal suffering.",
+          "recordIds": [
+            "pg-02199"
+          ]
+        }
+      ]
+    },
+    "topic.odyssey-cunning-identity": {
+      "title": "Cunning, names, and disguise",
+      "body": "The Odyssey introduces its hero through ingenuity, travel, suffering, and return. Odysseus is heroic not because he is always stronger, but because he survives through intelligence, self-control, and carefully managed identity.",
+      "recordIds": [
+        "pg-01727"
+      ],
+      "nextTopicIds": [
+        "topic.iliad-anger-honor",
+        "topic.epic-openings",
+        "topic.heroic-variants"
+      ],
+      "cards": [
+        {
+          "title": "The wandering mind",
+          "body": "The Odyssey\u2019s hero survives by reading situations, changing shape in speech, and waiting for the right moment.",
+          "recordIds": [
+            "pg-01727"
+          ]
+        },
+        {
+          "title": "Identity under pressure",
+          "body": "Odysseus\u2019 false names and disguises show that identity in the Odyssey is something managed, tested, and slowly recovered.",
+          "recordIds": [
+            "pg-01727"
+          ]
+        }
+      ]
+    },
+    "topic.heroic-variants": {
+      "title": "When heroic stories change",
+      "body": "Later mythographers reorganize heroic stories into readable systems. Pseudo-Apollodorus and Plutarch are invaluable, but they are later interpreters\u2014not a single ancient canon. Always ask which source preserves which version.",
+      "recordIds": [
+        "perseus-apollodorus-library-frazer",
+        "perseus-apollodorus-epitome-frazer",
+        "pg-00674"
+      ],
+      "nextTopicIds": [
+        "topic.roman-transformation",
+        "topic.celtic-otherworld",
+        "topic.tragedy-reworks-myth"
+      ],
+      "cards": [
+        {
+          "title": "There is no single hero file",
+          "body": "Heroic stories move through epic, tragedy, mythography, biography, and local tradition. Each source selects and organizes differently.",
+          "recordIds": [
+            "perseus-apollodorus-library-frazer",
+            "perseus-apollodorus-epitome-frazer",
+            "pg-00674"
+          ]
+        },
+        {
+          "title": "Later does not mean useless",
+          "body": "Pseudo-Apollodorus and Plutarch are later, but they preserve and organize traditions. The key is to label them rather than pretend they are ancient epic.",
+          "recordIds": [
+            "perseus-apollodorus-library-frazer",
+            "perseus-apollodorus-epitome-frazer",
+            "pg-00674"
+          ]
+        }
+      ]
+    },
+    "topic.heroic-tragedy": {
+      "title": "Heroes on the tragic stage",
+      "body": "Athenian tragedy reshapes heroic traditions into immediate conflict. A play is not a neutral summary of myth: it chooses a version, sharpens the argument, and makes an audience confront the cost.",
+      "recordIds": [
+        "pg-08604",
+        "pg-00031",
+        "pg-15081"
+      ],
+      "nextTopicIds": [
+        "topic.tragedy-reworks-myth",
+        "topic.heroic-variants",
+        "topic.iliad-anger-honor"
+      ],
+      "cards": [
+        {
+          "title": "Myth becomes immediate",
+          "body": "Tragedy turns inherited stories into a present-tense confrontation: arguments, choices, reversals, and consequences.",
+          "recordIds": [
+            "pg-08604",
+            "pg-00031",
+            "pg-15081"
+          ]
+        },
+        {
+          "title": "A chosen version",
+          "body": "A tragedy does not merely repeat myth. It selects a version and sharpens it for a particular conflict and audience.",
+          "recordIds": [
+            "pg-08604",
+            "pg-00031",
+            "pg-15081"
+          ]
+        }
+      ]
+    },
+    "topic.epic-openings": {
+      "title": "Why epic openings matter",
+      "body": "An epic opening announces the poem\u2019s real subject. The Iliad chooses Achilles\u2019 anger; the Odyssey chooses an ingenious wanderer\u2019s return. Those openings already tell us that heroism is not one fixed quality.",
+      "recordIds": [
+        "pg-02199",
+        "pg-01727"
+      ],
+      "nextTopicIds": [
+        "topic.iliad-anger-honor",
+        "topic.odyssey-cunning-identity",
+        "topic.heroic-variants"
+      ],
+      "cards": [
+        {
+          "title": "The opening names the lens",
+          "body": "An epic\u2019s first lines announce what the poem wants us to watch: anger in the Iliad, ingenious wandering in the Odyssey.",
+          "recordIds": [
+            "pg-02199",
+            "pg-01727"
+          ]
+        },
+        {
+          "title": "Compare openings, compare heroes",
+          "body": "Reading openings side by side reveals that heroism is not one trait. It is the quality a particular story chooses to test.",
+          "recordIds": [
+            "pg-02199",
+            "pg-01727"
+          ]
+        }
+      ]
+    },
+    "topic.tragedy-reworks-myth": {
+      "title": "Tragedy as myth-making",
+      "body": "Tragedy keeps old stories alive by changing their pressure points. Euripides, Sophocles, and Aeschylus do not merely repeat myth\u2014they stage competing duties, speeches, and consequences for a contemporary audience.",
+      "recordIds": [
+        "pg-08604",
+        "pg-00031",
+        "pg-15081"
+      ],
+      "nextTopicIds": [
+        "topic.heroic-tragedy",
+        "topic.heroic-variants",
+        "topic.epic-openings"
+      ],
+      "cards": [
+        {
+          "title": "Old stories, new pressure",
+          "body": "Tragedy keeps inherited stories alive by forcing them into contemporary conflicts about duty, power, family, and justice.",
+          "recordIds": [
+            "pg-08604",
+            "pg-00031",
+            "pg-15081"
+          ]
+        },
+        {
+          "title": "Not a neutral summary",
+          "body": "A play can change emphasis, motives, and outcomes. Treat it as an argument with tradition, not a transcript of myth.",
+          "recordIds": [
+            "pg-08604",
+            "pg-00031",
+            "pg-15081"
+          ]
+        }
+      ]
+    }
+  }
+}

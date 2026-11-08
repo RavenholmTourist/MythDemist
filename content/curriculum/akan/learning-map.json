@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.akan-traditions",
+      "title": "Akan Traditions",
+      "description": "Eight weeks on Akan sources, stories, and regional variation.",
+      "weeks": [
+        "Akan Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.akan-anansi": {
+      "title": "Anansi the spider",
+      "body": "Anansi the spider can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-66923",
+        "pg-72735"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "Anansi the spider belongs first to its own tradition.",
+          "recordIds": [
+            "pg-66923",
+            "pg-72735"
+          ]
+        }
+      ]
+    }
+  }
+}

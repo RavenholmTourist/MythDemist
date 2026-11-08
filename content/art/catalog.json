@@ -1,0 +1,42 @@
+{
+  "catalogVersion": 1,
+  "records": [
+    {
+      "id": "art.met.254187",
+      "title": "Terracotta stamnos (jar)",
+      "creator": "Attributed to the Deepdene Painter",
+      "date": "ca. 470\u2013460 BCE",
+      "culture": "Greek, Attic",
+      "medium": "Terracotta",
+      "collection": "The Metropolitan Museum of Art",
+      "objectNumber": "41.162.20a, b",
+      "sourceUrl": "https://www.metmuseum.org/art/collection/search/254187",
+      "apiUrl": "https://collectionapi.metmuseum.org/public/collection/v1/objects/254187",
+      "localPath": "content/art/greek/met-254187-terracotta-stamnos.jpg",
+      "remoteImageUrl": "https://images.metmuseum.org/CRDImages/gr/web-large/DP325379.jpg",
+      "license": "Public domain / The Met Open Access CC0",
+      "licenseUrl": "https://www.metmuseum.org/policies/image-resources",
+      "attribution": "Attributed to the Deepdene Painter, Terracotta stamnos (jar), ca. 470\u2013460 BCE. The Metropolitan Museum of Art, Rogers Fund, 1941.",
+      "alt": "A Classical Attic red-figure stamnos with a warrior scene identified by The Met as possibly Achilles, and Menelaos reclaiming Helen on the reverse.",
+      "subjects": [
+        "greek",
+        "heroes",
+        "achilles",
+        "trojan-war",
+        "vase-painting"
+      ],
+      "provider": "met",
+      "usage": [
+        "reward",
+        "evidence"
+      ],
+      "entities": [
+        "achilles",
+        "menelaos",
+        "helen",
+        "thetis"
+      ],
+      "verifiedAt": "2026-11-07"
+    }
+  ]
+}

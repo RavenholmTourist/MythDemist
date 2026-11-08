@@ -1,0 +1,41 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.cherokee-traditions",
+      "title": "Cherokee Traditions",
+      "description": "Eight weeks on Cherokee sources, stories, and regional variation.",
+      "weeks": [
+        "Cherokee Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.cherokee-animals-origins": {
+      "title": "How the world was made",
+      "body": "How the world was made can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-45634"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "How the world was made belongs first to its own tradition.",
+          "recordIds": [
+            "pg-45634"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "arcChoices",
+    "topics"
+  ],
+  "properties": {
+    "arcChoices": {
+      "type": "array"
+    },
+    "topics": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "title",
+          "body",
+          "recordIds",
+          "nextTopicIds"
+        ],
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "body": {
+            "type": "string"
+          },
+          "recordIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "nextTopicIds": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

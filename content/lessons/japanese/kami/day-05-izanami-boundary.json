@@ -1,0 +1,218 @@
+{
+  "id": "japanese.week01.day05.izanami-boundary",
+  "version": 1,
+  "weekId": "jpn.kami.week01",
+  "pantheon": "japanese",
+  "themeMode": "pantheon",
+  "title": "Izanami: Creation and Boundary",
+  "subtitle": "Birth, death, and separation",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "izanami",
+    "creation",
+    "boundary"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.izanami-boundary.concept",
+      "text": "Identify the main idea in Izanami: Creation and Boundary."
+    },
+    {
+      "id": "obj.izanami-boundary.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan\u2014Izanami, death, and the underworld",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "th. These two beings were the powerful God of the Air, Izanagi, and the fair Goddess of the Clouds, Izanami. From them sprang all life. Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess o",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-4018",
+      "sourceId": "jpn.folklore.japanese-fairy-tales",
+      "work": "Japanese Fairy Tales",
+      "author": "traditional tales; collected by Yei Theodora Ozaki",
+      "translator": "Yei Theodora Ozaki",
+      "locator": "Japanese Fairy Tales\u2014return and supernatural boundaries",
+      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
+      "excerpt": "t Hidesato insisted on going home, saying that he had now finished what he had come to do, and must return. The Dragon King and his family were all very sorry to have him leave so soon, but since he would go they begged him to accept a few small presents (so they said) in token of their gratitude to him for delivering them forever from their horrible enemy t",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Izanami: Creation and Boundary",
+      "body": "Izanami\u2019s death transforms creative partnership into the boundary between living and dead worlds.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What changes after Izanami\u2019s death?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A boundary between living and dead"
+        },
+        {
+          "id": "b",
+          "text": "A royal census"
+        },
+        {
+          "id": "c",
+          "text": "A sea treaty"
+        },
+        {
+          "id": "d",
+          "text": "A writing system"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Izanami\u2019s death transforms creative partnership into the boundary between living and dead worlds.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.izanami-boundary.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

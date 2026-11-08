@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "indian",
+  "records": [
+    {
+      "id": "pg-19630",
+      "title": "Maha-bharata",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "traditionally Vyasa"
+      ],
+      "translator": "Romesh Chunder Dutt",
+      "sourceIds": [
+        "ind.mahabharata-dutt"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/19630",
+      "localPath": "primary/mahabharata-dutt-19630.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A condensed English verse rendering of the Mahabharata; useful as a literary gateway, not a complete translation."
+    },
+    {
+      "id": "pg-57265",
+      "title": "The R\u0101m\u0101yana, Volume 1",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Valmiki"
+      ],
+      "translator": "Manmatha Nath Dutt",
+      "sourceIds": [
+        "ind.ramayana-vol1-dutt"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/57265",
+      "localPath": "primary/ramayana-vol1-dutt-57265.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "The first volume of a public-domain English prose translation of Valmiki\u2019s Ramayana."
+    }
+  ]
+}

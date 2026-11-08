@@ -1,0 +1,132 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.celtic-foundations",
+      "title": "Celtic Foundations",
+      "description": "Eight weeks introducing major Celtic traditions.",
+      "weeks": [
+        "Welsh Tales",
+        "Gods and powers",
+        "Heroes and journeys",
+        "Otherworlds",
+        "Ritual and place",
+        "Fate and transformation",
+        "Variant sources",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.celtic-otherworld": {
+      "title": "The Celtic Otherworld",
+      "body": "Welsh tales make the supernatural a close neighboring realm where encounters test honor, promises, and kingship.",
+      "recordIds": [
+        "pg-5160",
+        "pg-16464"
+      ],
+      "nextTopicIds": [
+        "topic.egypt-death-renewal",
+        "topic.slavic-ambiguous-helper",
+        "topic.heroic-variants",
+        "topic.celtic-sovereignty-test"
+      ],
+      "cards": [
+        {
+          "title": "Why this matters",
+          "body": "Welsh tales make the supernatural a close neighboring realm where encounters test honor, promises, and kingship.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        },
+        {
+          "title": "Compare across pantheons",
+          "body": "Use this as a bridge into shared themes, while keeping the tradition and source type distinct.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        }
+      ]
+    },
+    "topic.shared-otherworlds": {
+      "title": "Shared Theme: Otherworlds",
+      "body": "A cross-pantheon bridge topic. It compares a shared theme while keeping each pantheon\u2019s sources and versions distinct.",
+      "recordIds": [
+        "pg-5160",
+        "pg-16464"
+      ],
+      "nextTopicIds": [],
+      "cards": [
+        {
+          "title": "A shared question",
+          "body": "How does this pantheon frame the theme differently from the others you have met?",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        }
+      ]
+    },
+    "topic.celtic-sovereignty-test": {
+      "title": "Sovereignty under test",
+      "body": "Welsh and Irish traditions repeatedly test rulership through promises, enchantment, insult, and the costs of royal action.",
+      "recordIds": [
+        "pg-5160",
+        "pg-16464"
+      ],
+      "nextTopicIds": [
+        "topic.shared.war-honor",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Welsh and Irish traditions repeatedly test rulership through promises, enchantment, insult, and the costs of royal action.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        }
+      ]
+    },
+    "topic.celtic-speech-change": {
+      "title": "Speech, poetry, and change",
+      "body": "Bardic and magical language can transform identity, defend a hero, or preserve a tradition.",
+      "recordIds": [
+        "pg-5160",
+        "pg-16464"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.transformation-reception"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Bardic and magical language can transform identity, defend a hero, or preserve a tradition.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-5160",
+            "pg-16464"
+          ]
+        }
+      ]
+    }
+  }
+}

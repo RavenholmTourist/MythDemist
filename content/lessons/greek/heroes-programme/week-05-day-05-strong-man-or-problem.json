@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w05d05.strong-man-or-problem",
+  "version": 2,
+  "weekId": "grc.heroes.week05",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Strong Man or Problem",
+  "subtitle": "Sources use strength differently",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "pindar"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w05d05.strong-man-or-problem.claim",
+      "text": "Explain this episode: Whose victory does Olympian 2 celebrate?"
+    },
+    {
+      "id": "obj.grc.heroes.w05d05.strong-man-or-problem.source",
+      "text": "Use the cited passage to explain: What is Herakles doing in this opening?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-10717",
+      "sourceId": "grc.pindar.victory-odes",
+      "work": "The Extant Odes of Pindar",
+      "author": "Pindar",
+      "translator": "Ernest Myers",
+      "locator": "Olympian 2, opening invocation; local text, normalized characters 43184-43485",
+      "localPath": "content/corpus/greek/primary/pindar-extant-odes-10717.txt",
+      "excerpt": "what man, are we to celebrate?[2] Verily of Zeus is Pisa the abode, of Herakles the Olympian feast was founded from the chief spoils of war, and Theron's name must we proclaim for his victory with the four-horse-car, a righteous and god-fearing host, the stay of Akragas, of famous sires the flower, a",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "At the opening of Olympian 2, Pindar moves from Zeus to Herakles and then to the victor Theron. Herakles’ association with the festival helps place a contemporary victory within a prestigious sacred and heroic frame.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “what man, are we to celebrate?[2] Verily of Zeus is Pisa the abode, of Herakles the Olympian feast was founded from the chief spoils of war, and Theron's name must we proclaim for his victory with the four-horse-car, a righteous and god-fearing host, the stay of Akragas, of famous sires the flower, a”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: That differs from Apollodorus’ catalogue; praise poetry highlights what the audience should admire, while mythography explains sequence and consequence.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Pindar is praising a particular victor before an audience, not compiling a complete life of Herakles. Ask why this allusion is useful at this point in the ode before using it as a general statement about the hero.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Heroic traits are arguments, not neutral labels.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose victory does Olympian 2 celebrate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Oedipus’"
+        },
+        {
+          "id": "b",
+          "text": "Theron’s"
+        },
+        {
+          "id": "c",
+          "text": "Achilles’"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Theron’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What is Herakles doing in this opening?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Confessing the murder of Laius"
+        },
+        {
+          "id": "b",
+          "text": "Explaining the bed test to Penelope"
+        },
+        {
+          "id": "c",
+          "text": "Connecting the festival’s heroic foundation with praise of the victor"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Connecting the festival’s heroic foundation with praise of the victor. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

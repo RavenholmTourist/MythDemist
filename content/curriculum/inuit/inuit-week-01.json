@@ -1,0 +1,50 @@
+{
+  "id": "inuit.tradition.week01",
+  "title": "Inuit Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "inuit",
+  "coverageType": "regional-tradition",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "inuit-mark",
+    "accent": "arctic"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "The sea and survival",
+      "lessonId": "inuit.week01.day01.the-sea-and-survival",
+      "lessonPath": "content/lessons/inuit/tradition/day-01-the-sea-and-survival.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Raven and daylight",
+      "lessonId": "inuit.week01.day02.raven-and-daylight",
+      "lessonPath": "content/lessons/inuit/tradition/day-02-raven-and-daylight.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Animal helpers",
+      "lessonId": "inuit.week01.day03.animal-helpers",
+      "lessonPath": "content/lessons/inuit/tradition/day-03-animal-helpers.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Moon, tides, and danger",
+      "lessonId": "inuit.week01.day04.moon-tides-and-danger",
+      "lessonPath": "content/lessons/inuit/tradition/day-04-moon-tides-and-danger.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Shamans and taboo",
+      "lessonId": "inuit.week01.day05.shamans-and-taboo",
+      "lessonPath": "content/lessons/inuit/tradition/day-05-shamans-and-taboo.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

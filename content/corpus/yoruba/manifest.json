@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "yoruba",
+  "coverageType": "living-tradition",
+  "records": [
+    {
+      "id": "pg-38038",
+      "title": "Fetichism in West Africa",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various West African traditions"
+      ],
+      "translator": "Robert Hamill Nassau",
+      "sourceIds": [
+        "yoruba.west-african-religion"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/38038",
+      "localPath": "primary/fetichism-west-africa-nassau-38038.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-34655",
+      "title": "Folk Stories from Southern Nigeria",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Nigerian traditions"
+      ],
+      "translator": "Elphinstone Dayrell",
+      "sourceIds": [
+        "yoruba.southern-nigeria-folktales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/34655",
+      "localPath": "primary/folk-stories-southern-nigeria-34655.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

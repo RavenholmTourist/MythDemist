@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w07d03.antigone-and-burial",
+  "version": 2,
+  "weekId": "grc.heroes.week07",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Antigone and Burial",
+  "subtitle": "Duties collide",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "theban"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w07d03.antigone-and-burial.claim",
+      "text": "Explain this episode: Whose burial does Creon forbid?"
+    },
+    {
+      "id": "obj.grc.heroes.w07d03.antigone-and-burial.source",
+      "text": "Use the cited passage to explain: What motivates Antigone’s defiance?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00031",
+      "sourceId": "grc.sophocles.theban-plays",
+      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+      "author": "Sophocles",
+      "translator": "Francis Storr",
+      "locator": "Antigone, Creon’s burial decree; local text, normalized characters 157708-158010",
+      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+      "excerpt": "vengeance with his kinsmen’s blood, Or drag them captive at his chariot wheels— For Polyneices ’tis ordained that none Shall give him burial or make mourn for him, But leave his corpse unburied, to be meat For dogs and carrion crows, a ghastly sight. So am I purposed; never by my will Shall miscreants",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Creon forbids burial of Polyneices after the attack on Thebes. Antigone defies him in the name of obligations to her brother and the gods. The play tests Creon’s assertion of civic authority against duties his decree cannot simply erase.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “vengeance with his kinsmen’s blood, Or drag them captive at his chariot wheels— For Polyneices ’tis ordained that none Shall give him burial or make mourn for him, But leave his corpse unburied, to be meat For dogs and carrion crows, a ghastly sight. So am I purposed; never by my will Shall miscreants”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: the play puts Creon’s claims about civic order under pressure from obligations to kin and the gods. That does not make all competing claims equally justified.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Separate Creon’s justification of his decree from the play’s testing of that justification. Noticing competing claims does not require treating every character’s position as equally defensible.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "A hero can be right about a duty and still help produce catastrophe.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose burial does Creon forbid?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Polyneices’"
+        },
+        {
+          "id": "b",
+          "text": "Patroclus’"
+        },
+        {
+          "id": "c",
+          "text": "Laius’"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Polyneices’. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What motivates Antigone’s defiance?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "An order from Agamemnon’s embassy"
+        },
+        {
+          "id": "b",
+          "text": "Obligations to her brother and divine burial duties"
+        },
+        {
+          "id": "c",
+          "text": "A desire to recover the Golden Fleece"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Obligations to her brother and divine burial duties. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

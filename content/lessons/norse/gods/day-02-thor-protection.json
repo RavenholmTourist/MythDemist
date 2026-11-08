@@ -1,0 +1,218 @@
+{
+  "id": "norse.week01.day02.thor-protection",
+  "version": 1,
+  "weekId": "nor.gods.week01",
+  "pantheon": "norse",
+  "themeMode": "pantheon",
+  "title": "Thor: Strength and Protection",
+  "subtitle": "A defender whose power is practical",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "thor",
+    "protection",
+    "strength"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.thor-protection.concept",
+      "text": "Identify the main idea in Thor: Strength and Protection."
+    },
+    {
+      "id": "obj.thor-protection.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-18947",
+      "sourceId": "nor.snorri.prose-edda",
+      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "author": "Snorri Sturluson",
+      "translator": "Rasmus B. Anderson",
+      "locator": "Prose Edda\u2014Thor and threats to the gods",
+      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+      "excerpt": "before using this eBook. Title: The Younger Edda; Also called Snorre's Edda, or The Prose Edda Author: Snorri Sturluson Translator: Rasmus Bj\u00f6rn Anderson Release date: July 31, 2006 [eBook #18947] Most recently updated: August 4, 2024 Language: English Other information and formats: www.gutenberg.org/ebooks/18947 Credits: Pr",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "The Poetic Edda",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "\u00derymskvi\u00f0a\u2014Thor, hammer, and recovery",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "miskvitha 138 Lokasenna 151 Thrymskvitha 174 Alvissmol 183 Baldrs Draumar 195 Rigsthula 201 Hyndluljoth 217 Svipd",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Thor: Strength and Protection",
+      "body": "Thor\u2019s strength is framed around defense, weather, travel, and confronting threats to gods and humans.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Why is Thor often a defender rather than only a warrior?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Thor protects gods and humans through direct strength"
+        },
+        {
+          "id": "b",
+          "text": "Odin\u2019s secret wisdom"
+        },
+        {
+          "id": "c",
+          "text": "Loki\u2019s verbal ambiguity"
+        },
+        {
+          "id": "d",
+          "text": "Healing sleep"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Thor\u2019s strength is framed around defense, weather, travel, and confronting threats to gods and humans.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.thor-protection.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

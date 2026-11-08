@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Mythos isolated browser regression</title></head>
+<body>
+<h1 id="result">Running</h1><pre id="details"></pre><iframe id="appFrame" title="Test app" width="390" height="700"></iframe>
+<script type="module">
+import { assessmentKey } from '../src/progression.js';
+const result = document.querySelector('#result');
+const details = document.querySelector('#details');
+const frame = document.querySelector('#appFrame');
+const key = 'mythos.test.progress.v1';
+const realProgress = localStorage.getItem('mythos.progress.v1');
+const errors = [];
+const checks = [];
+const assert = (condition, label) => { if (!condition) throw new Error(label); checks.push(label); };
+const waitFor = async (fn, label, timeout = 15000) => {
+  const started = Date.now();
+  while (Date.now() - started < timeout) {
+    const value = fn();
+    if (value) return value;
+    await new Promise(resolve => setTimeout(resolve, 20));
+  }
+  throw new Error(`Timed out: ${label}`);
+};
+const doc = () => frame.contentDocument;
+const click = async (selector) => {
+  const element = await waitFor(() => doc().querySelector(selector), selector);
+  if (element.disabled) throw new Error(`Disabled: ${selector}`);
+  element.click();
+};
+const get = async (path) => {
+  const response = await fetch(`../${path}`);
+  if (!response.ok) throw new Error(`Missing ${path}`);
+  return response.json();
+};
+const stored = () => JSON.parse(localStorage.getItem(key));
+const run = async () => {
+  // This key is test-only; never clear mythos.progress.v1 or run against production storage.
+  localStorage.removeItem(key);
+  const loaded = new Promise(resolve => frame.addEventListener('load', resolve, { once: true }));
+  frame.src = '../index.html?test=1';
+  await loaded;
+  frame.contentWindow.addEventListener('error', event => errors.push(event.message));
+  frame.contentWindow.addEventListener('unhandledrejection', event => errors.push(String(event.reason)));
+  const NativeDate = frame.contentWindow.Date;
+  let clock = NativeDate.now();
+  frame.contentWindow.Date = class extends NativeDate {
+    constructor(...args) { super(...(args.length ? args : [clock])); }
+    static now() { return clock; }
+  };
+  const advanceDay = async () => {
+    const next = new NativeDate(clock);
+    next.setDate(next.getDate() + 1);
+    clock = next.getTime();
+    frame.contentWindow.dispatchEvent(new Event('focus'));
+  };
+  const programme = (await get('content/curriculum/programmes.json'))['arc.greek-heroes'];
+  await waitFor(() => doc().querySelector('[data-action="start-lesson"]'), 'initial home');
+  await click('[data-pantheon-id="norse"]');
+  assert(doc().querySelector('.status-line') || doc().body.textContent.includes('locked'), 'locked tradition cannot change starter');
+  assert(stored().arcChoice === 'arc.greek-heroes', 'starter remains selected after locked click');
+  let firstLesson;
+  for (const module of programme.weeks) {
+    const week = await get(module.weekPath);
+    await waitFor(() => doc().querySelector('#todayTitle')?.textContent === week.days[0].title, `week ${module.week} home`);
+    for (const day of week.days) {
+      const lesson = await get(day.lessonPath);
+      firstLesson ||= lesson;
+      await waitFor(() => !doc().querySelector(`[data-day="${day.day}"]`)?.disabled, `unlock week ${module.week} day ${day.day}`);
+      await click(`[data-day="${day.day}"]`);
+      for (let card = 0; card < lesson.narrativeBlocks.length; card++) await click('[data-action="next-card"]');
+      for (let i = 0; i < lesson.quiz.length; i++) {
+        const q = lesson.quiz[i];
+        assert(doc().querySelector('#questionPrompt')?.textContent === q.prompt, `daily prompt ${module.week}/${day.day}/${i}`);
+        const answer = module.week === 1 && day.day === 1 && i === 0 ? q.choices.find(c => c.id !== q.answerId).id : q.answerId;
+        await click(`[data-choice-id="${answer}"]`);
+        assert(!doc().querySelector('.choice-button.correct, .choice-button.incorrect'), 'daily answers stay neutral before reveal');
+        await click('[data-action="next-question"]');
+      }
+      await click('[data-action="reveal-results"]');
+      await waitFor(() => doc().querySelector('#completeTitle'), 'lesson completion');
+      if (module.week === 1 && day.day === 1) {
+        assert(stored().lessons[lesson.id].questions.q1.correct === false, 'incorrect daily answer is recorded honestly');
+        await click('[data-action="open-topic"]');
+        await waitFor(() => doc().querySelector('.hero-kicker')?.textContent === 'Rabbit hole', 'rabbit hole');
+      }
+      await click('[data-action="home"]');
+      assert(!doc().querySelector('[data-action="choose-arc"]'), 'no programme choices before completion day');
+      if (day.day < 5) {
+        assert(doc().querySelector(`[data-day="${day.day + 1}"]`).disabled, 'next day locked before rollover');
+        await advanceDay();
+        await waitFor(() => doc().querySelector(`[data-day="${day.day + 1}"]`)?.disabled === false, 'next day unlocks without reload');
+      }
+    }
+    const before = stored().arcPlans['arc.greek-heroes'];
+    assert(before.weeks[module.week - 1].status !== 'complete', 'five lessons alone do not complete a week');
+    await click('[data-action="start-week-assessment"]');
+    for (const item of week.assessment.questions) {
+      assert(doc().querySelector('#questionPrompt')?.textContent === item.question.prompt, 'authored assessment prompt displayed');
+      await click(`[data-choice-id="${item.question.answerId}"]`);
+      if (module.week === 1 && item === week.assessment.questions[0]) {
+        await click('[data-action="open-deep-dive"]');
+        assert(doc().querySelector('#deepDiveDialog').open, 'assessment deep dive opens');
+        assert(doc().querySelector('#deepDiveTitle').textContent.includes(item.question.prompt), 'assessment deep dive uses assessment question, not daily question');
+        doc().querySelector('#closeDeepDiveDialog').click();
+      }
+      await click('[data-action="next-review"]');
+    }
+    await waitFor(() => doc().querySelector('#reviewCompleteTitle')?.textContent === '5/5 correct', 'assessment score');
+    const state = stored().arcPlans['arc.greek-heroes'].weekStates[week.id];
+    assert(state.assessment.contentKey === assessmentKey(week.assessment), 'assessment belongs to current content bank');
+    assert(state.assessment.completedAt, 'run-scoped assessment saved');
+    await click('[data-action="home"]');
+    const plan = stored().arcPlans['arc.greek-heroes'];
+    assert(plan.weeks[module.week - 1].status === 'complete', 'assessed week completion persisted');
+    if (module.week < 8) assert(plan.weeks[module.week].status === 'planned', 'next week remains locked on completion day');
+    else assert(!doc().querySelector('[data-action="choose-arc"]'), 'handoff waits until following day');
+    await advanceDay();
+  }
+  await waitFor(() => doc().body.textContent.includes('Programme complete'), 'programme handoff after midnight');
+  assert(doc().querySelectorAll('[data-action="choose-arc"]').length === 3, 'starter completion offers three eligible programmes');
+  const history = stored().arcHistory;
+  assert(history.some(item => item.arcId === 'arc.greek-heroes'), 'programme completion history recorded');
+  assert(doc().body.textContent.includes('Coming next'), 'locked upcoming programmes explained');
+  await click('[data-action="start-review"]');
+  const question = await waitFor(() => doc().querySelector('#questionPrompt')?.textContent, 'cross-week Memory practice');
+  assert(question.length > 0, 'Memory practice remains accessible after programme completion');
+  await click('[data-action="home"]');
+  await click('[data-action="open-assistant"]');
+  await waitFor(() => doc().querySelector('#assistantQuery'), 'assistant input');
+  doc().querySelector('#assistantQuery').value = 'What does Achilles do?';
+  await click('[data-action="run-assistant"]');
+  await waitFor(() => doc().querySelector('.assistant-citation'), 'assistant evidence');
+  assert(localStorage.getItem('mythos.progress.v1') === realProgress, 'real learner storage is unchanged');
+  assert(errors.length === 0, 'zero captured browser errors');
+  const snapshot = document.createElement('pre');
+  snapshot.id = 'progressSnapshot';
+  snapshot.hidden = true;
+  snapshot.textContent = JSON.stringify(stored());
+  document.body.append(snapshot);
+  result.textContent = 'PASS';
+  details.textContent = JSON.stringify({ checks: checks.length, lessonsCompleted: 40, assessmentsCompleted: 8, consoleErrors: errors.length });
+};
+run().catch(error => { result.textContent = 'FAIL'; details.textContent = error.stack + '\n' + JSON.stringify(errors); console.error(error); });
+</script>
+</body></html>

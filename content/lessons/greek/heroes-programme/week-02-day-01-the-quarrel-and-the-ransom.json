@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+  "version": 2,
+  "weekId": "grc.heroes.week02",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Quarrel and the Ransom",
+  "subtitle": "Book 1 opens the crisis",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim",
+      "text": "Explain this episode: Who asks the Achaeans to release his daughter?"
+    },
+    {
+      "id": "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source",
+      "text": "Use the cited passage to explain: Why does the plague become an army-wide problem?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, Chryses and the plague; Book 1, normalized characters 711-1014",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "people, because the son of Atreus had dishonoured Chryses his priest. Now Chryses had come to the ships of the Achaeans to free his daughter, and had brought with him a great ransom: moreover he bore in his hand the sceptre of Apollo wreathed with a suppliant’s wreath, and he besought the Achaeans, but",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Chryses offers ransom for his captive daughter. Agamemnon refuses him; Apollo sends plague, and the army must confront the cost of its leader’s decision.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “people, because the son of Atreus had dishonoured Chryses his priest. Now Chryses had come to the ships of the Achaeans to free his daughter, and had brought with him a great ransom: moreover he bore in his hand the sceptre of Apollo wreathed with a suppliant’s wreath, and he besought the Achaeans, but”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The episode makes honor social rather than private: Agamemnon has power, but he cannot wound a sacred obligation without cost.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Follow the causal sequence: Chryses petitions, Agamemnon refuses, Apollo sends plague. The army suffers for a decision made by its leader; this is more than a private disagreement.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Watch how the poem keeps returning to ransom, gift, and public recognition.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Who asks the Achaeans to release his daughter?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Chryses"
+        },
+        {
+          "id": "b",
+          "text": "Priam"
+        },
+        {
+          "id": "c",
+          "text": "Calchas"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Chryses. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does the plague become an army-wide problem?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The ransom has been paid to the wrong king."
+        },
+        {
+          "id": "b",
+          "text": "Agamemnon’s insult to Apollo’s priest brings divine punishment."
+        },
+        {
+          "id": "c",
+          "text": "Achilles has already killed Hector."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Agamemnon’s insult to Apollo’s priest brings divine punishment.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

@@ -1,0 +1,220 @@
+{
+  "id": "rom.myth.day01.ovid-change",
+  "version": 1,
+  "weekId": "rom.myth.week01",
+  "pantheon": "roman",
+  "themeMode": "pantheon",
+  "title": "Ovid: Change as Story",
+  "subtitle": "Roman myth as transformation and reception",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "roman",
+    "ovid",
+    "metamorphoses",
+    "transformation"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.ovid-change.concept",
+      "text": "Identify the central source-grounded idea in Ovid: Change as Story."
+    },
+    {
+      "id": "obj.ovid-change.source",
+      "text": "Classify the cited source and its limits."
+    }
+  ],
+  "sourceReferences": {
+    "ref-ovid-1-7": {
+      "recordId": "roman-pg-21765",
+      "sourceId": "rom.ovid.metamorphoses-1-7",
+      "work": "Metamorphoses",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses I\u2013VII\u2014creation and transformation",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+      "excerpt": "h the conquerors are crowned with beech; for as yet the laurel does not exist, into which Daphne is changed soon after, while flying from Ph\u0153bus. On this taking place, the other rivers repair to her father Peneus, either to congratulate or to console him; but Inachus is not there, as he is grieving for his daughter Io, whom Jupiter, having first ravished her",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses VIII\u2013XV\u2014transformation continues",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "purple lock of her father Nisu. Being afterwards rejected by Minos, she clings to his ship, and is changed into a bird, while her father becomes a sea eagle. Minos returns to Crete, and having erected the Labyrinth with the assistance of D\u00e6dalus, he there encloses the Minotaur, the disgrace of his family, and feeds it with his Athenian captives. Theseus bei",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Change is the engine",
+      "body": "Ovid\u2019s Metamorphoses links myths through transformation: bodies, desires, landscapes, and identities continually change.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Roman reception",
+      "body": "Ovid is Roman literature shaped by Greek myth and Roman concerns. Treat him as a major source, not as neutral Greek evidence.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "A different canon",
+      "body": "Roman myth asks how inherited stories are reworked into a new literary and political world.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What unifies Ovid\u2019s Metamorphoses?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Transformation"
+        },
+        {
+          "id": "b",
+          "text": "Only sea battles"
+        },
+        {
+          "id": "c",
+          "text": "Only funerary rites"
+        },
+        {
+          "id": "d",
+          "text": "Only farming advice"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-ovid-1-7",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How should Ovid be labeled for this project?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Roman reception/source"
+        },
+        {
+          "id": "b",
+          "text": "Greek primary evidence"
+        },
+        {
+          "id": "c",
+          "text": "Welsh folklore"
+        },
+        {
+          "id": "d",
+          "text": "A modern game"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-ovid-1-7",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ovid-change.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-ovid-1-7",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+  }
+}

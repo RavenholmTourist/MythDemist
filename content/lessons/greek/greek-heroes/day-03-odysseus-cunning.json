@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.day03.odysseus-cunning",
+  "version": 2,
+  "weekId": "grc.heroes.week01",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Odysseus: Cunning and Return",
+  "subtitle": "Travel, disguise, and endurance",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "odysseus",
+    "odyssey",
+    "cunning"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.odysseus-cunning.concept",
+      "text": "Identify the central source-grounded idea in Odysseus: Cunning and Return."
+    },
+    {
+      "id": "obj.odysseus-cunning.source",
+      "text": "Connect the idea to the cited source, genre, and version."
+    }
+  ],
+  "sourceReferences": {
+    "odyssey": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, opening; Book 1, normalized characters 12-314",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "COUNCIL—MINERVA’S VISIT TO ITHACA—THE CHALLENGE FROM TELEMACHUS TO THE SUITORS. Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "A different heroic engine",
+      "body": "The Odyssey opens by calling its hero ingenious. Its story is built from wandering, disguise, intelligence, patience, and return.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Cunning is more than deception",
+      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Return as achievement",
+      "body": "His heroism is measured by getting home and recovering identity—a different arc from Achilles’ public honor.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Ingenuity is tested under pressure",
+      "body": "Odysseus’ cleverness is not decoration. The Odyssey repeatedly asks whether intelligence can survive temptation, disguise, exhaustion, and delayed recognition.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Keep the heroic models separate",
+      "body": "Achilles’ story asks what honor costs when rage is unleashed. Odysseus’ story asks what endurance and self-control can recover. Comparing them is useful only if their different engines remain visible.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Which hero is described as widely travelled in the Odyssey?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Heracles"
+        },
+        {
+          "id": "b",
+          "text": "Theseus"
+        },
+        {
+          "id": "c",
+          "text": "Odysseus"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Odysseus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What makes cunning an incomplete guarantee of success?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Judgement and restraint still matter alongside clever plans."
+        },
+        {
+          "id": "b",
+          "text": "It makes divine hostility impossible."
+        },
+        {
+          "id": "c",
+          "text": "It removes the need to regain a household."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Judgement and restraint still matter alongside clever plans.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "odyssey"
+      ],
+      "objectiveIds": [
+        "obj.odysseus-cunning.concept"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+  }
+}

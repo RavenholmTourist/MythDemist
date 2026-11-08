@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w05d02.the-nemean-lion",
+  "version": 2,
+  "weekId": "grc.heroes.week05",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Nemean Lion",
+  "subtitle": "A resistant monster changes method",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "library"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w05d02.the-nemean-lion.claim",
+      "text": "Explain this episode: How does Heracles overcome the Nemean lion?"
+    },
+    {
+      "id": "obj.grc.heroes.w05d02.the-nemean-lion.source",
+      "text": "Use the cited passage to explain: Why does the cave matter to the method?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.5.1, the Nemean lion; book 2 · chapter 5 · section 1, normalized characters 0-305",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Heracles finds that arrows do not defeat the Nemean lion. He blocks one entrance of its cave, enters by the other, and overcomes it by grappling. The episode makes method, not simply a bigger weapon, decisive.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The victory becomes visible equipment: the skin the hero could not pierce becomes the armor that marks his identity.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Follow the sequence of attempts: arrows fail, the cave is controlled, and close combat succeeds. The episode gives a reason for the change of method rather than simply announcing superior strength.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The hero’s emblem preserves the problem he had to solve.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How does Heracles overcome the Nemean lion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "By having Jason trap it in the Argo"
+        },
+        {
+          "id": "b",
+          "text": "By grappling and choking it"
+        },
+        {
+          "id": "c",
+          "text": "By poisoning its drinking water"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "By grappling and choking it. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does the cave matter to the method?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cave supplies arrows that pierce the hide."
+        },
+        {
+          "id": "b",
+          "text": "The cave is the court where Eurystheus judges him."
+        },
+        {
+          "id": "c",
+          "text": "Blocking an entrance limits the lion’s escape."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Blocking an entrance limits the lion’s escape.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

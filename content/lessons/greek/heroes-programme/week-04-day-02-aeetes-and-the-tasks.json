@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
+  "version": 2,
+  "weekId": "grc.heroes.week04",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Aeetes and the Tasks",
+  "subtitle": "A king turns power into a trap",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "argonautica"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim",
+      "text": "Explain this episode: What must Jason sow in Aeetes’ field?"
+    },
+    {
+      "id": "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source",
+      "text": "Use the cited passage to explain: What does Medea supply for the challenge?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Book 3, Aeetes’ challenge; Book 3, normalized characters 12318-12620",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "Hephaestus had fashioned in the palace of Cytaean Aeetes. And he wrought for him bulls with feet of bronze, and their mouths were of bronze, and from them they breathed out a terrible flame of fire; moreover he forged a plough of unbending adamant, all in one piece, in payment of thanks to Helios, who",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Aeetes requires Jason to yoke dangerous bulls, plough a field, and sow dragon’s teeth. Armed men will spring from the sowing. Jason needs Medea’s protective drugs and instructions to survive the task.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “Hephaestus had fashioned in the palace of Cytaean Aeetes. And he wrought for him bulls with feet of bronze, and their mouths were of bronze, and from them they breathed out a terrible flame of fire; moreover he forged a plough of unbending adamant, all in one piece, in payment of thanks to Helios, who”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The challenge exposes the limits of ordinary strength, creating the need for specialized knowledge rather than another show of force.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "List the task and the help separately. Jason performs the feat, but Medea’s protection and instructions make it possible. Crediting only the visible fighter conceals part of the poem’s causal story.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Watch who supplies the means of survival and how later versions distribute credit.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What must Jason sow in Aeetes’ field?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pomegranate seeds"
+        },
+        {
+          "id": "b",
+          "text": "Olive stones"
+        },
+        {
+          "id": "c",
+          "text": "Dragon’s teeth"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Dragon’s teeth. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What does Medea supply for the challenge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Protective drugs and practical instructions"
+        },
+        {
+          "id": "b",
+          "text": "A ship that completes the ploughing"
+        },
+        {
+          "id": "c",
+          "text": "A treaty abolishing Aeetes’ test"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Protective drugs and practical instructions. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

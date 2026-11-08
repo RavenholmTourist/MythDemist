@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w08d03.ovid-transforms",
+  "version": 2,
+  "weekId": "grc.heroes.week08",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Ovid Transforms",
+  "subtitle": "Roman reception changes Greek myth",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "metamorphoses"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w08d03.ovid-transforms.claim",
+      "text": "Explain this episode: What becomes a constellation in this episode?"
+    },
+    {
+      "id": "obj.grc.heroes.w08d03.ovid-transforms.source",
+      "text": "Use the cited passage to explain: Why label Ovid as Roman reception here?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-26073",
+      "sourceId": "grc.ovid.metamorphoses",
+      "work": "The Metamorphoses of Ovid, Books VIII–XV",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Metamorphoses 8.169-182, Ariadne and the crown; Book 15, normalized characters 17295-17597",
+      "localPath": "content/corpus/greek/reception/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "In Ovid’s Roman epic, Theseus abandons Ariadne after the escape from Crete. Liber helps the deserted woman and sets her crown among the stars. Transformation moves the narrative beyond the hero’s successful escape.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Reception is evidence twice over: it preserves material and shows how a later culture chose to reorganize it.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Distinguish Ovid’s narrative from Riley’s explanatory summaries and footnotes in the same volume. Compare the thread, abandonment, and crown across named works instead of importing Ovid into every Greek version.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Later storytelling is part of mythology, but it must stay labeled as later storytelling.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What becomes a constellation in this episode?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Theseus’ sword"
+        },
+        {
+          "id": "b",
+          "text": "The Minotaur’s cave"
+        },
+        {
+          "id": "c",
+          "text": "Ariadne’s crown"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Ariadne’s crown. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why label Ovid as Roman reception here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "His later Latin epic reshapes material also found in Greek traditions."
+        },
+        {
+          "id": "b",
+          "text": "He is the Greek eyewitness who built the labyrinth."
+        },
+        {
+          "id": "c",
+          "text": "He is the translator of the Epitome."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "His later Latin epic reshapes material also found in Greek traditions.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d03.ovid-transforms.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

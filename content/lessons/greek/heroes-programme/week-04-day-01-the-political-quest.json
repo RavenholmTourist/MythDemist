@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w04d01.the-political-quest",
+  "version": 2,
+  "weekId": "grc.heroes.week04",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Political Quest",
+  "subtitle": "The fleece is a route to power",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "argonautica"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w04d01.the-political-quest.claim",
+      "text": "Explain this episode: Who sends Jason after the fleece?"
+    },
+    {
+      "id": "obj.grc.heroes.w04d01.the-political-quest.source",
+      "text": "Use the cited passage to explain: Why does the opening connect politics with the quest?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Book 1, Pelias and the one-sandalled man; Book 1, normalized characters 318-620",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "the prompting of the man whom he should see coming forth from the people with but one sandal. And no long time after, in accordance with that true report, Jason crossed the stream of wintry Anaurus on foot, and saved one sandal from the mire, but the other he left in the depths held back by the flood.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Pelias fears a prediction about a man wearing one sandal. Jason arrives matching that sign, and Pelias sends him after the Golden Fleece. The voyage grows from a ruler’s fear and a dangerous assignment, not a neutral sporting contest.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “the prompting of the man whom he should see coming forth from the people with but one sandal. And no long time after, in accordance with that true report, Jason crossed the stream of wintry Anaurus on foot, and saved one sandal from the mire, but the other he left in the depths held back by the flood.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: A quest can be a political instrument; the hero risks the journey while someone else sets the terms and benefits.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Read the voyage’s commission in its political setting. Pelias’ fear helps explain why this dangerous expedition is imposed; it is not simply an invitation to win a trophy.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This lens matters when Aeetes turns a royal test into an impossible demand.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Who sends Jason after the fleece?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Alcinous"
+        },
+        {
+          "id": "b",
+          "text": "Pelias"
+        },
+        {
+          "id": "c",
+          "text": "Aeetes"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Pelias. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does the opening connect politics with the quest?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jason has already been crowned king of Colchis."
+        },
+        {
+          "id": "b",
+          "text": "The fleece is being awarded at an athletic festival."
+        },
+        {
+          "id": "c",
+          "text": "Pelias uses the expedition against someone he fears."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Pelias uses the expedition against someone he fears.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d01.the-political-quest.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

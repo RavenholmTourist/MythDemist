@@ -1,0 +1,221 @@
+{
+  "id": "nor.gods.day01.odin-wisdom",
+  "version": 1,
+  "weekId": "nor.gods.week01",
+  "pantheon": "norse",
+  "themeMode": "pantheon",
+  "title": "Odin: Wisdom Has a Price",
+  "subtitle": "Knowledge, leadership, and cost in the Prose Edda",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "norse",
+    "odin",
+    "wisdom",
+    "prose-edda"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.odin.wisdom",
+      "text": "Explain that Odin\u2019s authority in the Prose Edda is tied to knowledge, leadership, and costly exchange."
+    },
+    {
+      "id": "obj.edda.source",
+      "text": "Describe the Prose Edda as a later handbook that preserves and interprets older Norse material."
+    }
+  ],
+  "sourceReferences": {
+    "ref-prose-edda-gylfaginning": {
+      "recordId": "pg-18947",
+      "sourceId": "nor.snorri.prose-edda",
+      "work": "The Prose Edda",
+      "author": "Snorri Sturluson",
+      "translator": "Rasmus B. Anderson",
+      "locator": "Prose Edda\u2014Odin\u2019s pursuit of wisdom",
+      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+      "excerpt": "his was Chaos. And Fimbultyr said: Let Ymer be slain and let order be established. And straightway Odin and his brothers--the bright sons of Bure--gave Ymer a mortal wound, and from his body made they the universe; from his flesh, the earth; from his blood, the sea; from his bones, the rocks; from his hair, the trees; from his skull, the vaulted heavens; fr",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "The Poetic Edda",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "H\u00e1vam\u00e1l\u2014Odin, wisdom, and sacrifice",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "rse \u00fe by \u201cth\u201d throughout, instead of spasmodically by \u201cd,\u201d as in many texts: e.g., Othin instead of Odin. For the Norse \u00f8 I have used its equivalent, \u201c\u00f6,\u201d e.g., V\u00f6lund; for the \u01eb I have used \u201co\u201d and not \u201ca,\u201d e.g., Voluspo, not Valuspa or Voluspa. To avoid confusion with accents the long vowel marks of the Icelandic are consistently omitted, as likewise in mo",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Odin is not just a ruler",
+      "body": "Odin is the All-Father, but his authority is deeply intellectual: counsel, poetry, foresight, and knowledge gained through risky exchange.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.odin.wisdom"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "The Edda is a later handbook",
+      "body": "Snorri\u2019s Prose Edda preserves Norse myth while arranging it as guidance for poets. It is invaluable evidence, but not a neutral ancient transcript.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.edda.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.edda.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.edda.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Knowledge with a cost",
+      "body": "In Norse tradition, wisdom is won through exchange, ordeal, and sacrifice. Odin\u2019s power is therefore linked to what he is willing to give up.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.odin.wisdom",
+        "obj.edda.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What best describes the Prose Edda\u2019s role?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A medieval handbook that preserves and organizes mythic traditions"
+        },
+        {
+          "id": "b",
+          "text": "A Greek epic about Troy"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "A collection of Egyptian hymns"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Snorri\u2019s Prose Edda is invaluable because it preserves mythic material, but it is also a later handbook for poets.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.edda.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the Edda\u2019s source frame.",
+        "suggestedQuestions": [
+          "Who wrote the Prose Edda and why?",
+          "How does a handbook differ from epic poetry?"
+        ],
+        "sourceRefIds": [
+          "ref-prose-edda-gylfaginning",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Which idea is central to Odin in this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Wisdom and knowledge gained at a cost"
+        },
+        {
+          "id": "b",
+          "text": "Agricultural fertility only"
+        },
+        {
+          "id": "c",
+          "text": "Sea monsters and storms"
+        },
+        {
+          "id": "d",
+          "text": "The invention of writing in Egypt"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The Prose Edda presents Odin as an authority associated with counsel, poetry, and costly knowledge.",
+      "sourceRefIds": [
+        "ref-prose-edda-gylfaginning",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.odin.wisdom"
+      ],
+      "deepDive": {
+        "prompt": "Explore Odin\u2019s pursuit of wisdom.",
+        "suggestedQuestions": [
+          "What does Odin give or risk for knowledge?",
+          "How does this differ from Achilles\u2019 heroic problem?"
+        ],
+        "sourceRefIds": [
+          "ref-prose-edda-gylfaginning",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Initial Norse scaffold lesson. Deepened to the five-card lesson standard."
+  }
+}

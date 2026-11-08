@@ -1,0 +1,218 @@
+{
+  "id": "celtic.week01.day02.branwen-sovereignty",
+  "version": 1,
+  "weekId": "cel.tales.week01",
+  "pantheon": "celtic",
+  "themeMode": "pantheon",
+  "title": "Branwen: Hospitality and Consequence",
+  "subtitle": "Royal bonds and their human cost",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "branwen",
+    "sovereignty",
+    "consequence"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.branwen-sovereignty.concept",
+      "text": "Identify the main idea in Branwen: Hospitality and Consequence."
+    },
+    {
+      "id": "obj.branwen-sovereignty.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Mabinogion",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "Branwen daughter of Llyr",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "on of Evrawc Geraint the son of Erbin Kilhwch and Olwen The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on the Notes appended to t",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-16464",
+      "sourceId": "cel.tain-bo-cualnge",
+      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
+      "author": "Anonymous Irish traditions",
+      "translator": "Joseph Dunn",
+      "locator": "T\u00e1in\u2014royal rivalry and consequence",
+      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
+      "excerpt": ": I. The Prologue One night at the palace of Cruachan in Connacht, a dispute arose between Queen Medb, the sometime wife of Conchobar, king of Ulster, and her consort Ailill, as to the amount of their respective possessions. It may be remarked in passing that in those days in Ireland, married women retained their private fortune independent of their husba",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Branwen: Hospitality and Consequence",
+      "body": "Branwen\u2019s tale turns marriage, insult, and political alliance into a tragedy of consequence across kingdoms.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Branwen\u2019s tale emphasize?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The cost of broken bonds"
+        },
+        {
+          "id": "b",
+          "text": "Only shipbuilding"
+        },
+        {
+          "id": "c",
+          "text": "Only astronomy"
+        },
+        {
+          "id": "d",
+          "text": "Only farming"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Branwen\u2019s tale turns marriage, insult, and political alliance into a tragedy of consequence across kingdoms.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.branwen-sovereignty.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

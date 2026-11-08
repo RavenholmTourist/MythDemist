@@ -2,18 +2,68 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/png" href="./img/icon-192.png" />
-    <link rel="manifest" href="./manifest.webmanifest" />
-    <link rel="apple-touch-icon" href="./img/icon-192.png" />
-    <meta name="theme-color" content="#0b0b10" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;800&display=swap" rel="stylesheet" />
-    <title>SoR4 Survival Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#170f2f" />
+    <title>Project Mythos — Greek Heroes</title>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div class="app-shell" id="appShell" data-theme="greek">
+      <header class="topbar">
+        <button class="brand" id="homeButton" type="button" aria-label="Go to lesson home">
+          <span class="brand-mark" id="pantheonLogo" aria-hidden="true"></span>
+          <span>
+            <strong>Mythos</strong>
+            <small id="weekLabel">Greek Heroes · Week 1</small>
+          </span>
+        </button>
+        <div class="topbar-status" id="topbarStatus" aria-label="Current progress"></div>
+      </header>
+
+      <main id="app" class="app-main" tabindex="-1"></main>
+    </div>
+
+    <dialog id="sourceDialog" class="modal-card" aria-labelledby="sourceTitle">
+      <div class="modal-header">
+        <p class="eyebrow">Cited source</p>
+        <button class="icon-button" id="closeSourceDialog" type="button" aria-label="Close source">×</button>
+      </div>
+      <h2 id="sourceTitle"></h2>
+      <p class="eyebrow" id="sourceEvidenceLabel"></p>
+      <p id="sourceExcerpt"></p>
+      <blockquote id="sourceEvidenceQuote" hidden></blockquote>
+      <dl class="source-meta" id="sourceMeta"></dl>
+      <a id="sourceLocalLink" class="text-link" href="#" target="_blank" rel="noreferrer">Open local source file</a>
+    </dialog>
+
+    <dialog id="deepDiveDialog" class="modal-card" aria-labelledby="deepDiveTitle">
+      <div class="modal-header">
+        <p class="eyebrow">Ask more</p>
+        <button class="icon-button" id="closeDeepDiveDialog" type="button" aria-label="Close deep dive">×</button>
+      </div>
+      <h2 id="deepDiveTitle"></h2>
+      <p id="deepDiveIntro"></p>
+      <div id="deepDiveQuestions" class="prompt-list"></div>
+      <div id="deepDiveSources" class="source-list"></div>
+      <button class="primary-button full-width" type="button" data-action="assistant-from-deep-dive">Ask local corpus</button>
+      <p class="fine-print">The researcher retrieves local corpus passages and citations. It does not answer outside the indexed sources.</p>
+    </dialog>
+
+    <dialog id="topicDialog" class="modal-card" aria-labelledby="topicTitle">
+      <div class="modal-header">
+        <p class="eyebrow">Suggested next topic</p>
+        <button class="icon-button" id="closeTopicDialog" type="button" aria-label="Close suggested topic">×</button>
+      </div>
+      <h2 id="topicTitle"></h2>
+      <p id="topicDescription"></p>
+      <div class="objective-panel">
+        <h2>Learning prompt</h2>
+        <p id="topicPrompt"></p>
+      </div>
+      <div id="topicSources" class="source-list"></div>
+      <p class="fine-print">This is a planned deep-dive topic. The linked local sources are available now; a full lesson can be authored next.</p>
+    </dialog>
+
+    <script type="module" src="./src/app.js"></script>
   </body>
 </html>

@@ -1,0 +1,228 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mythdemist.local/schemas/progress.schema.json",
+  "title": "Mythos local learner state",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "lessons",
+    "outcomes",
+    "badges",
+    "sourceOpens",
+    "activityDates",
+    "streak",
+    "events",
+    "feedback",
+    "arcChoice",
+    "arcPlans",
+    "arcHistory",
+    "weeks",
+    "activePantheon"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": { "type": "integer", "minimum": 1 },
+    "lessons": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["contentVersion", "startedAt", "completedAt", "cardViews", "questions", "nextReviewAt", "feedbackIds"],
+        "additionalProperties": false,
+        "properties": {
+          "contentVersion": { "type": "integer", "minimum": 1 },
+          "startedAt": { "type": ["string", "null"], "format": "date-time" },
+          "completedAt": { "type": ["string", "null"], "format": "date-time" },
+          "cardViews": { "type": "object", "additionalProperties": { "type": "string", "format": "date-time" } },
+          "questions": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": ["attempts", "lastChoiceId", "correct", "answeredAt"],
+              "additionalProperties": false,
+              "properties": {
+                "attempts": { "type": "integer", "minimum": 1 },
+                "lastChoiceId": { "type": "string" },
+                "correct": { "type": "boolean" },
+                "answeredAt": { "type": "string", "format": "date-time" }
+              }
+            }
+          },
+          "nextReviewAt": { "type": ["string", "null"], "format": "date-time" },
+          "feedbackIds": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "outcomes": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["seen", "correctDates", "incorrectDates", "mastery", "updatedAt"],
+        "additionalProperties": false,
+        "properties": {
+          "seen": { "type": "boolean" },
+          "correctDates": { "type": "array", "items": { "type": "string", "format": "date" }, "uniqueItems": true },
+          "incorrectDates": { "type": "array", "items": { "type": "string", "format": "date" }, "uniqueItems": true },
+          "mastery": { "enum": ["unseen", "seen", "learning", "secure", "mastered"] },
+          "updatedAt": { "type": ["string", "null"], "format": "date-time" }
+        }
+      }
+    },
+    "badges": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["unlockedAt"],
+        "additionalProperties": false,
+        "properties": {
+          "unlockedAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    },
+    "sourceOpens": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } },
+    "arcChoice": { "type": ["string", "null"] },
+    "activePantheon": { "type": "string", "minLength": 1 },
+    "arcHistory": {
+      "type": "array",
+      "items": {"type": "object", "required": ["arcId", "completedAt"], "properties": {"arcId": {"type": "string"}, "completedAt": {"type": "string", "format": "date-time"}}, "additionalProperties": true}
+    },
+    "weeks": {
+      "type": "object",
+      "additionalProperties": {"type": "object", "required": ["startedAt"], "properties": {"startedAt": {"type": "string", "format": "date-time"}}, "additionalProperties": true}
+    },
+    "arcPlans": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["arcId", "createdAt", "generatedFrom", "weeks"],
+        "additionalProperties": false,
+        "properties": {
+          "arcId": { "type": "string" },
+          "runId": { "type": "string", "minLength": 1 },
+          "progressVersion": { "const": 2 },
+          "weekStates": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "object",
+              "required": ["startedAt", "lessons", "assessment"],
+              "additionalProperties": false,
+              "properties": {
+                "startedAt": { "type": ["string", "null"], "format": "date-time" },
+                "lessons": {
+                  "type": "object",
+                  "additionalProperties": {
+                    "type": "object",
+                    "required": ["completedAt", "questions"],
+                    "additionalProperties": false,
+                    "properties": {
+                      "completedAt": { "type": ["string", "null"], "format": "date-time" },
+                      "contentVersion": { "type": "integer", "minimum": 1 },
+                      "questions": { "$ref": "#/properties/lessons/additionalProperties/properties/questions" }
+                    }
+                  }
+                },
+                "assessment": {
+                  "type": ["object", "null"],
+                  "required": ["completedAt", "attempts", "correct", "total"],
+                  "additionalProperties": false,
+                  "properties": {
+                    "completedAt": { "type": "string", "format": "date-time" },
+                    "attempts": { "type": "integer", "minimum": 1 },
+                    "correct": { "type": "integer", "minimum": 0 },
+                    "total": { "type": "integer", "minimum": 1 },
+                    "contentKey": { "type": ["string", "null"] },
+                    "lastAttemptAt": { "type": "string", "format": "date-time" },
+                    "history": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "required": ["at", "correct", "total"],
+                        "additionalProperties": false,
+                        "properties": {
+                          "at": { "type": "string", "format": "date-time" },
+                          "correct": { "type": "integer", "minimum": 0 },
+                          "total": { "type": "integer", "minimum": 1 }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "createdAt": { "type": "string", "format": "date-time" },
+          "status": { "enum": ["active", "complete"] },
+          "generatedFrom": {
+            "type": "object",
+            "required": ["topicOpens", "likedTags"],
+            "additionalProperties": false,
+            "properties": {
+              "topicOpens": { "type": "integer", "minimum": 0 },
+              "likedTags": { "type": "array", "items": { "type": "string" } }
+            }
+          },
+          "weeks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["week", "title", "status"],
+              "additionalProperties": false,
+              "properties": {
+                "week": { "type": "integer", "minimum": 1 },
+                "title": { "type": "string" },
+                "weekId": { "type": "string" },
+                "weekPath": { "type": "string" },
+                "pantheonId": { "type": "string" },
+                "lessonIds": { "type": "array", "items": {"type": "string"} },
+                "lessonVersions": { "type": "object", "additionalProperties": { "type": "integer", "minimum": 1 } },
+                "assessment": { "type": ["object", "null"] },
+                "status": { "enum": ["planned", "active", "complete"] },
+                "unlocksOn": { "type": ["string", "null"], "format": "date" },
+                "completedOn": { "type": ["string", "null"], "format": "date" }
+              }
+            }
+          }
+        }
+      }
+    },
+    "activityDates": { "type": "array", "items": { "type": "string", "format": "date" }, "uniqueItems": true },
+    "streak": {
+      "type": "object",
+      "required": ["current", "best", "lastActiveDate"],
+      "additionalProperties": false,
+      "properties": {
+        "current": { "type": "integer", "minimum": 0 },
+        "best": { "type": "integer", "minimum": 0 },
+        "lastActiveDate": { "type": ["string", "null"], "format": "date" }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["type", "at"],
+        "properties": {
+          "type": { "type": "string" },
+          "at": { "type": "string", "format": "date-time" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "feedback": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "lessonId", "contentVersion", "rating", "tags", "text", "createdAt"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" },
+          "lessonId": { "type": "string" },
+          "contentVersion": { "type": "integer", "minimum": 1 },
+          "rating": { "enum": ["like", "dislike", null] },
+          "tags": { "type": "array", "items": { "type": "string" }, "uniqueItems": true },
+          "text": { "type": "string" },
+          "createdAt": { "type": "string", "format": "date-time" }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "scope",
+    "title",
+    "weeks"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "scope": {
+      "enum": [
+        "pantheon",
+        "cross-pantheon"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "pantheons": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "prerequisiteArcIds": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "minimumCompletedArcs": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "tier": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "gateNote": {
+      "type": "string"
+    },
+    "weeks": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "week",
+          "theme"
+        ],
+        "properties": {
+          "week": {
+            "type": "integer"
+          },
+          "theme": {
+            "type": "string"
+          },
+          "primaryPantheon": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

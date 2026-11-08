@@ -1,0 +1,63 @@
+{
+  "id": "shared.war.week01",
+  "title": "War, Honor, and Catastrophe",
+  "subtitle": "Five source-linked ways mythic traditions frame conflict",
+  "pantheon": "shared",
+  "themeMode": "neutral",
+  "visual": { "logo": "shared-war", "accent": "neutral" },
+  "days": [
+    {
+      "day": 1,
+      "title": "Achilles: Anger and Honor",
+      "lessonId": "grc.heroes.day02.achilles-anger",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Fate and Ragnarök",
+      "lessonId": "norse.week01.day05.ragnarok-fate",
+      "lessonPath": "content/lessons/norse/gods/day-05-ragnarok-fate.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Ra: Sun and Cosmic Order",
+      "lessonId": "egyptian.week01.day02.ra-order",
+      "lessonPath": "content/lessons/egyptian/gods/day-02-ra-order.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Branwen: Hospitality and Consequence",
+      "lessonId": "celtic.week01.day02.branwen-sovereignty",
+      "lessonPath": "content/lessons/celtic/tales/day-02-branwen-sovereignty.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Mars: War and the State",
+      "lessonId": "roman.week01.day04.mars-war-state",
+      "lessonPath": "content/lessons/roman/myth/day-04-mars-war-state.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.iliad-anger-honor",
+      "title": "Anger, honor, and consequence",
+      "description": "Follow the Greek thread and compare how honor becomes destructive.",
+      "relatedDay": 1,
+      "recordIds": ["pg-02199"],
+      "prompt": "Compare Achilles' honor with Norse fate."
+    },
+    {
+      "id": "topic.celtic-otherworld",
+      "title": "The Celtic Otherworld",
+      "description": "Compare conflict, kingship, and supernatural pressure across traditions.",
+      "relatedDay": 4,
+      "recordIds": ["pg-5160", "pg-16464"],
+      "prompt": "How does the Otherworld change the stakes?"
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "egy.gods.day01.osiris-renewal",
+  "version": 1,
+  "weekId": "egy.gods.week01",
+  "pantheon": "egyptian",
+  "themeMode": "pantheon",
+  "title": "Osiris: Death and Renewal",
+  "subtitle": "Order, loss, and return in Egyptian tradition",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "egyptian",
+    "osiris",
+    "death",
+    "renewal"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.osiris-renewal.concept",
+      "text": "Identify the central source-grounded idea in Osiris: Death and Renewal."
+    },
+    {
+      "id": "obj.osiris-renewal.source",
+      "text": "Classify the cited source and its limits."
+    }
+  ],
+  "sourceReferences": {
+    "ref-egypt-legends": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legends of the Gods",
+      "author": "various Egyptian texts",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Legends of the Gods\u2014Osiris traditions",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "RS' FAMINE VIII. THE LEGEND OF THE DEATH AND RESURRECTION OF HORUS IX. THE LEGEND OF ISIS AND OSIRIS ACCORDING TO CLASSICAL WRITERS LIST OF PLATES AND ILLUSTRATIONS ON OR FOLLOWING PAGE: The History of Creation I. Horus holding the Hippopotamus-fiend with chain and spear II. Horus spearing the Hippopotamus-fiend III. Horus speari",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-15932",
+      "sourceId": "egy.literature-ancient-egyptians",
+      "work": "The Literature of the Ancient Egyptians",
+      "author": "various Egyptian authors",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Book of the Dead\u2014Osiris and judgment",
+      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+      "excerpt": "who reigned under the name of Merikara. The royal writer in it reminds his son that the Chiefs [of Osiris] who judge sinners perform their duty with merciless justice on the Day of Judgment. It is useless to assume that length of years will be accepted by them as a plea of justification. With them the lifetime of a man is only regarded as a moment. After de",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Renewal is central",
+      "body": "Egyptian stories of Osiris connect death, fragmentation, care, kingship, and restoration rather than treating death as a simple ending.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "A translated collection",
+      "body": "Budge\u2019s Legends of the Gods preserves English versions of major Egyptian narratives. It is useful, but its editorial frame still needs labeling.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Order after rupture",
+      "body": "Osiris traditions turn loss into a struggle to restore order, giving Egyptian mythology a very different emotional shape from Greek heroic honor.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What is central to Osiris traditions?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Death and renewal"
+        },
+        {
+          "id": "b",
+          "text": "Only athletic contests"
+        },
+        {
+          "id": "c",
+          "text": "The founding of Rome"
+        },
+        {
+          "id": "d",
+          "text": "A sea voyage"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-egypt-legends",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How should Budge\u2019s collection be treated?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As translated material with an editorial frame"
+        },
+        {
+          "id": "b",
+          "text": "As the only neutral canon"
+        },
+        {
+          "id": "c",
+          "text": "As a modern novel"
+        },
+        {
+          "id": "d",
+          "text": "As archaeological pottery"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-egypt-legends",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.osiris-renewal.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-egypt-legends",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+  }
+}

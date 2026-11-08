@@ -1,0 +1,81 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.mesoamerican-foundations",
+      "title": "Mesoamerican Foundations",
+      "description": "Eight weeks introducing major Mesoamerican traditions.",
+      "weeks": [
+        "Mesoamerican Myth and Sacred Order",
+        "Divine order",
+        "Heroes and journeys",
+        "Death and boundaries",
+        "Sacred places",
+        "Fate and duty",
+        "Folklore variants",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.meso-sacred-order": {
+      "title": "Sacrifice and sacred order",
+      "body": "Mesoamerican traditions often connect divine order, human obligation, and costly cosmic maintenance.",
+      "recordIds": [
+        "pg-53080",
+        "pg-36386"
+      ],
+      "nextTopicIds": [
+        "topic.meso-underworld-journey",
+        "topic.shared.fate-return"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Mesoamerican traditions often connect divine order, human obligation, and costly cosmic maintenance.",
+          "recordIds": [
+            "pg-53080",
+            "pg-36386"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-53080",
+            "pg-36386"
+          ]
+        }
+      ]
+    },
+    "topic.meso-underworld-journey": {
+      "title": "Underworld journeys",
+      "body": "Mesoamerican traditions give the dead\u2019s journey a powerful role in cosmology and heroic trial.",
+      "recordIds": [
+        "pg-53080",
+        "pg-36386"
+      ],
+      "nextTopicIds": [
+        "topic.meso-sacred-order",
+        "topic.shared.fate-return"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Mesoamerican traditions give the dead\u2019s journey a powerful role in cosmology and heroic trial.",
+          "recordIds": [
+            "pg-53080",
+            "pg-36386"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-53080",
+            "pg-36386"
+          ]
+        }
+      ]
+    }
+  }
+}

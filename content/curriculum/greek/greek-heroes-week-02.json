@@ -1,0 +1,205 @@
+{
+  "id": "grc.heroes.week02",
+  "title": "Achilles and the Iliad",
+  "subtitle": "Anger, honor, grief, and compassion",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "The Quarrel and the Ransom",
+      "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Briseis and Withdrawal",
+      "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-02-briseis-and-withdrawal.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "The Embassy Fails",
+      "lessonId": "grc.heroes.w02d03.the-embassy-fails",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-03-the-embassy-fails.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Patroclus Changes Everything",
+      "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-04-patroclus-changes-everything.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Priam and Achilles",
+      "lessonId": "grc.heroes.w02d05.priam-and-achilles",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-05-priam-and-achilles.json",
+      "status": "available"
+    }
+  ],
+  "assessment": {
+    "title": "Achilles and the Iliad assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "Which sequence opens the Iliad’s crisis?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Patroclus dies before Chryses visits the camp."
+            },
+            {
+              "id": "b",
+              "text": "Priam offers ransom before Achilles withdraws."
+            },
+            {
+              "id": "c",
+              "text": "A rejected petition leads to plague and a dispute among leaders."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "A rejected petition leads to plague and a dispute among leaders.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "Why distinguish Briseis from Chryseis?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles."
+            },
+            {
+              "id": "b",
+              "text": "They are two names for the same captive."
+            },
+            {
+              "id": "c",
+              "text": "Briseis is the priest who demands ransom."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w02d03.the-embassy-fails",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "How does Book 9 complicate heroic honour?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The embassy proves Achilles cares only about armour."
+            },
+            {
+              "id": "b",
+              "text": "Material rewards do not automatically restore damaged trust."
+            },
+            {
+              "id": "c",
+              "text": "A larger reward immediately ends Achilles’ anger."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Material rewards do not automatically restore damaged trust.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w02d03.the-embassy-fails.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "What most directly motivates Achilles’ return?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Acceptance of the original embassy without further loss"
+            },
+            {
+              "id": "b",
+              "text": "A promise that he will now survive the war"
+            },
+            {
+              "id": "c",
+              "text": "Grief for Patroclus and the desire to avenge him"
+            }
+          ],
+          "answerId": "c",
+          "explanation": "Grief for Patroclus and the desire to avenge him. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w02d05.priam-and-achilles",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "What changes in Book 24 without undoing the war?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Achilles recognises Priam’s grief and permits Hector’s burial."
+            },
+            {
+              "id": "b",
+              "text": "Priam’s appeal brings Hector back to life."
+            },
+            {
+              "id": "c",
+              "text": "Achilles agrees to lead Troy against Agamemnon."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Achilles recognises Priam’s grief and permits Hector’s burial.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w02d05.priam-and-achilles.source"
+          ]
+        }
+      }
+    ]
+  }
+}

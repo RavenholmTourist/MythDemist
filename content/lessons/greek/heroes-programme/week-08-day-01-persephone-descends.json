@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w08d01.persephone-descends",
+  "version": 2,
+  "weekId": "grc.heroes.week08",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Persephone Descends",
+  "subtitle": "Absence reshapes the world",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "homeric"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w08d01.persephone-descends.claim",
+      "text": "Explain this episode: What food binds Persephone to the underworld?"
+    },
+    {
+      "id": "obj.grc.heroes.w08d01.persephone-descends.source",
+      "text": "Use the cited passage to explain: Why is the return not an unconditional rescue?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00348",
+      "sourceId": "grc.homeric-hymns",
+      "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
+      "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
+      "translator": "Hugh G. Evelyn-White",
+      "locator": "Homeric Hymn to Demeter, lines 370-383; local text, normalized characters 287210-287514",
+      "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
+      "excerpt": "with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Demeter’s withdrawal threatens the growth that sustains mortals. Persephone returns, but the pomegranate binds her to time below as well. The hymn’s settlement concerns divine power, human survival, and reunion with a lasting limit.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: reunion is qualified by a continuing underworld claim. Avoid reducing the hymn’s divine negotiations and ritual setting to a simple calendar allegory.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Do not silently turn abduction and a constrained return into a freely chosen romance. Read the pomegranate within this hymn’s negotiations, while keeping later retellings separate.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Descent stories ask what part of the self can come back unchanged.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What food binds Persephone to the underworld?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Pomegranate seed"
+        },
+        {
+          "id": "b",
+          "text": "The cattle of the Sun"
+        },
+        {
+          "id": "c",
+          "text": "The Nemean lion’s flesh"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Pomegranate seed. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is the return not an unconditional rescue?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hades gives up all claims before she eats."
+        },
+        {
+          "id": "b",
+          "text": "Persephone must still spend part of her time below."
+        },
+        {
+          "id": "c",
+          "text": "Demeter never sees her daughter again."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Persephone must still spend part of her time below.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d01.persephone-descends.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

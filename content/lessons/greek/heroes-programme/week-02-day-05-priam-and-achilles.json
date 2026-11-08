@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w02d05.priam-and-achilles",
+  "version": 2,
+  "weekId": "grc.heroes.week02",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Priam and Achilles",
+  "subtitle": "Compassion interrupts vengeance",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w02d05.priam-and-achilles.claim",
+      "text": "Explain this episode: What does Priam ask Achilles to return?"
+    },
+    {
+      "id": "obj.grc.heroes.w02d05.priam-and-achilles.source",
+      "text": "Use the cited passage to explain: Why does Priam mention Achilles’ father?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 24, Priam’s appeal; Book 24, normalized characters 25898-26200",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Priam enters the enemy camp to ransom Hector’s body. He asks Achilles to remember his own father. The two men mourn, and Achilles agrees to release the body and allow time for burial.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The poem ends its rage with a ransom, not with simple victory; compassion interrupts revenge without erasing what happened.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Notice the limit of the encounter: Priam recovers a body, not a living son, and the war has not ended. Compassion interrupts vengeance without undoing its losses.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The final model is hard restraint: seeing an enemy as human when violence would be easier.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Priam ask Achilles to return?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Patroclus’ armour"
+        },
+        {
+          "id": "b",
+          "text": "Hector’s body"
+        },
+        {
+          "id": "c",
+          "text": "Helen’s wedding gifts"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Hector’s body. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why does Priam mention Achilles’ father?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He claims Achilles’ father ordered Hector’s death."
+        },
+        {
+          "id": "b",
+          "text": "He offers Achilles a new military alliance."
+        },
+        {
+          "id": "c",
+          "text": "He appeals to a shared vulnerability across enemy lines."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "He appeals to a shared vulnerability across enemy lines.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

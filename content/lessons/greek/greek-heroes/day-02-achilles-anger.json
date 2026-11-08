@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.day02.achilles-anger",
+  "version": 2,
+  "weekId": "grc.heroes.week01",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Achilles: Anger and Honor",
+  "subtitle": "Greatness and its cost",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "achilles",
+    "iliad",
+    "honor"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.achilles-anger.concept",
+      "text": "Identify the central source-grounded idea in Achilles: Anger and Honor."
+    },
+    {
+      "id": "obj.achilles-anger.source",
+      "text": "Connect the idea to the cited source, genre, and version."
+    }
+  ],
+  "sourceReferences": {
+    "iliad": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, opening; Book 1, normalized characters 90-392",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "mother Thetis to ask Jove to help the Trojans—Scene between Jove and Juno on Olympus. Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "A poem about one crisis",
+      "body": "The Iliad begins with Achilles’ anger, not with Troy’s origins or the Wooden Horse. That narrows the poem into an intense study of honor, withdrawal, and consequence.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Greatness without safety",
+      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Read the opening as a thesis",
+      "body": "The first lines point toward rage and its human cost, shaping what the poem wants us to notice about heroism.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Honor is a system, not just a feeling",
+      "body": "The insult matters because heroic status is publicly assigned and publicly removed. Track who loses honor, who enforces the loss, and which community pays for it.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Keep the epic lens",
+      "body": "Read Achilles here through the Iliad alone. Later traditions may smooth him into a simpler warrior, but this poem deliberately begins with a wound to status and the damage that follows.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Achilles withdraw from after the quarrel?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Searching for the fleece"
+        },
+        {
+          "id": "b",
+          "text": "Fighting for the Achaean army"
+        },
+        {
+          "id": "c",
+          "text": "Ruling Athens"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Fighting for the Achaean army. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is anger not merely private here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It never affects any other character."
+        },
+        {
+          "id": "b",
+          "text": "It concerns only a footrace at Olympia."
+        },
+        {
+          "id": "c",
+          "text": "Its consequences fall on the fighting community."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Its consequences fall on the fighting community.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "iliad"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.concept"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+  }
+}

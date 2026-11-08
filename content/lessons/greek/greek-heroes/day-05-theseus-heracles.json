@@ -1,0 +1,192 @@
+{
+  "id": "grc.heroes.day05.theseus-heracles",
+  "version": 2,
+  "weekId": "grc.heroes.week01",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Theseus and Heracles",
+  "subtitle": "Later sources organize heroic traditions",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "theseus",
+    "heracles",
+    "apollodorus",
+    "plutarch"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.theseus-heracles.concept",
+      "text": "Identify the central source-grounded idea in Theseus and Heracles."
+    },
+    {
+      "id": "obj.theseus-heracles.source",
+      "text": "Connect the idea to the cited source, genre, and version."
+    }
+  ],
+  "sourceReferences": {
+    "apollo": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.4.12, madness and the service preceding the labours",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage excerpt, ending mid-sentence; whitespace normalized. Compare this mythographic sequence with Plutarch’s later civic biography."
+    },
+    "plutarch": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, civic unification; local text, normalized characters 40458-40761",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Heroes become systems",
+      "body": "Theseus and Heracles appear across many traditions. Later writers gather scattered stories into lives, genealogies, and labors.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Genre changes the hero",
+      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Keep versions attached",
+      "body": "A tradition can be rich because it varies. Record who tells the story and what kind of work it is.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Different later genres do different work",
+      "body": "Apollodorus organizes episodes into a mythographic account; Plutarch shapes a life for moral and political reading. Ask what each genre wants the hero to explain.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Order is also interpretation",
+      "body": "A catalogue of labours or a civic biography can feel stable, but that order is already a choice. The “official” heroic shape is produced by sources, not simply inherited as fact.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Which hero does Plutarch link to Athens’ civic foundation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Jason"
+        },
+        {
+          "id": "b",
+          "text": "Theseus"
+        },
+        {
+          "id": "c",
+          "text": "Achilles"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Theseus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why identify the author when comparing heroes?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Every work preserves an identical sequence."
+        },
+        {
+          "id": "b",
+          "text": "A later biography is always an eyewitness account."
+        },
+        {
+          "id": "c",
+          "text": "Genre and purpose shape the version being told."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Genre and purpose shape the version being told.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "apollo",
+        "plutarch"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.concept"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+  }
+}

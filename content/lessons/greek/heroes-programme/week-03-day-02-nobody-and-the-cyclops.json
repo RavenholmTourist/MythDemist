@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w03d02.nobody-and-the-cyclops",
+  "version": 2,
+  "weekId": "grc.heroes.week03",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Nobody and the Cyclops",
+  "subtitle": "Information beats force",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim",
+      "text": "Explain this episode: What helps Odysseus conceal who attacked the Cyclops?"
+    },
+    {
+      "id": "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source",
+      "text": "Use the cited passage to explain: How does the later boast undermine the escape?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 9, the Cyclops and the false name; Book 9, normalized characters 19158-19459",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "I will tell it you; give me, therefore, the present you promised me; my name is Noman; this is what my father and mother and my friends have always called me.’ “But the cruel wretch said, ‘Then I will eat all Noman’s comrades before Noman himself, and will keep Noman for the last. This is the present",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Trapped by Polyphemus, Odysseus uses wine, a false name, a stake, and the sheep to escape. He later reveals his identity in a boast, allowing the Cyclops to invoke Poseidon against him.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “I will tell it you; give me, therefore, the present you promised me; my name is Noman; this is what my father and mother and my friends have always called me.’ “But the cruel wretch said, ‘Then I will eat all Noman’s comrades before Noman himself, and will keep Noman for the last. This is the present”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The trick works because Polyphemus can repeat only the wrong information. Cunning here is control over words, timing, and the enemy's expectations.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Separate the successful escape plan from the later boast. Secrecy helps the crew survive; declaring his name satisfies Odysseus’ desire for recognition but creates a new danger.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Compare this with Achilles: Odysseus wins by temporary invisibility, not public honor.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What helps Odysseus conceal who attacked the Cyclops?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A false name"
+        },
+        {
+          "id": "b",
+          "text": "A forged letter from Zeus"
+        },
+        {
+          "id": "c",
+          "text": "A disguise as Athena"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "A false name. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How does the later boast undermine the escape?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It returns the stolen sheep to the cave."
+        },
+        {
+          "id": "b",
+          "text": "It gives Polyphemus the identity needed for his curse."
+        },
+        {
+          "id": "c",
+          "text": "It wakes the Cyclops before the men leave the cave."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "It gives Polyphemus the identity needed for his curse.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

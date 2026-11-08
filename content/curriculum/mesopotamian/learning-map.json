@@ -1,0 +1,81 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.mesopotamian-foundations",
+      "title": "Mesopotamian Foundations",
+      "description": "Eight weeks introducing major Mesopotamian traditions.",
+      "weeks": [
+        "Gilgamesh and Mesopotamian Power",
+        "Divine order",
+        "Heroes and journeys",
+        "Death and boundaries",
+        "Sacred places",
+        "Fate and duty",
+        "Folklore variants",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.mesopotamia-kingship": {
+      "title": "Kingship and excess",
+      "body": "Gilgamesh begins with a hero-king whose power is extraordinary but socially dangerous.",
+      "recordIds": [
+        "pg-11000",
+        "pg-18897"
+      ],
+      "nextTopicIds": [
+        "topic.mesopotamia-mortality",
+        "topic.shared.fate-return"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Gilgamesh begins with a hero-king whose power is extraordinary but socially dangerous.",
+          "recordIds": [
+            "pg-11000",
+            "pg-18897"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-11000",
+            "pg-18897"
+          ]
+        }
+      ]
+    },
+    "topic.mesopotamia-mortality": {
+      "title": "Mortality and fame",
+      "body": "Gilgamesh turns grief into a confrontation with death and the limits of human achievement.",
+      "recordIds": [
+        "pg-11000",
+        "pg-18897"
+      ],
+      "nextTopicIds": [
+        "topic.mesopotamia-kingship",
+        "topic.shared.fate-return"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Gilgamesh turns grief into a confrontation with death and the limits of human achievement.",
+          "recordIds": [
+            "pg-11000",
+            "pg-18897"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-11000",
+            "pg-18897"
+          ]
+        }
+      ]
+    }
+  }
+}

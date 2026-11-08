@@ -1,0 +1,218 @@
+{
+  "id": "norse.week01.day03.loki-ambiguity",
+  "version": 1,
+  "weekId": "nor.gods.week01",
+  "pantheon": "norse",
+  "themeMode": "pantheon",
+  "title": "Loki: Cunning and Ambiguity",
+  "subtitle": "A boundary-crosser whose help is never simple",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "loki",
+    "cunning",
+    "ambiguity"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.loki-ambiguity.concept",
+      "text": "Identify the main idea in Loki: Cunning and Ambiguity."
+    },
+    {
+      "id": "obj.loki-ambiguity.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-18947",
+      "sourceId": "nor.snorri.prose-edda",
+      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "author": "Snorri Sturluson",
+      "translator": "Rasmus B. Anderson",
+      "locator": "Prose Edda\u2014Loki\u2019s shifting role",
+      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+      "excerpt": "ouise Hope, R. Cedron and the Online Distributed Proofreading Team at http://www.pgdp.net *** START OF THE PROJECT GUTENBERG EBOOK THE YOUNGER EDDA; ALSO CALLED SNORRE'S EDDA, OR THE PROSE EDDA *** THE YOUNGER EDDA: also called SNORRE\u2019S EDDA, OR THE PROSE EDDA. An English Version of the Foreword;",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "The Poetic Edda",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "Lokasenna\u2014Loki among the gods",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "her gods in the battle, of the slaying of Baldr, best and fairest of the gods, through the wiles of Loki, of the enemies of the gods, of the summons to battle on both sides, and of the mighty struggle, till Othin is slain, and \u201cfire leaps high about heaven itself\u201d (stanzas 31\u201358). But this is not all. A new and beautiful world is to rise on the ruins of the",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Loki: Cunning and Ambiguity",
+      "body": "Loki\u2019s role shifts between aid, disruption, and danger. That instability is central to Norse cunning rather than a simple villain label.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What makes Loki difficult to classify?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He can both help and endanger the gods"
+        },
+        {
+          "id": "b",
+          "text": "Pure kindness"
+        },
+        {
+          "id": "c",
+          "text": "Only physical strength"
+        },
+        {
+          "id": "d",
+          "text": "A Roman virtue"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Loki\u2019s role shifts between aid, disruption, and danger. That instability is central to Norse cunning rather than a simple villain label.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.loki-ambiguity.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

@@ -1,0 +1,217 @@
+{
+  "id": "finnish.week01.day05.kullervo-and-consequence",
+  "version": 1,
+  "weekId": "finnish.tradition.week01",
+  "pantheon": "finnish",
+  "themeMode": "pantheon",
+  "title": "Kullervo and consequence",
+  "subtitle": "Source-linked finnish starter lesson",
+  "estimatedMinutes": 3,
+  "difficulty": 1,
+  "tags": [
+    "finnish",
+    "tradition"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.finnish.5.concept",
+      "text": "Identify the main idea in Kullervo and consequence."
+    },
+    {
+      "id": "obj.finnish.5.source",
+      "text": "Keep the claim attached to its source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-primary": {
+      "recordId": "pg-5186",
+      "sourceId": "fin.kalevala",
+      "work": "Kalevala",
+      "author": "Elias L\u00f6nnrot",
+      "translator": "John Martin Crawford",
+      "locator": "Kullervo and consequence",
+      "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
+      "excerpt": "Local corpus source.",
+      "note": "Starter tradition-library reference."
+    },
+    "ref-secondary": {
+      "recordId": "pg-5184",
+      "sourceId": "fin.kalevala-vol1",
+      "work": "Kalevala, Volume 1",
+      "author": "Elias L\u00f6nnrot",
+      "translator": "John Martin Crawford",
+      "locator": "Kullervo and consequence",
+      "localPath": "content/corpus/finnish/primary/kalevala-vol1-crawford-5184.txt",
+      "excerpt": "Comparative local corpus source.",
+      "note": "Second source lens."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Kullervo and consequence",
+      "body": "Kullervo and consequence is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "A second lens",
+      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read it",
+      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Connect without flattening",
+      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How should Kullervo and consequence be introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Through its own sources and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "A universal pantheon"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "No source boundary"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Kullervo and consequence is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.concept"
+      ],
+      "deepDive": {
+        "prompt": "Check the local source.",
+        "suggestedQuestions": [
+          "What source type is this?",
+          "What does it support?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should remain attached to this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source, genre, and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "Only a character name"
+        },
+        {
+          "id": "c",
+          "text": "Only a modern label"
+        },
+        {
+          "id": "d",
+          "text": "Nothing"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Small traditions need careful source and living-context labels.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.finnish.5.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Pantheon, folklore, or living tradition?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Small-tradition starter lesson."
+  }
+}

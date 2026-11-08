@@ -1,0 +1,50 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Progression regression</title></head><body>
+<h1 id="result">Running</h1><pre id="details"></pre>
+<script type="module">
+import { calendarDays, runWeek, completionDate, finishAssessment, migratePlan, assessmentKey } from '../src/progression.js';
+const checks = [];
+const assert = (value, label) => { if (!value) throw new Error(label); checks.push(label); };
+try {
+  assert(calendarDays('2026-03-29', '2026-03-30') === 1, 'spring DST is one calendar day');
+  assert(calendarDays('2026-10-25', '2026-10-26') === 1, 'autumn DST is one calendar day');
+  assert(calendarDays('2026-12-31', '2027-01-01') === 1, 'year rollover');
+  assert(calendarDays('2028-02-28', '2028-03-01') === 2, 'leap day');
+  assert(calendarDays('2026-11-09', '2026-11-08') === 0, 'backward clock never unlocks negative days');
+  const assessment = { questions: [{ lessonId: 'a', question: { prompt: 'new prompt' } }] };
+  const entry = { weekId: 'week', lessonIds: ['a', 'b'], lessonVersions: { a: 2, b: 2 }, assessment };
+  const plan = { arcId: 'arc', createdAt: '2026-11-08T10:00:00Z', weeks: [entry], progressVersion: 2 };
+  const state = runWeek(plan, 'week');
+  assert(!completionDate(entry, plan), 'empty fresh run is not complete');
+  state.lessons.a = { completedAt: '2026-11-08T11:00:00Z', contentVersion: 2, questions: {} };
+  state.lessons.b = { completedAt: '2026-11-08T11:00:00Z', contentVersion: 2, questions: {} };
+  assert(!completionDate(entry, plan), 'lessons without assessment do not complete week');
+  const key = assessmentKey(assessment);
+  finishAssessment(state, 0, 5, '2026-11-08T12:00:00Z', key);
+  const originalDate = completionDate(entry, plan);
+  assert(Boolean(originalDate), 'taking assessment completes week even with mistakes');
+  finishAssessment(state, 5, 5, '2026-11-10T12:00:00Z', key);
+  assert(completionDate(entry, plan) === originalDate, 'later retake cannot postpone unlock');
+  assert(state.assessment.history.length === 2 && state.assessment.attempts === 2, 'attempt history preserved');
+  state.lessons.a.contentVersion = 1;
+  assert(!completionDate(entry, plan), 'old lesson version does not certify revised content');
+  state.lessons.a.contentVersion = 2;
+  entry.assessment = { questions: [{ lessonId: 'a', question: { prompt: 'changed prompt' } }] };
+  assert(!completionDate(entry, plan), 'old assessment bank does not certify revised questions');
+  const other = { ...plan, runId: 'new', weekStates: {} };
+  assert(runWeek(other, 'week').startedAt === null, 'reused module has fresh start');
+  assert(!completionDate(entry, other), 'reused module cannot borrow another run’s results');
+  const legacy = { arcId: 'legacy', createdAt: '2026-11-08T10:00:00Z', weeks: [{ weekId: 'week', lessonIds: ['a'], assessment: null }] };
+  migratePlan(legacy, { weeks: { week: { startedAt: '2026-11-01T00:00:00Z', assessment: { completedAt: '2026-11-01T00:00:00Z' } } }, lessons: { a: { completedAt: '2026-11-01T00:00:00Z', questions: {}, contentVersion: 1 } } });
+  assert(!completionDate(legacy.weeks[0], legacy), 'migration rejects completions before run start');
+  assert(runWeek(legacy, 'week').startedAt === null, 'migration rejects earlier module start');
+  const eligible = { arcId: 'legacy-ok', createdAt: '2026-11-08T10:00:00Z', weeks: [{ weekId: 'week', lessonIds: ['a'], assessment: null }] };
+  migratePlan(eligible, { weeks: { week: { startedAt: '2026-11-08T10:00:00Z' } }, lessons: { a: { completedAt: '2026-11-08T11:00:00Z', questions: {}, contentVersion: 1 } } });
+  assert(Boolean(completionDate(eligible.weeks[0], eligible)), 'migration preserves provably eligible historical progress');
+  document.querySelector('#result').textContent = 'PASS';
+  document.querySelector('#details').textContent = JSON.stringify({ checks: checks.length });
+} catch (error) {
+  document.querySelector('#result').textContent = 'FAIL';
+  document.querySelector('#details').textContent = error.stack;
+  console.error(error);
+}
+</script></body></html>

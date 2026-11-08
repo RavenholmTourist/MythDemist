@@ -1,0 +1,132 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.roman-foundations",
+      "title": "Roman Foundations",
+      "description": "Eight weeks introducing major Roman traditions.",
+      "weeks": [
+        "Roman Myth",
+        "Gods and powers",
+        "Heroes and journeys",
+        "Otherworlds",
+        "Ritual and place",
+        "Fate and transformation",
+        "Variant sources",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.roman-transformation": {
+      "title": "Myth as transformation",
+      "body": "Ovid turns inherited myth into linked stories of changing bodies, desires, places, and identities.",
+      "recordIds": [
+        "roman-pg-21765",
+        "roman-pg-26073"
+      ],
+      "nextTopicIds": [
+        "topic.iliad-anger-honor",
+        "topic.egypt-death-renewal",
+        "topic.norse-edda-source",
+        "topic.roman-power-identity"
+      ],
+      "cards": [
+        {
+          "title": "Why this matters",
+          "body": "Ovid turns inherited myth into linked stories of changing bodies, desires, places, and identities.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        },
+        {
+          "title": "Compare across pantheons",
+          "body": "Use this as a bridge into shared themes, while keeping the tradition and source type distinct.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        }
+      ]
+    },
+    "topic.shared-heroes-change": {
+      "title": "Shared Theme: Heroes Change",
+      "body": "A cross-pantheon bridge topic. It compares a shared theme while keeping each pantheon\u2019s sources and versions distinct.",
+      "recordIds": [
+        "roman-pg-21765",
+        "roman-pg-26073"
+      ],
+      "nextTopicIds": [],
+      "cards": [
+        {
+          "title": "A shared question",
+          "body": "How does this pantheon frame the theme differently from the others you have met?",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        }
+      ]
+    },
+    "topic.roman-power-identity": {
+      "title": "Power and Roman identity",
+      "body": "Roman myth frames divine power through state, oath, ancestry, and collective identity.",
+      "recordIds": [
+        "roman-pg-21765",
+        "roman-pg-26073"
+      ],
+      "nextTopicIds": [
+        "topic.shared.war-honor",
+        "topic.shared.transformation-reception"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Roman myth frames divine power through state, oath, ancestry, and collective identity.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        }
+      ]
+    },
+    "topic.roman-change-reception": {
+      "title": "Change and reception",
+      "body": "Ovid turns inherited myth into Roman literature by connecting stories through continual transformation.",
+      "recordIds": [
+        "roman-pg-21765",
+        "roman-pg-26073"
+      ],
+      "nextTopicIds": [
+        "topic.shared.transformation-reception",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Ovid turns inherited myth into Roman literature by connecting stories through continual transformation.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        }
+      ]
+    }
+  }
+}

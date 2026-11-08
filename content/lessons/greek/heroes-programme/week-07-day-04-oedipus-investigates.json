@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w07d04.oedipus-investigates",
+  "version": 2,
+  "weekId": "grc.heroes.week07",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Oedipus Investigates",
+  "subtitle": "Knowledge becomes reversal",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "theban"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w07d04.oedipus-investigates.claim",
+      "text": "Explain this episode: What crime does Oedipus investigate?"
+    },
+    {
+      "id": "obj.grc.heroes.w07d04.oedipus-investigates.source",
+      "text": "Use the cited passage to explain: What gives his curse dramatic irony?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00031",
+      "sourceId": "grc.sophocles.theban-plays",
+      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+      "author": "Sophocles",
+      "translator": "Francis Storr",
+      "locator": "Oedipus the King, Oedipus’ proclamation; local text, normalized characters 12393-12693",
+      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+      "excerpt": "as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "To free Thebes from plague, Oedipus seeks Laius’ killer and curses the unknown culprit. The investigation eventually identifies Oedipus himself. The skill and determination used to protect the city turn back upon its ruler.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: His intelligence is genuinely heroic, but it leads to recognition rather than rescue; knowledge can be necessary and devastating.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Watch how the proclamation changes meaning as the inquiry proceeds. Oedipus speaks against an unknown culprit, while the audience can recognise that his investigation will expose the speaker himself.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This is heroic problem-solving turned into reversal.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What crime does Oedipus investigate?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The murder of Agamemnon"
+        },
+        {
+          "id": "b",
+          "text": "The killing of Laius"
+        },
+        {
+          "id": "c",
+          "text": "The theft of Briseis"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The killing of Laius. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What gives his curse dramatic irony?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The audience knows Laius is still ruling Thebes."
+        },
+        {
+          "id": "b",
+          "text": "Creon has already confessed to the killing."
+        },
+        {
+          "id": "c",
+          "text": "The unknown killer he condemns will prove to be himself."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "The unknown killer he condemns will prove to be himself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "slavic.week01.day05.firebird-quest",
+  "version": 1,
+  "weekId": "sla.folklore.week01",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "title": "The Firebird: Wonder and Quest",
+  "subtitle": "Beauty that triggers a journey",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "firebird",
+    "quest",
+    "wonder"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.firebird-quest.concept",
+      "text": "Identify the main idea in The Firebird: Wonder and Quest."
+    },
+    {
+      "id": "obj.firebird-quest.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales",
+      "author": "various collectors",
+      "translator": "W. R. S. Ralston",
+      "locator": "Firebird and quest motifs",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "&c.--Stories about Wizards and Witches--The Headless Princess--Midnight Watchings over Corpses--The Fire Bird, its connexion with the Golden Bird and the Phoenix 237 CHAPTER V. GHOST STORIES. Slavonic Ideas about the Dead--On Heaven and Hell--On the Jack and the Beanstalk Story--Harmless Ghosts--The Rip van Winkle Story--the attachment of Ghosts to",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-48761",
+      "sourceId": "sla.folklore.sixty-slavonic-tales",
+      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "author": "various collectors and storytellers",
+      "translator": "A. H. Wratislaw",
+      "locator": "Slavonic variants\u2014wonder and pursuit",
+      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
+      "excerpt": "231 SERBIAN STORIES FROM BOSNIA 239 XLV. The Birdcatcher (_Ptichar_). J. F. Jukih, in the 'Bosnian Friend,' i. 114 239 XLVI. The Two Brothers (_Bratya_). J. F. Jukih, in the 'Bosnian Friend,' i. 171 246 SERBIAN",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The Firebird: Wonder and Quest",
+      "body": "The Firebird\u2019s beauty pulls a hero into a chain of pursuit, consequence, and supernatural trial.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does the Firebird set in motion?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A supernatural quest"
+        },
+        {
+          "id": "b",
+          "text": "A census"
+        },
+        {
+          "id": "c",
+          "text": "A lawsuit"
+        },
+        {
+          "id": "d",
+          "text": "A coronation"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The Firebird\u2019s beauty pulls a hero into a chain of pursuit, consequence, and supernatural trial.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.firebird-quest.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

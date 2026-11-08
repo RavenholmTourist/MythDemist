@@ -1,0 +1,81 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.polynesian-foundations",
+      "title": "Polynesian Foundations",
+      "description": "Eight weeks introducing major Polynesian traditions.",
+      "weeks": [
+        "Maui and Polynesian Journeys",
+        "Divine order",
+        "Heroes and journeys",
+        "Death and boundaries",
+        "Sacred places",
+        "Fate and duty",
+        "Folklore variants",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.polynesian-maui-tricks": {
+      "title": "Maui and creative trickery",
+      "body": "Maui\u2019s feats combine mischief, cunning, utility, and cosmic-scale transformation.",
+      "recordIds": [
+        "pg-32601",
+        "pg-39195"
+      ],
+      "nextTopicIds": [
+        "topic.polynesian-voyaging",
+        "topic.shared.cunning-power"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Maui\u2019s feats combine mischief, cunning, utility, and cosmic-scale transformation.",
+          "recordIds": [
+            "pg-32601",
+            "pg-39195"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-32601",
+            "pg-39195"
+          ]
+        }
+      ]
+    },
+    "topic.polynesian-voyaging": {
+      "title": "Islands, sea, and migration",
+      "body": "Polynesian traditions join supernatural events with the remembered movement of people across oceans.",
+      "recordIds": [
+        "pg-32601",
+        "pg-39195"
+      ],
+      "nextTopicIds": [
+        "topic.polynesian-maui-tricks",
+        "topic.shared.cunning-power"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Polynesian traditions join supernatural events with the remembered movement of people across oceans.",
+          "recordIds": [
+            "pg-32601",
+            "pg-39195"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-32601",
+            "pg-39195"
+          ]
+        }
+      ]
+    }
+  }
+}

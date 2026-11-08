@@ -1,0 +1,70 @@
+{
+  "id": "nor.gods.week01",
+  "title": "Norse Gods",
+  "subtitle": "Power, wisdom, fate, and endings",
+  "pantheon": "norse",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "norse-hammer",
+    "accent": "ice"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Odin: Wisdom Has a Price",
+      "lessonId": "nor.gods.day01.odin-wisdom",
+      "lessonPath": "content/lessons/norse/norse-gods/day-01-odin-wisdom.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Thor: Strength and Protection",
+      "status": "available",
+      "lessonId": "norse.week01.day02.thor-protection",
+      "lessonPath": "content/lessons/norse/gods/day-02-thor-protection.json"
+    },
+    {
+      "day": 3,
+      "title": "Loki: Cunning and Ambiguity",
+      "status": "available",
+      "lessonId": "norse.week01.day03.loki-ambiguity",
+      "lessonPath": "content/lessons/norse/gods/day-03-loki-ambiguity.json"
+    },
+    {
+      "day": 4,
+      "title": "Freyja: Desire, Magic, and Power",
+      "status": "available",
+      "lessonId": "norse.week01.day04.freyja-power",
+      "lessonPath": "content/lessons/norse/gods/day-04-freyja-power.json"
+    },
+    {
+      "day": 5,
+      "title": "Fate and Ragnar\u00f6k",
+      "status": "available",
+      "lessonId": "norse.week01.day05.ragnarok-fate",
+      "lessonPath": "content/lessons/norse/gods/day-05-ragnarok-fate.json"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.norse-edda-source",
+      "title": "The Prose Edda as a source",
+      "description": "Explore how Snorri\u2019s medieval handbook preserves and reshapes older Norse traditions.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-18947"
+      ],
+      "prompt": "Ask what kind of source the Prose Edda is and how its purpose differs from epic poetry."
+    },
+    {
+      "id": "topic.norse-wisdom-sacrifice",
+      "title": "Wisdom and sacrifice",
+      "description": "Follow how Norse stories connect knowledge to cost, ordeal, and exchange.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-18947"
+      ],
+      "prompt": "Compare Odin\u2019s pursuit of wisdom with Achilles\u2019 pursuit of honor."
+    }
+  ]
+}

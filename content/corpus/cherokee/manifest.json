@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "cherokee",
+  "coverageType": "regional-tradition",
+  "records": [
+    {
+      "id": "pg-45634",
+      "title": "Myths of the Cherokee",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Cherokee traditions"
+      ],
+      "translator": "James Mooney",
+      "sourceIds": [
+        "cherokee.myths"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/45634",
+      "localPath": "primary/myths-cherokee-mooney-45634.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

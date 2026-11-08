@@ -1,0 +1,1326 @@
+{
+  "arc.greek-heroes": {
+    "arcId": "arc.greek-heroes",
+    "weeks": [
+      {
+        "week": 1,
+        "theme": "Heroic ideals",
+        "weekId": "grc.heroes.week01",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-01.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Greek Heroes assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.day01.heroic-excellence",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Why compare the openings of the Iliad and Odyssey?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "They prove every hero has the same ending."
+                  },
+                  {
+                    "id": "b",
+                    "text": "They introduce different heroic problems rather than one moral template."
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are accounts of the same scene."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "They introduce different heroic problems rather than one moral template.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "ref-iliad-1-opening",
+                  "ref-odyssey-1-opening"
+                ],
+                "objectiveIds": [
+                  "obj.heroic-excellence.achilles-vs-odysseus"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.day02.achilles-anger",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "Which consequence links Achilles’ quarrel to the wider war?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "It moves the war from Troy to Athens."
+                  },
+                  {
+                    "id": "b",
+                    "text": "It sends Jason to Colchis."
+                  },
+                  {
+                    "id": "c",
+                    "text": "His withdrawal removes a crucial fighter from the army."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "His withdrawal removes a crucial fighter from the army.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "iliad"
+                ],
+                "objectiveIds": [
+                  "obj.achilles-anger.concept"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.day03.odysseus-cunning",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "What must a return narrative address beyond travel?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Recognition and the household awaiting the traveller"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only the number of ships in the fleet"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only the weapons used to kill monsters"
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Recognition and the household awaiting the traveller. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "odyssey"
+                ],
+                "objectiveIds": [
+                  "obj.odysseus-cunning.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.day04.jason-medea",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "Why keep Apollonius and Euripides distinct?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "One is an eyewitness translation of the other."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Their genres and narrative settings shape different presentations of Medea."
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are aliases for Homer."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Their genres and narrative settings shape different presentations of Medea.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "argo",
+                  "medea"
+                ],
+                "objectiveIds": [
+                  "obj.jason-medea.concept"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.day05.theseus-heracles",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What is a responsible claim about Plutarch’s Theseus?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Plutarch records his personal meeting with Theseus."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Theseus wrote Plutarch’s account of Athens."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Plutarch presents a legendary founder through later biography."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "Plutarch presents a legendary founder through later biography.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "apollo",
+                  "plutarch"
+                ],
+                "objectiveIds": [
+                  "obj.theseus-heracles.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 2,
+        "theme": "Anger, honor, grief, and compassion",
+        "weekId": "grc.heroes.week02",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-02.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Achilles and the Iliad assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Which sequence opens the Iliad’s crisis?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Patroclus dies before Chryses visits the camp."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Priam offers ransom before Achilles withdraws."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A rejected petition leads to plague and a dispute among leaders."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "A rejected petition leads to plague and a dispute among leaders.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "Why distinguish Briseis from Chryseis?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles."
+                  },
+                  {
+                    "id": "b",
+                    "text": "They are two names for the same captive."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Briseis is the priest who demands ransom."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w02d03.the-embassy-fails",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "How does Book 9 complicate heroic honour?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The embassy proves Achilles cares only about armour."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Material rewards do not automatically restore damaged trust."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A larger reward immediately ends Achilles’ anger."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Material rewards do not automatically restore damaged trust.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w02d03.the-embassy-fails.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "What most directly motivates Achilles’ return?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Acceptance of the original embassy without further loss"
+                  },
+                  {
+                    "id": "b",
+                    "text": "A promise that he will now survive the war"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Grief for Patroclus and the desire to avenge him"
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "Grief for Patroclus and the desire to avenge him. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w02d05.priam-and-achilles",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What changes in Book 24 without undoing the war?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Achilles recognises Priam’s grief and permits Hector’s burial."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Priam’s appeal brings Hector back to life."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Achilles agrees to lead Troy against Agamemnon."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Achilles recognises Priam’s grief and permits Hector’s burial.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w02d05.priam-and-achilles.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 3,
+        "theme": "Cunning, endurance, home, and recognition",
+        "weekId": "grc.heroes.week03",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-03.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Odysseus and Return assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w03d01.the-broken-house",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Why begin with Ithaca rather than only Odysseus’ travels?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "His absence has social costs for the household he hopes to regain."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The poem has forgotten who its returning hero is."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Ithaca has already completed the recognition of Odysseus."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "His absence has social costs for the household he hopes to regain.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w03d01.the-broken-house.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "What tension does the Cyclops episode expose?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Revealing a name guarantees divine protection."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Clever secrecy wins escape, but the desire for credit creates danger."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Strength alone succeeds where planning fails."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Clever secrecy wins escape, but the desire for credit creates danger.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "Which distinction matters in the Sirens plan?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Every sailor listens without any restraint."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Odysseus uses the false name from the Cyclops episode."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The crew avoid hearing, while Odysseus listens under restraint."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "The crew avoid hearing, while Odysseus listens under restraint.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "How should this passage qualify a reading of heroic fame?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The dead hero himself voices a cost that praise can conceal."
+                  },
+                  {
+                    "id": "b",
+                    "text": "It proves every Greek text rejects honour."
+                  },
+                  {
+                    "id": "c",
+                    "text": "It is an account of a funeral contest, not an encounter with the dead."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "The dead hero himself voices a cost that praise can conceal.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What does the recognition scene add to the idea of return?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Penelope recognises him because he describes Troy’s walls."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Reaching home is not the same as being recognised and trusted."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Physical arrival makes all further tests unnecessary."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Reaching home is not the same as being recognised and trusted.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w03d05.disguise-and-recognition.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 4,
+        "theme": "Quest, persuasion, betrayal, and aftermath",
+        "weekId": "grc.heroes.week04",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-04.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Jason and Medea assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w04d01.the-political-quest",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Which detail explains Pelias’ alarm?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Medea arrives in Iolcus before Jason is born."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Jason matches the warning about a man with one sandal."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Jason returns carrying the fleece before the voyage."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Jason matches the warning about a man with one sandal.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w04d01.the-political-quest.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w04d02.aeetes-and-the-tasks",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "Why is it misleading to call Jason’s success unaided strength?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Jason completes the test before he meets Aeetes."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The bulls turn out to be ordinary farm animals."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The challenge is overcome with Medea’s specialist help."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "The challenge is overcome with Medea’s specialist help.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w04d03.medea-chooses",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "How can we describe Medea without erasing the poem’s tensions?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "She deliberates and acts within family pressures and divine influence."
+                  },
+                  {
+                    "id": "b",
+                    "text": "She is merely a reward with no decisions in the plot."
+                  },
+                  {
+                    "id": "c",
+                    "text": "She has no connection to Colchis or Aeetes."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "She deliberates and acts within family pressures and divine influence.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w04d03.medea-chooses.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w04d04.flight-and-pursuit",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "Which claim preserves the source boundary?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Euripides’ Medea narrates the whole outward voyage on stage."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Apollonius’ Apsyrtus episode should not be silently replaced by another version."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Every account gives exactly the same killing of Apsyrtus."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Apollonius’ Apsyrtus episode should not be silently replaced by another version.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w04d05.medea-on-stage",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "Why should the two works not be treated as one continuous transcript?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Euripides is the translator of Apollonius."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The Nurse is an eyewitness narrator in the Argonautica."
+                  },
+                  {
+                    "id": "c",
+                    "text": "They are different authors’ works with different genres and dramatic purposes."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "They are different authors’ works with different genres and dramatic purposes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w04d05.medea-on-stage.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 5,
+        "theme": "Strength, service, suffering, and immortality",
+        "weekId": "grc.heroes.week05",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-05.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Heracles assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "What should a careful account distinguish?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The labours from Jason’s command of the Argo only by name"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Eurystheus from Heracles as two names of the same hero"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The initial ten tasks from the later total of twelve"
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "The initial ten tasks from the later total of twelve. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w05d02.the-nemean-lion",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "What makes this feat an example of adaptation?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Failed arrows lead Heracles to change his approach."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The first arrow kills the lion immediately."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Eurystheus fights the lion while Heracles watches."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Failed arrows lead Heracles to change his approach.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w05d03.madness-and-service",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "Why attach the sequence to the Library?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Eurystheus writes every ancient account of Heracles."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Different works can place the family catastrophe differently."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The Library is a modern superhero adaptation."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Different works can place the family catastrophe differently.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w05d03.madness-and-service.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "Which passage directly supports this ending?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Iliad Book 1, Chryses’ appeal"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Epitome 7, the returns from Troy"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Library 2.7.7"
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "Library 2.7.7. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What distinguishes this use of Herakles from the Library’s list?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The ode praises a victor rather than arranging a sequence of labours."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The ode claims to be a complete prose biography."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The Library is the speech Theron gives at his victory."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "The ode praises a victor rather than arranging a sequence of labours.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 6,
+        "theme": "Founders, civic myth, and contested versions",
+        "weekId": "grc.heroes.week06",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-06.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Theseus and Athens assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w06d01.the-road-to-athens",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Which source supplies this biographical framing?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Plutarch’s Life of Theseus"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Pindar’s Olympian 2"
+                  },
+                  {
+                    "id": "c",
+                    "text": "The Homeric Hymn to Demeter"
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Plutarch’s Life of Theseus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w06d01.the-road-to-athens.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "What does the thread qualify about the heroic victory?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Theseus needs no knowledge of the maze."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Theseus’ success depends on another person’s practical aid."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The Minotaur has already left Crete."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Theseus’ success depends on another person’s practical aid.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w06d03.founder-and-unifier",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "What changes when the hero becomes a civic founder?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "His story ceases to have political meaning."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The source becomes an eyewitness record of prehistoric Athens."
+                  },
+                  {
+                    "id": "c",
+                    "text": "His deeds explain the community’s institutions and belonging."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "His deeds explain the community’s institutions and belonging.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w06d03.founder-and-unifier.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w06d04.contested-theseus",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "Which statement respects variant evidence?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Plutarch reports alternatives; his report does not establish one eyewitness history."
+                  },
+                  {
+                    "id": "b",
+                    "text": "All variants must have happened consecutively."
+                  },
+                  {
+                    "id": "c",
+                    "text": "A later biography cannot preserve any earlier traditions."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w06d04.contested-theseus.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w06d05.the-civic-hero",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What evidence is needed for the comparison?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Only a modern ranking of heroic strength"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Both Plutarch’s unification account and the Library’s service account"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only an Iliad quotation about Achilles"
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Both Plutarch’s unification account and the Library’s service account. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main",
+                  "heracles"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w06d05.the-civic-hero.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 7,
+        "theme": "Tragedy as argument with inherited myth",
+        "weekId": "grc.heroes.week07",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-07.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Heroes on Stage assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w07d01.agamemnon-returns",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "Which contrast with Odysseus’ return is useful but limited?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Neither poem connects war with household damage."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Both homecomings end with the same bed test."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w07d01.agamemnon-returns.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w07d02.orestes-and-justice",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "Why is “law simply replaces religion” a poor summary?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The play contains no court or judgement."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Athena is absent from the proceedings."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Divine figures and the Erinyes remain central to the settlement."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "Divine figures and the Erinyes remain central to the settlement.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w07d03.antigone-and-burial",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "Which summary avoids flattening the conflict?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "A ruler’s decree collides with familial and divine obligations."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Both characters agree that burial has no religious meaning."
+                  },
+                  {
+                    "id": "c",
+                    "text": "The play is chiefly about identifying Laius’ murderer."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "A ruler’s decree collides with familial and divine obligations.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w07d03.antigone-and-burial.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w07d04.oedipus-investigates",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "What changes during the investigation?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "The plague is solved by recovering the fleece."
+                  },
+                  {
+                    "id": "b",
+                    "text": "The investigator becomes the person his inquiry exposes."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Oedipus abandons inquiry because no witnesses exist."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "The investigator becomes the person his inquiry exposes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w07d05.the-trojan-women",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "How should this play enter a comparison with the Iliad?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "As the final book written by Homer himself"
+                  },
+                  {
+                    "id": "b",
+                    "text": "As proof that no Greek work ever praised a warrior"
+                  },
+                  {
+                    "id": "c",
+                    "text": "As another work’s perspective on war, not a missing transcript from Homer"
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "As another work’s perspective on war, not a missing transcript from Homer. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w07d05.the-trojan-women.source"
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "week": 8,
+        "theme": "Cult, memory, reception, and comparison",
+        "weekId": "grc.heroes.week08",
+        "weekPath": "content/curriculum/greek/greek-heroes-week-08.json",
+        "pantheon": "greek",
+        "assessment": {
+          "title": "Afterlives of Heroes assessment",
+          "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+          "questionCount": 5,
+          "questions": [
+            {
+              "lessonId": "grc.heroes.w08d01.persephone-descends",
+              "question": {
+                "id": "q1",
+                "type": "single-choice",
+                "prompt": "What should a source-specific reading avoid?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Noticing Demeter’s grief and the threat to crops"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Keeping the hymn distinct from later versions"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Reducing the hymn to a universal story of a voluntary romantic journey"
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w08d01.persephone-descends.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w08d02.heroes-in-memory",
+              "question": {
+                "id": "q2",
+                "type": "single-choice",
+                "prompt": "What additional evidence would a claim about local hero cult require?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Evidence about the particular sanctuary, community, and practice"
+                  },
+                  {
+                    "id": "b",
+                    "text": "Only the fact that a hero speaks in an epic"
+                  },
+                  {
+                    "id": "c",
+                    "text": "Only a comparison of modern film heroes"
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Evidence about the particular sanctuary, community, and practice. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w08d03.ovid-transforms",
+              "question": {
+                "id": "q3",
+                "type": "single-choice",
+                "prompt": "Which comparison keeps the sources distinct?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Treat Riley’s explanatory summaries as Ovid’s own Latin lines."
+                  },
+                  {
+                    "id": "b",
+                    "text": "Compare Ovid’s crown transformation with the Epitome’s thread episode."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Use Ovid to silently correct every earlier Greek account."
+                  }
+                ],
+                "answerId": "b",
+                "explanation": "Compare Ovid’s crown transformation with the Epitome’s thread episode.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w08d03.ovid-transforms.source"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
+              "question": {
+                "id": "q4",
+                "type": "single-choice",
+                "prompt": "Why keep Frazer’s scholarly layer visible?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "He is the original author of the Homeric Hymns."
+                  },
+                  {
+                    "id": "b",
+                    "text": "A modern scholarly work cannot mention ancient geography."
+                  },
+                  {
+                    "id": "c",
+                    "text": "His interpretation of ancient testimony is not the ancient testimony itself."
+                  }
+                ],
+                "answerId": "c",
+                "explanation": "His interpretation of ancient testimony is not the ancient testimony itself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+                ]
+              }
+            },
+            {
+              "lessonId": "grc.heroes.w08d05.four-heroic-models",
+              "question": {
+                "id": "q5",
+                "type": "single-choice",
+                "prompt": "What is the strongest course-wide conclusion?",
+                "choices": [
+                  {
+                    "id": "a",
+                    "text": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries."
+                  },
+                  {
+                    "id": "b",
+                    "text": "All four heroes express one unchanging moral code."
+                  },
+                  {
+                    "id": "c",
+                    "text": "Later biographies are eyewitness records of the heroic age."
+                  }
+                ],
+                "answerId": "a",
+                "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+                "sourceRefIds": [
+                  "main",
+                  "heracles",
+                  "odysseus",
+                  "theseus"
+                ],
+                "objectiveIds": [
+                  "obj.grc.heroes.w08d05.four-heroic-models.source"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

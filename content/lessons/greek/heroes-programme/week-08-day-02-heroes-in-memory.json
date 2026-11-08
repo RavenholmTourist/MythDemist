@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w08d02.heroes-in-memory",
+  "version": 2,
+  "weekId": "grc.heroes.week08",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Heroes in Memory",
+  "subtitle": "The dead keep asking questions",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w08d02.heroes-in-memory.claim",
+      "text": "Explain this episode: What does Achilles prefer to rule among the dead?"
+    },
+    {
+      "id": "obj.grc.heroes.w08d02.heroes-in-memory.source",
+      "text": "Use the cited passage to explain: What can this passage establish directly?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 11, Achilles’ reply among the dead; Book 11, normalized characters 23465-23767",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Return to Achilles’ answer among the dead: he prefers humble life to kingship over the departed. This is a literary encounter with a remembered hero; it is not by itself evidence of a particular community’s hero-cult ritual.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The living hero gains direction by listening to those whose stories complicate his own.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "A literary encounter with a dead hero establishes what this poem stages. A historical claim about hero cult would require evidence about a particular community’s sanctuary, offerings, and practices.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The dead make the heroic past answerable to the present.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Achilles prefer to rule among the dead?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A new suit of divine armour"
+        },
+        {
+          "id": "b",
+          "text": "A humble life among the living"
+        },
+        {
+          "id": "c",
+          "text": "Another funeral contest"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "A humble life among the living. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What can this passage establish directly?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The exact ritual of every historical hero cult"
+        },
+        {
+          "id": "b",
+          "text": "The beliefs of all Greeks in every period"
+        },
+        {
+          "id": "c",
+          "text": "How the Odyssey stages Achilles’ speech about death"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "How the Odyssey stages Achilles’ speech about death. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

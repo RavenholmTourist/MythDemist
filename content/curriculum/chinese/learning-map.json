@@ -1,0 +1,81 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.chinese-foundations",
+      "title": "Chinese Foundations",
+      "description": "Eight weeks introducing major Chinese traditions.",
+      "weeks": [
+        "Chinese Myth and Cosmic Order",
+        "Divine order",
+        "Heroes and journeys",
+        "Death and boundaries",
+        "Sacred places",
+        "Fate and duty",
+        "Folklore variants",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.chinese-cosmic-order": {
+      "title": "Cosmic order and repair",
+      "body": "Chinese myth often treats the cosmos as something fragile that heroes, gods, and sages must repair and rebalance.",
+      "recordIds": [
+        "pg-15250",
+        "pg-26070"
+      ],
+      "nextTopicIds": [
+        "topic.chinese-moon-boundary",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Chinese myth often treats the cosmos as something fragile that heroes, gods, and sages must repair and rebalance.",
+          "recordIds": [
+            "pg-15250",
+            "pg-26070"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-15250",
+            "pg-26070"
+          ]
+        }
+      ]
+    },
+    "topic.chinese-moon-boundary": {
+      "title": "The moon and divine boundaries",
+      "body": "Moon and immortality traditions place longing, exile, and transformation at a heavenly boundary.",
+      "recordIds": [
+        "pg-15250",
+        "pg-26070"
+      ],
+      "nextTopicIds": [
+        "topic.chinese-cosmic-order",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Moon and immortality traditions place longing, exile, and transformation at a heavenly boundary.",
+          "recordIds": [
+            "pg-15250",
+            "pg-26070"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-15250",
+            "pg-26070"
+          ]
+        }
+      ]
+    }
+  }
+}

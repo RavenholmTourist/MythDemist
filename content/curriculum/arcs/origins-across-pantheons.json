@@ -1,0 +1,56 @@
+{
+  "id": "arc.origins-across-pantheons",
+  "scope": "cross-pantheon",
+  "title": "Origins, Boundaries, and Renewal",
+  "description": "An eight-week comparative arc about creation, divine boundaries, death, journeys, and the renewal of worlds.",
+  "pantheons": [
+    "chinese",
+    "mesoamerican",
+    "japanese",
+    "polynesian",
+    "egyptian",
+    "mesopotamian"
+  ],
+  "status": "active",
+  "weekPath": "content/curriculum/shared/origins-boundaries-week-01.json",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Creation and cosmic order",
+      "primaryPantheon": "chinese"
+    },
+    {
+      "week": 2,
+      "theme": "Worlds made and remade",
+      "primaryPantheon": "mesoamerican"
+    },
+    {
+      "week": 3,
+      "theme": "Divine birth and separation",
+      "primaryPantheon": "japanese"
+    },
+    {
+      "week": 4,
+      "theme": "Tricksters who remake the world",
+      "primaryPantheon": "polynesian"
+    },
+    {
+      "week": 5,
+      "theme": "Death and renewal",
+      "primaryPantheon": "egyptian"
+    },
+    {
+      "week": 6,
+      "theme": "Mortality and heroic limits",
+      "primaryPantheon": "mesopotamian"
+    },
+    {
+      "week": 7,
+      "theme": "Sacred places and divine presence"
+    },
+    {
+      "week": 8,
+      "theme": "What creation leaves behind"
+    }
+  ]
+}

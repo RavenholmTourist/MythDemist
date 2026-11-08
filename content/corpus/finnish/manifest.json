@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "finnish",
+  "coverageType": "myth-cycle",
+  "records": [
+    {
+      "id": "pg-5186",
+      "title": "Kalevala",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Elias L\u00f6nnrot"
+      ],
+      "translator": "John Martin Crawford",
+      "sourceIds": [
+        "fin.kalevala"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5186",
+      "localPath": "primary/kalevala-crawford-5186.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-5184",
+      "title": "Kalevala, Volume 1",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Elias L\u00f6nnrot"
+      ],
+      "translator": "John Martin Crawford",
+      "sourceIds": [
+        "fin.kalevala-vol1"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/5184",
+      "localPath": "primary/kalevala-vol1-crawford-5184.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

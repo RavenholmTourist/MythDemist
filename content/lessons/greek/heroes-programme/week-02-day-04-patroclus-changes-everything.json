@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w02d04.patroclus-changes-everything",
+  "version": 2,
+  "weekId": "grc.heroes.week02",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Patroclus Changes Everything",
+  "subtitle": "Grief redirects rage",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w02d04.patroclus-changes-everything.claim",
+      "text": "Explain this episode: Whose death changes Achilles’ decision to fight?"
+    },
+    {
+      "id": "obj.grc.heroes.w02d04.patroclus-changes-everything.source",
+      "text": "Use the cited passage to explain: What makes the borrowed armour important?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 18, news of Patroclus’ death; Book 18, normalized characters 0-300",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles. Thus then did they fight as it were a flaming fire. Meanwhile the fleet runner Antilochus, who had been sent as messenger, reached Achilles, and found him sitting by his tall ships and boding",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Patroclus fights in Achilles’ armour and is killed. News of his death turns Achilles from withdrawal toward vengeance against Hector; the return to battle grows out of bereavement, not a successful settlement by gifts.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles. Thus then did they fight as it were a flaming fire. Meanwhile the fleet runner Antilochus, who had been sent as messenger, reached Achilles, and found him sitting by his tall ships and boding”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The borrowed armor concentrates the poem’s tragedy: heroic identity can help others for a moment, but it cannot transfer fate.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Track the change in motive: Achilles’ anger at Agamemnon does not simply vanish, but grief for Patroclus makes vengeance against Hector urgent. Returning to battle is not the same as being healed.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The next question is whether grief can produce compassion as well as vengeance.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose death changes Achilles’ decision to fight?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Patroclus’"
+        },
+        {
+          "id": "b",
+          "text": "Agamemnon’s"
+        },
+        {
+          "id": "c",
+          "text": "Priam’s"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Patroclus’. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What makes the borrowed armour important?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It proves Hector has already accepted a truce."
+        },
+        {
+          "id": "b",
+          "text": "It links Patroclus’ intervention to Achilles’ absent role."
+        },
+        {
+          "id": "c",
+          "text": "It makes Patroclus immune to divine interference."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "It links Patroclus’ intervention to Achilles’ absent role.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

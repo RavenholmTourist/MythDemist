@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["mode", "answer", "coverage", "citations", "evidence"],
+  "properties": {
+    "mode": {"enum": ["generated", "retrieval-only", "not-covered"]},
+    "answer": {"type": "string"},
+    "coverage": {"enum": ["partial", "not-covered"]},
+    "citations": {"type": "array", "items": {"type": "object", "required": ["chunkId", "claim"], "properties": {"chunkId": {"type": "string"}, "claim": {"type": "string"}}}},
+    "evidence": {"type": "array"},
+    "warning": {"type": "string"}
+  }
+}

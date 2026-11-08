@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w04d03.medea-chooses",
+  "version": 2,
+  "weekId": "grc.heroes.week04",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Medea Chooses",
+  "subtitle": "Knowledge changes the plot",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "argonautica"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w04d03.medea-chooses.claim",
+      "text": "Explain this episode: Whose knowledge makes Jason’s test survivable?"
+    },
+    {
+      "id": "obj.grc.heroes.w04d03.medea-chooses.source",
+      "text": "Use the cited passage to explain: What conflict shapes Medea’s decision?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Book 3, Medea’s conflict and aid; Book 3, normalized characters 29-330",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Medea is caught between her household and her desire to help Jason. Apollonius gives sustained attention to her distress and deliberation, while divine intervention also shapes her desire. Her aid is decisive, but her freedom is not uncomplicated.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Her expertise is not an accessory to the hero; without it, Jason’s quest fails, and with it his public achievement becomes possible.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Keep two pressures in view: Medea’s deliberation matters, and divine influence also matters. Neither treating her as a passive prize nor describing an entirely unpressured choice captures Apollonius’ presentation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This is why Euripides can later return to her betrayal with such force.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose knowledge makes Jason’s test survivable?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medea’s"
+        },
+        {
+          "id": "b",
+          "text": "Pelias’"
+        },
+        {
+          "id": "c",
+          "text": "Hector’s"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Medea’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What conflict shapes Medea’s decision?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Deciding whether to bury Patroclus"
+        },
+        {
+          "id": "b",
+          "text": "Helping Jason conflicts with loyalty to her father’s household."
+        },
+        {
+          "id": "c",
+          "text": "Choosing which Athenian office to hold"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Helping Jason conflicts with loyalty to her father’s household.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d03.medea-chooses.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

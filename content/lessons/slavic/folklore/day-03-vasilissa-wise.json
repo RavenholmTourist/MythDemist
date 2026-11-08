@@ -1,0 +1,218 @@
+{
+  "id": "slavic.week01.day03.vasilissa-wise",
+  "version": 1,
+  "weekId": "sla.folklore.week01",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "title": "Vasilissa: Courage and Tasks",
+  "subtitle": "Heroism through service and judgment",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "vasilissa",
+    "tasks",
+    "courage"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.vasilissa-wise.concept",
+      "text": "Identify the main idea in Vasilissa: Courage and Tasks."
+    },
+    {
+      "id": "obj.vasilissa-wise.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales",
+      "author": "various collectors",
+      "translator": "W. R. S. Ralston",
+      "locator": "Vasilissa tales\u2014tasks and judgment",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "XVIII. THE WATER SNAKE 126 XIX. THE WATER KING AND VASILISSA THE WISE 130 XX. THE BABA YAGA 148 XXI. VASILISSA THE FAIR 158 XXII. THE WITCH 171",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-48761",
+      "sourceId": "sla.folklore.sixty-slavonic-tales",
+      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "author": "various collectors and storytellers",
+      "translator": "A. H. Wratislaw",
+      "locator": "Slavonic variants\u2014Vasilissa-type heroines",
+      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
+      "excerpt": "* * * * With the above story should be compared that of 'The Water King, and Vasilissa the Wise' (Ralston, p. 120). A large number of tales that may also be compared with it are mentioned by Mr. Ralston in pp. 132-133 of his Russian Folk-tales. As to the interpretation of 'Prince Unexpected,' it is very tempting to look upon Kostchey's",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Vasilissa: Courage and Tasks",
+      "body": "Vasilissa\u2019s trials turn obedience, discernment, and courage into a different heroic pattern from open combat.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What helps Vasilissa survive?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Courage, aid, and discernment"
+        },
+        {
+          "id": "b",
+          "text": "Only royal blood"
+        },
+        {
+          "id": "c",
+          "text": "Only weapons"
+        },
+        {
+          "id": "d",
+          "text": "Only wealth"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Vasilissa\u2019s trials turn obedience, discernment, and courage into a different heroic pattern from open combat.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.vasilissa-wise.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

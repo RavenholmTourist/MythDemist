@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w04d05.medea-on-stage",
+  "version": 2,
+  "weekId": "grc.heroes.week04",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Medea on Stage",
+  "subtitle": "Euripides hears the aftermath",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "euripides"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w04d05.medea-on-stage.claim",
+      "text": "Explain this episode: Where does Euripides’ Medea begin?"
+    },
+    {
+      "id": "obj.grc.heroes.w04d05.medea-on-stage.source",
+      "text": "Use the cited passage to explain: What distinguishes this play from the Argonautica?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-15081",
+      "sourceId": "grc.euripides.medea",
+      "work": "The Tragedies of Euripides, Volume I",
+      "author": "Euripides",
+      "translator": "Theodore Alois Buckley",
+      "locator": "Medea, opening speech of the Nurse; local text, normalized characters 289402-289708",
+      "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
+      "excerpt": "and there marries Ægeus son of Pandion. * * * * * MEDEA. * * * * NURSE OF MEDEA. Would that the hull of Argo had not winged her way to the Colchian land through the Cyanean Symplegades,[1] and that the pine felled in the forests of Pelion had never fallen, nor had caused the hands of the chiefs to row,[2]",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Euripides starts in Corinth after the expedition. Jason has made a new marriage, and the Nurse fears what the abandoned Medea may do. This tragedy reshapes the heroic past into a crisis of oaths, exile, family, and revenge.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “and there marries Ægeus son of Pandion. * * * * * MEDEA. * * * * NURSE OF MEDEA. Would that the hull of Argo had not winged her way to the Colchian land through the Cyanean Symplegades,[1] and that the pine felled in the forests of Pelion had never fallen, nor had caused the hands of the chiefs to row,[2]”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Tragedy changes the question from how the fleece was won to what Jason owed the woman whose knowledge made him succeed.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "The Nurse’s wish that the Argo had never sailed is a character’s speech in a tragedy. It reframes a remembered expedition; it is not a statement by Apollonius about how his own epic should be read.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This is the clearest lesson in why a myth is never fully described by naming the hero.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Where does Euripides’ Medea begin?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Colchis, before Jason arrives"
+        },
+        {
+          "id": "b",
+          "text": "Troy, before Achilles withdraws"
+        },
+        {
+          "id": "c",
+          "text": "Corinth, after the voyage"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Corinth, after the voyage. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What distinguishes this play from the Argonautica?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It stages a later crisis rather than narrating the quest itself."
+        },
+        {
+          "id": "b",
+          "text": "It is a handbook arranging the twelve labours."
+        },
+        {
+          "id": "c",
+          "text": "It is a victory ode for Jason’s chariot race."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "It stages a later crisis rather than narrating the quest itself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w04d05.medea-on-stage.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

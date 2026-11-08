@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "slavic",
+  "records": [
+    {
+      "id": "pg-22373",
+      "title": "Russian Fairy Tales",
+      "sourceType": "primary-or-retelling-text",
+      "ancientAuthors": [
+        "various collectors"
+      ],
+      "translator": "W. R. S. Ralston",
+      "sourceIds": [
+        "sla.folklore.russian-fairy-tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/22373",
+      "localPath": "primary/russian-fairy-tales-ralston-22373.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+    },
+    {
+      "id": "pg-48761",
+      "title": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "sourceType": "folklore-collection-translation",
+      "ancientAuthors": [
+        "various collectors and storytellers"
+      ],
+      "translator": "A. H. Wratislaw",
+      "sourceIds": [
+        "sla.folklore.sixty-slavonic-tales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/48761",
+      "localPath": "primary/sixty-slavonic-folk-tales-48761.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Additional Slavonic folk-tale corpus from multiple traditions and languages; useful for variants and comparisons."
+    }
+  ]
+}

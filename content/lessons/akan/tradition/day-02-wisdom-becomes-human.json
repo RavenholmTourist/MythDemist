@@ -1,0 +1,217 @@
+{
+  "id": "akan.week01.day02.wisdom-becomes-human",
+  "version": 1,
+  "weekId": "akan.tradition.week01",
+  "pantheon": "akan",
+  "themeMode": "pantheon",
+  "title": "Wisdom becomes human",
+  "subtitle": "Source-linked akan starter lesson",
+  "estimatedMinutes": 3,
+  "difficulty": 1,
+  "tags": [
+    "akan",
+    "tradition"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.akan.2.concept",
+      "text": "Identify the main idea in Wisdom becomes human."
+    },
+    {
+      "id": "obj.akan.2.source",
+      "text": "Keep the claim attached to its source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-primary": {
+      "recordId": "pg-66923",
+      "sourceId": "akan.west-african-folktales",
+      "work": "West African Folk-Tales",
+      "author": "Akan and related traditions",
+      "translator": "William H. Barker and Cecilia Sinclair",
+      "locator": "Wisdom becomes human",
+      "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
+      "excerpt": "Local corpus source.",
+      "note": "Starter tradition-library reference."
+    },
+    "ref-secondary": {
+      "recordId": "pg-72735",
+      "sourceId": "akan.jamaica-anansi",
+      "work": "Jamaica Anansi Stories",
+      "author": "Jamaican storytellers",
+      "translator": "Martha Warren Beckwith",
+      "locator": "Wisdom becomes human",
+      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
+      "excerpt": "Comparative local corpus source.",
+      "note": "Second source lens."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Wisdom becomes human",
+      "body": "Wisdom becomes human is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "A second lens",
+      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read it",
+      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Connect without flattening",
+      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How should Wisdom becomes human be introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Through its own sources and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "A universal pantheon"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "No source boundary"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Wisdom becomes human is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.concept"
+      ],
+      "deepDive": {
+        "prompt": "Check the local source.",
+        "suggestedQuestions": [
+          "What source type is this?",
+          "What does it support?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should remain attached to this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source, genre, and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "Only a character name"
+        },
+        {
+          "id": "c",
+          "text": "Only a modern label"
+        },
+        {
+          "id": "d",
+          "text": "Nothing"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Small traditions need careful source and living-context labels.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.akan.2.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Pantheon, folklore, or living tradition?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Small-tradition starter lesson."
+  }
+}

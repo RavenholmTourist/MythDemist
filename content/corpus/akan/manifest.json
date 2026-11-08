@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "akan",
+  "coverageType": "folklore",
+  "records": [
+    {
+      "id": "pg-66923",
+      "title": "West African Folk-Tales",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Akan and related traditions"
+      ],
+      "translator": "William H. Barker and Cecilia Sinclair",
+      "sourceIds": [
+        "akan.west-african-folktales"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/66923",
+      "localPath": "primary/west-african-folk-tales-66923.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-72735",
+      "title": "Jamaica Anansi Stories",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Jamaican storytellers"
+      ],
+      "translator": "Martha Warren Beckwith",
+      "sourceIds": [
+        "akan.jamaica-anansi"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/72735",
+      "localPath": "primary/jamaica-anansi-stories-72735.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

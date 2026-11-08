@@ -1,0 +1,217 @@
+{
+  "id": "maya.week01.day03.xibalba-and-trials",
+  "version": 1,
+  "weekId": "maya.tradition.week01",
+  "pantheon": "maya",
+  "themeMode": "pantheon",
+  "title": "Xibalba and trials",
+  "subtitle": "Source-linked maya starter lesson",
+  "estimatedMinutes": 3,
+  "difficulty": 1,
+  "tags": [
+    "maya",
+    "tradition"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.maya.3.concept",
+      "text": "Identify the main idea in Xibalba and trials."
+    },
+    {
+      "id": "obj.maya.3.source",
+      "text": "Keep the claim attached to its source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-primary": {
+      "recordId": "pg-56550",
+      "sourceId": "maya.popol-vuh",
+      "work": "The Popol Vuh",
+      "author": "K\u02bciche\u02bc traditions",
+      "translator": "various translators",
+      "locator": "Xibalba and trials",
+      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+      "excerpt": "Local corpus source.",
+      "note": "Starter tradition-library reference."
+    },
+    "ref-secondary": {
+      "recordId": "pg-58464",
+      "sourceId": "maya.americanist",
+      "work": "Essays of an Americanist",
+      "author": "Daniel G. Brinton",
+      "translator": "Daniel G. Brinton",
+      "locator": "Xibalba and trials",
+      "localPath": "content/corpus/maya/primary/americanist-essays-brinton-58464.txt",
+      "excerpt": "Comparative local corpus source.",
+      "note": "Second source lens."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Xibalba and trials",
+      "body": "Xibalba and trials is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "A second lens",
+      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read it",
+      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Connect without flattening",
+      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How should Xibalba and trials be introduced?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Through its own sources and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "A universal pantheon"
+        },
+        {
+          "id": "c",
+          "text": "A modern novel"
+        },
+        {
+          "id": "d",
+          "text": "No source boundary"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Xibalba and trials is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.concept"
+      ],
+      "deepDive": {
+        "prompt": "Check the local source.",
+        "suggestedQuestions": [
+          "What source type is this?",
+          "What does it support?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should remain attached to this lesson?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source, genre, and tradition type"
+        },
+        {
+          "id": "b",
+          "text": "Only a character name"
+        },
+        {
+          "id": "c",
+          "text": "Only a modern label"
+        },
+        {
+          "id": "d",
+          "text": "Nothing"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Small traditions need careful source and living-context labels.",
+      "sourceRefIds": [
+        "ref-primary",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.maya.3.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Pantheon, folklore, or living tradition?"
+        ],
+        "sourceRefIds": [
+          "ref-primary",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Small-tradition starter lesson."
+  }
+}

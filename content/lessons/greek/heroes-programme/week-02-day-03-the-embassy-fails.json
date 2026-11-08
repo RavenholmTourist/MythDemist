@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w02d03.the-embassy-fails",
+  "version": 2,
+  "weekId": "grc.heroes.week02",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Embassy Fails",
+  "subtitle": "Compensation is not repair",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "iliad"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w02d03.the-embassy-fails.claim",
+      "text": "Explain this episode: What does the embassy offer Achilles?"
+    },
+    {
+      "id": "obj.grc.heroes.w02d03.the-embassy-fails.source",
+      "text": "Use the cited passage to explain: Why is the embassy more than a payment negotiation?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 9, Achilles answers the embassy; Book 9, normalized characters 15931-16232",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "purpose that there be no more of this cajoling, from whatsoever quarter it may come. Him do I hate even as the gates of hell who says one thing while he hides another in his heart; therefore I will say what I mean. I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans,",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Odysseus, Phoenix, and Ajax visit Achilles with an offer of gifts. Achilles does not accept a return on those terms: compensation has not settled the injury to his standing or his doubts about fighting.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “purpose that there be no more of this cajoling, from whatsoever quarter it may come. Him do I hate even as the gates of hell who says one thing while he hides another in his heart; therefore I will say what I mean. I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans,”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Achilles’ refusal is emotionally intelligible and strategically disastrous; the poem makes both things true at once.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Distinguish an offer from a reconciliation. Book 9 lets Achilles question the rewards of fighting; do not reduce his refusal to bargaining for a higher price.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This tests whether a hero can be wronged and destructive at the same time.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does the embassy offer Achilles?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A command to leave Troy without his men"
+        },
+        {
+          "id": "b",
+          "text": "The kingship of Troy after Hector’s surrender"
+        },
+        {
+          "id": "c",
+          "text": "Gifts and restored standing if he returns to battle"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Gifts and restored standing if he returns to battle. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is the embassy more than a payment negotiation?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Achilles questions honour, trust, and the value of risking his life."
+        },
+        {
+          "id": "b",
+          "text": "Achilles does not understand what the gifts are worth."
+        },
+        {
+          "id": "c",
+          "text": "The visitors have come without Agamemnon’s permission."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Achilles questions honour, trust, and the value of risking his life.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

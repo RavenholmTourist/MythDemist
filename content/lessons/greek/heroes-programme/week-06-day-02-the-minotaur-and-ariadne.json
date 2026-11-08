@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w06d02.the-minotaur-and-ariadne",
+  "version": 2,
+  "weekId": "grc.heroes.week06",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Minotaur and Ariadne",
+  "subtitle": "The maze needs help",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "epitome"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim",
+      "text": "Explain this episode: What does Ariadne give Theseus for the labyrinth?"
+    },
+    {
+      "id": "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source",
+      "text": "Use the cited passage to explain: What problem does her help solve?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "perseus-apollodorus-epitome-frazer",
+      "sourceId": "grc.apollodorus.epitome",
+      "work": "Epitome",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Epitome 1.8-1.9, Ariadne and the thread; chapter 1 · section 8, normalized characters 0-279",
+      "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
+      "excerpt": "And when he came to Crete, Ariadne, daughter of Minos, being amorously disposed to him, offered to help him if he would agree to carry her away to Athens and have her to wife. Theseus having agreed on oath to do so, she besought Daedalus to disclose the way out of the labyrinth.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "In the Epitome, Ariadne helps Theseus escape the labyrinth by providing a thread. Defeating the Minotaur is only part of the problem: he also needs a way back out. The victory depends on assistance as well as force.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “And when he came to Crete, Ariadne, daughter of Minos, being amorously disposed to him, offered to help him if he would agree to carry her away to Athens and have her to wife. Theseus having agreed on oath to do so, she besought Daedalus to disclose the way out of the labyrinth.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The episode joins monster-slaying to tribute, foreign power, dependence, and unequal heroic credit.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Separate killing the monster from escaping the maze. Ariadne’s thread solves a problem that strength alone does not, so her help belongs in the explanation of the victory.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The maze is a test of alliances as much as courage.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does Ariadne give Theseus for the labyrinth?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A thread"
+        },
+        {
+          "id": "b",
+          "text": "A wax seal for his ears"
+        },
+        {
+          "id": "c",
+          "text": "A dragon’s tooth"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "A thread. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What problem does her help solve?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Preventing Apollo’s plague at Troy"
+        },
+        {
+          "id": "b",
+          "text": "Finding the way out after entering the maze"
+        },
+        {
+          "id": "c",
+          "text": "Winning an election at Athens"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Finding the way out after entering the maze. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

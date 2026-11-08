@@ -1,0 +1,218 @@
+{
+  "id": "slavic.week01.day04.water-king-bargain",
+  "version": 1,
+  "weekId": "sla.folklore.week01",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "title": "The Water King: Boundaries and Bargains",
+  "subtitle": "Supernatural power at the water\u2019s edge",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "water-king",
+    "bargain",
+    "boundary"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.water-king-bargain.concept",
+      "text": "Identify the main idea in The Water King: Boundaries and Bargains."
+    },
+    {
+      "id": "obj.water-king-bargain.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales",
+      "author": "various collectors",
+      "translator": "W. R. S. Ralston",
+      "locator": "The Water King and Vasilissa the Wise",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "111 XVIII. THE WATER SNAKE 126 XIX. THE WATER KING AND VASILISSA THE WISE 130 XX. THE BABA YAGA 148 XXI. VASILISSA THE FAIR 158 XXII. THE WITCH",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-48761",
+      "sourceId": "sla.folklore.sixty-slavonic-tales",
+      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "author": "various collectors and storytellers",
+      "translator": "A. H. Wratislaw",
+      "locator": "Slavonic variants\u2014water and bargain motifs",
+      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
+      "excerpt": "ese imaginary beings are represented under the latter, and in No. 6 under the former aspect. _Two_ waters, one of death and the other of life, are found in the Bohemian stories, just as in the Russian ones--a point wherein the Slavonic tales regularly differ from those of Western Europe, which only acknowledge the water of life. As Mr. Ralston remarks ('Son",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The Water King: Boundaries and Bargains",
+      "body": "Water beings mark dangerous boundaries where bargains, service, materials, and worlds can be exchanged.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does the water boundary create?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A space for dangerous exchange"
+        },
+        {
+          "id": "b",
+          "text": "A tax court"
+        },
+        {
+          "id": "c",
+          "text": "A harvest dance"
+        },
+        {
+          "id": "d",
+          "text": "A writing school"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Water beings mark dangerous boundaries where bargains, service, materials, and worlds can be exchanged.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.water-king-bargain.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

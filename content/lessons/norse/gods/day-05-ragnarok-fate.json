@@ -1,0 +1,218 @@
+{
+  "id": "norse.week01.day05.ragnarok-fate",
+  "version": 1,
+  "weekId": "nor.gods.week01",
+  "pantheon": "norse",
+  "themeMode": "pantheon",
+  "title": "Fate and Ragnar\u00f6k",
+  "subtitle": "An ending built into the world",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "ragnarok",
+    "fate",
+    "ending"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.ragnarok-fate.concept",
+      "text": "Identify the main idea in Fate and Ragnar\u00f6k."
+    },
+    {
+      "id": "obj.ragnarok-fate.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-18947",
+      "sourceId": "nor.snorri.prose-edda",
+      "work": "The Younger Edda; Also called Snorre's Edda, or The Prose Edda",
+      "author": "Snorri Sturluson",
+      "translator": "Rasmus B. Anderson",
+      "locator": "Gylfaginning\u2014Ragnar\u00f6k and fate",
+      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+      "excerpt": "es of the gods, of the giants and of men are swallowed up by the sea, and the end has come. This is Ragnarok, the twilight of the gods. But the radiant dawn follows the night. The earth, completely green, rises again from the sea, and where the mews have but just been rocking on restless waves, rich fields unplowed and unsown, now wave their golden harvests",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-73533",
+      "sourceId": "nor.poetic-edda",
+      "work": "The Poetic Edda",
+      "author": "Anonymous Old Norse poets",
+      "translator": "Henry Adams Bellows",
+      "locator": "V\u00f6lusp\u00e1\u2014creation and Ragnar\u00f6k",
+      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+      "excerpt": "l. Doom of the gods: the phrase \u201cragna r\u00f6k\u201d has been rather unfortunately Anglicized into the word \u201cragnarok\u201d (the Norse term is not a proper name), and r\u00f6k, \u201cdoom,\u201d has been confused with r\u00f6kkr, \u201cdarkness,\u201d and so translated \u201cdusk of the Gods,\u201d or \u201cG\u00f6tterd\u00e4mmerung.\u201d 40. In the manuscript most of this stanza is abbreviated to the first letters of the words.",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Fate and Ragnar\u00f6k",
+      "body": "Ragnar\u00f6k gives Norse myth a tragic horizon: even gods move toward a known catastrophe rather than escaping consequence.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Why is Ragnar\u00f6k important?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It frames divine power inside fate and ending"
+        },
+        {
+          "id": "b",
+          "text": "It removes all monsters"
+        },
+        {
+          "id": "c",
+          "text": "It guarantees safety"
+        },
+        {
+          "id": "d",
+          "text": "It is only a harvest tale"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Ragnar\u00f6k gives Norse myth a tragic horizon: even gods move toward a known catastrophe rather than escaping consequence.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.ragnarok-fate.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

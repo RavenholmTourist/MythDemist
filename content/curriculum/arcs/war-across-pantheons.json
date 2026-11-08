@@ -1,0 +1,53 @@
+{
+  "id": "arc.war-across-pantheons",
+  "scope": "cross-pantheon",
+  "title": "War, Honor, and Catastrophe",
+  "description": "An eight-week comparative arc about warriors, battle ethics, fate, grief, and the cost of victory.",
+  "pantheons": [
+    "greek",
+    "norse",
+    "egyptian",
+    "celtic"
+  ],
+  "status": "active",
+  "weeks": [
+    {
+      "week": 1,
+      "theme": "Heroic honor and battlefield excellence",
+      "primaryPantheon": "greek"
+    },
+    {
+      "week": 2,
+      "theme": "Fate and doomed warriors",
+      "primaryPantheon": "norse"
+    },
+    {
+      "week": 3,
+      "theme": "Divine kingship and war",
+      "primaryPantheon": "egyptian"
+    },
+    {
+      "week": 4,
+      "theme": "Champions, single combat, and cattle raids",
+      "primaryPantheon": "celtic"
+    },
+    {
+      "week": 5,
+      "theme": "Women, war, and aftermath"
+    },
+    {
+      "week": 6,
+      "theme": "Monsters of battle and apocalyptic war"
+    },
+    {
+      "week": 7,
+      "theme": "Grief, revenge, and reconciliation",
+      "primaryPantheon": "greek"
+    },
+    {
+      "week": 8,
+      "theme": "What war leaves behind"
+    }
+  ],
+  "weekPath": "content/curriculum/shared/war-honor-week-01.json"
+}

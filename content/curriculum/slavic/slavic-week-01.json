@@ -1,0 +1,60 @@
+{
+  "id": "sla.folklore.week01",
+  "title": "Slavic Folklore",
+  "subtitle": "Spirits, witches, heroes, and dangerous bargains",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "slavic-fire",
+    "accent": "ember"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Baba Yaga: Dangerous Helper",
+      "lessonId": "sla.folklore.day01.baba-yaga",
+      "lessonPath": "content/lessons/slavic/baba-yaga/day-01-baba-yaga.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Koschei: Hidden Death",
+      "status": "available",
+      "lessonId": "slavic.week01.day02.koschei-hidden-death",
+      "lessonPath": "content/lessons/slavic/folklore/day-02-koschei-hidden-death.json"
+    },
+    {
+      "day": 3,
+      "title": "Vasilissa: Courage and Tasks",
+      "status": "available",
+      "lessonId": "slavic.week01.day03.vasilissa-wise",
+      "lessonPath": "content/lessons/slavic/folklore/day-03-vasilissa-wise.json"
+    },
+    {
+      "day": 4,
+      "title": "The Water King: Boundaries and Bargains",
+      "status": "available",
+      "lessonId": "slavic.week01.day04.water-king-bargain",
+      "lessonPath": "content/lessons/slavic/folklore/day-04-water-king-bargain.json"
+    },
+    {
+      "day": 5,
+      "title": "The Firebird: Wonder and Quest",
+      "status": "available",
+      "lessonId": "slavic.week01.day05.firebird-quest",
+      "lessonPath": "content/lessons/slavic/folklore/day-05-firebird-quest.json"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.slavic-ambiguous-helper",
+      "title": "The dangerous helper",
+      "description": "Slavic folklore often gives heroes ambiguous supernatural figures whose aid must be earned through courage and wit.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-22373"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

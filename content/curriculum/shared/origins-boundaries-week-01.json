@@ -1,0 +1,74 @@
+{
+  "id": "shared.origins.week01",
+  "title": "Origins, Boundaries, and Renewal",
+  "subtitle": "Five ways mythic worlds begin, fracture, and renew",
+  "pantheon": "shared",
+  "themeMode": "neutral",
+  "visual": {
+    "logo": "shared-war",
+    "accent": "neutral"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "N\u00fcwa: Repairing the World",
+      "lessonId": "chinese.week01.day02.nuwa-repair",
+      "lessonPath": "content/lessons/chinese/myth/day-02-nuwa-repair.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "The Five Suns",
+      "lessonId": "mesoamerican.week01.day01.five-suns",
+      "lessonPath": "content/lessons/mesoamerican/myth/day-01-five-suns.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Izanagi and Izanami",
+      "lessonId": "japanese.week01.day01.creation",
+      "lessonPath": "content/lessons/japanese/creation/day-01-creation.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Fishing Up Islands",
+      "lessonId": "polynesian.week01.day02.fishing-islands",
+      "lessonPath": "content/lessons/polynesian/maui/day-02-fishing-islands.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Judgment of the Dead",
+      "lessonId": "egyptian.week01.day04.judgment-dead",
+      "lessonPath": "content/lessons/egyptian/gods/day-04-judgment-dead.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.shared.fate-return",
+      "title": "Fate, death, and return",
+      "description": "Compare endings, renewal, and journeys across pantheons.",
+      "relatedDay": 5,
+      "recordIds": [
+        "pg-18947",
+        "pg-9411",
+        "pg-46863"
+      ],
+      "prompt": "How do these traditions imagine return differently?"
+    },
+    {
+      "id": "topic.shared.otherworld-boundaries",
+      "title": "Otherworlds and dangerous boundaries",
+      "description": "Compare cosmic boundaries and supernatural encounters.",
+      "relatedDay": 3,
+      "recordIds": [
+        "pg-9411",
+        "pg-5160",
+        "pg-46863"
+      ],
+      "prompt": "What changes when a boundary is crossed?"
+    }
+  ]
+}

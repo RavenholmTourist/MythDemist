@@ -1,0 +1,207 @@
+{
+  "id": "grc.heroes.week05",
+  "title": "Heracles",
+  "subtitle": "Strength, service, suffering, and immortality",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "The Catalogue of Labours",
+      "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-01-the-catalogue-of-labours.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "The Nemean Lion",
+      "lessonId": "grc.heroes.w05d02.the-nemean-lion",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-02-the-nemean-lion.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Madness and Service",
+      "lessonId": "grc.heroes.w05d03.madness-and-service",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-03-madness-and-service.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Death and Apotheosis",
+      "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-04-death-and-apotheosis.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Strong Man or Problem",
+      "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-05-strong-man-or-problem.json",
+      "status": "available"
+    }
+  ],
+  "assessment": {
+    "title": "Heracles assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "What should a careful account distinguish?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The first oracle’s ten tasks from the later total of twelve"
+            },
+            {
+              "id": "b",
+              "text": "The first oracle’s ten tasks from a later pair added by Pindar"
+            },
+            {
+              "id": "c",
+              "text": "The first oracle’s ten tasks from twelve versions of the same feat"
+            }
+          ],
+          "answerId": "a",
+          "explanation": "The Library gives an initial ten-task instruction, then reports that Eurystheus rejects the Hydra and Augeas tasks for different reasons.",
+          "sourceRefIds": [
+            "main",
+            "hydra",
+            "augeas"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w05d02.the-nemean-lion",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "What makes this feat an example of adaptation?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Failed arrows lead Heracles to change his approach."
+            },
+            {
+              "id": "b",
+              "text": "The first arrow kills the lion immediately."
+            },
+            {
+              "id": "c",
+              "text": "Eurystheus fights the lion while Heracles watches."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Failed arrows lead Heracles to change his approach.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w05d03.madness-and-service",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "Why attach the sequence to the Library?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The Library is an eyewitness account that settles every later version."
+            },
+            {
+              "id": "b",
+              "text": "Different works can place the family catastrophe differently."
+            },
+            {
+              "id": "c",
+              "text": "Later tragedies must follow the Library’s sequence exactly."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "The Library is one mythographic account; other genres and authors may arrange the Heracles story differently.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w05d03.madness-and-service.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "Which passage directly supports this ending?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Library 2.5.2, Heracles’ Hydra labour"
+            },
+            {
+              "id": "b",
+              "text": "Library 2.4.12, the oracle and initial service"
+            },
+            {
+              "id": "c",
+              "text": "Library 2.7.7"
+            }
+          ],
+          "answerId": "c",
+          "explanation": "Library 2.7.7 narrates the pyre on Oeta and the subsequent ascent and reception among the gods.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "What distinguishes this use of Herakles from the Library’s list?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "It invokes Heracles’ Olympic foundation while praising Theron’s victory."
+            },
+            {
+              "id": "b",
+              "text": "It lists Heracles’ twelve labours to document his whole life."
+            },
+            {
+              "id": "c",
+              "text": "It praises Theron but does not connect the festival with Heracles."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Olympian 2 links Heracles with the founding of the festival and then names Theron’s victory; its occasion is praise, not a complete life of Heracles.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+          ]
+        }
+      }
+    ]
+  }
+}

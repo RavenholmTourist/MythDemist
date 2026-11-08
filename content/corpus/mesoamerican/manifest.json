@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "mesoamerican",
+  "records": [
+    {
+      "id": "pg-53080",
+      "title": "The Myths of Mexico & Peru",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Mesoamerican traditions"
+      ],
+      "translator": "Lewis Spence",
+      "sourceIds": [
+        "mes.myths-mexico-peru"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/53080",
+      "localPath": "primary/myths-mexico-peru-spence-53080.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "An early 20th-century synthesis covering Mexican and Peruvian traditions; use with awareness of colonial and dated framing."
+    },
+    {
+      "id": "pg-36386",
+      "title": "The Mythologies of Ancient Mexico and Peru",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various traditions"
+      ],
+      "translator": "Lewis Spence",
+      "sourceIds": [
+        "mes.mythologies-mexico-peru"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/36386",
+      "localPath": "primary/mythologies-mexico-peru-spence-36386.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A shorter early study of Mexican and Peruvian religious systems, useful as a second dated scholarly lens."
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "version",
+    "pantheons"
+  ],
+  "properties": {
+    "version": {
+      "type": "integer"
+    },
+    "pantheons": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "status",
+          "visual",
+          "paths"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "coverageType": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "active",
+              "planned",
+              "disabled"
+            ]
+          },
+          "visual": {
+            "type": "object"
+          },
+          "paths": {
+            "type": "object"
+          }
+        }
+      }
+    }
+  }
+}

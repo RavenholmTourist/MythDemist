@@ -1,0 +1,205 @@
+{
+  "id": "grc.heroes.week07",
+  "title": "Heroes on Stage",
+  "subtitle": "Tragedy as argument with inherited myth",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Agamemnon Returns",
+      "lessonId": "grc.heroes.w07d01.agamemnon-returns",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-01-agamemnon-returns.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Orestes and Justice",
+      "lessonId": "grc.heroes.w07d02.orestes-and-justice",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-02-orestes-and-justice.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Antigone and Burial",
+      "lessonId": "grc.heroes.w07d03.antigone-and-burial",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-03-antigone-and-burial.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Oedipus Investigates",
+      "lessonId": "grc.heroes.w07d04.oedipus-investigates",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-04-oedipus-investigates.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "The Trojan Women",
+      "lessonId": "grc.heroes.w07d05.the-trojan-women",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-05-the-trojan-women.json",
+      "status": "available"
+    }
+  ],
+  "assessment": {
+    "title": "Heroes on Stage assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.w07d01.agamemnon-returns",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "Which contrast with Odysseus’ return is useful but limited?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Neither poem connects war with household damage."
+            },
+            {
+              "id": "b",
+              "text": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion."
+            },
+            {
+              "id": "c",
+              "text": "Both homecomings end with the same bed test."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w07d01.agamemnon-returns.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w07d02.orestes-and-justice",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "Why is “law simply replaces religion” a poor summary?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The play contains no court or judgement."
+            },
+            {
+              "id": "b",
+              "text": "Athena is absent from the proceedings."
+            },
+            {
+              "id": "c",
+              "text": "Divine figures and the Erinyes remain central to the settlement."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "Divine figures and the Erinyes remain central to the settlement.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w07d03.antigone-and-burial",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "Which summary avoids flattening the conflict?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "A ruler’s decree collides with familial and divine obligations."
+            },
+            {
+              "id": "b",
+              "text": "Both characters agree that burial has no religious meaning."
+            },
+            {
+              "id": "c",
+              "text": "The play is chiefly about identifying Laius’ murderer."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "A ruler’s decree collides with familial and divine obligations.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w07d03.antigone-and-burial.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w07d04.oedipus-investigates",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "What changes during the investigation?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The plague is solved by recovering the fleece."
+            },
+            {
+              "id": "b",
+              "text": "The investigator becomes the person his inquiry exposes."
+            },
+            {
+              "id": "c",
+              "text": "Oedipus abandons inquiry because no witnesses exist."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "The investigator becomes the person his inquiry exposes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w07d05.the-trojan-women",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "How should this play enter a comparison with the Iliad?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "As the final book written by Homer himself"
+            },
+            {
+              "id": "b",
+              "text": "As proof that no Greek work ever praised a warrior"
+            },
+            {
+              "id": "c",
+              "text": "As another work’s perspective on war, not a missing transcript from Homer"
+            }
+          ],
+          "answerId": "c",
+          "explanation": "As another work’s perspective on war, not a missing transcript from Homer. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w07d05.the-trojan-women.source"
+          ]
+        }
+      }
+    ]
+  }
+}

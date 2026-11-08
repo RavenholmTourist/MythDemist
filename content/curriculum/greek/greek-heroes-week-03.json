@@ -1,0 +1,205 @@
+{
+  "id": "grc.heroes.week03",
+  "title": "Odysseus and Return",
+  "subtitle": "Cunning, endurance, home, and recognition",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "The Broken House",
+      "lessonId": "grc.heroes.w03d01.the-broken-house",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-01-the-broken-house.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Nobody and the Cyclops",
+      "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-02-nobody-and-the-cyclops.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Circe and the Sirens",
+      "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-03-circe-and-the-sirens.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Talking with the Dead",
+      "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-04-talking-with-the-dead.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Disguise and Recognition",
+      "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-05-disguise-and-recognition.json",
+      "status": "available"
+    }
+  ],
+  "assessment": {
+    "title": "Odysseus and Return assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.w03d01.the-broken-house",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "Why begin with Ithaca rather than only Odysseus’ travels?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "His absence has social costs for the household he hopes to regain."
+            },
+            {
+              "id": "b",
+              "text": "The poem has forgotten who its returning hero is."
+            },
+            {
+              "id": "c",
+              "text": "Ithaca has already completed the recognition of Odysseus."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "His absence has social costs for the household he hopes to regain.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w03d01.the-broken-house.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "What tension does the Cyclops episode expose?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Revealing a name guarantees divine protection."
+            },
+            {
+              "id": "b",
+              "text": "Clever secrecy wins escape, but the desire for credit creates danger."
+            },
+            {
+              "id": "c",
+              "text": "Strength alone succeeds where planning fails."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Clever secrecy wins escape, but the desire for credit creates danger.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "Which distinction matters in the Sirens plan?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Every sailor listens without any restraint."
+            },
+            {
+              "id": "b",
+              "text": "Odysseus uses the false name from the Cyclops episode."
+            },
+            {
+              "id": "c",
+              "text": "The crew avoid hearing, while Odysseus listens under restraint."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "The crew avoid hearing, while Odysseus listens under restraint.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "How should this passage qualify a reading of heroic fame?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "The dead hero himself voices a cost that praise can conceal."
+            },
+            {
+              "id": "b",
+              "text": "It proves every Greek text rejects honour."
+            },
+            {
+              "id": "c",
+              "text": "It is an account of a funeral contest, not an encounter with the dead."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "The dead hero himself voices a cost that praise can conceal.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "What does the recognition scene add to the idea of return?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Penelope recognises him because he describes Troy’s walls."
+            },
+            {
+              "id": "b",
+              "text": "Reaching home is not the same as being recognised and trusted."
+            },
+            {
+              "id": "c",
+              "text": "Physical arrival makes all further tests unnecessary."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Reaching home is not the same as being recognised and trusted.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w03d05.disguise-and-recognition.source"
+          ]
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "roman",
+  "records": [
+    {
+      "id": "roman-pg-21765",
+      "title": "The Metamorphoses of Ovid, Books I\u2013VII",
+      "sourceType": "primary-or-retelling-text",
+      "ancientAuthors": [
+        "Ovid"
+      ],
+      "translator": "Henry T. Riley",
+      "sourceIds": [
+        "rom.ovid.metamorphoses-1-7"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/21765",
+      "localPath": "primary/ovid-metamorphoses-books-1-7-21765.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+    },
+    {
+      "id": "roman-pg-26073",
+      "title": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "sourceType": "primary-text-translation",
+      "ancientAuthors": [
+        "Ovid"
+      ],
+      "translator": "Henry T. Riley",
+      "sourceIds": [
+        "rom.ovid.metamorphoses-8-15"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/26073",
+      "localPath": "primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Completes the local Ovid scaffold and deepens Roman reception across the second half of the Metamorphoses."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w06d03.founder-and-unifier",
+  "version": 2,
+  "weekId": "grc.heroes.week06",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Founder and Unifier",
+  "subtitle": "Myth explains civic order",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "lives"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w06d03.founder-and-unifier.claim",
+      "text": "Explain this episode: What political achievement does Plutarch attribute to Theseus?"
+    },
+    {
+      "id": "obj.grc.heroes.w06d03.founder-and-unifier.source",
+      "text": "Use the cited passage to explain: How should this claim be framed?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, unification of Attica; local text, normalized characters 40458-40761",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Plutarch credits Theseus with bringing the inhabitants of Attica into one political community. The story presents a founder of civic order, not merely a monster-killer; it is a later biography’s account of a legendary past.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The hero becomes a civic argument. Athens can explain its unity by placing that unity inside a legendary founder’s actions.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Say that Plutarch credits Theseus with civic unification. That wording preserves the distinction between a later foundation narrative and contemporary documentation of how Athens developed.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "A founder is useful because the city can borrow his authority for its own origins.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What political achievement does Plutarch attribute to Theseus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Replacing Zeus as ruler of Olympus"
+        },
+        {
+          "id": "b",
+          "text": "Uniting Attica in one civic community"
+        },
+        {
+          "id": "c",
+          "text": "Founding the kingdom of Colchis"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Uniting Attica in one civic community. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How should this claim be framed?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As a surviving law written by Theseus himself"
+        },
+        {
+          "id": "b",
+          "text": "As an episode narrated by Achilles in the Iliad"
+        },
+        {
+          "id": "c",
+          "text": "As Plutarch’s legendary foundation narrative, not contemporary documentation"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "As Plutarch’s legendary foundation narrative, not contemporary documentation. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

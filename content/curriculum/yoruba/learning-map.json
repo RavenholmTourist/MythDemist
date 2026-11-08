@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.yoruba-traditions",
+      "title": "Yoruba Traditions",
+      "description": "Eight weeks on Yoruba sources, stories, and regional variation.",
+      "weeks": [
+        "Yoruba Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.yoruba-living-tradition": {
+      "title": "Orishas and living religion",
+      "body": "Orishas and living religion can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-38038",
+        "pg-34655"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "Orishas and living religion belongs first to its own tradition.",
+          "recordIds": [
+            "pg-38038",
+            "pg-34655"
+          ]
+        }
+      ]
+    }
+  }
+}

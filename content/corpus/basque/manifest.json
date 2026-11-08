@@ -1,0 +1,23 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "basque",
+  "coverageType": "folklore",
+  "records": [
+    {
+      "id": "pg-34902",
+      "title": "Basque Legends",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Basque traditions"
+      ],
+      "translator": "Wentworth Webster",
+      "sourceIds": [
+        "basque.legends"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/34902",
+      "localPath": "primary/basque-legends-webster-34902.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

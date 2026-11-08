@@ -1,0 +1,305 @@
+{
+  "version": 1,
+  "pantheons": {
+    "greek": {
+      "id": "greek",
+      "name": "Greek",
+      "status": "active",
+      "visual": {
+        "logo": "greek-bolt",
+        "palette": "gold"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/greek/manifest.json",
+        "activeWeek": "content/curriculum/greek/greek-heroes-week-01.json",
+        "learningMap": "content/curriculum/greek/learning-map.json"
+      },
+      "coverageType": "pantheon"
+    },
+    "norse": {
+      "id": "norse",
+      "name": "Norse",
+      "status": "active",
+      "visual": {
+        "logo": "norse-hammer",
+        "palette": "ice"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/norse/manifest.json",
+        "activeWeek": "content/curriculum/norse/norse-gods-week-01.json",
+        "learningMap": "content/curriculum/norse/learning-map.json"
+      },
+      "coverageType": "pantheon"
+    },
+    "egyptian": {
+      "id": "egyptian",
+      "name": "Egyptian",
+      "status": "active",
+      "visual": {
+        "logo": "egyptian-ankh",
+        "palette": "lapis"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/egyptian/manifest.json",
+        "activeWeek": "content/curriculum/egyptian/egyptian-week-01.json",
+        "learningMap": "content/curriculum/egyptian/learning-map.json"
+      },
+      "coverageType": "pantheon"
+    },
+    "celtic": {
+      "id": "celtic",
+      "name": "Celtic",
+      "status": "active",
+      "visual": {
+        "logo": "celtic-knot",
+        "palette": "emerald"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/celtic/manifest.json",
+        "activeWeek": "content/curriculum/celtic/celtic-week-01.json",
+        "learningMap": "content/curriculum/celtic/learning-map.json"
+      },
+      "coverageType": "regional-tradition"
+    },
+    "slavic": {
+      "id": "slavic",
+      "name": "Slavic",
+      "status": "active",
+      "visual": {
+        "logo": "slavic-fire",
+        "palette": "ember"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/slavic/manifest.json",
+        "activeWeek": "content/curriculum/slavic/slavic-week-01.json",
+        "learningMap": "content/curriculum/slavic/learning-map.json"
+      },
+      "coverageType": "folklore"
+    },
+    "japanese": {
+      "id": "japanese",
+      "name": "Japanese",
+      "status": "active",
+      "visual": {
+        "logo": "japanese-torii",
+        "palette": "crimson"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/japanese/manifest.json",
+        "activeWeek": "content/curriculum/japanese/japanese-week-01.json",
+        "learningMap": "content/curriculum/japanese/learning-map.json"
+      },
+      "coverageType": "regional-tradition"
+    },
+    "roman": {
+      "id": "roman",
+      "name": "Roman",
+      "status": "active",
+      "visual": {
+        "logo": "roman-laurel",
+        "palette": "laurel"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/roman/manifest.json",
+        "activeWeek": "content/curriculum/roman/roman-week-01.json",
+        "learningMap": "content/curriculum/roman/learning-map.json"
+      },
+      "coverageType": "pantheon"
+    },
+    "chinese": {
+      "id": "chinese",
+      "name": "Chinese",
+      "status": "active",
+      "visual": {
+        "logo": "chinese-dragon",
+        "palette": "jade"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/chinese/manifest.json",
+        "activeWeek": "content/curriculum/chinese/chinese-week-01.json",
+        "learningMap": "content/curriculum/chinese/learning-map.json"
+      },
+      "coverageType": "regional-tradition"
+    },
+    "mesoamerican": {
+      "id": "mesoamerican",
+      "name": "Mesoamerican",
+      "status": "active",
+      "visual": {
+        "logo": "meso-serpent",
+        "palette": "obsidian"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/mesoamerican/manifest.json",
+        "activeWeek": "content/curriculum/mesoamerican/mesoamerican-week-01.json",
+        "learningMap": "content/curriculum/mesoamerican/learning-map.json"
+      },
+      "coverageType": "regional-tradition"
+    },
+    "mesopotamian": {
+      "id": "mesopotamian",
+      "name": "Mesopotamian",
+      "status": "active",
+      "visual": {
+        "logo": "mesopotamian-star",
+        "palette": "clay"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/mesopotamian/manifest.json",
+        "activeWeek": "content/curriculum/mesopotamian/mesopotamian-week-01.json",
+        "learningMap": "content/curriculum/mesopotamian/learning-map.json"
+      },
+      "coverageType": "pantheon"
+    },
+    "indian": {
+      "id": "indian",
+      "name": "Indian",
+      "status": "active",
+      "visual": {
+        "logo": "indian-lotus",
+        "palette": "marigold"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/indian/manifest.json",
+        "activeWeek": "content/curriculum/indian/indian-week-01.json",
+        "learningMap": "content/curriculum/indian/learning-map.json"
+      },
+      "coverageType": "myth-cycle"
+    },
+    "polynesian": {
+      "id": "polynesian",
+      "name": "Polynesian",
+      "status": "active",
+      "visual": {
+        "logo": "polynesian-wave",
+        "palette": "ocean"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/polynesian/manifest.json",
+        "activeWeek": "content/curriculum/polynesian/polynesian-week-01.json",
+        "learningMap": "content/curriculum/polynesian/learning-map.json"
+      },
+      "coverageType": "regional-tradition"
+    },
+    "finnish": {
+      "id": "finnish",
+      "name": "Finnish",
+      "coverageType": "myth-cycle",
+      "status": "active",
+      "visual": {
+        "logo": "finnish-mark",
+        "palette": "pine"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/finnish/manifest.json",
+        "activeWeek": "content/curriculum/finnish/finnish-week-01.json",
+        "learningMap": "content/curriculum/finnish/learning-map.json"
+      }
+    },
+    "maya": {
+      "id": "maya",
+      "name": "Maya",
+      "coverageType": "regional-tradition",
+      "status": "active",
+      "visual": {
+        "logo": "maya-mark",
+        "palette": "jade"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/maya/manifest.json",
+        "activeWeek": "content/curriculum/maya/maya-week-01.json",
+        "learningMap": "content/curriculum/maya/learning-map.json"
+      }
+    },
+    "basque": {
+      "id": "basque",
+      "name": "Basque",
+      "coverageType": "folklore",
+      "status": "active",
+      "visual": {
+        "logo": "basque-mark",
+        "palette": "forest"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/basque/manifest.json",
+        "activeWeek": "content/curriculum/basque/basque-week-01.json",
+        "learningMap": "content/curriculum/basque/learning-map.json"
+      }
+    },
+    "cherokee": {
+      "id": "cherokee",
+      "name": "Cherokee",
+      "coverageType": "regional-tradition",
+      "status": "active",
+      "visual": {
+        "logo": "cherokee-mark",
+        "palette": "earth"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/cherokee/manifest.json",
+        "activeWeek": "content/curriculum/cherokee/cherokee-week-01.json",
+        "learningMap": "content/curriculum/cherokee/learning-map.json"
+      }
+    },
+    "inuit": {
+      "id": "inuit",
+      "name": "Inuit",
+      "coverageType": "regional-tradition",
+      "status": "active",
+      "visual": {
+        "logo": "inuit-mark",
+        "palette": "arctic"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/inuit/manifest.json",
+        "activeWeek": "content/curriculum/inuit/inuit-week-01.json",
+        "learningMap": "content/curriculum/inuit/learning-map.json"
+      }
+    },
+    "yoruba": {
+      "id": "yoruba",
+      "name": "Yoruba",
+      "coverageType": "living-tradition",
+      "status": "active",
+      "visual": {
+        "logo": "yoruba-mark",
+        "palette": "purple"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/yoruba/manifest.json",
+        "activeWeek": "content/curriculum/yoruba/yoruba-week-01.json",
+        "learningMap": "content/curriculum/yoruba/learning-map.json"
+      }
+    },
+    "baltic": {
+      "id": "baltic",
+      "name": "Baltic",
+      "coverageType": "folklore",
+      "status": "active",
+      "visual": {
+        "logo": "baltic-mark",
+        "palette": "amber"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/baltic/manifest.json",
+        "activeWeek": "content/curriculum/baltic/baltic-week-01.json",
+        "learningMap": "content/curriculum/baltic/learning-map.json"
+      }
+    },
+    "akan": {
+      "id": "akan",
+      "name": "Akan",
+      "coverageType": "folklore",
+      "status": "active",
+      "visual": {
+        "logo": "akan-mark",
+        "palette": "spider"
+      },
+      "paths": {
+        "corpusManifest": "content/corpus/akan/manifest.json",
+        "activeWeek": "content/curriculum/akan/akan-week-01.json",
+        "learningMap": "content/curriculum/akan/learning-map.json"
+      }
+    }
+  }
+}

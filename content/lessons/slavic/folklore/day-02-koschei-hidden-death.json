@@ -1,0 +1,218 @@
+{
+  "id": "slavic.week01.day02.koschei-hidden-death",
+  "version": 1,
+  "weekId": "sla.folklore.week01",
+  "pantheon": "slavic",
+  "themeMode": "pantheon",
+  "title": "Koschei: Hidden Death",
+  "subtitle": "Power located outside the body",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "koschei",
+    "death",
+    "folklore"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.koschei-hidden-death.concept",
+      "text": "Identify the main idea in Koschei: Hidden Death."
+    },
+    {
+      "id": "obj.koschei-hidden-death.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-22373",
+      "sourceId": "sla.folklore.russian-fairy-tales",
+      "work": "Russian Fairy Tales",
+      "author": "various collectors",
+      "translator": "W. R. S. Ralston",
+      "locator": "Koshchei the Deathless",
+      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+      "excerpt": "s of Evil: 1. The Snake as the Stealer of Daylight; 2. Norka the Beast, Lord of the Lower World; 3. Koshchei the Deathless, The Stealer of Fair Princesses--his connexion with Punchkin and \"the Giant who had no Heart in his Body\"--Excursus on Bluebeard's Chamber; 4. The Water King or Subaqueous Demon--Female Embodiments of Evil: 1. The Baba Yaga or Hag, and 2",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-48761",
+      "sourceId": "sla.folklore.sixty-slavonic-tales",
+      "work": "Sixty Folk-Tales from Exclusively Slavonic Sources",
+      "author": "various collectors and storytellers",
+      "translator": "A. H. Wratislaw",
+      "locator": "Slavonic variants\u2014deathless antagonists",
+      "localPath": "content/corpus/slavic/primary/sixty-slavonic-folk-tales-48761.txt",
+      "excerpt": ". A. Biggs (Tr\u00fcbner and Co.). In the Polish story, No. 17, we make acquaintance with 'Kostchey the Deathless,' who plays a great part in Russian stories, but is entirely unknown by name among the southern and most of the western Slavonians. His place is with them taken by dragons and evil shapes of various kinds. His name is probably derived from _kost_, a",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Koschei: Hidden Death",
+      "body": "Koschei\u2019s strength is often externalized and hidden, making victory depend on discovery rather than simple force.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What must a hero often discover about Koschei?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Where his death or weakness is hidden"
+        },
+        {
+          "id": "b",
+          "text": "His favorite food"
+        },
+        {
+          "id": "c",
+          "text": "His school"
+        },
+        {
+          "id": "d",
+          "text": "His crown"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Koschei\u2019s strength is often externalized and hidden, making victory depend on discovery rather than simple force.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.koschei-hidden-death.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

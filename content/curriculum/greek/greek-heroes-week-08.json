@@ -1,0 +1,208 @@
+{
+  "id": "grc.heroes.week08",
+  "title": "Afterlives of Heroes",
+  "subtitle": "Cult, memory, reception, and comparison",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Persephone Descends",
+      "lessonId": "grc.heroes.w08d01.persephone-descends",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-01-persephone-descends.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Heroes in Memory",
+      "lessonId": "grc.heroes.w08d02.heroes-in-memory",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-02-heroes-in-memory.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Ovid Transforms",
+      "lessonId": "grc.heroes.w08d03.ovid-transforms",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-03-ovid-transforms.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Heroes in Landscape",
+      "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-04-heroes-in-landscape.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Four Heroic Models",
+      "lessonId": "grc.heroes.w08d05.four-heroic-models",
+      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-05-four-heroic-models.json",
+      "status": "available"
+    }
+  ],
+  "assessment": {
+    "title": "Afterlives of Heroes assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.w08d01.persephone-descends",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "What should a source-specific reading avoid?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Noticing Demeter’s grief and the threat to crops"
+            },
+            {
+              "id": "b",
+              "text": "Keeping the hymn distinct from later versions"
+            },
+            {
+              "id": "c",
+              "text": "Reducing the hymn to a universal story of a voluntary romantic journey"
+            }
+          ],
+          "answerId": "c",
+          "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w08d01.persephone-descends.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w08d02.heroes-in-memory",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "What additional evidence would a claim about local hero cult require?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Evidence about the particular sanctuary, community, and practice"
+            },
+            {
+              "id": "b",
+              "text": "Only the fact that a hero speaks in an epic"
+            },
+            {
+              "id": "c",
+              "text": "Only a comparison of modern film heroes"
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Evidence about the particular sanctuary, community, and practice. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w08d03.ovid-transforms",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "Which comparison keeps the sources distinct?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Treat Riley’s explanatory summaries as Ovid’s own Latin lines."
+            },
+            {
+              "id": "b",
+              "text": "Compare Ovid’s crown transformation with the Epitome’s thread episode."
+            },
+            {
+              "id": "c",
+              "text": "Use Ovid to silently correct every earlier Greek account."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Compare Ovid’s crown transformation with the Epitome’s thread episode.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w08d03.ovid-transforms.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "Why keep Frazer’s scholarly layer visible?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "He is the original author of the Homeric Hymns."
+            },
+            {
+              "id": "b",
+              "text": "A modern scholarly work cannot mention ancient geography."
+            },
+            {
+              "id": "c",
+              "text": "His interpretation of ancient testimony is not the ancient testimony itself."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "His interpretation of ancient testimony is not the ancient testimony itself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.w08d05.four-heroic-models",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "What is the strongest course-wide conclusion?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries."
+            },
+            {
+              "id": "b",
+              "text": "All four heroes express one unchanging moral code."
+            },
+            {
+              "id": "c",
+              "text": "Later biographies are eyewitness records of the heroic age."
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "main",
+            "heracles",
+            "odysseus",
+            "theseus"
+          ],
+          "objectiveIds": [
+            "obj.grc.heroes.w08d05.four-heroic-models.source"
+          ]
+        }
+      }
+    ]
+  }
+}

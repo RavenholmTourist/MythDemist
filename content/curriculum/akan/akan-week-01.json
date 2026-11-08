@@ -1,0 +1,50 @@
+{
+  "id": "akan.tradition.week01",
+  "title": "Akan Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "akan",
+  "coverageType": "folklore",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "akan-mark",
+    "accent": "spider"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Anansi the spider",
+      "lessonId": "akan.week01.day01.anansi-the-spider",
+      "lessonPath": "content/lessons/akan/tradition/day-01-anansi-the-spider.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Wisdom becomes human",
+      "lessonId": "akan.week01.day02.wisdom-becomes-human",
+      "lessonPath": "content/lessons/akan/tradition/day-02-wisdom-becomes-human.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Diaspora and transformation",
+      "lessonId": "akan.week01.day03.diaspora-and-transformation",
+      "lessonPath": "content/lessons/akan/tradition/day-03-diaspora-and-transformation.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Tiger and dangerous rivals",
+      "lessonId": "akan.week01.day04.tiger-and-dangerous-rivals",
+      "lessonPath": "content/lessons/akan/tradition/day-04-tiger-and-dangerous-rivals.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Stories as social power",
+      "lessonId": "akan.week01.day05.stories-as-social-power",
+      "lessonPath": "content/lessons/akan/tradition/day-05-stories-as-social-power.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

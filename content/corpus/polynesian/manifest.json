@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "polynesian",
+  "records": [
+    {
+      "id": "pg-32601",
+      "title": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Polynesian traditions"
+      ],
+      "translator": "W. D. Westervelt",
+      "sourceIds": [
+        "pol.legends-maui"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/32601",
+      "localPath": "primary/legends-ma-ui-westervelt-32601.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A collection centered on Maui traditions across Polynesian islands; preserves regional variation."
+    },
+    {
+      "id": "pg-39195",
+      "title": "Legends of Gods and Ghosts (Hawaiian Mythology)",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various Hawaiian traditions"
+      ],
+      "translator": "W. D. Westervelt",
+      "sourceIds": [
+        "pol.hawaiian-mythology"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/39195",
+      "localPath": "primary/hawaiian-mythology-westervelt-39195.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A Hawaiian mythology collection useful for local variation and supernatural beings."
+    }
+  ]
+}

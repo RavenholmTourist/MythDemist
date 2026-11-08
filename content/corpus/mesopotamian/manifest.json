@@ -1,0 +1,38 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "mesopotamian",
+  "records": [
+    {
+      "id": "pg-11000",
+      "title": "An Old Babylonian Version of the Gilgamesh Epic",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Anonymous"
+      ],
+      "translator": "Morris Jastrow and Albert T. Clay",
+      "sourceIds": [
+        "mesopot.gilgamesh-old-babylonian"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/11000",
+      "localPath": "primary/gilgamesh-clay-jastrow-11000.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "An edited translation of Old Babylonian tablets; fragmentary evidence requires careful citation."
+    },
+    {
+      "id": "pg-18897",
+      "title": "The Epic of Gilgamish",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "Anonymous"
+      ],
+      "translator": "Stephen Langdon",
+      "sourceIds": [
+        "mesopot.gilgamish-langdon"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/18897",
+      "localPath": "primary/gilgamish-langdon-18897.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "A fragmentary Old Babylonian cuneiform edition and translation that reinforces source instability."
+    }
+  ]
+}

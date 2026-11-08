@@ -1,0 +1,41 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.basque-traditions",
+      "title": "Basque Traditions",
+      "description": "Eight weeks on Basque sources, stories, and regional variation.",
+      "weeks": [
+        "Basque Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.basque-mountain-powers": {
+      "title": "Mari and sacred mountains",
+      "body": "Mari and sacred mountains can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-34902"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "Mari and sacred mountains belongs first to its own tradition.",
+          "recordIds": [
+            "pg-34902"
+          ]
+        }
+      ]
+    }
+  }
+}

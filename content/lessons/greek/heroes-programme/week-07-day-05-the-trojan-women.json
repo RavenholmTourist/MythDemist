@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w07d05.the-trojan-women",
+  "version": 2,
+  "weekId": "grc.heroes.week07",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Trojan Women",
+  "subtitle": "Conquest becomes aftermath",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "the"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w07d05.the-trojan-women.claim",
+      "text": "Explain this episode: Whose situation is central after Troy’s fall?"
+    },
+    {
+      "id": "obj.grc.heroes.w07d05.the-trojan-women.source",
+      "text": "Use the cited passage to explain: What perspective does the play add to accounts of victory?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "perseus-trojan-women-coleridge",
+      "sourceId": "grc.euripides.trojan-women",
+      "work": "The Trojan Women",
+      "author": "Euripides",
+      "translator": "Edward P. Coleridge",
+      "locator": "Trojan Women, Poseidon’s opening speech; Coleridge TEI body, passage on Scamander’s banks and allocation of captives",
+      "localPath": "content/corpus/greek/primary/euripides-trojan-women-coleridge-perseus-eng2.xml",
+      "excerpt": "desolation seizes on a town, the worship of the gods decays and tends to lose respect. Scamander’s banks re-echo long and loud the screams of captive maids, as they by lot receive their masters. Arcadia takes some, and some the people of Thessaly; others are assigned to Theseus’ sons, the Athenian chiefs.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Troy has fallen. Euripides focuses on captive women awaiting allocation to Greek masters, with further losses still ahead. The same war that can furnish heroic fame appears here through enslavement, separation, and mourning.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “desolation seizes on a town, the worship of the gods decays and tends to lose respect. Scamander’s banks re-echo long and loud the screams of captive maids, as they by lot receive their masters. Arcadia takes some, and some the people of Thessaly; others are assigned to Theseus’ sons, the Athenian chiefs.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Conquest appears as captivity, separation, and inherited trauma rather than as heroic glory.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Keep the work’s perspective and authorship visible. Euripides’ tragedy changes whose suffering receives attention; it is not an additional book of Homer or proof of one uniform Greek attitude to war.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The chorus turns grief into testimony.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose situation is central after Troy’s fall?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Victorious athletes at Olympia"
+        },
+        {
+          "id": "b",
+          "text": "Suitors waiting in Ithaca"
+        },
+        {
+          "id": "c",
+          "text": "Captive Trojan women"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Captive Trojan women. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What perspective does the play add to accounts of victory?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The consequences borne by conquered and enslaved people"
+        },
+        {
+          "id": "b",
+          "text": "An account in which Troy has not yet been attacked"
+        },
+        {
+          "id": "c",
+          "text": "An assurance that captives suffer no further losses"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The consequences borne by conquered and enslaved people. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d05.the-trojan-women.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

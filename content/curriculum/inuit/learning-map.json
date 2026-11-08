@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.inuit-traditions",
+      "title": "Inuit Traditions",
+      "description": "Eight weeks on Inuit sources, stories, and regional variation.",
+      "weeks": [
+        "Inuit Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.inuit-sea-survival": {
+      "title": "The sea and survival",
+      "body": "The sea and survival can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-28932",
+        "pg-24569"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "The sea and survival belongs first to its own tradition.",
+          "recordIds": [
+            "pg-28932",
+            "pg-24569"
+          ]
+        }
+      ]
+    }
+  }
+}

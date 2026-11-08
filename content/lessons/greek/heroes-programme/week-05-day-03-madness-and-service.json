@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w05d03.madness-and-service",
+  "version": 2,
+  "weekId": "grc.heroes.week05",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Madness and Service",
+  "subtitle": "Power does not prevent catastrophe",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "library"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w05d03.madness-and-service.claim",
+      "text": "Explain this episode: What precedes the labours in this account?"
+    },
+    {
+      "id": "obj.grc.heroes.w05d03.madness-and-service.source",
+      "text": "Use the cited passage to explain: Who directs Heracles to serve Eurystheus?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.4.12, madness, purification, and service; book 2 · chapter 4 · section 12, normalized characters 0-525",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi he inquired of the god where he should dwell. The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "In the Library, Hera sends madness and Heracles kills his children. He is purified and consults Delphi; the oracle directs him to serve Eurystheus. This is this work’s sequence, not a universal chronology for every Heracles play.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi he inquired of the god where he should dwell. The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The tradition refuses a clean superhero portrait: the power that defeats monsters belongs to a man capable of terrible destruction.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Keep the order of events attached to the Library: madness and family violence precede purification, the oracle, and service. A tragedy can arrange the catastrophe differently, so do not turn this sequence into the only Heracles chronology.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Heracles remains useful because the sources keep asking what strength is for.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What precedes the labours in this account?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A voluntary vow to perform twelve labours"
+        },
+        {
+          "id": "b",
+          "text": "An oracle promising immortality without a period of service"
+        },
+        {
+          "id": "c",
+          "text": "Madness, the killing of his children, purification, and an oracle"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "This Library account places the madness and family deaths before purification and the consultation at Delphi.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Who directs Heracles to serve Eurystheus?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The Delphic oracle"
+        },
+        {
+          "id": "b",
+          "text": "Eurystheus"
+        },
+        {
+          "id": "c",
+          "text": "Hera acting without an oracle"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The Pythian priestess at Delphi gives the instruction to serve Eurystheus.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w05d03.madness-and-service.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

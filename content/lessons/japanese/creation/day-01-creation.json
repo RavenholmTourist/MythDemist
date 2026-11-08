@@ -1,0 +1,220 @@
+{
+  "id": "jpn.kami.day01.creation",
+  "version": 1,
+  "weekId": "jpn.kami.week01",
+  "pantheon": "japanese",
+  "themeMode": "pantheon",
+  "title": "Izanagi and Izanami",
+  "subtitle": "Creation, descent, and separation",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "japanese",
+    "izanagi",
+    "izanami",
+    "creation"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.creation.concept",
+      "text": "Identify the central source-grounded idea in Izanagi and Izanami."
+    },
+    {
+      "id": "obj.creation.source",
+      "text": "Classify the cited source and its limits."
+    }
+  ],
+  "sourceReferences": {
+    "ref-old-world-japan": {
+      "recordId": "pg-46863",
+      "sourceId": "jpn.old-world-japan",
+      "work": "Old-World Japan",
+      "author": "Frank Rinder",
+      "translator": "Frank Rinder",
+      "locator": "Old-World Japan\u2014creation, Izanagi, and Izanami",
+      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+      "excerpt": "the great Shinto deities, of the creation of Japan and of the world, of the Orpheus-like descent of Izanagi to Hades, and of his subsequent fight with the demons. That Chinese civilisation has exercised a profound influence on that of Japan, cannot be doubted. A scholar of repute has indicated that evidence of this is to be found even in writings so early a",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-4018",
+      "sourceId": "jpn.folklore.japanese-fairy-tales",
+      "work": "Japanese Fairy Tales",
+      "author": "traditional tales; collected by Yei Theodora Ozaki",
+      "translator": "Yei Theodora Ozaki",
+      "locator": "Japanese Fairy Tales\u2014comparative popular tradition",
+      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
+      "excerpt": "Contents PREFACE JAPANESE FAIRY TALES MY LORD BAG OF RICE THE TONGUE-CUT SPARROW THE STORY OF URASHIMA TARO, THE FISHER LAD THE FARMER AND THE BADGER THE \u201cSHINANSHA,\u201d OR THE SOUTH POINTING CARRIAGE THE ADVENTURES OF KINTARO, THE GOLDEN BOY THE STORY OF PRINCESS HASE. A STORY OF OLD JAPAN THE STORY OF THE MAN WHO DID NOT WISH TO DIE THE BAMBOO-CUT",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Creation has an emotional arc",
+      "body": "Japanese creation traditions connect divine generation, loss, pollution, and separation rather than producing a tidy origin story.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "A later retelling",
+      "body": "Old-World Japan retells Kojiki and Nihongi traditions for English readers. It is useful flavor, but primary references should be added next.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Descent changes the world",
+      "body": "Izanagi\u2019s descent after Izanami turns creation into a story of grief, boundary, and impurity.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does this starter lesson emphasize?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Creation joined to loss and separation"
+        },
+        {
+          "id": "b",
+          "text": "A Roman civil war"
+        },
+        {
+          "id": "c",
+          "text": "A Russian witch"
+        },
+        {
+          "id": "d",
+          "text": "Welsh kingship"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-old-world-japan",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How should Old-World Japan be classified here?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "As a later retelling"
+        },
+        {
+          "id": "b",
+          "text": "As the Kojiki itself"
+        },
+        {
+          "id": "c",
+          "text": "As a modern video game"
+        },
+        {
+          "id": "d",
+          "text": "As Egyptian scripture"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-old-world-japan",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.creation.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-old-world-japan",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+  }
+}

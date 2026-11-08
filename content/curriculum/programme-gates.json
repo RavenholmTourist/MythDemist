@@ -1,0 +1,169 @@
+{
+  "arc.greek-heroes": {
+    "tier": 0,
+    "prerequisiteArcIds": [],
+    "minimumCompletedArcs": 0,
+    "gateNote": "Starter programme."
+  },
+  "arc.greek-gods": {
+    "tier": 1,
+    "prerequisiteArcIds": [
+      "arc.greek-heroes"
+    ],
+    "minimumCompletedArcs": 1
+  },
+  "arc.norse-gods-fate": {
+    "tier": 1,
+    "prerequisiteArcIds": [
+      "arc.greek-heroes"
+    ],
+    "minimumCompletedArcs": 1
+  },
+  "arc.origins-across-pantheons": {
+    "tier": 1,
+    "prerequisiteArcIds": [
+      "arc.greek-heroes"
+    ],
+    "minimumCompletedArcs": 1
+  },
+  "arc.greek-underworld": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.greek-gods"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.roman-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.greek-gods"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.war-across-pantheons": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.norse-gods-fate"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.egyptian-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.mesopotamian-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.chinese-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.japanese-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.polynesian-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.mesoamerican-foundations": {
+    "tier": 2,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 2
+  },
+  "arc.indian-foundations": {
+    "tier": 3,
+    "prerequisiteArcIds": [
+      "arc.mesopotamian-foundations"
+    ],
+    "minimumCompletedArcs": 3
+  },
+  "arc.celtic-foundations": {
+    "tier": 3,
+    "prerequisiteArcIds": [
+      "arc.war-across-pantheons"
+    ],
+    "minimumCompletedArcs": 3
+  },
+  "arc.slavic-foundations": {
+    "tier": 3,
+    "prerequisiteArcIds": [
+      "arc.norse-gods-fate"
+    ],
+    "minimumCompletedArcs": 3
+  },
+  "arc.finnish-traditions": {
+    "tier": 3,
+    "prerequisiteArcIds": [
+      "arc.norse-gods-fate"
+    ],
+    "minimumCompletedArcs": 3
+  },
+  "arc.maya-traditions": {
+    "tier": 4,
+    "prerequisiteArcIds": [
+      "arc.mesoamerican-foundations"
+    ],
+    "minimumCompletedArcs": 4
+  },
+  "arc.baltic-traditions": {
+    "tier": 4,
+    "prerequisiteArcIds": [
+      "arc.slavic-foundations"
+    ],
+    "minimumCompletedArcs": 4
+  },
+  "arc.basque-traditions": {
+    "tier": 4,
+    "prerequisiteArcIds": [
+      "arc.celtic-foundations"
+    ],
+    "minimumCompletedArcs": 4
+  },
+  "arc.cherokee-traditions": {
+    "tier": 4,
+    "prerequisiteArcIds": [
+      "arc.mesoamerican-foundations"
+    ],
+    "minimumCompletedArcs": 4
+  },
+  "arc.inuit-traditions": {
+    "tier": 4,
+    "prerequisiteArcIds": [
+      "arc.polynesian-foundations"
+    ],
+    "minimumCompletedArcs": 4
+  },
+  "arc.yoruba-traditions": {
+    "tier": 5,
+    "prerequisiteArcIds": [
+      "arc.origins-across-pantheons"
+    ],
+    "minimumCompletedArcs": 5
+  },
+  "arc.akan-traditions": {
+    "tier": 5,
+    "prerequisiteArcIds": [
+      "arc.yoruba-traditions"
+    ],
+    "minimumCompletedArcs": 5
+  }
+}

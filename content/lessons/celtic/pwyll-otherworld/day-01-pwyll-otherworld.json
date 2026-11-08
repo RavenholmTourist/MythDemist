@@ -1,0 +1,220 @@
+{
+  "id": "cel.tales.day01.pwyll-otherworld",
+  "version": 1,
+  "weekId": "cel.tales.week01",
+  "pantheon": "celtic",
+  "themeMode": "pantheon",
+  "title": "Pwyll and the Otherworld",
+  "subtitle": "Welsh tales make rulership meet enchantment",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "celtic",
+    "welsh",
+    "mabinogion",
+    "otherworld"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.pwyll-otherworld.concept",
+      "text": "Identify the central source-grounded idea in Pwyll and the Otherworld."
+    },
+    {
+      "id": "obj.pwyll-otherworld.source",
+      "text": "Classify the cited source and its limits."
+    }
+  ],
+  "sourceReferences": {
+    "ref-mabinogion": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Mabinogion",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "Pwyll Prince of Dyved",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "Fountain Peredur the Son of Evrawc Geraint the son of Erbin Kilhwch and Olwen The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on t",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-16464",
+      "sourceId": "cel.tain-bo-cualnge",
+      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
+      "author": "Anonymous Irish traditions",
+      "translator": "Joseph Dunn",
+      "locator": "T\u00e1in\u2014comparative Irish epic context",
+      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
+      "excerpt": "in, Brendan O'Connor and the Online Distributed Proofreading Team at https://www.pgdp.net *** START OF THE PROJECT GUTENBERG EBOOK THE ANCIENT IRISH EPIC TALE T\u00c1IN B\u00d3 C\u00daALNGE *** Produced by Ted Garvin, Brendan O'Connor and the Online Distributed Proofreading Team at https://www.pgdp.net THE ANCIENT IRISH EPIC T",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The Otherworld is close",
+      "body": "In the Mabinogion, the supernatural is not distant. Encounters with otherworldly figures test kingship, promises, and identity.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "A Welsh medieval tradition",
+      "body": "The Mabinogion preserves Welsh tales in translation. It gives us romance, magic, and heroic politics rather than a systematic pantheon.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.concept"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "Rule is tested",
+      "body": "Pwyll\u2019s story makes leadership depend on restraint, honor, and navigating powers beyond ordinary human law.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does the Mabinogion especially offer?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Welsh tales of heroism and the Otherworld"
+        },
+        {
+          "id": "b",
+          "text": "Greek epic only"
+        },
+        {
+          "id": "c",
+          "text": "A Norse legal code"
+        },
+        {
+          "id": "d",
+          "text": "Egyptian hymns"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-mabinogion",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What is tested through otherworldly encounters?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Kingship and promise-keeping"
+        },
+        {
+          "id": "b",
+          "text": "Shipbuilding"
+        },
+        {
+          "id": "c",
+          "text": "Grammar"
+        },
+        {
+          "id": "d",
+          "text": "Astronomy"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "sourceRefIds": [
+        "ref-mabinogion",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.pwyll-otherworld.source"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What kind of source is this?",
+          "What limits should we keep in mind?"
+        ],
+        "sourceRefIds": [
+          "ref-mabinogion",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "reviewed",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Starter scaffold; deepen before treating as a finished lesson. Deepened to the five-card lesson standard."
+  }
+}

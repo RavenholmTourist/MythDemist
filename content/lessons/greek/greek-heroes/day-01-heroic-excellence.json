@@ -1,0 +1,195 @@
+{
+  "id": "grc.heroes.day01.heroic-excellence",
+  "version": 2,
+  "weekId": "grc.heroes.week01",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "rewardArtId": "art.met.254187",
+  "title": "Heroes Aren’t Superheroes",
+  "subtitle": "Two Homeric models of excellence",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "heroes",
+    "homer",
+    "iliad",
+    "odyssey",
+    "source-variants"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.heroic-excellence.source-specific",
+      "text": "Explain that Greek heroic excellence is shaped by the source and story-world, not by one universal definition."
+    },
+    {
+      "id": "obj.heroic-excellence.achilles-vs-odysseus",
+      "text": "Distinguish Achilles’ martial anger and honor-centered story from Odysseus’ cunning, travel, and endurance."
+    }
+  ],
+  "sourceReferences": {
+    "ref-iliad-1-opening": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, opening; Book 1, normalized characters 90-392",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "mother Thetis to ask Jove to help the Trojans—Scene between Jove and Juno on Olympus. Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "ref-odyssey-1-opening": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, opening; Book 1, normalized characters 12-314",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "COUNCIL—MINERVA’S VISIT TO ITHACA—THE CHALLENGE FROM TELEMACHUS TO THE SUITORS. Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Hero is not a moral certificate",
+      "body": "A Greek hero can be admirable, terrifying, clever, destructive, or all four at once. The word marks a certain status and story-world; it does not automatically mean “good person.”",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.source-specific"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Achilles: excellence with a cost",
+      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.achilles-vs-odysseus"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "Odysseus: the ingenious wanderer",
+      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.achilles-vs-odysseus"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "synthesis",
+      "title": "Two openings, two heroic pressures",
+      "body": "Achilles asks what honor costs when anger takes over. Odysseus asks whether intelligence and endurance can bring a person home. Both are heroic; neither is a universal template.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.source-specific",
+        "obj.heroic-excellence.achilles-vs-odysseus"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "method",
+      "title": "Keep the source attached",
+      "body": "Later writers and adaptations often blend heroic traits into one tidy canon. Project Mythos keeps the source attached, so you can see which version says what.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.source-specific"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What does the Iliad’s opening foreground?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Achilles’ anger and its cost"
+        },
+        {
+          "id": "b",
+          "text": "The founding of Athens"
+        },
+        {
+          "id": "c",
+          "text": "Jason’s marriage in Corinth"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Achilles’ anger and its cost. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.achilles-vs-odysseus"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "How does the Odyssey’s opening differ?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "It begins with the Nemean lion."
+        },
+        {
+          "id": "b",
+          "text": "It foregrounds a widely travelled hero and his return."
+        },
+        {
+          "id": "c",
+          "text": "It begins with Achilles’ refusal of gifts."
+        }
+      ],
+      "answerId": "b",
+      "explanation": "It foregrounds a widely travelled hero and his return.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "ref-iliad-1-opening",
+        "ref-odyssey-1-opening"
+      ],
+      "objectiveIds": [
+        "obj.heroic-excellence.source-specific"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.egyptian-foundations",
+      "title": "Egyptian Foundations",
+      "description": "Eight weeks introducing major Egyptian traditions.",
+      "weeks": [
+        "Egyptian Gods",
+        "Gods and powers",
+        "Heroes and journeys",
+        "Otherworlds",
+        "Ritual and place",
+        "Fate and transformation",
+        "Variant sources",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.egypt-death-renewal": {
+      "title": "Osiris and renewal",
+      "body": "Egyptian traditions repeatedly turn loss into restoration, tying divine kingship, burial, and cosmic order together.",
+      "recordIds": [
+        "pg-9411",
+        "pg-15932"
+      ],
+      "nextTopicIds": [
+        "topic.celtic-otherworld",
+        "topic.japanese-creation-boundary",
+        "topic.roman-transformation",
+        "topic.egyptian-order-renewal"
+      ],
+      "cards": [
+        {
+          "title": "Why this matters",
+          "body": "Egyptian traditions repeatedly turn loss into restoration, tying divine kingship, burial, and cosmic order together.",
+          "recordIds": [
+            "pg-9411",
+            "pg-15932"
+          ]
+        },
+        {
+          "title": "Compare across pantheons",
+          "body": "Use this as a bridge into shared themes, while keeping the tradition and source type distinct.",
+          "recordIds": [
+            "pg-9411",
+            "pg-15932"
+          ]
+        }
+      ]
+    },
+    "topic.shared-death-return": {
+      "title": "Shared Theme: Death Return",
+      "body": "A cross-pantheon bridge topic. It compares a shared theme while keeping each pantheon\u2019s sources and versions distinct.",
+      "recordIds": [
+        "pg-9411",
+        "pg-15932"
+      ],
+      "nextTopicIds": [],
+      "cards": [
+        {
+          "title": "A shared question",
+          "body": "How does this pantheon frame the theme differently from the others you have met?",
+          "recordIds": [
+            "pg-9411",
+            "pg-15932"
+          ]
+        }
+      ]
+    },
+    "topic.egyptian-order-renewal": {
+      "title": "Order and renewal",
+      "body": "Egyptian traditions connect divine order to repeated restoration, judgment, kingship, and the stability of the world.",
+      "recordIds": [
+        "pg-9411",
+        "pg-15932"
+      ],
+      "nextTopicIds": [
+        "topic.shared.fate-return",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Egyptian traditions connect divine order to repeated restoration, judgment, kingship, and the stability of the world.",
+          "recordIds": [
+            "pg-9411",
+            "pg-15932"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-9411",
+            "pg-15932"
+          ]
+        }
+      ]
+    },
+    "topic.egyptian-writing-power": {
+      "title": "Writing as sacred power",
+      "body": "Thoth, spells, and funerary texts show language and record-keeping as forces that preserve order and identity.",
+      "recordIds": [
+        "pg-15932"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.fate-return"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Thoth, spells, and funerary texts show language and record-keeping as forces that preserve order and identity.",
+          "recordIds": [
+            "pg-15932"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-15932"
+          ]
+        }
+      ]
+    }
+  }
+}

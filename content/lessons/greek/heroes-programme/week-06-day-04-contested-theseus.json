@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w06d04.contested-theseus",
+  "version": 2,
+  "weekId": "grc.heroes.week06",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Contested Theseus",
+  "subtitle": "Versions disagree about the founder",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "epitome"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w06d04.contested-theseus.claim",
+      "text": "Explain this episode: What should we do when Plutarch records conflicting accounts?"
+    },
+    {
+      "id": "obj.grc.heroes.w06d04.contested-theseus.source",
+      "text": "Use the cited passage to explain: Why is Ariadne useful for studying variants?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-00674",
+      "sourceId": "grc.plutarch.lives",
+      "work": "Plutarch: Lives of the Noble Grecians and Romans",
+      "author": "Plutarch",
+      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+      "locator": "Life of Theseus, conflicting accounts of Ariadne; local text file lines 597-601 (physical file lines, not ancient section numbers)",
+      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+      "excerpt": "There are yet many other traditions about these things, and as many concerning Ariadne, all inconsistent with each other. Some relate that she hung herself, being deserted by Theseus. Others that she was carried away by his sailors to the isle of Naxos, and married to Oenarus, priest of Bacchus;",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Plutarch records disagreements about Ariadne rather than giving one uncontested ending. The variations are evidence about how a story was transmitted and used, not errors to conceal by blending every account together.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “There are yet many other traditions about these things, and as many concerning Ariadne, all inconsistent with each other. Some relate that she hung herself, being deserted by Theseus. Others that she was carried away by his sailors to the isle of Naxos, and married to Oenarus, priest of Bacchus;”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The founder remains stable as a civic symbol while biographical details shift under pressure from different tellings.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Record a disagreement rather than repairing it into one continuous plot. Plutarch’s report of alternatives is evidence of varied transmission, not a guarantee that every reported event happened.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Variant traditions are evidence about how the story was used, not merely errors to remove.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What should we do when Plutarch records conflicting accounts?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Combine incompatible details into one certain sequence."
+        },
+        {
+          "id": "b",
+          "text": "Discard every version except the best-known modern one."
+        },
+        {
+          "id": "c",
+          "text": "Keep the alternatives attached to their reported sources."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Keep the alternatives attached to their reported sources.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Why is Ariadne useful for studying variants?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Her fate is told differently in accounts Plutarch discusses."
+        },
+        {
+          "id": "b",
+          "text": "Every source preserves her own written testimony."
+        },
+        {
+          "id": "c",
+          "text": "Her story appears only in one surviving sentence."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Her fate is told differently in accounts Plutarch discusses.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w06d04.contested-theseus.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

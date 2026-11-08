@@ -1,0 +1,81 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.indian-foundations",
+      "title": "Indian Foundations",
+      "description": "Eight weeks introducing major Indian traditions.",
+      "weeks": [
+        "Dharma and the Indian Epics",
+        "Divine order",
+        "Heroes and journeys",
+        "Death and boundaries",
+        "Sacred places",
+        "Fate and duty",
+        "Folklore variants",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.indian-dharma": {
+      "title": "Dharma under pressure",
+      "body": "Indian epic traditions make duty complicated by loyalty, justice, family, kingship, and circumstance.",
+      "recordIds": [
+        "pg-19630",
+        "pg-57265"
+      ],
+      "nextTopicIds": [
+        "topic.indian-exile-return",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "Indian epic traditions make duty complicated by loyalty, justice, family, kingship, and circumstance.",
+          "recordIds": [
+            "pg-19630",
+            "pg-57265"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-19630",
+            "pg-57265"
+          ]
+        }
+      ]
+    },
+    "topic.indian-exile-return": {
+      "title": "Exile and return",
+      "body": "The Ramayana frames exile, separation, and return as moral tests rather than simple adventure.",
+      "recordIds": [
+        "pg-19630",
+        "pg-57265"
+      ],
+      "nextTopicIds": [
+        "topic.indian-dharma",
+        "topic.shared.war-honor"
+      ],
+      "cards": [
+        {
+          "title": "Why it matters",
+          "body": "The Ramayana frames exile, separation, and return as moral tests rather than simple adventure.",
+          "recordIds": [
+            "pg-19630",
+            "pg-57265"
+          ]
+        },
+        {
+          "title": "Compare carefully",
+          "body": "Use this thread to compare pantheons without erasing source type, region, or transmission history.",
+          "recordIds": [
+            "pg-19630",
+            "pg-57265"
+          ]
+        }
+      ]
+    }
+  }
+}

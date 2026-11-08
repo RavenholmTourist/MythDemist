@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w07d02.orestes-and-justice",
+  "version": 2,
+  "weekId": "grc.heroes.week07",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Orestes and Justice",
+  "subtitle": "Revenge becomes civic judgment",
+  "estimatedMinutes": 3,
+  "difficulty": 3,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "oresteia"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w07d02.orestes-and-justice.claim",
+      "text": "Explain this episode: Whose killing has brought Orestes before judgement?"
+    },
+    {
+      "id": "obj.grc.heroes.w07d02.orestes-and-justice.source",
+      "text": "Use the cited passage to explain: What changes in the handling of the conflict?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-08604",
+      "sourceId": "grc.aeschylus.oresteia",
+      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+      "author": "Aeschylus",
+      "translator": "E. D. A. Morshead",
+      "locator": "Eumenides, Orestes submits his act to judgement; local text, normalized characters 162029-162329",
+      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+      "excerpt": "And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Orestes has killed his mother to avenge his father. In Eumenides, Athena establishes a court to hear the conflict, and the pursuing Erinyes must also be addressed. The ending stages a negotiated civic settlement, not the disappearance of every competing claim.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The trial imagines a civic process that can interrupt hereditary revenge rather than merely acquitting a hero.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "The trial does not simply remove the gods from justice. Athena and the Erinyes remain part of the settlement, so describe a change in the handling of claims rather than a clean replacement of religion by law.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "The heroic burden is being caught between irreconcilable duties.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Whose killing has brought Orestes before judgement?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Hector’s"
+        },
+        {
+          "id": "b",
+          "text": "The Minotaur’s"
+        },
+        {
+          "id": "c",
+          "text": "His mother’s"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "His mother’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What changes in the handling of the conflict?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "A court hears claims that a blood feud cannot resolve by another killing."
+        },
+        {
+          "id": "b",
+          "text": "Orestes is declared never to have used violence."
+        },
+        {
+          "id": "c",
+          "text": "The Erinyes are revealed to be ordinary Athenian soldiers."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "A court hears claims that a blood feud cannot resolve by another killing.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

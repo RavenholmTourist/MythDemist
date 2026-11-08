@@ -1,0 +1,254 @@
+{
+  "id": "grc.heroes.week01",
+  "title": "Greek Heroes",
+  "subtitle": "Excellence, cleverness, cost, and competing versions",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "greek-bolt",
+    "accent": "gold"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Heroes Aren’t Superheroes",
+      "lessonId": "grc.heroes.day01.heroic-excellence",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-01-heroic-excellence.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Achilles: Anger and Honor",
+      "status": "available",
+      "lessonId": "grc.heroes.day02.achilles-anger",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json"
+    },
+    {
+      "day": 3,
+      "title": "Odysseus: Cunning and Return",
+      "status": "available",
+      "lessonId": "grc.heroes.day03.odysseus-cunning",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-03-odysseus-cunning.json"
+    },
+    {
+      "day": 4,
+      "title": "Jason and Medea",
+      "status": "available",
+      "lessonId": "grc.heroes.day04.jason-medea",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-04-jason-medea.json"
+    },
+    {
+      "day": 5,
+      "title": "Theseus and Heracles",
+      "status": "available",
+      "lessonId": "grc.heroes.day05.theseus-heracles",
+      "lessonPath": "content/lessons/greek/greek-heroes/day-05-theseus-heracles.json"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.iliad-anger-honor",
+      "title": "Anger, honor, and consequence",
+      "description": "Follow how the Iliad turns Achilles’ injured honor into a story about cost, grief, and responsibility.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-02199"
+      ],
+      "prompt": "Track how Achilles’ anger changes from Book 1 through Patroclus’ death and Priam’s visit."
+    },
+    {
+      "id": "topic.odyssey-cunning-identity",
+      "title": "Cunning, names, and disguise",
+      "description": "Explore how Odysseus survives through intelligence, false names, patience, and recognition scenes.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-01727"
+      ],
+      "prompt": "Compare the Cyclops episode with the recognition scenes back on Ithaca."
+    },
+    {
+      "id": "topic.heroic-variants",
+      "title": "When heroic stories change",
+      "description": "Use later mythography and biography to see how heroic genealogies and adventures are reorganized.",
+      "relatedDay": 1,
+      "recordIds": [
+        "perseus-apollodorus-library-frazer",
+        "perseus-apollodorus-epitome-frazer",
+        "pg-00674"
+      ],
+      "prompt": "Ask which source tells the version, when it was written, and what kind of work it is."
+    },
+    {
+      "id": "topic.heroic-tragedy",
+      "title": "Heroes on the tragic stage",
+      "description": "Prepare for later lessons on how Athenian drama reshapes heroic traditions into conflict, suffering, and debate.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-08604",
+        "pg-00031",
+        "pg-15081"
+      ],
+      "prompt": "Look for where a tragedy chooses one version and sharpens its moral or political conflict."
+    }
+  ],
+  "assessment": {
+    "title": "Greek Heroes assessment",
+    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+    "questionCount": 5,
+    "questions": [
+      {
+        "lessonId": "grc.heroes.day01.heroic-excellence",
+        "question": {
+          "id": "q1",
+          "type": "single-choice",
+          "prompt": "Why compare the openings of the Iliad and Odyssey?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "They prove every hero has the same ending."
+            },
+            {
+              "id": "b",
+              "text": "They introduce different heroic problems rather than one moral template."
+            },
+            {
+              "id": "c",
+              "text": "They are accounts of the same scene."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "They introduce different heroic problems rather than one moral template.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "ref-iliad-1-opening",
+            "ref-odyssey-1-opening"
+          ],
+          "objectiveIds": [
+            "obj.heroic-excellence.achilles-vs-odysseus"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.day02.achilles-anger",
+        "question": {
+          "id": "q2",
+          "type": "single-choice",
+          "prompt": "Which consequence links Achilles’ quarrel to the wider war?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "It moves the war from Troy to Athens."
+            },
+            {
+              "id": "b",
+              "text": "It sends Jason to Colchis."
+            },
+            {
+              "id": "c",
+              "text": "His withdrawal removes a crucial fighter from the army."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "His withdrawal removes a crucial fighter from the army.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "iliad"
+          ],
+          "objectiveIds": [
+            "obj.achilles-anger.concept"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.day03.odysseus-cunning",
+        "question": {
+          "id": "q3",
+          "type": "single-choice",
+          "prompt": "What must a return narrative address beyond travel?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Recognition and the household awaiting the traveller"
+            },
+            {
+              "id": "b",
+              "text": "Only the number of ships in the fleet"
+            },
+            {
+              "id": "c",
+              "text": "Only the weapons used to kill monsters"
+            }
+          ],
+          "answerId": "a",
+          "explanation": "Recognition and the household awaiting the traveller. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "odyssey"
+          ],
+          "objectiveIds": [
+            "obj.odysseus-cunning.source"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.day04.jason-medea",
+        "question": {
+          "id": "q4",
+          "type": "single-choice",
+          "prompt": "Why keep Apollonius and Euripides distinct?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "One is an eyewitness translation of the other."
+            },
+            {
+              "id": "b",
+              "text": "Their genres and narrative settings shape different presentations of Medea."
+            },
+            {
+              "id": "c",
+              "text": "They are aliases for Homer."
+            }
+          ],
+          "answerId": "b",
+          "explanation": "Their genres and narrative settings shape different presentations of Medea.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "argo",
+            "medea"
+          ],
+          "objectiveIds": [
+            "obj.jason-medea.concept"
+          ]
+        }
+      },
+      {
+        "lessonId": "grc.heroes.day05.theseus-heracles",
+        "question": {
+          "id": "q5",
+          "type": "single-choice",
+          "prompt": "What is a responsible claim about Plutarch’s Theseus?",
+          "choices": [
+            {
+              "id": "a",
+              "text": "Plutarch records his personal meeting with Theseus."
+            },
+            {
+              "id": "b",
+              "text": "Theseus wrote Plutarch’s account of Athens."
+            },
+            {
+              "id": "c",
+              "text": "Plutarch presents a legendary founder through later biography."
+            }
+          ],
+          "answerId": "c",
+          "explanation": "Plutarch presents a legendary founder through later biography.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "sourceRefIds": [
+            "apollo",
+            "plutarch"
+          ],
+          "objectiveIds": [
+            "obj.theseus-heracles.source"
+          ]
+        }
+      }
+    ]
+  }
+}

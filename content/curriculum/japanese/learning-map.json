@@ -1,0 +1,132 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.japanese-foundations",
+      "title": "Japanese Foundations",
+      "description": "Eight weeks introducing major Japanese traditions.",
+      "weeks": [
+        "Japanese Myth and Kami",
+        "Gods and powers",
+        "Heroes and journeys",
+        "Otherworlds",
+        "Ritual and place",
+        "Fate and transformation",
+        "Variant sources",
+        "Afterlives"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.japanese-creation-boundary": {
+      "title": "Creation and boundaries",
+      "body": "Japanese creation traditions join divine generation to grief, descent, pollution, and the boundary between worlds.",
+      "recordIds": [
+        "pg-46863",
+        "pg-4018"
+      ],
+      "nextTopicIds": [
+        "topic.egypt-death-renewal",
+        "topic.norse-edda-source",
+        "topic.celtic-otherworld",
+        "topic.japanese-divine-boundary"
+      ],
+      "cards": [
+        {
+          "title": "Why this matters",
+          "body": "Japanese creation traditions join divine generation to grief, descent, pollution, and the boundary between worlds.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        },
+        {
+          "title": "Compare across pantheons",
+          "body": "Use this as a bridge into shared themes, while keeping the tradition and source type distinct.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        }
+      ]
+    },
+    "topic.shared-underworld-journeys": {
+      "title": "Shared Theme: Underworld Journeys",
+      "body": "A cross-pantheon bridge topic. It compares a shared theme while keeping each pantheon\u2019s sources and versions distinct.",
+      "recordIds": [
+        "pg-46863",
+        "pg-4018"
+      ],
+      "nextTopicIds": [],
+      "cards": [
+        {
+          "title": "A shared question",
+          "body": "How does this pantheon frame the theme differently from the others you have met?",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        }
+      ]
+    },
+    "topic.japanese-divine-boundary": {
+      "title": "Divine boundaries",
+      "body": "Japanese traditions join creation, grief, pollution, sacred places, and the boundary between worlds.",
+      "recordIds": [
+        "pg-46863",
+        "pg-4018"
+      ],
+      "nextTopicIds": [
+        "topic.shared.fate-return",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Japanese traditions join creation, grief, pollution, sacred places, and the boundary between worlds.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        }
+      ]
+    },
+    "topic.japanese-kami-places": {
+      "title": "Kami, places, and powers",
+      "body": "Kami are not a simple Olympus-like hierarchy; they include divine figures, ancestral powers, forces, and sacred places.",
+      "recordIds": [
+        "pg-46863",
+        "pg-4018"
+      ],
+      "nextTopicIds": [
+        "topic.shared.otherworld-boundaries",
+        "topic.shared.transformation-reception"
+      ],
+      "cards": [
+        {
+          "title": "The local pressure",
+          "body": "Kami are not a simple Olympus-like hierarchy; they include divine figures, ancestral powers, forces, and sacred places.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        },
+        {
+          "title": "A comparative route",
+          "body": "Use this thread to compare traditions while keeping each source type and pantheon distinct.",
+          "recordIds": [
+            "pg-46863",
+            "pg-4018"
+          ]
+        }
+      ]
+    }
+  }
+}

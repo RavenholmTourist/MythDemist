@@ -1,0 +1,60 @@
+{
+  "id": "jpn.kami.week01",
+  "title": "Japanese Myth and Kami",
+  "subtitle": "Creation, heavenly powers, and sacred places",
+  "pantheon": "japanese",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "japanese-torii",
+    "accent": "crimson"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "Izanagi and Izanami",
+      "lessonId": "jpn.kami.day01.creation",
+      "lessonPath": "content/lessons/japanese/creation/day-01-creation.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Amaterasu: Light and Withdrawal",
+      "status": "available",
+      "lessonId": "japanese.week01.day02.amaterasu-light",
+      "lessonPath": "content/lessons/japanese/kami/day-02-amaterasu-light.json"
+    },
+    {
+      "day": 3,
+      "title": "Susanoo: Storm and Reconciliation",
+      "status": "available",
+      "lessonId": "japanese.week01.day03.susanoo-storm",
+      "lessonPath": "content/lessons/japanese/kami/day-03-susanoo-storm.json"
+    },
+    {
+      "day": 4,
+      "title": "Kami and Boundaries",
+      "status": "available",
+      "lessonId": "japanese.week01.day04.kami-boundaries",
+      "lessonPath": "content/lessons/japanese/kami/day-04-kami-boundaries.json"
+    },
+    {
+      "day": 5,
+      "title": "Izanami: Creation and Boundary",
+      "status": "available",
+      "lessonId": "japanese.week01.day05.izanami-boundary",
+      "lessonPath": "content/lessons/japanese/kami/day-05-izanami-boundary.json"
+    }
+  ],
+  "suggestedTopics": [
+    {
+      "id": "topic.japanese-creation-boundary",
+      "title": "Creation and boundaries",
+      "description": "Japanese creation traditions join divine generation to grief, descent, pollution, and the boundary between worlds.",
+      "relatedDay": 1,
+      "recordIds": [
+        "pg-46863"
+      ],
+      "prompt": "Follow this thread and compare it across pantheons."
+    }
+  ]
+}

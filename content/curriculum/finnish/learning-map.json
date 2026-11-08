@@ -1,0 +1,43 @@
+{
+  "arcChoices": [
+    {
+      "id": "arc.finnish-traditions",
+      "title": "Finnish Traditions",
+      "description": "Eight weeks on Finnish sources, stories, and regional variation.",
+      "weeks": [
+        "Finnish Traditions",
+        "Gods and powers",
+        "Heroes and helpers",
+        "Otherworlds",
+        "Fate and duty",
+        "Animals and transformations",
+        "Sources and variants",
+        "Living traditions"
+      ]
+    }
+  ],
+  "topics": {
+    "topic.finnish-song-power": {
+      "title": "V\u00e4in\u00e4m\u00f6inen and song",
+      "body": "V\u00e4in\u00e4m\u00f6inen and song can be compared only after preserving its own source and regional context.",
+      "recordIds": [
+        "pg-5186",
+        "pg-5184"
+      ],
+      "nextTopicIds": [
+        "topic.shared.cunning-power",
+        "topic.shared.otherworld-boundaries"
+      ],
+      "cards": [
+        {
+          "title": "Local first",
+          "body": "V\u00e4in\u00e4m\u00f6inen and song belongs first to its own tradition.",
+          "recordIds": [
+            "pg-5186",
+            "pg-5184"
+          ]
+        }
+      ]
+    }
+  }
+}

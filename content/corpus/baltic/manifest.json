@@ -1,0 +1,39 @@
+{
+  "manifestVersion": 1,
+  "pantheon": "baltic",
+  "coverageType": "folklore",
+  "records": [
+    {
+      "id": "pg-6746",
+      "title": "The Grey Fairy Book",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various European traditions"
+      ],
+      "translator": "Andrew Lang",
+      "sourceIds": [
+        "baltic.fairy-variants"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/6746",
+      "localPath": "primary/grey-fairy-book-6746.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    },
+    {
+      "id": "pg-66919",
+      "title": "Fairy Tales From Far and Near",
+      "sourceType": "public-domain-corpus-text",
+      "ancientAuthors": [
+        "various traditions"
+      ],
+      "translator": "Katherine Pyle",
+      "sourceIds": [
+        "baltic.fairy-tales-far-near"
+      ],
+      "sourceUrl": "https://www.gutenberg.org/ebooks/66919",
+      "localPath": "primary/fairy-tales-far-near-66919.txt",
+      "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
+      "notes": "Small-tradition corpus record."
+    }
+  ]
+}

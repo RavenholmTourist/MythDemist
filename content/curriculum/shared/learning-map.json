@@ -1,0 +1,184 @@
+{
+  "arcChoices": [],
+  "topics": {
+    "topic.shared.war-honor": {
+      "title": "War, honor, and collective cost",
+      "body": "Greek, Norse, Celtic, Egyptian, and Roman traditions all place power under pressure, but they frame honor, fate, kingship, and order differently.",
+      "recordIds": [
+        "pg-02199",
+        "pg-73533",
+        "pg-5160",
+        "pg-9411",
+        "roman-pg-21765"
+      ],
+      "nextTopicIds": [
+        "topic.iliad-anger-honor",
+        "topic.norse-wisdom-sacrifice",
+        "topic.celtic-otherworld",
+        "topic.indian-dharma",
+        "topic.meso-sacred-order"
+      ],
+      "cards": [
+        {
+          "title": "Same theme, different pressure",
+          "body": "Achilles\u2019 injured honor, Ragnar\u00f6k\u2019s doomed fate, and Roman war-state identity all concern power, but each belongs to a different source tradition.",
+          "recordIds": [
+            "pg-02199",
+            "pg-73533",
+            "roman-pg-21765"
+          ]
+        },
+        {
+          "title": "Keep traditions distinct",
+          "body": "A shared theme is a question, not a blended canon. Compare the answers without merging the sources.",
+          "recordIds": [
+            "pg-5160",
+            "pg-9411"
+          ]
+        }
+      ]
+    },
+    "topic.shared.fate-return": {
+      "title": "Fate, death, and return",
+      "body": "Myths repeatedly ask whether fate can be escaped, survived, or transformed\u2014and each tradition answers differently.",
+      "recordIds": [
+        "pg-18947",
+        "pg-9411",
+        "pg-46863",
+        "roman-pg-21765"
+      ],
+      "nextTopicIds": [
+        "topic.egypt-death-renewal",
+        "topic.japanese-creation-boundary",
+        "topic.roman-transformation",
+        "topic.meso-underworld-journey",
+        "topic.mesopotamia-mortality"
+      ],
+      "cards": [
+        {
+          "title": "Endings organize meaning",
+          "body": "Ragnar\u00f6k, Osiris renewal, and Japanese underworld boundaries each place death inside a different cosmology.",
+          "recordIds": [
+            "pg-18947",
+            "pg-9411",
+            "pg-46863"
+          ]
+        },
+        {
+          "title": "Return is not always rescue",
+          "body": "Some traditions emphasize restoration, others separation, and others transformation into a different form.",
+          "recordIds": [
+            "pg-9411",
+            "roman-pg-21765"
+          ]
+        }
+      ]
+    },
+    "topic.shared.cunning-power": {
+      "title": "Cunning and dangerous intelligence",
+      "body": "Odysseus, Loki, Baba Yaga, and Taliesin all show intelligence as survival power, but their moral positions differ sharply.",
+      "recordIds": [
+        "pg-01727",
+        "pg-18947",
+        "pg-22373",
+        "pg-5160"
+      ],
+      "nextTopicIds": [
+        "topic.odyssey-cunning-identity",
+        "topic.slavic-ambiguous-helper",
+        "topic.norse-genre-lens",
+        "topic.polynesian-maui-tricks",
+        "topic.chinese-cosmic-order"
+      ],
+      "cards": [
+        {
+          "title": "Cunning crosses moral lines",
+          "body": "Cunning can preserve, deceive, test, or disrupt. The point is to track whose survival and whose order it serves.",
+          "recordIds": [
+            "pg-01727",
+            "pg-18947",
+            "pg-22373"
+          ]
+        },
+        {
+          "title": "Speech becomes power",
+          "body": "False names, bargains, riddles, and poetic transformations all turn language into a survival tool.",
+          "recordIds": [
+            "pg-01727",
+            "pg-5160"
+          ]
+        }
+      ]
+    },
+    "topic.shared.otherworld-boundaries": {
+      "title": "Otherworlds and dangerous boundaries",
+      "body": "The Egyptian dead, Celtic Otherworld, Japanese divine boundary, and Slavic water realm are not interchangeable places, but they all test the living.",
+      "recordIds": [
+        "pg-9411",
+        "pg-5160",
+        "pg-46863",
+        "pg-22373"
+      ],
+      "nextTopicIds": [
+        "topic.celtic-otherworld",
+        "topic.japanese-creation-boundary",
+        "topic.slavic-ambiguous-helper",
+        "topic.chinese-moon-boundary",
+        "topic.polynesian-voyaging"
+      ],
+      "cards": [
+        {
+          "title": "Crossing changes the rules",
+          "body": "Otherworld encounters make ordinary law unreliable: promises, gifts, tests, and appearances acquire new force.",
+          "recordIds": [
+            "pg-5160",
+            "pg-22373"
+          ]
+        },
+        {
+          "title": "Boundaries create knowledge",
+          "body": "Death, water, enchantment, and sacred places reveal what the human world normally hides.",
+          "recordIds": [
+            "pg-9411",
+            "pg-46863"
+          ]
+        }
+      ]
+    },
+    "topic.shared.transformation-reception": {
+      "title": "Transformation and reception",
+      "body": "Stories change as they move between traditions and literary forms. Ovid\u2019s Roman rewriting and the Mabinogion\u2019s Welsh framing are different kinds of transformation.",
+      "recordIds": [
+        "roman-pg-21765",
+        "roman-pg-26073",
+        "pg-5160",
+        "pg-16464"
+      ],
+      "nextTopicIds": [
+        "topic.roman-transformation",
+        "topic.celtic-otherworld",
+        "topic.heroic-variants",
+        "topic.indian-exile-return",
+        "topic.polynesian-maui-tricks"
+      ],
+      "cards": [
+        {
+          "title": "Reception is interpretation",
+          "body": "When one tradition reshapes another, the result is evidence about both the story and the culture doing the reshaping.",
+          "recordIds": [
+            "roman-pg-21765",
+            "roman-pg-26073"
+          ]
+        },
+        {
+          "title": "Labels prevent flattening",
+          "body": "Calling Ovid Roman reception does not make him less valuable; it tells us what kind of evidence he provides.",
+          "recordIds": [
+            "roman-pg-21765",
+            "pg-16464"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "id": "celtic.week01.day03.manawydan-patience",
+  "version": 1,
+  "weekId": "cel.tales.week01",
+  "pantheon": "celtic",
+  "themeMode": "pantheon",
+  "title": "Manawydan: Patience and Enchantment",
+  "subtitle": "Heroism without speed",
+  "estimatedMinutes": 2,
+  "difficulty": 1,
+  "tags": [
+    "manawydan",
+    "patience",
+    "magic"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.manawydan-patience.concept",
+      "text": "Identify the main idea in Manawydan: Patience and Enchantment."
+    },
+    {
+      "id": "obj.manawydan-patience.source",
+      "text": "Keep the claim attached to its cited source and source type."
+    }
+  ],
+  "sourceReferences": {
+    "ref-source": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Mabinogion",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "Manawydan son of Llyr",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "uage: English Other information and formats: www.gutenberg.org/ebooks/5160 Credits: David Price *** START OF THE PROJECT GUTENBERG EBOOK THE MABINOGION *** THE MABINOGION TRANSLATED BY LADY CHARLOTTE GUEST CONTENTS Introduction The Lady of the Fountain Peredur the Son of Evrawc Geraint the son",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    },
+    "ref-secondary": {
+      "recordId": "pg-16464",
+      "sourceId": "cel.tain-bo-cualnge",
+      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
+      "author": "Anonymous Irish traditions",
+      "translator": "Joseph Dunn",
+      "locator": "T\u00e1in\u2014endurance and heroic defense",
+      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
+      "excerpt": "77. XVII The Great Rout on the Plain of Murthemne, 180. XVIIa The Slaughter of the Youths of Ulster, 184. XVIIb The Scythed Chariot, 187. XVIIc The Appearance of Cuchulain, 195. XVIId Dubthach's Jealousy, 198. XVIII The Slaying of Oengus son of Oenlam, 201. XVIIIa The Misthrow at Belach Eoin, 202. XVIIIb The Disguising of Tamon, 204.",
+      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "Manawydan: Patience and Enchantment",
+      "body": "Manawydan\u2019s story favors endurance, careful observation, and craft over impulsive violence.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.concept"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "Source boundary",
+      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.source"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "source",
+      "title": "What the second source adds",
+      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.source"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "How to read this evidence",
+      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "synthesis",
+      "title": "The cross-pantheon hook",
+      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.concept"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "What kind of heroism does Manawydan show?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Patient endurance and craft"
+        },
+        {
+          "id": "b",
+          "text": "Instant conquest"
+        },
+        {
+          "id": "c",
+          "text": "Pure prophecy"
+        },
+        {
+          "id": "d",
+          "text": "Royal birth only"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Manawydan\u2019s story favors endurance, careful observation, and craft over impulsive violence.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.concept"
+      ],
+      "deepDive": {
+        "prompt": "Explore the cited source.",
+        "suggestedQuestions": [
+          "What does this source type add?",
+          "Which versions might differ?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What should you keep attached to this claim?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Its source and genre"
+        },
+        {
+          "id": "b",
+          "text": "Only the character name"
+        },
+        {
+          "id": "c",
+          "text": "A modern adaptation"
+        },
+        {
+          "id": "d",
+          "text": "No context"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "sourceRefIds": [
+        "ref-source",
+        "ref-secondary"
+      ],
+      "objectiveIds": [
+        "obj.manawydan-patience.source"
+      ],
+      "deepDive": {
+        "prompt": "Check the source boundary.",
+        "suggestedQuestions": [
+          "Is this primary, retelling, folklore, or reception?"
+        ],
+        "sourceRefIds": [
+          "ref-source",
+          "ref-secondary"
+        ]
+      }
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources",
+    "want-more-flavor"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-07",
+    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+  }
+}

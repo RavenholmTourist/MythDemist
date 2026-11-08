@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w03d04.talking-with-the-dead",
+  "version": 2,
+  "weekId": "grc.heroes.week03",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "Talking with the Dead",
+  "subtitle": "Glory is measured by loss",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w03d04.talking-with-the-dead.claim",
+      "text": "Explain this episode: How does the dead Achilles respond to praise of his status?"
+    },
+    {
+      "id": "obj.grc.heroes.w03d04.talking-with-the-dead.source",
+      "text": "Use the cited passage to explain: What does Achilles’ reply challenge?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 11, Achilles among the dead; Book 11, normalized characters 23465-23767",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Odysseus encounters Achilles among the dead and praises his status. Achilles answers by preferring even a poor living servant’s life to rule among the dead. The exchange tests the value of glory against the loss of life.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: The dead return memory, grief, and unfinished obligation. Glory looks different when the people who paid for it can speak.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Hear Achilles’ reply before summarising the episode as praise of fame. His preference for humble life puts pressure on Odysseus’ attempt to console him with status among the dead.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "This prepares you to compare other underworld journeys as encounters with a tradition's memory system.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "How does the dead Achilles respond to praise of his status?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "He asks Odysseus to win another war for him."
+        },
+        {
+          "id": "b",
+          "text": "He says death has fulfilled every heroic wish."
+        },
+        {
+          "id": "c",
+          "text": "He says he would rather be alive in humble service."
+        }
+      ],
+      "answerId": "c",
+      "explanation": "He says he would rather be alive in humble service.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What does Achilles’ reply challenge?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "The assumption that posthumous glory compensates for lost life"
+        },
+        {
+          "id": "b",
+          "text": "The fact that Odysseus fought at Troy"
+        },
+        {
+          "id": "c",
+          "text": "The possibility of remembering the dead"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "The assumption that posthumous glory compensates for lost life. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

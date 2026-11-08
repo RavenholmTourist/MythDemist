@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "catalogVersion",
+    "records"
+  ],
+  "properties": {
+    "catalogVersion": {
+      "type": "integer"
+    },
+    "records": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "localPath",
+          "license",
+          "attribution",
+          "alt",
+          "subjects"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "localPath": {
+            "type": "string"
+          },
+          "license": {
+            "type": "string"
+          },
+          "attribution": {
+            "type": "string"
+          },
+          "alt": {
+            "type": "string"
+          },
+          "subjects": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
+    }
+  }
+}

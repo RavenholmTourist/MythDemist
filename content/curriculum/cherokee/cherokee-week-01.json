@@ -1,0 +1,50 @@
+{
+  "id": "cherokee.tradition.week01",
+  "title": "Cherokee Traditions",
+  "subtitle": "Five source-linked starter lessons",
+  "pantheon": "cherokee",
+  "coverageType": "regional-tradition",
+  "themeMode": "pantheon",
+  "visual": {
+    "logo": "cherokee-mark",
+    "accent": "earth"
+  },
+  "days": [
+    {
+      "day": 1,
+      "title": "How the world was made",
+      "lessonId": "cherokee.week01.day01.how-the-world-was-made",
+      "lessonPath": "content/lessons/cherokee/tradition/day-01-how-the-world-was-made.json",
+      "status": "available"
+    },
+    {
+      "day": 2,
+      "title": "Kanati and Selu",
+      "lessonId": "cherokee.week01.day02.kanati-and-selu",
+      "lessonPath": "content/lessons/cherokee/tradition/day-02-kanati-and-selu.json",
+      "status": "available"
+    },
+    {
+      "day": 3,
+      "title": "Uktena and danger",
+      "lessonId": "cherokee.week01.day03.uktena-and-danger",
+      "lessonPath": "content/lessons/cherokee/tradition/day-03-uktena-and-danger.json",
+      "status": "available"
+    },
+    {
+      "day": 4,
+      "title": "Animal stories",
+      "lessonId": "cherokee.week01.day04.animal-stories",
+      "lessonPath": "content/lessons/cherokee/tradition/day-04-animal-stories.json",
+      "status": "available"
+    },
+    {
+      "day": 5,
+      "title": "Medicine and sacred speech",
+      "lessonId": "cherokee.week01.day05.medicine-and-sacred-speech",
+      "lessonPath": "content/lessons/cherokee/tradition/day-05-medicine-and-sacred-speech.json",
+      "status": "available"
+    }
+  ],
+  "suggestedTopics": []
+}

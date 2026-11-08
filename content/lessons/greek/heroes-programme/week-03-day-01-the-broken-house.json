@@ -1,0 +1,172 @@
+{
+  "id": "grc.heroes.w03d01.the-broken-house",
+  "version": 2,
+  "weekId": "grc.heroes.week03",
+  "pantheon": "greek",
+  "themeMode": "pantheon",
+  "title": "The Broken House",
+  "subtitle": "Ithaca before the return",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
+  "tags": [
+    "greek-heroes",
+    "heroes",
+    "source-method",
+    "odyssey"
+  ],
+  "learningObjectives": [
+    {
+      "id": "obj.grc.heroes.w03d01.the-broken-house.claim",
+      "text": "Explain this episode: Who is struggling with the suitors in Ithaca?"
+    },
+    {
+      "id": "obj.grc.heroes.w03d01.the-broken-house.source",
+      "text": "Use the cited passage to explain: What makes the suitors a threat to the household?"
+    }
+  ],
+  "sourceReferences": {
+    "main": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 1, the suitors’ feast; local text file lines 499-503 (physical file lines, not ancient verse numbers)",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "excerpt": "Then the suitors came in and took their places on the benches and seats.3 Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    }
+  },
+  "narrativeBlocks": [
+    {
+      "id": "card-01",
+      "kind": "context",
+      "title": "The scene",
+      "body": "Odysseus is absent while suitors consume his household’s resources and press Penelope to marry. Athena encourages Telemachus to act. Homecoming begins as a crisis for those waiting at home, not just an adventure abroad.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.claim"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "What the source does",
+      "body": "Source quotation (translation; whitespace normalized): “Then the suitors came in and took their places on the benches and seats.3 Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them.”",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.claim"
+      ]
+    },
+    {
+      "id": "card-03",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Interpretation: Homecoming matters because absence has already changed the home. The poem measures return not only in miles survived but in what remains to recover.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.claim"
+      ]
+    },
+    {
+      "id": "card-04",
+      "kind": "method",
+      "title": "Read it carefully",
+      "body": "Read the household as part of the homecoming problem. The suitors’ behaviour shows what absence costs Penelope and Telemachus; the hero’s story is not confined to his own travels.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.source"
+      ]
+    },
+    {
+      "id": "card-05",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Carry this forward whenever Odysseus hides his name: identity and home are both being rebuilt.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.source"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "id": "q1",
+      "type": "single-choice",
+      "prompt": "Who is struggling with the suitors in Ithaca?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Nestor"
+        },
+        {
+          "id": "b",
+          "text": "Polyphemus"
+        },
+        {
+          "id": "c",
+          "text": "Telemachus"
+        }
+      ],
+      "answerId": "c",
+      "explanation": "Telemachus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.source"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What makes the suitors a threat to the household?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "They consume its resources while pursuing Penelope."
+        },
+        {
+          "id": "b",
+          "text": "They are guarding it against the returning king."
+        },
+        {
+          "id": "c",
+          "text": "They have already escorted Odysseus home."
+        }
+      ],
+      "answerId": "a",
+      "explanation": "They consume its resources while pursuing Penelope.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "sourceRefIds": [
+        "main"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w03d01.the-broken-house.claim"
+      ]
+    }
+  ],
+  "feedbackOptions": [
+    "too-long",
+    "too-easy",
+    "too-hard",
+    "unclear",
+    "want-more-sources"
+  ],
+  "review": {
+    "status": "draft",
+    "reviewedBy": "Devin",
+    "reviewedAt": "2026-11-08",
+    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+  }
+}

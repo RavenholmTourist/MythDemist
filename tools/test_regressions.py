@@ -66,6 +66,21 @@ class RegressionTests(unittest.TestCase):
             content_pipeline.main(check_only=True)
             build.assert_not_called()
 
+    def test_reviewed_content_requires_independent_attribution_and_typed_evidence(self):
+        import content_pipeline
+        lesson = {
+            'id': 'test.lesson',
+            'sourceReferences': {'legacy': {'recordId': 'test-source'}},
+            'learningObjectives': [],
+            'narrativeBlocks': [],
+            'quiz': [],
+            'review': {'status': 'reviewed', 'reviewedBy': 'Devin', 'reviewedAt': '2026-01-01', 'notes': 'Generated prose.'}
+        }
+        errors = []
+        content_pipeline.check_links(lesson, errors)
+        self.assertTrue(any('independent named reviewer' in error for error in errors))
+        self.assertTrue(any('untyped source references' in error for error in errors))
+
     def test_retired_generator_cannot_overwrite_canonical_lessons(self):
         lesson = ROOT / 'content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json'
         before = lesson.read_bytes()
@@ -188,6 +203,72 @@ class RegressionTests(unittest.TestCase):
             self.assertNotIn('starter lesson uses the local scaffold source', cards, lesson['id'])
             self.assertNotIn('additional corpus record gives a second lens', cards, lesson['id'])
             self.assertNotIn('What should you keep attached to this claim?', [item['prompt'] for item in lesson['quiz']])
+
+    def test_celtic_starter_pack_is_welsh_source_specific(self):
+        files = sorted((ROOT / 'content/lessons/celtic').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        collected = []
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertTrue(all(ref['sourceId'] == 'cel.mabinogion' for ref in lesson['sourceReferences'].values()))
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation')
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            combined = ' '.join(
+                [block['body'] for block in lesson['narrativeBlocks']]
+                + [question['prompt'] for question in lesson['quiz']]
+            )
+            self.assertNotIn('starter lesson uses the local scaffold source', combined)
+            self.assertNotIn('additional corpus record gives a second lens', combined)
+            collected.append((lesson, combined))
+        by_title = {lesson['title']: text for lesson, text in collected}
+        self.assertIn('one stroke', by_title['Pwyll and the Otherworld'])
+        self.assertIn('starling', by_title['Branwen: Hospitality and Consequence'])
+        self.assertIn('Llwyd', by_title['Manawydan: Patience and Enchantment'])
+        self.assertIn('Goewin', by_title['Math: Law, Magic, and Sovereignty'])
+        self.assertIn('Gwion', by_title['Taliesin: Poetry and Transformation'])
+
+    def test_egyptian_starter_pack_distinguishes_text_and_editorial_layers(self):
+        files = sorted((ROOT / 'content/lessons/egyptian').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            expected_version = 3 if lesson['id'] in {
+                'egy.gods.day01.osiris-renewal',
+                'egyptian.week01.day02.ra-order',
+                'egyptian.week01.day03.isis-restoration',
+                'egyptian.week01.day05.thoth-knowledge',
+            } else 2
+            self.assertEqual(lesson['version'], expected_version, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation')
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            text = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+            self.assertNotIn('starter lesson uses the local scaffold source', text)
+            titles[lesson['title']] = text
+        self.assertIn('Papyrus of Ani', titles['Osiris: Kingship in a Funerary Hymn'])
+        ra = json.loads(next(path for path in files if 'ra-order' in path.name).read_text(encoding='utf-8'))
+        self.assertIn('Legend of the Destruction of Mankind', ra['sourceReferences']['complaint']['locator'])
+        self.assertIn('secret name', titles['Isis and Ra’s Secret Name'])
+        self.assertIn('Chapter 125', titles['Judgment of the Dead'])
+        self.assertIn('Papyrus of Hunefer', titles['Thoth: Writing and Sacred Speech'])
+        osiris = json.loads(next(path for path in files if 'osiris-renewal' in path.name).read_text(encoding='utf-8'))
+        self.assertIn('Horus is established on thy throne', osiris['sourceReferences']['ani']['excerpt'])
+        self.assertIn('let thine Eye go against', ra['sourceReferences']['eye']['excerpt'])
+        self.assertIn('and she gave no further attention to men and women.', ra['sourceReferences']['beer']['excerpt'])
+        judgment = json.loads(next(path for path in files if 'judgment-dead' in path.name).read_text(encoding='utf-8'))
+        self.assertIn('I have not lied.', judgment['sourceReferences']['confession']['excerpt'])
+        thoth = json.loads(next(path for path in files if 'thoth-knowledge' in path.name).read_text(encoding='utf-8'))
+        self.assertIn('Budge', thoth['sourceReferences']['budge']['note'])
+        self.assertIn('what I abominate is sin.', thoth['sourceReferences']['hunefer']['excerpt'])
 
 
 if __name__ == '__main__':

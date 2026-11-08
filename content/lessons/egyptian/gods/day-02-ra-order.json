@@ -1,13 +1,13 @@
 {
   "id": "egyptian.week01.day02.ra-order",
-  "version": 1,
+  "version": 3,
   "weekId": "egy.gods.week01",
   "pantheon": "egyptian",
   "themeMode": "pantheon",
-  "title": "Ra: Sun and Cosmic Order",
-  "subtitle": "Power as daily renewal",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Ra and the Destruction of Mankind",
+  "subtitle": "A rebellion, the divine Eye, and the beer ruse",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "ra",
     "sun",
@@ -16,46 +16,61 @@
   "learningObjectives": [
     {
       "id": "obj.ra-order.concept",
-      "text": "Identify the main idea in Ra: Sun and Cosmic Order."
+      "text": "What complaint prompts Ra to consult the gods in this version?"
     },
     {
       "id": "obj.ra-order.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What happens after the beer is prepared and poured out?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "complaint": {
       "recordId": "pg-9411",
       "sourceId": "egy.legends-of-the-gods",
-      "work": "Legends of the Gods",
+      "work": "Legend of the Destruction of Mankind, Chapter I, human complaint",
       "author": "E. A. Wallis Budge",
       "translator": "E. A. Wallis Budge",
-      "locator": "Legends of the Gods\u2014Ra traditions",
+      "locator": "Legend of the Destruction of Mankind, Chapter I, human complaint; local text normalized characters 118442-118701",
       "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "uced by John B. Hare and Carrie R. Lorenz LEGENDS OF THE GODS The Egyptian Texts, edited with Translations by E. A. Wallis Budge London, 1912 [Editorial note: Throughout the text \"####\" represents images which cannot be transcribed.] PREFACE The welcome which has been accorded to the volumes of this Series, and the fact tha",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Now men and women were speaking words of complaint, saying:--\"Behold, his Majesty (Life, Strength, and Health to him!) hath grown old, and his bones have become like silver, and his members have turned into gold and his hair is like unto real lapis- lazuli.\"",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     },
-    "ref-secondary": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "The Literature of the Ancient Egyptians",
-      "author": "various Egyptian authors",
+    "eye": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legend of the Destruction of Mankind, Ra consults the gods",
+      "author": "E. A. Wallis Budge",
       "translator": "E. A. Wallis Budge",
-      "locator": "Hymns to the Sky-goddess and Sun-god",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "e Liturgy of Funerary Offerings 16 Hymns to the Sky-goddess and Sun-god 18 The King in Heaven 20 The Hunting and Slaughter of the Gods by the King 21 III. STORIES OF MAGICIANS WHO LIVED UNDER THE ANCIENT EMPIRE: 25",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "locator": "Legend of the Destruction of Mankind, Ra consults the gods; local text normalized characters 120391-120682",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "Then the Majesty of Nu, to son Ra, spake, saying:--\"Thou art the god who art greater than he who made thee, thou art the sovereign of those who were created with thee, thy throne is set, and the fear of thee is great; let thine Eye go against those who have uttered blasphemies against thee.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+    },
+    "beer": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legend of the Destruction of Mankind, the beer plan",
+      "author": "E. A. Wallis Budge",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Legend of the Destruction of Mankind, the beer plan; local text normalized characters 122463-123525",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "Now when the Majesty of Re, the King of the South and North, had come with the gods to look at the vessels of beer, and behold, the daylight had appeared after the slaughter of men and women by the goddess in their season as she sailed up the river, the Majesty of Ra said, \"It is good, it is good, nevertheless I must protect men and women against her.\" And Ra, said, \"Let them take up the vases and carry them to the place where the men and women were slaughtered by her.\" Then the Majesty of the King of the South and North in the three-fold beauty of the night caused to be poured out these vases of beer which make [men] to lie down (or, sleep), and the meadows of the Four Heavens[FN#61] were filled with beer (or, water) by reason of the Souls of the Majesty of this god. And it came to pass that when this goddess arrived at the dawn of day, she found these [Heavens] flooded [with beer], and she was pleased thereat; and she drank [of the beer and blood], and her heart rejoiced, and she became drunk, and she gave no further attention to men and women.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Ra: Sun and Cosmic Order",
-      "body": "Ra\u2019s solar movement models order as something repeatedly won and restored, not simply possessed once.",
+      "title": "The scene",
+      "body": "In this translated legend, people complain that Ra has grown old. He consults the gods, and the divine Eye is sent against the rebels. Later, beer mixed with mandrake and blood makes the goddess drink and stop the slaughter.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint",
+        "eye",
+        "beer"
       ],
       "objectiveIds": [
         "obj.ra-order.concept"
@@ -64,37 +79,38 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Humans complain and Ra consults",
+      "body": "Source quotation (Budge translation; whitespace normalized): “Now men and women were speaking words of complaint, saying:--\"Behold, his Majesty (Life, Strength, and Health to him!) hath grown old, and his bones have become like silver, and his members have turned into gold and his hair is like unto real lapis- lazuli.\"”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint"
       ],
       "objectiveIds": [
-        "obj.ra-order.source"
+        "obj.ra-order.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The tale connects royal authority, rebellion, violence, and a ruse that ends the slaughter. Preserve the episode's sequence rather than simplifying it to 'Ra brings order.'",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint",
+        "eye",
+        "beer"
       ],
       "objectiveIds": [
-        "obj.ra-order.source"
+        "obj.ra-order.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the evidence carefully",
+      "body": "Budge presents this as a translated Egyptian legend with editorial framing. The passage is one literary account, not proof that every Egyptian community held a single creation or order doctrine.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint",
+        "eye",
+        "beer"
       ],
       "objectiveIds": [
         "obj.ra-order.source"
@@ -102,15 +118,16 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Compare the decision to release the Eye with the later beer plan. The story gives two different moments of divine action.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint",
+        "eye",
+        "beer"
       ],
       "objectiveIds": [
-        "obj.ra-order.concept"
+        "obj.ra-order.source"
       ]
     }
   ],
@@ -118,85 +135,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Ra\u2019s daily journey symbolize?",
+      "prompt": "What complaint prompts Ra to consult the gods in this version?",
       "choices": [
         {
           "id": "a",
-          "text": "Order renewed through struggle"
+          "text": "People refuse to honor Osiris' throne"
         },
         {
           "id": "b",
-          "text": "Permanent confusion"
+          "text": "Hathor asks to become ruler of the earth"
         },
         {
           "id": "c",
-          "text": "A harvest festival"
-        },
-        {
-          "id": "d",
-          "text": "A trade agreement"
+          "text": "People say Ra has grown old"
         }
       ],
-      "answerId": "a",
-      "explanation": "Ra\u2019s solar movement models order as something repeatedly won and restored, not simply possessed once.",
+      "answerId": "c",
+      "explanation": "The story opens with people complaining about Ra's age and appearance.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "complaint"
       ],
       "objectiveIds": [
         "obj.ra-order.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "complaint"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What happens after the beer is prepared and poured out?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "The people are turned into stars"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "The goddess drinks, becomes intoxicated, and stops attacking people"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "The beer restores Ra's youth"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The translated legend says the beer distracts and intoxicates the destructive goddess.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "beer"
       ],
       "objectiveIds": [
         "obj.ra-order.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "beer"
         ]
       }
     }
@@ -211,8 +217,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claim-by-claim scholarly and pedagogical review remains pending."
   }
 }

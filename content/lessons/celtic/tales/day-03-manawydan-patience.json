@@ -1,13 +1,13 @@
 {
   "id": "celtic.week01.day03.manawydan-patience",
-  "version": 1,
+  "version": 2,
   "weekId": "cel.tales.week01",
   "pantheon": "celtic",
   "themeMode": "pantheon",
   "title": "Manawydan: Patience and Enchantment",
   "subtitle": "Heroism without speed",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "manawydan",
     "patience",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.manawydan-patience.concept",
-      "text": "Identify the main idea in Manawydan: Patience and Enchantment."
+      "text": "What does Manawydan do with the last mouse he catches?"
     },
     {
       "id": "obj.manawydan-patience.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Who does the mouse turn out to be?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "mouse": {
       "recordId": "pg-5160",
       "sourceId": "cel.mabinogion",
-      "work": "The Mabinogion",
+      "work": "The Third Branch (in The Mabinogion)",
       "author": "various Welsh traditions",
       "translator": "Lady Charlotte Guest",
-      "locator": "Manawydan son of Llyr",
+      "locator": "The Third Branch, Manawydan catches the last mouse; local text normalized characters 455041-455354",
       "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "uage: English Other information and formats: www.gutenberg.org/ebooks/5160 Credits: David Price *** START OF THE PROJECT GUTENBERG EBOOK THE MABINOGION *** THE MABINOGION TRANSLATED BY LADY CHARLOTTE GUEST CONTENTS Introduction The Lady of the Fountain Peredur the Son of Evrawc Geraint the son",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "he caught it and put it in his glove, and tied up the opening of the glove with a string, and kept it with him, and returned to the palace. Then he came to the hall where Kicva was, and he lighted a fire, and hung the glove by the string upon a peg. “What hast thou there, lord?” said Kicva. “A thief,” said he, “",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     },
-    "ref-secondary": {
-      "recordId": "pg-16464",
-      "sourceId": "cel.tain-bo-cualnge",
-      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
-      "author": "Anonymous Irish traditions",
-      "translator": "Joseph Dunn",
-      "locator": "T\u00e1in\u2014endurance and heroic defense",
-      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
-      "excerpt": "77. XVII The Great Rout on the Plain of Murthemne, 180. XVIIa The Slaughter of the Youths of Ulster, 184. XVIIb The Scythed Chariot, 187. XVIIc The Appearance of Cuchulain, 195. XVIId Dubthach's Jealousy, 198. XVIII The Slaying of Oengus son of Oenlam, 201. XVIIIa The Misthrow at Belach Eoin, 202. XVIIIb The Disguising of Tamon, 204.",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "reveal": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Third Branch (in The Mabinogion)",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "The Third Branch, Llwyd explains the enchantment; local text normalized characters 460820-461300",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "I will know who the mouse may be.” “She is my wife.” “Even though she be, I will not set her free. Wherefore came she to me?” “To despoil thee,” he answered. “I am Llwyd the son of Kilcoed, and I cast the charm over the seven Cantrevs of Dyved. And it was to avenge Gwawl the son of Clud, from the friendship I had towards him, that I cast the charm. And upon Pryderi did I revenge Gwawl the son of Clud, for the game of Badger in the Bag, that Pwyll Pen Annwvyn played upon him,",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Manawydan: Patience and Enchantment",
-      "body": "Manawydan\u2019s story favors endurance, careful observation, and craft over impulsive violence.",
+      "title": "The scene",
+      "body": "After the harvest has been stripped, Manawydan catches the slowest mouse and keeps it in his glove. His questioning reveals that it is part of a deliberate enchantment, not an ordinary pest.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse"
       ],
       "objectiveIds": [
         "obj.manawydan-patience.concept"
@@ -64,37 +65,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The mouse is not an ordinary thief",
+      "body": "Source quotation (Guest translation; whitespace normalized): “he caught it and put it in his glove, and tied up the opening of the glove with a string, and kept it with him, and returned to the palace. Then he came to the hall where Kicva was, and he lighted a fire, and hung the glove by the string upon a peg. “What hast thou there, lord?” said Kicva. “A thief,” said he, “”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse"
       ],
       "objectiveIds": [
-        "obj.manawydan-patience.source"
+        "obj.manawydan-patience.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The tale delays the explanation. Manawydan observes what happened, preserves the evidence, and questions the mouse rather than answering magical trouble with immediate violence.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse",
+        "reveal"
       ],
       "objectiveIds": [
-        "obj.manawydan-patience.source"
+        "obj.manawydan-patience.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read it carefully",
+      "body": "The story explains Llwyd's act as revenge for an earlier episode in Pwyll's tale. Keep that narrative connection explicit; do not make it a generic claim about all Welsh enchantment stories.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse",
+        "reveal"
       ],
       "objectiveIds": [
         "obj.manawydan-patience.source"
@@ -102,15 +102,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Follow the evidence from the ruined harvest to the captured mouse, then to Llwyd's account of the revenge behind the spell.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse",
+        "reveal"
       ],
       "objectiveIds": [
-        "obj.manawydan-patience.concept"
+        "obj.manawydan-patience.source"
       ]
     }
   ],
@@ -118,85 +118,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What kind of heroism does Manawydan show?",
+      "prompt": "What does Manawydan do with the last mouse he catches?",
       "choices": [
         {
           "id": "a",
-          "text": "Patient endurance and craft"
+          "text": "Takes it to Math for a wrestling contest"
         },
         {
           "id": "b",
-          "text": "Instant conquest"
+          "text": "Keeps it in his glove and questions it"
         },
         {
           "id": "c",
-          "text": "Pure prophecy"
-        },
-        {
-          "id": "d",
-          "text": "Royal birth only"
+          "text": "Turns it loose as a harvest offering"
         }
       ],
-      "answerId": "a",
-      "explanation": "Manawydan\u2019s story favors endurance, careful observation, and craft over impulsive violence.",
+      "answerId": "b",
+      "explanation": "The source says he catches the mouse, ties the glove, and asks what kind of thief it is.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "mouse"
       ],
       "objectiveIds": [
         "obj.manawydan-patience.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "mouse"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "Who does the mouse turn out to be?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Llwyd's wife, part of his revenge enchantment"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Rhiannon in disguise"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "A messenger sent by Arawn"
         }
       ],
       "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "explanation": "Llwyd tells Manawydan that the mouse is his wife and explains the spell as revenge.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "reveal"
       ],
       "objectiveIds": [
         "obj.manawydan-patience.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "reveal"
         ]
       }
     }
@@ -211,8 +200,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local quotations. Independent scholarly and pedagogical review remains pending."
   }
 }

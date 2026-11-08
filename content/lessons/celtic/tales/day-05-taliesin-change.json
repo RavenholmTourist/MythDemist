@@ -1,13 +1,13 @@
 {
   "id": "celtic.week01.day05.taliesin-change",
-  "version": 1,
+  "version": 2,
   "weekId": "cel.tales.week01",
   "pantheon": "celtic",
   "themeMode": "pantheon",
   "title": "Taliesin: Poetry and Transformation",
   "subtitle": "Identity spoken into power",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "taliesin",
     "poetry",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.taliesin-change.concept",
-      "text": "Identify the main idea in Taliesin: Poetry and Transformation."
+      "text": "What happens after the cauldron drops reach Gwion?"
     },
     {
       "id": "obj.taliesin-change.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Which sequence describes the chase?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "cauldron": {
       "recordId": "pg-5160",
       "sourceId": "cel.mabinogion",
-      "work": "The Mabinogion",
+      "work": "The Tale of Taliesin (in The Mabinogion)",
       "author": "various Welsh traditions",
       "translator": "Lady Charlotte Guest",
-      "locator": "Taliesin\u2014poetry and transformation",
+      "locator": "The Tale of Taliesin, Gwion drinks the cauldron drops; local text normalized characters 532165-532968",
       "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on the Notes appended to the various Tales, I have found myself led unavoidably into a much more extensive course of reading than I had originally contemplated, and",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "three blessed drops were obtained of the grace of Inspiration. And she put Gwion Bach the son of Gwreang of Llanfair in Caereinion, in Powys, to stir the cauldron, and a blind man named Morda to kindle the fire beneath it, and she charged them that they should not suffer it to cease boiling for the space of a year and a day. And she herself, according to the books of the astronomers, and in planetary hours, gathered every day of all charm-bearing herbs. And one day, towards the end of the year, as Caridwen was culling plants and making incantations, it chanced that three drops of the charmed liquor flew out of the cauldron and fell upon the finger of Gwion Bach. And by reason of their great heat he put his finger to his mouth, and the instant he put those marvel-working drops into his mouth,",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     },
-    "ref-secondary": {
-      "recordId": "pg-16464",
-      "sourceId": "cel.tain-bo-cualnge",
-      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
-      "author": "Anonymous Irish traditions",
-      "translator": "Joseph Dunn",
-      "locator": "T\u00e1in\u2014bardic and epic transmission",
-      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
-      "excerpt": "Ia The Misthrow at Belach Eoin, 202. XVIIIb The Disguising of Tamon, 204. XIX The Battle of Fergus and Cuchulain, 205. XIXa The Head-place of Ferchu, 209. XIXb Mann's Fight, 211. XIXc The Combat of Calatin's Children, 213. XX The Combat of Ferdiad and Cuchulain, 217. XXI Cuchulain and the Rivers, 268. XXII Cethern's Strait-",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "chase": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Tale of Taliesin (in The Mabinogion)",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "The Tale of Taliesin, Gwion and Ceridwen transform; local text normalized characters 533917-534199",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "he saw her, and changed himself into a hare and fled. But she changed herself into a greyhound and turned him. And he ran towards a river, and became a fish. And she in the form of an otter-bitch chased him under the water, until he was fain to turn himself into a bird of the air.",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Taliesin: Poetry and Transformation",
-      "body": "Taliesin traditions turn speech, shape, and poetic knowledge into forms of survival and power.",
+      "title": "The scene",
+      "body": "Ceridwen keeps a cauldron boiling to create three drops of inspiration for her son. Gwion receives the drops by accident, gains foresight, and flees; the tale then turns his flight into a sequence of transformations.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron"
       ],
       "objectiveIds": [
         "obj.taliesin-change.concept"
@@ -64,37 +65,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The drops change Gwion's knowledge",
+      "body": "Source quotation (Guest translation; whitespace normalized): “three blessed drops were obtained of the grace of Inspiration. And she put Gwion Bach the son of Gwreang of Llanfair in Caereinion, in Powys, to stir the cauldron, and a blind man named Morda to kindle the fire beneath it, and she charged them that they should not suffer it to cease boiling for the space of a year and a day. And she herself, according to the books of the astronomers, and in planetary hours, gathered every day of all charm-bearing herbs. And one day, towards the end of the year, as Caridwen was culling plants and making incantations, it chanced that three drops of the charmed liquor flew out of the cauldron and fell upon the finger of Gwion Bach. And by reason of their great heat he put his finger to his mouth, and the instant he put those marvel-working drops into his mouth,”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron"
       ],
       "objectiveIds": [
-        "obj.taliesin-change.source"
+        "obj.taliesin-change.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The source links poetic inspiration to a specific magical episode. Keep this account in the Mabinogion's Taliesin tale rather than treating it as the origin story of every Welsh bard.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron",
+        "chase"
       ],
       "objectiveIds": [
-        "obj.taliesin-change.source"
+        "obj.taliesin-change.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read it carefully",
+      "body": "The Mabinogion is a later translated collection of Welsh tales. This passage is evidence for the tale as transmitted in Guest's edition, not an eyewitness record of an ancient poet's life.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron",
+        "chase"
       ],
       "objectiveIds": [
         "obj.taliesin-change.source"
@@ -102,15 +102,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Track what the drops change first—Gwion's knowledge—and then notice how the chase changes bodies and forms.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron",
+        "chase"
       ],
       "objectiveIds": [
-        "obj.taliesin-change.concept"
+        "obj.taliesin-change.source"
       ]
     }
   ],
@@ -118,85 +118,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What gives Taliesin power?",
+      "prompt": "What happens after the cauldron drops reach Gwion?",
       "choices": [
         {
           "id": "a",
-          "text": "Speech, poetry, and transformation"
+          "text": "He becomes king of Dyved"
         },
         {
           "id": "b",
-          "text": "Only inherited armor"
+          "text": "He immediately forgets every poem he knows"
         },
         {
           "id": "c",
-          "text": "Only farming"
-        },
-        {
-          "id": "d",
-          "text": "Only tax law"
+          "text": "He gains foresight and realizes he must escape Ceridwen"
         }
       ],
-      "answerId": "a",
-      "explanation": "Taliesin traditions turn speech, shape, and poetic knowledge into forms of survival and power.",
+      "answerId": "c",
+      "explanation": "The tale says he foresaw what was to come and fled in fear of Ceridwen.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "cauldron"
       ],
       "objectiveIds": [
         "obj.taliesin-change.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "cauldron"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "Which sequence describes the chase?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Ceridwen turns into a horse and Gwion hides in a cave"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Gwion becomes a hare, then a fish, then a bird; Ceridwen follows in other forms"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Gwion sails to Ireland while Ceridwen remains at court"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The passage presents a series of transformations as Ceridwen pursues Gwion.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "chase"
       ],
       "objectiveIds": [
         "obj.taliesin-change.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "chase"
         ]
       }
     }
@@ -211,8 +200,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local quotations. Independent scholarly and pedagogical review remains pending."
   }
 }

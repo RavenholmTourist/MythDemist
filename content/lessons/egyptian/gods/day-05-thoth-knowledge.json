@@ -1,13 +1,13 @@
 {
   "id": "egyptian.week01.day05.thoth-knowledge",
-  "version": 1,
+  "version": 3,
   "weekId": "egy.gods.week01",
   "pantheon": "egyptian",
   "themeMode": "pantheon",
-  "title": "Thoth: Writing and Knowledge",
+  "title": "Thoth: Writing and Sacred Speech",
   "subtitle": "Divine order through record and speech",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "thoth",
     "writing",
@@ -16,46 +16,48 @@
   "learningObjectives": [
     {
       "id": "obj.thoth-knowledge.concept",
-      "text": "Identify the main idea in Thoth: Writing and Knowledge."
+      "text": "Who says 'I am Thoth, the perfect scribe' in the cited passage?"
     },
     {
       "id": "obj.thoth-knowledge.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How should Budge's statement that Thoth invented writing be treated?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legends of the Gods",
-      "author": "E. A. Wallis Budge",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Egyptian gods\u2014Thoth and sacred knowledge",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "as the goddess of law, order, and truth, and in late times was held to be the female counterpart of Thoth, \"the heart of the god Ra.\" In this legend, however, she seems to play the part of Wisdom, as described in the Book of Proverbs,[FN#3] for it was by Maat that he \"laid the foundation.\" [FN#3] \"The Lord possessed me in the beginning of his way, befo",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "hunefer": {
       "recordId": "pg-15932",
       "sourceId": "egy.literature-ancient-egyptians",
-      "work": "The Literature of the Ancient Egyptians",
+      "work": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration",
       "author": "various Egyptian authors",
       "translator": "E. A. Wallis Budge",
-      "locator": "Thoth, the Author of Egyptian Literature",
+      "locator": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration; local text normalized characters 97437-97674",
       "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "CONTENTS CHAP. PAGE I. THOTH, THE AUTHOR OF EGYPTIAN LITERATURE. WRITING MATERIALS, PAPYRUS, INK AND INK-POT, PALETTE, &c. 1 II. THE PYRAMID TEXTS: 9 The Book of Opening the Mouth",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "I have not committed any kind of sin in the land; I have defrauded no man of what is his. I am Thoth, the perfect scribe, whose hands are pure. I am the lord of purity, the destroyer of evil, the scribe of truth; what I abominate is sin.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+    },
+    "budge": {
+      "recordId": "pg-15932",
+      "sourceId": "egy.literature-ancient-egyptians",
+      "work": "Budge, Chapter I, Thoth and writing",
+      "author": "various Egyptian authors",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Budge, Chapter I, Thoth and writing; local text normalized characters 9441-9709",
+      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+      "excerpt": "Egyptian writing was believed to have been invented by the god Tehuti, or Thoth, and as this god was thought to be a form of the mind and intellect and wisdom of the God who created the heavens and the earth, the picture characters, or hieroglyphs as they are called,",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Thoth: Writing and Knowledge",
-      "body": "Thoth\u2019s association with writing, knowledge, and ritual makes information itself a form of sacred power.",
+      "title": "The scene",
+      "body": "In a hymn that Budge attributes to the Papyrus of Hunefer, the speaker says, 'I am Thoth, the perfect scribe.' Budge's separate introductory chapter reports a belief that Thoth invented writing.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer",
+        "budge"
       ],
       "objectiveIds": [
         "obj.thoth-knowledge.concept"
@@ -64,37 +66,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "A ritual speaker identifies with Thoth",
+      "body": "Source quotation (Budge translation; whitespace normalized): “I have not committed any kind of sin in the land; I have defrauded no man of what is his. I am Thoth, the perfect scribe, whose hands are pure. I am the lord of purity, the destroyer of evil, the scribe of truth; what I abominate is sin.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer"
       ],
       "objectiveIds": [
-        "obj.thoth-knowledge.source"
+        "obj.thoth-knowledge.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The words 'I am Thoth' occur in a funerary hymn's first-person declaration. They are not a biography of the god or proof that Thoth literally authored this manuscript.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer",
+        "budge"
       ],
       "objectiveIds": [
-        "obj.thoth-knowledge.source"
+        "obj.thoth-knowledge.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the evidence carefully",
+      "body": "Budge's Chapter I is modern editorial prose; the Hunefer hymn is a translated ancient text. Keep those evidence types and voices separate.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer",
+        "budge"
       ],
       "objectiveIds": [
         "obj.thoth-knowledge.source"
@@ -102,15 +103,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Ask who is speaking before treating a divine identity formula as a literal statement about authorship.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer",
+        "budge"
       ],
       "objectiveIds": [
-        "obj.thoth-knowledge.concept"
+        "obj.thoth-knowledge.source"
       ]
     }
   ],
@@ -118,85 +119,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Why is Thoth important?",
+      "prompt": "Who says 'I am Thoth, the perfect scribe' in the cited passage?",
       "choices": [
         {
           "id": "a",
-          "text": "He links order to writing, speech, and record"
+          "text": "Budge in his Chapter I essay"
         },
         {
           "id": "b",
-          "text": "He is only a sea god"
+          "text": "A Greek historian describing Thoth"
         },
         {
           "id": "c",
-          "text": "He forbids ritual"
-        },
-        {
-          "id": "d",
-          "text": "He invents kings"
+          "text": "The first-person speaker in a funerary hymn"
         }
       ],
-      "answerId": "a",
-      "explanation": "Thoth\u2019s association with writing, knowledge, and ritual makes information itself a form of sacred power.",
+      "answerId": "c",
+      "explanation": "Budge introduces the words as part of a hymn in the Papyrus of Hunefer.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "hunefer"
       ],
       "objectiveIds": [
         "obj.thoth-knowledge.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "hunefer"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How should Budge's statement that Thoth invented writing be treated?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "As a claim made in the Hunefer hymn"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "As a modern editor's report of an Egyptian religious belief"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "As Thoth's own surviving autobiography"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The statement appears in Budge's introductory essay, not as the Hunefer hymn's own voice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "budge",
+        "hunefer"
       ],
       "objectiveIds": [
         "obj.thoth-knowledge.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "budge",
+          "hunefer"
         ]
       }
     }
@@ -211,8 +203,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claim-by-claim scholarly and pedagogical review remains pending."
   }
 }

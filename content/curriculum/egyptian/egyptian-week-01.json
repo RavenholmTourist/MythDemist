@@ -11,21 +11,21 @@
   "days": [
     {
       "day": 1,
-      "title": "Osiris: Death and Renewal",
+      "title": "Osiris: Kingship in a Funerary Hymn",
       "lessonId": "egy.gods.day01.osiris-renewal",
       "lessonPath": "content/lessons/egyptian/osiris-renewal/day-01-osiris-renewal.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Ra: Sun and Cosmic Order",
+      "title": "Ra and the Destruction of Mankind",
       "status": "available",
       "lessonId": "egyptian.week01.day02.ra-order",
       "lessonPath": "content/lessons/egyptian/gods/day-02-ra-order.json"
     },
     {
       "day": 3,
-      "title": "Isis: Magic and Restoration",
+      "title": "Isis and Ra’s Secret Name",
       "status": "available",
       "lessonId": "egyptian.week01.day03.isis-restoration",
       "lessonPath": "content/lessons/egyptian/gods/day-03-isis-restoration.json"
@@ -39,7 +39,7 @@
     },
     {
       "day": 5,
-      "title": "Thoth: Writing and Knowledge",
+      "title": "Thoth: Writing and Sacred Speech",
       "status": "available",
       "lessonId": "egyptian.week01.day05.thoth-knowledge",
       "lessonPath": "content/lessons/egyptian/gods/day-05-thoth-knowledge.json"

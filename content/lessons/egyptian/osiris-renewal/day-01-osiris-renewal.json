@@ -1,13 +1,13 @@
 {
   "id": "egy.gods.day01.osiris-renewal",
-  "version": 1,
+  "version": 3,
   "weekId": "egy.gods.week01",
   "pantheon": "egyptian",
   "themeMode": "pantheon",
-  "title": "Osiris: Death and Renewal",
+  "title": "Osiris: Kingship in a Funerary Hymn",
   "subtitle": "Order, loss, and return in Egyptian tradition",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "egyptian",
     "osiris",
@@ -17,46 +17,35 @@
   "learningObjectives": [
     {
       "id": "obj.osiris-renewal.concept",
-      "text": "Identify the central source-grounded idea in Osiris: Death and Renewal."
+      "text": "What does the Papyrus of Ani hymn say about Horus?"
     },
     {
       "id": "obj.osiris-renewal.source",
-      "text": "Classify the cited source and its limits."
+      "text": "What kind of passage is this excerpt?"
     }
   ],
   "sourceReferences": {
-    "ref-egypt-legends": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legends of the Gods",
-      "author": "various Egyptian texts",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Legends of the Gods\u2014Osiris traditions",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "RS' FAMINE VIII. THE LEGEND OF THE DEATH AND RESURRECTION OF HORUS IX. THE LEGEND OF ISIS AND OSIRIS ACCORDING TO CLASSICAL WRITERS LIST OF PLATES AND ILLUSTRATIONS ON OR FOLLOWING PAGE: The History of Creation I. Horus holding the Hippopotamus-fiend with chain and spear II. Horus spearing the Hippopotamus-fiend III. Horus speari",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "ani": {
       "recordId": "pg-15932",
       "sourceId": "egy.literature-ancient-egyptians",
-      "work": "The Literature of the Ancient Egyptians",
+      "work": "Hymn to Osiris in the Papyrus of Ani",
       "author": "various Egyptian authors",
       "translator": "E. A. Wallis Budge",
-      "locator": "Book of the Dead\u2014Osiris and judgment",
+      "locator": "Hymn to Osiris in the Papyrus of Ani; local text normalized characters 94392-94886",
       "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "who reigned under the name of Merikara. The royal writer in it reminds his son that the Chiefs [of Osiris] who judge sinners perform their duty with merciless justice on the Day of Judgment. It is useless to assume that length of years will be accepted by them as a plea of justification. With them the lifetime of a man is only regarded as a moment. After de",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Glory be to Osiris Un-Nefer, the great god who dwelleth in Abydos, king of eternity, lord of everlastingness, whose existence endureth for millions of years. Eldest son of the womb of Nut,[1] begotten by Keb,[2] the Erpat,[3] lord of the crowns of the South and North, lord of the lofty white crown, prince of gods and men: he hath received the sceptre, and the whip, and the rank of his divine fathers. Let thy heart in Semt-Ament[4] be content, for thy son Horus is established on thy throne.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Renewal is central",
-      "body": "Egyptian stories of Osiris connect death, fragmentation, care, kingship, and restoration rather than treating death as a simple ending.",
+      "title": "The scene",
+      "body": "The opening hymn in the Papyrus of Ani addresses Osiris as an enduring king and says Horus is established on his throne. This passage praises and invokes Osiris; it does not narrate the whole story of his death and restoration.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
         "obj.osiris-renewal.concept"
@@ -65,11 +54,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "A translated collection",
-      "body": "Budge\u2019s Legends of the Gods preserves English versions of major Egyptian narratives. It is useful, but its editorial frame still needs labeling.",
+      "title": "The hymn names Osiris and Horus",
+      "body": "Source quotation (Budge translation; whitespace normalized): “Glory be to Osiris Un-Nefer, the great god who dwelleth in Abydos, king of eternity, lord of everlastingness, whose existence endureth for millions of years. Eldest son of the womb of Nut,[1] begotten by Keb,[2] the Erpat,[3] lord of the crowns of the South and North, lord of the lofty white crown, prince of gods and men: he hath received the sceptre, and the whip, and the rank of his divine fathers. Let thy heart in Semt-Ament[4] be content, for thy son Horus is established on thy throne.”",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
         "obj.osiris-renewal.concept"
@@ -77,25 +65,23 @@
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The passage links Osiris' kingship with Horus' succession. Treat it as a funerary hymn from one manuscript, not a single canonical timeline for all Egyptian traditions.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
-        "obj.osiris-renewal.source"
+        "obj.osiris-renewal.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the evidence carefully",
+      "body": "Budge's anthology translates and introduces the papyrus. Keep his edition and translation attached; distinguish the hymn's words from his notes about them.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
         "obj.osiris-renewal.source"
@@ -103,15 +89,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "Order after rupture",
-      "body": "Osiris traditions turn loss into a struggle to restore order, giving Egyptian mythology a very different emotional shape from Greek heroic honor.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "As you read other funerary texts, ask who is speaking, to whom, and what the text is meant to do.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
-        "obj.osiris-renewal.concept"
+        "obj.osiris-renewal.source"
       ]
     }
   ],
@@ -119,86 +104,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What is central to Osiris traditions?",
+      "prompt": "What does the Papyrus of Ani hymn say about Horus?",
       "choices": [
         {
           "id": "a",
-          "text": "Death and renewal"
+          "text": "Horus is established on Osiris' throne"
         },
         {
           "id": "b",
-          "text": "Only athletic contests"
+          "text": "Horus destroys the Papyrus of Ani"
         },
         {
           "id": "c",
-          "text": "The founding of Rome"
-        },
-        {
-          "id": "d",
-          "text": "A sea voyage"
+          "text": "Horus is named as the translator"
         }
       ],
       "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "explanation": "The hymn explicitly places Horus on Osiris' throne.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
-        "obj.osiris-renewal.source"
+        "obj.osiris-renewal.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-egypt-legends",
-          "ref-secondary"
+          "ani"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "How should Budge\u2019s collection be treated?",
+      "prompt": "What kind of passage is this excerpt?",
       "choices": [
         {
           "id": "a",
-          "text": "As translated material with an editorial frame"
+          "text": "A complete chronological biography of Osiris"
         },
         {
           "id": "b",
-          "text": "As the only neutral canon"
+          "text": "A modern novel about Egyptian kings"
         },
         {
           "id": "c",
-          "text": "As a modern novel"
-        },
-        {
-          "id": "d",
-          "text": "As archaeological pottery"
+          "text": "An opening funerary hymn in the Papyrus of Ani"
         }
       ],
-      "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "answerId": "c",
+      "explanation": "The edition identifies the excerpt as an opening hymn; it is not a complete narrative of the Osiris cycle.",
       "sourceRefIds": [
-        "ref-egypt-legends",
-        "ref-secondary"
+        "ani"
       ],
       "objectiveIds": [
         "obj.osiris-renewal.source"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-egypt-legends",
-          "ref-secondary"
+          "ani"
         ]
       }
     }
@@ -215,6 +188,6 @@
     "status": "draft",
     "reviewedBy": null,
     "reviewedAt": null,
-    "notes": "Structural scaffold only. Independent source, claim, locator, and pedagogy review is pending."
+    "notes": "Source-specific editorial rewrite; independent claim-by-claim scholarly and pedagogical review remains pending."
   }
 }

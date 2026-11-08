@@ -1,13 +1,13 @@
 {
   "id": "egyptian.week01.day03.isis-restoration",
-  "version": 1,
+  "version": 3,
   "weekId": "egy.gods.week01",
   "pantheon": "egyptian",
   "themeMode": "pantheon",
-  "title": "Isis: Magic and Restoration",
+  "title": "Isis and Ra’s Secret Name",
   "subtitle": "Care, speech, and repair",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "isis",
     "magic",
@@ -16,46 +16,61 @@
   "learningObjectives": [
     {
       "id": "obj.isis-restoration.concept",
-      "text": "Identify the main idea in Isis: Magic and Restoration."
+      "text": "How does Isis first make Ra vulnerable in this story?"
     },
     {
       "id": "obj.isis-restoration.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What does Isis seek from Ra after the bite?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "serpent": {
       "recordId": "pg-9411",
       "sourceId": "egy.legends-of-the-gods",
-      "work": "Legends of the Gods",
+      "work": "Legend of Ra and Isis, the serpent and Ra's illness",
       "author": "E. A. Wallis Budge",
       "translator": "E. A. Wallis Budge",
-      "locator": "Legends of the Gods\u2014Isis and restoration",
+      "locator": "Legend of Ra and Isis, the serpent and Ra's illness; local text normalized characters 37066-38149",
       "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "SEVEN YEARS' FAMINE VIII. THE LEGEND OF THE DEATH AND RESURRECTION OF HORUS IX. THE LEGEND OF ISIS AND OSIRIS ACCORDING TO CLASSICAL WRITERS LIST OF PLATES AND ILLUSTRATIONS ON OR FOLLOWING PAGE: The History of Creation I. Horus holding the Hippopotamus-fiend with chain and spear II. Horus spearing the Hippopotamus-fiend III. Hor",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Soon after Isis had placed the serpent on the Path, Ra passed by, and the reptile bit him, thus injecting poison into his body. Its effect was terrible, and Ra cried out in agony. His jaws chattered, his lips trembled, and he became speechless for a time; never before had be suffered such pain. The gods hearing his cry rushed to him, and when he could speak he told them that he had been bitten by a deadly serpent. In spite of all the words of power which were known to him, and his secret name which had been hidden in his body at his birth, a serpent had bitten him, and he was being consumed with a fiery pain. He then commanded that all the gods who had any knowledge of magical spells should come to him, and when they came, Isis, the great lady of spells, the destroyer of diseases, and the revivifier of the dead, came with them. Turning to Ra she said, \"What hath happened, O divine Father?\" and in answer the god told her that a serpent had bitten him, that he was hotter than fire and colder than water, that his limbs quaked, and that he was losing the power of sight.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     },
-    "ref-secondary": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "The Literature of the Ancient Egyptians",
-      "author": "various Egyptian authors",
+    "name": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legend of Ra and Isis, the hidden name",
+      "author": "E. A. Wallis Budge",
       "translator": "E. A. Wallis Budge",
-      "locator": "Lamentations of Isis and Nephthys",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "Book of Traversing Eternity 61 The Lamentations of Isis and Nephthys 62 The Festival Songs of Isis and Nephthys 64 The Book of Making Splendid the Spirit of Osiris 64 VI. THE EGYPTIAN STORY OF THE CREATION 6",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "locator": "Legend of Ra and Isis, the hidden name; local text normalized characters 38149-38706",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "Then Isis said to him with guile, \"Divine Father, tell me thy name, for he who uttereth his own name shall live.\" Thereupon Ra proceeded to enumerate the various things that he had done, and to describe his creative acts, and ended his speech to Isis by saying, that he was Khepera in the morning, Ra at noon, and Temu in the evening. Apparently he thought that the naming of these three great names would satisfy Isis, and that she would immediately pronounce a word of power and stop the pain in his body, which, during his speech, had become more acute.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+    },
+    "transfer": {
+      "recordId": "pg-9411",
+      "sourceId": "egy.legends-of-the-gods",
+      "work": "Legend of Ra and Isis, transfer of the hidden name",
+      "author": "E. A. Wallis Budge",
+      "translator": "E. A. Wallis Budge",
+      "locator": "Legend of Ra and Isis, transfer of the hidden name; local text normalized characters 39033-39631",
+      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+      "excerpt": "Isis shall search in me, and my name shall pass from my body into hers.\" At that moment Ra removed himself from the sight of the gods in his Boat, and the Throne in the Boat of Millions of Years had no occupant. The great name of Ra was, it seems, hidden in his heart, and Isis, having some doubt as to whether Ra would keep his word or not, agreed with Horus that Ra must be made to take an oath to part with his two Eyes, that is, the Sun and the Moon. At length Ra allowed his heart to be taken from his body, and his great and secret name, whereby he lived, passed into the possession of Isis.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Isis: Magic and Restoration",
-      "body": "Isis traditions link knowledge, protection, magic, and the repair of broken divine and royal order.",
+      "title": "The scene",
+      "body": "Budge's translation tells how Isis makes a serpent from Ra's saliva and dust. After it bites Ra, she asks for his hidden name, saying that speaking it will let him live.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent",
+        "name",
+        "transfer"
       ],
       "objectiveIds": [
         "obj.isis-restoration.concept"
@@ -64,37 +79,38 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Isis asks for the hidden name",
+      "body": "Source quotation (Budge translation; whitespace normalized): “Soon after Isis had placed the serpent on the Path, Ra passed by, and the reptile bit him, thus injecting poison into his body. Its effect was terrible, and Ra cried out in agony. His jaws chattered, his lips trembled, and he became speechless for a time; never before had be suffered such pain. The gods hearing his cry rushed to him, and when he could speak he told them that he had been bitten by a deadly serpent. In spite of all the words of power which were known to him, and his secret name which had been hidden in his body at his birth, a serpent had bitten him, and he was being consumed with a fiery pain. He then commanded that all the gods who had any knowledge of magical spells should come to him, and when they came, Isis, the great lady of spells, the destroyer of diseases, and the revivifier of the dead, came with them. Turning to Ra she said, \"What hath happened, O divine Father?\" and in answer the god told her that a serpent had bitten him, that he was hotter than fire and colder than water, that his limbs quaked, and that he was losing the power of sight.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent"
       ],
       "objectiveIds": [
-        "obj.isis-restoration.source"
+        "obj.isis-restoration.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The episode makes knowledge and speech powerful within this story. It is one translated legend, not a timeless summary of every Isis tradition.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent",
+        "name",
+        "transfer"
       ],
       "objectiveIds": [
-        "obj.isis-restoration.source"
+        "obj.isis-restoration.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the evidence carefully",
+      "body": "The edition identifies this legend with a Turin papyrus and includes Budge's commentary. Keep the translated narrative distinct from his historical explanation.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent",
+        "name",
+        "transfer"
       ],
       "objectiveIds": [
         "obj.isis-restoration.source"
@@ -102,15 +118,16 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Track the chain of action: serpent, bite, request for the name, disclosure, and spell. Notice whose knowledge moves the plot.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent",
+        "name",
+        "transfer"
       ],
       "objectiveIds": [
-        "obj.isis-restoration.concept"
+        "obj.isis-restoration.source"
       ]
     }
   ],
@@ -118,85 +135,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What makes Isis powerful?",
+      "prompt": "How does Isis first make Ra vulnerable in this story?",
       "choices": [
         {
           "id": "a",
-          "text": "Her protective and restorative knowledge"
+          "text": "She hides Osiris' throne"
         },
         {
           "id": "b",
-          "text": "Only physical size"
+          "text": "She makes a poisonous serpent from his saliva and dust"
         },
         {
           "id": "c",
-          "text": "Only storms"
-        },
-        {
-          "id": "d",
-          "text": "Only hunting"
+          "text": "She steals his sun boat"
         }
       ],
-      "answerId": "a",
-      "explanation": "Isis traditions link knowledge, protection, magic, and the repair of broken divine and royal order.",
+      "answerId": "b",
+      "explanation": "The legend says she mixes Ra's saliva with dust and leaves the serpent on his path.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "serpent"
       ],
       "objectiveIds": [
         "obj.isis-restoration.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "serpent"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What does Isis seek from Ra after the bite?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "His hidden name, which gives her power to speak a healing spell"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "His throne in Heliopolis"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "A new name for the Nile"
         }
       ],
       "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "explanation": "The narrative ties knowledge of Ra's hidden name to Isis' words of power.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "name",
+        "transfer"
       ],
       "objectiveIds": [
         "obj.isis-restoration.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "name",
+          "transfer"
         ]
       }
     }
@@ -211,8 +219,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claim-by-claim scholarly and pedagogical review remains pending."
   }
 }

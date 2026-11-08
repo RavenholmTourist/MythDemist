@@ -1,13 +1,13 @@
 {
   "id": "celtic.week01.day04.math-sovereignty",
-  "version": 1,
+  "version": 2,
   "weekId": "cel.tales.week01",
   "pantheon": "celtic",
   "themeMode": "pantheon",
   "title": "Math: Law, Magic, and Sovereignty",
   "subtitle": "Rulership tested by transgression",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "math",
     "law",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.math-sovereignty.concept",
-      "text": "Identify the main idea in Math: Law, Magic, and Sovereignty."
+      "text": "When can Math be without a maiden holding his feet?"
     },
     {
       "id": "obj.math-sovereignty.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "Whom does Goewin identify in her report to Math?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "rule": {
       "recordId": "pg-5160",
       "sourceId": "cel.mabinogion",
-      "work": "The Mabinogion",
+      "work": "The Fourth Branch (in The Mabinogion)",
       "author": "various Welsh traditions",
       "translator": "Lady Charlotte Guest",
-      "locator": "Math son of Mathonwy",
+      "locator": "The Fourth Branch, Math's rule and Goewin; local text normalized characters 464283-464369",
       "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on the Notes appended to the various Tales, I have found myself led unavoidably in",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Math the son of Mathonwy could not exist unless his feet were in the lap of a maiden,",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     },
-    "ref-secondary": {
-      "recordId": "pg-16464",
-      "sourceId": "cel.tain-bo-cualnge",
-      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
-      "author": "Anonymous Irish traditions",
-      "translator": "Joseph Dunn",
-      "locator": "T\u00e1in\u2014kingship and contested authority",
-      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
-      "excerpt": "ploits of Cuchulain, 46. VIIa The Slaying of the Smith's Hound by Cuchulain, 54. VIIb The Taking of Arms by Cuchulain and The Slaying of the Three Sons of Necht Scene, 60. VIIc A Separate Version as far as the Slaying Of Orlam, 80. VIII The Slaying of Orlam, 82. VIIIa The Slaying of the Three MacArach, 85. VIIIb The Combat of L",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "testimony": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Fourth Branch (in The Mabinogion)",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "The Fourth Branch, Goewin reports the assault; local text normalized characters 475408-475656",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "An attack, lord, was made unawares upon me; but I held not my peace, and there was no one in the Court who knew not of it. Now the attack was made by thy nephews, lord, the sons of thy sister, Gwydion the son of Don, and Gilvaethwy the son of Don;",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Math: Law, Magic, and Sovereignty",
-      "body": "The Fourth Branch joins royal authority to magical transformation, broken norms, and difficult judgment.",
+      "title": "The scene",
+      "body": "The Fourth Branch says Math normally must rest his feet in a maiden's lap, except when war prevents it. Goewin later tells Math that his nephews attacked her while he was away and names them.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule"
       ],
       "objectiveIds": [
         "obj.math-sovereignty.concept"
@@ -64,37 +65,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Goewin speaks to Math",
+      "body": "Source quotation (Guest translation; whitespace normalized): “Math the son of Mathonwy could not exist unless his feet were in the lap of a maiden,”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule"
       ],
       "objectiveIds": [
-        "obj.math-sovereignty.source"
+        "obj.math-sovereignty.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The tale links a court custom with the harm done under its protection. Keep Goewin's testimony visible; do not turn the assault into a romantic subplot or erase her account.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule",
+        "testimony"
       ],
       "objectiveIds": [
-        "obj.math-sovereignty.source"
+        "obj.math-sovereignty.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read it carefully",
+      "body": "This is one medieval Welsh branch in the Mabinogion collection, not a universal account of Celtic law or kingship.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule",
+        "testimony"
       ],
       "objectiveIds": [
         "obj.math-sovereignty.source"
@@ -102,15 +102,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Compare the rule described at the opening with Goewin's own report of how it was violated.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule",
+        "testimony"
       ],
       "objectiveIds": [
-        "obj.math-sovereignty.concept"
+        "obj.math-sovereignty.source"
       ]
     }
   ],
@@ -118,85 +118,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Math\u2019s branch join together?",
+      "prompt": "When can Math be without a maiden holding his feet?",
       "choices": [
         {
           "id": "a",
-          "text": "Law, magic, and sovereignty"
+          "text": "When war prevents the custom"
         },
         {
           "id": "b",
-          "text": "Only fishing"
+          "text": "Whenever he is judging a legal dispute"
         },
         {
           "id": "c",
-          "text": "Only astronomy"
-        },
-        {
-          "id": "d",
-          "text": "Only diplomacy"
+          "text": "Only while he is travelling to Annwvyn"
         }
       ],
       "answerId": "a",
-      "explanation": "The Fourth Branch joins royal authority to magical transformation, broken norms, and difficult judgment.",
+      "explanation": "The branch states the condition and gives war as the exception.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "rule"
       ],
       "objectiveIds": [
         "obj.math-sovereignty.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "rule"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "Whom does Goewin identify in her report to Math?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Pwyll and Arawn"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Bran and Matholwch"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Gwydion and Gilvaethwy, Math's nephews"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "c",
+      "explanation": "Goewin names the two nephews and says they wronged her and dishonoured Math.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "testimony"
       ],
       "objectiveIds": [
         "obj.math-sovereignty.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "testimony"
         ]
       }
     }
@@ -211,8 +200,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local quotations. Independent scholarly and pedagogical review remains pending."
   }
 }

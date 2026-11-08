@@ -1,13 +1,13 @@
 {
   "id": "cel.tales.day01.pwyll-otherworld",
-  "version": 1,
+  "version": 2,
   "weekId": "cel.tales.week01",
   "pantheon": "celtic",
   "themeMode": "pantheon",
   "title": "Pwyll and the Otherworld",
   "subtitle": "Welsh tales make rulership meet enchantment",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "celtic",
     "welsh",
@@ -17,46 +17,35 @@
   "learningObjectives": [
     {
       "id": "obj.pwyll-otherworld.concept",
-      "text": "Identify the central source-grounded idea in Pwyll and the Otherworld."
+      "text": "What does Arawn ask Pwyll to do?"
     },
     {
       "id": "obj.pwyll-otherworld.source",
-      "text": "Classify the cited source and its limits."
+      "text": "Why does Arawn forbid a second blow?"
     }
   ],
   "sourceReferences": {
-    "ref-mabinogion": {
+    "main": {
       "recordId": "pg-5160",
       "sourceId": "cel.mabinogion",
-      "work": "The Mabinogion",
+      "work": "The First Branch (in The Mabinogion)",
       "author": "various Welsh traditions",
       "translator": "Lady Charlotte Guest",
-      "locator": "Pwyll Prince of Dyved",
+      "locator": "The First Branch, Arawn asks Pwyll to defeat Hafgan; local text normalized characters 368527-368896",
       "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "Fountain Peredur the Son of Evrawc Geraint the son of Erbin Kilhwch and Olwen The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
-      "recordId": "pg-16464",
-      "sourceId": "cel.tain-bo-cualnge",
-      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
-      "author": "Anonymous Irish traditions",
-      "translator": "Joseph Dunn",
-      "locator": "T\u00e1in\u2014comparative Irish epic context",
-      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
-      "excerpt": "in, Brendan O'Connor and the Online Distributed Proofreading Team at https://www.pgdp.net *** START OF THE PROJECT GUTENBERG EBOOK THE ANCIENT IRISH EPIC TALE T\u00c1IN B\u00d3 C\u00daALNGE *** Produced by Ted Garvin, Brendan O'Connor and the Online Distributed Proofreading Team at https://www.pgdp.net THE ANCIENT IRISH EPIC T",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "One year from this night,” he answered, “is the time fixed between him and me that we should meet at the Ford; be thou there in my likeness, and with one stroke that thou givest him, he shall no longer live. And if he ask thee to give him another, give it not, how much soever he may entreat thee, for when I did so, he fought with me next day as well as ever before.”",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The Otherworld is close",
-      "body": "In the Mabinogion, the supernatural is not distant. Encounters with otherworldly figures test kingship, promises, and identity.",
+      "title": "The scene",
+      "body": "Arawn, king of Annwvyn, asks Pwyll to fight Hafgan at the Ford after a year. Pwyll must take Arawn’s shape and give Hafgan only one blow; a second blow would let him recover.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.pwyll-otherworld.concept"
@@ -65,11 +54,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "A Welsh medieval tradition",
-      "body": "The Mabinogion preserves Welsh tales in translation. It gives us romance, magic, and heroic politics rather than a systematic pantheon.",
+      "title": "Arawn's terms",
+      "body": "Source quotation (Guest translation; whitespace normalized): “One year from this night,” he answered, “is the time fixed between him and me that we should meet at the Ford; be thou there in my likeness, and with one stroke that thou givest him, he shall no longer live. And if he ask thee to give him another, give it not, how much soever he may entreat thee, for when I did so, he fought with me next day as well as ever before.””",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.pwyll-otherworld.concept"
@@ -77,25 +65,23 @@
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "The test is not just whether Pwyll can win a fight. He must keep the agreement's exact limit, even when his opponent asks for another blow.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.pwyll-otherworld.source"
+        "obj.pwyll-otherworld.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read it carefully",
+      "body": "This is the Mabinogion's Welsh tale of Pwyll and Arawn. Keep the otherworld setting and the tale's rule about a single blow attached to this version.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.pwyll-otherworld.source"
@@ -103,15 +89,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "Rule is tested",
-      "body": "Pwyll\u2019s story makes leadership depend on restraint, honor, and navigating powers beyond ordinary human law.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Track the promise through the exchange: what Pwyll owes Arawn, what he is forbidden to do, and how restraint changes the result.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.pwyll-otherworld.concept"
+        "obj.pwyll-otherworld.source"
       ]
     }
   ],
@@ -119,86 +104,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does the Mabinogion especially offer?",
+      "prompt": "What does Arawn ask Pwyll to do?",
       "choices": [
         {
           "id": "a",
-          "text": "Welsh tales of heroism and the Otherworld"
+          "text": "Take Arawn's shape and defeat Hafgan with one blow at the Ford after a year"
         },
         {
           "id": "b",
-          "text": "Greek epic only"
+          "text": "Defeat Arawn in a contest for Dyved"
         },
         {
           "id": "c",
-          "text": "A Norse legal code"
-        },
-        {
-          "id": "d",
-          "text": "Egyptian hymns"
+          "text": "Marry Hafgan's daughter and surrender Annwvyn"
         }
       ],
       "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "explanation": "Arawn offers friendship if Pwyll takes his form, meets Hafgan at the Ford, and gives only one blow.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
-        "obj.pwyll-otherworld.source"
+        "obj.pwyll-otherworld.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-mabinogion",
-          "ref-secondary"
+          "main"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What is tested through otherworldly encounters?",
+      "prompt": "Why does Arawn forbid a second blow?",
       "choices": [
         {
           "id": "a",
-          "text": "Kingship and promise-keeping"
+          "text": "A second blow would break Pwyll's disguise"
         },
         {
           "id": "b",
-          "text": "Shipbuilding"
+          "text": "The Ford can be crossed only once"
         },
         {
           "id": "c",
-          "text": "Grammar"
-        },
-        {
-          "id": "d",
-          "text": "Astronomy"
+          "text": "Hafgan would recover and fight again the next day"
         }
       ],
-      "answerId": "a",
-      "explanation": "This follows directly from the cited source classification and lesson focus.",
+      "answerId": "c",
+      "explanation": "Arawn explains that Hafgan fought as well as before after receiving a second blow.",
       "sourceRefIds": [
-        "ref-mabinogion",
-        "ref-secondary"
+        "main"
       ],
       "objectiveIds": [
         "obj.pwyll-otherworld.source"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What kind of source is this?",
-          "What limits should we keep in mind?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-mabinogion",
-          "ref-secondary"
+          "main"
         ]
       }
     }
@@ -215,6 +188,6 @@
     "status": "draft",
     "reviewedBy": null,
     "reviewedAt": null,
-    "notes": "Structural scaffold only. Independent source, claim, locator, and pedagogy review is pending."
+    "notes": "Source-specific rewrite with verbatim local quotations. Independent scholarly and pedagogical review remains pending."
   }
 }

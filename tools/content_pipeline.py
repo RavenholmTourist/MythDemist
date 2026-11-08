@@ -30,6 +30,16 @@ def check_schema(doc_path, schema_path, errors):
 def check_links(lesson, errors):
     refs = set(lesson['sourceReferences'])
     objectives = {item['id'] for item in lesson['learningObjectives']}
+    review = lesson.get('review', {})
+    if review.get('status') == 'reviewed':
+        reviewer = (review.get('reviewedBy') or '').strip().lower()
+        if not reviewer or reviewer in {'devin', 'assistant', 'ai', 'model'}:
+            errors.append(f"{lesson['id']}: reviewed status needs an independent named reviewer")
+        if not (review.get('notes') or '').strip():
+            errors.append(f"{lesson['id']}: reviewed status needs a review note")
+        untyped = [key for key, ref in lesson['sourceReferences'].items() if ref.get('evidenceType') not in {'quotation', 'paraphrase'}]
+        if untyped:
+            errors.append(f"{lesson['id']}: reviewed status contains untyped source references {untyped}")
     for item in [*lesson['narrativeBlocks'], *lesson['quiz']]:
         if not set(item['sourceRefIds']) <= refs or not set(item['objectiveIds']) <= objectives:
             errors.append(f"{lesson['id']}:{item['id']}: unknown source or objective")

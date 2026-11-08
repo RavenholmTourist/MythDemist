@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T21:59:54.085416+00:00",
+  "generatedAt": "2026-11-08T22:44:24.974118+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -3828,9 +3828,9 @@
     },
     {
       "id": "egy.gods.day01.osiris-renewal",
-      "version": 1,
+      "version": 3,
       "pantheon": "egyptian",
-      "title": "Osiris: Death and Renewal",
+      "title": "Osiris: Kingship in a Funerary Hymn",
       "weekId": "egy.gods.week01",
       "tags": [
         "egyptian",
@@ -3838,15 +3838,14 @@
         "death",
         "renewal"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/egyptian/osiris-renewal/day-01-osiris-renewal.json",
       "objectiveIds": [
         "obj.osiris-renewal.concept",
         "obj.osiris-renewal.source"
       ],
       "recordIds": [
-        "pg-15932",
-        "pg-9411"
+        "pg-15932"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -3866,23 +3865,22 @@
     },
     {
       "id": "egyptian.week01.day02.ra-order",
-      "version": 1,
+      "version": 3,
       "pantheon": "egyptian",
-      "title": "Ra: Sun and Cosmic Order",
+      "title": "Ra and the Destruction of Mankind",
       "weekId": "egy.gods.week01",
       "tags": [
         "ra",
         "sun",
         "maat"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-02-ra-order.json",
       "objectiveIds": [
         "obj.ra-order.concept",
         "obj.ra-order.source"
       ],
       "recordIds": [
-        "pg-15932",
         "pg-9411"
       ],
       "rewardArtId": null,
@@ -3901,23 +3899,22 @@
     },
     {
       "id": "egyptian.week01.day03.isis-restoration",
-      "version": 1,
+      "version": 3,
       "pantheon": "egyptian",
-      "title": "Isis: Magic and Restoration",
+      "title": "Isis and Ra\u2019s Secret Name",
       "weekId": "egy.gods.week01",
       "tags": [
         "isis",
         "magic",
         "restoration"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-03-isis-restoration.json",
       "objectiveIds": [
         "obj.isis-restoration.concept",
         "obj.isis-restoration.source"
       ],
       "recordIds": [
-        "pg-15932",
         "pg-9411"
       ],
       "rewardArtId": null,
@@ -3936,7 +3933,7 @@
     },
     {
       "id": "egyptian.week01.day04.judgment-dead",
-      "version": 1,
+      "version": 2,
       "pantheon": "egyptian",
       "title": "Judgment of the Dead",
       "weekId": "egy.gods.week01",
@@ -3945,15 +3942,14 @@
         "dead",
         "maat"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-04-judgment-dead.json",
       "objectiveIds": [
         "obj.judgment-dead.concept",
         "obj.judgment-dead.source"
       ],
       "recordIds": [
-        "pg-15932",
-        "pg-9411"
+        "pg-15932"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -3971,24 +3967,23 @@
     },
     {
       "id": "egyptian.week01.day05.thoth-knowledge",
-      "version": 1,
+      "version": 3,
       "pantheon": "egyptian",
-      "title": "Thoth: Writing and Knowledge",
+      "title": "Thoth: Writing and Sacred Speech",
       "weekId": "egy.gods.week01",
       "tags": [
         "thoth",
         "writing",
         "knowledge"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-05-thoth-knowledge.json",
       "objectiveIds": [
         "obj.thoth-knowledge.concept",
         "obj.thoth-knowledge.source"
       ],
       "recordIds": [
-        "pg-15932",
-        "pg-9411"
+        "pg-15932"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4006,7 +4001,7 @@
     },
     {
       "id": "cel.tales.day01.pwyll-otherworld",
-      "version": 1,
+      "version": 2,
       "pantheon": "celtic",
       "title": "Pwyll and the Otherworld",
       "weekId": "cel.tales.week01",
@@ -4016,14 +4011,13 @@
         "mabinogion",
         "otherworld"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/celtic/pwyll-otherworld/day-01-pwyll-otherworld.json",
       "objectiveIds": [
         "obj.pwyll-otherworld.concept",
         "obj.pwyll-otherworld.source"
       ],
       "recordIds": [
-        "pg-16464",
         "pg-5160"
       ],
       "rewardArtId": null,
@@ -4044,7 +4038,7 @@
     },
     {
       "id": "celtic.week01.day02.branwen-sovereignty",
-      "version": 1,
+      "version": 2,
       "pantheon": "celtic",
       "title": "Branwen: Hospitality and Consequence",
       "weekId": "cel.tales.week01",
@@ -4053,14 +4047,13 @@
         "sovereignty",
         "consequence"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-02-branwen-sovereignty.json",
       "objectiveIds": [
         "obj.branwen-sovereignty.concept",
         "obj.branwen-sovereignty.source"
       ],
       "recordIds": [
-        "pg-16464",
         "pg-5160"
       ],
       "rewardArtId": null,
@@ -4079,7 +4072,7 @@
     },
     {
       "id": "celtic.week01.day03.manawydan-patience",
-      "version": 1,
+      "version": 2,
       "pantheon": "celtic",
       "title": "Manawydan: Patience and Enchantment",
       "weekId": "cel.tales.week01",
@@ -4088,14 +4081,13 @@
         "patience",
         "magic"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-03-manawydan-patience.json",
       "objectiveIds": [
         "obj.manawydan-patience.concept",
         "obj.manawydan-patience.source"
       ],
       "recordIds": [
-        "pg-16464",
         "pg-5160"
       ],
       "rewardArtId": null,
@@ -4114,7 +4106,7 @@
     },
     {
       "id": "celtic.week01.day04.math-sovereignty",
-      "version": 1,
+      "version": 2,
       "pantheon": "celtic",
       "title": "Math: Law, Magic, and Sovereignty",
       "weekId": "cel.tales.week01",
@@ -4123,14 +4115,13 @@
         "law",
         "sovereignty"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-04-math-sovereignty.json",
       "objectiveIds": [
         "obj.math-sovereignty.concept",
         "obj.math-sovereignty.source"
       ],
       "recordIds": [
-        "pg-16464",
         "pg-5160"
       ],
       "rewardArtId": null,
@@ -4149,7 +4140,7 @@
     },
     {
       "id": "celtic.week01.day05.taliesin-change",
-      "version": 1,
+      "version": 2,
       "pantheon": "celtic",
       "title": "Taliesin: Poetry and Transformation",
       "weekId": "cel.tales.week01",
@@ -4158,14 +4149,13 @@
         "poetry",
         "transformation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-05-taliesin-change.json",
       "objectiveIds": [
         "obj.taliesin-change.concept",
         "obj.taliesin-change.source"
       ],
       "recordIds": [
-        "pg-16464",
         "pg-5160"
       ],
       "rewardArtId": null,

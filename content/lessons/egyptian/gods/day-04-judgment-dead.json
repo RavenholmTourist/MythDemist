@@ -1,13 +1,13 @@
 {
   "id": "egyptian.week01.day04.judgment-dead",
-  "version": 1,
+  "version": 2,
   "weekId": "egy.gods.week01",
   "pantheon": "egyptian",
   "themeMode": "pantheon",
   "title": "Judgment of the Dead",
   "subtitle": "Moral order beyond life",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "judgment",
     "dead",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.judgment-dead.concept",
-      "text": "Identify the main idea in Judgment of the Dead."
+      "text": "What kind of statements appear in the quoted declarations?"
     },
     {
       "id": "obj.judgment-dead.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What should this passage not be used to claim by itself?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legends of the Gods",
-      "author": "E. A. Wallis Budge",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Osiris traditions\u2014death and kingship",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "possible, with translations, and then to put them in the hands of the reader and leave them to his judgment. With this object in view, it has been decided to publish in the Series several volumes which shall be devoted to the reproduction in hieroglyphic type of the best and most typical examples of the various kinds of Egyptian Literature, with English tr",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "confession": {
       "recordId": "pg-15932",
       "sourceId": "egy.literature-ancient-egyptians",
-      "work": "The Literature of the Ancient Egyptians",
+      "work": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges",
       "author": "various Egyptian authors",
       "translator": "E. A. Wallis Budge",
-      "locator": "The Book of the Dead\u2014The Great Judgment",
+      "locator": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges; local text normalized characters 112809-113336",
       "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "er sages. To him, as to all Africans, the Other World was a very real thing, and death and the Last Judgment were common subjects of his daily thoughts. The great antiquity of this characteristic of the Egyptian is proved by a passage in a Book of Precepts, which was written by a king of the ninth or tenth dynasty for his son, who reigned under the name of M",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Hail, thou of the long strides, who comest forth from Heliopolis, I have not committed sin. 2. \"Hail, thou who art embraced by flame, who comest forth from Kheraha, I have not robbed with violence. 3. \"Hail, Nose, who comest forth from Hermopolis, I have not done violence [to any man]. 4. \"Hail, Eater of shadows, who comest forth from the Qerti, I have not thieved. 5. \"Hail, Stinking Face, who comest forth from Rastau, I have not slain man or woman. 9. \"Hail, Crusher of bones, who comest forth from Hensu, I have not lied.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Judgment of the Dead",
-      "body": "Egyptian traditions connect death to weighing, testimony, and order. The afterlife is not neutral; it is morally structured.",
+      "title": "The scene",
+      "body": "In Budge's translation of Chapter 125, the deceased addresses named judges and declares that they have not committed particular wrongs. The text frames judgment as a speech act before divine assessors.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
         "obj.judgment-dead.concept"
@@ -64,37 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "A few declarations from Chapter 125",
+      "body": "Source quotation (Budge translation; whitespace normalized): “Hail, thou of the long strides, who comest forth from Heliopolis, I have not committed sin. 2. \"Hail, thou who art embraced by flame, who comest forth from Kheraha, I have not robbed with violence. 3. \"Hail, Nose, who comest forth from Hermopolis, I have not done violence [to any man]. 4. \"Hail, Eater of shadows, who comest forth from the Qerti, I have not thieved. 5. \"Hail, Stinking Face, who comest forth from Rastau, I have not slain man or woman. 9. \"Hail, Crusher of bones, who comest forth from Hensu, I have not lied.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
-        "obj.judgment-dead.source"
+        "obj.judgment-dead.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "These declarations belong to a particular funerary text and edition. Do not turn them into one uniform moral code for every Egyptian person or period.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
-        "obj.judgment-dead.source"
+        "obj.judgment-dead.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read the evidence carefully",
+      "body": "The source is a translated collection with editorial explanations. A text about judgment is evidence for this ritual-literary tradition, not direct observation of every funeral practice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
         "obj.judgment-dead.source"
@@ -102,15 +88,14 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "When a funerary text speaks in the first person, ask whether the speaker is the deceased, a ritual officiant, or a god.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
-        "obj.judgment-dead.concept"
+        "obj.judgment-dead.source"
       ]
     }
   ],
@@ -118,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does the judgment scene test?",
+      "prompt": "What kind of statements appear in the quoted declarations?",
       "choices": [
         {
           "id": "a",
-          "text": "Whether a life fits cosmic order"
+          "text": "The deceased denies specific wrongs before named judges"
         },
         {
           "id": "b",
-          "text": "Ship design"
+          "text": "A list of Ra's military victories"
         },
         {
           "id": "c",
-          "text": "Gardening"
-        },
-        {
-          "id": "d",
-          "text": "Horse breeding"
+          "text": "A record of how the pyramids were built"
         }
       ],
       "answerId": "a",
-      "explanation": "Egyptian traditions connect death to weighing, testimony, and order. The afterlife is not neutral; it is morally structured.",
+      "explanation": "The excerpt lists declarations such as not committing sin, theft, or murder.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
         "obj.judgment-dead.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "confession"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What should this passage not be used to claim by itself?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "That this text names judges"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "That the translation comes through Budge's edition"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "That every Egyptian community shared one identical judgment ritual"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "c",
+      "explanation": "One funerary text cannot establish a uniform practice across all places and periods.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "confession"
       ],
       "objectiveIds": [
         "obj.judgment-dead.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited local text.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this the translated text or editorial context?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "confession"
         ]
       }
     }
@@ -211,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific editorial rewrite; independent claim-by-claim scholarly and pedagogical review remains pending."
   }
 }

@@ -1,13 +1,13 @@
 {
   "id": "celtic.week01.day02.branwen-sovereignty",
-  "version": 1,
+  "version": 2,
   "weekId": "cel.tales.week01",
   "pantheon": "celtic",
   "themeMode": "pantheon",
   "title": "Branwen: Hospitality and Consequence",
   "subtitle": "Royal bonds and their human cost",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "branwen",
     "sovereignty",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.branwen-sovereignty.concept",
-      "text": "Identify the main idea in Branwen: Hospitality and Consequence."
+      "text": "What starts the insult to Matholwch?"
     },
     {
       "id": "obj.branwen-sovereignty.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How does Branwen get her message to Britain?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "insult": {
       "recordId": "pg-5160",
       "sourceId": "cel.mabinogion",
-      "work": "The Mabinogion",
+      "work": "The Second Branch (in The Mabinogion)",
       "author": "various Welsh traditions",
       "translator": "Lady Charlotte Guest",
-      "locator": "Branwen daughter of Llyr",
+      "locator": "The Second Branch, Evnissyen injures Matholwch's horses; local text normalized characters 409985-410726",
       "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "on of Evrawc Geraint the son of Erbin Kilhwch and Olwen The dream of Rhonabwy Pwyll Prince of Dyved Branwen the daughter of Llyr Manawyddan the son of Llyr Math the son of Mathonwy The dream of Maxen Wledig The story of Lludd and Llevelys Taliesin INTRODUCTION Whilst engaged on the Translations contained in these volumes, and on the Notes appended to t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "And behold one day, Evnissyen, the quarrelsome man of whom it is spoken above, came by chance into the place, where the horses of Matholwch were, and asked whose horses they might be. “They are the horses of Matholwch king of Ireland, who is married to Branwen, thy sister; his horses are they.” “And is it thus they have done with a maiden such as she, and moreover my sister, bestowing her without my consent? They could have offered no greater insult to me than this,” said he. And thereupon he rushed under the horses and cut off their lips at the teeth, and their ears close to their heads, and their tails close to their backs, and wherever he could clutch their eyelids, he cut them to the very bone, and he disfigured the horses and",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     },
-    "ref-secondary": {
-      "recordId": "pg-16464",
-      "sourceId": "cel.tain-bo-cualnge",
-      "work": "The Ancient Irish Epic Tale T\u00e1in B\u00f3 C\u00faalnge",
-      "author": "Anonymous Irish traditions",
-      "translator": "Joseph Dunn",
-      "locator": "T\u00e1in\u2014royal rivalry and consequence",
-      "localPath": "content/corpus/celtic/primary/tain-bo-cualnge-dunn-16464.txt",
-      "excerpt": ": I. The Prologue One night at the palace of Cruachan in Connacht, a dispute arose between Queen Medb, the sometime wife of Conchobar, king of Ulster, and her consort Ailill, as to the amount of their respective possessions. It may be remarked in passing that in those days in Ireland, married women retained their private fortune independent of their husba",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+    "message": {
+      "recordId": "pg-5160",
+      "sourceId": "cel.mabinogion",
+      "work": "The Second Branch (in The Mabinogion)",
+      "author": "various Welsh traditions",
+      "translator": "Lady Charlotte Guest",
+      "locator": "The Second Branch, Branwen sends word to her brother; local text normalized characters 420563-421266",
+      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+      "excerpt": "And Branwen reared a starling in the cover of the kneading trough, and she taught it to speak, and she taught the bird what manner of man her brother was. And she wrote a letter of her woes, and the despite with which she was treated, and she bound the letter to the root of the bird’s wing, and sent it towards Britain. And the bird came to this island, and one day it found Bendigeid Vran at Caer Seiont in Arvon, conferring there, and it alighted upon his shoulder and ruffled its feathers, so that the letter was seen, and they knew that the bird had been reared in a domestic manner. Then Bendigeid Vran took the letter and looked upon it. And when he had read the letter he grieved exceedingly at",
+      "evidenceType": "quotation",
+      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Branwen: Hospitality and Consequence",
-      "body": "Branwen\u2019s tale turns marriage, insult, and political alliance into a tragedy of consequence across kingdoms.",
+      "title": "The scene",
+      "body": "When Efnissien learns that Branwen was married to Matholwch without his consent, he mutilates the Irish king's horses. The insult helps turn an alliance into a conflict that reaches Branwen.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult"
       ],
       "objectiveIds": [
         "obj.branwen-sovereignty.concept"
@@ -64,37 +65,36 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Branwen sends her letter",
+      "body": "Source quotation (Guest translation; whitespace normalized): “And behold one day, Evnissyen, the quarrelsome man of whom it is spoken above, came by chance into the place, where the horses of Matholwch were, and asked whose horses they might be. “They are the horses of Matholwch king of Ireland, who is married to Branwen, thy sister; his horses are they.” “And is it thus they have done with a maiden such as she, and moreover my sister, bestowing her without my consent? They could have offered no greater insult to me than this,” said he. And thereupon he rushed under the horses and cut off their lips at the teeth, and their ears close to their heads, and their tails close to their backs, and wherever he could clutch their eyelids, he cut them to the very bone, and he disfigured the horses and”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult"
       ],
       "objectiveIds": [
-        "obj.branwen-sovereignty.source"
+        "obj.branwen-sovereignty.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Why it matters",
+      "body": "Branwen's starling carries a letter across the sea after she has been mistreated and isolated. The tale makes communication a turning point in a political crisis.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult",
+        "message"
       ],
       "objectiveIds": [
-        "obj.branwen-sovereignty.source"
+        "obj.branwen-sovereignty.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read it carefully",
+      "body": "This is a Welsh tale in the Mabinogion, translated by Lady Charlotte Guest. Do not merge it with the Irish Táin Bó Cúailnge just because both are medieval Celtic-language narratives.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult",
+        "message"
       ],
       "objectiveIds": [
         "obj.branwen-sovereignty.source"
@@ -102,15 +102,15 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "Carry it forward",
+      "body": "Follow the chain from the wedding alliance to the insult, Branwen's message, and Bran's response; keep each step tied to the tale.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult",
+        "message"
       ],
       "objectiveIds": [
-        "obj.branwen-sovereignty.concept"
+        "obj.branwen-sovereignty.source"
       ]
     }
   ],
@@ -118,85 +118,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Branwen\u2019s tale emphasize?",
+      "prompt": "What starts the insult to Matholwch?",
       "choices": [
         {
           "id": "a",
-          "text": "The cost of broken bonds"
+          "text": "Branwen refuses to send her brother a message"
         },
         {
           "id": "b",
-          "text": "Only shipbuilding"
+          "text": "Matholwch takes the throne of Dyved"
         },
         {
           "id": "c",
-          "text": "Only astronomy"
-        },
-        {
-          "id": "d",
-          "text": "Only farming"
+          "text": "Efnissien mutilates his horses because the marriage was made without consulting him"
         }
       ],
-      "answerId": "a",
-      "explanation": "Branwen\u2019s tale turns marriage, insult, and political alliance into a tragedy of consequence across kingdoms.",
+      "answerId": "c",
+      "explanation": "The tale says Efnissien objects that his sister was married without his consent, then injures Matholwch's horses.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "insult"
       ],
       "objectiveIds": [
         "obj.branwen-sovereignty.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "insult"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How does Branwen get her message to Britain?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "She asks Matholwch to carry it to her brother"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "She trains a starling and ties her letter to its wing"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "She sends it through a merchant at the Ford"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The narrative describes Branwen teaching the bird to speak and attaching her letter to its wing.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "message"
       ],
       "objectiveIds": [
         "obj.branwen-sovereignty.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited passage closely.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support the answer?",
+          "What does this one text not establish?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "message"
         ]
       }
     }
@@ -211,8 +200,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Source-specific rewrite with verbatim local quotations. Independent scholarly and pedagogical review remains pending."
   }
 }

@@ -485,6 +485,38 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('made over the task of government unto thy sandals', sandals['text'])
         self.assertFalse(any('THE RAMAYANA IN AN ENGLISH GARB' in s['text'] for s in ramayana if s['evidenceType'] == 'source-text'))
 
+    def test_finnish_starter_pack_uses_named_kalevala_runos(self):
+        files = sorted((ROOT / 'content/lessons/finnish').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-5186'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('Rune ', ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('seven hundred years', titles['Väinämöinen: Birth and Song'].lower())
+        self.assertIn('flour, salt, and money', titles['The Sampo: A Threefold Mill'])
+        self.assertIn('lifeless', titles['Ilmarinen: The Bride of Gold'])
+        self.assertIn('Pohjola', titles['Louhi: The Sun and Moon Hidden'])
+        self.assertIn('cheat-cake', titles['Kullervo: The Cheat-Cake'].lower())
+
+    def test_kalevala_parser_excludes_front_matter_from_runo_evidence(self):
+        full = source_segments(ROOT / 'content/corpus/finnish/primary/kalevala-crawford-5186.txt')
+        runo = next(s for s in full if s['locator'] == 'Rune X · Ilmarinen forges the Sampo')
+        self.assertEqual(runo['evidenceType'], 'source-text')
+        self.assertIn('On one side the flour is grinding', runo['text'])
+        self.assertTrue(any(s['locator'] == 'Crawford edition · front matter and contents' and s['evidenceType'] == 'editorial-note' for s in full))
+        self.assertFalse(any('Contents' in s['text'] for s in full if s['evidenceType'] == 'source-text'))
+        volume_one = json.loads((ROOT / 'content/corpus/finnish/manifest.json').read_text(encoding='utf-8'))
+        self.assertIn('not an independent witness', next(item for item in volume_one['records'] if item['id'] == 'pg-5184')['notes'])
+
 
 if __name__ == '__main__':
     unittest.main()

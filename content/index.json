@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T01:11:39.988473+00:00",
+  "generatedAt": "2026-11-09T01:19:57.655011+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1981,7 +1981,7 @@
     },
     {
       "id": "finnish.tradition.week01",
-      "title": "Finnish Traditions",
+      "title": "Kalevala in Crawford's Translation",
       "pantheon": "finnish",
       "path": "content/curriculum/finnish/finnish-week-01.json",
       "dayCount": 5,
@@ -5547,22 +5547,21 @@
     },
     {
       "id": "finnish.week01.day01.vainamoinen-and-song",
-      "version": 1,
+      "version": 2,
       "pantheon": "finnish",
-      "title": "V\u00e4in\u00e4m\u00f6inen and song",
+      "title": "V\u00e4in\u00e4m\u00f6inen: Birth and Song",
       "weekId": "finnish.tradition.week01",
       "tags": [
         "finnish",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-01-vainamoinen-and-song.json",
       "objectiveIds": [
         "obj.finnish.1.concept",
         "obj.finnish.1.source"
       ],
       "recordIds": [
-        "pg-5184",
         "pg-5186"
       ],
       "rewardArtId": null,
@@ -5579,22 +5578,21 @@
     },
     {
       "id": "finnish.week01.day02.the-sampo",
-      "version": 1,
+      "version": 2,
       "pantheon": "finnish",
-      "title": "The Sampo",
+      "title": "The Sampo: A Threefold Mill",
       "weekId": "finnish.tradition.week01",
       "tags": [
         "finnish",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-02-the-sampo.json",
       "objectiveIds": [
         "obj.finnish.2.concept",
         "obj.finnish.2.source"
       ],
       "recordIds": [
-        "pg-5184",
         "pg-5186"
       ],
       "rewardArtId": null,
@@ -5611,22 +5609,21 @@
     },
     {
       "id": "finnish.week01.day03.ilmarinen-the-smith",
-      "version": 1,
+      "version": 2,
       "pantheon": "finnish",
-      "title": "Ilmarinen the smith",
+      "title": "Ilmarinen: The Bride of Gold",
       "weekId": "finnish.tradition.week01",
       "tags": [
         "finnish",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-03-ilmarinen-the-smith.json",
       "objectiveIds": [
         "obj.finnish.3.concept",
         "obj.finnish.3.source"
       ],
       "recordIds": [
-        "pg-5184",
         "pg-5186"
       ],
       "rewardArtId": null,
@@ -5643,22 +5640,21 @@
     },
     {
       "id": "finnish.week01.day04.louhi-and-pohjola",
-      "version": 1,
+      "version": 2,
       "pantheon": "finnish",
-      "title": "Louhi and Pohjola",
+      "title": "Louhi: The Sun and Moon Hidden",
       "weekId": "finnish.tradition.week01",
       "tags": [
         "finnish",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-04-louhi-and-pohjola.json",
       "objectiveIds": [
         "obj.finnish.4.concept",
         "obj.finnish.4.source"
       ],
       "recordIds": [
-        "pg-5184",
         "pg-5186"
       ],
       "rewardArtId": null,
@@ -5675,22 +5671,21 @@
     },
     {
       "id": "finnish.week01.day05.kullervo-and-consequence",
-      "version": 1,
+      "version": 2,
       "pantheon": "finnish",
-      "title": "Kullervo and consequence",
+      "title": "Kullervo: The Cheat-Cake",
       "weekId": "finnish.tradition.week01",
       "tags": [
         "finnish",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-05-kullervo-and-consequence.json",
       "objectiveIds": [
         "obj.finnish.5.concept",
         "obj.finnish.5.source"
       ],
       "recordIds": [
-        "pg-5184",
         "pg-5186"
       ],
       "rewardArtId": null,
@@ -10061,7 +10056,7 @@
       "id": "pg-5186",
       "pantheon": "finnish",
       "title": "Kalevala",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "compiled-national-epic-translation",
       "sourceIds": [
         "fin.kalevala"
       ],
@@ -10073,7 +10068,7 @@
       "id": "pg-5184",
       "pantheon": "finnish",
       "title": "Kalevala, Volume 1",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "compiled-national-epic-translation",
       "sourceIds": [
         "fin.kalevala-vol1"
       ],

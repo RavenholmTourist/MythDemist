@@ -1,7 +1,7 @@
 {
   "id": "finnish.tradition.week01",
-  "title": "Finnish Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "Kalevala in Crawford's Translation",
+  "subtitle": "Five runos in L\u00f6nnrot's compiled epic",
   "pantheon": "finnish",
   "coverageType": "myth-cycle",
   "themeMode": "pantheon",
@@ -12,7 +12,7 @@
   "days": [
     {
       "day": 1,
-      "title": "V\u00e4in\u00e4m\u00f6inen and song",
+      "title": "V\u00e4in\u00e4m\u00f6inen: Birth and Song",
       "lessonId": "finnish.week01.day01.vainamoinen-and-song",
       "lessonPath": "content/lessons/finnish/tradition/day-01-vainamoinen-and-song.json",
       "status": "available"
@@ -26,21 +26,21 @@
     },
     {
       "day": 3,
-      "title": "Ilmarinen the smith",
+      "title": "Ilmarinen: The Bride of Gold",
       "lessonId": "finnish.week01.day03.ilmarinen-the-smith",
       "lessonPath": "content/lessons/finnish/tradition/day-03-ilmarinen-the-smith.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Louhi and Pohjola",
+      "title": "Louhi: The Sun and Moon Hidden",
       "lessonId": "finnish.week01.day04.louhi-and-pohjola",
       "lessonPath": "content/lessons/finnish/tradition/day-04-louhi-and-pohjola.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Kullervo and consequence",
+      "title": "Kullervo: The Cheat-Cake",
       "lessonId": "finnish.week01.day05.kullervo-and-consequence",
       "lessonPath": "content/lessons/finnish/tradition/day-05-kullervo-and-consequence.json",
       "status": "available"

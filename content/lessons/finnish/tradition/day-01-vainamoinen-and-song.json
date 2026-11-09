@@ -1,13 +1,13 @@
 {
   "id": "finnish.week01.day01.vainamoinen-and-song",
-  "version": 1,
+  "version": 2,
   "weekId": "finnish.tradition.week01",
   "pantheon": "finnish",
   "themeMode": "pantheon",
-  "title": "V\u00e4in\u00e4m\u00f6inen and song",
-  "subtitle": "Source-linked finnish starter lesson",
+  "title": "Väinämöinen: Birth and Song",
+  "subtitle": "A Kalevala episode in Crawford's English rendering",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "finnish",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.finnish.1.concept",
-      "text": "Identify the main idea in V\u00e4in\u00e4m\u00f6inen and song."
+      "text": "How long does Ilmatar labor in this Rune I passage?"
     },
     {
       "id": "obj.finnish.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What kind of book is Crawford's Kalevala?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "birth": {
       "recordId": "pg-5186",
       "sourceId": "fin.kalevala",
       "work": "Kalevala",
-      "author": "Elias L\u00f6nnrot",
+      "author": "Elias Lönnrot, compiler and editor",
       "translator": "John Martin Crawford",
-      "locator": "V\u00e4in\u00e4m\u00f6inen and song",
+      "locator": "Rune I · Birth of Wainamoinen; Rune I · Birth of Wainamoinen, normalized characters 1225-1290",
       "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-5184",
-      "sourceId": "fin.kalevala-vol1",
-      "work": "Kalevala, Volume 1",
-      "author": "Elias L\u00f6nnrot",
-      "translator": "John Martin Crawford",
-      "locator": "V\u00e4in\u00e4m\u00f6inen and song",
-      "localPath": "content/corpus/finnish/primary/kalevala-vol1-crawford-5184.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "Seven hundred years she labored Ere her first-born was delivered.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "V\u00e4in\u00e4m\u00f6inen and song",
-      "body": "V\u00e4in\u00e4m\u00f6inen and song is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A birth across generations",
+      "body": "Rune I describes Ilmatar carrying her child for seven hundred years before Väinämöinen is delivered.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
         "obj.finnish.1.concept"
@@ -63,24 +52,22 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The long birth",
+      "body": "Source quotation (Crawford's English translation; whitespace normalized): “Seven hundred years she labored Ere her first-born was delivered.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
-        "obj.finnish.1.source"
+        "obj.finnish.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A compiled epic speaks",
+      "body": "This is John Martin Crawford's English translation of Elias Lönnrot's nineteenth-century Kalevala, an edited compilation of Finnish and Karelian oral poetry.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
         "obj.finnish.1.source"
@@ -89,11 +76,10 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Not a single ancient manuscript",
+      "body": "The Kalevala is a modern national epic compiled from oral materials, not one unchanged ancient text or a record of every Finnish or Karelian performance.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
         "obj.finnish.1.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Name the actual witness",
+      "body": "For this lesson, the witness is Rune I in Crawford's English translation of Lönnrot's compilation. Keep its edition and sequence visible.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
-        "obj.finnish.1.concept"
+        "obj.finnish.1.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should V\u00e4in\u00e4m\u00f6inen and song be introduced?",
+      "prompt": "How long does Ilmatar labor in this Rune I passage?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Seven hundred years"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Seven days"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Three generations"
         }
       ],
       "answerId": "a",
-      "explanation": "V\u00e4in\u00e4m\u00f6inen and song is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The translated passage says she labored seven hundred years before her first-born was delivered.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
         "obj.finnish.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "birth"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What kind of book is Crawford's Kalevala?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A single ancient manuscript copied unchanged"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A modern field recording of one singer"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "An English translation of Lönnrot's nineteenth-century compilation"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "Lönnrot compiled and edited oral poetry; Crawford translated the resulting epic into English.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "birth"
       ],
       "objectiveIds": [
         "obj.finnish.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "birth"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Kalevala revisions; independent review of oral source traditions, Lönnrot's compilation, translation, and pedagogy remains pending."
   }
 }

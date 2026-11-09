@@ -1,13 +1,13 @@
 {
   "id": "finnish.week01.day03.ilmarinen-the-smith",
-  "version": 1,
+  "version": 2,
   "weekId": "finnish.tradition.week01",
   "pantheon": "finnish",
   "themeMode": "pantheon",
-  "title": "Ilmarinen the smith",
-  "subtitle": "Source-linked finnish starter lesson",
+  "title": "Ilmarinen: The Bride of Gold",
+  "subtitle": "A crafted image is not a living partner",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "finnish",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.finnish.3.concept",
-      "text": "Identify the main idea in Ilmarinen the smith."
+      "text": "What does Ilmarinen put into the furnace to make the bride?"
     },
     {
       "id": "obj.finnish.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What happens when Ilmarinen lies beside the golden bride?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "bride": {
       "recordId": "pg-5186",
       "sourceId": "fin.kalevala",
       "work": "Kalevala",
-      "author": "Elias L\u00f6nnrot",
+      "author": "Elias Lönnrot, compiler and editor",
       "translator": "John Martin Crawford",
-      "locator": "Ilmarinen the smith",
+      "locator": "Rune XXXVII · Ilmarinen’s Bride of Gold; Rune XXXVII · Ilmarinen’s Bride of Gold, normalized characters 2336-5622",
       "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-5184",
-      "sourceId": "fin.kalevala-vol1",
-      "work": "Kalevala, Volume 1",
-      "author": "Elias L\u00f6nnrot",
-      "translator": "John Martin Crawford",
-      "locator": "Ilmarinen the smith",
-      "localPath": "content/corpus/finnish/primary/kalevala-vol1-crawford-5184.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "I desire a bride of beauty Born from molten gold and silver!” Ilmarinen, the magician, To the furnace threw the lambkin; Added gold in great abundance, And increased the mass of silver, Added other magic metals, Set the workmen at the bellows; Zealously the servants labor, Gloveless, hatless, do the workmen Fan the flames within the furnace. Ilmarinen, wizard-forgeman, Works unceasing with his metals, Moulding well a golden image, Wife of molten gold and silver; But the workmen fail their master, Faithless do they ply the bellows. Now the artist, Ilmarinen, Fans the flames by force of magic; Blows one day, and then a second, Blows a third from morn till evening, When he looks within the furnace, Looks around the oven-border, Hoping there to see an image Rising from the molten metals. From the flames a colt arises, Golden-maned and silver-headed, Hoofs are formed of shining copper. All rejoice but Ilmarinen At the wonderful creation; This the language of the blacksmith: “Let the bears admire thy graces; I desire a bride of beauty Born of many magic metals.” Thereupon the wonder-forger Drives the colt back to the furnace, Adds a greater mass of silver, And of gold the rightful measure, Sets the workmen at the bellows. Eagerly the servants labor, Gloveless, hatless, do the workmen Fan the flames within the furnace. Ilmarinen, the magician, Works unceasing at his witchcraft, Moulding well a golden maiden, Bride of molten gold and silver; But the workmen fail their master, Faithlessly they ply the bellows. Now the blacksmith, Ilmarinen, Fans the flames with magic powers, Blows one day, and then a second, Blows a third from morn till even; Then he looks within his furnace, Looks around the oven-border, Trusting there to see a maiden Coming from the molten metals. From the fire a virgin rises, Golden-haired and silver-headed, Beautiful in form and feature. All are filled with awe and wonder, But the artist and magician. Ilmarinen, metal-worker, Forges nights and days unceasing, On the bride of his creation; Feet he forges for the maiden, Hands and arms, of gold and silver; But her feet are not for walking, Neither can her arms embrace him. Ears he forges for the virgin, But her ears are not for hearing; Forges her a mouth of beauty, Eyes he forges bright and sparkling; But the magic mouth is speechless, And the eyes are not for seeing. Spake the artist, Ilmarinen: “This, indeed, a priceless maiden, Could she only speak in wisdom, Could she breathe the breath of Ukko!” Thereupon he lays the virgin On his silken couch of slumber, On his downy place of resting. Ilmarinen heats his bath-room, Makes it ready for his service, Binds together silken brushes, Brings three cans of crystal water, Wherewithal to lave the image, Lave the golden maid of beauty. When this task had been completed, Ilmarinen, hoping, trusting, Laid his golden bride to slumber, On his downy couch of resting; Ordered many silken wrappings, Ordered bear-skins, three in number, Ordered seven lambs-wool blankets, Thus to keep him warm in slumber, Sleeping by the golden image He had forged from magic metals. Warm the side of Ilmarinen That was wrapped in furs and blankets; Chill the parts beside the maiden, By his bride of gold and silver; One side warm, the other lifeless",
+      "evidenceType": "quotation",
+      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Ilmarinen the smith",
-      "body": "Ilmarinen the smith is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A bride made in the forge",
+      "body": "After the death of the Maiden of the Rainbow, Ilmarinen says he wants a bride made of gold and silver and puts the metals into the furnace.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
         "obj.finnish.3.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The crafted bride",
+      "body": "Source quotation (Crawford's English translation; whitespace normalized): “I desire a bride of beauty Born from molten gold and silver!” Ilmarinen, the magician, To the furnace threw the lambkin; Added gold in great abundance, And increased the mass of silver, Added other magic metals, Set the workmen at the bellows; Zealously the servants labor, Gloveless, hatless, do the workmen Fan the flames within the furnace. Ilmarinen, wizard-forgeman, Works unceasing with his metals, Moulding well a golden image, Wife of molten gold and silver; But the workmen fail their master, Faithless do they ply the bellows. Now the artist, Ilmarinen, Fans the flames by force of magic; Blows one day, and then a second, Blows a third from morn till evening, When he looks within the furnace, Looks around the oven-border, Hoping there to see an image Rising from the molten metals. From the flames a colt arises, Golden-maned and silver-headed, Hoofs are formed of shining copper. All rejoice but Ilmarinen At the wonderful creation; This the language of the blacksmith: “Let the bears admire thy graces; I desire a bride of beauty Born of many magic metals.” Thereupon the wonder-forger Drives the colt back to the furnace, Adds a greater mass of silver, And of gold the rightful measure, Sets the workmen at the bellows. Eagerly the servants labor, Gloveless, hatless, do the workmen Fan the flames within the furnace. Ilmarinen, the magician, Works unceasing at his witchcraft, Moulding well a golden maiden, Bride of molten gold and silver; But the workmen fail their master, Faithlessly they ply the bellows. Now the blacksmith, Ilmarinen, Fans the flames with magic powers, Blows one day, and then a second, Blows a third from morn till even; Then he looks within his furnace, Looks around the oven-border, Trusting there to see a maiden Coming from the molten metals. From the fire a virgin rises, Golden-haired and silver-headed, Beautiful in form and feature. All are filled with awe and wonder, But the artist and magician. Ilmarinen, metal-worker, Forges nights and days unceasing, On the bride of his creation; Feet he forges for the maiden, Hands and arms, of gold and silver; But her feet are not for walking, Neither can her arms embrace him. Ears he forges for the virgin, But her ears are not for hearing; Forges her a mouth of beauty, Eyes he forges bright and sparkling; But the magic mouth is speechless, And the eyes are not for seeing. Spake the artist, Ilmarinen: “This, indeed, a priceless maiden, Could she only speak in wisdom, Could she breathe the breath of Ukko!” Thereupon he lays the virgin On his silken couch of slumber, On his downy place of resting. Ilmarinen heats his bath-room, Makes it ready for his service, Binds together silken brushes, Brings three cans of crystal water, Wherewithal to lave the image, Lave the golden maid of beauty. When this task had been completed, Ilmarinen, hoping, trusting, Laid his golden bride to slumber, On his downy couch of resting; Ordered many silken wrappings, Ordered bear-skins, three in number, Ordered seven lambs-wool blankets, Thus to keep him warm in slumber, Sleeping by the golden image He had forged from magic metals. Warm the side of Ilmarinen That was wrapped in furs and blankets; Chill the parts beside the maiden, By his bride of gold and silver; One side warm, the other lifeless”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
-        "obj.finnish.3.source"
+        "obj.finnish.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The image lacks life",
+      "body": "Ilmarinen takes the golden image to bed. The poem describes him as warm beneath his furs while the side next to the metal bride grows cold.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
-        "obj.finnish.3.source"
+        "obj.finnish.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Read the episode as poetic narrative",
+      "body": "This is a scene in Rune XXXVII of Lönnrot's compiled Kalevala, translated by Crawford. Avoid turning one episode into a universal statement about Finnish marriage or belief.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
         "obj.finnish.3.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Craft cannot supply reciprocity",
+      "body": "The episode contrasts Ilmarinen's crafted image with a living companion; the image remains cold and lifeless in this version.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
         "obj.finnish.3.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Ilmarinen the smith be introduced?",
+      "prompt": "What does Ilmarinen put into the furnace to make the bride?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Flour, salt, and money"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Gold and silver"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A tortoise shell and five-coloured stones"
         }
       ],
-      "answerId": "a",
-      "explanation": "Ilmarinen the smith is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "The passage says he adds gold and silver and works the metals in the furnace.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
         "obj.finnish.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "bride"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What happens when Ilmarinen lies beside the golden bride?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The side beside her turns cold; she is lifeless"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "She sings and wakes him"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "She becomes a living maiden"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The poem contrasts his warm side with the cold side beside the metal bride.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bride"
       ],
       "objectiveIds": [
         "obj.finnish.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "bride"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Kalevala revisions; independent review of oral source traditions, Lönnrot's compilation, translation, and pedagogy remains pending."
   }
 }

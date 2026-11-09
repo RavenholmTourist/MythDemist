@@ -1,13 +1,13 @@
 {
   "id": "finnish.week01.day05.kullervo-and-consequence",
-  "version": 1,
+  "version": 2,
   "weekId": "finnish.tradition.week01",
   "pantheon": "finnish",
   "themeMode": "pantheon",
-  "title": "Kullervo and consequence",
-  "subtitle": "Source-linked finnish starter lesson",
+  "title": "Kullervo: The Cheat-Cake",
+  "subtitle": "An insult to a knife sparks retaliation",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "finnish",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.finnish.5.concept",
-      "text": "Identify the main idea in Kullervo and consequence."
+      "text": "What breaks Kullervo's knife?"
     },
     {
       "id": "obj.finnish.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Kullervo call the loaf after finding the stone?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "knife": {
       "recordId": "pg-5186",
       "sourceId": "fin.kalevala",
       "work": "Kalevala",
-      "author": "Elias L\u00f6nnrot",
+      "author": "Elias Lönnrot, compiler and editor",
       "translator": "John Martin Crawford",
-      "locator": "Kullervo and consequence",
+      "locator": "Rune XXXIII · Kullervo and the Cheat-cake; Rune XXXIII · Kullervo and the Cheat-cake, normalized characters 2870-3163",
       "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-5184",
-      "sourceId": "fin.kalevala-vol1",
-      "work": "Kalevala, Volume 1",
-      "author": "Elias L\u00f6nnrot",
-      "translator": "John Martin Crawford",
-      "locator": "Kullervo and consequence",
-      "localPath": "content/corpus/finnish/primary/kalevala-vol1-crawford-5184.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "This, the blade that I hold sacred, This the one thing that I honor, Relic of my mother’s people! On the stone within this oat-loaf, On this cheat-cake of the hostess, I my precious knife have broken. How shall I repay this insult, How avenge this woman’s malice, What the wages for deception?",
+      "evidenceType": "quotation",
+      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Kullervo and consequence",
-      "body": "Kullervo and consequence is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A broken knife",
+      "body": "In Rune XXXIII, Kullervo cuts into his oat-loaf and breaks the knife he values. He discovers a stone hidden inside the cake.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
         "obj.finnish.5.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Kullervo names the insult",
+      "body": "Source quotation (Crawford's English translation; whitespace normalized): “This, the blade that I hold sacred, This the one thing that I honor, Relic of my mother’s people! On the stone within this oat-loaf, On this cheat-cake of the hostess, I my precious knife have broken. How shall I repay this insult, How avenge this woman’s malice, What the wages for deception?”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
-        "obj.finnish.5.source"
+        "obj.finnish.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Anger turns toward revenge",
+      "body": "Kullervo calls the loaf a cheat-cake and asks what the wages for deception should be. The next lines carry his retaliation into the herd.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
-        "obj.finnish.5.source"
+        "obj.finnish.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A named rune in a compiled epic",
+      "body": "The episode is from Lönnrot's Kalevala as translated by Crawford, not a direct transcript of a single oral performance. Kullervo's story must stay inside this version and sequence.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
         "obj.finnish.5.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A small object carries history",
+      "body": "Kullervo calls the knife a relic of his mother's people; the broken blade makes the meal an insult with personal and family meaning.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
         "obj.finnish.5.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Kullervo and consequence be introduced?",
+      "prompt": "What breaks Kullervo's knife?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The Sampo's lid"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A piece of iron from Louhi's mountain"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A stone hidden inside the oat-loaf"
         }
       ],
-      "answerId": "a",
-      "explanation": "Kullervo and consequence is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "Kullervo says his knife broke on a stone embedded in the loaf.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
         "obj.finnish.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "knife"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Kullervo call the loaf after finding the stone?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A bread of life"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A cheat-cake"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "A wedding-cake"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The excerpt calls the oat-loaf a cheat-cake and asks how to repay the deception.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "knife"
       ],
       "objectiveIds": [
         "obj.finnish.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named rune in Crawford's translation.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "How does Lönnrot's compiled epic frame this episode?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "knife"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Kalevala revisions; independent review of oral source traditions, Lönnrot's compilation, translation, and pedagogy remains pending."
   }
 }

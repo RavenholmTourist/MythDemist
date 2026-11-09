@@ -291,6 +291,34 @@ def _plain_indian_epic_segments(path, text):
     return segments
 
 
+def _plain_kalevala_segments(text):
+    """Separate Lönnrot's numbered runos from the modern edition's front matter."""
+    segments = []
+    headings = list(re.finditer(r"^\s*RUNE ([IVXLCDM]+)\.?\s*$", text, re.I | re.M))
+    if not headings:
+        return segments
+    first_actual = min(item.start() for item in headings)
+    last_by_rune = {}
+    for heading in headings:
+        last_by_rune[heading.group(1).upper()] = heading
+    ordered = sorted(last_by_rune.values(), key=lambda item: item.start())
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    toc = text[:first_actual]
+    for index, heading in enumerate(ordered):
+        stop = ordered[index + 1].start() if index + 1 < len(ordered) else len(text)
+        roman = heading.group(1).upper()
+        title_match = re.search(r"^\s*RUNE " + re.escape(roman) + r"\.\s+(.+?)\s*$", toc, re.I | re.M)
+        title = title_match.group(1).strip() if title_match else "Untitled episode"
+        add(text[heading.start():stop], f"Rune {roman} · {title}", "source-text")
+    add(text[:first_actual], "Crawford edition · front matter and contents", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -304,6 +332,8 @@ def source_segments(path):
             return _plain_chinese_segments(path, text)
         if path.name in {"mahabharata-dutt-19630.txt", "ramayana-vol1-dutt-57265.txt"}:
             return _plain_indian_epic_segments(path, text)
+        if path.name in {"kalevala-crawford-5186.txt", "kalevala-vol1-crawford-5184.txt"}:
+            return _plain_kalevala_segments(text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

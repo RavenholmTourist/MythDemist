@@ -6,9 +6,9 @@
     {
       "id": "pg-5186",
       "title": "Kalevala",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "compiled-national-epic-translation",
       "ancientAuthors": [
-        "Elias L\u00f6nnrot"
+        "Elias L\u00f6nnrot (compiler and editor)"
       ],
       "translator": "John Martin Crawford",
       "sourceIds": [
@@ -17,14 +17,14 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/5186",
       "localPath": "primary/kalevala-crawford-5186.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Crawford's English translation of L\u00f6nnrot's nineteenth-century compiled epic, assembled from Finnish and Karelian oral poetry; not a transcript of one ancient or single oral witness."
     },
     {
       "id": "pg-5184",
       "title": "Kalevala, Volume 1",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "compiled-national-epic-translation",
       "ancientAuthors": [
-        "Elias L\u00f6nnrot"
+        "Elias L\u00f6nnrot (compiler and editor)"
       ],
       "translator": "John Martin Crawford",
       "sourceIds": [
@@ -33,7 +33,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/5184",
       "localPath": "primary/kalevala-vol1-crawford-5184.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Volume 1 duplicates the opening runes of the full Kalevala in the same Crawford translation; it is not an independent witness."
     }
   ]
 }

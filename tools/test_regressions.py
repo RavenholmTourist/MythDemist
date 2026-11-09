@@ -740,6 +740,39 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('three Princes', story['text'])
         self.assertTrue(any(s['locator'] == 'Pyle edition · front matter and contents' and s['evidenceType'] == 'editorial-note' for s in segments))
 
+    def test_basque_lessons_use_websters_labourd_story_segments(self):
+        files = sorted((ROOT / 'content/lessons/basque').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-34902'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('ring', titles['The Tartaro and the Talking Ring'].lower())
+        self.assertIn('Acheria', titles['Acheria the Fox'])
+        self.assertIn('Heren-Suge', titles['The Grateful Tartaro and the Heren-Suge'])
+        self.assertIn('Basa-Andre', titles['Basa-Jauna and the Three Brothers'])
+        self.assertIn('fairy', titles["The Servant at the Fairy's"].lower())
+        record = json.loads((ROOT / 'content/corpus/basque/manifest.json').read_text(encoding='utf-8'))['records'][0]
+        self.assertEqual(record['sourceType'], 'field-collected-folklore-translation')
+        self.assertIn('chiefly in Labourd', record['notes'])
+
+    def test_webster_parser_separates_basque_tales_from_editorial_sections(self):
+        segments = source_segments(ROOT / 'content/corpus/basque/primary/basque-legends-webster-34902.txt')
+        tartaro = next(s for s in segments if s['locator'] == 'THE TARTARO.')
+        self.assertEqual(tartaro['evidenceType'], 'source-text')
+        self.assertIn('Estefanella Hirigarray', tartaro['text'])
+        editorial = next(s for s in segments if s['locator'] == 'I.--LEGENDS OF THE TARTARO.')
+        self.assertEqual(editorial['evidenceType'], 'editorial-note')
+        self.assertTrue(any(s['locator'] == 'Webster edition · introduction and contents' for s in segments))
+
 
 if __name__ == '__main__':
     unittest.main()

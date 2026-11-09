@@ -1,13 +1,13 @@
 {
   "id": "basque.week01.day05.witches-and-village-tales",
-  "version": 1,
+  "version": 2,
   "weekId": "basque.tradition.week01",
   "pantheon": "basque",
   "themeMode": "pantheon",
-  "title": "Witches and village tales",
-  "subtitle": "Source-linked basque starter lesson",
+  "title": "The Servant at the Fairy's",
+  "subtitle": "A dog corrects a servant's instructions",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "basque",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.basque.5.concept",
-      "text": "Identify the main idea in Witches and village tales."
+      "text": "What does the little dog tell the servant?"
     },
     {
       "id": "obj.basque.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What should we avoid assuming from the title's word 'fairy'?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "fairy": {
       "recordId": "pg-34902",
       "sourceId": "basque.legends",
       "work": "Basque Legends",
-      "author": "various Basque traditions",
-      "translator": "Wentworth Webster",
-      "locator": "Witches and village tales",
+      "author": "Basque storytellers; collected and translated by Wentworth Webster",
+      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+      "locator": "THE SERVANT AT THE FAIRY'S.; THE SERVANT AT THE FAIRY'S., normalized characters 383-1279",
       "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "She gave her her morning's work to do, and said to her: \"We are fairies. I must go from home, but your work is in the kitchen; smash the pitcher, break all the plates, pound the children, give them breakfast (by themselves), dirty their faces, and rumple their hair.\" [50] While she was at breakfast with the children, a little dog comes to her and says: \"Tchau, tchau, tchow; I too, I want something.\" \"Be off from here, silly little dog; I will give you a kick.\" But the dog did not go away; and at last she gave him something to eat--a little, not much. \"And now,\" says he, \"I will tell you what the mistress has told you to do. She told you to sweep the kitchen, to fill the pitcher, and to wash all the plates, and that if it is all well done she will give you the choice of a sack of charcoal or of a bag of gold; of a beautiful star on your forehead, or of a donkey's tail hanging from it.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Witches and village tales",
-      "body": "Witches and village tales is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A new servant gets impossible instructions",
+      "body": "A young woman seeks work and is hired by a fairy. The mistress gives her a list of destructive tasks for the kitchen and children.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
         "obj.basque.5.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The dog knows the real task",
+      "body": "Source quotation (Webster's English collection; whitespace normalized): “She gave her her morning's work to do, and said to her: \"We are fairies. I must go from home, but your work is in the kitchen; smash the pitcher, break all the plates, pound the children, give them breakfast (by themselves), dirty their faces, and rumple their hair.\" [50] While she was at breakfast with the children, a little dog comes to her and says: \"Tchau, tchau, tchow; I too, I want something.\" \"Be off from here, silly little dog; I will give you a kick.\" But the dog did not go away; and at last she gave him something to eat--a little, not much. \"And now,\" says he, \"I will tell you what the mistress has told you to do. She told you to sweep the kitchen, to fill the pitcher, and to wash all the plates, and that if it is all well done she will give you the choice of a sack of charcoal or of a bag of gold; of a beautiful star on your forehead, or of a donkey's tail hanging from it.”",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
-        "obj.basque.5.source"
+        "obj.basque.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Kindness changes the outcome",
+      "body": "After the servant feeds the little dog, it tells her the tasks she should actually do and what choices the fairy will offer.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
-        "obj.basque.5.source"
+        "obj.basque.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Do not overstate the supernatural label",
+      "body": "The title calls the being a fairy, within Webster's collected Basque tales. It is not evidence that all Basque communities used one uniform category called lamiñak.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
         "obj.basque.5.source"
@@ -87,13 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A familiar tale in a local collection",
+      "body": "This story appears in Webster's Basque collection, but the book also separates tales adapted directly from French. Its collection label alone does not prove an ancient or uniquely Basque origin.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
-        "obj.basque.5.concept"
+        "obj.basque.5.source"
       ]
     }
   ],
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Witches and village tales be introduced?",
+      "prompt": "What does the little dog tell the servant?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "How to defeat Huitzilopochtli"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Where the Tartaro hides his ring"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The real tasks and the choices the fairy will offer"
         }
       ],
-      "answerId": "a",
-      "explanation": "Witches and village tales is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The dog tells her what the mistress actually instructed and how to answer the reward choices.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
         "obj.basque.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "fairy"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What should we avoid assuming from the title's word 'fairy'?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "That the story comes from the Popol Vuh"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "That it names a single uniform Basque being in every community"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "That the tale is an English scientific report"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "Webster groups varied collected tales; a title label should not be generalized into a uniform belief system.",
       "sourceRefIds": [
-        "ref-primary"
+        "fairy"
       ],
       "objectiveIds": [
         "obj.basque.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "fairy"
         ]
       }
     }
@@ -190,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Collected Basque tales in Webster's Labourd-focused volume; independent source-history, community, and pedagogy review remains pending."
   }
 }

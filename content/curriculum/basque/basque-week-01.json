@@ -1,7 +1,7 @@
 {
   "id": "basque.tradition.week01",
-  "title": "Basque Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "Basque Folktales in Webster's Labourd Collection",
+  "subtitle": "Five stories from an 1879 English collection, with local source limits visible",
   "pantheon": "basque",
   "coverageType": "folklore",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Mari and sacred mountains",
+      "title": "The Tartaro and the Talking Ring",
       "lessonId": "basque.week01.day01.mari-and-sacred-mountains",
       "lessonPath": "content/lessons/basque/tradition/day-01-mari-and-sacred-mountains.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Basa-Jaun",
+      "title": "Acheria the Fox",
       "lessonId": "basque.week01.day02.basa-jaun",
       "lessonPath": "content/lessons/basque/tradition/day-02-basa-jaun.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Lami\u00f1ak and waters",
+      "title": "The Grateful Tartaro and the Heren-Suge",
       "lessonId": "basque.week01.day03.laminak-and-waters",
       "lessonPath": "content/lessons/basque/tradition/day-03-laminak-and-waters.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Tartaro and giants",
+      "title": "Basa-Jauna and the Three Brothers",
       "lessonId": "basque.week01.day04.tartaro-and-giants",
       "lessonPath": "content/lessons/basque/tradition/day-04-tartaro-and-giants.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Witches and village tales",
+      "title": "The Servant at the Fairy's",
       "lessonId": "basque.week01.day05.witches-and-village-tales",
       "lessonPath": "content/lessons/basque/tradition/day-05-witches-and-village-tales.json",
       "status": "available"

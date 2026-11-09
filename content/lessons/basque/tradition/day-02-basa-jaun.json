@@ -1,13 +1,13 @@
 {
   "id": "basque.week01.day02.basa-jaun",
-  "version": 1,
+  "version": 2,
   "weekId": "basque.tradition.week01",
   "pantheon": "basque",
   "themeMode": "pantheon",
-  "title": "Basa-Jaun",
-  "subtitle": "Source-linked basque starter lesson",
+  "title": "Acheria the Fox",
+  "subtitle": "A fox recruits a wolf to distract a shepherd",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "basque",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.basque.2.concept",
-      "text": "Identify the main idea in Basa-Jaun."
+      "text": "What does Acheria ask the wolf to do?"
     },
     {
       "id": "obj.basque.2.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Acheria put into the vessel after eating the cream?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "fox": {
       "recordId": "pg-34902",
       "sourceId": "basque.legends",
       "work": "Basque Legends",
-      "author": "various Basque traditions",
-      "translator": "Wentworth Webster",
-      "locator": "Basa-Jaun",
+      "author": "Basque storytellers; collected and translated by Wentworth Webster",
+      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+      "locator": "ACHERIA, THE FOX.; ACHERIA, THE FOX., normalized characters 18-1329",
       "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "One day a fox was hungry. He did not know what to think. He saw a shepherd pass every day with his flock, and he said to himself that he ought to steal his milk and his cheese, and to have a good feast; but he needed some one to help him in order to effect anything. So he goes off to find a wolf, and he says to him, \"Wolf, wolf! we ought to have a feast with such a shepherd's milk and cheese. You, you shall go to where the flocks are feeding, and from a distance you must howl, 'Uhur, uhur, uhur.' The man, after having milked his sheep, drives them into the field, with his dog, very early in the morning, and he stops at home to do his work, and then he makes his cheese; and, when you have begun to howl 'Uhur, uhur,' and the dog to bark, the shepherd will leave everything else, and will go off full speed. During this time I will steal the milk, and we will share it when you come to me.\" The wolf agreed to have a feast, and set out. He did just what the fox had told him. The dog began to bark when the wolf approached. And when the man heard that he went off, leaving everything, and our fox goes and steals the vessel in which the curdled milk was. What does he do then, before the arrival of the wolf? He gently, gently takes off the cream, thinly, thinly, and he eats all the contents of the jug.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Basa-Jaun",
-      "body": "Basa-Jaun is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A plan for milk and cheese",
+      "body": "Acheria, the fox, wants a meal from the shepherd. He asks a wolf to howl and draw the shepherd away while he steals the curdled milk.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
         "obj.basque.2.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The fox makes the division",
+      "body": "Source quotation (Webster's English collection; whitespace normalized): “One day a fox was hungry. He did not know what to think. He saw a shepherd pass every day with his flock, and he said to himself that he ought to steal his milk and his cheese, and to have a good feast; but he needed some one to help him in order to effect anything. So he goes off to find a wolf, and he says to him, \"Wolf, wolf! we ought to have a feast with such a shepherd's milk and cheese. You, you shall go to where the flocks are feeding, and from a distance you must howl, 'Uhur, uhur, uhur.' The man, after having milked his sheep, drives them into the field, with his dog, very early in the morning, and he stops at home to do his work, and then he makes his cheese; and, when you have begun to howl 'Uhur, uhur,' and the dog to bark, the shepherd will leave everything else, and will go off full speed. During this time I will steal the milk, and we will share it when you come to me.\" The wolf agreed to have a feast, and set out. He did just what the fox had told him. The dog began to bark when the wolf approached. And when the man heard that he went off, leaving everything, and our fox goes and steals the vessel in which the curdled milk was. What does he do then, before the arrival of the wolf? He gently, gently takes off the cream, thinly, thinly, and he eats all the contents of the jug.”",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
-        "obj.basque.2.source"
+        "obj.basque.2.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A trick on a partner",
+      "body": "After eating the cream, Acheria fills the vessel with dirt and offers the wolf a choice between the top and bottom of the mixture.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
-        "obj.basque.2.source"
+        "obj.basque.2.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A collected animal tale",
+      "body": "This is one named story in Webster's 1879 collection, collected chiefly in Labourd. It supports claims about this tale and its English telling, not a universal Basque rule about foxes.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
         "obj.basque.2.source"
@@ -87,10 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The fox controls the bargain",
+      "body": "The story's humor depends on Acheria setting up the wolf's choice after secretly changing the contents.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
         "obj.basque.2.concept"
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Basa-Jaun be introduced?",
+      "prompt": "What does Acheria ask the wolf to do?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Guard the cheese"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Carry the milk to the Tartaro"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Howl to draw the shepherd away"
         }
       ],
-      "answerId": "a",
-      "explanation": "Basa-Jaun is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The fox asks the wolf to howl so the shepherd will leave the cheese-making behind.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
         "obj.basque.2.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "fox"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Acheria put into the vessel after eating the cream?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A ring"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Dirt"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Water"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The passage says he fills it with dirt and puts the cream back on top.",
       "sourceRefIds": [
-        "ref-primary"
+        "fox"
       ],
       "objectiveIds": [
         "obj.basque.2.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "fox"
         ]
       }
     }
@@ -190,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Collected Basque tales in Webster's Labourd-focused volume; independent source-history, community, and pedagogy review remains pending."
   }
 }

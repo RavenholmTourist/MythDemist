@@ -532,6 +532,50 @@ def _plain_pyle_fairy_segments(text):
     return segments
 
 
+def _plain_webster_basque_segments(text):
+    """Separate Webster's named collected tales from comparison and language essays."""
+    start_match = re.search(r"^\s*I\.\-\-LEGENDS OF THE TARTARO\.\s*$", text, re.I | re.M)
+    end = re.search(r"^\s*NOTES\s*$", text, re.I | re.M)
+    if not start_match:
+        return []
+    body_end = end.start() if end and end.start() > start_match.start() else len(text)
+    headings = [
+        match for match in re.finditer(r"^\s*([A-Z][A-Z0-9 .,\'\"()\-;\[\]—–]+)\s*$", text[start_match.start():body_end], re.M)
+        if len(match.group(1).strip()) > 3
+    ]
+    segments = []
+    editorial_headings = {
+        "I.--LEGENDS OF THE TARTARO.",
+        "II--THE HEREN-SUGE.--THE SEVEN-HEADED SERPENT.",
+        "III.--ANIMAL TALES.",
+        "IV.--BASA-JAUN, BASA-ANDRE, AND LAMIÑAK.",
+        "V.--WITCHCRAFT AND SORCERY.",
+        "VI.--CONTES DES FÉES.",
+        "VII.--RELIGIOUS TALES.",
+        "AN ESSAY ON THE BASQUE LANGUAGE,",
+        "BASQUE POETRY.",
+        "SUGGESTED EXPLANATION OF THE ABOVE TALE (THE LADY-PIGEON AND HER COMB).",
+        "NOTES",
+    }
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    add(text[:start_match.start()], "Webster edition · introduction and contents", "editorial-note")
+    offset = start_match.start()
+    for index, heading in enumerate(headings):
+        title = heading.group(1).strip()
+        absolute_start = start_match.start() + heading.start()
+        absolute_end = start_match.start() + (headings[index + 1].start() if index + 1 < len(headings) else body_end - start_match.start())
+        kind = "editorial-note" if title in editorial_headings or title.startswith("VARIATION") else "source-text"
+        add(text[absolute_start:absolute_end], title, kind)
+    if end:
+        add(text[end.start():], "Webster edition · notes and back matter", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -557,6 +601,8 @@ def source_segments(path):
             return _plain_rasmussen_greenland_segments(text)
         if path.name == "fairy-tales-far-near-66919.txt":
             return _plain_pyle_fairy_segments(text)
+        if path.name == "basque-legends-webster-34902.txt":
+            return _plain_webster_basque_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":

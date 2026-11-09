@@ -6,18 +6,18 @@
     {
       "id": "pg-34902",
       "title": "Basque Legends",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "field-collected-folklore-translation",
       "ancientAuthors": [
-        "various Basque traditions"
+        "Basque storytellers, collected chiefly in Labourd by Wentworth Webster"
       ],
-      "translator": "Wentworth Webster",
+      "translator": "Wentworth Webster, with language assistance from Julien Vinson and local contributors",
       "sourceIds": [
         "basque.legends"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/34902",
       "localPath": "primary/basque-legends-webster-34902.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Second edition of Basque legends collected chiefly in Labourd. Webster distinguishes local tales from stories he identifies as French-derived and compares some motifs with wider European folklore; preserve each tale's local label and informant where given."
     }
   ]
 }

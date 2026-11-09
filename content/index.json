@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T02:42:30.199084+00:00",
+  "generatedAt": "2026-11-09T02:57:31.195589+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -2019,7 +2019,7 @@
     },
     {
       "id": "basque.tradition.week01",
-      "title": "Basque Traditions",
+      "title": "Basque Folktales in Webster's Labourd Collection",
       "pantheon": "basque",
       "path": "content/curriculum/basque/basque-week-01.json",
       "dayCount": 5,
@@ -5828,15 +5828,15 @@
     },
     {
       "id": "basque.week01.day01.mari-and-sacred-mountains",
-      "version": 1,
+      "version": 2,
       "pantheon": "basque",
-      "title": "Mari and sacred mountains",
+      "title": "The Tartaro and the Talking Ring",
       "weekId": "basque.tradition.week01",
       "tags": [
         "basque",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-01-mari-and-sacred-mountains.json",
       "objectiveIds": [
         "obj.basque.1.concept",
@@ -5859,15 +5859,15 @@
     },
     {
       "id": "basque.week01.day02.basa-jaun",
-      "version": 1,
+      "version": 2,
       "pantheon": "basque",
-      "title": "Basa-Jaun",
+      "title": "Acheria the Fox",
       "weekId": "basque.tradition.week01",
       "tags": [
         "basque",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-02-basa-jaun.json",
       "objectiveIds": [
         "obj.basque.2.concept",
@@ -5890,15 +5890,15 @@
     },
     {
       "id": "basque.week01.day03.laminak-and-waters",
-      "version": 1,
+      "version": 2,
       "pantheon": "basque",
-      "title": "Lami\u00f1ak and waters",
+      "title": "The Grateful Tartaro and the Heren-Suge",
       "weekId": "basque.tradition.week01",
       "tags": [
         "basque",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-03-laminak-and-waters.json",
       "objectiveIds": [
         "obj.basque.3.concept",
@@ -5921,15 +5921,15 @@
     },
     {
       "id": "basque.week01.day04.tartaro-and-giants",
-      "version": 1,
+      "version": 2,
       "pantheon": "basque",
-      "title": "Tartaro and giants",
+      "title": "Basa-Jauna and the Three Brothers",
       "weekId": "basque.tradition.week01",
       "tags": [
         "basque",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-04-tartaro-and-giants.json",
       "objectiveIds": [
         "obj.basque.4.concept",
@@ -5952,15 +5952,15 @@
     },
     {
       "id": "basque.week01.day05.witches-and-village-tales",
-      "version": 1,
+      "version": 2,
       "pantheon": "basque",
-      "title": "Witches and village tales",
+      "title": "The Servant at the Fairy's",
       "weekId": "basque.tradition.week01",
       "tags": [
         "basque",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-05-witches-and-village-tales.json",
       "objectiveIds": [
         "obj.basque.5.concept",
@@ -9858,7 +9858,7 @@
       "id": "pg-34902",
       "pantheon": "basque",
       "title": "Basque Legends",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "field-collected-folklore-translation",
       "sourceIds": [
         "basque.legends"
       ],

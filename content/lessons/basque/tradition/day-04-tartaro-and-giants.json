@@ -1,13 +1,13 @@
 {
   "id": "basque.week01.day04.tartaro-and-giants",
-  "version": 1,
+  "version": 2,
   "weekId": "basque.tradition.week01",
   "pantheon": "basque",
   "themeMode": "pantheon",
-  "title": "Tartaro and giants",
-  "subtitle": "Source-linked basque starter lesson",
+  "title": "Basa-Jauna and the Three Brothers",
+  "subtitle": "A wild-man household in a Basque story",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "basque",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.basque.4.concept",
-      "text": "Identify the main idea in Tartaro and giants."
+      "text": "What does the youngest brother see from the tree?"
     },
     {
       "id": "obj.basque.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Who warns the brothers about the Basa-Jaun?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "wildman": {
       "recordId": "pg-34902",
       "sourceId": "basque.legends",
       "work": "Basque Legends",
-      "author": "various Basque traditions",
-      "translator": "Wentworth Webster",
-      "locator": "Tartaro and giants",
+      "author": "Basque storytellers; collected and translated by Wentworth Webster",
+      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+      "locator": "BASA-JAUNA, THE WILD MAN.; BASA-JAUNA, THE WILD MAN., normalized characters 1091-1635",
       "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "the three brothers set out together. At eight o'clock in the evening they come to a grand castle, and they knock at the door, and the Basa-Andre (wild woman) comes to answer. She asks: \"Who is there?\" And they reply, \"It is we who are here.\" \"What do you want, young children? Where are you going to at this time of night?\" \"We ask and beg of you to give us shelter for to-night; we will be satisfied with a corner of the floor, poor wretches as we are.\" \"I have my husband, the Basa-Jaun, and if he catches you he will eat you; that's certain.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Tartaro and giants",
-      "body": "Tartaro and giants is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A trail of smoke",
+      "body": "Three brothers travel through a forest at night. The youngest sees a thin column of smoke in the distance and leads them toward a castle.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
         "obj.basque.4.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A warning at the castle",
+      "body": "Source quotation (Webster's English collection; whitespace normalized): “the three brothers set out together. At eight o'clock in the evening they come to a grand castle, and they knock at the door, and the Basa-Andre (wild woman) comes to answer. She asks: \"Who is there?\" And they reply, \"It is we who are here.\" \"What do you want, young children? Where are you going to at this time of night?\" \"We ask and beg of you to give us shelter for to-night; we will be satisfied with a corner of the floor, poor wretches as we are.\" \"I have my husband, the Basa-Jaun, and if he catches you he will eat you; that's certain.”",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
-        "obj.basque.4.source"
+        "obj.basque.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The Basa-Andre opens the door",
+      "body": "The brothers ask for shelter. The Basa-Andre warns them that her husband, the Basa-Jaun, may eat them, but lets them in.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
-        "obj.basque.4.source"
+        "obj.basque.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Name the collection's variant",
+      "body": "Basa-Jauna and Basa-Andre appear in Webster's collection of Labourd stories. Preserve these names and this written version rather than treating them as the same figure in every local account.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
         "obj.basque.4.source"
@@ -87,10 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Hospitality exists beside danger",
+      "body": "The story begins with shelter offered in a household that the visitors have reason to fear.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
         "obj.basque.4.concept"
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Tartaro and giants be introduced?",
+      "prompt": "What does the youngest brother see from the tree?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "A thin column of smoke far away"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A moon hidden in a mountain"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A fox carrying a milk jug"
         }
       ],
       "answerId": "a",
-      "explanation": "Tartaro and giants is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The youngest brother says he sees a thin column of smoke and leads them toward it.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
         "obj.basque.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "wildman"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Who warns the brothers about the Basa-Jaun?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The Tartaro"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Acheria the fox"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The Basa-Andre"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "The Basa-Andre tells the brothers her husband may eat them.",
       "sourceRefIds": [
-        "ref-primary"
+        "wildman"
       ],
       "objectiveIds": [
         "obj.basque.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "wildman"
         ]
       }
     }
@@ -190,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Collected Basque tales in Webster's Labourd-focused volume; independent source-history, community, and pedagogy review remains pending."
   }
 }

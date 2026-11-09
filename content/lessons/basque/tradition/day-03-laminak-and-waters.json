@@ -1,13 +1,13 @@
 {
   "id": "basque.week01.day03.laminak-and-waters",
-  "version": 1,
+  "version": 2,
   "weekId": "basque.tradition.week01",
   "pantheon": "basque",
   "themeMode": "pantheon",
-  "title": "Lami\u00f1ak and waters",
-  "subtitle": "Source-linked basque starter lesson",
+  "title": "The Grateful Tartaro and the Heren-Suge",
+  "subtitle": "A ball-game bargain frees a prisoner",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "basque",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.basque.3.concept",
-      "text": "Identify the main idea in Lami\u00f1ak and waters."
+      "text": "What does the Tartaro ask for in exchange for the ball?"
     },
     {
       "id": "obj.basque.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How does the boy get the stable key?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "ball": {
       "recordId": "pg-34902",
       "sourceId": "basque.legends",
       "work": "Basque Legends",
-      "author": "various Basque traditions",
-      "translator": "Wentworth Webster",
-      "locator": "Lami\u00f1ak and waters",
+      "author": "Basque storytellers; collected and translated by Wentworth Webster",
+      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+      "locator": "THE GRATEFUL TARTARO AND THE HEREN-SUGE.; THE GRATEFUL TARTARO AND THE HEREN-SUGE., normalized characters 480-1491",
       "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "The next day the two sons of the king were playing at ball against (the wall of) the stable where the Tartaro was confined, and the ball went into the stable. One of the boys goes and asks the Tartaro-- \"Throw me back my ball, I beg you.\" He says to him, \"Yes, if you will deliver me.\" He replies, \"Yes, yes,\" and he threw him the ball. A moment after, the ball goes again to the Tartaro. He asks for it again; and the Tartaro says: \"If you will deliver me, I will give it you.\" The boy says, \"Yes, yes,\" takes his ball, and goes off. The ball goes there for the third time, but the Tartaro will not give it before he is let out. The boy says that he has not the key. The Tartaro says to him: \"Go to your mother, and tell her to look in your right ear, because something hurts you there. Your mother will have the key in her left pocket, and take it out.\" The boy goes, and does as the Tartaro had told him. He takes the key from his mother, and delivers the Tartaro. When he was letting him go, he said to him:",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Lami\u00f1ak and waters",
-      "body": "Lami\u00f1ak and waters is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A ball enters the stable",
+      "body": "A king keeps a Tartaro in a stable. When a boy's ball rolls inside, the prisoner offers to return it if the boy will free him.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
         "obj.basque.3.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "An exchange with consequences",
+      "body": "Source quotation (Webster's English collection; whitespace normalized): “The next day the two sons of the king were playing at ball against (the wall of) the stable where the Tartaro was confined, and the ball went into the stable. One of the boys goes and asks the Tartaro-- \"Throw me back my ball, I beg you.\" He says to him, \"Yes, if you will deliver me.\" He replies, \"Yes, yes,\" and he threw him the ball. A moment after, the ball goes again to the Tartaro. He asks for it again; and the Tartaro says: \"If you will deliver me, I will give it you.\" The boy says, \"Yes, yes,\" takes his ball, and goes off. The ball goes there for the third time, but the Tartaro will not give it before he is let out. The boy says that he has not the key. The Tartaro says to him: \"Go to your mother, and tell her to look in your right ear, because something hurts you there. Your mother will have the key in her left pocket, and take it out.\" The boy goes, and does as the Tartaro had told him. He takes the key from his mother, and delivers the Tartaro. When he was letting him go, he said to him:”",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
-        "obj.basque.3.source"
+        "obj.basque.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The boy takes the key",
+      "body": "The Tartaro tells the boy how to take the key from his mother. He escapes and promises to help later.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
-        "obj.basque.3.source"
+        "obj.basque.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A Basque collection with cross-tradition parallels",
+      "body": "Webster places this story among Basque Tartaro and serpent legends, while noting that the Heren-Suge cycle resembles wider European dragon-slayer motifs. Keep the local telling and the comparison distinct.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
         "obj.basque.3.source"
@@ -87,10 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A small bargain launches the plot",
+      "body": "The returned ball is not a harmless ending: the boy's promise frees the Tartaro and creates a future debt.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
         "obj.basque.3.concept"
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Lami\u00f1ak and waters be introduced?",
+      "prompt": "What does the Tartaro ask for in exchange for the ball?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The boy must marry the princess"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "The boy must deliver him from the stable"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The boy must bring three cubs"
         }
       ],
-      "answerId": "a",
-      "explanation": "Lami\u00f1ak and waters is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "The prisoner says he will return the ball if the boy delivers him.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
         "obj.basque.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "ball"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How does the boy get the stable key?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The Tartaro tells him a trick involving his mother's ear"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "He breaks the stable door"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The king gives it to him"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The excerpt begins the Tartaro's instruction about where the key is hidden.",
       "sourceRefIds": [
-        "ref-primary"
+        "ball"
       ],
       "objectiveIds": [
         "obj.basque.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "ball"
         ]
       }
     }
@@ -190,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Collected Basque tales in Webster's Labourd-focused volume; independent source-history, community, and pedagogy review remains pending."
   }
 }

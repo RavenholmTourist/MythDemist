@@ -1,13 +1,13 @@
 {
   "id": "basque.week01.day01.mari-and-sacred-mountains",
-  "version": 1,
+  "version": 2,
   "weekId": "basque.tradition.week01",
   "pantheon": "basque",
   "themeMode": "pantheon",
-  "title": "Mari and sacred mountains",
-  "subtitle": "Source-linked basque starter lesson",
+  "title": "The Tartaro and the Talking Ring",
+  "subtitle": "A short tale collected at Ahetze",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "basque",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.basque.1.concept",
-      "text": "Identify the main idea in Mari and sacred mountains."
+      "text": "What must the Tartaro do to return to human form in this story?"
     },
     {
       "id": "obj.basque.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How does the girl finally stop the ring's pursuit?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "ring": {
       "recordId": "pg-34902",
       "sourceId": "basque.legends",
       "work": "Basque Legends",
-      "author": "various Basque traditions",
-      "translator": "Wentworth Webster",
-      "locator": "Mari and sacred mountains",
+      "author": "Basque storytellers; collected and translated by Wentworth Webster",
+      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+      "locator": "THE TARTARO.; THE TARTARO., normalized characters 13-672",
       "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "Once upon a time there was the son of a king who for the punishment of some fault became a monster. He could become a man again only by marrying. One day he met a young girl who refused him, because she was so frightened at him. And the Tartaro wanted to give her a ring, which she would not accept. However, he sent it her by a young man. As soon as the ring was upon her finger it began to say, \"Thou there, and I here.\" [12] It kept always crying out this, and the Tartaro pursued her continually; and, as the young girl had such a horror of him, she cut off her finger and the ring, and threw them into a large pond, and there the Tartaro drowned himself.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Mari and sacred mountains",
-      "body": "Mari and sacred mountains is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A monster seeks a wife",
+      "body": "In one tale in Webster's Basque collection, a king's son becomes a Tartaro and can return to human form only by marrying.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
         "obj.basque.1.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A ring will not stay silent",
+      "body": "Source quotation (Webster's English collection; whitespace normalized): “Once upon a time there was the son of a king who for the punishment of some fault became a monster. He could become a man again only by marrying. One day he met a young girl who refused him, because she was so frightened at him. And the Tartaro wanted to give her a ring, which she would not accept. However, he sent it her by a young man. As soon as the ring was upon her finger it began to say, \"Thou there, and I here.\" [12] It kept always crying out this, and the Tartaro pursued her continually; and, as the young girl had such a horror of him, she cut off her finger and the ring, and threw them into a large pond, and there the Tartaro drowned himself.”",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
-        "obj.basque.1.source"
+        "obj.basque.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The girl escapes pursuit",
+      "body": "The frightened girl throws away the ring, but it keeps calling to the Tartaro. She finally cuts it off with her finger and throws it into a pond.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
-        "obj.basque.1.source"
+        "obj.basque.1.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A named local tale",
+      "body": "Webster says this version came from Estefanella Hirigaray of Ahetze in Labourd. It is one collected Basque story, not a universal account of every Basque community.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
         "obj.basque.1.source"
@@ -87,13 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Keep the teller attached",
+      "body": "The unusual speaking ring and the ending belong to this reported Ahetze version. Other Tartaro stories in Webster's book have different plots.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
-        "obj.basque.1.concept"
+        "obj.basque.1.source"
       ]
     }
   ],
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Mari and sacred mountains be introduced?",
+      "prompt": "What must the Tartaro do to return to human form in this story?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Marry"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Win a ballgame"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Find a seven-headed serpent"
         }
       ],
       "answerId": "a",
-      "explanation": "Mari and sacred mountains is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The tale says the monster can become a man again only by marrying.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
         "obj.basque.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "ring"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How does the girl finally stop the ring's pursuit?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "She hides it in a cave"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "She asks Basa-Jaun to break it"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "She cuts off her finger and throws the ring into a pond"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "The story ends with the girl cutting off her finger and throwing the ring into a pond.",
       "sourceRefIds": [
-        "ref-primary"
+        "ring"
       ],
       "objectiveIds": [
         "obj.basque.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named tale in Webster's Basque collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Does Webster identify the teller or compare this story with another tradition?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "ring"
         ]
       }
     }
@@ -190,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Collected Basque tales in Webster's Labourd-focused volume; independent source-history, community, and pedagogy review remains pending."
   }
 }

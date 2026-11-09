@@ -193,6 +193,50 @@ def _plain_mesopotamian_segments(path, text):
     return segments
 
 
+def _plain_chinese_segments(path, text):
+    """Keep modern Chinese mythology syntheses and tale collections section-scoped."""
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if path.name == "myths-legends-china-werner-15250.txt":
+        chapters = list(re.finditer(r"^\s*CHAPTER ([IVXLCDM]+)\s*$", text, re.I | re.M))
+        notes = re.search(r"^\s*NOTES\s*$", text, re.I | re.M)
+        for index, chapter in enumerate(chapters):
+            start = chapter.start()
+            stop = chapters[index + 1].start() if index + 1 < len(chapters) else len(text)
+            if notes and notes.start() > start:
+                stop = min(stop, notes.start())
+            lines = text[chapter.end():stop].splitlines()
+            title = next((line.strip() for line in lines if line.strip()), "Untitled")
+            locator = f"Chapter {chapter.group(1).upper()} · {title}"
+            add(text[start:stop], locator, "source-text")
+        if chapters:
+            add(text[:chapters[0].start()], "Werner edition · preface and contents", "editorial-note")
+            if notes:
+                add(text[notes.start():], "Werner edition · notes", "editorial-note")
+    elif path.name == "chinese-folk-lore-tales-macgowan-26070.txt":
+        headings = list(re.finditer(r"^\s*([A-Z][A-Z0-9 ,.'\"()-]{3,})\s*$", text, re.M))
+        # The contents page uses numbered entries; only exact unnumbered headings
+        # in the body are treated as tale boundaries.
+        body_headings = [item for item in headings if not re.match(r"\s*(?:I|II|III|IV|V|VI|VII|VIII|IX|X|XI)\.", item.group(1))]
+        story_start = next((index for index, heading in enumerate(body_headings) if heading.group(1).strip() == "THE WIDOW HO"), None)
+        if story_start is None:
+            return []
+        add(text[:body_headings[story_start].start()], "Macgowan edition · front matter and contents", "editorial-note")
+        for index, heading in enumerate(body_headings[story_start:]):
+            start = heading.start()
+            next_index = story_start + index + 1
+            stop = body_headings[next_index].start() if next_index < len(body_headings) else len(text)
+            locator = heading.group(1).strip()
+            add(text[start:stop], locator, "source-text")
+
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -202,6 +246,8 @@ def source_segments(path):
         text = text[start.end() if start else 0:end.start() if end else len(text)]
         if path.name in {"gilgamesh-clay-jastrow-11000.txt", "gilgamish-langdon-18897.txt"}:
             return _plain_mesopotamian_segments(path, text)
+        if path.name in {"myths-legends-china-werner-15250.txt", "chinese-folk-lore-tales-macgowan-26070.txt"}:
+            return _plain_chinese_segments(path, text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

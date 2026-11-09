@@ -5,25 +5,25 @@
     {
       "id": "pg-15250",
       "title": "Myths and Legends of China",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "ancientAuthors": [
-        "various Chinese traditions"
+        "E. T. C. Werner (modern compiler and author)"
       ],
-      "translator": "E. T. C. Werner",
+      "translator": "not applicable; authored in English by E. T. C. Werner",
       "sourceIds": [
         "chi.myths-legends-china"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/15250",
       "localPath": "primary/myths-legends-china-werner-15250.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "An early 20th-century synthesis drawing on Chinese literary sources; useful as a broad scaffold, not a neutral canon."
+      "notes": "A 1922 English-language synthesis and retelling; it quotes or summarizes earlier Chinese materials but is not a primary-source translation. Preserve its period framing and the author's own caveats."
     },
     {
       "id": "pg-26070",
       "title": "Chinese Folk-Lore Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "folklore-retelling-collection",
       "ancientAuthors": [
-        "various storytellers"
+        "Various Chinese storytellers; collected and retold in English by J. Macgowan"
       ],
       "translator": "J. Macgowan",
       "sourceIds": [

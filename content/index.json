@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T00:37:28.557967+00:00",
+  "generatedAt": "2026-11-09T00:55:11.985968+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1846,7 +1846,7 @@
     },
     {
       "id": "chi.myth.week01",
-      "title": "Chinese Myth and Cosmic Order",
+      "title": "Chinese Myths and Folktales in English Collections",
       "pantheon": "chinese",
       "path": "content/curriculum/chinese/chinese-week-01.json",
       "dayCount": 5,
@@ -4693,24 +4693,23 @@
     },
     {
       "id": "chinese.week01.day01.heaven-earth",
-      "version": 1,
+      "version": 5,
       "pantheon": "chinese",
-      "title": "Heaven, Earth, and Creation",
+      "title": "P'an Ku: A Taoist Creation Account",
       "weekId": "chi.myth.week01",
       "tags": [
         "chinese",
         "Heaven,",
         "Earth,"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-01-heaven-earth.json",
       "objectiveIds": [
         "obj.heaven-earth.concept",
         "obj.heaven-earth.sources"
       ],
       "recordIds": [
-        "pg-15250",
-        "pg-26070"
+        "pg-15250"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4728,24 +4727,23 @@
     },
     {
       "id": "chinese.week01.day02.nuwa-repair",
-      "version": 1,
+      "version": 5,
       "pantheon": "chinese",
-      "title": "N\u00fcwa: Repairing the World",
+      "title": "Nue Kua: Repairing the Heavens",
       "weekId": "chi.myth.week01",
       "tags": [
         "chinese",
         "N\u00fcwa:",
         "Repairing"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-02-nuwa-repair.json",
       "objectiveIds": [
         "obj.nuwa-repair.concept",
         "obj.nuwa-repair.sources"
       ],
       "recordIds": [
-        "pg-15250",
-        "pg-26070"
+        "pg-15250"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4763,24 +4761,23 @@
     },
     {
       "id": "chinese.week01.day03.yu-flood",
-      "version": 1,
+      "version": 5,
       "pantheon": "chinese",
-      "title": "Yu: Taming the Flood",
+      "title": "Shen I: The Nine False Suns",
       "weekId": "chi.myth.week01",
       "tags": [
         "chinese",
         "Yu:",
         "Taming"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-03-yu-flood.json",
       "objectiveIds": [
         "obj.yu-flood.concept",
         "obj.yu-flood.sources"
       ],
       "recordIds": [
-        "pg-15250",
-        "pg-26070"
+        "pg-15250"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4798,24 +4795,23 @@
     },
     {
       "id": "chinese.week01.day04.change-moon",
-      "version": 1,
+      "version": 5,
       "pantheon": "chinese",
-      "title": "Chang\u2019e and the Moon",
+      "title": "Heng O: Flight to the Moon",
       "weekId": "chi.myth.week01",
       "tags": [
         "chinese",
         "Chang\u2019e",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-04-change-moon.json",
       "objectiveIds": [
         "obj.change-moon.concept",
         "obj.change-moon.sources"
       ],
       "recordIds": [
-        "pg-15250",
-        "pg-26070"
+        "pg-15250"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4833,23 +4829,22 @@
     },
     {
       "id": "chinese.week01.day05.immortals-order",
-      "version": 1,
+      "version": 5,
       "pantheon": "chinese",
-      "title": "Immortals and Moral Order",
+      "title": "A Benevolent Life and the Coming Flood",
       "weekId": "chi.myth.week01",
       "tags": [
         "chinese",
         "Immortals",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-05-immortals-order.json",
       "objectiveIds": [
         "obj.immortals-order.concept",
         "obj.immortals-order.sources"
       ],
       "recordIds": [
-        "pg-15250",
         "pg-26070"
       ],
       "rewardArtId": null,
@@ -9951,7 +9946,7 @@
       "id": "pg-15250",
       "pantheon": "chinese",
       "title": "Myths and Legends of China",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "chi.myths-legends-china"
       ],
@@ -9963,7 +9958,7 @@
       "id": "pg-26070",
       "pantheon": "chinese",
       "title": "Chinese Folk-Lore Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "folklore-retelling-collection",
       "sourceIds": [
         "chi.folklore-tales"
       ],

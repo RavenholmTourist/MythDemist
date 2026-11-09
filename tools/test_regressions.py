@@ -404,6 +404,50 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('They grappled with each other', struggle['text'])
         self.assertFalse(any('INTRODUCTION' in s['text'] for s in langdon_segments if s['evidenceType'] == 'source-text'))
 
+    def test_chinese_starter_pack_names_its_modern_compilations(self):
+        files = sorted((ROOT / 'content/lessons/chinese').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 5, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('normalized characters', ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Taoist', titles["P'an Ku: A Taoist Creation Account"])
+        self.assertIn('Ssu-ma Cheng', titles['Nue Kua: Repairing the Heavens'])
+        self.assertIn('Werner', titles['Shen I: The Nine False Suns'])
+        self.assertIn('Heng O', titles['Heng O: Flight to the Moon'])
+        self.assertIn('Macgowan', titles['A Benevolent Life and the Coming Flood'])
+        self.assertNotIn('Yu: Taming the Flood', titles)
+
+    def test_chinese_manifest_distinguishes_synthesis_from_folklore_collection(self):
+        manifest = json.loads((ROOT / 'content/corpus/chinese/manifest.json').read_text(encoding='utf-8'))
+        werner = next(item for item in manifest['records'] if item['id'] == 'pg-15250')
+        macgowan = next(item for item in manifest['records'] if item['id'] == 'pg-26070')
+        self.assertEqual(werner['sourceType'], 'secondary-synthesis')
+        self.assertIn('not a primary-source translation', werner['notes'])
+        self.assertEqual(macgowan['sourceType'], 'folklore-retelling-collection')
+
+    def test_chinese_parser_keeps_named_chapters_and_tales_separate(self):
+        werner_path = ROOT / 'content/corpus/chinese/primary/myths-legends-china-werner-15250.txt'
+        macgowan_path = ROOT / 'content/corpus/chinese/primary/chinese-folk-lore-tales-macgowan-26070.txt'
+        werner_segments = source_segments(werner_path)
+        creation = next(s for s in werner_segments if s['locator'].startswith('Chapter III'))
+        self.assertIn('His task occupied eighteen thousand years', creation['text'])
+        self.assertTrue(any(s['evidenceType'] == 'editorial-note' and 'Werner edition · notes' == s['locator'] for s in werner_segments))
+        folklore = source_segments(macgowan_path)
+        reward = next(s for s in folklore if s['locator'] == 'THE REWARD OF A BENEVOLENT LIFE')
+        self.assertIn('Before very long a great flood will take place', reward['text'])
+        front_matter = next(s for s in folklore if s['locator'] == 'Macgowan edition · front matter and contents')
+        self.assertEqual(front_matter['evidenceType'], 'editorial-note')
+        self.assertFalse(any(s['locator'] == 'CONTENTS' and s['evidenceType'] == 'source-text' for s in folklore))
+
 
 if __name__ == '__main__':
     unittest.main()

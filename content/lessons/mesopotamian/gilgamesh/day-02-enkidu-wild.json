@@ -1,13 +1,13 @@
 {
   "id": "mesopotamian.week01.day02.enkidu-wild",
-  "version": 1,
+  "version": 2,
   "weekId": "mesopot.gilgamesh.week01",
   "pantheon": "mesopotamian",
   "themeMode": "pantheon",
-  "title": "Enkidu: The Wild Companion",
-  "subtitle": "Humanity formed through encounter",
+  "title": "Enkidu: From the Herd to Erech",
+  "subtitle": "Food, clothing, and a new social role",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "mesopotamian",
     "Enkidu:",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.enkidu-wild.concept",
-      "text": "Identify the main source-grounded idea in Enkidu: The Wild Companion."
+      "text": "What does the Pennsylvania Tablet say Enkidu had not learned before?"
     },
     {
       "id": "obj.enkidu-wild.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "What role does Enkidu take among the shepherds in this passage?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "change": {
       "recordId": "pg-11000",
       "sourceId": "mesopot.gilgamesh-old-babylonian",
       "work": "An Old Babylonian Version of the Gilgamesh Epic",
       "author": "Anonymous",
       "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Primary scaffold source \u2014 Enkidu: The Wild Companion",
+      "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
       "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "An edited translation of Old Babylonian tablets; fragmentary evidence requires careful citation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
-      "recordId": "pg-18897",
-      "sourceId": "mesopot.gilgamish-langdon",
-      "work": "The Epic of Gilgamish",
-      "author": "Anonymous",
-      "translator": "Stephen Langdon",
-      "locator": "Comparative corpus source \u2014 Enkidu: The Wild Companion",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamish-langdon-18897.txt",
-      "excerpt": "A fragmentary Old Babylonian cuneiform edition and translation that reinforces source instability.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Enkidu: The Wild Companion",
-      "body": "Enkidu moves from wildness toward human society, exposing what civilization gives and costs.",
+      "title": "A new kind of meal",
+      "body": "The Pennsylvania Tablet describes Enkidu learning to eat prepared food and drink wine with the woman who leads him away from the herds.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.enkidu-wild.concept"
@@ -64,35 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "Learning the customs of the land",
+      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.”",
       "sourceRefIds": [
-        "ref-primary"
+        "change"
       ],
       "objectiveIds": [
-        "obj.enkidu-wild.sources"
+        "obj.enkidu-wild.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "A changed role",
+      "body": "The passage says Enkidu is anointed, clothed, and becomes a protector of shepherds against lions. It presents a shift in social role, not a timeless claim about 'civilization.'",
       "sourceRefIds": [
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
-        "obj.enkidu-wild.sources"
+        "obj.enkidu-wild.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "Notice uncertain words",
+      "body": "This is Jastrow and Clay's translation of a damaged tablet. Even its phrase '[The barber(?)]' is uncertain; do not convert the translator's reconstruction into a secure detail.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.enkidu-wild.sources"
@@ -101,11 +89,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "Transformation through relationships",
+      "body": "Enkidu's change is narrated through food, clothing, speech, and his work among shepherds.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.enkidu-wild.concept"
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Enkidu embody?",
+      "prompt": "What does the Pennsylvania Tablet say Enkidu had not learned before?",
       "choices": [
         {
           "id": "a",
-          "text": "Wildness transformed through human encounter"
+          "text": "To fight with an axe"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "To interpret a dream"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "To eat prepared food or drink wine"
         }
       ],
-      "answerId": "a",
-      "explanation": "Enkidu moves from wildness toward human society, exposing what civilization gives and costs.",
+      "answerId": "c",
+      "explanation": "The text says Enkidu had not known food or been taught to drink wine.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.enkidu-wild.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "change"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "What role does Enkidu take among the shepherds in this passage?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "He guards the cedar forest for Enlil"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "He protects them from lions"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He becomes king of Erech"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "b",
+      "explanation": "The translation says Enkidu attacks lions so night shepherds can rest and becomes their protector.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.enkidu-wild.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "change"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Tablet-specific source rewrite; independent Assyriological and pedagogical review remains pending."
   }
 }

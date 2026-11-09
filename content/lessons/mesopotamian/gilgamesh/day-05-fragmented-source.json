@@ -1,13 +1,13 @@
 {
   "id": "mesopotamian.week01.day05.fragmented-source",
-  "version": 1,
+  "version": 2,
   "weekId": "mesopot.gilgamesh.week01",
   "pantheon": "mesopotamian",
   "themeMode": "pantheon",
-  "title": "A Fragmentary Epic",
-  "subtitle": "Myth preserved through broken tablets",
+  "title": "Gilgamesh: Reading Across Fragments",
+  "subtitle": "Separate tablets preserve different pieces",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "mesopotamian",
     "A",
@@ -16,83 +16,85 @@
   "learningObjectives": [
     {
       "id": "obj.fragmented-source.concept",
-      "text": "Identify the main source-grounded idea in A Fragmentary Epic."
+      "text": "Which detail belongs to the Pennsylvania Tablet passage?"
     },
     {
       "id": "obj.fragmented-source.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "Why should the Yale and Pennsylvania passages not be silently merged?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "pennsylvania": {
       "recordId": "pg-11000",
       "sourceId": "mesopot.gilgamesh-old-babylonian",
       "work": "An Old Babylonian Version of the Gilgamesh Epic",
       "author": "Anonymous",
       "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Primary scaffold source \u2014 A Fragmentary Epic",
+      "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
       "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "An edited translation of Old Babylonian tablets; fragmentary evidence requires careful citation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
+      "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
     },
-    "ref-secondary": {
-      "recordId": "pg-18897",
-      "sourceId": "mesopot.gilgamish-langdon",
-      "work": "The Epic of Gilgamish",
+    "yale": {
+      "recordId": "pg-11000",
+      "sourceId": "mesopot.gilgamesh-old-babylonian",
+      "work": "An Old Babylonian Version of the Gilgamesh Epic",
       "author": "Anonymous",
-      "translator": "Stephen Langdon",
-      "locator": "Comparative corpus source \u2014 A Fragmentary Epic",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamish-langdon-18897.txt",
-      "excerpt": "A fragmentary Old Babylonian cuneiform edition and translation that reinforces source instability.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "translator": "Morris Jastrow and Albert T. Clay",
+      "locator": "Yale Tablet · Column IV; Yale Tablet · Column IV, normalized characters 0-1009",
+      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+      "excerpt": "To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "A Fragmentary Epic",
-      "body": "Gilgamesh is assembled from fragments, versions, and later editorial work. Its gaps are part of the evidence.",
+      "title": "Two named witnesses",
+      "body": "The local edition distinguishes a Pennsylvania Tablet from a Yale Tablet. These are separate fragmentary witnesses, and the edition presents different episodes from them.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pennsylvania",
+        "yale"
+      ],
+      "objectiveIds": [
+        "obj.fragmented-source.sources"
+      ]
+    },
+    {
+      "id": "card-02",
+      "kind": "source",
+      "title": "A passage from the Pennsylvania Tablet",
+      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.”",
+      "sourceRefIds": [
+        "pennsylvania"
       ],
       "objectiveIds": [
         "obj.fragmented-source.concept"
       ]
     },
     {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
-      "sourceRefIds": [
-        "ref-primary"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.sources"
-      ]
-    },
-    {
       "id": "card-03",
       "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "title": "A passage from the Yale Tablet",
+      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.”",
       "sourceRefIds": [
-        "ref-secondary"
+        "yale"
       ],
       "objectiveIds": [
-        "obj.fragmented-source.sources"
+        "obj.fragmented-source.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "Do not silently join gaps",
+      "body": "The tablet texts contain breaks, restorations, and uncertain readings. A continuous classroom retelling can obscure what is present on each witness and what editors supply.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pennsylvania",
+        "yale"
       ],
       "objectiveIds": [
         "obj.fragmented-source.sources"
@@ -101,14 +103,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "Read the edition as an edition",
+      "body": "Jastrow and Clay's book includes translated tablets alongside transliteration, introduction, and commentary. This lesson quotes only its labeled tablet translations.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pennsylvania",
+        "yale"
       ],
       "objectiveIds": [
-        "obj.fragmented-source.concept"
+        "obj.fragmented-source.sources"
       ]
     }
   ],
@@ -116,85 +118,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Why must Gilgamesh be read carefully?",
+      "prompt": "Which detail belongs to the Pennsylvania Tablet passage?",
       "choices": [
         {
           "id": "a",
-          "text": "Because it survives through fragments and versions"
+          "text": "Enlil decrees sevenfold terror for the cedar forest"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "Caesar's soul becomes a star"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "Enkidu learns food and wine customs and protects shepherds"
         }
       ],
-      "answerId": "a",
-      "explanation": "Gilgamesh is assembled from fragments, versions, and later editorial work. Its gaps are part of the evidence.",
+      "answerId": "c",
+      "explanation": "The Pennsylvania Tablet excerpt describes Enkidu's food, clothing, and protector role.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pennsylvania"
       ],
       "objectiveIds": [
         "obj.fragmented-source.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "pennsylvania"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "Why should the Yale and Pennsylvania passages not be silently merged?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "One is a Greek poem and the other a Roman law code"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "They are distinct, fragmentary tablet witnesses with visible gaps and restorations"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "They are two names for the same complete modern novel"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "b",
+      "explanation": "The edition presents separate tablet texts and marks uncertainty and missing lines.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pennsylvania",
+        "yale"
       ],
       "objectiveIds": [
         "obj.fragmented-source.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "pennsylvania",
+          "yale"
         ]
       }
     }
@@ -209,8 +202,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Tablet-specific source rewrite; independent Assyriological and pedagogical review remains pending."
   }
 }

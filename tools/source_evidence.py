@@ -97,6 +97,102 @@ def _plain_ovid_segments(text, book_headings):
     return segments
 
 
+def _plain_mesopotamian_segments(path, text):
+    """Keep tablet translations distinct from transliterations and scholarship."""
+    segments = []
+    columns = re.compile(
+        r"^\s*(?:COL(?:UMN)?\.?\s+(I|II|III|IV|V|VI)\.?|REVERSE\s+(I|II|III|IV))\s*$",
+        re.I | re.M,
+    )
+    lacuna = re.compile(r"^\s*\((?:About|Perhaps).*(?:missing|broken away).*\)\s*$", re.I | re.M)
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    def add_translated_column(value, locator):
+        """Keep editorial lacuna notices out of the translated tablet text."""
+        cursor = 0
+        part = 0
+        for gap in lacuna.finditer(value):
+            add(value[cursor:gap.start()], f"{locator} · part {part + 1}", "source-text")
+            add(gap.group(), f"{locator} · editorial lacuna notice", "editorial-note")
+            cursor = gap.end()
+            part += 1
+        add(value[cursor:], f"{locator} · part {part + 1}" if part else locator, "source-text")
+
+    def add_columns(verse, edition, prefix_is_column_one=False):
+        found = list(columns.finditer(verse))
+        seen = {}
+        if found:
+            prefix = verse[:found[0].start()]
+            if prefix_is_column_one and prefix.strip():
+                add_translated_column(prefix, f"{edition} · Column I")
+            else:
+                add(prefix, f"{edition} · editorial preface", "editorial-note")
+        elif prefix_is_column_one:
+            add_translated_column(verse, f"{edition} · Column I")
+            return
+        else:
+            add(verse, f"{edition} · translation", "source-text")
+            return
+        for index, column in enumerate(found):
+            stop = found[index + 1].start() if index + 1 < len(found) else len(verse)
+            if column.group(1):
+                name = f"Column {column.group(1).upper()}"
+            else:
+                name = f"Reverse {column.group(2).upper()}"
+            seen[name] = seen.get(name, 0) + 1
+            suffix = f" · fragment {seen[name]}" if seen[name] > 1 else ""
+            add_translated_column(verse[column.end():stop], f"{edition} · {name}{suffix}")
+
+    if path.name == "gilgamesh-clay-jastrow-11000.txt":
+        editions = [
+            ("Pennsylvania Tablet", "PENNSYLVANIA TABLET", "COMMENTARY ON THE PENNSYLVANIA TABLET"),
+            ("Yale Tablet", "YALE TABLET.", "CORRECTIONS TO THE TEXT OF LANGDON"),
+        ]
+        translation_spans = []
+        speech = re.search(r"Why, O Gish, does thou run about\?.*?Let the wife rejoice in thy bosom!", text, re.S)
+        if speech:
+            add(speech.group(), "Old Babylonian Tablet X fragment · Sabitum's speech quoted in the introduction", "source-text")
+        for label, start_marker, end_marker in editions:
+            start = re.search(r"^" + re.escape(start_marker) + r"\s*$", text, re.I | re.M)
+            if not start:
+                continue
+            end = re.search(r"^" + re.escape(end_marker) + r".*$", text[start.end():], re.I | re.M)
+            section_end = start.end() + end.start() if end else len(text)
+            section = text[start.end():section_end]
+            heading = re.search(r"^TRANSLATION\.?\s*$", section, re.I | re.M)
+            if not heading:
+                continue
+            verse_start = start.end() + heading.end()
+            translation_spans.append((start.start(), section_end))
+            verse = text[verse_start:section_end]
+            add_columns(verse, label)
+        # All material outside the translated tablet passages is introduction,
+        # transliteration, commentary, correction, or edition apparatus.
+        cursor = 0
+        notes = []
+        for start, stop in translation_spans:
+            notes.append(text[cursor:start])
+            cursor = stop
+        notes.append(text[cursor:])
+        editorial = "\n".join(notes)
+        if speech:
+            editorial = editorial.replace(speech.group(), "")
+        add(editorial, "Jastrow and Clay edition · editorial apparatus", "editorial-note")
+    elif path.name == "gilgamish-langdon-18897.txt":
+        heading = re.search(r"^TRANSLATION\.?\s*$", text, re.I | re.M)
+        end = re.search(r"^INDEX TO PARTS 2 AND 3\s*$", text, re.I | re.M)
+        if heading and end and end.start() > heading.end():
+            verse = text[heading.end():end.start()]
+            add_columns(verse, "Langdon edition", prefix_is_column_one=True)
+            add(text[:heading.start()] + text[end.start():], "Langdon edition · introduction, notes, and apparatus", "editorial-note")
+
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -104,6 +200,8 @@ def source_segments(path):
         start = re.search(r"\*\*\*\s*START OF (?:THE|THIS) PROJECT GUTENBERG.*?\*\*\*", text, re.I)
         end = re.search(r"\*\*\*\s*END OF (?:THE|THIS) PROJECT GUTENBERG", text, re.I)
         text = text[start.end() if start else 0:end.start() if end else len(text)]
+        if path.name in {"gilgamesh-clay-jastrow-11000.txt", "gilgamish-langdon-18897.txt"}:
+            return _plain_mesopotamian_segments(path, text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

@@ -5,7 +5,7 @@
     {
       "id": "pg-11000",
       "title": "An Old Babylonian Version of the Gilgamesh Epic",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "ancientAuthors": [
         "Anonymous"
       ],
@@ -16,12 +16,12 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/11000",
       "localPath": "primary/gilgamesh-clay-jastrow-11000.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "An edited translation of Old Babylonian tablets; fragmentary evidence requires careful citation."
+      "notes": "Edited translations of the Pennsylvania and Yale tablet witnesses, with transliterations and extensive editorial introduction/commentary; distinguish those layers and retain visible restorations."
     },
     {
       "id": "pg-18897",
       "title": "The Epic of Gilgamish",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "ancientAuthors": [
         "Anonymous"
       ],
@@ -32,7 +32,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/18897",
       "localPath": "primary/gilgamish-langdon-18897.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "A fragmentary Old Babylonian cuneiform edition and translation that reinforces source instability."
+      "notes": "Stephen Langdon's edited translation of a fragmentary tablet witness; preserve gaps, uncertain readings, and the edition's scholarly date."
     }
   ]
 }

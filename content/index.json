@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T00:25:53.882672+00:00",
+  "generatedAt": "2026-11-09T00:37:28.557967+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1898,7 +1898,7 @@
     },
     {
       "id": "mesopot.gilgamesh.week01",
-      "title": "Gilgamesh and Mesopotamian Power",
+      "title": "Gilgamesh in Old Babylonian Tablets",
       "pantheon": "mesopotamian",
       "path": "content/curriculum/mesopotamian/mesopotamian-week-01.json",
       "dayCount": 5,
@@ -5037,24 +5037,23 @@
     },
     {
       "id": "mesopotamian.week01.day01.kingship-excess",
-      "version": 1,
+      "version": 2,
       "pantheon": "mesopotamian",
-      "title": "Gilgamesh: Kingship and Excess",
+      "title": "Gilgamesh's Dream of a Companion",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
         "mesopotamian",
         "Gilgamesh:",
         "Kingship"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-01-kingship-excess.json",
       "objectiveIds": [
         "obj.kingship-excess.concept",
         "obj.kingship-excess.sources"
       ],
       "recordIds": [
-        "pg-11000",
-        "pg-18897"
+        "pg-11000"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5072,24 +5071,23 @@
     },
     {
       "id": "mesopotamian.week01.day02.enkidu-wild",
-      "version": 1,
+      "version": 2,
       "pantheon": "mesopotamian",
-      "title": "Enkidu: The Wild Companion",
+      "title": "Enkidu: From the Herd to Erech",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
         "mesopotamian",
         "Enkidu:",
         "The"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-02-enkidu-wild.json",
       "objectiveIds": [
         "obj.enkidu-wild.concept",
         "obj.enkidu-wild.sources"
       ],
       "recordIds": [
-        "pg-11000",
-        "pg-18897"
+        "pg-11000"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5107,24 +5105,23 @@
     },
     {
       "id": "mesopotamian.week01.day03.friendship-grief",
-      "version": 1,
+      "version": 2,
       "pantheon": "mesopotamian",
-      "title": "Friendship and Grief",
+      "title": "Gilgamesh and Enkidu: The First Contest",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
         "mesopotamian",
         "Friendship",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-03-friendship-grief.json",
       "objectiveIds": [
         "obj.friendship-grief.concept",
         "obj.friendship-grief.sources"
       ],
       "recordIds": [
-        "pg-11000",
-        "pg-18897"
+        "pg-11000"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5142,24 +5139,23 @@
     },
     {
       "id": "mesopotamian.week01.day04.flood-mortality",
-      "version": 1,
+      "version": 2,
       "pantheon": "mesopotamian",
-      "title": "Flood and Mortality",
+      "title": "The Cedar Forest: Huwawa's Terror",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
         "mesopotamian",
         "Flood",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-04-flood-mortality.json",
       "objectiveIds": [
         "obj.flood-mortality.concept",
         "obj.flood-mortality.sources"
       ],
       "recordIds": [
-        "pg-11000",
-        "pg-18897"
+        "pg-11000"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5177,24 +5173,23 @@
     },
     {
       "id": "mesopotamian.week01.day05.fragmented-source",
-      "version": 1,
+      "version": 2,
       "pantheon": "mesopotamian",
-      "title": "A Fragmentary Epic",
+      "title": "Gilgamesh: Reading Across Fragments",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
         "mesopotamian",
         "A",
         "Fragmentary"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-05-fragmented-source.json",
       "objectiveIds": [
         "obj.fragmented-source.concept",
         "obj.fragmented-source.sources"
       ],
       "recordIds": [
-        "pg-11000",
-        "pg-18897"
+        "pg-11000"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -10004,7 +9999,7 @@
       "id": "pg-11000",
       "pantheon": "mesopotamian",
       "title": "An Old Babylonian Version of the Gilgamesh Epic",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "sourceIds": [
         "mesopot.gilgamesh-old-babylonian"
       ],
@@ -10016,7 +10011,7 @@
       "id": "pg-18897",
       "pantheon": "mesopotamian",
       "title": "The Epic of Gilgamish",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "sourceIds": [
         "mesopot.gilgamish-langdon"
       ],

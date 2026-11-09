@@ -1,13 +1,13 @@
 {
   "id": "mesopotamian.week01.day01.kingship-excess",
-  "version": 1,
+  "version": 2,
   "weekId": "mesopot.gilgamesh.week01",
   "pantheon": "mesopotamian",
   "themeMode": "pantheon",
-  "title": "Gilgamesh: Kingship and Excess",
-  "subtitle": "Greatness begins as a social problem",
+  "title": "Gilgamesh's Dream of a Companion",
+  "subtitle": "A dream foreshadows the arrival of Enkidu",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "mesopotamian",
     "Gilgamesh:",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.kingship-excess.concept",
-      "text": "Identify the main source-grounded idea in Gilgamesh: Kingship and Excess."
+      "text": "What does Gilgamesh say he does with the figure in his second dream?"
     },
     {
       "id": "obj.kingship-excess.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "What do square brackets in this edited translation often signal?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "dream": {
       "recordId": "pg-11000",
       "sourceId": "mesopot.gilgamesh-old-babylonian",
       "work": "An Old Babylonian Version of the Gilgamesh Epic",
       "author": "Anonymous",
       "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Primary scaffold source \u2014 Gilgamesh: Kingship and Excess",
+      "locator": "Pennsylvania Tablet · Column I; Pennsylvania Tablet · Column I, normalized characters 841-1231",
       "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "An edited translation of Old Babylonian tablets; fragmentary evidence requires careful citation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
-      "recordId": "pg-18897",
-      "sourceId": "mesopot.gilgamish-langdon",
-      "work": "The Epic of Gilgamish",
-      "author": "Anonymous",
-      "translator": "Stephen Langdon",
-      "locator": "Comparative corpus source \u2014 Gilgamesh: Kingship and Excess",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamish-langdon-18897.txt",
-      "excerpt": "A fragmentary Old Babylonian cuneiform edition and translation that reinforces source instability.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "My likeness I have seen in the streets [Of Erech] of the plazas. An axe was brandished, and They gathered about him; And the axe made him angry. I saw him and I rejoiced, I loved him as a woman, I embraced him. I took him and regarded him As my brother.\" The mother of Gish, who knows all things, [Spoke to Gish]: [\"O Gish, the man whom thou sawest,] [Whom thou didst embrace like a woman].",
+      "evidenceType": "quotation",
+      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Gilgamesh: Kingship and Excess",
-      "body": "Gilgamesh\u2019s power is magnificent and destructive before friendship and loss reshape him.",
+      "title": "A second dream",
+      "body": "In the Pennsylvania Tablet translation, Gilgamesh describes a dream to his mother: he sees a likeness in Erech, an axe, and a figure he embraces as a brother.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
         "obj.kingship-excess.concept"
@@ -64,35 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "Gilgamesh names the dream",
+      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “My likeness I have seen in the streets [Of Erech] of the plazas. An axe was brandished, and They gathered about him; And the axe made him angry. I saw him and I rejoiced, I loved him as a woman, I embraced him. I took him and regarded him As my brother.\" The mother of Gish, who knows all things, [Spoke to Gish]: [\"O Gish, the man whom thou sawest,] [Whom thou didst embrace like a woman].”",
       "sourceRefIds": [
-        "ref-primary"
+        "dream"
       ],
       "objectiveIds": [
-        "obj.kingship-excess.sources"
+        "obj.kingship-excess.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "A mother's interpretation",
+      "body": "The surviving lines show Gilgamesh's mother interpreting the dream as a man who will become his companion. The bracketed words signal editorial restorations in this translation.",
       "sourceRefIds": [
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
-        "obj.kingship-excess.sources"
+        "obj.kingship-excess.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "A fragment, not a complete epic",
+      "body": "The Pennsylvania Tablet is an Old Babylonian fragment in a modern edited translation by Jastrow and Clay. Its missing or restored wording should remain visible.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
         "obj.kingship-excess.sources"
@@ -101,14 +89,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "The companion is anticipated",
+      "body": "The dream gives the relationship a narrative beginning before the two men meet. It is a scene in this tablet witness, not evidence that every version uses identical wording.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
-        "obj.kingship-excess.concept"
+        "obj.kingship-excess.sources"
       ]
     }
   ],
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How does the epic first present Gilgamesh?",
+      "prompt": "What does Gilgamesh say he does with the figure in his second dream?",
       "choices": [
         {
           "id": "a",
-          "text": "As powerful but dangerously excessive"
+          "text": "He embraces the figure and regards him as a brother"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "He defeats the figure in a chariot race"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "He follows the figure into the cedar forest"
         }
       ],
       "answerId": "a",
-      "explanation": "Gilgamesh\u2019s power is magnificent and destructive before friendship and loss reshape him.",
+      "explanation": "The quoted dream says Gilgamesh embraces the figure and takes him as a brother.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
         "obj.kingship-excess.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "dream"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "What do square brackets in this edited translation often signal?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "A new scene written by a later poet"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "A line spoken by Gilgamesh's mother"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Words restored or supplied by the editors"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "c",
+      "explanation": "The editors use brackets to mark readings or words supplied where the tablet is damaged.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dream"
       ],
       "objectiveIds": [
         "obj.kingship-excess.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the labeled tablet passage and its edition notes.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which words are bracketed or uncertain?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "dream"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Tablet-specific source rewrite; independent Assyriological and pedagogical review remains pending."
   }
 }

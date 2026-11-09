@@ -364,6 +364,46 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('Quirinus', titles['Mars, Romulus, and Roman Foundation'])
         self.assertIn('star', titles['Ovid, Caesar, and Poetic Apotheosis'])
 
+    def test_mesopotamian_lessons_cite_named_fragmentary_tablet_passages(self):
+        files = sorted((ROOT / 'content/lessons/mesopotamian').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertTrue(any(name in ref['locator'] for name in ['Tablet', 'tablet']), ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('dream', titles["Gilgamesh's Dream of a Companion"].lower())
+        self.assertIn('shepherds', titles['Enkidu: From the Herd to Erech'])
+        self.assertIn('wrestle', titles['Gilgamesh and Enkidu: The First Contest'])
+        self.assertIn('Huwawa', titles["The Cedar Forest: Huwawa's Terror"])
+        self.assertIn('fragmentary', titles['Gilgamesh: Reading Across Fragments'].lower())
+        self.assertNotIn('universal flood', ' '.join(titles.values()).lower())
+
+    def test_mesopotamian_parser_separates_tablet_verse_and_editorial_apparatus(self):
+        clay = ROOT / 'content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt'
+        langdon = ROOT / 'content/corpus/mesopotamian/primary/gilgamish-langdon-18897.txt'
+        clay_segments = source_segments(clay)
+        dream = next(s for s in clay_segments if s['locator'] == 'Pennsylvania Tablet · Column I')
+        self.assertEqual(dream['evidenceType'], 'source-text')
+        self.assertIn('I loved him as a woman', dream['text'])
+        yale = next(s for s in clay_segments if s['locator'] == 'Yale Tablet · Column IV')
+        self.assertIn('seven-fold terror', yale['text'])
+        apparatus = next(s for s in clay_segments if s['locator'].endswith('editorial apparatus'))
+        self.assertEqual(apparatus['evidenceType'], 'editorial-note')
+        self.assertIn('INTRODUCTION', apparatus['text'])
+        self.assertFalse(any('COMMENTARY ON THE PENNSYLVANIA TABLET' in s['text'] for s in clay_segments if s['evidenceType'] == 'source-text'))
+        langdon_segments = source_segments(langdon)
+        struggle = next(s for s in langdon_segments if s['locator'] == 'Langdon edition · Column III · fragment 2')
+        self.assertIn('They grappled with each other', struggle['text'])
+        self.assertFalse(any('INTRODUCTION' in s['text'] for s in langdon_segments if s['evidenceType'] == 'source-text'))
+
 
 if __name__ == '__main__':
     unittest.main()

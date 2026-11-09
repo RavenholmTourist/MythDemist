@@ -1,7 +1,7 @@
 {
   "id": "mesopot.gilgamesh.week01",
-  "title": "Gilgamesh and Mesopotamian Power",
-  "subtitle": "Kingship, wildness, friendship, flood, and mortality",
+  "title": "Gilgamesh in Old Babylonian Tablets",
+  "subtitle": "Dreams, companions, forest danger, and fragmentary witnesses",
   "pantheon": "mesopotamian",
   "themeMode": "pantheon",
   "visual": {
@@ -11,35 +11,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Gilgamesh: Kingship and Excess",
+      "title": "Gilgamesh's Dream of a Companion",
       "lessonId": "mesopotamian.week01.day01.kingship-excess",
       "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-01-kingship-excess.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Enkidu: The Wild Companion",
+      "title": "Enkidu: From the Herd to Erech",
       "lessonId": "mesopotamian.week01.day02.enkidu-wild",
       "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-02-enkidu-wild.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Friendship and Grief",
+      "title": "Gilgamesh and Enkidu: The First Contest",
       "lessonId": "mesopotamian.week01.day03.friendship-grief",
       "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-03-friendship-grief.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Flood and Mortality",
+      "title": "The Cedar Forest: Huwawa's Terror",
       "lessonId": "mesopotamian.week01.day04.flood-mortality",
       "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-04-flood-mortality.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "A Fragmentary Epic",
+      "title": "Gilgamesh: Reading Across Fragments",
       "lessonId": "mesopotamian.week01.day05.fragmented-source",
       "lessonPath": "content/lessons/mesopotamian/gilgamesh/day-05-fragmented-source.json",
       "status": "available"
@@ -48,8 +48,8 @@
   "suggestedTopics": [
     {
       "id": "topic.mesopotamia-kingship",
-      "title": "Kingship and excess",
-      "description": "Gilgamesh begins with a hero-king whose power is extraordinary but socially dangerous.",
+      "title": "The arrival of a companion",
+      "description": "A Pennsylvania Tablet fragment places Gilgamesh's dream before his meeting with Enkidu.",
       "relatedDay": 1,
       "recordIds": [
         "pg-11000",

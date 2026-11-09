@@ -6,3 +6,6 @@ __pycache__/
 /content/corpus/greek/primary/euripides-medea-35451.txt
 /content/corpus/greek/primary/euripides-bacchae-35173.txt
 /content/corpus/greek/primary/euripides-trojan-women-35171.txt
+
+# Generated artifact; rebuild with python -B tools/content_pipeline.py.
+/content/retrieval/index.json

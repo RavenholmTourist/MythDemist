@@ -1624,8 +1624,17 @@ function renderReviewComplete() {
 async function ensureRetrieval() {
   if (retrievalIndex) return retrievalIndex;
   const response = await fetch(RETRIEVAL_URL);
-  if (!response.ok) throw new Error("Could not load the local retrieval index.");
-  retrievalIndex = await response.json();
+  if (!response.ok) throw new Error("The local retrieval index has not been generated. Run python -B tools/content_pipeline.py to build it.");
+  const raw = await response.json();
+  // v2 chunks are slim: shared bibliographic fields live once in sources[].
+  // Hydrate them so each result still reads as a self-contained evidence record.
+  const byId = new Map((raw.sources || []).map((source) => [source.id, source]));
+  raw.chunks = (raw.chunks || []).map((chunk) => ({
+    evidenceType: "source-text",
+    ...byId.get(chunk.recordId),
+    ...chunk,
+  }));
+  retrievalIndex = raw;
   return retrievalIndex;
 }
 

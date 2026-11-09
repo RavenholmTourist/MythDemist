@@ -1,12 +1,20 @@
 import json
 import unittest
+from pathlib import Path
 from unittest.mock import patch
 from mythos_assistant import load_index, retrieve, validate, answer, prompt
+
+ROOT = Path(__file__).resolve().parents[1]
 
 
 class AssistantTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
+        # The retrieval index is a generated artifact, not committed content;
+        # build it on demand so a fresh clone can still run the suite.
+        if not (ROOT / 'content/retrieval/index.json').exists():
+            import build_retrieval_index
+            build_retrieval_index.main()
         cls.index = load_index()
         cls.chunk = {'id': 'known', 'recordId': 'source', 'text': 'A sufficiently long quotation from a local source.', 'pantheon': 'greek', 'title': 'Local source', 'locator': 'Book 1', 'terms': ['quotation'], 'evidenceType': 'source-text'}
 

@@ -13,7 +13,17 @@ def load_index():
     path = ROOT / "content/retrieval/index.json"
     if not path.exists():
         raise RuntimeError("Run python tools/content_pipeline.py first")
-    return json.loads(path.read_text(encoding="utf-8"))
+    index = json.loads(path.read_text(encoding="utf-8"))
+    # v2 chunks are slim: shared bibliographic fields live once in sources[].
+    # Hydrate them onto each chunk so retrieval, prompting, and validation can
+    # keep treating a chunk as a self-contained evidence record.
+    by_id = {source["id"]: source for source in index.get("sources", [])}
+    for chunk in index.get("chunks", []):
+        source = by_id.get(chunk.get("recordId"), {})
+        for key in ("pantheon", "title", "sourceType", "coverageType", "rightsStatus", "translator"):
+            chunk.setdefault(key, source.get(key))
+        chunk.setdefault("evidenceType", "source-text")
+    return index
 
 
 def tokens(query):

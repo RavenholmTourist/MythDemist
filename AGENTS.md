@@ -74,4 +74,4 @@ Before finishing: review the diff, run the commands relevant to your changes, st
 
 ## Repository layout warning
 
-The active work branch is `mythos-submit` in the `MythDemist-submit` checkout. A stale local `main` branch (checked out in the separate `MythDemist` folder) still points at the pre-Mythos SoR4 history. `git push origin main` pushes that stale branch, not your work: it fails as non-fast-forward, and a force push would replace main with the old app. Always push explicitly: `git push origin mythos-submit:main`.
+The active work branch is `mythos-submit` in the `MythDemist-submit` checkout; the separate `MythDemist` folder has its own `main`. Before pushing, always run `git status -sb` and `git log --oneline -3` to confirm the branch you are on and that it is a fast-forward of `origin/main`. From the submit worktree push explicitly with `git push origin mythos-submit:main` — a bare `git push origin main` pushes whatever the local `main` ref happens to point at, which previously overwrote the remote with stale history.

@@ -36,6 +36,18 @@
       "excerpt": "the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "epitome": {
+      "recordId": "perseus-apollodorus-epitome-frazer",
+      "sourceId": "grc.apollodorus.epitome",
+      "work": "Bibliotheca (Epitome)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Epitome 1.9, Ariadne's clue; chapter 1 · section 9, normalized characters 0-299",
+      "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
+      "excerpt": "And at his suggestion she gave Theseus a clue when he went in; Theseus fastened it to the door, and, drawing it after him, entered in. And having found the Minotaur in the last part of the labyrinth, he killed him by smiting him with his fists; and drawing the clue after him made his way out again.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from the Epitome; this passage calls the aid a clue and does not specify a thread."
     }
   },
   "narrativeBlocks": [
@@ -93,7 +105,8 @@
       "title": "Carry it forward",
       "body": "Later storytelling is part of mythology, but it must stay labeled as later storytelling.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "epitome"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w08d03.ovid-transforms.source"
@@ -120,7 +133,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "Ariadne’s crown. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Ariadne’s crown is the passage-specific answer. Check The Metamorphoses of Ovid, Books VIII–XV (Metamorphoses 8.169-182, Ariadne and the crown), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -147,7 +160,7 @@
         }
       ],
       "answerId": "a",
-      "explanation": "His later Latin epic reshapes material also found in Greek traditions.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "His later Latin epic reshapes material also found in Greek traditions. is the passage-specific answer. Check The Metamorphoses of Ovid, Books VIII–XV (Metamorphoses 8.169-182, Ariadne and the crown), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

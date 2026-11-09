@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w04d05.medea-on-stage",
-  "version": 2,
+  "version": 5,
   "weekId": "grc.heroes.week04",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,23 @@
       "work": "The Tragedies of Euripides, Volume I",
       "author": "Euripides",
       "translator": "Theodore Alois Buckley",
-      "locator": "Medea, opening speech of the Nurse; local text, normalized characters 289402-289708",
+      "locator": "Medea, Nurse's opening account of Jason's new marriage; local text, normalized characters 290272-290495",
       "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
-      "excerpt": "and there marries Ægeus son of Pandion. * * * * * MEDEA. * * * * NURSE OF MEDEA. Would that the hull of Argo had not winged her way to the Colchian land through the Cyanean Symplegades,[1] and that the pine felled in the forests of Pelion had never fallen, nor had caused the hands of the chiefs to row,[2]",
+      "excerpt": "But now every thing is at variance, and the dearest ties are weakened. For having betrayed his own children, and my mistress, Jason reposes in royal wedlock, having married the daughter of Creon, who is prince of this land.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "argo": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Argonautica 3, opening invocation; Book 3, normalized characters 0-476",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "Come now, Erato, stand by my side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the thick reed-beds; but Hera and Athena took note of them, and, apart from Zeus and the other immortals, entered a chamber and took counsel together",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from Seaton's translation of Apollonius' Greek epic; it frames the quest as aided by Medea."
     }
   },
   "narrativeBlocks": [
@@ -43,8 +55,9 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "Euripides starts in Corinth after the expedition. Jason has made a new marriage, and the Nurse fears what the abandoned Medea may do. This tragedy reshapes the heroic past into a crisis of oaths, exile, family, and revenge.",
+      "body": "Apollonius frames the quest as a voyage for the fleece aided by Medea. Euripides begins later in Corinth, where the Nurse says Jason has married Creon's daughter while Medea is dishonored.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -55,8 +68,9 @@
       "id": "card-02",
       "kind": "source",
       "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “and there marries Ægeus son of Pandion. * * * * * MEDEA. * * * * NURSE OF MEDEA. Would that the hull of Argo had not winged her way to the Colchian land through the Cyanean Symplegades,[1] and that the pine felled in the forests of Pelion had never fallen, nor had caused the hands of the chiefs to row,[2]”",
+      "body": "The Nurse's speech recalls the Argo and Medea's earlier help, then turns to the new marriage and Jason's broken obligations.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -69,6 +83,7 @@
       "title": "Why it matters",
       "body": "Interpretation: Tragedy changes the question from how the fleece was won to what Jason owed the woman whose knowledge made him succeed.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -81,6 +96,7 @@
       "title": "Read it carefully",
       "body": "The Nurse’s wish that the Argo had never sailed is a character’s speech in a tragedy. It reframes a remembered expedition; it is not a statement by Apollonius about how his own epic should be read.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -93,6 +109,7 @@
       "title": "Carry it forward",
       "body": "This is the clearest lesson in why a myth is never fully described by naming the hero.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -120,7 +137,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "Corinth, after the voyage. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Corinth, after the voyage is the passage-specific answer. Check The Tragedies of Euripides, Volume I (Medea, Nurse's opening account of Jason's new marriage), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -147,8 +164,9 @@
         }
       ],
       "answerId": "a",
-      "explanation": "It stages a later crisis rather than narrating the quest itself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "It stages a later crisis rather than narrating the quest itself. is the passage-specific answer. Check The Tragedies of Euripides, Volume I (Medea, Nurse's opening account of Jason's new marriage), keeping each work and version distinct.",
       "sourceRefIds": [
+        "argo",
         "main"
       ],
       "objectiveIds": [
@@ -164,9 +182,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

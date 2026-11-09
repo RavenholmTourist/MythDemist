@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week04",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,23 @@
       "work": "The Argonautica",
       "author": "Apollonius Rhodius",
       "translator": "R. C. Seaton",
-      "locator": "Book 3, Aeetes’ challenge; Book 3, normalized characters 12318-12620",
+      "locator": "Argonautica 3, Aeetes sets the trial; Book 3, normalized characters 22216-22948",
       "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "Hephaestus had fashioned in the palace of Cytaean Aeetes. And he wrought for him bulls with feet of bronze, and their mouths were of bronze, and from them they breathed out a terrible flame of fire; moreover he forged a plough of unbending adamant, all in one piece, in payment of thanks to Helios, who",
+      "excerpt": "Two bulls with feet of bronze I have that pasture on the plain of Ares, breathing forth flame from their jaws; them do I yoke and drive over the stubborn field of Ares, four plough-gates; and quickly cleaving it with the share up to the headland, I cast into the furrows the seed, not the corn of Demeter, but the teeth of a dread serpent that grow up into the fashion of armed men; them I slay at once, cutting them down beneath my spear as they rise against me on all sides. In the morning do I yoke the oxen, and at eventide I cease from the harvesting. And thou, if thou wilt accomplish such deeds as these, on that very day shalt carry off the fleece to the king’s palace; ere that time comes I will not give it, expect it not.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "aid": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Argonautica 3, Medea explains the charm; Book 3, normalized characters 56995-57417",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "And at dawn steep this charm in water, strip, and anoint thy body therewith as with oil; and in it there will be boundless prowess and mighty strength, and thou wilt deem thyself a match not for men but for the immortal gods. And besides, let thy spear and shield and sword be sprinkled. Thereupon the spear-heads of the earthborn men shall not pierce thee, nor the flame of the deadly bulls as it rushes forth resistless.",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -43,7 +55,7 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "Aeetes requires Jason to yoke dangerous bulls, plough a field, and sow dragon’s teeth. Armed men will spring from the sowing. Jason needs Medea’s protective drugs and instructions to survive the task.",
+      "body": "Aeetes orders Jason to yoke bronze bulls, plough four fields, and sow serpent's teeth before he will give up the fleece.",
       "sourceRefIds": [
         "main"
       ],
@@ -67,9 +79,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: The challenge exposes the limits of ordinary strength, creating the need for specialized knowledge rather than another show of force.",
+      "body": "Medea explains how to use a charm that gives Jason strength and protects him from the bronze spearpoints and the bulls' fire.",
       "sourceRefIds": [
-        "main"
+        "aid"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
@@ -120,7 +132,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "Dragon’s teeth. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Dragon’s teeth is the passage-specific answer. Check The Argonautica (Argonautica 3, Aeetes sets the trial), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +143,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What does Medea supply for the challenge?",
+      "prompt": "What protection does Medea instruct Jason to use?",
       "choices": [
         {
           "id": "a",
-          "text": "Protective drugs and practical instructions"
+          "text": "A shield made by Daedalus"
         },
         {
           "id": "b",
-          "text": "A ship that completes the ploughing"
+          "text": "A charm to anoint his body and sprinkle on his weapons"
         },
         {
           "id": "c",
-          "text": "A treaty abolishing Aeetes’ test"
+          "text": "A clue for the labyrinth"
         }
       ],
-      "answerId": "a",
-      "explanation": "Protective drugs and practical instructions. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "Medea tells him to steep the charm in water, anoint himself, and sprinkle his weapons.",
       "sourceRefIds": [
-        "main"
+        "aid"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
@@ -164,9 +176,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

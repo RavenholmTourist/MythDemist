@@ -209,9 +209,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "status": "needs-revision",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial source audit on 2026-11-09: this planned curriculum lacks adequately identified community-specific local evidence. Keep it inactive and revise only after appropriate sources are curated. This is not scholarly certification."
   }
 }

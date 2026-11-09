@@ -55,25 +55,27 @@
         "question": {
           "id": "q1",
           "type": "single-choice",
-          "prompt": "Which contrast with Odysseus’ return is useful but limited?",
+          "prompt": "Which contrast between the returns is supported by these works?",
           "choices": [
             {
               "id": "a",
-              "text": "Neither poem connects war with household damage."
+              "text": "Neither work includes a household after the war."
             },
             {
               "id": "b",
-              "text": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion."
+              "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
             },
             {
               "id": "c",
-              "text": "Both homecomings end with the same bed test."
+              "text": "Both kings are welcomed without conflict."
             }
           ],
           "answerId": "b",
-          "explanation": "Agamemnon’s return exposes lethal household conflict rather than achieving reunion.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "murder",
+            "odyssey"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w07d01.agamemnon-returns.source"
@@ -101,9 +103,10 @@
             }
           ],
           "answerId": "c",
-          "explanation": "Divine figures and the Erinyes remain central to the settlement.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "court"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -131,9 +134,10 @@
             }
           ],
           "answerId": "a",
-          "explanation": "A ruler’s decree collides with familial and divine obligations.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "A ruler’s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon’s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "defense"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w07d03.antigone-and-burial.source"
@@ -161,9 +165,10 @@
             }
           ],
           "answerId": "b",
-          "explanation": "The investigator becomes the person his inquiry exposes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus’ proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "revelation"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -175,23 +180,23 @@
         "question": {
           "id": "q5",
           "type": "single-choice",
-          "prompt": "How should this play enter a comparison with the Iliad?",
+          "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
           "choices": [
             {
               "id": "a",
-              "text": "As the final book written by Homer himself"
+              "text": "Captive women being assigned to Greek masters."
             },
             {
               "id": "b",
-              "text": "As proof that no Greek work ever praised a warrior"
+              "text": "A Greek council choosing a new king."
             },
             {
               "id": "c",
-              "text": "As another work’s perspective on war, not a missing transcript from Homer"
+              "text": "Odysseus explaining the construction of his marriage bed."
             }
           ],
-          "answerId": "c",
-          "explanation": "As another work’s perspective on war, not a missing transcript from Homer. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "a",
+          "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
           "sourceRefIds": [
             "main"
           ],

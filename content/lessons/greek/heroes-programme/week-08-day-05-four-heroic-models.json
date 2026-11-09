@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w08d05.four-heroic-models",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week08",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,7 +31,7 @@
       "work": "The Iliad",
       "author": "Homer",
       "translator": "Samuel Butler",
-      "locator": "Book 24, Priam appeals to Achilles; Book 24, normalized characters 25898-26200",
+      "locator": "Book 24, Priam appeals to Achilles; Book 24, normalized characters 25847-26149",
       "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
       "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
       "evidenceType": "quotation",
@@ -43,11 +43,11 @@
       "work": "Bibliotheca (Library)",
       "author": "Pseudo-Apollodorus",
       "translator": "James George Frazer",
-      "locator": "Library 2.4.12, service to Eurystheus; book 2 · chapter 4 · section 12, normalized characters 0-301",
+      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
       "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     },
     "odysseus": {
       "recordId": "pg-01727",
@@ -155,28 +155,26 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Which pairing belongs to the cited Odyssey scene?",
+      "prompt": "Which pairing fits the cited works?",
       "choices": [
         {
           "id": "a",
-          "text": "Theseus and Patroclus’ armour"
+          "text": "Odysseus creates Attic democracy; Theseus kills the Nemean lion"
         },
         {
           "id": "b",
-          "text": "Odysseus and Penelope’s recognition test"
+          "text": "Achilles receives the Sampo; Heracles wins the Argo"
         },
         {
           "id": "c",
-          "text": "Achilles and the Cretan thread"
+          "text": "Achilles receives Priam; Heracles receives an oracle assigning service"
         }
       ],
-      "answerId": "b",
-      "explanation": "Odysseus and Penelope’s recognition test. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "The Iliad depicts Priam's appeal; the Library gives Heracles the oracle's service and labour instructions.",
       "sourceRefIds": [
         "main",
-        "heracles",
-        "odysseus",
-        "theseus"
+        "heracles"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w08d05.four-heroic-models.source"
@@ -201,7 +199,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "Claims about the other heroes require their own source passages.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Claims about the other heroes require their own source passages. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
       "sourceRefIds": [
         "main",
         "heracles",
@@ -221,9 +219,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

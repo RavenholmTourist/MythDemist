@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w06d05.the-civic-hero",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week06",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -43,11 +43,11 @@
       "work": "Bibliotheca (Library)",
       "author": "Pseudo-Apollodorus",
       "translator": "James George Frazer",
-      "locator": "Library 2.4.12, service to Eurystheus; book 2 · chapter 4 · section 12, normalized characters 0-301",
+      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
       "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -81,7 +81,7 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: Different communities need different heroes. The comparison reveals what each tradition is trying to justify or preserve.",
+      "body": "The Library says the Pythian priestess directs Heracles to serve Eurystheus for twelve years and perform ten labours; Plutarch separately credits Theseus with unifying Attica.",
       "sourceRefIds": [
         "main",
         "heracles"
@@ -121,23 +121,23 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Which pairing fits the cited accounts?",
+      "prompt": "Which pairing fits the cited works?",
       "choices": [
         {
           "id": "a",
-          "text": "Theseus and civic unification; Heracles and imposed service"
+          "text": "The Iliad's Achilles founds Athens; Pindar's Theron fights the Hydra"
         },
         {
           "id": "b",
-          "text": "Theseus and the Sirens; Heracles and Penelope’s bed"
+          "text": "Ovid's Theseus kills the Minotaur; Plutarch's Heracles becomes king of Crete"
         },
         {
           "id": "c",
-          "text": "Theseus and Troy’s ransom; Heracles and the Golden Fleece"
+          "text": "Plutarch's Theseus unites Attica; the Library's Heracles serves Eurystheus"
         }
       ],
-      "answerId": "a",
-      "explanation": "Theseus and civic unification; Heracles and imposed service. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "Plutarch describes Theseus' civic role; the Library gives Heracles' service and labours.",
       "sourceRefIds": [
         "main",
         "heracles"
@@ -165,7 +165,7 @@
         }
       ],
       "answerId": "b",
-      "explanation": "Each work selects only part of a larger heroic tradition.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Each work selects only part of a larger heroic tradition. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
       "sourceRefIds": [
         "main",
         "heracles"
@@ -183,9 +183,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

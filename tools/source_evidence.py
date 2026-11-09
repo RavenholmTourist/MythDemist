@@ -97,6 +97,61 @@ def _plain_ovid_segments(text, book_headings):
     return segments
 
 
+def _plain_homer_segments(text, work_name):
+    """Separate Homeric verse from prose book summaries and chapter headings."""
+    segments = []
+    headings = list(re.finditer(r"^BOOK ([IVXLCDM]+)\.?[ \t]*$", text, re.M))
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    def roman_number(value):
+        units = {"I": 1, "V": 5, "X": 10, "L": 50, "C": 100}
+        return sum(
+            -units[c] if i + 1 < len(value) and units[c] < units[value[i + 1]] else units[c]
+            for i, c in enumerate(value)
+        )
+
+    for index, heading in enumerate(headings):
+        book = roman_number(heading.group(1).upper())
+        stop = headings[index + 1].start() if index + 1 < len(headings) else len(text)
+        body = text[heading.end():stop]
+        cursor = 0
+        if work_name == "The Iliad":
+            paragraph = re.search(r"\S[^\n]*(?:\n(?!\s*\n)[^\n]*)*", body)
+            if paragraph and "—" in paragraph.group():
+                add(paragraph.group(), f"Book {book} · editorial summary", "editorial-note")
+                cursor = paragraph.end()
+        else:
+            lines = body.splitlines(keepends=True)
+            offset = 0
+            heading_start = None
+            heading_end = None
+            for line in lines:
+                if not line.strip():
+                    offset += len(line)
+                    continue
+                if heading_start is None and line.strip().isupper() and len(line.strip()) > 8:
+                    heading_start = offset
+                    heading_end = offset + len(line)
+                    offset += len(line)
+                    continue
+                if heading_start is not None and line.strip().isupper():
+                    heading_end = offset + len(line)
+                    offset += len(line)
+                    continue
+                break
+            if heading_start is not None:
+                add(body[heading_start:heading_end], f"Book {book} · editorial heading", "editorial-note")
+                cursor = heading_end
+        add(body[cursor:], f"Book {book}", "source-text")
+    if headings:
+        add(text[:headings[0].start()], f"{work_name} · front matter and contents", "editorial-note")
+    return segments
+
+
 def _plain_mesopotamian_segments(path, text):
     """Keep tablet translations distinct from transliterations and scholarship."""
     segments = []
@@ -576,6 +631,38 @@ def _plain_webster_basque_segments(text):
     return segments
 
 
+def _plain_mooney_cherokee_segments(text):
+    """Separate Mooney's numbered Cherokee narratives from his ethnographic apparatus."""
+    starts = list(re.finditer(r"(?m)^\s*V--THE MYTHS\s*$", text, re.I))
+    start = starts[-1] if starts else None
+    if not start:
+        return []
+    end = re.search(r"(?m)^\s*VI--NOTES AND PARALLELS TO MYTHS\s*$", text[start.end():], re.I)
+    body_end = start.end() + end.start() if end else len(text)
+    headings = []
+    offset = start.start()
+    for line in text[start.start():body_end].splitlines(keepends=True):
+        match = re.match(r"^\s*(\d{1,3})\.\s+(.+?)\s*$", line)
+        title = match.group(2).strip() if match else ""
+        if match and len(title) > 3 and title.isupper():
+            headings.append((offset + match.start(), match.group(1), title))
+        offset += len(line)
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    add(text[:start.start()], "Mooney edition · introduction, history, and contents", "editorial-note")
+    for index, (position, number, title) in enumerate(headings):
+        stop = headings[index + 1][0] if index + 1 < len(headings) else body_end
+        add(text[position:stop], f"Myth {number} · {title}", "source-text")
+    if end:
+        add(text[body_end:], "Mooney edition · notes and parallels", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -603,10 +690,16 @@ def source_segments(path):
             return _plain_pyle_fairy_segments(text)
         if path.name == "basque-legends-webster-34902.txt":
             return _plain_webster_basque_segments(text)
+        if path.name == "myths-cherokee-mooney-45634.txt":
+            return _plain_mooney_cherokee_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":
             return _plain_gold_coast_folktale_segments(text)
+        if path.name == "homer-iliad-2199.txt":
+            return _plain_homer_segments(text, "The Iliad")
+        if path.name == "homer-odyssey-1727.txt":
+            return _plain_homer_segments(text, "The Odyssey")
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

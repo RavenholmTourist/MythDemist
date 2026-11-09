@@ -71,7 +71,7 @@
             }
           ],
           "answerId": "b",
-          "explanation": "Jason matches the warning about a man with one sandal.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -85,25 +85,25 @@
         "question": {
           "id": "q2",
           "type": "single-choice",
-          "prompt": "Why is it misleading to call Jason’s success unaided strength?",
+          "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
           "choices": [
             {
               "id": "a",
-              "text": "Jason completes the test before he meets Aeetes."
+              "text": "The bulls' fire and the earthborn men's weapons."
             },
             {
               "id": "b",
-              "text": "The bulls turn out to be ordinary farm animals."
+              "text": "The Sirens' song and the whirlpool."
             },
             {
               "id": "c",
-              "text": "The challenge is overcome with Medea’s specialist help."
+              "text": "The cold of the House of Cold."
             }
           ],
-          "answerId": "c",
-          "explanation": "The challenge is overcome with Medea’s specialist help.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "a",
+          "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
           "sourceRefIds": [
-            "main"
+            "aid"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
@@ -131,9 +131,11 @@
             }
           ],
           "answerId": "a",
-          "explanation": "She deliberates and acts within family pressures and divine influence.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "dilemma",
+            "aid"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w04d03.medea-chooses.source"
@@ -145,25 +147,25 @@
         "question": {
           "id": "q4",
           "type": "single-choice",
-          "prompt": "Which claim preserves the source boundary?",
+          "prompt": "What does Apollonius say follows Apsyrtus' killing?",
           "choices": [
             {
               "id": "a",
-              "text": "Euripides’ Medea narrates the whole outward voyage on stage."
+              "text": "Aeetes welcomes the Argonauts home."
             },
             {
               "id": "b",
-              "text": "Apollonius’ Apsyrtus episode should not be silently replaced by another version."
+              "text": "Zeus orders the Argonauts to seek purification from Circe."
             },
             {
               "id": "c",
-              "text": "Every account gives exactly the same killing of Apsyrtus."
+              "text": "Athena gives Jason the throne of Athens."
             }
           ],
           "answerId": "b",
-          "explanation": "Apollonius’ Apsyrtus episode should not be silently replaced by another version.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
           "sourceRefIds": [
-            "main"
+            "purification"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
@@ -175,24 +177,25 @@
         "question": {
           "id": "q5",
           "type": "single-choice",
-          "prompt": "Why should the two works not be treated as one continuous transcript?",
+          "prompt": "Which contrast between Apollonius and Euripides is supported?",
           "choices": [
             {
               "id": "a",
-              "text": "Euripides is the translator of Apollonius."
+              "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
             },
             {
               "id": "b",
-              "text": "The Nurse is an eyewitness narrator in the Argonautica."
+              "text": "Both texts are eyewitness diaries of Jason's voyage."
             },
             {
               "id": "c",
-              "text": "They are different authors’ works with different genres and dramatic purposes."
+              "text": "Euripides' play is a catalogue of the Argonauts."
             }
           ],
-          "answerId": "c",
-          "explanation": "They are different authors’ works with different genres and dramatic purposes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "a",
+          "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
           "sourceRefIds": [
+            "argo",
             "main"
           ],
           "objectiveIds": [

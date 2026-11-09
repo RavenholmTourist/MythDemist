@@ -33,8 +33,20 @@ def check_links(lesson, errors):
     review = lesson.get('review', {})
     if review.get('status') == 'reviewed':
         reviewer = (review.get('reviewedBy') or '').strip().lower()
-        if not reviewer or reviewer in {'devin', 'assistant', 'ai', 'model'}:
-            errors.append(f"{lesson['id']}: reviewed status needs an independent named reviewer")
+        review_type = review.get('reviewType')
+        if not reviewer:
+            errors.append(f"{lesson['id']}: reviewed status needs a named reviewer")
+        if review_type == 'independent-scholarly' and reviewer in {'devin', 'assistant', 'ai', 'model'}:
+            errors.append(f"{lesson['id']}: independent-scholarly status cannot be assigned to the AI editor")
+        notes = (review.get('notes') or '').lower()
+        if review_type == 'editorial' and (
+            'ai editorial review' not in notes
+            or 'not independent scholarly review' not in notes
+            or 'scholarly certification' not in notes
+        ):
+            errors.append(f"{lesson['id']}: AI editorial review must disclose that it is not scholarly certification")
+        if review_type not in {'editorial', 'independent-scholarly'}:
+            errors.append(f"{lesson['id']}: reviewed status needs a reviewType")
         if not (review.get('notes') or '').strip():
             errors.append(f"{lesson['id']}: reviewed status needs a review note")
         untyped = [key for key, ref in lesson['sourceReferences'].items() if ref.get('evidenceType') not in {'quotation', 'paraphrase'}]

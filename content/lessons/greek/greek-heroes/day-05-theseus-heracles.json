@@ -1,11 +1,11 @@
 {
   "id": "grc.heroes.day05.theseus-heracles",
-  "version": 2,
+  "version": 3,
   "weekId": "grc.heroes.week01",
   "pantheon": "greek",
   "themeMode": "pantheon",
-  "title": "Theseus and Heracles",
-  "subtitle": "Later sources organize heroic traditions",
+  "title": "Theseus and Heracles: Two Later Accounts",
+  "subtitle": "A civic biography beside a mythographic catalogue",
   "estimatedMinutes": 2,
   "difficulty": 1,
   "tags": [
@@ -17,11 +17,11 @@
   "learningObjectives": [
     {
       "id": "obj.theseus-heracles.concept",
-      "text": "Identify the central source-grounded idea in Theseus and Heracles."
+      "text": "Which civic achievement does Plutarch attribute to Theseus?"
     },
     {
       "id": "obj.theseus-heracles.source",
-      "text": "Connect the idea to the cited source, genre, and version."
+      "text": "Who directs Heracles to serve Eurystheus in the Library?"
     }
   ],
   "sourceReferences": {
@@ -31,11 +31,11 @@
       "work": "Bibliotheca (Library)",
       "author": "Pseudo-Apollodorus",
       "translator": "James George Frazer",
-      "locator": "Library 2.4.12, madness and the service preceding the labours",
+      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
       "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi",
+      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
       "evidenceType": "quotation",
-      "note": "Verbatim passage excerpt, ending mid-sentence; whitespace normalized. Compare this mythographic sequence with Plutarch’s later civic biography."
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
     },
     "plutarch": {
       "recordId": "pg-00674",
@@ -43,21 +43,20 @@
       "work": "Plutarch: Lives of the Noble Grecians and Romans",
       "author": "Plutarch",
       "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, civic unification; local text, normalized characters 40458-40761",
+      "locator": "Life of Theseus, civic unification; local text, normalized characters 40458-40754",
       "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Heroes become systems",
-      "body": "Theseus and Heracles appear across many traditions. Later writers gather scattered stories into lives, genealogies, and labors.",
+      "title": "Plutarch's Theseus unites Attica",
+      "body": "Plutarch credits Theseus with bringing dispersed inhabitants into one civic community and calming disputes.",
       "sourceRefIds": [
-        "apollo",
         "plutarch"
       ],
       "objectiveIds": [
@@ -67,24 +66,23 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Genre changes the hero",
-      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "title": "The Library's Heracles receives an order",
+      "body": "The Pythian priestess directs Heracles to serve Eurystheus and perform the first ten labours.",
       "sourceRefIds": [
-        "apollo",
-        "plutarch"
+        "apollo"
       ],
       "objectiveIds": [
-        "obj.theseus-heracles.concept"
+        "obj.theseus-heracles.source"
       ]
     },
     {
       "id": "card-03",
-      "kind": "synthesis",
-      "title": "Keep versions attached",
-      "body": "A tradition can be rich because it varies. Record who tells the story and what kind of work it is.",
+      "kind": "context",
+      "title": "The works have different purposes",
+      "body": "Plutarch shapes a Life around civic and moral action; the Library organizes myths into genealogies and episodes.",
       "sourceRefIds": [
-        "apollo",
-        "plutarch"
+        "plutarch",
+        "apollo"
       ],
       "objectiveIds": [
         "obj.theseus-heracles.concept"
@@ -93,24 +91,24 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "Different later genres do different work",
-      "body": "Apollodorus organizes episodes into a mythographic account; Plutarch shapes a life for moral and political reading. Ask what each genre wants the hero to explain.",
+      "title": "A comparison needs both passages",
+      "body": "The Theseus claim comes from Plutarch; the Heracles service comes from Pseudo-Apollodorus' Library. Neither passage defines every version of either hero.",
       "sourceRefIds": [
-        "apollo",
-        "plutarch"
+        "plutarch",
+        "apollo"
       ],
       "objectiveIds": [
-        "obj.theseus-heracles.concept"
+        "obj.theseus-heracles.source"
       ]
     },
     {
       "id": "card-05",
-      "kind": "flavor",
-      "title": "Order is also interpretation",
-      "body": "A catalogue of labours or a civic biography can feel stable, but that order is already a choice. The “official” heroic shape is produced by sources, not simply inherited as fact.",
+      "kind": "synthesis",
+      "title": "Do not turn order into a canon",
+      "body": "These selected accounts show how later authors used heroes for different narrative and political purposes.",
       "sourceRefIds": [
-        "apollo",
-        "plutarch"
+        "plutarch",
+        "apollo"
       ],
       "objectiveIds": [
         "obj.theseus-heracles.concept"
@@ -121,58 +119,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Which hero does Plutarch link to Athens’ civic foundation?",
+      "prompt": "Which civic achievement does Plutarch attribute to Theseus?",
       "choices": [
         {
           "id": "a",
-          "text": "Jason"
+          "text": "Serving Eurystheus for twelve years"
         },
         {
           "id": "b",
-          "text": "Theseus"
+          "text": "Sailing with the Argo"
         },
         {
           "id": "c",
-          "text": "Achilles"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Theseus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
-      "sourceRefIds": [
-        "apollo",
-        "plutarch"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why identify the author when comparing heroes?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Every work preserves an identical sequence."
-        },
-        {
-          "id": "b",
-          "text": "A later biography is always an eyewitness account."
-        },
-        {
-          "id": "c",
-          "text": "Genre and purpose shape the version being told."
+          "text": "Uniting Attica into one political community"
         }
       ],
       "answerId": "c",
-      "explanation": "Genre and purpose shape the version being told.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Plutarch's passage says Theseus brought Attica's inhabitants together into one city and people.",
       "sourceRefIds": [
-        "apollo",
         "plutarch"
       ],
       "objectiveIds": [
         "obj.theseus-heracles.concept"
-      ]
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "plutarch"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Who directs Heracles to serve Eurystheus in the Library?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Medea"
+        },
+        {
+          "id": "b",
+          "text": "The Pythian priestess"
+        },
+        {
+          "id": "c",
+          "text": "Penelope"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "The Library says the Pythian priestess sends Heracles to Tiryns to serve Eurystheus.",
+      "sourceRefIds": [
+        "apollo"
+      ],
+      "objectiveIds": [
+        "obj.theseus-heracles.source"
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "apollo"
+        ]
+      }
     }
   ],
   "feedbackOptions": [
@@ -184,9 +200,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

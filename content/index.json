@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T02:57:31.195589+00:00",
+  "generatedAt": "2026-11-09T16:03:37.064028+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -227,23 +227,23 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Why compare the openings of the Iliad and Odyssey?",
+              "prompt": "How do the two openings differ in what they foreground?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "They prove every hero has the same ending."
+                  "text": "The Iliad begins with the Argo while the Odyssey begins with Theseus."
                 },
                 {
                   "id": "b",
-                  "text": "They introduce different heroic problems rather than one moral template."
+                  "text": "The Iliad names anger and loss; the Odyssey names travel, suffering, and return."
                 },
                 {
                   "id": "c",
-                  "text": "They are accounts of the same scene."
+                  "text": "Both openings describe the same battle scene."
                 }
               ],
               "answerId": "b",
-              "explanation": "They introduce different heroic problems rather than one moral template.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The Iliad's invocation foregrounds Achilles' anger; the Odyssey's invocation foregrounds a journey and its costs.",
               "sourceRefIds": [
                 "ref-iliad-1-opening",
                 "ref-odyssey-1-opening"
@@ -258,25 +258,25 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "Which consequence links Achilles\u2019 quarrel to the wider war?",
+              "prompt": "After the heralds take Briseis, where does Achilles go and whom does he call?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "It moves the war from Troy to Athens."
+                  "text": "He goes to the seashore and calls on Thetis."
                 },
                 {
                   "id": "b",
-                  "text": "It sends Jason to Colchis."
+                  "text": "He sails to Crete and calls on Ariadne."
                 },
                 {
                   "id": "c",
-                  "text": "His withdrawal removes a crucial fighter from the army."
+                  "text": "He goes to Mount Oeta and calls on Zeus."
                 }
               ],
-              "answerId": "c",
-              "explanation": "His withdrawal removes a crucial fighter from the army.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "a",
+              "explanation": "Book 1 says Achilles goes alone to the sea and prays to his mother Thetis.",
               "sourceRefIds": [
-                "iliad"
+                "aftermath"
               ],
               "objectiveIds": [
                 "obj.achilles-anger.concept"
@@ -288,23 +288,23 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "What must a return narrative address beyond travel?",
+              "prompt": "What does the Odyssey say Odysseus suffers while trying to save his men?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Recognition and the household awaiting the traveller"
+                  "text": "He loses his armor in the Nemean cave."
                 },
                 {
                   "id": "b",
-                  "text": "Only the number of ships in the fleet"
+                  "text": "He is trapped by the suitors in Ithaca."
                 },
                 {
                   "id": "c",
-                  "text": "Only the weapons used to kill monsters"
+                  "text": "Much suffering by sea, and he cannot save his crew."
                 }
               ],
-              "answerId": "a",
-              "explanation": "Recognition and the household awaiting the traveller. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "c",
+              "explanation": "Butler's invocation says Odysseus suffers by sea and cannot save his men.",
               "sourceRefIds": [
                 "odyssey"
               ],
@@ -334,7 +334,7 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "Their genres and narrative settings shape different presentations of Medea.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Their genres and narrative settings shape different presentations of Medea. is the passage-specific answer. Check The Argonautica (Argonautica 3, Medea gives Jason the charm); The Tragedies of Euripides, Volume I (Medea, Nurse's prologue), keeping each work and version distinct.",
               "sourceRefIds": [
                 "argo",
                 "medea"
@@ -365,7 +365,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "Plutarch presents a legendary founder through later biography.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Plutarch presents a legendary founder through later biography. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, oracle assigns service); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, civic unification), keeping each work and version distinct.",
               "sourceRefIds": [
                 "apollo",
                 "plutarch"
@@ -436,7 +436,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "A rejected petition leads to plague and a dispute among leaders.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -450,25 +450,27 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "Why distinguish Briseis from Chryseis?",
+              "prompt": "Which sequence does Butler's Book 1 narrate?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles."
+                  "text": "Achilles kills Agamemnon, then sails to Crete."
                 },
                 {
                   "id": "b",
-                  "text": "They are two names for the same captive."
+                  "text": "Priam ransoms Hector, then Athena stops the war."
                 },
                 {
                   "id": "c",
-                  "text": "Briseis is the priest who demands ransom."
+                  "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
                 }
               ],
-              "answerId": "a",
-              "explanation": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "c",
+              "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "restraint",
+                "aftermath"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
@@ -496,8 +498,9 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "Material rewards do not automatically restore damaged trust.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
               "sourceRefIds": [
+                "offer",
                 "main"
               ],
               "objectiveIds": [
@@ -510,23 +513,23 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "What most directly motivates Achilles\u2019 return?",
+              "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Acceptance of the original embassy without further loss"
+                  "text": "Hector now holds the armour that Patroclus wore."
                 },
                 {
                   "id": "b",
-                  "text": "A promise that he will now survive the war"
+                  "text": "The armour is returned to Chryses."
                 },
                 {
                   "id": "c",
-                  "text": "Grief for Patroclus and the desire to avenge him"
+                  "text": "Patroclus gives it to Priam as a ransom."
                 }
               ],
-              "answerId": "c",
-              "explanation": "Grief for Patroclus and the desire to avenge him. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "a",
+              "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
               "sourceRefIds": [
                 "main"
               ],
@@ -556,9 +559,10 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam\u2019s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "release"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w02d05.priam-and-achilles.source"
@@ -597,25 +601,26 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Why begin with Ithaca rather than only Odysseus\u2019 travels?",
+              "prompt": "What do the suitors do in Odysseus' home while he is absent?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "His absence has social costs for the household he hopes to regain."
+                  "text": "They guard the house for Telemachus."
                 },
                 {
                   "id": "b",
-                  "text": "The poem has forgotten who its returning hero is."
+                  "text": "They return the estate to Odysseus."
                 },
                 {
                   "id": "c",
-                  "text": "Ithaca has already completed the recognition of Odysseus."
+                  "text": "They consume his resources and press Penelope about remarriage."
                 }
               ],
-              "answerId": "a",
-              "explanation": "His absence has social costs for the household he hopes to regain.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "c",
+              "explanation": "Telemachus says the suitors eat up his house and press his mother about marriage.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "pressure"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w03d01.the-broken-house.source"
@@ -627,25 +632,26 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What tension does the Cyclops episode expose?",
+              "prompt": "What does Odysseus' boast reveal, and what does Polyphemus do next?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Revealing a name guarantees divine protection."
+                  "text": "His father's name; Polyphemus returns his crew."
                 },
                 {
                   "id": "b",
-                  "text": "Clever secrecy wins escape, but the desire for credit creates danger."
+                  "text": "His name; Polyphemus prays to Poseidon to prevent his return."
                 },
                 {
                   "id": "c",
-                  "text": "Strength alone succeeds where planning fails."
+                  "text": "His ship's location; Polyphemus gives him a safe passage."
                 }
               ],
               "answerId": "b",
-              "explanation": "Clever secrecy wins escape, but the desire for credit creates danger.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Odysseus reveals his name, and Polyphemus invokes Poseidon against his return.",
               "sourceRefIds": [
-                "main"
+                "boast",
+                "curse"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
@@ -673,7 +679,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "The crew avoid hearing, while Odysseus listens under restraint.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The crew avoid hearing, while Odysseus listens under restraint. is the passage-specific answer. Check The Odyssey (Book 12, Circe\u2019s instructions about the Sirens), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -703,7 +709,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "The dead hero himself voices a cost that praise can conceal.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The dead hero himself voices a cost that praise can conceal. is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -733,7 +739,7 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "Reaching home is not the same as being recognised and trusted.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Reaching home is not the same as being recognised and trusted. is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -790,7 +796,7 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "Jason matches the warning about a man with one sandal.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -804,25 +810,25 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "Why is it misleading to call Jason\u2019s success unaided strength?",
+              "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Jason completes the test before he meets Aeetes."
+                  "text": "The bulls' fire and the earthborn men's weapons."
                 },
                 {
                   "id": "b",
-                  "text": "The bulls turn out to be ordinary farm animals."
+                  "text": "The Sirens' song and the whirlpool."
                 },
                 {
                   "id": "c",
-                  "text": "The challenge is overcome with Medea\u2019s specialist help."
+                  "text": "The cold of the House of Cold."
                 }
               ],
-              "answerId": "c",
-              "explanation": "The challenge is overcome with Medea\u2019s specialist help.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "a",
+              "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
               "sourceRefIds": [
-                "main"
+                "aid"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
@@ -850,9 +856,11 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "She deliberates and acts within family pressures and divine influence.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "dilemma",
+                "aid"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w04d03.medea-chooses.source"
@@ -864,25 +872,25 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "Which claim preserves the source boundary?",
+              "prompt": "What does Apollonius say follows Apsyrtus' killing?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Euripides\u2019 Medea narrates the whole outward voyage on stage."
+                  "text": "Aeetes welcomes the Argonauts home."
                 },
                 {
                   "id": "b",
-                  "text": "Apollonius\u2019 Apsyrtus episode should not be silently replaced by another version."
+                  "text": "Zeus orders the Argonauts to seek purification from Circe."
                 },
                 {
                   "id": "c",
-                  "text": "Every account gives exactly the same killing of Apsyrtus."
+                  "text": "Athena gives Jason the throne of Athens."
                 }
               ],
               "answerId": "b",
-              "explanation": "Apollonius\u2019 Apsyrtus episode should not be silently replaced by another version.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
               "sourceRefIds": [
-                "main"
+                "purification"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
@@ -894,24 +902,25 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "Why should the two works not be treated as one continuous transcript?",
+              "prompt": "Which contrast between Apollonius and Euripides is supported?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Euripides is the translator of Apollonius."
+                  "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
                 },
                 {
                   "id": "b",
-                  "text": "The Nurse is an eyewitness narrator in the Argonautica."
+                  "text": "Both texts are eyewitness diaries of Jason's voyage."
                 },
                 {
                   "id": "c",
-                  "text": "They are different authors\u2019 works with different genres and dramatic purposes."
+                  "text": "Euripides' play is a catalogue of the Argonauts."
                 }
               ],
-              "answerId": "c",
-              "explanation": "They are different authors\u2019 works with different genres and dramatic purposes.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "a",
+              "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
               "sourceRefIds": [
+                "argo",
                 "main"
               ],
               "objectiveIds": [
@@ -968,7 +977,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "The Library gives an initial ten-task instruction, then reports that Eurystheus rejects the Hydra and Augeas tasks for different reasons.",
+              "explanation": "The first oracle\u2019s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus\u2019 help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main",
                 "hydra",
@@ -984,25 +993,26 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What makes this feat an example of adaptation?",
+              "prompt": "What method defeats the lion after arrows fail?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Failed arrows lead Heracles to change his approach."
+                  "text": "Iolaus helps cauterize the Hydra's neck."
                 },
                 {
                   "id": "b",
-                  "text": "He replaces the arrows with a heavier bow and keeps attacking from outside."
+                  "text": "He distracts it with a singing contest."
                 },
                 {
                   "id": "c",
-                  "text": "Iolaus burns the lion\u2019s hide so Heracles can seize it."
+                  "text": "Heracles blocks one cave entrance and chokes the lion through the other."
                 }
               ],
-              "answerId": "a",
-              "explanation": "Failed arrows lead Heracles to change his approach.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "c",
+              "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "combat"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -1030,7 +1040,7 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "The Library is one mythographic account; other genres and authors may arrange the Heracles story differently.",
+              "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1060,7 +1070,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "Library 2.7.7 narrates the pyre on Oeta and the subsequent ascent and reception among the gods.",
+              "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1090,7 +1100,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Olympian 2 links Heracles with the founding of the festival and then names Theron\u2019s victory; its occasion is praise, not a complete life of Heracles.",
+              "explanation": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1149,7 +1159,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Plutarch\u2019s Life of Theseus. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Plutarch\u2019s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1163,25 +1173,25 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What does the thread qualify about the heroic victory?",
+              "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Theseus needs no knowledge of the maze."
+                  "text": "Escape from Polyphemus."
                 },
                 {
                   "id": "b",
-                  "text": "Theseus\u2019 success depends on another person\u2019s practical aid."
+                  "text": "Find his way out after killing the Minotaur."
                 },
                 {
                   "id": "c",
-                  "text": "The Minotaur has already left Crete."
+                  "text": "Capture the Nemean lion."
                 }
               ],
               "answerId": "b",
-              "explanation": "Theseus\u2019 success depends on another person\u2019s practical aid.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
               "sourceRefIds": [
-                "main"
+                "escape"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
@@ -1209,7 +1219,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "His deeds explain the community\u2019s institutions and belonging.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "His deeds explain the community\u2019s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1239,7 +1249,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1269,7 +1279,7 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main",
                 "heracles"
@@ -1313,25 +1323,27 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Which contrast with Odysseus\u2019 return is useful but limited?",
+              "prompt": "Which contrast between the returns is supported by these works?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Neither poem connects war with household damage."
+                  "text": "Neither work includes a household after the war."
                 },
                 {
                   "id": "b",
-                  "text": "Agamemnon\u2019s return exposes lethal household conflict rather than achieving reunion."
+                  "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
                 },
                 {
                   "id": "c",
-                  "text": "Both homecomings end with the same bed test."
+                  "text": "Both kings are welcomed without conflict."
                 }
               ],
               "answerId": "b",
-              "explanation": "Agamemnon\u2019s return exposes lethal household conflict rather than achieving reunion.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "murder",
+                "odyssey"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w07d01.agamemnon-returns.source"
@@ -1359,9 +1371,10 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "Divine figures and the Erinyes remain central to the settlement.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "court"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -1389,9 +1402,10 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "A ruler\u2019s decree collides with familial and divine obligations.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "A ruler\u2019s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon\u2019s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "defense"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w07d03.antigone-and-burial.source"
@@ -1419,9 +1433,10 @@
                 }
               ],
               "answerId": "b",
-              "explanation": "The investigator becomes the person his inquiry exposes.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus\u2019 proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "revelation"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -1433,23 +1448,23 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "How should this play enter a comparison with the Iliad?",
+              "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "As the final book written by Homer himself"
+                  "text": "Captive women being assigned to Greek masters."
                 },
                 {
                   "id": "b",
-                  "text": "As proof that no Greek work ever praised a warrior"
+                  "text": "A Greek council choosing a new king."
                 },
                 {
                   "id": "c",
-                  "text": "As another work\u2019s perspective on war, not a missing transcript from Homer"
+                  "text": "Odysseus explaining the construction of his marriage bed."
                 }
               ],
-              "answerId": "c",
-              "explanation": "As another work\u2019s perspective on war, not a missing transcript from Homer. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "answerId": "a",
+              "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1508,9 +1523,10 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "agreement"
               ],
               "objectiveIds": [
                 "obj.grc.heroes.w08d01.persephone-descends.source"
@@ -1538,7 +1554,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Evidence about the particular sanctuary, community, and practice. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles\u2019 reply among the dead), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1552,23 +1568,23 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "Which comparison keeps the sources distinct?",
+              "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Treat Riley\u2019s explanatory summaries as Ovid\u2019s own Latin lines."
+                  "text": "He orders Medea to return to Colchis."
                 },
                 {
                   "id": "b",
-                  "text": "Compare Ovid\u2019s crown transformation with the Epitome\u2019s thread episode."
+                  "text": "He embraces her and places her crown among the stars."
                 },
                 {
                   "id": "c",
-                  "text": "Use Ovid to silently correct every earlier Greek account."
+                  "text": "He gives Theseus a clue to leave the labyrinth."
                 }
               ],
               "answerId": "b",
-              "explanation": "Compare Ovid\u2019s crown transformation with the Epitome\u2019s thread episode.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1598,7 +1614,7 @@
                 }
               ],
               "answerId": "c",
-              "explanation": "His interpretation of ancient testimony is not the ancient testimony itself.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main"
               ],
@@ -1628,7 +1644,7 @@
                 }
               ],
               "answerId": "a",
-              "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+              "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
               "sourceRefIds": [
                 "main",
                 "heracles",
@@ -2038,7 +2054,7 @@
     },
     {
       "id": "cherokee.tradition.week01",
-      "title": "Cherokee Traditions",
+      "title": "Stories in Mooney's Cherokee Collection",
       "pantheon": "cherokee",
       "path": "content/curriculum/cherokee/cherokee-week-01.json",
       "dayCount": 5,
@@ -2146,9 +2162,9 @@
   "lessons": [
     {
       "id": "grc.heroes.day01.heroic-excellence",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
-      "title": "Heroes Aren\u2019t Superheroes",
+      "title": "Heroes Are Not Moral Certificates",
       "weekId": "grc.heroes.week01",
       "tags": [
         "heroes",
@@ -2187,9 +2203,9 @@
     },
     {
       "id": "grc.heroes.day02.achilles-anger",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
-      "title": "Achilles: Anger and Honor",
+      "title": "Achilles: Anger, Honor, and Restraint",
       "weekId": "grc.heroes.week01",
       "tags": [
         "achilles",
@@ -2221,9 +2237,9 @@
     },
     {
       "id": "grc.heroes.day03.odysseus-cunning",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
-      "title": "Odysseus: Cunning and Return",
+      "title": "Odysseus: Journey and Loss",
       "weekId": "grc.heroes.week01",
       "tags": [
         "odysseus",
@@ -2255,9 +2271,9 @@
     },
     {
       "id": "grc.heroes.day04.jason-medea",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Jason and Medea",
+      "title": "Jason and Medea: Help and Aftermath",
       "weekId": "grc.heroes.week01",
       "tags": [
         "jason",
@@ -2293,9 +2309,9 @@
     },
     {
       "id": "grc.heroes.day05.theseus-heracles",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Theseus and Heracles",
+      "title": "Theseus and Heracles: Two Later Accounts",
       "weekId": "grc.heroes.week01",
       "tags": [
         "theseus",
@@ -2331,7 +2347,7 @@
     },
     {
       "id": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Quarrel and the Ransom",
       "weekId": "grc.heroes.week02",
@@ -2368,7 +2384,7 @@
     },
     {
       "id": "grc.heroes.w02d02.briseis-and-withdrawal",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Briseis and Withdrawal",
       "weekId": "grc.heroes.week02",
@@ -2405,7 +2421,7 @@
     },
     {
       "id": "grc.heroes.w02d03.the-embassy-fails",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Embassy Fails",
       "weekId": "grc.heroes.week02",
@@ -2442,7 +2458,7 @@
     },
     {
       "id": "grc.heroes.w02d04.patroclus-changes-everything",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Patroclus Changes Everything",
       "weekId": "grc.heroes.week02",
@@ -2479,7 +2495,7 @@
     },
     {
       "id": "grc.heroes.w02d05.priam-and-achilles",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Priam and Achilles",
       "weekId": "grc.heroes.week02",
@@ -2516,7 +2532,7 @@
     },
     {
       "id": "grc.heroes.w03d01.the-broken-house",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Broken House",
       "weekId": "grc.heroes.week03",
@@ -2553,7 +2569,7 @@
     },
     {
       "id": "grc.heroes.w03d02.nobody-and-the-cyclops",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Nobody and the Cyclops",
       "weekId": "grc.heroes.week03",
@@ -2590,7 +2606,7 @@
     },
     {
       "id": "grc.heroes.w03d03.circe-and-the-sirens",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Circe and the Sirens",
       "weekId": "grc.heroes.week03",
@@ -2627,7 +2643,7 @@
     },
     {
       "id": "grc.heroes.w03d04.talking-with-the-dead",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
       "title": "Talking with the Dead",
       "weekId": "grc.heroes.week03",
@@ -2701,7 +2717,7 @@
     },
     {
       "id": "grc.heroes.w04d01.the-political-quest",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Political Quest",
       "weekId": "grc.heroes.week04",
@@ -2738,7 +2754,7 @@
     },
     {
       "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Aeetes and the Tasks",
       "weekId": "grc.heroes.week04",
@@ -2775,7 +2791,7 @@
     },
     {
       "id": "grc.heroes.w04d03.medea-chooses",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Medea Chooses",
       "weekId": "grc.heroes.week04",
@@ -2812,7 +2828,7 @@
     },
     {
       "id": "grc.heroes.w04d04.flight-and-pursuit",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Flight and Pursuit",
       "weekId": "grc.heroes.week04",
@@ -2849,7 +2865,7 @@
     },
     {
       "id": "grc.heroes.w04d05.medea-on-stage",
-      "version": 2,
+      "version": 5,
       "pantheon": "greek",
       "title": "Medea on Stage",
       "weekId": "grc.heroes.week04",
@@ -2866,6 +2882,7 @@
         "obj.grc.heroes.w04d05.medea-on-stage.source"
       ],
       "recordIds": [
+        "pg-00830",
         "pg-15081"
       ],
       "rewardArtId": null,
@@ -2923,7 +2940,7 @@
     },
     {
       "id": "grc.heroes.w05d02.the-nemean-lion",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Nemean Lion",
       "weekId": "grc.heroes.week05",
@@ -3071,7 +3088,7 @@
     },
     {
       "id": "grc.heroes.w06d01.the-road-to-athens",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Road to Athens",
       "weekId": "grc.heroes.week06",
@@ -3108,9 +3125,9 @@
     },
     {
       "id": "grc.heroes.w06d02.the-minotaur-and-ariadne",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
-      "title": "The Minotaur and Ariadne",
+      "title": "The Minotaur and Ariadne's Clue",
       "weekId": "grc.heroes.week06",
       "tags": [
         "greek-heroes",
@@ -3219,7 +3236,7 @@
     },
     {
       "id": "grc.heroes.w06d05.the-civic-hero",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "The Civic Hero",
       "weekId": "grc.heroes.week06",
@@ -3257,7 +3274,7 @@
     },
     {
       "id": "grc.heroes.w07d01.agamemnon-returns",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Agamemnon Returns",
       "weekId": "grc.heroes.week07",
@@ -3274,6 +3291,7 @@
         "obj.grc.heroes.w07d01.agamemnon-returns.source"
       ],
       "recordIds": [
+        "pg-01727",
         "pg-08604"
       ],
       "rewardArtId": null,
@@ -3294,7 +3312,7 @@
     },
     {
       "id": "grc.heroes.w07d02.orestes-and-justice",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Orestes and Justice",
       "weekId": "grc.heroes.week07",
@@ -3331,7 +3349,7 @@
     },
     {
       "id": "grc.heroes.w07d03.antigone-and-burial",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Antigone and Burial",
       "weekId": "grc.heroes.week07",
@@ -3368,7 +3386,7 @@
     },
     {
       "id": "grc.heroes.w07d04.oedipus-investigates",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Oedipus Investigates",
       "weekId": "grc.heroes.week07",
@@ -3442,7 +3460,7 @@
     },
     {
       "id": "grc.heroes.w08d01.persephone-descends",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Persephone Descends",
       "weekId": "grc.heroes.week08",
@@ -3479,7 +3497,7 @@
     },
     {
       "id": "grc.heroes.w08d02.heroes-in-memory",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
       "title": "Heroes in Memory",
       "weekId": "grc.heroes.week08",
@@ -3533,6 +3551,7 @@
         "obj.grc.heroes.w08d03.ovid-transforms.source"
       ],
       "recordIds": [
+        "perseus-apollodorus-epitome-frazer",
         "pg-26073"
       ],
       "rewardArtId": null,
@@ -3553,7 +3572,7 @@
     },
     {
       "id": "grc.heroes.w08d04.heroes-in-landscape",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Heroes in Landscape",
       "weekId": "grc.heroes.week08",
@@ -3590,7 +3609,7 @@
     },
     {
       "id": "grc.heroes.w08d05.four-heroic-models",
-      "version": 2,
+      "version": 4,
       "pantheon": "greek",
       "title": "Four Heroic Models",
       "weekId": "grc.heroes.week08",
@@ -5983,15 +6002,15 @@
     },
     {
       "id": "cherokee.week01.day01.how-the-world-was-made",
-      "version": 1,
+      "version": 3,
       "pantheon": "cherokee",
-      "title": "How the world was made",
+      "title": "How the World Was Made",
       "weekId": "cherokee.tradition.week01",
       "tags": [
         "cherokee",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-01-how-the-world-was-made.json",
       "objectiveIds": [
         "obj.cherokee.1.concept",
@@ -6014,15 +6033,15 @@
     },
     {
       "id": "cherokee.week01.day02.kanati-and-selu",
-      "version": 1,
+      "version": 3,
       "pantheon": "cherokee",
-      "title": "Kanati and Selu",
+      "title": "Kana'ti and Selu: Game and Corn",
       "weekId": "cherokee.tradition.week01",
       "tags": [
         "cherokee",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-02-kanati-and-selu.json",
       "objectiveIds": [
         "obj.cherokee.2.concept",
@@ -6045,15 +6064,15 @@
     },
     {
       "id": "cherokee.week01.day03.uktena-and-danger",
-      "version": 1,
+      "version": 3,
       "pantheon": "cherokee",
-      "title": "Uktena and danger",
+      "title": "Agan-Unitsi's Search for the Uktena",
       "weekId": "cherokee.tradition.week01",
       "tags": [
         "cherokee",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-03-uktena-and-danger.json",
       "objectiveIds": [
         "obj.cherokee.3.concept",
@@ -6076,15 +6095,15 @@
     },
     {
       "id": "cherokee.week01.day04.animal-stories",
-      "version": 1,
+      "version": 3,
       "pantheon": "cherokee",
-      "title": "Animal stories",
+      "title": "The Rabbit and the Tar Wolf",
       "weekId": "cherokee.tradition.week01",
       "tags": [
         "cherokee",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-04-animal-stories.json",
       "objectiveIds": [
         "obj.cherokee.4.concept",
@@ -6107,15 +6126,15 @@
     },
     {
       "id": "cherokee.week01.day05.medicine-and-sacred-speech",
-      "version": 1,
+      "version": 3,
       "pantheon": "cherokee",
-      "title": "Medicine and sacred speech",
+      "title": "Origin of Disease and Medicine",
       "weekId": "cherokee.tradition.week01",
       "tags": [
         "cherokee",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-05-medicine-and-sacred-speech.json",
       "objectiveIds": [
         "obj.cherokee.5.concept",
@@ -7453,23 +7472,23 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Why compare the openings of the Iliad and Odyssey?",
+                  "prompt": "How do the two openings differ in what they foreground?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "They prove every hero has the same ending."
+                      "text": "The Iliad begins with the Argo while the Odyssey begins with Theseus."
                     },
                     {
                       "id": "b",
-                      "text": "They introduce different heroic problems rather than one moral template."
+                      "text": "The Iliad names anger and loss; the Odyssey names travel, suffering, and return."
                     },
                     {
                       "id": "c",
-                      "text": "They are accounts of the same scene."
+                      "text": "Both openings describe the same battle scene."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "They introduce different heroic problems rather than one moral template.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The Iliad's invocation foregrounds Achilles' anger; the Odyssey's invocation foregrounds a journey and its costs.",
                   "sourceRefIds": [
                     "ref-iliad-1-opening",
                     "ref-odyssey-1-opening"
@@ -7484,25 +7503,25 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "Which consequence links Achilles\u2019 quarrel to the wider war?",
+                  "prompt": "After the heralds take Briseis, where does Achilles go and whom does he call?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "It moves the war from Troy to Athens."
+                      "text": "He goes to the seashore and calls on Thetis."
                     },
                     {
                       "id": "b",
-                      "text": "It sends Jason to Colchis."
+                      "text": "He sails to Crete and calls on Ariadne."
                     },
                     {
                       "id": "c",
-                      "text": "His withdrawal removes a crucial fighter from the army."
+                      "text": "He goes to Mount Oeta and calls on Zeus."
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "His withdrawal removes a crucial fighter from the army.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "a",
+                  "explanation": "Book 1 says Achilles goes alone to the sea and prays to his mother Thetis.",
                   "sourceRefIds": [
-                    "iliad"
+                    "aftermath"
                   ],
                   "objectiveIds": [
                     "obj.achilles-anger.concept"
@@ -7514,23 +7533,23 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "What must a return narrative address beyond travel?",
+                  "prompt": "What does the Odyssey say Odysseus suffers while trying to save his men?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Recognition and the household awaiting the traveller"
+                      "text": "He loses his armor in the Nemean cave."
                     },
                     {
                       "id": "b",
-                      "text": "Only the number of ships in the fleet"
+                      "text": "He is trapped by the suitors in Ithaca."
                     },
                     {
                       "id": "c",
-                      "text": "Only the weapons used to kill monsters"
+                      "text": "Much suffering by sea, and he cannot save his crew."
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Recognition and the household awaiting the traveller. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "c",
+                  "explanation": "Butler's invocation says Odysseus suffers by sea and cannot save his men.",
                   "sourceRefIds": [
                     "odyssey"
                   ],
@@ -7560,7 +7579,7 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Their genres and narrative settings shape different presentations of Medea.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Their genres and narrative settings shape different presentations of Medea. is the passage-specific answer. Check The Argonautica (Argonautica 3, Medea gives Jason the charm); The Tragedies of Euripides, Volume I (Medea, Nurse's prologue), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "argo",
                     "medea"
@@ -7591,7 +7610,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "Plutarch presents a legendary founder through later biography.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Plutarch presents a legendary founder through later biography. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, oracle assigns service); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, civic unification), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "apollo",
                     "plutarch"
@@ -7636,7 +7655,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "A rejected petition leads to plague and a dispute among leaders.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7650,25 +7669,27 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "Why distinguish Briseis from Chryseis?",
+                  "prompt": "Which sequence does Butler's Book 1 narrate?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles."
+                      "text": "Achilles kills Agamemnon, then sails to Crete."
                     },
                     {
                       "id": "b",
-                      "text": "They are two names for the same captive."
+                      "text": "Priam ransoms Hector, then Athena stops the war."
                     },
                     {
                       "id": "c",
-                      "text": "Briseis is the priest who demands ransom."
+                      "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "c",
+                  "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "restraint",
+                    "aftermath"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
@@ -7696,8 +7717,9 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Material rewards do not automatically restore damaged trust.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
                   "sourceRefIds": [
+                    "offer",
                     "main"
                   ],
                   "objectiveIds": [
@@ -7710,23 +7732,23 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "What most directly motivates Achilles\u2019 return?",
+                  "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Acceptance of the original embassy without further loss"
+                      "text": "Hector now holds the armour that Patroclus wore."
                     },
                     {
                       "id": "b",
-                      "text": "A promise that he will now survive the war"
+                      "text": "The armour is returned to Chryses."
                     },
                     {
                       "id": "c",
-                      "text": "Grief for Patroclus and the desire to avenge him"
+                      "text": "Patroclus gives it to Priam as a ransom."
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Grief for Patroclus and the desire to avenge him. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "a",
+                  "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7756,9 +7778,10 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam\u2019s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "release"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w02d05.priam-and-achilles.source"
@@ -7784,25 +7807,26 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Why begin with Ithaca rather than only Odysseus\u2019 travels?",
+                  "prompt": "What do the suitors do in Odysseus' home while he is absent?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "His absence has social costs for the household he hopes to regain."
+                      "text": "They guard the house for Telemachus."
                     },
                     {
                       "id": "b",
-                      "text": "The poem has forgotten who its returning hero is."
+                      "text": "They return the estate to Odysseus."
                     },
                     {
                       "id": "c",
-                      "text": "Ithaca has already completed the recognition of Odysseus."
+                      "text": "They consume his resources and press Penelope about remarriage."
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "His absence has social costs for the household he hopes to regain.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "c",
+                  "explanation": "Telemachus says the suitors eat up his house and press his mother about marriage.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "pressure"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w03d01.the-broken-house.source"
@@ -7814,25 +7838,26 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What tension does the Cyclops episode expose?",
+                  "prompt": "What does Odysseus' boast reveal, and what does Polyphemus do next?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Revealing a name guarantees divine protection."
+                      "text": "His father's name; Polyphemus returns his crew."
                     },
                     {
                       "id": "b",
-                      "text": "Clever secrecy wins escape, but the desire for credit creates danger."
+                      "text": "His name; Polyphemus prays to Poseidon to prevent his return."
                     },
                     {
                       "id": "c",
-                      "text": "Strength alone succeeds where planning fails."
+                      "text": "His ship's location; Polyphemus gives him a safe passage."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Clever secrecy wins escape, but the desire for credit creates danger.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Odysseus reveals his name, and Polyphemus invokes Poseidon against his return.",
                   "sourceRefIds": [
-                    "main"
+                    "boast",
+                    "curse"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
@@ -7860,7 +7885,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "The crew avoid hearing, while Odysseus listens under restraint.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The crew avoid hearing, while Odysseus listens under restraint. is the passage-specific answer. Check The Odyssey (Book 12, Circe\u2019s instructions about the Sirens), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7890,7 +7915,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "The dead hero himself voices a cost that praise can conceal.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The dead hero himself voices a cost that praise can conceal. is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7920,7 +7945,7 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Reaching home is not the same as being recognised and trusted.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Reaching home is not the same as being recognised and trusted. is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7964,7 +7989,7 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Jason matches the warning about a man with one sandal.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -7978,25 +8003,25 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "Why is it misleading to call Jason\u2019s success unaided strength?",
+                  "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Jason completes the test before he meets Aeetes."
+                      "text": "The bulls' fire and the earthborn men's weapons."
                     },
                     {
                       "id": "b",
-                      "text": "The bulls turn out to be ordinary farm animals."
+                      "text": "The Sirens' song and the whirlpool."
                     },
                     {
                       "id": "c",
-                      "text": "The challenge is overcome with Medea\u2019s specialist help."
+                      "text": "The cold of the House of Cold."
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "The challenge is overcome with Medea\u2019s specialist help.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "a",
+                  "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
                   "sourceRefIds": [
-                    "main"
+                    "aid"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
@@ -8024,9 +8049,11 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "She deliberates and acts within family pressures and divine influence.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "dilemma",
+                    "aid"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w04d03.medea-chooses.source"
@@ -8038,25 +8065,25 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "Which claim preserves the source boundary?",
+                  "prompt": "What does Apollonius say follows Apsyrtus' killing?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Euripides\u2019 Medea narrates the whole outward voyage on stage."
+                      "text": "Aeetes welcomes the Argonauts home."
                     },
                     {
                       "id": "b",
-                      "text": "Apollonius\u2019 Apsyrtus episode should not be silently replaced by another version."
+                      "text": "Zeus orders the Argonauts to seek purification from Circe."
                     },
                     {
                       "id": "c",
-                      "text": "Every account gives exactly the same killing of Apsyrtus."
+                      "text": "Athena gives Jason the throne of Athens."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Apollonius\u2019 Apsyrtus episode should not be silently replaced by another version.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
                   "sourceRefIds": [
-                    "main"
+                    "purification"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
@@ -8068,24 +8095,25 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "Why should the two works not be treated as one continuous transcript?",
+                  "prompt": "Which contrast between Apollonius and Euripides is supported?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Euripides is the translator of Apollonius."
+                      "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
                     },
                     {
                       "id": "b",
-                      "text": "The Nurse is an eyewitness narrator in the Argonautica."
+                      "text": "Both texts are eyewitness diaries of Jason's voyage."
                     },
                     {
                       "id": "c",
-                      "text": "They are different authors\u2019 works with different genres and dramatic purposes."
+                      "text": "Euripides' play is a catalogue of the Argonauts."
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "They are different authors\u2019 works with different genres and dramatic purposes.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "a",
+                  "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
                   "sourceRefIds": [
+                    "argo",
                     "main"
                   ],
                   "objectiveIds": [
@@ -8128,7 +8156,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "The Library gives an initial ten-task instruction, then reports that Eurystheus rejects the Hydra and Augeas tasks for different reasons.",
+                  "explanation": "The first oracle\u2019s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus\u2019 help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main",
                     "hydra",
@@ -8144,25 +8172,26 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What makes this feat an example of adaptation?",
+                  "prompt": "What method defeats the lion after arrows fail?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Failed arrows lead Heracles to change his approach."
+                      "text": "Iolaus helps cauterize the Hydra's neck."
                     },
                     {
                       "id": "b",
-                      "text": "He replaces the arrows with a heavier bow and keeps attacking from outside."
+                      "text": "He distracts it with a singing contest."
                     },
                     {
                       "id": "c",
-                      "text": "Iolaus burns the lion\u2019s hide so Heracles can seize it."
+                      "text": "Heracles blocks one cave entrance and chokes the lion through the other."
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Failed arrows lead Heracles to change his approach.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "c",
+                  "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "combat"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -8190,7 +8219,7 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "The Library is one mythographic account; other genres and authors may arrange the Heracles story differently.",
+                  "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8220,7 +8249,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "Library 2.7.7 narrates the pyre on Oeta and the subsequent ascent and reception among the gods.",
+                  "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8250,7 +8279,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Olympian 2 links Heracles with the founding of the festival and then names Theron\u2019s victory; its occasion is praise, not a complete life of Heracles.",
+                  "explanation": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8294,7 +8323,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Plutarch\u2019s Life of Theseus. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Plutarch\u2019s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8308,25 +8337,25 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What does the thread qualify about the heroic victory?",
+                  "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Theseus needs no knowledge of the maze."
+                      "text": "Escape from Polyphemus."
                     },
                     {
                       "id": "b",
-                      "text": "Theseus\u2019 success depends on another person\u2019s practical aid."
+                      "text": "Find his way out after killing the Minotaur."
                     },
                     {
                       "id": "c",
-                      "text": "The Minotaur has already left Crete."
+                      "text": "Capture the Nemean lion."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Theseus\u2019 success depends on another person\u2019s practical aid.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
                   "sourceRefIds": [
-                    "main"
+                    "escape"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
@@ -8354,7 +8383,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "His deeds explain the community\u2019s institutions and belonging.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "His deeds explain the community\u2019s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8384,7 +8413,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8414,7 +8443,7 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main",
                     "heracles"
@@ -8443,25 +8472,27 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Which contrast with Odysseus\u2019 return is useful but limited?",
+                  "prompt": "Which contrast between the returns is supported by these works?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Neither poem connects war with household damage."
+                      "text": "Neither work includes a household after the war."
                     },
                     {
                       "id": "b",
-                      "text": "Agamemnon\u2019s return exposes lethal household conflict rather than achieving reunion."
+                      "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
                     },
                     {
                       "id": "c",
-                      "text": "Both homecomings end with the same bed test."
+                      "text": "Both kings are welcomed without conflict."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Agamemnon\u2019s return exposes lethal household conflict rather than achieving reunion.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "murder",
+                    "odyssey"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w07d01.agamemnon-returns.source"
@@ -8489,9 +8520,10 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "Divine figures and the Erinyes remain central to the settlement.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "court"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -8519,9 +8551,10 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "A ruler\u2019s decree collides with familial and divine obligations.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "A ruler\u2019s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon\u2019s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "defense"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w07d03.antigone-and-burial.source"
@@ -8549,9 +8582,10 @@
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "The investigator becomes the person his inquiry exposes.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus\u2019 proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "revelation"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -8563,23 +8597,23 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "How should this play enter a comparison with the Iliad?",
+                  "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "As the final book written by Homer himself"
+                      "text": "Captive women being assigned to Greek masters."
                     },
                     {
                       "id": "b",
-                      "text": "As proof that no Greek work ever praised a warrior"
+                      "text": "A Greek council choosing a new king."
                     },
                     {
                       "id": "c",
-                      "text": "As another work\u2019s perspective on war, not a missing transcript from Homer"
+                      "text": "Odysseus explaining the construction of his marriage bed."
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "As another work\u2019s perspective on war, not a missing transcript from Homer. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "answerId": "a",
+                  "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8623,9 +8657,10 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "agreement"
                   ],
                   "objectiveIds": [
                     "obj.grc.heroes.w08d01.persephone-descends.source"
@@ -8653,7 +8688,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Evidence about the particular sanctuary, community, and practice. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles\u2019 reply among the dead), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8667,23 +8702,23 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "Which comparison keeps the sources distinct?",
+                  "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Treat Riley\u2019s explanatory summaries as Ovid\u2019s own Latin lines."
+                      "text": "He orders Medea to return to Colchis."
                     },
                     {
                       "id": "b",
-                      "text": "Compare Ovid\u2019s crown transformation with the Epitome\u2019s thread episode."
+                      "text": "He embraces her and places her crown among the stars."
                     },
                     {
                       "id": "c",
-                      "text": "Use Ovid to silently correct every earlier Greek account."
+                      "text": "He gives Theseus a clue to leave the labyrinth."
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Compare Ovid\u2019s crown transformation with the Epitome\u2019s thread episode.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8713,7 +8748,7 @@
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "His interpretation of ancient testimony is not the ancient testimony itself.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main"
                   ],
@@ -8743,7 +8778,7 @@
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries.. Revisit the named passage and distinguish its narrative from the lesson\u2019s interpretation.",
+                  "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
                   "sourceRefIds": [
                     "main",
                     "heracles",
@@ -9870,7 +9905,7 @@
       "id": "pg-45634",
       "pantheon": "cherokee",
       "title": "Myths of the Cherokee",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "ethnographic-folklore-collection",
       "sourceIds": [
         "cherokee.myths"
       ],

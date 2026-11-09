@@ -71,9 +71,10 @@
             }
           ],
           "answerId": "c",
-          "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "agreement"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w08d01.persephone-descends.source"
@@ -101,7 +102,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Evidence about the particular sanctuary, community, and practice. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles’ reply among the dead), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -115,23 +116,23 @@
         "question": {
           "id": "q3",
           "type": "single-choice",
-          "prompt": "Which comparison keeps the sources distinct?",
+          "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
           "choices": [
             {
               "id": "a",
-              "text": "Treat Riley’s explanatory summaries as Ovid’s own Latin lines."
+              "text": "He orders Medea to return to Colchis."
             },
             {
               "id": "b",
-              "text": "Compare Ovid’s crown transformation with the Epitome’s thread episode."
+              "text": "He embraces her and places her crown among the stars."
             },
             {
               "id": "c",
-              "text": "Use Ovid to silently correct every earlier Greek account."
+              "text": "He gives Theseus a clue to leave the labyrinth."
             }
           ],
           "answerId": "b",
-          "explanation": "Compare Ovid’s crown transformation with the Epitome’s thread episode.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
           "sourceRefIds": [
             "main"
           ],
@@ -161,7 +162,7 @@
             }
           ],
           "answerId": "c",
-          "explanation": "His interpretation of ancient testimony is not the ancient testimony itself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -191,7 +192,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
           "sourceRefIds": [
             "main",
             "heracles",

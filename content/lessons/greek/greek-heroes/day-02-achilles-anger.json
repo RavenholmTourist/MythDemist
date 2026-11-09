@@ -1,11 +1,11 @@
 {
   "id": "grc.heroes.day02.achilles-anger",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week01",
   "pantheon": "greek",
   "themeMode": "pantheon",
-  "title": "Achilles: Anger and Honor",
-  "subtitle": "Greatness and its cost",
+  "title": "Achilles: Anger, Honor, and Restraint",
+  "subtitle": "A public quarrel changes what the army can do",
   "estimatedMinutes": 2,
   "difficulty": 1,
   "tags": [
@@ -16,11 +16,11 @@
   "learningObjectives": [
     {
       "id": "obj.achilles-anger.concept",
-      "text": "Identify the central source-grounded idea in Achilles: Anger and Honor."
+      "text": "What does Agamemnon threaten to take from Achilles?"
     },
     {
       "id": "obj.achilles-anger.source",
-      "text": "Connect the idea to the cited source, genre, and version."
+      "text": "What does Athena tell Achilles to do?"
     }
   ],
   "sourceReferences": {
@@ -30,19 +30,43 @@
       "work": "The Iliad",
       "author": "Homer",
       "translator": "Samuel Butler",
-      "locator": "Book 1, opening; Book 1, normalized characters 90-392",
+      "locator": "Iliad 1, Agamemnon threatens to take Briseis; Book 1, normalized characters 9000-9291",
       "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "mother Thetis to ask Jove to help the Trojans—Scene between Jove and Juno on Olympus. Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for",
+      "excerpt": "since Phoebus Apollo is taking Chryseis from me, I shall send her with my ship and my followers, but I shall come to your tent and take your own prize Briseis, that you may learn how much stronger I am than you are, and that another may fear to set himself up as equal or comparable with me.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
+    },
+    "restraint": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Iliad 1, Athena restrains Achilles; Book 1, normalized characters 9293-10273",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "The son of Peleus was furious, and his heart within his shaggy breast was divided whether to draw his sword, push the others aside, and kill the son of Atreus, or to restrain himself and check his anger. While he was thus in two minds, and was drawing his mighty sword from its scabbard, Minerva came down from heaven (for Juno had sent her in the love she bore to them both), and seized the son of Peleus by his yellow hair, visible to him alone, for of the others no man could see her. Achilles turned in amaze, and by the fire that flashed from her eyes at once knew that she was Minerva. “Why are you here,” said he, “daughter of aegis-bearing Jove? To see the pride of Agamemnon, son of Atreus? Let me tell you—and it shall surely be—he shall pay for this insolence with his life.” And Minerva said, “I come from heaven, if you will hear me, to bid you stay your anger. Juno has sent me, who cares for both of you alike. Cease, then, this brawling, and do not draw your sword",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
+    },
+    "aftermath": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Iliad 1, Achilles appeals to Thetis; Book 1, normalized characters 17110-17588",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "Then Achilles went all alone by the side of the hoar sea, weeping and looking out upon the boundless waste of waters. He raised his hands in prayer to his immortal mother, “Mother,” he cried, “you bore me doomed to live but for a little season; surely Jove, who thunders from Olympus, might have made that little glorious. It is not so. Agamemnon, son of Atreus, has done me dishonour, and has robbed me of my prize by force.” As he spoke he wept aloud, and his mother heard him",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "A poem about one crisis",
-      "body": "The Iliad begins with Achilles’ anger, not with Troy’s origins or the Wooden Horse. That narrows the poem into an intense study of honor, withdrawal, and consequence.",
+      "title": "Agamemnon threatens a second seizure",
+      "body": "Agamemnon says he will return Chryseis but take Briseis from Achilles as compensation. His speech makes the quarrel about public rank and control of captives.",
       "sourceRefIds": [
         "iliad"
       ],
@@ -53,10 +77,10 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Greatness without safety",
-      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "title": "Achilles considers violence",
+      "body": "The passage says Achilles is divided between drawing his sword against Agamemnon and restraining his anger.",
       "sourceRefIds": [
-        "iliad"
+        "restraint"
       ],
       "objectiveIds": [
         "obj.achilles-anger.concept"
@@ -64,11 +88,11 @@
     },
     {
       "id": "card-03",
-      "kind": "synthesis",
-      "title": "Read the opening as a thesis",
-      "body": "The first lines point toward rage and its human cost, shaping what the poem wants us to notice about heroism.",
+      "kind": "context",
+      "title": "Athena intervenes",
+      "body": "Athena tells Achilles not to draw his sword. The conflict continues through speech and a seizure of Briseis rather than becoming a duel.",
       "sourceRefIds": [
-        "iliad"
+        "restraint"
       ],
       "objectiveIds": [
         "obj.achilles-anger.concept"
@@ -76,23 +100,25 @@
     },
     {
       "id": "card-04",
-      "kind": "method",
-      "title": "Honor is a system, not just a feeling",
-      "body": "The insult matters because heroic status is publicly assigned and publicly removed. Track who loses honor, who enforces the loss, and which community pays for it.",
+      "kind": "source",
+      "title": "Achilles turns to the sea",
+      "body": "After Briseis is taken, Achilles goes alone to the shore, weeps, and calls on his mother Thetis.",
       "sourceRefIds": [
-        "iliad"
+        "aftermath"
       ],
       "objectiveIds": [
-        "obj.achilles-anger.concept"
+        "obj.achilles-anger.source"
       ]
     },
     {
       "id": "card-05",
-      "kind": "flavor",
-      "title": "Keep the epic lens",
-      "body": "Read Achilles here through the Iliad alone. Later traditions may smooth him into a simpler warrior, but this poem deliberately begins with a wound to status and the damage that follows.",
+      "kind": "synthesis",
+      "title": "Honor has a public cost",
+      "body": "The poem frames a dispute between leaders as a danger to the larger Achaean host. Preserve the sequence: threat, restraint, seizure, grief.",
       "sourceRefIds": [
-        "iliad"
+        "iliad",
+        "restraint",
+        "aftermath"
       ],
       "objectiveIds": [
         "obj.achilles-anger.concept"
@@ -103,56 +129,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Achilles withdraw from after the quarrel?",
+      "prompt": "What does Agamemnon threaten to take from Achilles?",
       "choices": [
         {
           "id": "a",
-          "text": "Searching for the fleece"
+          "text": "Chryses' priestly sceptre"
         },
         {
           "id": "b",
-          "text": "Fighting for the Achaean army"
+          "text": "The wooden horse"
         },
         {
           "id": "c",
-          "text": "Ruling Athens"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Fighting for the Achaean army. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
-      "sourceRefIds": [
-        "iliad"
-      ],
-      "objectiveIds": [
-        "obj.achilles-anger.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why is anger not merely private here?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It never affects any other character."
-        },
-        {
-          "id": "b",
-          "text": "It concerns only a footrace at Olympia."
-        },
-        {
-          "id": "c",
-          "text": "Its consequences fall on the fighting community."
+          "text": "Briseis"
         }
       ],
       "answerId": "c",
-      "explanation": "Its consequences fall on the fighting community.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Agamemnon says he will take Achilles' prize Briseis.",
       "sourceRefIds": [
         "iliad"
       ],
       "objectiveIds": [
         "obj.achilles-anger.concept"
-      ]
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "iliad"
+        ]
+      }
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "What does Athena tell Achilles to do?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Return Briseis to Chryses"
+        },
+        {
+          "id": "b",
+          "text": "Restrain his anger and not draw his sword"
+        },
+        {
+          "id": "c",
+          "text": "Leave for Crete immediately"
+        }
+      ],
+      "answerId": "b",
+      "explanation": "Athena intervenes as Achilles is considering killing Agamemnon and tells him not to draw his sword.",
+      "sourceRefIds": [
+        "restraint"
+      ],
+      "objectiveIds": [
+        "obj.achilles-anger.source"
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "restraint"
+        ]
+      }
     }
   ],
   "feedbackOptions": [
@@ -164,9 +210,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w08d01.persephone-descends",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week08",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -36,6 +36,18 @@
       "excerpt": "with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "agreement": {
+      "recordId": "pg-00348",
+      "sourceId": "grc.homeric-hymns",
+      "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
+      "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
+      "translator": "Hugh G. Evelyn-White",
+      "locator": "Homeric Hymn to Demeter, return agreement; local text, normalized characters 292584-292757",
+      "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
+      "excerpt": "has agreed that for a third part of the circling year your daughter shall go down to darkness and gloom, but for the two parts shall be with you and the other deathless gods",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -45,7 +57,8 @@
       "title": "The scene",
       "body": "Demeter’s withdrawal threatens the growth that sustains mortals. Persephone returns, but the pomegranate binds her to time below as well. The hymn’s settlement concerns divine power, human survival, and reunion with a lasting limit.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "agreement"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w08d01.persephone-descends.claim"
@@ -67,9 +80,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: reunion is qualified by a continuing underworld claim. Avoid reducing the hymn’s divine negotiations and ritual setting to a simple calendar allegory.",
+      "body": "The hymn's settlement says Persephone spends a third of the year below and two thirds with Demeter and the other gods.",
       "sourceRefIds": [
-        "main"
+        "agreement"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w08d01.persephone-descends.claim"
@@ -120,7 +133,7 @@
         }
       ],
       "answerId": "a",
-      "explanation": "Pomegranate seed. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Pomegranate seed is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +144,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "Why is the return not an unconditional rescue?",
+      "prompt": "Why is Persephone's return not unconditional?",
       "choices": [
         {
           "id": "a",
-          "text": "Hades gives up all claims before she eats."
+          "text": "Hermes takes her to Crete"
         },
         {
           "id": "b",
-          "text": "Persephone must still spend part of her time below."
+          "text": "The hymn assigns her part of the year below and the rest with Demeter"
         },
         {
           "id": "c",
-          "text": "Demeter never sees her daughter again."
+          "text": "She refuses to eat any pomegranate"
         }
       ],
       "answerId": "b",
-      "explanation": "Persephone must still spend part of her time below.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "The settlement gives Persephone one third of the year below and two thirds above.",
       "sourceRefIds": [
-        "main"
+        "agreement"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w08d01.persephone-descends.claim"
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

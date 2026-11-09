@@ -1,11 +1,11 @@
 {
   "id": "grc.heroes.day04.jason-medea",
-  "version": 2,
+  "version": 3,
   "weekId": "grc.heroes.week01",
   "pantheon": "greek",
   "themeMode": "pantheon",
-  "title": "Jason and Medea",
-  "subtitle": "Quest glory meets tragic blame",
+  "title": "Jason and Medea: Help and Aftermath",
+  "subtitle": "Apollonius' epic and Euripides' tragedy ask different questions",
   "estimatedMinutes": 2,
   "difficulty": 1,
   "tags": [
@@ -17,11 +17,11 @@
   "learningObjectives": [
     {
       "id": "obj.jason-medea.concept",
-      "text": "Identify the central source-grounded idea in Jason and Medea."
+      "text": "What does Medea give Jason in Apollonius' account?"
     },
     {
       "id": "obj.jason-medea.source",
-      "text": "Connect the idea to the cited source, genre, and version."
+      "text": "What does the Nurse say Jason has done in Euripides' Medea?"
     }
   ],
   "sourceReferences": {
@@ -31,11 +31,11 @@
       "work": "The Argonautica",
       "author": "Apollonius Rhodius",
       "translator": "R. C. Seaton",
-      "locator": "Book 1, opening; Book 1, normalized characters 0-302",
+      "locator": "Argonautica 3, Medea gives Jason the charm; Book 3, normalized characters 55498-55622",
       "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "Beginning with thee, O Phoebus, I will recount the famous deeds of men of old, who, at the behest of King Pelias, down through the mouth of Pontus and between the Cyanean rocks, sped well-benched Argo in quest of the golden fleece. Such was the oracle that Pelias heard, that a hateful doom awaited him",
+      "excerpt": "And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
     },
     "medea": {
       "recordId": "pg-15081",
@@ -43,22 +43,21 @@
       "work": "The Tragedies of Euripides, Volume I",
       "author": "Euripides",
       "translator": "Theodore Alois Buckley",
-      "locator": "Medea, Nurse’s opening; local text, normalized characters 289402-289708",
+      "locator": "Medea, Nurse's prologue; local text, normalized characters 290272-290495",
       "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
-      "excerpt": "and there marries Ægeus son of Pandion. * * * * * MEDEA. * * * * NURSE OF MEDEA. Would that the hull of Argo had not winged her way to the Colchian land through the Cyanean Symplegades,[1] and that the pine felled in the forests of Pelion had never fallen, nor had caused the hands of the chiefs to row,[2]",
+      "excerpt": "But now every thing is at variance, and the dearest ties are weakened. For having betrayed his own children, and my mistress, Jason reposes in royal wedlock, having married the daughter of Creon, who is prince of this land.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "A quest story",
-      "body": "The Argonautica presents Jason through the voyage of the Argo and the community of heroes around it.",
+      "title": "Medea supplies essential help",
+      "body": "In Apollonius' Argonautica, Medea gives Jason a protective charm for the dangerous task. The epic connects his success to her knowledge.",
       "sourceRefIds": [
-        "argo",
-        "medea"
+        "argo"
       ],
       "objectiveIds": [
         "obj.jason-medea.concept"
@@ -67,23 +66,21 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Genre changes the question",
-      "body": "Source quotations are available under the source buttons. They are translations, not the lesson author’s wording. Compare the work and locator before drawing conclusions.",
+      "title": "The charm changes the contest",
+      "body": "Verbatim from Seaton's translation: “And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy.”",
       "sourceRefIds": [
-        "argo",
-        "medea"
+        "argo"
       ],
       "objectiveIds": [
-        "obj.jason-medea.concept"
+        "obj.jason-medea.source"
       ]
     },
     {
       "id": "card-03",
-      "kind": "synthesis",
-      "title": "Ask what genre does",
-      "body": "An epic quest and a tragic play can preserve the same names while asking different questions about loyalty and blame.",
+      "kind": "context",
+      "title": "Euripides begins later",
+      "body": "The Nurse in Medea remembers the Argo's voyage, then says Jason has married Creon's daughter while Medea is dishonored.",
       "sourceRefIds": [
-        "argo",
         "medea"
       ],
       "objectiveIds": [
@@ -93,21 +90,21 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "Follow who supplies the means",
-      "body": "The quest cannot be understood only through Jason’s title. Watch where crucial knowledge, help, and dangerous choices come from—especially when later sources shift the blame.",
+      "title": "Do not merge epic and tragedy",
+      "body": "Apollonius narrates a quest and Medea's aid; Euripides stages the consequences of Jason's later marriage. These works preserve different moments and genres.",
       "sourceRefIds": [
         "argo",
         "medea"
       ],
       "objectiveIds": [
-        "obj.jason-medea.concept"
+        "obj.jason-medea.source"
       ]
     },
     {
       "id": "card-05",
-      "kind": "flavor",
-      "title": "Epic success becomes tragic evidence",
-      "body": "The Argonautica makes the voyage famous; Euripides turns the same voyage into a reason for catastrophe. Holding both versions together prevents “the quest” from becoming a neutral legend.",
+      "kind": "synthesis",
+      "title": "The same names carry different claims",
+      "body": "A successful voyage does not settle the obligations that the tragedy brings forward.",
       "sourceRefIds": [
         "argo",
         "medea"
@@ -121,58 +118,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Who supplies essential help to Jason?",
+      "prompt": "What does Medea give Jason in Apollonius' account?",
       "choices": [
         {
           "id": "a",
-          "text": "Medea"
+          "text": "Ariadne's thread"
         },
         {
           "id": "b",
-          "text": "Antigone"
+          "text": "A golden fleece"
         },
         {
           "id": "c",
-          "text": "Penelope"
+          "text": "A charm that protects him for the contest"
         }
       ],
-      "answerId": "a",
-      "explanation": "Medea. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "The passage says Medea gives Jason the charm and he receives it.",
       "sourceRefIds": [
-        "argo",
-        "medea"
+        "argo"
       ],
       "objectiveIds": [
-        "obj.jason-medea.source"
-      ]
+        "obj.jason-medea.concept"
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "argo"
+        ]
+      }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "How do the Argonautica and Medea differ?",
+      "prompt": "What does the Nurse say Jason has done in Euripides' Medea?",
       "choices": [
         {
           "id": "a",
-          "text": "Both are victory odes for Pelias."
+          "text": "Founded Athens with Theseus"
         },
         {
           "id": "b",
-          "text": "Epic narrates the quest; tragedy stages a later crisis."
+          "text": "Married Creon's daughter while Medea is dishonored"
         },
         {
           "id": "c",
-          "text": "Both are the same author’s diary."
+          "text": "Returned the fleece to Pelias"
         }
       ],
       "answerId": "b",
-      "explanation": "Epic narrates the quest; tragedy stages a later crisis.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "The Nurse says Jason has married Creon's daughter and Medea is dishonored.",
       "sourceRefIds": [
-        "argo",
         "medea"
       ],
       "objectiveIds": [
-        "obj.jason-medea.concept"
-      ]
+        "obj.jason-medea.source"
+      ],
+      "deepDive": {
+        "prompt": "Read the named passage in its work and translation.",
+        "suggestedQuestions": [
+          "Which words support the answer?",
+          "What does this passage not establish?"
+        ],
+        "sourceRefIds": [
+          "medea"
+        ]
+      }
     }
   ],
   "feedbackOptions": [
@@ -184,9 +199,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective source/quiz pass; independent scholarly review pending."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

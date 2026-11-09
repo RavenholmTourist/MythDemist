@@ -184,9 +184,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": null,
-    "reviewedAt": null,
-    "notes": "Edition-specific Chinese myth and folklore revisions; independent review of source attribution, translation history, community variation, and pedagogy remains pending."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

@@ -71,7 +71,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "The Library gives an initial ten-task instruction, then reports that Eurystheus rejects the Hydra and Augeas tasks for different reasons.",
+          "explanation": "The first oracle’s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus’ help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
           "sourceRefIds": [
             "main",
             "hydra",
@@ -87,25 +87,26 @@
         "question": {
           "id": "q2",
           "type": "single-choice",
-          "prompt": "What makes this feat an example of adaptation?",
+          "prompt": "What method defeats the lion after arrows fail?",
           "choices": [
             {
               "id": "a",
-              "text": "Failed arrows lead Heracles to change his approach."
+              "text": "Iolaus helps cauterize the Hydra's neck."
             },
             {
               "id": "b",
-              "text": "He replaces the arrows with a heavier bow and keeps attacking from outside."
+              "text": "He distracts it with a singing contest."
             },
             {
               "id": "c",
-              "text": "Iolaus burns the lion’s hide so Heracles can seize it."
+              "text": "Heracles blocks one cave entrance and chokes the lion through the other."
             }
           ],
-          "answerId": "a",
-          "explanation": "Failed arrows lead Heracles to change his approach.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "c",
+          "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "combat"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -133,7 +134,7 @@
             }
           ],
           "answerId": "b",
-          "explanation": "The Library is one mythographic account; other genres and authors may arrange the Heracles story differently.",
+          "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -163,7 +164,7 @@
             }
           ],
           "answerId": "c",
-          "explanation": "Library 2.7.7 narrates the pyre on Oeta and the subsequent ascent and reception among the gods.",
+          "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -193,7 +194,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Olympian 2 links Heracles with the founding of the festival and then names Theron’s victory; its occasion is praise, not a complete life of Heracles.",
+          "explanation": "It invokes Heracles’ Olympic foundation while praising Theron’s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],

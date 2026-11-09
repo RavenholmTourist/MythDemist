@@ -71,7 +71,7 @@
             }
           ],
           "answerId": "c",
-          "explanation": "A rejected petition leads to plague and a dispute among leaders.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -85,25 +85,27 @@
         "question": {
           "id": "q2",
           "type": "single-choice",
-          "prompt": "Why distinguish Briseis from Chryseis?",
+          "prompt": "Which sequence does Butler's Book 1 narrate?",
           "choices": [
             {
               "id": "a",
-              "text": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles."
+              "text": "Achilles kills Agamemnon, then sails to Crete."
             },
             {
               "id": "b",
-              "text": "They are two names for the same captive."
+              "text": "Priam ransoms Hector, then Athena stops the war."
             },
             {
               "id": "c",
-              "text": "Briseis is the priest who demands ransom."
+              "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
             }
           ],
-          "answerId": "a",
-          "explanation": "Returning Chryseis prompts Agamemnon to take Briseis from Achilles.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "c",
+          "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "restraint",
+            "aftermath"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
@@ -131,8 +133,9 @@
             }
           ],
           "answerId": "b",
-          "explanation": "Material rewards do not automatically restore damaged trust.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
           "sourceRefIds": [
+            "offer",
             "main"
           ],
           "objectiveIds": [
@@ -145,23 +148,23 @@
         "question": {
           "id": "q4",
           "type": "single-choice",
-          "prompt": "What most directly motivates Achilles’ return?",
+          "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
           "choices": [
             {
               "id": "a",
-              "text": "Acceptance of the original embassy without further loss"
+              "text": "Hector now holds the armour that Patroclus wore."
             },
             {
               "id": "b",
-              "text": "A promise that he will now survive the war"
+              "text": "The armour is returned to Chryses."
             },
             {
               "id": "c",
-              "text": "Grief for Patroclus and the desire to avenge him"
+              "text": "Patroclus gives it to Priam as a ransom."
             }
           ],
-          "answerId": "c",
-          "explanation": "Grief for Patroclus and the desire to avenge him. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "a",
+          "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
           "sourceRefIds": [
             "main"
           ],
@@ -191,9 +194,10 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Achilles recognises Priam’s grief and permits Hector’s burial.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Achilles recognises Priam’s grief and permits Hector’s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam’s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "release"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w02d05.priam-and-achilles.source"

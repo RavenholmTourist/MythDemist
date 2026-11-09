@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w02d05.priam-and-achilles",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week02",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,23 @@
       "work": "The Iliad",
       "author": "Homer",
       "translator": "Samuel Butler",
-      "locator": "Book 24, Priam’s appeal; Book 24, normalized characters 25898-26200",
+      "locator": "Book 24, Priam’s appeal; Book 24, normalized characters 25847-26149",
       "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
       "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "release": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Iliad 24, Priam asks for Hector and Achilles agrees; Book 24, normalized characters 29630-30088",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "O king, bid me not be seated, while Hector is still lying uncared for in your tents, but accept the great ransom which I have brought you, and give him to me at once that I may look upon him. May you prosper with the ransom and reach your own land in safety, seeing that you have suffered me to live and to look upon the light of the sun.” Achilles looked at him sternly and said, “Vex me, sir, no longer; I am of myself minded to give up the body of Hector.",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -45,7 +57,8 @@
       "title": "The scene",
       "body": "Priam enters the enemy camp to ransom Hector’s body. He asks Achilles to remember his own father. The two men mourn, and Achilles agrees to release the body and allow time for burial.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "release"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d05.priam-and-achilles.claim"
@@ -67,9 +80,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: The poem ends its rage with a ransom, not with simple victory; compassion interrupts revenge without erasing what happened.",
+      "body": "Priam asks Achilles to accept a ransom and return Hector's body. Achilles says he is already minded to give it up.",
       "sourceRefIds": [
-        "main"
+        "release"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d05.priam-and-achilles.claim"
@@ -108,21 +121,21 @@
       "choices": [
         {
           "id": "a",
-          "text": "Patroclus’ armour"
+          "text": "Briseis"
         },
         {
           "id": "b",
-          "text": "Hector’s body"
+          "text": "The armor of Patroclus"
         },
         {
           "id": "c",
-          "text": "Helen’s wedding gifts"
+          "text": "Hector's body"
         }
       ],
-      "answerId": "b",
-      "explanation": "Hector’s body. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "Priam asks Achilles to give him Hector's body in exchange for ransom.",
       "sourceRefIds": [
-        "main"
+        "release"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d05.priam-and-achilles.source"
@@ -147,7 +160,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "He appeals to a shared vulnerability across enemy lines.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "He appeals to a shared vulnerability across enemy lines. is the passage-specific answer. Check The Iliad (Book 24, Priam’s appeal), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w07d02.orestes-and-justice",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week07",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -36,6 +36,18 @@
       "excerpt": "And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "court": {
+      "recordId": "pg-08604",
+      "sourceId": "grc.aeschylus.oresteia",
+      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+      "author": "Aeschylus",
+      "translator": "E. D. A. Morshead",
+      "locator": "Eumenides, Athena establishes the court; local text, normalized characters 172758-172876",
+      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+      "excerpt": "Here to all time for Aegeus’ Attic host Shall stand this council-court of judges sworn, Here the tribunal, set on Ares",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -45,7 +57,8 @@
       "title": "The scene",
       "body": "Orestes has killed his mother to avenge his father. In Eumenides, Athena establishes a court to hear the conflict, and the pursuing Erinyes must also be addressed. The ending stages a negotiated civic settlement, not the disappearance of every competing claim.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "court"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -67,9 +80,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: The trial imagines a civic process that can interrupt hereditary revenge rather than merely acquitting a hero.",
+      "body": "Athena establishes a council-court for future cases. The Erinyes remain part of the settlement, so the play does not simply remove divine claims from justice.",
       "sourceRefIds": [
-        "main"
+        "court"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -120,7 +133,7 @@
         }
       ],
       "answerId": "c",
-      "explanation": "His mother’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "His mother’s is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +144,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What changes in the handling of the conflict?",
+      "prompt": "What changes in the handling of Orestes' conflict?",
       "choices": [
         {
           "id": "a",
-          "text": "A court hears claims that a blood feud cannot resolve by another killing."
+          "text": "Orestes is sent to fight Hector"
         },
         {
           "id": "b",
-          "text": "Orestes is declared never to have used violence."
+          "text": "Athena establishes a court to hear claims instead of another killing"
         },
         {
           "id": "c",
-          "text": "The Erinyes are revealed to be ordinary Athenian soldiers."
+          "text": "The Erinyes leave before judgment"
         }
       ],
-      "answerId": "a",
-      "explanation": "A court hears claims that a blood feud cannot resolve by another killing.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "Athena announces a council-court on Ares' Hill while the divine figures remain part of the play's outcome.",
       "sourceRefIds": [
-        "main"
+        "court"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d02.orestes-and-justice.claim"
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

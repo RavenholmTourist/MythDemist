@@ -6,18 +6,18 @@
     {
       "id": "pg-45634",
       "title": "Myths of the Cherokee",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "ethnographic-folklore-collection",
       "ancientAuthors": [
-        "Cherokee traditions"
+        "Cherokee narrators, collected chiefly among Eastern Cherokee communities by James Mooney"
       ],
-      "translator": "James Mooney",
+      "translator": "James Mooney (collector, editor, and English-language recorder)",
       "sourceIds": [
         "cherokee.myths"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/45634",
       "localPath": "primary/myths-cherokee-mooney-45634.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Mooney collected chiefly among Eastern Cherokee communities in North Carolina during 1887–1890, with some material from western Cherokee communities. Individual stories and printed sources must remain distinguished; the 1902 ethnography is not a single pan-Cherokee canon or a source for current practice."
     }
   ]
 }

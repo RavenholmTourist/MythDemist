@@ -131,9 +131,10 @@
       "additionalProperties": false,
       "properties": {
         "status": { "enum": ["draft", "reviewed", "needs-revision"] },
-        "reviewedBy": { "type": ["string", "null"] },
-        "reviewedAt": { "type": ["string", "null"] },
-        "notes": { "type": "string" }
+      "reviewedBy": { "type": ["string", "null"] },
+      "reviewedAt": { "type": ["string", "null"] },
+      "reviewType": { "enum": ["editorial", "independent-scholarly"] },
+      "notes": { "type": "string" }
       }
     }
   }

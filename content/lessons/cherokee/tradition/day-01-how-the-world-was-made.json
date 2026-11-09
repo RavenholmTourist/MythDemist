@@ -1,13 +1,13 @@
 {
   "id": "cherokee.week01.day01.how-the-world-was-made",
-  "version": 1,
+  "version": 3,
   "weekId": "cherokee.tradition.week01",
   "pantheon": "cherokee",
   "themeMode": "pantheon",
-  "title": "How the world was made",
-  "subtitle": "Source-linked cherokee starter lesson",
+  "title": "How the World Was Made",
+  "subtitle": "A creation narrative in Mooney's field collection",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "cherokee",
     "tradition"
@@ -15,34 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.cherokee.1.concept",
-      "text": "Identify the main idea in How the world was made."
+      "text": "What brings up the mud that becomes land?"
     },
     {
       "id": "obj.cherokee.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How are valleys and mountains formed in this version?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "earth": {
       "recordId": "pg-45634",
       "sourceId": "cherokee.myths",
       "work": "Myths of the Cherokee",
-      "author": "Cherokee traditions",
-      "translator": "James Mooney",
-      "locator": "How the world was made",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 1 · HOW THE WORLD WAS MADE, normalized characters 26-932",
       "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "The earth is a great island floating in a sea of water, and suspended at each of the four cardinal points by a cord hanging down from the sky vault, which is of solid rock. When the world grows old and worn out, the people will die and the cords will break and let the earth sink down into the ocean, and all will be water again. The Indians are afraid of this. When all was water, the animals were above in Galûñ'lati, beyond the arch; but it was very much crowded, and they were wanting more room. They wondered what was below the water, and at last Dâyuni'si, \"Beaver's Grandchild,\" the little Water-beetle, offered to go and see if it could learn. It darted in every direction over the surface of the water, but could find no firm place to rest. Then it dived to the bottom and came up with some soft mud, which began to grow and spread on every side until it became the island which we call the earth.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+    },
+    "buzzard": {
+      "recordId": "pg-45634",
+      "sourceId": "cherokee.myths",
+      "work": "Myths of the Cherokee",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 1 · HOW THE WORLD WAS MADE, normalized characters 1487-1882",
+      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+      "excerpt": "When he reached the Cherokee country, he was very tired, and his wings began to flap and strike the ground, and wherever they struck the earth there was a valley, and where they turned up again there was a mountain. When the animals above saw this, they were afraid that the whole world would be mountains, so they called him back, but the Cherokee country remains full of mountains to this day.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "How the world was made",
-      "body": "How the world was made is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Land begins in water",
+      "body": "Mooney's recorded narrative describes the earth as an island above water. The Water-beetle dives to the bottom and brings up soft mud.",
       "sourceRefIds": [
-        "ref-primary"
+        "earth"
       ],
       "objectiveIds": [
         "obj.cherokee.1.concept"
@@ -51,34 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A bird shapes the land",
+      "body": "Quotation from Mooney's English record (whitespace normalized): “When he reached the Cherokee country, he was very tired, and his wings began to flap and strike the ground, and wherever they struck the earth there was a valley, and where they turned up again there was a mountain. When the animals above saw this, they were afraid that the whole world would be mountains, so they called him back, but the Cherokee country remains full of mountains to this day.”",
       "sourceRefIds": [
-        "ref-primary"
+        "buzzard"
       ],
       "objectiveIds": [
-        "obj.cherokee.1.source"
+        "obj.cherokee.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A Cherokee place enters the story",
+      "body": "The Great Buzzard's wings strike the soft earth; Mooney's version connects those impacts with valleys and mountains in Cherokee country.",
       "sourceRefIds": [
-        "ref-primary"
+        "buzzard"
       ],
       "objectiveIds": [
-        "obj.cherokee.1.source"
+        "obj.cherokee.1.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Scope the record",
+      "body": "Mooney collected this work chiefly among Eastern Cherokee communities in North Carolina, with some additional material from western communities. It is not every Cherokee creation account.",
       "sourceRefIds": [
-        "ref-primary"
+        "earth",
+        "buzzard"
       ],
       "objectiveIds": [
         "obj.cherokee.1.source"
@@ -87,13 +101,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Keep the story version visible",
+      "body": "The earth-making and mountain-making details here are from Mooney's printed English record; later readers should not silently merge other Cherokee versions.",
       "sourceRefIds": [
-        "ref-primary"
+        "earth",
+        "buzzard"
       ],
       "objectiveIds": [
-        "obj.cherokee.1.concept"
+        "obj.cherokee.1.source"
       ]
     }
   ],
@@ -101,81 +116,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should How the world was made be introduced?",
+      "prompt": "What brings up the mud that becomes land?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The Water-beetle dives to the bottom and brings it up"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "The Great Buzzard carries it from the Sun"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The Uktena leaves it on a mountain"
         }
       ],
       "answerId": "a",
-      "explanation": "How the world was made is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The opening says the Water-beetle dives and returns with soft mud.",
       "sourceRefIds": [
-        "ref-primary"
+        "earth"
       ],
       "objectiveIds": [
         "obj.cherokee.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "earth"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How are valleys and mountains formed in this version?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The Sun melts the ground with a crystal"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "The Rabbit digs the animals' well"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The Great Buzzard's wings strike and turn up the soft earth"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "The story links the Buzzard's wing strokes with valleys and mountains.",
       "sourceRefIds": [
-        "ref-primary"
+        "buzzard"
       ],
       "objectiveIds": [
         "obj.cherokee.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "buzzard"
         ]
       }
     }
@@ -189,9 +197,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

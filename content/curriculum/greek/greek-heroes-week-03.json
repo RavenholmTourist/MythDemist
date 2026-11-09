@@ -55,25 +55,26 @@
         "question": {
           "id": "q1",
           "type": "single-choice",
-          "prompt": "Why begin with Ithaca rather than only Odysseus’ travels?",
+          "prompt": "What do the suitors do in Odysseus' home while he is absent?",
           "choices": [
             {
               "id": "a",
-              "text": "His absence has social costs for the household he hopes to regain."
+              "text": "They guard the house for Telemachus."
             },
             {
               "id": "b",
-              "text": "The poem has forgotten who its returning hero is."
+              "text": "They return the estate to Odysseus."
             },
             {
               "id": "c",
-              "text": "Ithaca has already completed the recognition of Odysseus."
+              "text": "They consume his resources and press Penelope about remarriage."
             }
           ],
-          "answerId": "a",
-          "explanation": "His absence has social costs for the household he hopes to regain.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "answerId": "c",
+          "explanation": "Telemachus says the suitors eat up his house and press his mother about marriage.",
           "sourceRefIds": [
-            "main"
+            "main",
+            "pressure"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w03d01.the-broken-house.source"
@@ -85,25 +86,26 @@
         "question": {
           "id": "q2",
           "type": "single-choice",
-          "prompt": "What tension does the Cyclops episode expose?",
+          "prompt": "What does Odysseus' boast reveal, and what does Polyphemus do next?",
           "choices": [
             {
               "id": "a",
-              "text": "Revealing a name guarantees divine protection."
+              "text": "His father's name; Polyphemus returns his crew."
             },
             {
               "id": "b",
-              "text": "Clever secrecy wins escape, but the desire for credit creates danger."
+              "text": "His name; Polyphemus prays to Poseidon to prevent his return."
             },
             {
               "id": "c",
-              "text": "Strength alone succeeds where planning fails."
+              "text": "His ship's location; Polyphemus gives him a safe passage."
             }
           ],
           "answerId": "b",
-          "explanation": "Clever secrecy wins escape, but the desire for credit creates danger.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Odysseus reveals his name, and Polyphemus invokes Poseidon against his return.",
           "sourceRefIds": [
-            "main"
+            "boast",
+            "curse"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
@@ -131,7 +133,7 @@
             }
           ],
           "answerId": "c",
-          "explanation": "The crew avoid hearing, while Odysseus listens under restraint.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "The crew avoid hearing, while Odysseus listens under restraint. is the passage-specific answer. Check The Odyssey (Book 12, Circe’s instructions about the Sirens), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -161,7 +163,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "The dead hero himself voices a cost that praise can conceal.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "The dead hero himself voices a cost that praise can conceal. is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -191,7 +193,7 @@
             }
           ],
           "answerId": "b",
-          "explanation": "Reaching home is not the same as being recognised and trusted.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Reaching home is not the same as being recognised and trusted. is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],

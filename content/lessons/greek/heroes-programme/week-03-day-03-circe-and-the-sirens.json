@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w03d03.circe-and-the-sirens",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week03",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -120,7 +120,7 @@
         }
       ],
       "answerId": "b",
-      "explanation": "Wax blocks their ears.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Wax blocks their ears. is the passage-specific answer. Check The Odyssey (Book 12, Circe’s instructions about the Sirens), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,23 +131,23 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "Why does Odysseus give instructions before hearing the song?",
+      "prompt": "What must the crew do if Odysseus begs to be released?",
       "choices": [
         {
           "id": "a",
-          "text": "The crew have already heard the song safely."
+          "text": "Remove the wax from their ears"
         },
         {
           "id": "b",
-          "text": "Circe has promised the Sirens will remain silent."
+          "text": "Bind him more tightly to the mast"
         },
         {
           "id": "c",
-          "text": "The plan anticipates that temptation will change his wishes."
+          "text": "Let him steer toward the Sirens"
         }
       ],
-      "answerId": "c",
-      "explanation": "The plan anticipates that temptation will change his wishes.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "Circe anticipates his plea and tells the crew to bind him faster.",
       "sourceRefIds": [
         "main"
       ],
@@ -164,9 +164,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

@@ -1,13 +1,13 @@
 {
   "id": "cherokee.week01.day04.animal-stories",
-  "version": 1,
+  "version": 3,
   "weekId": "cherokee.tradition.week01",
   "pantheon": "cherokee",
   "themeMode": "pantheon",
-  "title": "Animal stories",
-  "subtitle": "Source-linked cherokee starter lesson",
+  "title": "The Rabbit and the Tar Wolf",
+  "subtitle": "A printed Cherokee animal story about a stolen drink",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "cherokee",
     "tradition"
@@ -15,34 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.cherokee.4.concept",
-      "text": "Identify the main idea in Animal stories."
+      "text": "What do the animals make to catch the water thief?"
     },
     {
       "id": "obj.cherokee.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How does Rabbit become stuck?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "tarwolf": {
       "recordId": "pg-45634",
       "sourceId": "cherokee.myths",
       "work": "Myths of the Cherokee",
-      "author": "Cherokee traditions",
-      "translator": "James Mooney",
-      "locator": "Animal stories",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 21 · THE RABBIT AND THE TAR WOLF, normalized characters 451-1423",
       "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "They noticed that the Rabbit kept sleek and lively, although it was still dry weather and the water was getting low in the well. They said, \"That tricky Rabbit steals our water at night,\" so they made a wolf of pine gum and tar and set it up by the well to scare the thief. That night the Rabbit came, as he had been coming every night, to drink enough to last him all next day. He saw the queer black thing by the well and said, \"Who's there?\" but the tar wolf said nothing. He came nearer, but the wolf never moved, so he grew braver and said, \"Get out of my way or I'll strike you.\" Still the wolf never moved and the Rabbit came up and struck it with his paw, but the gum held his foot and it stuck fast. Now he was angry and said, \"Let me go or I'll kick you.\" Still the wolf said nothing. Then the Rabbit struck again with his hind foot, so hard that it was caught in the gum and he could not move, and there he stuck until the animals came for water in the morning.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Animal stories",
-      "body": "Animal stories is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A shared well runs low",
+      "body": "The animals dig a well during a drought. They suspect Rabbit is secretly drinking from it at night.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
         "obj.cherokee.4.concept"
@@ -51,34 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A trap made from pine gum and tar",
+      "body": "Quotation from Mooney's English record (whitespace normalized): “They noticed that the Rabbit kept sleek and lively, although it was still dry weather and the water was getting low in the well. They said, \"That tricky Rabbit steals our water at night,\" so they made a wolf of pine gum and tar and set it up by the well to scare the thief. That night the Rabbit came, as he had been coming every night, to drink enough to last him all next day. He saw the queer black thing by the well and said, \"Who's there?\" but the tar wolf said nothing. He came nearer, but the wolf never moved, so he grew braver and said, \"Get out of my way or I'll strike you.\" Still the wolf never moved and the Rabbit came up and struck it with his paw, but the gum held his foot and it stuck fast. Now he was angry and said, \"Let me go or I'll kick you.\" Still the wolf said nothing. Then the Rabbit struck again with his hind foot, so hard that it was caught in the gum and he could not move, and there he stuck until the animals came for water in the morning.”",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
-        "obj.cherokee.4.source"
+        "obj.cherokee.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Rabbit gets stuck",
+      "body": "The animals make a wolf figure from pine gum and tar. Rabbit strikes it, becomes stuck, and is found the next morning.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
-        "obj.cherokee.4.source"
+        "obj.cherokee.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Mooney identifies a printed source",
+      "body": "Mooney's note attributes this version to the Cherokee Advocate of December 18, 1845. Treat it as a story preserved in a Cherokee newspaper, not as a direct transcript of a named oral performance.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
         "obj.cherokee.4.source"
@@ -87,13 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Keep the source history attached",
+      "body": "The plot can be read as an animal trickster tale, while its cited newspaper source is part of the evidence.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
-        "obj.cherokee.4.concept"
+        "obj.cherokee.4.source"
       ]
     }
   ],
@@ -101,81 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Animal stories be introduced?",
+      "prompt": "What do the animals make to catch the water thief?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "A wolf figure made from pine gum and tar"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A bear cub from blubber"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A golden ring"
         }
       ],
       "answerId": "a",
-      "explanation": "Animal stories is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The story says the animals make a wolf of pine gum and tar.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
         "obj.cherokee.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "tarwolf"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How does Rabbit become stuck?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "He eats a plant from the underworld"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "He follows the Uktena into a cave"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He strikes the sticky figure with his paw"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "Rabbit strikes the tar figure and the gum holds his paw.",
       "sourceRefIds": [
-        "ref-primary"
+        "tarwolf"
       ],
       "objectiveIds": [
         "obj.cherokee.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "tarwolf"
         ]
       }
     }
@@ -189,9 +183,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

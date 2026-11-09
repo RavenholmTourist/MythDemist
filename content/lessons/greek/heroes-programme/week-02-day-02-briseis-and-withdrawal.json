@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w02d02.briseis-and-withdrawal",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week02",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,35 @@
       "work": "The Iliad",
       "author": "Homer",
       "translator": "Samuel Butler",
-      "locator": "Book 1, the taking of Briseis; Book 1, normalized characters 9247-9550",
+      "locator": "Iliad 1, Agamemnon threatens to take Briseis; Book 1, normalized characters 9000-9291",
       "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "my ship and my followers, but I shall come to your tent and take your own prize Briseis, that you may learn how much stronger I am than you are, and that another may fear to set himself up as equal or comparable with me.” The son of Peleus was furious, and his heart within his shaggy breast was divided",
+      "excerpt": "since Phoebus Apollo is taking Chryseis from me, I shall send her with my ship and my followers, but I shall come to your tent and take your own prize Briseis, that you may learn how much stronger I am than you are, and that another may fear to set himself up as equal or comparable with me.",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "restraint": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Iliad 1, Athena restrains Achilles; Book 1, normalized characters 9293-10273",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "The son of Peleus was furious, and his heart within his shaggy breast was divided whether to draw his sword, push the others aside, and kill the son of Atreus, or to restrain himself and check his anger. While he was thus in two minds, and was drawing his mighty sword from its scabbard, Minerva came down from heaven (for Juno had sent her in the love she bore to them both), and seized the son of Peleus by his yellow hair, visible to him alone, for of the others no man could see her. Achilles turned in amaze, and by the fire that flashed from her eyes at once knew that she was Minerva. “Why are you here,” said he, “daughter of aegis-bearing Jove? To see the pride of Agamemnon, son of Atreus? Let me tell you—and it shall surely be—he shall pay for this insolence with his life.” And Minerva said, “I come from heaven, if you will hear me, to bid you stay your anger. Juno has sent me, who cares for both of you alike. Cease, then, this brawling, and do not draw your sword",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "aftermath": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Iliad 1, Achilles appeals to Thetis; Book 1, normalized characters 17110-17588",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "Then Achilles went all alone by the side of the hoar sea, weeping and looking out upon the boundless waste of waters. He raised his hands in prayer to his immortal mother, “Mother,” he cried, “you bore me doomed to live but for a little season; surely Jove, who thunders from Olympus, might have made that little glorious. It is not so. Agamemnon, son of Atreus, has done me dishonour, and has robbed me of my prize by force.” As he spoke he wept aloud, and his mother heard him",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -43,7 +67,7 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "Agamemnon must return Chryseis, but demands another captive as compensation. He takes Briseis from Achilles, who withdraws from fighting. Both women are treated as prizes in the leaders’ dispute.",
+      "body": "Agamemnon threatens to return Chryseis but take Briseis from Achilles instead. The quarrel concerns public rank and the treatment of captives.",
       "sourceRefIds": [
         "main"
       ],
@@ -67,9 +91,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: Achilles withdraws rather than duel Agamemnon, but his choice does not leave the community untouched; the army loses the fighter it needs.",
+      "body": "Achilles considers drawing his sword against Agamemnon. Athena appears and tells him not to draw it.",
       "sourceRefIds": [
-        "main"
+        "restraint"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
@@ -79,9 +103,9 @@
       "id": "card-04",
       "kind": "method",
       "title": "Read it carefully",
-      "body": "Keep Chryseis and Briseis distinct. One captive’s return prompts the seizure of another. The leaders speak about honour, but their exchange also exposes how women are treated as possessions.",
+      "body": "After the heralds take Briseis, Achilles goes alone to the seashore, weeps, and calls on Thetis.",
       "sourceRefIds": [
-        "main"
+        "aftermath"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d02.briseis-and-withdrawal.source"
@@ -120,7 +144,7 @@
         }
       ],
       "answerId": "b",
-      "explanation": "Briseis. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Briseis is the passage-specific answer. Check The Iliad (Iliad 1, Agamemnon threatens to take Briseis), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +155,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What is Achilles’ immediate response to the insult?",
+      "prompt": "What does Achilles do after Briseis is taken?",
       "choices": [
         {
           "id": "a",
-          "text": "He kills Agamemnon in the assembly."
+          "text": "He sails at once to Crete"
         },
         {
           "id": "b",
-          "text": "He leads the assault on Troy that night."
+          "text": "He goes to the seashore and calls on Thetis"
         },
         {
           "id": "c",
-          "text": "He withdraws his fighting support."
+          "text": "He accepts Agamemnon's offer and returns to battle"
         }
       ],
-      "answerId": "c",
-      "explanation": "He withdraws his fighting support.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "The poem says Achilles goes alone to the sea and prays to his mother after the seizure.",
       "sourceRefIds": [
-        "main"
+        "aftermath"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
@@ -164,9 +188,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

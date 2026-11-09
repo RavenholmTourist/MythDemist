@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w04d03.medea-chooses",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week04",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,35 @@
       "work": "The Argonautica",
       "author": "Apollonius Rhodius",
       "translator": "R. C. Seaton",
-      "locator": "Book 3, Medea’s conflict and aid; Book 3, normalized characters 29-330",
+      "locator": "Argonautica 3, Eros' arrow strikes Medea; Book 3, normalized characters 15499-15688",
       "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the",
+      "excerpt": "the bolt burnt deep down in the maiden’s heart like a flame; and ever she kept darting bright glances straight up at Aeson’s son, and within her breast her heart panted fast through anguish",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "dilemma": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Argonautica 3, Medea debates helping Jason; Book 3, normalized characters 42267-44013",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "And she thought now that she would give him the charms to cast a spell on the bulls, now that she would not, and that she herself would perish; and again that she would not perish and would not give the charms, but just as she was would endure her fate in silence. Then sitting down she wavered in mind and said: “Poor wretch, must I toss hither and thither in woe? On every side my heart is in despair; nor is there any help for my pain; but it burneth ever thus. Would that I had been slain by the swift shafts of Artemis before I had set eyes on him, before Chalciope’s sons reached the Achaean land. Some god or some Fury brought them hither for our grief, a cause of many tears. Let him perish in the contest if it be his lot to die in the field. For how could I prepare the charms without my parents’ knowledge? What story call I tell them? What trick, what cunning device for aid can I find? If I see him alone, apart from his comrades, shall I greet him? Ill-starred that I am! I cannot hope that I should rest from my sorrows even though he perished; then will evil come to me when he is bereft of life. Perish all shame, perish all glow; may he, saved by my effort, go scatheless wherever his heart desires. But as for me, on the day when he bides the contest in triumph, may I die either straining my neck in the noose from the roof-tree or tasting drugs destructive of life. But even so, when I am dead, they will fling out taunts against me; and every city far away will ring with my doom, and the Colchian women, tossing my name on their lips hither and thither, will revile me with unseemly mocking—the maid who cared so much for a stranger that she died, the maid who disgraced her home and her parents, yielding to a mad passion.",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "aid": {
+      "recordId": "pg-00830",
+      "sourceId": "grc.apollonius.argonautica",
+      "work": "The Argonautica",
+      "author": "Apollonius Rhodius",
+      "translator": "R. C. Seaton",
+      "locator": "Argonautica 3, Medea gives Jason the charm; Book 3, normalized characters 55498-55621",
+      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+      "excerpt": "And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -43,9 +67,10 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "Medea is caught between her household and her desire to help Jason. Apollonius gives sustained attention to her distress and deliberation, while divine intervention also shapes her desire. Her aid is decisive, but her freedom is not uncomplicated.",
+      "body": "Apollonius describes Eros' arrow striking Medea, then narrates her conflict about aiding Jason without her parents' knowledge.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "dilemma"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d03.medea-chooses.claim"
@@ -67,9 +92,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: Her expertise is not an accessory to the hero; without it, Jason’s quest fails, and with it his public achievement becomes possible.",
+      "body": "Medea fears shame and her parents' reaction, yet she resolves to provide the charms that can help Jason.",
       "sourceRefIds": [
-        "main"
+        "dilemma"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d03.medea-chooses.claim"
@@ -79,9 +104,11 @@
       "id": "card-04",
       "kind": "method",
       "title": "Read it carefully",
-      "body": "Keep two pressures in view: Medea’s deliberation matters, and divine influence also matters. Neither treating her as a passive prize nor describing an entirely unpressured choice captures Apollonius’ presentation.",
+      "body": "The episode holds together divine pressure, Medea's deliberation, and her later action; it is not a simple picture of either total freedom or total passivity.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "dilemma",
+        "aid"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d03.medea-chooses.source"
@@ -104,25 +131,25 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Whose knowledge makes Jason’s test survivable?",
+      "prompt": "What does Medea debate doing in her inner speech?",
       "choices": [
         {
           "id": "a",
-          "text": "Medea’s"
+          "text": "Returning the fleece to Pelias"
         },
         {
           "id": "b",
-          "text": "Pelias’"
+          "text": "Asking Athena to take her to Ithaca"
         },
         {
           "id": "c",
-          "text": "Hector’s"
+          "text": "Giving Jason the charms or refusing to help him"
         }
       ],
-      "answerId": "a",
-      "explanation": "Medea’s. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "Medea explicitly considers giving the charms and then not giving them.",
       "sourceRefIds": [
-        "main"
+        "dilemma"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d03.medea-chooses.source"
@@ -131,25 +158,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What conflict shapes Medea’s decision?",
+      "prompt": "What reputational risk does Medea fear?",
       "choices": [
         {
           "id": "a",
-          "text": "Deciding whether to bury Patroclus"
+          "text": "That the crew will forget the route to Colchis"
         },
         {
           "id": "b",
-          "text": "Helping Jason conflicts with loyalty to her father’s household."
+          "text": "That people will say she disgraced her home for a stranger"
         },
         {
           "id": "c",
-          "text": "Choosing which Athenian office to hold"
+          "text": "That she will lose a contest for the throne of Athens"
         }
       ],
       "answerId": "b",
-      "explanation": "Helping Jason conflicts with loyalty to her father’s household.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Her speech imagines being mocked for disgracing her home and parents while helping a stranger.",
       "sourceRefIds": [
-        "main"
+        "dilemma"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w04d03.medea-chooses.claim"
@@ -164,9 +191,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

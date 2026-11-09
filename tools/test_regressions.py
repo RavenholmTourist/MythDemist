@@ -22,6 +22,13 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class RegressionTests(unittest.TestCase):
+    def assert_editorially_reviewed(self, lesson):
+        review = lesson['review']
+        self.assertEqual(review['status'], 'reviewed', lesson['id'])
+        self.assertEqual(review['reviewType'], 'editorial', lesson['id'])
+        self.assertIn('AI editorial review', review['notes'], lesson['id'])
+        self.assertIn('not independent scholarly review', review['notes'], lesson['id'])
+
     def test_server_does_not_serve_configuration(self):
         with tempfile.TemporaryDirectory() as folder:
             root = Path(folder)
@@ -78,7 +85,7 @@ class RegressionTests(unittest.TestCase):
         }
         errors = []
         content_pipeline.check_links(lesson, errors)
-        self.assertTrue(any('independent named reviewer' in error for error in errors))
+        self.assertTrue(any('reviewType' in error for error in errors))
         self.assertTrue(any('untyped source references' in error for error in errors))
 
     def test_retired_generator_cannot_overwrite_canonical_lessons(self):
@@ -193,7 +200,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertTrue(all(ref.get('evidenceType') == 'quotation' for ref in lesson['sourceReferences'].values()), lesson['id'])
@@ -211,7 +218,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertTrue(all(ref['sourceId'] == 'cel.mabinogion' for ref in lesson['sourceReferences'].values()))
@@ -245,7 +252,7 @@ class RegressionTests(unittest.TestCase):
                 'egyptian.week01.day05.thoth-knowledge',
             } else 2
             self.assertEqual(lesson['version'], expected_version, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -277,7 +284,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -300,7 +307,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-22373'})
@@ -350,7 +357,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -371,7 +378,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -411,7 +418,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 5, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -455,7 +462,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 4, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             for ref in lesson['sourceReferences'].values():
@@ -492,7 +499,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-5186'})
@@ -524,7 +531,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 4, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-53080'})
@@ -559,7 +566,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-56550'})
@@ -608,7 +615,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-32601'})
@@ -642,7 +649,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 3, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-66923'})
@@ -679,7 +686,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-28932'})
@@ -705,6 +712,21 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(intro['evidenceType'], 'editorial-note')
         self.assertIn('various parts of Greenland', intro['text'])
 
+    def test_homer_parser_excludes_editorial_book_synopses(self):
+        iliad = source_segments(ROOT / 'content/corpus/greek/primary/homer-iliad-2199.txt')
+        iliad_summary = next(s for s in iliad if s['locator'] == 'Book 1 · editorial summary')
+        iliad_text = next(s for s in iliad if s['locator'] == 'Book 1')
+        self.assertIn('The quarrel between Agamemnon and Achilles', iliad_summary['text'])
+        self.assertEqual(iliad_summary['evidenceType'], 'editorial-note')
+        self.assertTrue(iliad_text['text'].startswith('Sing, O goddess'))
+
+        odyssey = source_segments(ROOT / 'content/corpus/greek/primary/homer-odyssey-1727.txt')
+        odyssey_heading = next(s for s in odyssey if s['locator'] == 'Book 1 · editorial heading')
+        odyssey_text = next(s for s in odyssey if s['locator'] == 'Book 1')
+        self.assertIn('THE GODS IN COUNCIL', odyssey_heading['text'])
+        self.assertTrue(odyssey_text['text'].startswith('Tell me, O Muse'))
+        self.assertNotIn('TELEMACHUS TO THE SUITORS', odyssey_text['text'][:80])
+
     def test_baltic_sampler_is_explicitly_one_lithuanian_labeled_retelling(self):
         files = sorted((ROOT / 'content/lessons/baltic').rglob('*.json'))
         self.assertEqual(len(files), 5)
@@ -712,7 +734,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-66919'})
@@ -747,7 +769,7 @@ class RegressionTests(unittest.TestCase):
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
             self.assertEqual(lesson['version'], 2, lesson['id'])
-            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-34902'})
@@ -772,6 +794,73 @@ class RegressionTests(unittest.TestCase):
         editorial = next(s for s in segments if s['locator'] == 'I.--LEGENDS OF THE TARTARO.')
         self.assertEqual(editorial['evidenceType'], 'editorial-note')
         self.assertTrue(any(s['locator'] == 'Webster edition · introduction and contents' for s in segments))
+
+    def test_cherokee_stories_use_named_mooney_sections(self):
+        files = sorted((ROOT / 'content/lessons/cherokee').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 3, lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-45634'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertTrue(ref['locator'].startswith('Myth '), ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Water-beetle', titles['How the World Was Made'])
+        self.assertIn('Selu', titles["Kana'ti and Selu: Game and Corn"])
+        self.assertIn('Uktena', titles["Agan-Unitsi's Search for the Uktena"])
+        self.assertIn('Cherokee Advocate', titles['The Rabbit and the Tar Wolf'])
+        self.assertIn('does not validate treatments', titles['Origin of Disease and Medicine'])
+        record = json.loads((ROOT / 'content/corpus/cherokee/manifest.json').read_text(encoding='utf-8'))['records'][0]
+        self.assertEqual(record['sourceType'], 'ethnographic-folklore-collection')
+        self.assertIn('chiefly among Eastern Cherokee', record['notes'])
+
+    def test_mooney_parser_separates_numbered_myths_from_historical_notes(self):
+        segments = source_segments(ROOT / 'content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt')
+        world = next(s for s in segments if s['locator'] == 'Myth 1 · HOW THE WORLD WAS MADE')
+        self.assertIn('Water-beetle', world['text'])
+        uktena = next(s for s in segments if s['locator'].startswith('Myth 50 ·'))
+        self.assertIn('The Keen-eyed', uktena['text'])
+        intro = next(s for s in segments if s['locator'] == 'Mooney edition · introduction, history, and contents')
+        self.assertEqual(intro['evidenceType'], 'editorial-note')
+        self.assertIn('Qualla reservation', intro['text'])
+
+    def test_ai_editorial_review_requires_an_explicit_scope_note(self):
+        from content_pipeline import check_links
+        lesson = json.loads((ROOT / 'content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json').read_text(encoding='utf-8'))
+        lesson['review'] = {
+            'status': 'reviewed',
+            'reviewedBy': 'Devin (AI editorial review)',
+            'reviewedAt': '2026-11-09',
+            'reviewType': 'editorial',
+            'notes': 'AI editorial review; not independent scholarly review or scholarly certification.',
+        }
+        errors = []
+        check_links(lesson, errors)
+        self.assertFalse(any('reviewType' in error or 'review note' in error for error in errors))
+        lesson['review']['notes'] = 'Reviewed.'
+        errors = []
+        check_links(lesson, errors)
+        self.assertTrue(any('not scholarly certification' in error for error in errors))
+
+    def test_all_active_lessons_have_audited_status_and_planned_source_gaps_are_flagged(self):
+        registry = json.loads((ROOT / 'content/pantheons.json').read_text(encoding='utf-8'))
+        statuses = {key: item['status'] for key, item in registry['pantheons'].items()}
+        lessons = sorted((ROOT / 'content/lessons').rglob('*.json'))
+        self.assertEqual(len(lessons), 135)
+        for path in lessons:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            if statuses[lesson['pantheon']] == 'active':
+                self.assertEqual(lesson['review']['status'], 'reviewed', lesson['id'])
+                self.assertEqual(lesson['review']['reviewType'], 'editorial', lesson['id'])
+                self.assertIn('AI editorial review', lesson['review']['notes'], lesson['id'])
+            else:
+                self.assertEqual(lesson['review']['status'], 'needs-revision', lesson['id'])
+                self.assertIn('source', lesson['review']['notes'].lower(), lesson['id'])
 
 
 if __name__ == '__main__':

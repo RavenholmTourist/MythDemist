@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w02d04.patroclus-changes-everything",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week02",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,21 +31,33 @@
       "work": "The Iliad",
       "author": "Homer",
       "translator": "Samuel Butler",
-      "locator": "Book 18, news of Patroclus’ death; Book 18, normalized characters 0-300",
+      "locator": "Book 18, Antilochus reports Patroclus' death; Book 18, normalized characters 1024-1088",
       "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles. Thus then did they fight as it were a flaming fire. Meanwhile the fleet runner Antilochus, who had been sent as messenger, reached Achilles, and found him sitting by his tall ships and boding",
+      "excerpt": "Patroclus has fallen, and a fight is raging about his naked body",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "armor": {
+      "recordId": "pg-02199",
+      "sourceId": "grc.homer.iliad",
+      "work": "The Iliad",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "locator": "Book 16, Achilles lends Patroclus his armour; Book 16, normalized characters 3336-3687",
+      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+      "excerpt": "now gird my armour about your shoulders, and lead the Myrmidons to battle, for the dark cloud of Trojans has burst furiously over our fleet; the Argives are driven back on to the beach, cooped within a narrow space, and the whole people of Troy has taken heart to sally out against them, because they see not the visor of my helmet gleaming near them.",
+      "evidenceType": "quotation",
+      "note": "Verbatim local text with whitespace normalized. This Book 16 passage records Achilles' instructions before Patroclus enters the fight."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The scene",
-      "body": "Patroclus fights in Achilles’ armour and is killed. News of his death turns Achilles from withdrawal toward vengeance against Hector; the return to battle grows out of bereavement, not a successful settlement by gifts.",
+      "title": "Achilles lends his armour",
+      "body": "Achilles tells Patroclus to wear his armour and lead the Myrmidons against the Trojans. This is a temporary substitution, not a transfer of Achilles' whole identity or fate.",
       "sourceRefIds": [
-        "main"
+        "armor"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
@@ -54,8 +66,8 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “The grief of Achilles over Patroclus—The visit of Thetis to Vulcan and the armour that he made for Achilles. Thus then did they fight as it were a flaming fire. Meanwhile the fleet runner Antilochus, who had been sent as messenger, reached Achilles, and found him sitting by his tall ships and boding”",
+      "title": "The messenger brings news",
+      "body": "Source quotation from Book 18 (Butler translation; whitespace normalized): “Patroclus has fallen, and a fight is raging about his naked body”",
       "sourceRefIds": [
         "main"
       ],
@@ -66,10 +78,10 @@
     {
       "id": "card-03",
       "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The borrowed armor concentrates the poem’s tragedy: heroic identity can help others for a moment, but it cannot transfer fate.",
+      "title": "The equipment has a limit",
+      "body": "Book 16 says Patroclus wears Achilles' armour but does not take Achilles' spear, which no other Achaean can wield. Keep that detail attached to this episode.",
       "sourceRefIds": [
-        "main"
+        "armor"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
@@ -78,8 +90,8 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "Read it carefully",
-      "body": "Track the change in motive: Achilles’ anger at Agamemnon does not simply vanish, but grief for Patroclus makes vengeance against Hector urgent. Returning to battle is not the same as being healed.",
+      "title": "Grief changes the situation",
+      "body": "Antilochus reports Patroclus' death and Hector's possession of the armour. The poem describes Achilles' grief before showing how he responds; do not collapse these steps into an instant cure.",
       "sourceRefIds": [
         "main"
       ],
@@ -91,7 +103,7 @@
       "id": "card-05",
       "kind": "flavor",
       "title": "Carry it forward",
-      "body": "The next question is whether grief can produce compassion as well as vengeance.",
+      "body": "These passages connect a borrowed role in Book 16 with the cost of Patroclus' death in Book 18.",
       "sourceRefIds": [
         "main"
       ],
@@ -104,55 +116,55 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "Whose death changes Achilles’ decision to fight?",
+      "prompt": "What news does Antilochus bring Achilles?",
       "choices": [
         {
           "id": "a",
-          "text": "Patroclus’"
+          "text": "Patroclus has fallen, and Hector holds his armour"
         },
         {
           "id": "b",
-          "text": "Agamemnon’s"
+          "text": "Agamemnon has returned Briseis"
         },
         {
           "id": "c",
-          "text": "Priam’s"
+          "text": "The Trojans have surrendered"
         }
       ],
       "answerId": "a",
-      "explanation": "Patroclus’. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What makes the borrowed armour important?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It proves Hector has already accepted a truce."
-        },
-        {
-          "id": "b",
-          "text": "It links Patroclus’ intervention to Achilles’ absent role."
-        },
-        {
-          "id": "c",
-          "text": "It makes Patroclus immune to divine interference."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "It links Patroclus’ intervention to Achilles’ absent role.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "Antilochus reports Patroclus' death and says Hector holds his armour.",
       "sourceRefIds": [
         "main"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+      ]
+    },
+    {
+      "id": "q2",
+      "type": "single-choice",
+      "prompt": "Which item does Patroclus not take because no other Achaean can wield it?",
+      "choices": [
+        {
+          "id": "a",
+          "text": "Achilles' spear"
+        },
+        {
+          "id": "b",
+          "text": "The chariot of Nestor"
+        },
+        {
+          "id": "c",
+          "text": "The shield of Ajax"
+        }
+      ],
+      "answerId": "a",
+      "explanation": "Book 16 says Patroclus does not take the spear because none of the other Achaeans can wield it.",
+      "sourceRefIds": [
+        "armor"
+      ],
+      "objectiveIds": [
+        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
       ]
     }
   ],
@@ -164,9 +176,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

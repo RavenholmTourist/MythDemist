@@ -18,7 +18,7 @@
     },
     {
       "day": 2,
-      "title": "The Minotaur and Ariadne",
+      "title": "The Minotaur and Ariadne's Clue",
       "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
       "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-02-the-minotaur-and-ariadne.json",
       "status": "available"
@@ -71,7 +71,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Plutarch’s Life of Theseus. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Plutarch’s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -85,25 +85,25 @@
         "question": {
           "id": "q2",
           "type": "single-choice",
-          "prompt": "What does the thread qualify about the heroic victory?",
+          "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
           "choices": [
             {
               "id": "a",
-              "text": "Theseus needs no knowledge of the maze."
+              "text": "Escape from Polyphemus."
             },
             {
               "id": "b",
-              "text": "Theseus’ success depends on another person’s practical aid."
+              "text": "Find his way out after killing the Minotaur."
             },
             {
               "id": "c",
-              "text": "The Minotaur has already left Crete."
+              "text": "Capture the Nemean lion."
             }
           ],
           "answerId": "b",
-          "explanation": "Theseus’ success depends on another person’s practical aid.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
           "sourceRefIds": [
-            "main"
+            "escape"
           ],
           "objectiveIds": [
             "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
@@ -131,7 +131,7 @@
             }
           ],
           "answerId": "c",
-          "explanation": "His deeds explain the community’s institutions and belonging.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "His deeds explain the community’s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -161,7 +161,7 @@
             }
           ],
           "answerId": "a",
-          "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
           "sourceRefIds": [
             "main"
           ],
@@ -191,7 +191,7 @@
             }
           ],
           "answerId": "b",
-          "explanation": "Both Plutarch’s unification account and the Library’s service account. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+          "explanation": "Both Plutarch’s unification account and the Library’s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
           "sourceRefIds": [
             "main",
             "heracles"

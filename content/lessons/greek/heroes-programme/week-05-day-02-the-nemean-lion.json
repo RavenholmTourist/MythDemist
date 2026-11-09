@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w05d02.the-nemean-lion",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week05",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -36,6 +36,18 @@
       "excerpt": "When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "combat": {
+      "recordId": "perseus-apollodorus-library-frazer",
+      "sourceId": "grc.apollodorus.library",
+      "work": "Bibliotheca (Library)",
+      "author": "Pseudo-Apollodorus",
+      "translator": "James George Frazer",
+      "locator": "Library 2.5.1, Heracles changes method; book 2 · chapter 5 · section 1, normalized characters 543-926",
+      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+      "excerpt": "And having come to Nemea and tracked the lion, he first shot an arrow at him, but when he perceived that the beast was invulnerable, he heaved up his club and made after him. And when the lion took refuge in a cave with two mouths, Hercules built up the one entrance and came in upon the beast through the other, and putting his arm round its neck held it tight till he had choked it",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -43,9 +55,10 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "Heracles finds that arrows do not defeat the Nemean lion. He blocks one entrance of its cave, enters by the other, and overcomes it by grappling. The episode makes method, not simply a bigger weapon, decisive.",
+      "body": "The Library says arrows fail against the invulnerable lion; Heracles then controls the cave and fights at close range.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "combat"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -67,9 +80,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: The victory becomes visible equipment: the skin the hero could not pierce becomes the armor that marks his identity.",
+      "body": "He blocks one cave entrance, enters through the other, and strangles the lion. The narrative stresses a change of method.",
       "sourceRefIds": [
-        "main"
+        "combat"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -104,25 +117,25 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How does Heracles overcome the Nemean lion?",
+      "prompt": "How does Heracles kill the Nemean lion in the Library?",
       "choices": [
         {
           "id": "a",
-          "text": "By trapping it in a net and waiting for Eurystheus"
+          "text": "He poisons it with a pomegranate seed"
         },
         {
           "id": "b",
-          "text": "By grappling and choking it"
+          "text": "He tricks it into a ballgame"
         },
         {
           "id": "c",
-          "text": "By forcing it into a pit and sealing the entrance"
+          "text": "He strangles it after controlling the cave"
         }
       ],
-      "answerId": "b",
-      "explanation": "Heracles cannot wound the lion with arrows, so he grapples with it and chokes it.",
+      "answerId": "c",
+      "explanation": "The source says Heracles blocks one entrance, enters through the other, and chokes the lion.",
       "sourceRefIds": [
-        "main"
+        "combat"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w05d02.the-nemean-lion.source"
@@ -131,25 +144,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "Why does the cave matter to the method?",
+      "prompt": "Why does the cave matter to his method?",
       "choices": [
         {
           "id": "a",
-          "text": "The cave gives him a second set of arrows after the first ones fail."
+          "text": "It is where Eurystheus hides"
         },
         {
           "id": "b",
-          "text": "Eurystheus can witness the feat from a nearby chamber."
+          "text": "Blocking one entrance lets him approach through the other"
         },
         {
           "id": "c",
-          "text": "Blocking an entrance limits the lion’s escape."
+          "text": "It supplies a clue for the labyrinth"
         }
       ],
-      "answerId": "c",
-      "explanation": "Blocking one entrance lets Heracles control where the lion can escape from the cave.",
+      "answerId": "b",
+      "explanation": "The cave has two mouths; Heracles blocks one and enters through the other.",
       "sourceRefIds": [
-        "main"
+        "combat"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w05d02.the-nemean-lion.claim"
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

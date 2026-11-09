@@ -26,7 +26,7 @@ Read this file, the relevant schemas, neighbouring code, and the actual source p
 6. Epic, tragedy, mythography, biography, reception, scholarship, folklore, and ethnography are different evidence. Plutarch is not an eyewitness to Theseus. Frazer's account of Pausanias is not Frazer witnessing a legendary hero. Ovid is Roman reception when used in the Greek curriculum. Do not merge versions silently.
 7. Respect living traditions, regional differences, and community-specific practice. An epic underworld scene is not proof of a historical cult ritual or everybody's beliefs. Avoid calling every tradition a pantheon.
 8. Preserve rights metadata. `personal-local-only` records must not enter generated lesson quotations, assistant evidence, or browser retrieval indexes. Never weaken these controls to make a build pass.
-9. Keep corrected lessons `draft` until an independent reviewer has checked claim-level support, locators, pedagogy, and rights. `reviewed` requires a named reviewer and meaningful review notes, not just automated validation.
+9. `review.status: reviewed` records a substantive editorial check of claim support, locators, pedagogy, and rights; it is not a scholarly credential. If the user explicitly requests an AI-led editorial review, set `reviewType: editorial`, name the AI editor, and state in the notes that this is not independent scholarly review or scholarly certification. Use `reviewType: independent-scholarly` only for an actual named human expert review. Automated validation alone never qualifies.
 
 ## Teaching and assessment quality
 

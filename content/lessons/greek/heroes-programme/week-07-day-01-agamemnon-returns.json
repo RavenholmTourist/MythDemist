@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w07d01.agamemnon-returns",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week07",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,11 +31,35 @@
       "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
       "author": "Aeschylus",
       "translator": "E. D. A. Morshead",
-      "locator": "Agamemnon, opening Watchman and the return; local text, normalized characters 3112-3416",
+      "locator": "Agamemnon, the Watchman waits for the beacon; local text, normalized characters 3196-4782",
       "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
-      "excerpt": "Palace stand statues of the gods, and altars prepared for sacrifices._ _A Watchman_ I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry",
+      "excerpt": "I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry conclave of the midnight sky, Too well, the splendours of the firmament, The lords of light, whose kingly aspect shows— What time they set or climb the sky in turn— The year’s divisions, bringing frost or fire. And now, as ever, am I set to mark When shall stream up the glow of signal-flame, The bale-fire bright, and tell its Trojan tale— _Troy town is ta’en:_ such issue holds in hope She in whose woman’s breast beats heart of man. Thus upon mine unrestful couch I lie, Bathed with the dews of night, unvisited By dreams—ah me!—for in the place of sleep Stands Fear as my familiar, and repels The soft repose that would mine eyelids seal. And if at whiles, for the lost balm of sleep, I medicine my soul with melody Of trill or song—anon to tears I turn, Wailing the woe that broods upon this home, Not now by honour guided as of old. But now at last fair fall the welcome hour That sets me free, whene’er the thick night glow With beacon-fire of hope deferred no more. All hail! [_A beacon-light is seen reddening the distant sky._] Fire of the night, that brings my spirit day, Shedding on Argos light, and dance, and song, Greetings to fortune, hail! Let my loud summons ring within the ears Of Agamemnon’s queen, that she anon Start from her couch and with a shrill voice cry A joyous welcome to the beacon-blaze, For Ilion’s fall; such fiery message gleams",
       "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "murder": {
+      "recordId": "pg-08604",
+      "sourceId": "grc.aeschylus.oresteia",
+      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+      "author": "Aeschylus",
+      "translator": "E. D. A. Morshead",
+      "locator": "Agamemnon, Clytemnestra confesses; local text, normalized characters 78520-78583",
+      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+      "excerpt": "By me he fell, by me he died, And now his burial rites be mine!",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+    },
+    "odyssey": {
+      "recordId": "pg-01727",
+      "sourceId": "grc.homer.odyssey",
+      "work": "The Odyssey",
+      "author": "Homer",
+      "translator": "Samuel Butler",
+      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+      "locator": "Odyssey 23, Odysseus and Penelope reunite; Book 23, normalized characters 10694-11686",
+      "excerpt": "When she heard the sure proofs Ulysses now gave her, she fairly broke down. She flew weeping to his side, flung her arms about his neck, and kissed him. “Do not be angry with me Ulysses,” she cried, “you, who are the wisest of mankind. We have suffered, both of us. Heaven has denied us the happiness of spending our youth, and of growing old, together; do not then be aggrieved or take it amiss that I did not embrace you thus as soon as I saw you. I have been shuddering all the time through fear that someone might come here and deceive me with a lying story; for there are many very wicked people going about. Jove’s daughter Helen would never have yielded herself to a man from a foreign country, if she had known that the sons of Achaeans would come after her and bring her back. Heaven put it in her heart to do wrong, and she gave no thought to that sin, which has been the source of all our sorrows. Now, however, that you have convinced me by showing that you know all about our bed",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -43,9 +67,10 @@
       "id": "card-01",
       "kind": "context",
       "title": "The scene",
-      "body": "A watchman awaits the beacon announcing Troy’s fall. Agamemnon’s victorious return will not restore a peaceful house: Clytemnestra kills him, and the sacrifice of Iphigenia stands among the grievances that the play brings home from war.",
+      "body": "The Watchman awaits a beacon announcing Troy's fall. Aeschylus later gives Clytemnestra's account of killing Agamemnon.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "murder"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d01.agamemnon-returns.claim"
@@ -69,7 +94,8 @@
       "title": "Why it matters",
       "body": "Interpretation: Agamemnon’s return is the anti-Odyssey: the damaged house is not restored but fully exposed.",
       "sourceRefIds": [
-        "main"
+        "murder",
+        "odyssey"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d01.agamemnon-returns.claim"
@@ -108,19 +134,19 @@
       "choices": [
         {
           "id": "a",
-          "text": "An oracle naming Laius’ killer"
+          "text": "A raven carrying news from Ithaca"
         },
         {
           "id": "b",
-          "text": "A beacon announcing Troy’s fall"
+          "text": "A messenger returning the Golden Fleece"
         },
         {
           "id": "c",
-          "text": "The Sirens’ song"
+          "text": "A beacon announcing Troy's fall"
         }
       ],
-      "answerId": "b",
-      "explanation": "A beacon announcing Troy’s fall. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "c",
+      "explanation": "The Watchman says the beacon will announce Ilion's fall.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +157,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "Why is victory an insecure ending here?",
+      "prompt": "Who claims responsibility for Agamemnon's death in the play?",
       "choices": [
         {
           "id": "a",
-          "text": "The Greek army has not yet sailed for Troy."
+          "text": "The Trojan women"
         },
         {
           "id": "b",
-          "text": "Clytemnestra is absent from the play."
+          "text": "Clytemnestra"
         },
         {
           "id": "c",
-          "text": "The returning king faces violence and unresolved grievances at home."
+          "text": "The Watchman"
         }
       ],
-      "answerId": "c",
-      "explanation": "The returning king faces violence and unresolved grievances at home.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "Clytemnestra says, 'By me he fell, by me he died.'",
       "sourceRefIds": [
-        "main"
+        "murder"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d01.agamemnon-returns.claim"
@@ -164,9 +190,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

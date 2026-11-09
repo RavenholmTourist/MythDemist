@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w07d04.oedipus-investigates",
-  "version": 2,
+  "version": 4,
   "weekId": "grc.heroes.week07",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -36,6 +36,18 @@
       "excerpt": "as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on",
       "evidenceType": "quotation",
       "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+    },
+    "revelation": {
+      "recordId": "pg-00031",
+      "sourceId": "grc.sophocles.theban-plays",
+      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+      "author": "Sophocles",
+      "translator": "Francis Storr",
+      "locator": "Oedipus the King, the herdsman confirms the foundling; local text, normalized characters 52812-53512",
+      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+      "excerpt": "Friend, he that stands before thee was that child. HERDSMAN. A plague upon thee! Hold thy wanton tongue! OEDIPUS. Softly, old man, rebuke him not; thy words Are more deserving chastisement than his. HERDSMAN. O best of masters, what is my offense? OEDIPUS. Not answering what he asks about the child. HERDSMAN. He speaks at random, babbles like a fool. OEDIPUS. If thou lack’st grace to speak, I’ll loose thy tongue. HERDSMAN. For mercy’s sake abuse not an old man. OEDIPUS. Arrest the villain, seize and pinion him! HERDSMAN. Alack, alack! What have I done? what wouldst thou further learn? OEDIPUS. Didst give this man the child of whom he asks? HERDSMAN. I did; and would that I had died that day!",
+      "evidenceType": "quotation",
+      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
     }
   },
   "narrativeBlocks": [
@@ -45,7 +57,8 @@
       "title": "The scene",
       "body": "To free Thebes from plague, Oedipus seeks Laius’ killer and curses the unknown culprit. The investigation eventually identifies Oedipus himself. The skill and determination used to protect the city turn back upon its ruler.",
       "sourceRefIds": [
-        "main"
+        "main",
+        "revelation"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -67,9 +80,9 @@
       "id": "card-03",
       "kind": "synthesis",
       "title": "Why it matters",
-      "body": "Interpretation: His intelligence is genuinely heroic, but it leads to recognition rather than rescue; knowledge can be necessary and devastating.",
+      "body": "The messenger connects Oedipus with the infant given away by Laius' household; the herdsman confirms he passed the child on.",
       "sourceRefIds": [
-        "main"
+        "revelation"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -120,7 +133,7 @@
         }
       ],
       "answerId": "b",
-      "explanation": "The killing of Laius. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "explanation": "The killing of Laius is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus’ proclamation), keeping each work and version distinct.",
       "sourceRefIds": [
         "main"
       ],
@@ -131,25 +144,25 @@
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What gives his curse dramatic irony?",
+      "prompt": "What does the herdsman's testimony confirm?",
       "choices": [
         {
           "id": "a",
-          "text": "The audience knows Laius is still ruling Thebes."
+          "text": "Oedipus founded the Argo"
         },
         {
           "id": "b",
-          "text": "Creon has already confessed to the killing."
+          "text": "Oedipus was the child passed from Laius' household to the messenger"
         },
         {
           "id": "c",
-          "text": "The unknown killer he condemns will prove to be himself."
+          "text": "Oedipus commanded the Trojan army"
         }
       ],
-      "answerId": "c",
-      "explanation": "The unknown killer he condemns will prove to be himself.. Revisit the named passage and distinguish its narrative from the lesson’s interpretation.",
+      "answerId": "b",
+      "explanation": "The messenger identifies Oedipus as the child, and the herdsman confirms giving him away.",
       "sourceRefIds": [
-        "main"
+        "revelation"
       ],
       "objectiveIds": [
         "obj.grc.heroes.w07d04.oedipus-investigates.claim"
@@ -164,9 +177,10 @@
     "want-more-sources"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-08",
-    "notes": "Corrective editorial pass: quotations mechanically matched to local text; passage selection and interpretations still require independent scholarly review. Not scholarly certification."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

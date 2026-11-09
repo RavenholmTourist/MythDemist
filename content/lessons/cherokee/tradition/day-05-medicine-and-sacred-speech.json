@@ -1,13 +1,13 @@
 {
   "id": "cherokee.week01.day05.medicine-and-sacred-speech",
-  "version": 1,
+  "version": 3,
   "weekId": "cherokee.tradition.week01",
   "pantheon": "cherokee",
   "themeMode": "pantheon",
-  "title": "Medicine and sacred speech",
-  "subtitle": "Source-linked cherokee starter lesson",
+  "title": "Origin of Disease and Medicine",
+  "subtitle": "A story about animals, plants, and human conduct",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "cherokee",
     "tradition"
@@ -15,34 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.cherokee.5.concept",
-      "text": "Identify the main idea in Medicine and sacred speech."
+      "text": "Why do the animals hold a council in the story?"
     },
     {
       "id": "obj.cherokee.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What do the plants agree to provide?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "animals": {
       "recordId": "pg-45634",
       "sourceId": "cherokee.myths",
       "work": "Myths of the Cherokee",
-      "author": "Cherokee traditions",
-      "translator": "James Mooney",
-      "locator": "Medicine and sacred speech",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 353-760",
       "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "This was bad enough, but to make it worse Man invented bows, knives, blowguns, spears, and hooks, and began to slaughter the larger animals, birds, and fishes for their flesh or their skins, while the smaller creatures, such as the frogs and worms, were crushed and trodden upon without thought, out of pure carelessness or contempt. So the animals resolved to consult upon measures for their common safety.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+    },
+    "plants": {
+      "recordId": "pg-45634",
+      "sourceId": "cherokee.myths",
+      "work": "Myths of the Cherokee",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 6412-6772",
+      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+      "excerpt": "When the Plants, who were friendly to Man, heard what had been done by the animals, they determined to defeat the latters' evil designs. Each Tree, Shrub, and Herb, down even to the Grasses and Mosses, agreed to furnish a cure for some one of the diseases named, and each said: \"I shall appear to help Man when he calls upon me in his need.\" Thus came medicine",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Medicine and sacred speech",
-      "body": "Medicine and sacred speech is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Animals call a council",
+      "body": "In Mooney's recorded narrative, animals complain that people hunt and kill them, and decide to meet in council.",
       "sourceRefIds": [
-        "ref-primary"
+        "animals"
       ],
       "objectiveIds": [
         "obj.cherokee.5.concept"
@@ -51,34 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Plants respond after the animals",
+      "body": "Quotation from Mooney's English record (whitespace normalized): “When the Plants, who were friendly to Man, heard what had been done by the animals, they determined to defeat the latters' evil designs. Each Tree, Shrub, and Herb, down even to the Grasses and Mosses, agreed to furnish a cure for some one of the diseases named, and each said: \"I shall appear to help Man when he calls upon me in his need.\" Thus came medicine”",
       "sourceRefIds": [
-        "ref-primary"
+        "plants"
       ],
       "objectiveIds": [
-        "obj.cherokee.5.source"
+        "obj.cherokee.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The story gives each plant a role",
+      "body": "The narrative says trees, shrubs, herbs, grasses, and mosses agree to provide remedies for diseases.",
       "sourceRefIds": [
-        "ref-primary"
+        "plants"
       ],
       "objectiveIds": [
-        "obj.cherokee.5.source"
+        "obj.cherokee.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A historical narrative, not medical advice",
+      "body": "This is Mooney's 1902 English record of a Cherokee story. It does not validate treatments or describe all present-day Cherokee medicine.",
       "sourceRefIds": [
-        "ref-primary"
+        "animals",
+        "plants"
       ],
       "objectiveIds": [
         "obj.cherokee.5.source"
@@ -87,13 +101,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The tale links human behavior and consequence",
+      "body": "The story frames disease as a response to harm done to animals and medicine as help offered by plants; keep that explanation inside this particular narrative.",
       "sourceRefIds": [
-        "ref-primary"
+        "animals",
+        "plants"
       ],
       "objectiveIds": [
-        "obj.cherokee.5.concept"
+        "obj.cherokee.5.source"
       ]
     }
   ],
@@ -101,81 +116,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Medicine and sacred speech be introduced?",
+      "prompt": "Why do the animals hold a council in the story?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The princes need help escaping a maze"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "The Sun asks them to move the mountains"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "People hunt, kill, and use them without regard"
         }
       ],
-      "answerId": "a",
-      "explanation": "Medicine and sacred speech is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The opening says animals object to being killed for food and skins and to being carelessly harmed.",
       "sourceRefIds": [
-        "ref-primary"
+        "animals"
       ],
       "objectiveIds": [
         "obj.cherokee.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "animals"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What do the plants agree to provide?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A magic spear for the Uktena"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A cure for some of the diseases named"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "A new king for the Cherokee"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The story says each plant offers a remedy for one of the diseases.",
       "sourceRefIds": [
-        "ref-primary"
+        "plants"
       ],
       "objectiveIds": [
         "obj.cherokee.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "plants"
         ]
       }
     }
@@ -189,9 +197,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

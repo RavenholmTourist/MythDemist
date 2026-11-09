@@ -1,13 +1,13 @@
 {
   "id": "cherokee.week01.day02.kanati-and-selu",
-  "version": 1,
+  "version": 3,
   "weekId": "cherokee.tradition.week01",
   "pantheon": "cherokee",
   "themeMode": "pantheon",
-  "title": "Kanati and Selu",
-  "subtitle": "Source-linked cherokee starter lesson",
+  "title": "Kana'ti and Selu: Game and Corn",
+  "subtitle": "A family story explaining food and animal origins",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "cherokee",
     "tradition"
@@ -15,34 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.cherokee.2.concept",
-      "text": "Identify the main idea in Kanati and Selu."
+      "text": "What does the story say the other boy came from?"
     },
     {
       "id": "obj.cherokee.2.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What instruction does Selu give about corn?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "boy": {
       "recordId": "pg-45634",
       "sourceId": "cherokee.myths",
       "work": "Myths of the Cherokee",
-      "author": "Cherokee traditions",
-      "translator": "James Mooney",
-      "locator": "Kanati and Selu",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 969-1089",
       "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "Then they knew that the strange boy had sprung from the blood of the game which Selu had washed off at the river's edge.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+    },
+    "corn": {
+      "recordId": "pg-45634",
+      "sourceId": "cherokee.myths",
+      "work": "Myths of the Cherokee",
+      "author": "James Mooney",
+      "translator": "James Mooney (English rendering and editor)",
+      "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 22757-22922",
+      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+      "excerpt": "wherever her body was dragged corn would come up. Of this they were to make their bread. She told them that they must always save some for seed and plant every year.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Kanati and Selu",
-      "body": "Kanati and Selu is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A second child appears",
+      "body": "Kana'ti and Selu's son tells them that a playmate comes out of the water and calls himself his elder brother.",
       "sourceRefIds": [
-        "ref-primary"
+        "boy"
       ],
       "objectiveIds": [
         "obj.cherokee.2.concept"
@@ -51,34 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The story explains the brother's origin",
+      "body": "Quotation from Mooney's English record (whitespace normalized): “Then they knew that the strange boy had sprung from the blood of the game which Selu had washed off at the river's edge.”",
       "sourceRefIds": [
-        "ref-primary"
+        "boy"
       ],
       "objectiveIds": [
-        "obj.cherokee.2.source"
+        "obj.cherokee.2.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A second origin follows",
+      "body": "Later in the same narrative, Selu says corn will grow wherever her body is dragged and tells the boys to save seed for planting.",
       "sourceRefIds": [
-        "ref-primary"
+        "corn"
       ],
       "objectiveIds": [
-        "obj.cherokee.2.source"
+        "obj.cherokee.2.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Keep this account situated",
+      "body": "Mooney records this tale in his 1902 collection of Cherokee stories. It is a historical English record with an ethnographic frame, not a statement about every Cherokee community today.",
       "sourceRefIds": [
-        "ref-primary"
+        "boy",
+        "corn"
       ],
       "objectiveIds": [
         "obj.cherokee.2.source"
@@ -87,13 +101,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "One narrative links food and kinship",
+      "body": "The tale connects the origin of game with the origin and planting of corn; keep those events within this recorded story.",
       "sourceRefIds": [
-        "ref-primary"
+        "boy",
+        "corn"
       ],
       "objectiveIds": [
-        "obj.cherokee.2.concept"
+        "obj.cherokee.2.source"
       ]
     }
   ],
@@ -101,81 +116,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Kanati and Selu be introduced?",
+      "prompt": "What does the story say the other boy came from?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "A crystal from Uktena's forehead"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A pine-gum figure by a well"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The blood of game that Selu washed at the river"
         }
       ],
-      "answerId": "a",
-      "explanation": "Kanati and Selu is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "Kana'ti and Selu infer the boy's origin from the game blood washed at the river.",
       "sourceRefIds": [
-        "ref-primary"
+        "boy"
       ],
       "objectiveIds": [
         "obj.cherokee.2.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "boy"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What instruction does Selu give about corn?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Keep it hidden in the underworld"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Save some seed and plant it every year"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Carry it to the Sun and never plant it"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "Selu tells the boys to save seed for yearly planting.",
       "sourceRefIds": [
-        "ref-primary"
+        "corn"
       ],
       "objectiveIds": [
         "obj.cherokee.2.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What community or publication does Mooney identify?"
         ],
         "sourceRefIds": [
-          "ref-primary"
+          "corn"
         ]
       }
     }
@@ -189,9 +197,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "status": "reviewed",
+    "reviewedBy": "Devin (AI editorial review)",
+    "reviewedAt": "2026-11-09",
+    "reviewType": "editorial",
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

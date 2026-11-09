@@ -601,6 +601,40 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(dayrell['sourceType'], 'folklore-retelling-collection')
         self.assertIn('do not label its tales Yoruba', dayrell['notes'])
 
+    def test_polynesian_starter_pack_keeps_maui_versions_island_labeled(self):
+        files = sorted((ROOT / 'content/lessons/polynesian').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-32601'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertTrue(ref['locator'].startswith('Chapter '), ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Hawaii', titles["Maui's Family Across Island Accounts"])
+        self.assertIn('Kualii', titles['Hawaiian Maui and the Fishing Hook'])
+        self.assertIn('Samoan', titles['Maui: The Sun-Snaring Variant'])
+        self.assertIn('Kaupo', titles['Hawaiian Maui: Finding Fire'])
+        self.assertIn('New Zealand', titles['Hina: A Hawaiian Ascent to the Moon'])
+        manifest = json.loads((ROOT / 'content/corpus/polynesian/manifest.json').read_text(encoding='utf-8'))
+        self.assertEqual(next(x for x in manifest['records'] if x['id'] == 'pg-32601')['sourceType'], 'secondary-synthesis')
+
+    def test_maui_parser_scopes_numbered_westervelt_chapters(self):
+        segments = source_segments(ROOT / 'content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt')
+        fishing = next(s for s in segments if s['locator'] == 'Chapter II · MAUI THE FISHERMAN')
+        self.assertIn('Chant of Kualii', fishing['text'])
+        sun = next(s for s in segments if s['locator'] == 'Chapter IV · MAUI SNARING THE SUN.')
+        self.assertIn('The Samoans tell the same story', sun['text'])
+        moon = next(s for s in segments if s['locator'] == 'Chapter XV · HINA, THE WOMAN IN THE MOON.')
+        self.assertIn('The New Zealand legend says', moon['text'])
+        self.assertTrue(any(s['locator'] == 'Westervelt edition · front matter and contents' and s['evidenceType'] == 'editorial-note' for s in segments))
+
     def test_akan_gold_coast_stories_keep_fanti_and_collection_boundaries(self):
         files = sorted((ROOT / 'content/lessons/akan').rglob('*.json'))
         self.assertEqual(len(files), 5)

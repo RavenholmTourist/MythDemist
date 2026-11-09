@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T02:07:37.710757+00:00",
+  "generatedAt": "2026-11-09T02:20:37.097056+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1953,7 +1953,7 @@
     },
     {
       "id": "pol.maui.week01",
-      "title": "Maui and Polynesian Journeys",
+      "title": "Maui in Westervelt's Island Comparisons",
       "pantheon": "polynesian",
       "path": "content/curriculum/polynesian/polynesian-week-01.json",
       "dayCount": 5,
@@ -5348,24 +5348,23 @@
     },
     {
       "id": "polynesian.week01.day01.maui-trickster",
-      "version": 1,
+      "version": 2,
       "pantheon": "polynesian",
-      "title": "Maui: The Creative Trickster",
+      "title": "Maui's Family Across Island Accounts",
       "weekId": "pol.maui.week01",
       "tags": [
         "polynesian",
         "Maui:",
         "The"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-01-maui-trickster.json",
       "objectiveIds": [
         "obj.maui-trickster.concept",
         "obj.maui-trickster.sources"
       ],
       "recordIds": [
-        "pg-32601",
-        "pg-39195"
+        "pg-32601"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5383,24 +5382,23 @@
     },
     {
       "id": "polynesian.week01.day02.fishing-islands",
-      "version": 1,
+      "version": 2,
       "pantheon": "polynesian",
-      "title": "Fishing Up Islands",
+      "title": "Hawaiian Maui and the Fishing Hook",
       "weekId": "pol.maui.week01",
       "tags": [
         "polynesian",
         "Fishing",
         "Up"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-02-fishing-islands.json",
       "objectiveIds": [
         "obj.fishing-islands.concept",
         "obj.fishing-islands.sources"
       ],
       "recordIds": [
-        "pg-32601",
-        "pg-39195"
+        "pg-32601"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5418,24 +5416,23 @@
     },
     {
       "id": "polynesian.week01.day03.snaring-sun",
-      "version": 1,
+      "version": 2,
       "pantheon": "polynesian",
-      "title": "Snaring the Sun",
+      "title": "Maui: The Sun-Snaring Variant",
       "weekId": "pol.maui.week01",
       "tags": [
         "polynesian",
         "Snaring",
         "the"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-03-snaring-sun.json",
       "objectiveIds": [
         "obj.snaring-sun.concept",
         "obj.snaring-sun.sources"
       ],
       "recordIds": [
-        "pg-32601",
-        "pg-39195"
+        "pg-32601"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5453,24 +5450,23 @@
     },
     {
       "id": "polynesian.week01.day04.finding-fire",
-      "version": 1,
+      "version": 2,
       "pantheon": "polynesian",
-      "title": "Finding Fire",
+      "title": "Hawaiian Maui: Finding Fire",
       "weekId": "pol.maui.week01",
       "tags": [
         "polynesian",
         "Finding",
         "Fire"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-04-finding-fire.json",
       "objectiveIds": [
         "obj.finding-fire.concept",
         "obj.finding-fire.sources"
       ],
       "recordIds": [
-        "pg-32601",
-        "pg-39195"
+        "pg-32601"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5488,24 +5484,23 @@
     },
     {
       "id": "polynesian.week01.day05.pele-volcano",
-      "version": 1,
+      "version": 2,
       "pantheon": "polynesian",
-      "title": "Pele and Sacred Volcanic Power",
+      "title": "Hina: A Hawaiian Ascent to the Moon",
       "weekId": "pol.maui.week01",
       "tags": [
         "polynesian",
         "Pele",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-05-pele-volcano.json",
       "objectiveIds": [
         "obj.pele-volcano.concept",
         "obj.pele-volcano.sources"
       ],
       "recordIds": [
-        "pg-32601",
-        "pg-39195"
+        "pg-32601"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -9801,7 +9796,7 @@
       "id": "pg-32601",
       "pantheon": "polynesian",
       "title": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "pol.legends-maui"
       ],
@@ -9813,7 +9808,7 @@
       "id": "pg-39195",
       "pantheon": "polynesian",
       "title": "Legends of Gods and Ghosts (Hawaiian Mythology)",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "pol.hawaiian-mythology"
       ],

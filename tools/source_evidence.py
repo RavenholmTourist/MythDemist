@@ -431,6 +431,34 @@ def _plain_gold_coast_folktale_segments(text):
     return segments
 
 
+def _plain_westervelt_maui_segments(text):
+    """Segment Westervelt's numbered Maui chapters while retaining his regional labels."""
+    segments = []
+    headings = list(re.finditer(r"(?m)^\s*([IVXLCDM]+)\.\s*$", text))
+    if not headings:
+        return segments
+    actual = []
+    for heading in headings:
+        following = text[heading.end():].splitlines()
+        title = next((line.strip() for line in following if line.strip()), "Untitled")
+        if title.isupper() and len(title) > 3:
+            actual.append((heading, title))
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    # The contents page uses titles on the same line; only the body has a bare
+    # Roman-numeral heading followed by its chapter title.
+    for index, (heading, title) in enumerate(actual):
+        stop = actual[index + 1][0].start() if index + 1 < len(actual) else len(text)
+        locator = f"Chapter {heading.group(1).upper()} · {title}"
+        add(text[heading.start():stop], locator, "source-text")
+    add(text[:actual[0][0].start()], "Westervelt edition · front matter and contents", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -450,6 +478,8 @@ def source_segments(path):
             return _plain_mesoamerican_segments(path, text)
         if path.name == "west-african-folk-tales-66923.txt":
             return _plain_gold_coast_folktale_segments(text)
+        if path.name == "legends-ma-ui-westervelt-32601.txt":
+            return _plain_westervelt_maui_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":

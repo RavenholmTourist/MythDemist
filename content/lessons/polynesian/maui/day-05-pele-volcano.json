@@ -1,13 +1,13 @@
 {
   "id": "polynesian.week01.day05.pele-volcano",
-  "version": 1,
+  "version": 2,
   "weekId": "pol.maui.week01",
   "pantheon": "polynesian",
   "themeMode": "pantheon",
-  "title": "Pele and Sacred Volcanic Power",
-  "subtitle": "Place-bound divine force",
+  "title": "Hina: A Hawaiian Ascent to the Moon",
+  "subtitle": "One Hawaiian version among several island accounts",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "polynesian",
     "Pele",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.pele-volcano.concept",
-      "text": "Identify the main source-grounded idea in Pele and Sacred Volcanic Power."
+      "text": "Why does Hina leave the Sun in the Hawaiian version?"
     },
     {
       "id": "obj.pele-volcano.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "What accompanies the woman in the New Zealand version described here?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "hawaiian": {
       "recordId": "pg-32601",
       "sourceId": "pol.legends-maui",
       "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "various Polynesian traditions",
-      "translator": "W. D. Westervelt",
-      "locator": "Primary scaffold source \u2014 Pele and Sacred Volcanic Power",
+      "author": "W. D. Westervelt",
+      "translator": "not applicable; authored in English",
+      "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 3695-5256",
       "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "A collection centered on Maui traditions across Polynesian islands; preserves regional variation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
+      "excerpt": "The Sun was very bright and Hina said, \"I will go to the Sun.\" So she left her home very early in the morning and climbed up, higher, higher, until the heat of the rays of the sun beat strongly upon her and weakened her so that she could scarcely crawl along her beautiful path. Up a little higher and the clouds no longer gave her even the least shadow. The heat from the sun was so great that she began to feel the fire shriveling and torturing her. Quickly she slipped down into the storms around her rainbow and then back to earth. As the day passed her strength came back, and when the full moon rose through the shadows of the night she said, \"I will climb to the moon and there find rest.\" But when Hina began to go upward her husband saw her and called to her: \"Do not go into the heavens.\" She answered him: \"My mind is fixed; I will go to my new husband, the moon.\" And she climbed up higher and higher. Her husband ran toward her. She was almost out of reach, but he leaped and caught her foot. This did not deter Hina from her purpose. She shook off her husband, but as he fell he broke her leg so that the lower part came off in his hands. Hina went up through the stars, crying out the strongest incantations she could use. The powers of the night aided her. The mysterious hands of darkness lifted her, until she stood at the door of the moon. She had packed her calabash with her most priceless possessions and had carried it with her even when injured by her cruel husband. With her calabash she limped into the moon and found her abiding home.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
     },
-    "ref-secondary": {
-      "recordId": "pg-39195",
-      "sourceId": "pol.hawaiian-mythology",
-      "work": "Legends of Gods and Ghosts (Hawaiian Mythology)",
-      "author": "various Hawaiian traditions",
-      "translator": "W. D. Westervelt",
-      "locator": "Comparative corpus source \u2014 Pele and Sacred Volcanic Power",
-      "localPath": "content/corpus/polynesian/primary/hawaiian-mythology-westervelt-39195.txt",
-      "excerpt": "A Hawaiian mythology collection useful for local variation and supernatural beings.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+    "variant": {
+      "recordId": "pg-32601",
+      "sourceId": "pol.legends-maui",
+      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+      "author": "W. D. Westervelt",
+      "translator": "not applicable; authored in English",
+      "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 7367-8184",
+      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+      "excerpt": "The New Zealand legend says that the woman went after water in the night. As she passed down the path to the spring the bright light of the full moon made the way easy for her quick footsteps, but when she had filled her calabash and started homeward, suddenly the bright light was hidden by a passing cloud and she stumbled against a stone in the path and fell to the ground, spilling the water she was carrying. Then she became very angry and cursed the moon heartily. Then the moon became angry and swiftly swept down upon her from the skies, grasping her and lifting her up. In her terrible fight she caught a small tree with one hand and her calabash with the other. But oh! the strong moon pulled her up with the tree and the calabash and there in the full moon they can all be traced when the nights are clear.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Pele and Sacred Volcanic Power",
-      "body": "Hawaiian volcano traditions tie deity, landscape, emotion, and danger into a living geography.",
+      "title": "Hina seeks a place in the sky",
+      "body": "In one Hawaiian account summarized by Westervelt, Hina tries the Sun, finds the heat unbearable, and then climbs toward the Moon.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "hawaiian"
       ],
       "objectiveIds": [
         "obj.pele-volcano.concept"
@@ -64,35 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "The Hawaiian ascent",
+      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “The Sun was very bright and Hina said, \"I will go to the Sun.\" So she left her home very early in the morning and climbed up, higher, higher, until the heat of the rays of the sun beat strongly upon her and weakened her so that she could scarcely crawl along her beautiful path. Up a little higher and the clouds no longer gave her even the least shadow. The heat from the sun was so great that she began to feel the fire shriveling and torturing her. Quickly she slipped down into the storms around her rainbow and then back to earth. As the day passed her strength came back, and when the full moon rose through the shadows of the night she said, \"I will climb to the moon and there find rest.\" But when Hina began to go upward her husband saw her and called to her: \"Do not go into the heavens.\" She answered him: \"My mind is fixed; I will go to my new husband, the moon.\" And she climbed up higher and higher. Her husband ran toward her. She was almost out of reach, but he leaped and caught her foot. This did not deter Hina from her purpose. She shook off her husband, but as he fell he broke her leg so that the lower part came off in his hands. Hina went up through the stars, crying out the strongest incantations she could use. The powers of the night aided her. The mysterious hands of darkness lifted her, until she stood at the door of the moon. She had packed her calabash with her most priceless possessions and had carried it with her even when injured by her cruel husband. With her calabash she limped into the moon and found her abiding home.”",
       "sourceRefIds": [
-        "ref-primary"
+        "hawaiian"
       ],
       "objectiveIds": [
-        "obj.pele-volcano.sources"
+        "obj.pele-volcano.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "A different New Zealand account",
+      "body": "Westervelt separately describes a New Zealand woman who spills water, curses the Moon, and is carried into the sky with a tree and calabash.",
       "sourceRefIds": [
-        "ref-secondary"
+        "variant"
       ],
       "objectiveIds": [
-        "obj.pele-volcano.sources"
+        "obj.pele-volcano.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "Keep Hina's island versions distinct",
+      "body": "The chapter notes that stories about Hina's ascent vary across Hawaiian, New Zealand, Tongan, Hervey, Nauru, and other island traditions. This lesson does not merge them into one account.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "hawaiian",
+        "variant"
       ],
       "objectiveIds": [
         "obj.pele-volcano.sources"
@@ -101,14 +102,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "The compiler records variation",
+      "body": "The two passages show different motives and outcomes; the useful comparison depends on retaining their regional labels.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "hawaiian",
+        "variant"
       ],
       "objectiveIds": [
-        "obj.pele-volcano.concept"
+        "obj.pele-volcano.sources"
       ]
     }
   ],
@@ -116,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Pele connect?",
+      "prompt": "Why does Hina leave the Sun in the Hawaiian version?",
       "choices": [
         {
           "id": "a",
-          "text": "Divine force and volcanic place"
+          "text": "The Moon orders her away"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "She loses a ballgame to Xibalba"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "Its heat is too great"
         }
       ],
-      "answerId": "a",
-      "explanation": "Hawaiian volcano traditions tie deity, landscape, emotion, and danger into a living geography.",
+      "answerId": "c",
+      "explanation": "The passage says the Sun's heat weakens and torments her, so she returns to earth before trying the Moon.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "hawaiian"
       ],
       "objectiveIds": [
         "obj.pele-volcano.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which island version is being described?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "hawaiian"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "What accompanies the woman in the New Zealand version described here?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "A canoe and a fire-stick"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "A tree and a calabash"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "A golden Sampo and an iron rod"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "b",
+      "explanation": "The New Zealand account says she is pulled up with the tree and calabash.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "variant"
       ],
       "objectiveIds": [
         "obj.pele-volcano.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which island version is being described?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "variant"
         ]
       }
     }
@@ -209,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Island-specific Westervelt passages; independent community, source-history, translation, and pedagogy review remains pending."
   }
 }

@@ -1,13 +1,13 @@
 {
   "id": "polynesian.week01.day01.maui-trickster",
-  "version": 1,
+  "version": 2,
   "weekId": "pol.maui.week01",
   "pantheon": "polynesian",
   "themeMode": "pantheon",
-  "title": "Maui: The Creative Trickster",
-  "subtitle": "Cleverness changes the world",
+  "title": "Maui's Family Across Island Accounts",
+  "subtitle": "Names and kinship vary across the collected versions",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "polynesian",
     "Maui:",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.maui-trickster.concept",
-      "text": "Identify the main source-grounded idea in Maui: The Creative Trickster."
+      "text": "What does the Hawaiian chant name as Maui's father's name?"
     },
     {
       "id": "obj.maui-trickster.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "What does Westervelt say varies among the island accounts?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "family": {
       "recordId": "pg-32601",
       "sourceId": "pol.legends-maui",
       "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "various Polynesian traditions",
-      "translator": "W. D. Westervelt",
-      "locator": "Primary scaffold source \u2014 Maui: The Creative Trickster",
+      "author": "W. D. Westervelt",
+      "translator": "not applicable; authored in English",
+      "locator": "Chapter I · MAUI'S HOME; Chapter I · MAUI'S HOME, normalized characters 2031-2317",
       "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "A collection centered on Maui traditions across Polynesian islands; preserves regional variation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
-      "recordId": "pg-39195",
-      "sourceId": "pol.hawaiian-mythology",
-      "work": "Legends of Gods and Ghosts (Hawaiian Mythology)",
-      "author": "various Hawaiian traditions",
-      "translator": "W. D. Westervelt",
-      "locator": "Comparative corpus source \u2014 Maui: The Creative Trickster",
-      "localPath": "content/corpus/polynesian/primary/hawaiian-mythology-westervelt-39195.txt",
-      "excerpt": "A Hawaiian mythology collection useful for local variation and supernatural beings.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "In the Hawaiian chant, Akalana was the name of his father. In other groups this was the name by which his mother was known. Kanaloa, the god, is sometimes known as the father of Maui. In Hawaii Hina was his mother. Elsewhere Ina, or Hina, was the grandmother, from whom he secured fire.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Maui: The Creative Trickster",
-      "body": "Maui\u2019s deeds make intelligence, daring, and mischief into forces that reshape nature.",
+      "title": "One hero, different genealogies",
+      "body": "Westervelt's collection notes that accounts vary: in the Hawaiian chant Akalana is Maui's father, while other versions give the name to his mother or connect Hina with his grandmother.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.concept"
@@ -64,22 +53,22 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "Kinship depends on the island version",
+      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “In the Hawaiian chant, Akalana was the name of his father. In other groups this was the name by which his mother was known. Kanaloa, the god, is sometimes known as the father of Maui. In Hawaii Hina was his mother. Elsewhere Ina, or Hina, was the grandmother, from whom he secured fire.”",
       "sourceRefIds": [
-        "ref-primary"
+        "family"
       ],
       "objectiveIds": [
-        "obj.maui-trickster.sources"
+        "obj.maui-trickster.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "The compiler compares traditions",
+      "body": "Westervelt's 1910s volume brings together material identified with Hawaii, New Zealand, Hervey, Tahiti, and other islands. The compiler's comparison is not one single Polynesian canon.",
       "sourceRefIds": [
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.sources"
@@ -88,11 +77,10 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "A modern compilation",
+      "body": "W. D. Westervelt wrote in English and collated island accounts and chants. This source is not a direct translation of one ancient manuscript or one unmediated oral performance.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.sources"
@@ -101,11 +89,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "Keep the variant label",
+      "body": "When retelling Maui's family story, name the Hawaiian chant or the other island account rather than merging their genealogies.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.concept"
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What drives Maui\u2019s power?",
+      "prompt": "What does the Hawaiian chant name as Maui's father's name?",
       "choices": [
         {
           "id": "a",
-          "text": "Cunning, daring, and useful mischief"
+          "text": "Akalana"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "Kullervo"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "Vukub-Cakix"
         }
       ],
       "answerId": "a",
-      "explanation": "Maui\u2019s deeds make intelligence, daring, and mischief into forces that reshape nature.",
+      "explanation": "Westervelt says the Hawaiian chant gives Akalana as Maui's father.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which island version is being described?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "family"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "What does Westervelt say varies among the island accounts?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "Whether the Sampo makes flour or salt"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Whether Xibalba has six or seven houses"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Whether a name such as Akalana or Hina refers to the father, mother, or grandmother"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "c",
+      "explanation": "The passage explicitly contrasts the Hawaiian genealogy with other island versions.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "family"
       ],
       "objectiveIds": [
         "obj.maui-trickster.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which island version is being described?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "family"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Island-specific Westervelt passages; independent community, source-history, translation, and pedagogy review remains pending."
   }
 }

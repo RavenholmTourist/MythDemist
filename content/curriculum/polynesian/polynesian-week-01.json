@@ -1,7 +1,7 @@
 {
   "id": "pol.maui.week01",
-  "title": "Maui and Polynesian Journeys",
-  "subtitle": "Island-making, fire, sun, sea, and ancestral stories",
+  "title": "Maui in Westervelt's Island Comparisons",
+  "subtitle": "A 1910s compilation distinguishes Hawaiian and other island versions",
   "pantheon": "polynesian",
   "themeMode": "pantheon",
   "visual": {
@@ -11,35 +11,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Maui: The Creative Trickster",
+      "title": "Maui's Family Across Island Accounts",
       "lessonId": "polynesian.week01.day01.maui-trickster",
       "lessonPath": "content/lessons/polynesian/maui/day-01-maui-trickster.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Fishing Up Islands",
+      "title": "Hawaiian Maui and the Fishing Hook",
       "lessonId": "polynesian.week01.day02.fishing-islands",
       "lessonPath": "content/lessons/polynesian/maui/day-02-fishing-islands.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Snaring the Sun",
+      "title": "Maui: The Sun-Snaring Variant",
       "lessonId": "polynesian.week01.day03.snaring-sun",
       "lessonPath": "content/lessons/polynesian/maui/day-03-snaring-sun.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Finding Fire",
+      "title": "Hawaiian Maui: Finding Fire",
       "lessonId": "polynesian.week01.day04.finding-fire",
       "lessonPath": "content/lessons/polynesian/maui/day-04-finding-fire.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Pele and Sacred Volcanic Power",
+      "title": "Hina: A Hawaiian Ascent to the Moon",
       "lessonId": "polynesian.week01.day05.pele-volcano",
       "lessonPath": "content/lessons/polynesian/maui/day-05-pele-volcano.json",
       "status": "available"
@@ -48,8 +48,8 @@
   "suggestedTopics": [
     {
       "id": "topic.polynesian-maui-tricks",
-      "title": "Maui and creative trickery",
-      "description": "Maui\u2019s feats combine mischief, cunning, utility, and cosmic-scale transformation.",
+      "title": "Maui variants by island",
+      "description": "Westervelt compares Maui stories across islands; each lesson keeps its version label rather than treating Polynesia as one uniform culture.",
       "relatedDay": 1,
       "recordIds": [
         "pg-32601",

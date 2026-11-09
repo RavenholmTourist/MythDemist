@@ -8,4 +8,4 @@ __pycache__/
 /content/corpus/greek/primary/euripides-trojan-women-35171.txt
 
 # Generated artifact; rebuild with python -B tools/content_pipeline.py.
-/content/retrieval/index.json
+/content/retrieval/

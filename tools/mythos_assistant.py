@@ -9,16 +9,25 @@ ROOT = Path(__file__).resolve().parents[1]
 STOP = {"the", "and", "what", "who", "why", "how", "is", "are", "was", "were", "of", "in", "to", "a", "an", "on", "for", "did", "does", "about", "tell", "me"}
 
 
-def load_index():
-    path = ROOT / "content/retrieval/index.json"
-    if not path.exists():
+def load_index(traditions=None):
+    directory = ROOT / "content/retrieval"
+    manifest_path = directory / "index.json"
+    if not manifest_path.exists():
         raise RuntimeError("Run python tools/content_pipeline.py first")
-    index = json.loads(path.read_text(encoding="utf-8"))
-    # v2 chunks are slim: shared bibliographic fields live once in sources[].
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    index = {"version": manifest.get("version"), "sources": manifest.get("sources", []), "chunks": []}
+    wanted = set(traditions) if traditions else None
+    for entry in manifest.get("files", []):
+        if wanted is not None and entry["pantheon"] not in wanted:
+            continue
+        path = ROOT / entry["path"]
+        if path.exists():
+            index["chunks"].extend(json.loads(path.read_text(encoding="utf-8")).get("chunks", []))
+    # v2+ chunks are slim: shared bibliographic fields live once in sources[].
     # Hydrate them onto each chunk so retrieval, prompting, and validation can
     # keep treating a chunk as a self-contained evidence record.
     by_id = {source["id"]: source for source in index.get("sources", [])}
-    for chunk in index.get("chunks", []):
+    for chunk in index["chunks"]:
         source = by_id.get(chunk.get("recordId"), {})
         for key in ("pantheon", "title", "sourceType", "coverageType", "rightsStatus", "translator"):
             chunk.setdefault(key, source.get(key))

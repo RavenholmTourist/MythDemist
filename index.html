@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
     <meta name="theme-color" content="#170f2f" />
     <title>Project Mythos — Greek Heroes</title>
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="apple-touch-icon" href="./icons/icon-192.png" />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
@@ -65,5 +67,12 @@
     </dialog>
 
     <script type="module" src="./src/app.js"></script>
+    <script>
+      // Register the offline/update service worker. Skipped under automation
+      // (navigator.webdriver) so test suites never read stale cached assets.
+      if ("serviceWorker" in navigator && !navigator.webdriver) {
+        navigator.serviceWorker.register("./sw.js").catch(() => {});
+      }
+    </script>
   </body>
 </html>

@@ -1621,20 +1621,32 @@ function renderReviewComplete() {
 }
 
 
-async function ensureRetrieval() {
-  if (retrievalIndex) return retrievalIndex;
+async function ensureRetrieval(pantheonId) {
+  const target = pantheonId || "shared";
+  if (retrievalIndex?.loaded?.has(target)) return retrievalIndex;
   const response = await fetch(RETRIEVAL_URL);
   if (!response.ok) throw new Error("The local retrieval index has not been generated. Run python -B tools/content_pipeline.py to build it.");
-  const raw = await response.json();
-  // v2 chunks are slim: shared bibliographic fields live once in sources[].
-  // Hydrate them so each result still reads as a self-contained evidence record.
-  const byId = new Map((raw.sources || []).map((source) => [source.id, source]));
-  raw.chunks = (raw.chunks || []).map((chunk) => ({
-    evidenceType: "source-text",
-    ...byId.get(chunk.recordId),
-    ...chunk,
-  }));
-  retrievalIndex = raw;
+  const manifest = await response.json();
+  if (!retrievalIndex) {
+    const byId = new Map((manifest.sources || []).map((source) => [source.id, source]));
+    retrievalIndex = { sources: manifest.sources || [], byId, chunks: [], loaded: new Set() };
+  }
+  const wanted = target === "shared" ? (manifest.files || []) : (manifest.files || []).filter((entry) => entry.pantheon === target);
+  for (const entry of wanted) {
+    if (retrievalIndex.loaded.has(entry.pantheon)) continue;
+    const file = await fetch(`./${entry.path}`);
+    if (!file.ok) continue;
+    const payload = await file.json();
+    for (const chunk of payload.chunks || []) {
+      retrievalIndex.chunks.push({
+        evidenceType: "source-text",
+        ...retrievalIndex.byId.get(chunk.recordId),
+        ...chunk,
+      });
+    }
+    retrievalIndex.loaded.add(entry.pantheon);
+  }
+  retrievalIndex.loaded.add(target);
   return retrievalIndex;
 }
 
@@ -1644,6 +1656,7 @@ function assistantTokens(query) {
 }
 
 function searchRetrieval(query) {
+  if (!retrievalIndex) return { error: "The local retrieval index is still loading; try again in a moment.", results: [] };
   const tokens = assistantTokens(query);
   if (!tokens.length) return { error: "Enter a question with a searchable topic, name, or theme.", results: [] };
   const results = retrievalIndex.chunks.filter((chunk) => chunk.evidenceType !== 'editorial-note' && (pantheonConfig?.id === 'shared' || chunk.pantheon === pantheonConfig?.id)).map((chunk) => {
@@ -1949,7 +1962,7 @@ function handleAction(action, target) {
     runtime.view = "assistant";
     runtime.assistantError = null;
     render();
-    ensureRetrieval().catch((error) => {
+    ensureRetrieval(pantheonConfig?.id).catch((error) => {
       runtime.assistantError = error.message;
       render();
     });

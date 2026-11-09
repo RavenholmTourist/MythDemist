@@ -35,10 +35,10 @@ class Handler(SimpleHTTPRequestHandler):
         # Serving the repo root must never expose .env, VCS data, tools, or symlinks outside it.
         path = unquote(urlsplit(self.path).path).replace("\\", "/")
         parts = [part for part in path.split("/") if part]
-        allowed = not parts or parts[0] in {"index.html", "styles.css", "src", "content", "tests"}
+        allowed = not parts or parts[0] in {"index.html", "styles.css", "sw.js", "manifest.webmanifest", "icons", "src", "content", "tests"}
         target = (ROOT / path.lstrip("/")).resolve()
         resolved_parts = target.relative_to(ROOT.resolve()).parts if target.is_relative_to(ROOT.resolve()) else ()
-        resolved_allowed = target == ROOT.resolve() or bool(resolved_parts and resolved_parts[0] in {'index.html', 'styles.css', 'src', 'content', 'tests'})
+        resolved_allowed = target == ROOT.resolve() or bool(resolved_parts and resolved_parts[0] in {'index.html', 'styles.css', 'sw.js', 'manifest.webmanifest', 'icons', 'src', 'content', 'tests'})
         if not allowed or not resolved_allowed or any(part.startswith('.') for part in [*parts, *resolved_parts]):
             self.send_error(404)
             return None

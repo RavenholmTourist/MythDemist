@@ -72,16 +72,29 @@ def main():
                     })
     out = ROOT / "content/retrieval"
     out.mkdir(parents=True, exist_ok=True)
+    # Split chunk payloads per tradition so the browser only parses what the
+    # active tradition needs instead of one ~58 MB monolith on the phone.
+    by_pantheon = {}
+    for row in rows:
+        source = sources.get(row['recordId'], {})
+        by_pantheon.setdefault(source.get('pantheon', 'shared'), []).append(row)
+    files = []
+    for pantheon_id, group in sorted(by_pantheon.items()):
+        name = f"chunks-{pantheon_id}.json"
+        temporary = out / (name + '.tmp')
+        temporary.write_text(json.dumps({"pantheon": pantheon_id, "chunks": group}, separators=(',', ':')), encoding='utf-8')
+        temporary.replace(out / name)
+        files.append({"pantheon": pantheon_id, "path": f"content/retrieval/{name}", "chunks": len(group)})
     index = {
-        "version": 2,
+        "version": 3,
         "generatedAt": datetime.now(timezone.utc).isoformat(),
         "sources": list(sources.values()),
-        "chunks": rows
+        "files": files
     }
     temporary = out / 'index.json.tmp'
     temporary.write_text(json.dumps(index, separators=(',', ':')), encoding='utf-8')
     temporary.replace(out / 'index.json')
-    print(f"wrote {len(rows)} retrieval chunks from {len(sources)} sources")
+    print(f"wrote {len(rows)} retrieval chunks from {len(sources)} sources into {len(files)} tradition files")
 
 
 if __name__ == "__main__":

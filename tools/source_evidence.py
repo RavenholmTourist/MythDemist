@@ -344,6 +344,41 @@ def _plain_mesoamerican_segments(path, text):
     return segments
 
 
+def _plain_popol_vuh_spence_segments(text):
+    """Separate Spence's K'iche' tale summaries from his comparative commentary."""
+    segments = []
+    headings = [
+        (r"THE FIRST BOOK", "Spence summary · First Book", "source-text"),
+        (r"THE MYTH OF VUKUB-CAKIX", "Spence summary · Vukub-Cakix", "source-text"),
+        (r"THE SECOND BOOK", "Spence summary · Second Book", "source-text"),
+        (r"THE THIRD BOOK", "Spence summary · Third Book", "source-text"),
+        (r"THE FOURTH BOOK", "Spence summary · Fourth Book", "source-text"),
+        (r"COSMOGONY OF THE [\"']POPOL VUH[\"']", "Spence commentary · Cosmogony", "editorial-note"),
+        (r"THE PANTHEON OF THE [\"']POPOL VUH[\"']", "Spence commentary · Pantheon", "editorial-note"),
+        (r"THE VUKUB-CAKIX MYTH", "Spence commentary · Vukub-Cakix", "editorial-note"),
+        (r"THE HARRYING OF XIBALBA", "Spence commentary · Xibalba", "editorial-note"),
+    ]
+    matches = []
+    for pattern, locator, kind in headings:
+        match = re.search(r"^\s*" + pattern + r"\s*$", text, re.I | re.M)
+        if match:
+            matches.append((match.start(), match, locator, kind))
+    matches.sort(key=lambda item: item[0])
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if not matches:
+        return segments
+    add(text[:matches[0][0]], "Spence edition · preface and source history", "editorial-note")
+    for index, (_, match, locator, kind) in enumerate(matches):
+        stop = matches[index + 1][0] if index + 1 < len(matches) else len(text)
+        add(text[match.end():stop], locator, kind)
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -361,6 +396,8 @@ def source_segments(path):
             return _plain_kalevala_segments(text)
         if path.name in {"myths-mexico-peru-spence-53080.txt", "mythologies-mexico-peru-spence-36386.txt"}:
             return _plain_mesoamerican_segments(path, text)
+        if path.name == "popol-vuh-56550.txt":
+            return _plain_popol_vuh_spence_segments(text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

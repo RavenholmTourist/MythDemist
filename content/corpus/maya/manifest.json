@@ -6,34 +6,34 @@
     {
       "id": "pg-56550",
       "title": "The Popol Vuh",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "ancientAuthors": [
-        "K\u02bciche\u02bc traditions"
+        "K'iche' traditions (summarized by Lewis Spence)"
       ],
-      "translator": "various translators",
+      "translator": "not applicable; Spence authored this English summary",
       "sourceIds": [
         "maya.popol-vuh"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/56550",
       "localPath": "primary/popol-vuh-56550.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Lewis Spence's 1908 English summary of the K'iche' Popol Vuh, explicitly based on Brasseur de Bourbourg's French and Xim\u00e9nez's Spanish translations. It is not a direct translation of the K'iche' text."
     },
     {
       "id": "pg-58464",
       "title": "Essays of an Americanist",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-scholarship",
       "ancientAuthors": [
         "Daniel G. Brinton"
       ],
-      "translator": "Daniel G. Brinton",
+      "translator": "not applicable; authored in English by Daniel G. Brinton",
       "sourceIds": [
         "maya.americanist"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/58464",
       "localPath": "primary/americanist-essays-brinton-58464.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Brinton's nineteenth-century Americanist essays; dated scholarship, not a Maya primary text."
     }
   ]
 }

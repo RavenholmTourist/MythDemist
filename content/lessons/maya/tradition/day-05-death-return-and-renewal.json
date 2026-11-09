@@ -1,13 +1,13 @@
 {
   "id": "maya.week01.day05.death-return-and-renewal",
-  "version": 1,
+  "version": 2,
   "weekId": "maya.tradition.week01",
   "pantheon": "maya",
   "themeMode": "pantheon",
-  "title": "Death, return, and renewal",
-  "subtitle": "Source-linked maya starter lesson",
+  "title": "The Twins' Death and Return",
+  "subtitle": "A staged death outwits Xibalba's rulers",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "maya",
     "tradition"
@@ -15,46 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.maya.5.concept",
-      "text": "Identify the main idea in Death, return, and renewal."
+      "text": "What happens to the twins' bones after their deaths?"
     },
     {
       "id": "obj.maya.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What do the twins do when Xibalba's rulers ask to be revived?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "return": {
       "recordId": "pg-56550",
       "sourceId": "maya.popol-vuh",
       "work": "The Popol Vuh",
-      "author": "K\u02bciche\u02bc traditions",
-      "translator": "various translators",
-      "locator": "Death, return, and renewal",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9276-9455",
       "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "they stretched themselves upon a funeral pile and died together. Their bones were beaten to powder and thrown into the river, where they sank, and were transformed into young men.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     },
-    "ref-secondary": {
-      "recordId": "pg-58464",
-      "sourceId": "maya.americanist",
-      "work": "Essays of an Americanist",
-      "author": "Daniel G. Brinton",
-      "translator": "Daniel G. Brinton",
-      "locator": "Death, return, and renewal",
-      "localPath": "content/corpus/maya/primary/americanist-essays-brinton-58464.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "fate": {
+      "recordId": "pg-56550",
+      "sourceId": "maya.popol-vuh",
+      "work": "The Popol Vuh",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9915-10136",
+      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+      "excerpt": "The monarchs of Xibalba, anxious to experience the novel sensation of a temporary death, requested to be slain and resuscitated. They were speedily killed, but the brothers refrained from resuscitating their arch-enemies.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Death, return, and renewal",
-      "body": "Death, return, and renewal is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "The twins plan a deception",
+      "body": "After surviving the ordeals, Hun-Ahpu and Xbalanque tell two sorcerers what to do with their bones, then die on a funeral pyre.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "return"
       ],
       "objectiveIds": [
         "obj.maya.5.concept"
@@ -63,37 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Bones return to life",
+      "body": "Quotation from Spence's English summary (whitespace normalized): “they stretched themselves upon a funeral pile and died together. Their bones were beaten to powder and thrown into the river, where they sank, and were transformed into young men.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "return"
       ],
       "objectiveIds": [
-        "obj.maya.5.source"
+        "obj.maya.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The rulers ask for the same power",
+      "body": "The princes of Xibalba ask the twins to kill and revive them. The twins kill them but refuse to bring them back.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fate"
       ],
       "objectiveIds": [
-        "obj.maya.5.source"
+        "obj.maya.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Do not confuse the different returns",
+      "body": "Spence's summary says the twins return to life, then later says their father and uncle rise to heaven and become the Sun and Moon. Those are distinct events in his account.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "return",
+        "fate"
       ],
       "objectiveIds": [
         "obj.maya.5.source"
@@ -102,11 +101,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Victory ends the rulers' authority",
+      "body": "After the princes die, the twins forbid them from playing ball and assign them menial tasks in Spence's version.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fate"
       ],
       "objectiveIds": [
         "obj.maya.5.concept"
@@ -117,85 +115,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Death, return, and renewal be introduced?",
+      "prompt": "What happens to the twins' bones after their deaths?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "They are placed in the Sampo"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "They are turned into the Sun and Moon immediately"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "They are beaten to powder, thrown in the river, and the twins return in new forms"
         }
       ],
-      "answerId": "a",
-      "explanation": "Death, return, and renewal is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "Spence says the bones are powdered and thrown into the river, after which the twins reappear in other forms.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "return"
       ],
       "objectiveIds": [
         "obj.maya.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "return"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What do the twins do when Xibalba's rulers ask to be revived?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "They send the rulers to the House of Bats"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "They kill the rulers but do not bring them back"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "They let the rulers win a ballgame"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The summary says the twins refuse to resuscitate their arch-enemies.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fate"
       ],
       "objectiveIds": [
         "obj.maya.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "fate"
         ]
       }
     }
@@ -210,8 +197,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "K'iche' Popol Vuh episodes as summarized by Lewis Spence; independent K'iche' community, source-text, translation, and pedagogical review remains pending."
   }
 }

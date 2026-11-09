@@ -1,13 +1,13 @@
 {
   "id": "maya.week01.day03.xibalba-and-trials",
-  "version": 1,
+  "version": 2,
   "weekId": "maya.tradition.week01",
   "pantheon": "maya",
   "themeMode": "pantheon",
-  "title": "Xibalba and trials",
-  "subtitle": "Source-linked maya starter lesson",
+  "title": "The Hero Twins Receive a Call from Xibalba",
+  "subtitle": "A ballgame leads to the underworld",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "maya",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.maya.3.concept",
-      "text": "Identify the main idea in Xibalba and trials."
+      "text": "Why do the rulers of Xibalba summon the twins?"
     },
     {
       "id": "obj.maya.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Which creatures carry the grandmother's message in the summary?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "call": {
       "recordId": "pg-56550",
       "sourceId": "maya.popol-vuh",
       "work": "The Popol Vuh",
-      "author": "K\u02bciche\u02bc traditions",
-      "translator": "various translators",
-      "locator": "Xibalba and trials",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 5743-6844",
       "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-58464",
-      "sourceId": "maya.americanist",
-      "work": "Essays of an Americanist",
-      "author": "Daniel G. Brinton",
-      "translator": "Daniel G. Brinton",
-      "locator": "Xibalba and trials",
-      "localPath": "content/corpus/maya/primary/americanist-essays-brinton-58464.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "It was not long, however, until Hun-Came and Vukub-Came, the princes of Xibalba, heard them at play, and decided to lure them to the Underworld as they had lured their fathers. Messengers were despatched to the house of Xmucane, who, filled with alarm, despatched a louse to carry the message to her grandsons. The louse, wishing to ensure greater speed to reach the brothers, consented to be swallowed by a toad, the toad by a serpent, and the serpent by the great bird Voc. The other animals duly liberated one another; but despite his utmost efforts, the toad could not get rid of the louse, who had played him a trick by lodging in his gums, and had not been swallowed at all. The message, however, was duly delivered, and the players returned home to take leave of their grandmother and mother. Before their departure they each planted a cane in the middle of the house, which was to acquaint those they left behind with their welfare, since it would wither if any fatal circumstance befel them. Pursuing the route their fathers had followed, they passed the river of blood and the river Papuhya.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Xibalba and trials",
-      "body": "Xibalba and trials is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "The twins play ball",
+      "body": "In Spence's summary, the twins play in their fathers' ballcourt. The rulers of Xibalba hear them and send owls as messengers to summon them.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
         "obj.maya.3.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The summons is carried by owls",
+      "body": "Quotation from Spence's English summary (whitespace normalized): “It was not long, however, until Hun-Came and Vukub-Came, the princes of Xibalba, heard them at play, and decided to lure them to the Underworld as they had lured their fathers. Messengers were despatched to the house of Xmucane, who, filled with alarm, despatched a louse to carry the message to her grandsons. The louse, wishing to ensure greater speed to reach the brothers, consented to be swallowed by a toad, the toad by a serpent, and the serpent by the great bird Voc. The other animals duly liberated one another; but despite his utmost efforts, the toad could not get rid of the louse, who had played him a trick by lodging in his gums, and had not been swallowed at all. The message, however, was duly delivered, and the players returned home to take leave of their grandmother and mother. Before their departure they each planted a cane in the middle of the house, which was to acquaint those they left behind with their welfare, since it would wither if any fatal circumstance befel them. Pursuing the route their fathers had followed, they passed the river of blood and the river Papuhya.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
-        "obj.maya.3.source"
+        "obj.maya.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A message travels by animal helpers",
+      "body": "The grandmother sends a louse with the message; a toad, serpent, and bird help carry it. The twins return home before leaving for Xibalba.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
-        "obj.maya.3.source"
+        "obj.maya.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Keep the K'iche' frame specific",
+      "body": "The story belongs to the Popol Vuh material about the K'iche' Hero Twins as Spence summarizes it. It is not a generic Maya account or proof of one universal ballgame ritual.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
         "obj.maya.3.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The ballgame has narrative stakes",
+      "body": "The twins' game prompts the summons, connecting play, family memory, and a journey to Xibalba.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
         "obj.maya.3.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Xibalba and trials be introduced?",
+      "prompt": "Why do the rulers of Xibalba summon the twins?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Vukub-Cakix asks them to create the Sun"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "They hear the twins playing ball and challenge them"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The twins steal the Sampo"
         }
       ],
-      "answerId": "a",
-      "explanation": "Xibalba and trials is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "Spence says Hun-Came and Vukub-Came hear the ballgame and decide to lure the twins to the underworld.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
         "obj.maya.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "call"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Which creatures carry the grandmother's message in the summary?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A louse, a toad, a serpent, and the bird Voc"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A dog, a rabbit, and two owls"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "An eagle, a tortoise, and a jaguar"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The message is passed through the louse, toad, serpent, and bird Voc.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "call"
       ],
       "objectiveIds": [
         "obj.maya.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "call"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "K'iche' Popol Vuh episodes as summarized by Lewis Spence; independent K'iche' community, source-text, translation, and pedagogical review remains pending."
   }
 }

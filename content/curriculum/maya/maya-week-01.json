@@ -1,7 +1,7 @@
 {
   "id": "maya.tradition.week01",
-  "title": "Maya Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "K'iche' Popol Vuh in Spence's Summary",
+  "subtitle": "Creation, the Hero Twins, and Xibalba in a 1908 synthesis",
   "pantheon": "maya",
   "coverageType": "regional-tradition",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Creation and first people",
+      "title": "Wooden People and the Flood",
       "lessonId": "maya.week01.day01.creation-and-first-people",
       "lessonPath": "content/lessons/maya/tradition/day-01-creation-and-first-people.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "The Hero Twins",
+      "title": "Vukub-Cakix and the Hero Twins",
       "lessonId": "maya.week01.day02.the-hero-twins",
       "lessonPath": "content/lessons/maya/tradition/day-02-the-hero-twins.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Xibalba and trials",
+      "title": "The Hero Twins Receive a Call from Xibalba",
       "lessonId": "maya.week01.day03.xibalba-and-trials",
       "lessonPath": "content/lessons/maya/tradition/day-03-xibalba-and-trials.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "The ballgame",
+      "title": "Xibalba's Houses of Ordeal",
       "lessonId": "maya.week01.day04.the-ballgame",
       "lessonPath": "content/lessons/maya/tradition/day-04-the-ballgame.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Death, return, and renewal",
+      "title": "The Twins' Death and Return",
       "lessonId": "maya.week01.day05.death-return-and-renewal",
       "lessonPath": "content/lessons/maya/tradition/day-05-death-return-and-renewal.json",
       "status": "available"

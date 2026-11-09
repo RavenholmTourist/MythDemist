@@ -552,6 +552,41 @@ class RegressionTests(unittest.TestCase):
         editorial = next(s for s in segments if s['locator'] == 'Spence edition · front matter and contents')
         self.assertEqual(editorial['evidenceType'], 'editorial-note')
 
+    def test_maya_starter_pack_labels_spences_popol_vuh_summary(self):
+        files = sorted((ROOT / 'content/lessons/maya').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-56550'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+                self.assertIn('Spence summary', ref['locator'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('wooden', titles['Wooden People and the Flood'].lower())
+        self.assertIn('Vukub-Cakix', titles['Vukub-Cakix and the Hero Twins'])
+        self.assertIn('Xibalba', titles['The Hero Twins Receive a Call from Xibalba'])
+        self.assertIn('House of Bats', titles["Xibalba's Houses of Ordeal"])
+        self.assertIn('Spence', titles["The Twins' Death and Return"])
+        record = next(item for item in json.loads((ROOT / 'content/corpus/maya/manifest.json').read_text(encoding='utf-8'))['records'] if item['id'] == 'pg-56550')
+        self.assertEqual(record['sourceType'], 'secondary-synthesis')
+        self.assertIn('not a direct translation', record['notes'])
+
+    def test_popol_vuh_spence_parser_separates_story_summaries_and_commentary(self):
+        segments = source_segments(ROOT / 'content/corpus/maya/primary/popol-vuh-56550.txt')
+        first_book = next(s for s in segments if s['locator'] == 'Spence summary · First Book')
+        self.assertIn('mannikins carved out of wood', first_book['text'])
+        second_book = next(s for s in segments if s['locator'] == 'Spence summary · Second Book')
+        self.assertIn('Hun-Came and Vukub-Came', second_book['text'])
+        commentary = next(s for s in segments if s['locator'] == 'Spence commentary · Cosmogony')
+        self.assertEqual(commentary['evidenceType'], 'editorial-note')
+        self.assertTrue(any(s['locator'] == 'Spence edition · preface and source history' and s['evidenceType'] == 'editorial-note' for s in segments))
+
 
 if __name__ == '__main__':
     unittest.main()

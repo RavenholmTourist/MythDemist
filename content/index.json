@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T01:33:25.803211+00:00",
+  "generatedAt": "2026-11-09T01:44:10.107959+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -2000,7 +2000,7 @@
     },
     {
       "id": "maya.tradition.week01",
-      "title": "Maya Traditions",
+      "title": "K'iche' Popol Vuh in Spence's Summary",
       "pantheon": "maya",
       "path": "content/curriculum/maya/maya-week-01.json",
       "dayCount": 5,
@@ -5697,23 +5697,22 @@
     },
     {
       "id": "maya.week01.day01.creation-and-first-people",
-      "version": 1,
+      "version": 2,
       "pantheon": "maya",
-      "title": "Creation and first people",
+      "title": "Wooden People and the Flood",
       "weekId": "maya.tradition.week01",
       "tags": [
         "maya",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-01-creation-and-first-people.json",
       "objectiveIds": [
         "obj.maya.1.concept",
         "obj.maya.1.source"
       ],
       "recordIds": [
-        "pg-56550",
-        "pg-58464"
+        "pg-56550"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5729,23 +5728,22 @@
     },
     {
       "id": "maya.week01.day02.the-hero-twins",
-      "version": 1,
+      "version": 2,
       "pantheon": "maya",
-      "title": "The Hero Twins",
+      "title": "Vukub-Cakix and the Hero Twins",
       "weekId": "maya.tradition.week01",
       "tags": [
         "maya",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-02-the-hero-twins.json",
       "objectiveIds": [
         "obj.maya.2.concept",
         "obj.maya.2.source"
       ],
       "recordIds": [
-        "pg-56550",
-        "pg-58464"
+        "pg-56550"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5761,23 +5759,22 @@
     },
     {
       "id": "maya.week01.day03.xibalba-and-trials",
-      "version": 1,
+      "version": 2,
       "pantheon": "maya",
-      "title": "Xibalba and trials",
+      "title": "The Hero Twins Receive a Call from Xibalba",
       "weekId": "maya.tradition.week01",
       "tags": [
         "maya",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-03-xibalba-and-trials.json",
       "objectiveIds": [
         "obj.maya.3.concept",
         "obj.maya.3.source"
       ],
       "recordIds": [
-        "pg-56550",
-        "pg-58464"
+        "pg-56550"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5793,23 +5790,22 @@
     },
     {
       "id": "maya.week01.day04.the-ballgame",
-      "version": 1,
+      "version": 2,
       "pantheon": "maya",
-      "title": "The ballgame",
+      "title": "Xibalba's Houses of Ordeal",
       "weekId": "maya.tradition.week01",
       "tags": [
         "maya",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-04-the-ballgame.json",
       "objectiveIds": [
         "obj.maya.4.concept",
         "obj.maya.4.source"
       ],
       "recordIds": [
-        "pg-56550",
-        "pg-58464"
+        "pg-56550"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5825,23 +5821,22 @@
     },
     {
       "id": "maya.week01.day05.death-return-and-renewal",
-      "version": 1,
+      "version": 2,
       "pantheon": "maya",
-      "title": "Death, return, and renewal",
+      "title": "The Twins' Death and Return",
       "weekId": "maya.tradition.week01",
       "tags": [
         "maya",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-05-death-return-and-renewal.json",
       "objectiveIds": [
         "obj.maya.5.concept",
         "obj.maya.5.source"
       ],
       "recordIds": [
-        "pg-56550",
-        "pg-58464"
+        "pg-56550"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -10075,7 +10070,7 @@
       "id": "pg-56550",
       "pantheon": "maya",
       "title": "The Popol Vuh",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "maya.popol-vuh"
       ],
@@ -10087,7 +10082,7 @@
       "id": "pg-58464",
       "pantheon": "maya",
       "title": "Essays of an Americanist",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-scholarship",
       "sourceIds": [
         "maya.americanist"
       ],

@@ -1,13 +1,13 @@
 {
   "id": "maya.week01.day04.the-ballgame",
-  "version": 1,
+  "version": 2,
   "weekId": "maya.tradition.week01",
   "pantheon": "maya",
   "themeMode": "pantheon",
-  "title": "The ballgame",
-  "subtitle": "Source-linked maya starter lesson",
+  "title": "Xibalba's Houses of Ordeal",
+  "subtitle": "Cold, fire, tigers, and bats",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "maya",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.maya.4.concept",
-      "text": "Identify the main idea in The ballgame."
+      "text": "In which House is Hun-Ahpu beheaded in Spence's summary?"
     },
     {
       "id": "obj.maya.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Spence say about how Hun-Ahpu recovers?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "ordeals": {
       "recordId": "pg-56550",
       "sourceId": "maya.popol-vuh",
       "work": "The Popol Vuh",
-      "author": "K\u02bciche\u02bc traditions",
-      "translator": "various translators",
-      "locator": "The ballgame",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 7319-8624",
       "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-58464",
-      "sourceId": "maya.americanist",
-      "work": "Essays of an Americanist",
-      "author": "Daniel G. Brinton",
-      "translator": "Daniel G. Brinton",
-      "locator": "The ballgame",
-      "localPath": "content/corpus/maya/primary/americanist-essays-brinton-58464.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "They even passed scatheless through the first ordeal of the House of Gloom. The Xibalbans were furious, and their wrath was by no means allayed when they found themselves beaten at the game of ball to which they had challenged the brothers. Then Hun-Came and Vukub-Came ordered the twins to bring them four bouquets of flowers, asking the guards of the royal gardens to watch most carefully, and committed Hun-Ahpu and Xbalanque to the \"House of Lances\"--the second ordeal--where the lancers were directed to kill them. The brothers, however, had at their beck and call a swarm of ants, which entered the royal gardens on the first errand, and they succeeded in bribing the lancers. The Xibalbans, white with fury, ordered that the owls, the guardians of the gardens, should have their lips split, and otherwise showed their anger at their third defeat. Then came the third ordeal in the \"House of Cold.\" Here the heroes escaped death by freezing by being warmed with burning pine-cones. In the fourth and fifth ordeals they were equally lucky, for they passed a night each in the \"House of Tigers\" and the \"House of Fire\" without injury. But at the sixth ordeal misfortune overtook them in the \"House of Bats.\" Hun-Ahpu's head being cut off by Camazotz, \"Ruler of Bats,\" who suddenly appeared from above.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The ballgame",
-      "body": "The ballgame is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "The first test is a trap",
+      "body": "Spence describes the twins avoiding the red-hot seat and passing the House of Gloom before the rulers set further ordeals.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
         "obj.maya.4.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A series of dangerous houses",
+      "body": "Quotation from Spence's English summary (whitespace normalized): “They even passed scatheless through the first ordeal of the House of Gloom. The Xibalbans were furious, and their wrath was by no means allayed when they found themselves beaten at the game of ball to which they had challenged the brothers. Then Hun-Came and Vukub-Came ordered the twins to bring them four bouquets of flowers, asking the guards of the royal gardens to watch most carefully, and committed Hun-Ahpu and Xbalanque to the \"House of Lances\"--the second ordeal--where the lancers were directed to kill them. The brothers, however, had at their beck and call a swarm of ants, which entered the royal gardens on the first errand, and they succeeded in bribing the lancers. The Xibalbans, white with fury, ordered that the owls, the guardians of the gardens, should have their lips split, and otherwise showed their anger at their third defeat. Then came the third ordeal in the \"House of Cold.\" Here the heroes escaped death by freezing by being warmed with burning pine-cones. In the fourth and fifth ordeals they were equally lucky, for they passed a night each in the \"House of Tigers\" and the \"House of Fire\" without injury. But at the sixth ordeal misfortune overtook them in the \"House of Bats.\" Hun-Ahpu's head being cut off by Camazotz, \"Ruler of Bats,\" who suddenly appeared from above.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
-        "obj.maya.4.source"
+        "obj.maya.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The House of Bats is different",
+      "body": "The twins survive the Houses of Cold, Tigers, and Fire, but in the House of Bats Hun-Ahpu is beheaded by Camazotz.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
-        "obj.maya.4.source"
+        "obj.maya.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "The summary admits uncertainty",
+      "body": "Spence says the account does not make clear how Hun-Ahpu recovers from the wound, because the text is unintelligible at that point. Do not fill that gap with invented certainty.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
         "obj.maya.4.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Survival does not erase the textual gap",
+      "body": "The episode names several ordeals and records a severe injury, while Spence explicitly marks the recovery sequence as unclear.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
-        "obj.maya.4.concept"
+        "obj.maya.4.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should The ballgame be introduced?",
+      "prompt": "In which House is Hun-Ahpu beheaded in Spence's summary?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The House of Bats"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "The House of Cold"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The House of Fire"
         }
       ],
       "answerId": "a",
-      "explanation": "The ballgame is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The passage says Camazotz appears in the House of Bats and cuts off Hun-Ahpu's head.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
         "obj.maya.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "ordeals"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Spence say about how Hun-Ahpu recovers?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The twins use the Sampo to restore him"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "The rulers of Xibalba return his head"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The text is unclear at that point"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "Spence explicitly says the text is unintelligible about how the wound is cured.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "ordeals"
       ],
       "objectiveIds": [
         "obj.maya.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "ordeals"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "K'iche' Popol Vuh episodes as summarized by Lewis Spence; independent K'iche' community, source-text, translation, and pedagogical review remains pending."
   }
 }

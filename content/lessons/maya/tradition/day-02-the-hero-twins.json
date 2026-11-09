@@ -1,13 +1,13 @@
 {
   "id": "maya.week01.day02.the-hero-twins",
-  "version": 1,
+  "version": 2,
   "weekId": "maya.tradition.week01",
   "pantheon": "maya",
   "themeMode": "pantheon",
-  "title": "The Hero Twins",
-  "subtitle": "Source-linked maya starter lesson",
+  "title": "Vukub-Cakix and the Hero Twins",
+  "subtitle": "Pride, a fruit tree, and a blowpipe",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "maya",
     "tradition"
@@ -15,46 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.maya.2.concept",
-      "text": "Identify the main idea in The Hero Twins."
+      "text": "What does Vukub-Cakix claim about the Sun and Moon?"
     },
     {
       "id": "obj.maya.2.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How do the twins first strike Vukub-Cakix in this summary?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "pride": {
       "recordId": "pg-56550",
       "sourceId": "maya.popol-vuh",
       "work": "The Popol Vuh",
-      "author": "K\u02bciche\u02bc traditions",
-      "translator": "various translators",
-      "locator": "The Hero Twins",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 370-540",
       "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "In his own opinion Vukub-Cakix's existence rendered unnecessary that of the sun and the moon, and this egoism so disgusted the gods that they resolved upon his overthrow.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     },
-    "ref-secondary": {
-      "recordId": "pg-58464",
-      "sourceId": "maya.americanist",
-      "work": "Essays of an Americanist",
-      "author": "Daniel G. Brinton",
-      "translator": "Daniel G. Brinton",
-      "locator": "The Hero Twins",
-      "localPath": "content/corpus/maya/primary/americanist-essays-brinton-58464.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "attack": {
+      "recordId": "pg-56550",
+      "sourceId": "maya.popol-vuh",
+      "work": "The Popol Vuh",
+      "author": "Lewis Spence",
+      "translator": "not applicable; Spence authored this English summary",
+      "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 1391-1680",
+      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+      "excerpt": "The hero-gods, who lay concealed within the foliage, now added injury to theft by hurling at Vukub-Cakix a dart from a blow-pipe, which had the effect of precipitating him from the summit of the tree to the earth. He arose in great wrath, bleeding profusely from a severe wound in the jaw.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The Hero Twins",
-      "body": "The Hero Twins is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A being claims the light",
+      "body": "After the wooden people are destroyed, Spence's summary introduces Vukub-Cakix, whose brilliant ornaments make him boast that the Sun and Moon are unnecessary.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pride"
       ],
       "objectiveIds": [
         "obj.maya.2.concept"
@@ -63,37 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A fruit-tree encounter",
+      "body": "Quotation from Spence's English summary (whitespace normalized): “The hero-gods, who lay concealed within the foliage, now added injury to theft by hurling at Vukub-Cakix a dart from a blow-pipe, which had the effect of precipitating him from the summit of the tree to the earth. He arose in great wrath, bleeding profusely from a severe wound in the jaw.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "attack"
       ],
       "objectiveIds": [
-        "obj.maya.2.source"
+        "obj.maya.2.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The twins challenge the boast",
+      "body": "Hun-Ahpu and Xbalanque hide in a tree and strike Vukub-Cakix with a blowpipe dart. The shot knocks him down and wounds his jaw.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "attack"
       ],
       "objectiveIds": [
-        "obj.maya.2.source"
+        "obj.maya.2.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "An editor's summary, not the source manuscript",
+      "body": "Spence summarizes a K'iche' narrative through earlier Spanish and French editions. His language, spelling, and framing are not a new translation from the K'iche' text.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pride",
+        "attack"
       ],
       "objectiveIds": [
         "obj.maya.2.source"
@@ -102,11 +101,11 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The conflict begins with a claim",
+      "body": "The episode links Vukub-Cakix's boast about the Sun and Moon with the twins' first attack.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pride",
+        "attack"
       ],
       "objectiveIds": [
         "obj.maya.2.concept"
@@ -117,85 +116,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should The Hero Twins be introduced?",
+      "prompt": "What does Vukub-Cakix claim about the Sun and Moon?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "He created them from a maize-stone"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "He hides them in a mountain"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "His existence makes them unnecessary"
         }
       ],
-      "answerId": "a",
-      "explanation": "The Hero Twins is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "Spence says Vukub-Cakix believes his brilliance makes the Sun and Moon unnecessary.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pride"
       ],
       "objectiveIds": [
         "obj.maya.2.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "pride"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How do the twins first strike Vukub-Cakix in this summary?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "They trap him in the House of Cold"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "They hit him with a blowpipe dart while he is in a tree"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "They defeat him in the ballcourt"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The account says the twins shoot him with a blowpipe while concealed in the foliage.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "attack"
       ],
       "objectiveIds": [
         "obj.maya.2.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named section of Spence's Popol Vuh summary.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this Spence's summary or a direct translation?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "attack"
         ]
       }
     }
@@ -210,8 +198,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "K'iche' Popol Vuh episodes as summarized by Lewis Spence; independent K'iche' community, source-text, translation, and pedagogical review remains pending."
   }
 }

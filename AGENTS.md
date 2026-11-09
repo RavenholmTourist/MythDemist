@@ -71,3 +71,7 @@ python -B tools/test_browser.py
 Add a failing regression before a fix where practical. Cover incorrect answers and locked states, not only the happy path. Assert actual scores/persisted state rather than assuming answer A is correct. Keep browser errors at zero. Add targeted comments explaining invariants and security/source decisions, not noisy line-by-line narration.
 
 Before finishing: review the diff, run the commands relevant to your changes, state exactly what passed and what could not be tested, and disclose remaining editorial uncertainty. Do not claim a real provider was verified by a mock test. Never silently drop blocked work. Do not push, commit, delete user files, reset progress, or alter repository security settings without the user's explicit instruction.
+
+## Repository layout warning
+
+The active work branch is `mythos-submit` in the `MythDemist-submit` checkout. A stale local `main` branch (checked out in the separate `MythDemist` folder) still points at the pre-Mythos SoR4 history. `git push origin main` pushes that stale branch, not your work: it fails as non-fast-forward, and a force push would replace main with the old app. Always push explicitly: `git push origin mythos-submit:main`.

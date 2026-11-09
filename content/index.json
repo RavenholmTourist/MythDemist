@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T01:44:10.107959+00:00",
+  "generatedAt": "2026-11-09T01:51:40.086987+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -175,7 +175,7 @@
     "yoruba": {
       "id": "yoruba",
       "name": "Yoruba",
-      "status": "active",
+      "status": "planned",
       "visual": {
         "logo": "yoruba-mark",
         "palette": "purple"
@@ -2072,25 +2072,6 @@
       "themes": [
         "inuit",
         "tradition"
-      ]
-    },
-    {
-      "id": "yoruba.tradition.week01",
-      "title": "Yoruba Traditions",
-      "pantheon": "yoruba",
-      "path": "content/curriculum/yoruba/yoruba-week-01.json",
-      "dayCount": 5,
-      "lessonIds": [
-        "yoruba.week01.day01.orishas-and-living-religion",
-        "yoruba.week01.day02.divination-and-destiny",
-        "yoruba.week01.day03.ancestors-and-community",
-        "yoruba.week01.day04.tortoise-tales",
-        "yoruba.week01.day05.animals-and-moral-lessons"
-      ],
-      "assessment": null,
-      "themes": [
-        "tradition",
-        "yoruba"
       ]
     },
     {
@@ -6321,166 +6302,6 @@
       ]
     },
     {
-      "id": "yoruba.week01.day01.orishas-and-living-religion",
-      "version": 1,
-      "pantheon": "yoruba",
-      "title": "Orishas and living religion",
-      "weekId": "yoruba.tradition.week01",
-      "tags": [
-        "yoruba",
-        "tradition"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/yoruba/tradition/day-01-orishas-and-living-religion.json",
-      "objectiveIds": [
-        "obj.yoruba.1.concept",
-        "obj.yoruba.1.source"
-      ],
-      "recordIds": [
-        "pg-34655",
-        "pg-38038"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "tradition",
-        "yoruba"
-      ],
-      "entities": [
-        "tradition",
-        "yoruba"
-      ]
-    },
-    {
-      "id": "yoruba.week01.day02.divination-and-destiny",
-      "version": 1,
-      "pantheon": "yoruba",
-      "title": "Divination and destiny",
-      "weekId": "yoruba.tradition.week01",
-      "tags": [
-        "yoruba",
-        "tradition"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/yoruba/tradition/day-02-divination-and-destiny.json",
-      "objectiveIds": [
-        "obj.yoruba.2.concept",
-        "obj.yoruba.2.source"
-      ],
-      "recordIds": [
-        "pg-34655",
-        "pg-38038"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "tradition",
-        "yoruba"
-      ],
-      "entities": [
-        "tradition",
-        "yoruba"
-      ]
-    },
-    {
-      "id": "yoruba.week01.day03.ancestors-and-community",
-      "version": 1,
-      "pantheon": "yoruba",
-      "title": "Ancestors and community",
-      "weekId": "yoruba.tradition.week01",
-      "tags": [
-        "yoruba",
-        "tradition"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/yoruba/tradition/day-03-ancestors-and-community.json",
-      "objectiveIds": [
-        "obj.yoruba.3.concept",
-        "obj.yoruba.3.source"
-      ],
-      "recordIds": [
-        "pg-34655",
-        "pg-38038"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "tradition",
-        "yoruba"
-      ],
-      "entities": [
-        "tradition",
-        "yoruba"
-      ]
-    },
-    {
-      "id": "yoruba.week01.day04.tortoise-tales",
-      "version": 1,
-      "pantheon": "yoruba",
-      "title": "Tortoise tales",
-      "weekId": "yoruba.tradition.week01",
-      "tags": [
-        "yoruba",
-        "tradition"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/yoruba/tradition/day-04-tortoise-tales.json",
-      "objectiveIds": [
-        "obj.yoruba.4.concept",
-        "obj.yoruba.4.source"
-      ],
-      "recordIds": [
-        "pg-34655",
-        "pg-38038"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "tradition",
-        "yoruba"
-      ],
-      "entities": [
-        "tradition",
-        "yoruba"
-      ]
-    },
-    {
-      "id": "yoruba.week01.day05.animals-and-moral-lessons",
-      "version": 1,
-      "pantheon": "yoruba",
-      "title": "Animals and moral lessons",
-      "weekId": "yoruba.tradition.week01",
-      "tags": [
-        "yoruba",
-        "tradition"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/yoruba/tradition/day-05-animals-and-moral-lessons.json",
-      "objectiveIds": [
-        "obj.yoruba.5.concept",
-        "obj.yoruba.5.source"
-      ],
-      "recordIds": [
-        "pg-34655",
-        "pg-38038"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "tradition",
-        "yoruba"
-      ],
-      "entities": [
-        "tradition",
-        "yoruba"
-      ]
-    },
-    {
       "id": "baltic.week01.day01.baltic-folk-traditions",
       "version": 1,
       "pantheon": "baltic",
@@ -7484,21 +7305,6 @@
       "recordIds": [
         "pg-28932",
         "pg-24569"
-      ],
-      "nextTopicIds": [
-        "topic.shared.cunning-power",
-        "topic.shared.otherworld-boundaries"
-      ],
-      "themes": [],
-      "entities": []
-    },
-    {
-      "id": "topic.yoruba-living-tradition",
-      "pantheon": "yoruba",
-      "title": "Orishas and living religion",
-      "recordIds": [
-        "pg-38038",
-        "pg-34655"
       ],
       "nextTopicIds": [
         "topic.shared.cunning-power",
@@ -9371,28 +9177,6 @@
       "minimumCompletedArcs": 4
     },
     {
-      "id": "arc.yoruba-traditions",
-      "title": "Yoruba Traditions",
-      "description": "Eight weeks on Yoruba sources, stories, and regional variation.",
-      "weeks": [
-        "Yoruba Traditions",
-        "Gods and powers",
-        "Heroes and helpers",
-        "Otherworlds",
-        "Fate and duty",
-        "Animals and transformations",
-        "Sources and variants",
-        "Living traditions"
-      ],
-      "pantheon": "yoruba",
-      "scope": "pantheon",
-      "tier": 5,
-      "prerequisiteArcIds": [
-        "arc.origins-across-pantheons"
-      ],
-      "minimumCompletedArcs": 5
-    },
-    {
       "id": "arc.baltic-traditions",
       "title": "Baltic Traditions",
       "description": "Eight weeks on Baltic sources, stories, and regional variation.",
@@ -9432,7 +9216,7 @@
       "scope": "pantheon",
       "tier": 5,
       "prerequisiteArcIds": [
-        "arc.yoruba-traditions"
+        "arc.origins-across-pantheons"
       ],
       "minimumCompletedArcs": 5
     }
@@ -10135,30 +9919,6 @@
         "inuit.tales"
       ],
       "localPath": "content/corpus/inuit/primary/treasury-eskimo-tales-24569.txt",
-      "accessScope": "shared",
-      "available": true
-    },
-    {
-      "id": "pg-38038",
-      "pantheon": "yoruba",
-      "title": "Fetichism in West Africa",
-      "sourceType": "public-domain-corpus-text",
-      "sourceIds": [
-        "yoruba.west-african-religion"
-      ],
-      "localPath": "content/corpus/yoruba/primary/fetichism-west-africa-nassau-38038.txt",
-      "accessScope": "shared",
-      "available": true
-    },
-    {
-      "id": "pg-34655",
-      "pantheon": "yoruba",
-      "title": "Folk Stories from Southern Nigeria",
-      "sourceType": "public-domain-corpus-text",
-      "sourceIds": [
-        "yoruba.southern-nigeria-folktales"
-      ],
-      "localPath": "content/corpus/yoruba/primary/folk-stories-southern-nigeria-34655.txt",
       "accessScope": "shared",
       "available": true
     },

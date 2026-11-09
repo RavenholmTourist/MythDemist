@@ -152,17 +152,10 @@
     ],
     "minimumCompletedArcs": 4
   },
-  "arc.yoruba-traditions": {
-    "tier": 5,
-    "prerequisiteArcIds": [
-      "arc.origins-across-pantheons"
-    ],
-    "minimumCompletedArcs": 5
-  },
   "arc.akan-traditions": {
     "tier": 5,
     "prerequisiteArcIds": [
-      "arc.yoruba-traditions"
+      "arc.origins-across-pantheons"
     ],
     "minimumCompletedArcs": 5
   }

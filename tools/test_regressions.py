@@ -587,6 +587,20 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(commentary['evidenceType'], 'editorial-note')
         self.assertTrue(any(s['locator'] == 'Spence edition · preface and source history' and s['evidenceType'] == 'editorial-note' for s in segments))
 
+    def test_yoruba_pack_stays_planned_until_community_specific_sources_exist(self):
+        registry = json.loads((ROOT / 'content/pantheons.json').read_text(encoding='utf-8'))
+        self.assertEqual(registry['pantheons']['yoruba']['status'], 'planned')
+        gates = json.loads((ROOT / 'content/curriculum/programme-gates.json').read_text(encoding='utf-8'))
+        self.assertNotIn('arc.yoruba-traditions', gates)
+        self.assertEqual(gates['arc.akan-traditions']['prerequisiteArcIds'], ['arc.origins-across-pantheons'])
+        manifest = json.loads((ROOT / 'content/corpus/yoruba/manifest.json').read_text(encoding='utf-8'))
+        nassau = next(item for item in manifest['records'] if item['id'] == 'pg-38038')
+        dayrell = next(item for item in manifest['records'] if item['id'] == 'pg-34655')
+        self.assertEqual(nassau['sourceType'], 'colonial-era-ethnographic-synthesis')
+        self.assertIn('not a Yoruba community source', nassau['notes'])
+        self.assertEqual(dayrell['sourceType'], 'folklore-retelling-collection')
+        self.assertIn('do not label its tales Yoruba', dayrell['notes'])
+
 
 if __name__ == '__main__':
     unittest.main()

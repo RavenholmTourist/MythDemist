@@ -6,25 +6,25 @@
     {
       "id": "pg-38038",
       "title": "Fetichism in West Africa",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "colonial-era-ethnographic-synthesis",
       "ancientAuthors": [
-        "various West African traditions"
+        "Robert Hamill Nassau (modern author)"
       ],
-      "translator": "Robert Hamill Nassau",
+      "translator": "not applicable; authored in English by Robert Hamill Nassau",
       "sourceIds": [
         "yoruba.west-african-religion"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/38038",
       "localPath": "primary/fetichism-west-africa-nassau-38038.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Nassau was a missionary in the Gabun District of French Congo. His book is a colonial-era ethnographic synthesis with only incidental, second-hand Yoruba references; it is not a Yoruba community source."
     },
     {
       "id": "pg-34655",
       "title": "Folk Stories from Southern Nigeria",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "folklore-retelling-collection",
       "ancientAuthors": [
-        "various Nigerian traditions"
+        "Various southern Nigerian storytellers; collected and retold in English by Elphinstone Dayrell"
       ],
       "translator": "Elphinstone Dayrell",
       "sourceIds": [
@@ -33,7 +33,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/34655",
       "localPath": "primary/folk-stories-southern-nigeria-34655.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "A colonial-era English collection titled for Southern Nigeria that does not consistently identify the specific community for each story; do not label its tales Yoruba without additional provenance."
     }
   ]
 }

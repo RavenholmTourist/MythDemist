@@ -1,13 +1,13 @@
 {
   "id": "roman.week01.day02.jupiter-reception",
-  "version": 1,
+  "version": 2,
   "weekId": "rom.myth.week01",
   "pantheon": "roman",
   "themeMode": "pantheon",
-  "title": "Jupiter: Rule and Reception",
-  "subtitle": "A Roman lens on inherited gods",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Jupiter and Lycaon: Judgment and Change",
+  "subtitle": "A test of divine power in Ovid's Book I",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "jupiter",
     "reception",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.jupiter-reception.concept",
-      "text": "Identify the main idea in Jupiter: Rule and Reception."
+      "text": "What does Lycaon do to test the visitor in Ovid's account?"
     },
     {
       "id": "obj.jupiter-reception.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What happens to Lycaon?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
+    "lycaon": {
       "recordId": "roman-pg-21765",
       "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
+      "work": "Metamorphoses, Book I · Fable VII [I.216-243]",
       "author": "Ovid",
       "translator": "Henry T. Riley",
-      "locator": "Metamorphoses I\u2013VII\u2014Jupiter/Jove and divine power",
+      "locator": "Book I · Fable VII [I.216-243]; Book I · Fable VII [I.216-243], normalized characters 361-1445",
       "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "ring to the prickly bramble-bushes, and acorns which had fallen from the wide-spreading tree of Jove. {Then} it was an eternal spring; and the gentle Zephyrs, with their soothing breezes, cherished the flowers produced without any seed. Soon, too, the Earth unploughed yielded crops of grain, and the land, without being renewed, was whitened with the heavy ea",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Metamorphoses VIII\u2013XV\u2014Roman divine authority",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "t sounds, {still} harmonize, in this song he raised his voice: \u201cBegin, my parent Muse, my song from Jove, all things submit to the sway of Jove. By me, often before has the power of Jove been sung. In loftier strains have I sung of the Giants, and the victorious thunderbolts scattered over the Phlegr\u00e6an plains.[24] Now is there occasion for a softer lyre; an",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "In the first place, Lycaon derided their pious supplications. Afterwards, he said, I will make trial, by a plain proof, whether this is a God, or whether he is a mortal; nor shall the truth remain a matter of doubt. He then makes preparations to destroy me, when sunk in sleep, by an unexpected death; this mode of testing the truth pleases him. And not content with that, with the sword he cuts the throat of an hostage that had been sent from the nation of the Molossians,[45] and then softens part of the quivering limbs, in boiling water, and part he roasts with fire placed beneath. Soon as he had placed these on the table, I, with avenging flames, overthrew the house upon the household Gods,[46] worthy of their master. Alarmed, he himself takes to flight, and having reached the solitude of the country, he howls aloud, and in vain attempts to speak; his mouth gathers rage from himself, and through its {usual} desire for slaughter, it is directed against the sheep, and even still delights in blood. His garments are changed into hair, his arms into legs; he becomes a wolf",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Jupiter: Rule and Reception",
-      "body": "Jupiter gathers older divine traditions into a specifically Roman framework of sovereignty, oath, and state power.",
+      "title": "A guest is tested",
+      "body": "In Ovid's account, Jupiter tells the gods how he visited Arcadia. Lycaon mocks the worshippers and tests the visitor, preparing a murder and serving human flesh.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
         "obj.jupiter-reception.concept"
@@ -64,37 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Lycaon's punishment",
+      "body": "Source quotation (Riley's translation; whitespace normalized): “In the first place, Lycaon derided their pious supplications. Afterwards, he said, I will make trial, by a plain proof, whether this is a God, or whether he is a mortal; nor shall the truth remain a matter of doubt. He then makes preparations to destroy me, when sunk in sleep, by an unexpected death; this mode of testing the truth pleases him. And not content with that, with the sword he cuts the throat of an hostage that had been sent from the nation of the Molossians,[45] and then softens part of the quivering limbs, in boiling water, and part he roasts with fire placed beneath. Soon as he had placed these on the table, I, with avenging flames, overthrew the house upon the household Gods,[46] worthy of their master. Alarmed, he himself takes to flight, and having reached the solitude of the country, he howls aloud, and in vain attempts to speak; his mouth gathers rage from himself, and through its {usual} desire for slaughter, it is directed against the sheep, and even still delights in blood. His garments are changed into hair, his arms into legs; he becomes a wolf”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
-        "obj.jupiter-reception.source"
+        "obj.jupiter-reception.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "synthesis",
+      "title": "Judgment becomes transformation",
+      "body": "Jupiter responds by changing Lycaon into a wolf. The episode is a poetic account of divine punishment, not a record of a historical trial.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
-        "obj.jupiter-reception.source"
+        "obj.jupiter-reception.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Keep the Roman poem in view",
+      "body": "This is Ovid's literary portrayal of Jupiter in a Greek-myth setting. It cannot establish one universal Roman belief or a ritual practice.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
         "obj.jupiter-reception.source"
@@ -102,12 +88,11 @@
     },
     {
       "id": "card-05",
-      "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "kind": "flavor",
+      "title": "The wolf retains traces",
+      "body": "The translated passage says the wolf keeps marks of its former appearance as well as its ferocity.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
         "obj.jupiter-reception.concept"
@@ -118,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What makes Jupiter distinct here?",
+      "prompt": "What does Lycaon do to test the visitor in Ovid's account?",
       "choices": [
         {
           "id": "a",
-          "text": "His Roman framing of rule and oath"
+          "text": "He locks the visitor in a labyrinth"
         },
         {
           "id": "b",
-          "text": "Only storm clouds"
+          "text": "He challenges the visitor to a chariot race"
         },
         {
           "id": "c",
-          "text": "Only farming"
-        },
-        {
-          "id": "d",
-          "text": "Only poetry"
+          "text": "He prepares a murder and serves human flesh"
         }
       ],
-      "answerId": "a",
-      "explanation": "Jupiter gathers older divine traditions into a specifically Roman framework of sovereignty, oath, and state power.",
+      "answerId": "c",
+      "explanation": "Jupiter's narrated account describes Lycaon's attempted murder and the meal made from a captive.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
         "obj.jupiter-reception.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "lycaon"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What happens to Lycaon?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "He is placed among the stars"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "He becomes a wolf"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "He becomes a laurel"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The passage describes his garments becoming hair and his arms becoming legs before he becomes a wolf.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "lycaon"
       ],
       "objectiveIds": [
         "obj.jupiter-reception.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "lycaon"
         ]
       }
     }
@@ -211,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Ovid revisions. Independent review of translation, political context, claims, and pedagogy remains pending."
   }
 }

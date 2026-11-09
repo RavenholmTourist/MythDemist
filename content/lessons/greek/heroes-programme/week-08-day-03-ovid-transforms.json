@@ -1,6 +1,6 @@
 {
   "id": "grc.heroes.w08d03.ovid-transforms",
-  "version": 2,
+  "version": 3,
   "weekId": "grc.heroes.week08",
   "pantheon": "greek",
   "themeMode": "pantheon",
@@ -31,7 +31,7 @@
       "work": "The Metamorphoses of Ovid, Books VIII–XV",
       "author": "Ovid",
       "translator": "Henry T. Riley",
-      "locator": "Metamorphoses 8.169-182, Ariadne and the crown; Book 15, normalized characters 17295-17597",
+      "locator": "Metamorphoses 8.169-182, Ariadne and the crown; Book VIII · Fable II [VIII.152-182], normalized characters 1498-1800",
       "localPath": "content/corpus/greek/reception/ovid-metamorphoses-books-8-15-26073.txt",
       "excerpt": "the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from",
       "evidenceType": "quotation",

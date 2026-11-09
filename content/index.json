@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-08T23:30:51.365329+00:00",
+  "generatedAt": "2026-11-09T00:25:53.882672+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -3535,7 +3535,7 @@
     },
     {
       "id": "grc.heroes.w08d03.ovid-transforms",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
       "title": "Ovid Transforms",
       "weekId": "grc.heroes.week08",
@@ -4520,7 +4520,7 @@
     },
     {
       "id": "rom.myth.day01.ovid-change",
-      "version": 1,
+      "version": 2,
       "pantheon": "roman",
       "title": "Ovid: Change as Story",
       "weekId": "rom.myth.week01",
@@ -4530,15 +4530,14 @@
         "metamorphoses",
         "transformation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/roman/ovid-change/day-01-ovid-change.json",
       "objectiveIds": [
         "obj.ovid-change.concept",
         "obj.ovid-change.source"
       ],
       "recordIds": [
-        "roman-pg-21765",
-        "roman-pg-26073"
+        "roman-pg-21765"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4558,24 +4557,23 @@
     },
     {
       "id": "roman.week01.day02.jupiter-reception",
-      "version": 1,
+      "version": 2,
       "pantheon": "roman",
-      "title": "Jupiter: Rule and Reception",
+      "title": "Jupiter and Lycaon: Judgment and Change",
       "weekId": "rom.myth.week01",
       "tags": [
         "jupiter",
         "reception",
         "power"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/roman/myth/day-02-jupiter-reception.json",
       "objectiveIds": [
         "obj.jupiter-reception.concept",
         "obj.jupiter-reception.source"
       ],
       "recordIds": [
-        "roman-pg-21765",
-        "roman-pg-26073"
+        "roman-pg-21765"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -4593,23 +4591,22 @@
     },
     {
       "id": "roman.week01.day03.venus-desire",
-      "version": 1,
+      "version": 2,
       "pantheon": "roman",
-      "title": "Venus: Desire and Legacy",
+      "title": "Venus and Adonis: Warning and Loss",
       "weekId": "rom.myth.week01",
       "tags": [
         "venus",
         "desire",
         "legacy"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/roman/myth/day-03-venus-desire.json",
       "objectiveIds": [
         "obj.venus-desire.concept",
         "obj.venus-desire.source"
       ],
       "recordIds": [
-        "roman-pg-21765",
         "roman-pg-26073"
       ],
       "rewardArtId": null,
@@ -4628,23 +4625,22 @@
     },
     {
       "id": "roman.week01.day04.mars-war-state",
-      "version": 1,
+      "version": 2,
       "pantheon": "roman",
-      "title": "Mars: War and the State",
+      "title": "Mars, Romulus, and Roman Foundation",
       "weekId": "rom.myth.week01",
       "tags": [
         "mars",
         "war",
         "state"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/roman/myth/day-04-mars-war-state.json",
       "objectiveIds": [
         "obj.mars-war-state.concept",
         "obj.mars-war-state.source"
       ],
       "recordIds": [
-        "roman-pg-21765",
         "roman-pg-26073"
       ],
       "rewardArtId": null,
@@ -4663,23 +4659,22 @@
     },
     {
       "id": "roman.week01.day05.metamorphosis-reception",
-      "version": 1,
+      "version": 2,
       "pantheon": "roman",
-      "title": "Ovidian Reception",
+      "title": "Ovid, Caesar, and Poetic Apotheosis",
       "weekId": "rom.myth.week01",
       "tags": [
         "ovid",
         "reception",
         "metamorphoses"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/roman/myth/day-05-metamorphosis-reception.json",
       "objectiveIds": [
         "obj.metamorphosis-reception.concept",
         "obj.metamorphosis-reception.source"
       ],
       "recordIds": [
-        "roman-pg-21765",
         "roman-pg-26073"
       ],
       "rewardArtId": null,
@@ -9937,7 +9932,7 @@
       "id": "roman-pg-21765",
       "pantheon": "roman",
       "title": "The Metamorphoses of Ovid, Books I\u2013VII",
-      "sourceType": "primary-or-retelling-text",
+      "sourceType": "primary-text-translation",
       "sourceIds": [
         "rom.ovid.metamorphoses-1-7"
       ],

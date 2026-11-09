@@ -1,13 +1,13 @@
 {
   "id": "roman.week01.day04.mars-war-state",
-  "version": 1,
+  "version": 2,
   "weekId": "rom.myth.week01",
   "pantheon": "roman",
   "themeMode": "pantheon",
-  "title": "Mars: War and the State",
-  "subtitle": "Violence framed by order and identity",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Mars, Romulus, and Roman Foundation",
+  "subtitle": "Ovid's account of Romulus becoming Quirinus",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "mars",
     "war",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.mars-war-state.concept",
-      "text": "Identify the main idea in Mars: War and the State."
+      "text": "What does Mavors ask Jupiter to do for Romulus?"
     },
     {
       "id": "obj.mars-war-state.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What name is associated with Romulus after his transformation?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Metamorphoses I\u2013VII\u2014Mars and Roman identity",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "ose blood the mulberry is turned from white to black, and that of the discovery of the intrigues of Mars and Venus, on the information of the Sun. They also tell how the Sun assumed the form of Eurynome, that he might enjoy her daughter Leucotho\u00eb; how Clytie, becoming jealous of her sister, was transformed into a sun-flower; and how Salmacis and Hermaphrodit",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "request": {
       "recordId": "roman-pg-26073",
       "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
       "author": "Ovid",
       "translator": "Henry T. Riley",
-      "locator": "Metamorphoses VIII\u2013XV\u2014Roman heroic and state themes",
+      "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 7485-7785",
       "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "queen; and that Venus inspired Pasipha\u00eb with it, to be revenged for having been surprised with Mars by Apollo, her father. Plato, Plutarch, and other writers acknowledge that these stories were invented from the hatred which the Greeks bore to the king of Crete. As, however, these extravagant fables have generally some foundation in fact, we ar",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "The time is {now} come, O father, (since the Roman state is established on a strong foundation, and is no longer dependent on the guardianship of but one), for thee to give the reward which was promised to me, and to thy grandson {so} deserving of it, and, removed from earth, to admit him to heaven.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+    },
+    "change": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 8168-8904",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "Gradivus knew that this was a signal given to him for the promised removal; and, leaning on his lance, he boldly mounted {behind} his steeds, laden with the blood-stained pole {of the chariot}, and urged them on with the lash of the whip; and descending along the steep air, he stood on the summit of the hill of the woody Palatium; and he took away the son of Ilia, that moment giving out his royal ordinances to his own Quirites. His mortal body glided through the yielding air; just as the leaden plummet, discharged from the broad sling, is wont to dissolve itself[62] in mid air. A beauteous appearance succeeded, one more suitable to the lofty couches[63] of heaven, and a form, such as that of Quirinus arrayed in his regal robe.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Mars: War and the State",
-      "body": "Roman Mars is more than a fighter: war becomes bound to citizenship, protection, and collective identity.",
+      "title": "Romulus after the conflict",
+      "body": "After the Romans and Sabines agree to share rule, Ovid turns to Romulus's divine future. Mars, named Mavors in Riley's translation, asks Jupiter to honor his grandson.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "request"
       ],
       "objectiveIds": [
         "obj.mars-war-state.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "Mars makes the request",
+      "body": "Source quotation (Riley's translation; whitespace normalized): “The time is {now} come, O father, (since the Roman state is established on a strong foundation, and is no longer dependent on the guardianship of but one), for thee to give the reward which was promised to me, and to thy grandson {so} deserving of it, and, removed from earth, to admit him to heaven.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "request"
       ],
       "objectiveIds": [
-        "obj.mars-war-state.source"
+        "obj.mars-war-state.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "Romulus becomes Quirinus",
+      "body": "Jupiter assents, and Romulus is taken from earth to heaven. Ovid describes a new appearance and names the deified founder Quirinus.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
-        "obj.mars-war-state.source"
+        "obj.mars-war-state.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "A Roman foundation narrative",
+      "body": "This is Ovid's epic account of Rome's legendary founder and divine status, not independent historical evidence that the events occurred.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "request",
+        "change"
       ],
       "objectiveIds": [
         "obj.mars-war-state.source"
@@ -103,11 +102,11 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "Warrior ancestry and civic identity",
+      "body": "The poem links Mars, Romulus, and the Roman state through an act of literary apotheosis: a mortal founder becomes a deity in Ovid's narrative.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "request",
+        "change"
       ],
       "objectiveIds": [
         "obj.mars-war-state.concept"
@@ -118,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How does Roman Mars differ from simple violence?",
+      "prompt": "What does Mavors ask Jupiter to do for Romulus?",
       "choices": [
         {
           "id": "a",
-          "text": "War is tied to order and identity"
+          "text": "Admit him to heaven as the promised reward"
         },
         {
           "id": "b",
-          "text": "He is only a poet"
+          "text": "Make him king of the sea"
         },
         {
           "id": "c",
-          "text": "He avoids armies"
-        },
-        {
-          "id": "d",
-          "text": "He is a water spirit"
+          "text": "Turn him into the laurel sacred to Apollo"
         }
       ],
       "answerId": "a",
-      "explanation": "Roman Mars is more than a fighter: war becomes bound to citizenship, protection, and collective identity.",
+      "explanation": "Mavors asks Jupiter to remove his grandson from earth and admit him to heaven.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "request"
       ],
       "objectiveIds": [
         "obj.mars-war-state.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "request"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What name is associated with Romulus after his transformation?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Nisus"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Adonis"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "Quirinus"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "c",
+      "explanation": "The passage describes Romulus in a form like Quirinus in regal robes.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "change"
       ],
       "objectiveIds": [
         "obj.mars-war-state.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "change"
         ]
       }
     }
@@ -211,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Ovid revisions. Independent review of translation, political context, claims, and pedagogy remains pending."
   }
 }

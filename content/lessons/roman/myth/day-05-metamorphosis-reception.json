@@ -1,13 +1,13 @@
 {
   "id": "roman.week01.day05.metamorphosis-reception",
-  "version": 1,
+  "version": 2,
   "weekId": "rom.myth.week01",
   "pantheon": "roman",
   "themeMode": "pantheon",
-  "title": "Ovidian Reception",
-  "subtitle": "Roman myth as creative rewriting",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Ovid, Caesar, and Poetic Apotheosis",
+  "subtitle": "A poem's account of Caesar becoming a star",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "ovid",
     "reception",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.metamorphosis-reception.concept",
-      "text": "Identify the main idea in Ovidian Reception."
+      "text": "What does Venus ask the gods to prevent?"
     },
     {
       "id": "obj.metamorphosis-reception.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "How does Ovid's poem describe Caesar's soul after his death?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Metamorphoses I\u2013VII\u2014Ovid\u2019s opening project",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "The Project Gutenberg eBook of The Metamorphoses of Ovid, Books I-VII This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of the",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "plea": {
       "recordId": "roman-pg-26073",
       "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
       "author": "Ovid",
       "translator": "Henry T. Riley",
-      "locator": "Metamorphoses VIII\u2013XV\u2014Roman reworking and closure",
+      "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 1373-2278",
       "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "The Project Gutenberg eBook of The Metamorphoses of Ovid, Books VIII-XV This eBook is for the use of anyone anywhere in the United States and most other parts of the world at no cost and with almost no restrictions whatsoever. You may copy it, give it away or re-use it under the terms of t",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Behold, on how vast a scale treason is plotted against me, and with how great perfidy that life is sought, which alone remains for me from the Dardanian Iülus. Shall I alone be everlastingly harassed by justified anxieties? I, whom one while the Calydonian lance of the son of Tydeus is wounding, {and} at another time the walls of Troy, defended in vain, are grieving? I, who have seen my son driven about in protracted wanderings, tossed on the ocean, entering the abodes of the departed, and waging war with Turnus; or, if we confess the truth, with Juno rather? {But}, why am I now calling to mind the ancient misfortunes of my own offspring? Present apprehensions do not allow me to remember things of former days. Against me, you behold how the impious swords are {now} being whetted. Avert them, I entreat; hinder this crime, and do not, by the murder of the priest, extinguish the flames of Vesta.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+    },
+    "star": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 6525-7002",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "Hardly had he uttered these words, when the genial Venus, perceived by none, stood in the very midst of the Senate-house, and snatched the soul, just liberated {from the body}, away from the limbs of her own Cæsar, and, not suffering it to dissolve in air, she bore it amid the stars of heaven. And as she bore it, she perceived it assume a {train of} light and become inflamed; and she dropped it from her bosom. Above the moon it takes its flight, and, as a star, it glitters",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Ovidian Reception",
-      "body": "Ovid makes inheritance itself a theme: old stories become new through transformation, wit, and Roman literary goals.",
+      "title": "Venus sees danger",
+      "body": "In Ovid's Book XV, Venus fears the plot against Julius Caesar and pleads with the gods. The passage frames Caesar as her descendant through Aeneas.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "plea"
       ],
       "objectiveIds": [
         "obj.metamorphosis-reception.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "A plea against the conspiracy",
+      "body": "Source quotation (Riley's translation; whitespace normalized): “Behold, on how vast a scale treason is plotted against me, and with how great perfidy that life is sought, which alone remains for me from the Dardanian Iülus. Shall I alone be everlastingly harassed by justified anxieties? I, whom one while the Calydonian lance of the son of Tydeus is wounding, {and} at another time the walls of Troy, defended in vain, are grieving? I, who have seen my son driven about in protracted wanderings, tossed on the ocean, entering the abodes of the departed, and waging war with Turnus; or, if we confess the truth, with Juno rather? {But}, why am I now calling to mind the ancient misfortunes of my own offspring? Present apprehensions do not allow me to remember things of former days. Against me, you behold how the impious swords are {now} being whetted. Avert them, I entreat; hinder this crime, and do not, by the murder of the priest, extinguish the flames of Vesta.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "plea"
       ],
       "objectiveIds": [
-        "obj.metamorphosis-reception.source"
+        "obj.metamorphosis-reception.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "A soul becomes a star",
+      "body": "After a divine speaker asks that Caesar's soul become a beam of light, Venus carries it from the Senate-house and the poem describes it among the stars.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
-        "obj.metamorphosis-reception.source"
+        "obj.metamorphosis-reception.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "Read apotheosis as poetic reception",
+      "body": "Ovid's episode is literary and politically situated praise. It is not eyewitness evidence for Caesar's death or proof that a literal transformation occurred.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "plea",
+        "star"
       ],
       "objectiveIds": [
         "obj.metamorphosis-reception.source"
@@ -103,11 +102,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "An ending with an audience",
+      "body": "The passage joins Venus's ancestry, Caesar's deification, and Augustus's public position in a poem that also turns toward Ovid's own hoped-for poetic survival.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.metamorphosis-reception.concept"
@@ -118,85 +116,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Ovid\u2019s reception show?",
+      "prompt": "What does Venus ask the gods to prevent?",
       "choices": [
         {
           "id": "a",
-          "text": "Roman myth creatively rewrites inherited stories"
+          "text": "Adonis's hunt for a boar"
         },
         {
           "id": "b",
-          "text": "That Roman myth has no sources"
+          "text": "Romulus's agreement with the Sabines"
         },
         {
           "id": "c",
-          "text": "That myths never change"
-        },
-        {
-          "id": "d",
-          "text": "That only facts matter"
+          "text": "The plot against Caesar's life"
         }
       ],
-      "answerId": "a",
-      "explanation": "Ovid makes inheritance itself a theme: old stories become new through transformation, wit, and Roman literary goals.",
+      "answerId": "c",
+      "explanation": "Venus describes the conspiracy and asks the gods to avert it.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "plea"
       ],
       "objectiveIds": [
         "obj.metamorphosis-reception.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "plea"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "How does Ovid's poem describe Caesar's soul after his death?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "It is returned to the Senate-house"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Venus carries it among the stars, where it shines as a star"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "It becomes a laurel tree"
         }
       ],
-      "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "answerId": "b",
+      "explanation": "The passage says Venus carries the soul into the heavens and it glitters as a star.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.metamorphosis-reception.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "star"
         ]
       }
     }
@@ -211,8 +198,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Ovid revisions. Independent review of translation, political context, claims, and pedagogy remains pending."
   }
 }

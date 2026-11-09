@@ -1,13 +1,13 @@
 {
   "id": "roman.week01.day03.venus-desire",
-  "version": 1,
+  "version": 2,
   "weekId": "rom.myth.week01",
   "pantheon": "roman",
   "themeMode": "pantheon",
-  "title": "Venus: Desire and Legacy",
-  "subtitle": "Love as political and mythic force",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
+  "title": "Venus and Adonis: Warning and Loss",
+  "subtitle": "A warning, a hunt, and a flower",
+  "estimatedMinutes": 3,
+  "difficulty": 2,
   "tags": [
     "venus",
     "desire",
@@ -16,46 +16,47 @@
   "learningObjectives": [
     {
       "id": "obj.venus-desire.concept",
-      "text": "Identify the main idea in Venus: Desire and Legacy."
+      "text": "What danger does Venus tell Adonis to avoid?"
     },
     {
       "id": "obj.venus-desire.source",
-      "text": "Keep the claim attached to its cited source and source type."
+      "text": "What happens to Adonis's blood in the later episode?"
     }
   ],
   "sourceReferences": {
-    "ref-source": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "The Metamorphoses of Ovid, Books I\u2013VII",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Metamorphoses I\u2013VII\u2014Venus and desire",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "the mulberry is turned from white to black, and that of the discovery of the intrigues of Mars and Venus, on the information of the Sun. They also tell how the Sun assumed the form of Eurynome, that he might enjoy her daughter Leucotho\u00eb; how Clytie, becoming jealous of her sister, was transformed into a sun-flower; and how Salmacis and Hermaphroditus had be",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
-    },
-    "ref-secondary": {
+    "warning": {
       "recordId": "roman-pg-26073",
       "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "The Metamorphoses of Ovid, Books VIII\u2013XV",
+      "work": "Metamorphoses, Book X · Fable IX [X.519-707]",
       "author": "Ovid",
       "translator": "Henry T. Riley",
-      "locator": "Metamorphoses VIII\u2013XV\u2014love, lineage, and legacy",
+      "locator": "Book X · Fable IX [X.519-707]; Book X · Fable IX [X.519-707], normalized characters 1723-2214",
       "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "er incestuous intercourse with her father, was changed into the myrrh tree; and how Adonis (to whom Venus relates the transformation of Hippomenes and Atalanta into lions) was transformed into an anemone. BOOK XI. Orpheus is torn to pieces by the Thracian women; on which, a serpent, which attacks his face, is changed into stone. The women are transformed",
-      "note": "Passage-level locator added for the starter lesson; compare with the full local source before expanding the claim."
+      "excerpt": "Forbear, youth, to be rash at my hazard, and attack not the wild beasts to which nature has granted arms, lest thy {thirst for} glory should cost me dear. Neither thy age, nor thy beauty, nor {other} things which have made an impression on Venus, make any impression on lions and bristly boars, and the eyes and the tempers of wild beasts. The fierce boars carry lightning[54] in their curving tusks; there is rage and fury unlimited in the tawny lions; and the {whole} race is odious to me.",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+    },
+    "flower": {
+      "recordId": "roman-pg-26073",
+      "sourceId": "rom.ovid.metamorphoses-8-15",
+      "work": "Metamorphoses, Book X · Fable X [X.708-739]",
+      "author": "Ovid",
+      "translator": "Henry T. Riley",
+      "locator": "Book X · Fable X [X.708-739]; Book X · Fable X [X.708-739], normalized characters 1254-1745",
+      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+      "excerpt": "But thy blood shall be changed into a flower. Was it formerly allowed thee, Persephone, to change the limbs[65] of a female into fragrant mint; and shall the hero, the son of Cinyras, {if} changed, be a cause of displeasure against me?’ Having thus said, she sprinkles his blood with odoriferous nectar, which, touched by it, effervesces, just as the transparent bubbles are wont to rise in rainy weather. Nor was there a pause longer than a full hour, when a flower sprang up from the blood",
+      "evidenceType": "quotation",
+      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Venus: Desire and Legacy",
-      "body": "Roman Venus joins desire to ancestry, destiny, and public legacy rather than treating love as private decoration.",
+      "title": "Venus warns Adonis",
+      "body": "Venus warns Adonis against attacking dangerous wild animals, especially boars and lions. Her warning is part of Ovid's narrative of their relationship.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "warning"
       ],
       "objectiveIds": [
         "obj.venus-desire.concept"
@@ -64,37 +65,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This starter lesson uses the local scaffold source while deeper primary passages and scholarly comparisons are added. Keep the source\u2019s genre and date in view.",
+      "title": "The warning names the danger",
+      "body": "Source quotation (Riley's translation; whitespace normalized): “Forbear, youth, to be rash at my hazard, and attack not the wild beasts to which nature has granted arms, lest thy {thirst for} glory should cost me dear. Neither thy age, nor thy beauty, nor {other} things which have made an impression on Venus, make any impression on lions and bristly boars, and the eyes and the tempers of wild beasts. The fierce boars carry lightning[54] in their curving tusks; there is rage and fury unlimited in the tawny lions; and the {whole} race is odious to me.”",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "warning"
       ],
       "objectiveIds": [
-        "obj.venus-desire.source"
+        "obj.venus-desire.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The additional corpus record gives a second lens on the same tradition. Compare it with the first source instead of treating either as a complete canon.",
+      "kind": "context",
+      "title": "The warning is not obeyed",
+      "body": "In the next episode, Adonis is killed by a boar while hunting. Venus says his blood will become a flower and marks his death with mourning.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "flower"
       ],
       "objectiveIds": [
-        "obj.venus-desire.source"
+        "obj.venus-desire.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this evidence",
-      "body": "Ask what kind of source this is, who translated or organized it, what it can actually prove, and whether another text preserves a different version.",
+      "title": "A literary version, not a universal rite",
+      "body": "The lesson follows Ovid's Book X sequence in Riley's translation. The poem describes Venus's action; it does not prove that every community told the story or marked the death in the same way.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "warning",
+        "flower"
       ],
       "objectiveIds": [
         "obj.venus-desire.source"
@@ -103,11 +102,11 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "Notice what this tradition emphasizes differently: the same broad theme can carry a very different moral and cultural pressure.",
+      "title": "Advice and consequence",
+      "body": "The two passages connect Venus's warning with the later transformation of Adonis's blood into a flower.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "warning",
+        "flower"
       ],
       "objectiveIds": [
         "obj.venus-desire.concept"
@@ -118,85 +117,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What wider force does Venus connect to?",
+      "prompt": "What danger does Venus tell Adonis to avoid?",
       "choices": [
         {
           "id": "a",
-          "text": "Ancestry, destiny, and public legacy"
+          "text": "Looking into a reflective pool"
         },
         {
           "id": "b",
-          "text": "Only cooking"
+          "text": "Attacking wild animals armed by nature"
         },
         {
           "id": "c",
-          "text": "Only ship repair"
-        },
-        {
-          "id": "d",
-          "text": "Only grammar"
+          "text": "Sailing during a storm"
         }
       ],
-      "answerId": "a",
-      "explanation": "Roman Venus joins desire to ancestry, destiny, and public legacy rather than treating love as private decoration.",
+      "answerId": "b",
+      "explanation": "Venus specifically warns him not to attack wild animals such as boars and lions.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "warning"
       ],
       "objectiveIds": [
         "obj.venus-desire.concept"
       ],
       "deepDive": {
-        "prompt": "Explore the cited source.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "What does this source type add?",
-          "Which versions might differ?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "warning"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should you keep attached to this claim?",
+      "prompt": "What happens to Adonis's blood in the later episode?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source and genre"
+          "text": "Venus changes it into a flower"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "It becomes a laurel tree"
         },
         {
           "id": "c",
-          "text": "A modern adaptation"
-        },
-        {
-          "id": "d",
-          "text": "No context"
+          "text": "It turns into a constellation"
         }
       ],
       "answerId": "a",
-      "explanation": "The lesson is scaffolded around source awareness, not a single universal myth canon.",
+      "explanation": "Venus says his blood will become a flower, and the narrator describes one springing up.",
       "sourceRefIds": [
-        "ref-source",
-        "ref-secondary"
+        "flower"
       ],
       "objectiveIds": [
         "obj.venus-desire.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the cited book and fable in Ovid's translated poem.",
         "suggestedQuestions": [
-          "Is this primary, retelling, folklore, or reception?"
+          "Which words support this answer?",
+          "Is this narrative evidence or a later editorial explanation?"
         ],
         "sourceRefIds": [
-          "ref-source",
-          "ref-secondary"
+          "flower"
         ]
       }
     }
@@ -211,8 +199,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Generated starter lesson; deepen with additional source records before final review. Deepened to the five-card lesson standard."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Ovid revisions. Independent review of translation, political context, claims, and pedagogy remains pending."
   }
 }

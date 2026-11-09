@@ -5,7 +5,7 @@
     {
       "id": "roman-pg-21765",
       "title": "The Metamorphoses of Ovid, Books I\u2013VII",
-      "sourceType": "primary-or-retelling-text",
+      "sourceType": "primary-text-translation",
       "ancientAuthors": [
         "Ovid"
       ],
@@ -16,7 +16,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/21765",
       "localPath": "primary/ovid-metamorphoses-books-1-7-21765.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Starter scaffold source; add higher-quality primary/scholarly editions before writing final lessons."
+      "notes": "Henry T. Riley translation of Ovid's primary poem. The local extraction keeps translated verse separate from Riley's synopses, footnotes, and explanations."
     },
     {
       "id": "roman-pg-26073",

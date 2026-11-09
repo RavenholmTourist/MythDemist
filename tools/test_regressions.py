@@ -316,6 +316,54 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('crystal bridge', titles['The Water King: Bargains and Impossible Tasks'])
         self.assertIn('chapbook', titles['The Firebird: A Chapbook Quest'])
 
+    def test_ovid_plain_text_parser_separates_poem_from_editorial_apparatus(self):
+        books_1_7 = ROOT / 'content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt'
+        books_8_15 = ROOT / 'content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt'
+        roman_manifest = json.loads((ROOT / 'content/corpus/roman/manifest.json').read_text(encoding='utf-8'))
+        first_volume = next(item for item in roman_manifest['records'] if item['id'] == 'roman-pg-21765')
+        self.assertEqual(first_volume['sourceType'], 'primary-text-translation')
+        segments = source_segments(books_1_7)
+        proem = next(s for s in segments if s['locator'] == 'Book I · Proem [I.1-4]')
+        self.assertEqual(proem['evidenceType'], 'source-text')
+        self.assertIn('My design leads me to speak of forms changed into new bodies.', proem['text'])
+        lycaon = next(s for s in segments if s['locator'].startswith('Book I · Fable VII'))
+        self.assertIn('he becomes a wolf', lycaon['text'])
+        self.assertFalse(any('EXPLANATION.' in s['text'] for s in segments if s['evidenceType'] == 'source-text'))
+        self.assertTrue(any('God reduces Chaos into order' in s['text'] and s['evidenceType'] == 'editorial-note' for s in segments))
+        fake_summary = {
+            'evidenceType': 'quotation',
+            'excerpt': 'God reduces Chaos into order.',
+            'localPath': 'content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt',
+            'locator': 'Book I synopsis',
+        }
+        self.assertTrue(check_reference(fake_summary, ROOT))
+        roman_segments = source_segments(books_8_15)
+        mars = next(s for s in roman_segments if s['locator'].startswith('Book XIV · Fable XII') and s['evidenceType'] == 'source-text')
+        self.assertIn('Mavors', mars['text'])
+        caesar = next(s for s in roman_segments if s['locator'].startswith('Book XV · Fable VIII') and s['evidenceType'] == 'source-text')
+        self.assertIn('snatched the soul', caesar['text'])
+
+    def test_roman_lessons_cite_ovid_verse_not_rileys_synopses(self):
+        files = sorted((ROOT / 'content/lessons/roman').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('Book ', ref['locator'], lesson['id'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Daphne', titles['Ovid: Change as Story'])
+        self.assertIn('wolf', titles['Jupiter and Lycaon: Judgment and Change'])
+        self.assertIn('Adonis', titles['Venus and Adonis: Warning and Loss'])
+        self.assertIn('Quirinus', titles['Mars, Romulus, and Roman Foundation'])
+        self.assertIn('star', titles['Ovid, Caesar, and Poetic Apotheosis'])
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,13 +1,13 @@
 {
   "id": "akan.week01.day03.diaspora-and-transformation",
-  "version": 1,
+  "version": 3,
   "weekId": "akan.tradition.week01",
   "pantheon": "akan",
   "themeMode": "pantheon",
-  "title": "Diaspora and transformation",
-  "subtitle": "Source-linked akan starter lesson",
+  "title": "Anansi and Nothing: A Gold Coast Story",
+  "subtitle": "Clothing, status, and a trickster's reversal",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "akan",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.akan.3.concept",
-      "text": "Identify the main idea in Diaspora and transformation."
+      "text": "What does Anansi persuade Nothing to exchange?"
     },
     {
       "id": "obj.akan.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Anansi discover at the crossroads?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "nothing": {
       "recordId": "pg-66923",
       "sourceId": "akan.west-african-folktales",
       "work": "West African Folk-Tales",
-      "author": "Akan and related traditions",
-      "translator": "William H. Barker and Cecilia Sinclair",
-      "locator": "Diaspora and transformation",
+      "author": "W. H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
+      "locator": "Story III · ANANSI AND NOTHING; Story III · ANANSI AND NOTHING, normalized characters 24-1549",
       "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-72735",
-      "sourceId": "akan.jamaica-anansi",
-      "work": "Jamaica Anansi Stories",
-      "author": "Jamaican storytellers",
-      "translator": "Martha Warren Beckwith",
-      "locator": "Diaspora and transformation",
-      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "Near Anansi’s miserable little hut there was a fine palace where lived a very rich man called Nothing. Nothing and Anansi proposed, one day, to go to the neighbouring town to get some wives. Accordingly, they set off together. Nothing, being a rich man, wore a very fine velvet cloth, while Anansi had a ragged cotton one. While they were on their way Anansi persuaded Nothing to change clothes for a little while, promising to give back the fine velvet before they reached the town. He delayed doing this, however, first on one pretext, then on another—till they arrived at their destination. Anansi, being dressed in such a fine garment, found no difficulty in getting as many wives as he wished. Poor Nothing, with his ragged and miserable cloth, was treated with great contempt. At first he could not get even one wife. At last, however, a woman took pity on him and gave him her daughter. The poor girl was laughed at very heartily by Anansi’s wives for choosing such a beggar as Nothing appeared to be. She wisely took no notice of their scorn. The party set off for home. When they reached the cross-roads leading to their respective houses the women were astonished. The road leading to Anansi’s house was only half cleared. The one which led to Nothing’s palace was, of course, wide and well made. Not only so, but his servants had strewn it with beautiful skins and carpets, in preparation for his return. Servants were there, awaiting him, with fine clothes for himself and his wife. No one was waiting for Anansi.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Diaspora and transformation",
-      "body": "Diaspora and transformation is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Anansi borrows a fine cloth",
+      "body": "In Barker and Sinclair's story, Anansi and Nothing travel to seek wives. Anansi persuades Nothing to exchange a fine velvet cloth for his ragged cotton one.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
         "obj.akan.3.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "First impressions mislead",
+      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “Near Anansi’s miserable little hut there was a fine palace where lived a very rich man called Nothing. Nothing and Anansi proposed, one day, to go to the neighbouring town to get some wives. Accordingly, they set off together. Nothing, being a rich man, wore a very fine velvet cloth, while Anansi had a ragged cotton one. While they were on their way Anansi persuaded Nothing to change clothes for a little while, promising to give back the fine velvet before they reached the town. He delayed doing this, however, first on one pretext, then on another—till they arrived at their destination. Anansi, being dressed in such a fine garment, found no difficulty in getting as many wives as he wished. Poor Nothing, with his ragged and miserable cloth, was treated with great contempt. At first he could not get even one wife. At last, however, a woman took pity on him and gave him her daughter. The poor girl was laughed at very heartily by Anansi’s wives for choosing such a beggar as Nothing appeared to be. She wisely took no notice of their scorn. The party set off for home. When they reached the cross-roads leading to their respective houses the women were astonished. The road leading to Anansi’s house was only half cleared. The one which led to Nothing’s palace was, of course, wide and well made. Not only so, but his servants had strewn it with beautiful skins and carpets, in preparation for his return. Servants were there, awaiting him, with fine clothes for himself and his wife. No one was waiting for Anansi.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
-        "obj.akan.3.source"
+        "obj.akan.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The road home reveals the difference",
+      "body": "Anansi's fine clothes help him attract wives, but Nothing's home and servants reveal the status Anansi had misread.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
-        "obj.akan.3.source"
+        "obj.akan.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Do not make a Jamaican tale stand in for this one",
+      "body": "This passage is from the Gold Coast collection by Barker and Sinclair. The separate Jamaican Anansi collection is a diaspora source with its own field-recorded tellers and wording.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
         "obj.akan.3.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A trick can reverse on its maker",
+      "body": "The episode contrasts the appearance of wealth with the actual household situation; Anansi's trick does not secure the better outcome.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
         "obj.akan.3.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Diaspora and transformation be introduced?",
+      "prompt": "What does Anansi persuade Nothing to exchange?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Their fishing nets"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Their clothes"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Their houses"
         }
       ],
-      "answerId": "a",
-      "explanation": "Diaspora and transformation is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "Anansi asks Nothing to exchange his velvet cloth for Anansi's ragged cotton one.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
         "obj.akan.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "nothing"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Anansi discover at the crossroads?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Nothing's road is prepared and his servants await him"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Nothing has moved into Anansi's hut"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The village has named Anansi its king"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The tale contrasts the prepared road and servants at Nothing's home with Anansi's unprepared house.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "nothing"
       ],
       "objectiveIds": [
         "obj.akan.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "nothing"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific stories from Barker and Sinclair's Gold Coast collection; community-specific and living-tradition review remains pending."
   }
 }

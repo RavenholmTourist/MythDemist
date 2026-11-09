@@ -6,34 +6,34 @@
     {
       "id": "pg-66923",
       "title": "West African Folk-Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "regional-folklore-collection",
       "ancientAuthors": [
-        "Akan and related traditions"
+        "W. H. Barker and Cecilia Sinclair (collectors and editors)"
       ],
-      "translator": "William H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
       "sourceIds": [
         "akan.west-african-folktales"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/66923",
       "localPath": "primary/west-african-folk-tales-66923.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "A 1917 collection of Gold Coast stories gathered through teacher trainees in Accra. The introduction discusses Fanti, Ashanti, and Twi-speaking/Akan peoples; individual story provenance varies, and not every tale is identified with a specific community."
     },
     {
       "id": "pg-72735",
       "title": "Jamaica Anansi Stories",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "diaspora-folklore-field-collection",
       "ancientAuthors": [
-        "Jamaican storytellers"
+        "Martha Warren Beckwith and Jamaican storytellers"
       ],
-      "translator": "Martha Warren Beckwith",
+      "translator": "Martha Warren Beckwith; music recorded by Helen H. Roberts",
       "sourceIds": [
         "akan.jamaica-anansi"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/72735",
       "localPath": "primary/jamaica-anansi-stories-72735.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "A 1924 collection based on stories recorded from Jamaican storytellers during field visits in 1919 and 1921. It is a Jamaican diaspora source, not direct evidence for Akan practice."
     }
   ]
 }

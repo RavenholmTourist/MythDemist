@@ -601,6 +601,43 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(dayrell['sourceType'], 'folklore-retelling-collection')
         self.assertIn('do not label its tales Yoruba', dayrell['notes'])
 
+    def test_akan_gold_coast_stories_keep_fanti_and_collection_boundaries(self):
+        files = sorted((ROOT / 'content/lessons/akan').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 3, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-66923'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertTrue(ref['locator'].startswith('Story '), ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Fanti-land', titles['Anansi and the Pot of Wisdom'])
+        self.assertIn('Nyankupon', titles['How Anansi Earned the Name Spider Tales'])
+        self.assertIn('Nothing', titles['Anansi and Nothing: A Gold Coast Story'])
+        self.assertIn('Thunder', titles['Thunder and Anansi: The Gifted Stick'])
+        self.assertIn('drowned', titles['Anansi the Blind Fisherman'].lower())
+        manifest = json.loads((ROOT / 'content/corpus/akan/manifest.json').read_text(encoding='utf-8'))
+        gold_coast = next(item for item in manifest['records'] if item['id'] == 'pg-66923')
+        jamaica = next(item for item in manifest['records'] if item['id'] == 'pg-72735')
+        self.assertEqual(gold_coast['sourceType'], 'regional-folklore-collection')
+        self.assertIn('individual story provenance varies', gold_coast['notes'])
+        self.assertIn('not direct evidence for Akan practice', jamaica['notes'])
+
+    def test_gold_coast_folktale_parser_excludes_front_matter(self):
+        segments = source_segments(ROOT / 'content/corpus/akan/primary/west-african-folk-tales-66923.txt')
+        wisdom = next(s for s in segments if s['locator'] == 'Story II · HOW WISDOM BECAME THE PROPERTY OF THE HUMAN RACE')
+        self.assertIn('in Fanti-land', wisdom['text'])
+        self.assertEqual(wisdom['evidenceType'], 'source-text')
+        front = next(s for s in segments if s['locator'] == 'Barker and Sinclair edition · introduction and contents')
+        self.assertEqual(front['evidenceType'], 'editorial-note')
+        self.assertIn('Gold Coast peoples', front['text'])
+
 
 if __name__ == '__main__':
     unittest.main()

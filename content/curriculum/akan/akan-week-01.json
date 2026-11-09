@@ -1,7 +1,7 @@
 {
   "id": "akan.tradition.week01",
-  "title": "Akan Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "Gold Coast Folktales and Anansi",
+  "subtitle": "A 1917 collection with one story specifically located in Fanti-land",
   "pantheon": "akan",
   "coverageType": "folklore",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Anansi the spider",
+      "title": "How Anansi Earned the Name Spider Tales",
       "lessonId": "akan.week01.day01.anansi-the-spider",
       "lessonPath": "content/lessons/akan/tradition/day-01-anansi-the-spider.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Wisdom becomes human",
+      "title": "Anansi and the Pot of Wisdom",
       "lessonId": "akan.week01.day02.wisdom-becomes-human",
       "lessonPath": "content/lessons/akan/tradition/day-02-wisdom-becomes-human.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Diaspora and transformation",
+      "title": "Anansi and Nothing: A Gold Coast Story",
       "lessonId": "akan.week01.day03.diaspora-and-transformation",
       "lessonPath": "content/lessons/akan/tradition/day-03-diaspora-and-transformation.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Tiger and dangerous rivals",
+      "title": "Thunder and Anansi: The Gifted Stick",
       "lessonId": "akan.week01.day04.tiger-and-dangerous-rivals",
       "lessonPath": "content/lessons/akan/tradition/day-04-tiger-and-dangerous-rivals.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Stories as social power",
+      "title": "Anansi the Blind Fisherman",
       "lessonId": "akan.week01.day05.stories-as-social-power",
       "lessonPath": "content/lessons/akan/tradition/day-05-stories-as-social-power.json",
       "status": "available"

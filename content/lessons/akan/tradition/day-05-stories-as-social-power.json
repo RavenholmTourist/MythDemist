@@ -1,13 +1,13 @@
 {
   "id": "akan.week01.day05.stories-as-social-power",
-  "version": 1,
+  "version": 3,
   "weekId": "akan.tradition.week01",
   "pantheon": "akan",
   "themeMode": "pantheon",
-  "title": "Stories as social power",
-  "subtitle": "Source-linked akan starter lesson",
+  "title": "Anansi the Blind Fisherman",
+  "subtitle": "Kind helpers meet an ungrateful response",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "akan",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.akan.5.concept",
-      "text": "Identify the main idea in Stories as social power."
+      "text": "How do the two men help Anansi before the final trip?"
     },
     {
       "id": "obj.akan.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Why does Anansi jump into deep water?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "fisherman": {
       "recordId": "pg-66923",
       "sourceId": "akan.west-african-folktales",
       "work": "West African Folk-Tales",
-      "author": "Akan and related traditions",
-      "translator": "William H. Barker and Cecilia Sinclair",
-      "locator": "Stories as social power",
+      "author": "W. H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
+      "locator": "Story XI · ANANSI THE BLIND FISHERMAN; Story XI · ANANSI THE BLIND FISHERMAN, normalized characters 650-2204",
       "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-72735",
-      "sourceId": "akan.jamaica-anansi",
-      "work": "Jamaica Anansi Stories",
-      "author": "Jamaican storytellers",
-      "translator": "Martha Warren Beckwith",
-      "locator": "Stories as social power",
-      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "When they told him where to spread his net, he would reply sharply, “I know. I was just about to put it there.” When they were directing him to get out of the boat, he would say, “Oh, I know perfectly well we are at the beach. I was just getting ready to step out.” This went on for a long time, Anansi getting ruder and ruder to his helpers every day, until they could bear his treatment no longer. They determined when opportunity offered to punish him for his ingratitude. The next day, as usual, he came with them to the beach. When they had got the canoe ready, they bade him step in. “Do you think I am a fool?” said he. “I know the canoe is there.” They made no answer, but got in and patiently pulled toward the fishing-place. When they told him where to spread his net, he replied with so much abuse that they determined, there and then, to punish him. By this time the canoe was full of fish, so they turned to row home. When they had gone a little way they stopped and said to him, “Here we are at the beach.” He promptly told them that they were very foolish—to tell him a thing he knew so well. He added many rude and insulting remarks, which made them thoroughly angry. He then jumped proudly out, expecting to land on the beach. To his great astonishment he found himself sinking in deep water. The two men rowed quickly away, leaving him to struggle. Like all the men of that country he was a good swimmer, but, of course, being blind, he was unable to see where the land lay. So he swam until he was completely tired out—and was drowned.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Stories as social power",
-      "body": "Stories as social power is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Two helpers assist an old fisherman",
+      "body": "In Barker and Sinclair's tale, two men guide the blind Anansi into a canoe, help him fish, and lead him back to shore.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
         "obj.akan.5.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The final trip",
+      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “When they told him where to spread his net, he would reply sharply, “I know. I was just about to put it there.” When they were directing him to get out of the boat, he would say, “Oh, I know perfectly well we are at the beach. I was just getting ready to step out.” This went on for a long time, Anansi getting ruder and ruder to his helpers every day, until they could bear his treatment no longer. They determined when opportunity offered to punish him for his ingratitude. The next day, as usual, he came with them to the beach. When they had got the canoe ready, they bade him step in. “Do you think I am a fool?” said he. “I know the canoe is there.” They made no answer, but got in and patiently pulled toward the fishing-place. When they told him where to spread his net, he replied with so much abuse that they determined, there and then, to punish him. By this time the canoe was full of fish, so they turned to row home. When they had gone a little way they stopped and said to him, “Here we are at the beach.” He promptly told them that they were very foolish—to tell him a thing he knew so well. He added many rude and insulting remarks, which made them thoroughly angry. He then jumped proudly out, expecting to land on the beach. To his great astonishment he found himself sinking in deep water. The two men rowed quickly away, leaving him to struggle. Like all the men of that country he was a good swimmer, but, of course, being blind, he was unable to see where the land lay. So he swam until he was completely tired out—and was drowned.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
-        "obj.akan.5.source"
+        "obj.akan.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Anansi refuses their help",
+      "body": "The men say the canoe has reached the beach. Anansi insists he knows where he is, jumps out, and finds himself in deep water.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
-        "obj.akan.5.source"
+        "obj.akan.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A specific Gold Coast collection",
+      "body": "This tale is one of Barker and Sinclair's 1917 Gold Coast folk-story collection. The book's introduction explains that versions were collected and retold; it does not identify this story's exact community.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
         "obj.akan.5.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The story punishes ingratitude",
+      "body": "The tale links Anansi's insults to his helpers' decision to leave him; it is a literary moral, not a general statement about Akan or Gold Coast people.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
-        "obj.akan.5.concept"
+        "obj.akan.5.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Stories as social power be introduced?",
+      "prompt": "How do the two men help Anansi before the final trip?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "They hide a pot in a tree"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "They teach him to command a magic stick"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "They guide him into the canoe and help him fish"
         }
       ],
-      "answerId": "a",
-      "explanation": "Stories as social power is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The story says they lead him to the beach and help him with the net and canoe.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
         "obj.akan.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "fisherman"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Why does Anansi jump into deep water?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "He is ordered by Thunder"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "He insists he knows they have reached shore"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He tries to catch the Sampo"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The men tell him they are at the beach; Anansi says he knows and jumps out.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "fisherman"
       ],
       "objectiveIds": [
         "obj.akan.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "fisherman"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific stories from Barker and Sinclair's Gold Coast collection; community-specific and living-tradition review remains pending."
   }
 }

@@ -1,13 +1,13 @@
 {
   "id": "akan.week01.day02.wisdom-becomes-human",
-  "version": 1,
+  "version": 3,
   "weekId": "akan.tradition.week01",
   "pantheon": "akan",
   "themeMode": "pantheon",
-  "title": "Wisdom becomes human",
-  "subtitle": "Source-linked akan starter lesson",
+  "title": "Anansi and the Pot of Wisdom",
+  "subtitle": "A tale explicitly set in Fanti-land",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "akan",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.akan.2.concept",
-      "text": "Identify the main idea in Wisdom becomes human."
+      "text": "Where does the story say Father Anansi lived?"
     },
     {
       "id": "obj.akan.2.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What advice does Kweku Tsin give his father?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "pot": {
       "recordId": "pg-66923",
       "sourceId": "akan.west-african-folktales",
       "work": "West African Folk-Tales",
-      "author": "Akan and related traditions",
-      "translator": "William H. Barker and Cecilia Sinclair",
-      "locator": "Wisdom becomes human",
+      "author": "W. H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
+      "locator": "Story II · HOW WISDOM BECAME THE PROPERTY OF THE HUMAN RACE; Story II · HOW WISDOM BECAME THE PROPERTY OF THE HUMAN RACE, normalized characters 53-2042",
       "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-72735",
-      "sourceId": "akan.jamaica-anansi",
-      "work": "Jamaica Anansi Stories",
-      "author": "Jamaican storytellers",
-      "translator": "Martha Warren Beckwith",
-      "locator": "Wisdom becomes human",
-      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "There once lived, in Fanti-land, a man named Father Anansi. He possessed all the wisdom in the world. People came to him daily for advice and help. One day the men of the country were unfortunate enough to offend Father Anansi, who immediately resolved to punish them. After much thought he decided that the severest penalty he could inflict would be to hide all his wisdom from them. He set to work at once to gather again all that he had already given. When he had succeeded, as he thought, in collecting it, he placed all in one great pot. This he carefully sealed, and determined to put it in a spot where no human being could reach it. Now, Father Anansi had a son, whose name was Kweku Tsin. This boy began to suspect his father of some secret design, so he made up his mind to watch carefully. Next day he saw his father quietly slip out of the house, with his precious pot hung round his neck. Kweku Tsin followed. Father Anansi went through the forest till he had left the village far behind. Then, selecting the highest and most inaccessible-looking tree, he began to climb. The heavy pot, hanging in front of him, made his ascent almost impossible. Again and again he tried to reach the top of the tree, where he intended to hang the pot. There, he thought, Wisdom would indeed be beyond the reach of every one but himself. He was unable, however, to carry out his desire. At each trial the pot swung in his way. For some time Kweku Tsin watched his father’s vain attempts. At last, unable to contain himself any longer, he cried out: “Father, why do you not hang the pot on your back? Then you could easily climb the tree.” Father Anansi turned and said: “I thought I had all the world’s wisdom in this pot. But I find you possess more than I do. All my wisdom was insufficient to show me what to do, yet you have been able to tell me.” In his anger he threw the pot down. It struck on a great rock and broke. The wisdom contained in it escaped and spread throughout the world.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Wisdom becomes human",
-      "body": "Wisdom becomes human is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Wisdom is gathered into a pot",
+      "body": "The story begins in Fanti-land. Father Anansi gathers wisdom into a pot and tries to hide it high in a tree.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
         "obj.akan.2.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A child's practical advice",
+      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “There once lived, in Fanti-land, a man named Father Anansi. He possessed all the wisdom in the world. People came to him daily for advice and help. One day the men of the country were unfortunate enough to offend Father Anansi, who immediately resolved to punish them. After much thought he decided that the severest penalty he could inflict would be to hide all his wisdom from them. He set to work at once to gather again all that he had already given. When he had succeeded, as he thought, in collecting it, he placed all in one great pot. This he carefully sealed, and determined to put it in a spot where no human being could reach it. Now, Father Anansi had a son, whose name was Kweku Tsin. This boy began to suspect his father of some secret design, so he made up his mind to watch carefully. Next day he saw his father quietly slip out of the house, with his precious pot hung round his neck. Kweku Tsin followed. Father Anansi went through the forest till he had left the village far behind. Then, selecting the highest and most inaccessible-looking tree, he began to climb. The heavy pot, hanging in front of him, made his ascent almost impossible. Again and again he tried to reach the top of the tree, where he intended to hang the pot. There, he thought, Wisdom would indeed be beyond the reach of every one but himself. He was unable, however, to carry out his desire. At each trial the pot swung in his way. For some time Kweku Tsin watched his father’s vain attempts. At last, unable to contain himself any longer, he cried out: “Father, why do you not hang the pot on your back? Then you could easily climb the tree.” Father Anansi turned and said: “I thought I had all the world’s wisdom in this pot. But I find you possess more than I do. All my wisdom was insufficient to show me what to do, yet you have been able to tell me.” In his anger he threw the pot down. It struck on a great rock and broke. The wisdom contained in it escaped and spread throughout the world.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
-        "obj.akan.2.source"
+        "obj.akan.2.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The pot falls",
+      "body": "Anansi's son Kweku Tsin points out that the pot would be easier to carry on his back. Anansi admits that the boy knows something he did not.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
-        "obj.akan.2.source"
+        "obj.akan.2.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Keep the story's place label",
+      "body": "The printed tale explicitly names Fanti-land. Barker and Sinclair's collection discusses Gold Coast peoples broadly, but not every tale has the same specific community attribution.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
         "obj.akan.2.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Knowledge cannot be monopolized",
+      "body": "In the story's ending, the pot breaks and its contents spread through the world, explaining why wisdom is no longer held by Anansi alone.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
         "obj.akan.2.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Wisdom becomes human be introduced?",
+      "prompt": "Where does the story say Father Anansi lived?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Jamaica"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Xibalba"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Fanti-land"
         }
       ],
-      "answerId": "a",
-      "explanation": "Wisdom becomes human is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The opening sentence places Anansi in Fanti-land.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
         "obj.akan.2.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "pot"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What advice does Kweku Tsin give his father?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Give the pot to Nyankupon"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Hang the pot on his back to climb more easily"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Throw the pot into the sea"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "Kweku Tsin says the pot would not swing in Anansi's way if it were on his back.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "pot"
       ],
       "objectiveIds": [
         "obj.akan.2.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "pot"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific stories from Barker and Sinclair's Gold Coast collection; community-specific and living-tradition review remains pending."
   }
 }

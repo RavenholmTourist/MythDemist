@@ -1,13 +1,13 @@
 {
   "id": "akan.week01.day04.tiger-and-dangerous-rivals",
-  "version": 1,
+  "version": 3,
   "weekId": "akan.tradition.week01",
   "pantheon": "akan",
   "themeMode": "pantheon",
-  "title": "Tiger and dangerous rivals",
-  "subtitle": "Source-linked akan starter lesson",
+  "title": "Thunder and Anansi: The Gifted Stick",
+  "subtitle": "Repeated trouble follows repeated choices",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "akan",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.akan.4.concept",
-      "text": "Identify the main idea in Tiger and dangerous rivals."
+      "text": "What does Thunder give Anansi on his second visit?"
     },
     {
       "id": "obj.akan.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What happens when Anansi tells the stick to serve him?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "stick": {
       "recordId": "pg-66923",
       "sourceId": "akan.west-african-folktales",
       "work": "West African Folk-Tales",
-      "author": "Akan and related traditions",
-      "translator": "William H. Barker and Cecilia Sinclair",
-      "locator": "Tiger and dangerous rivals",
+      "author": "W. H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
+      "locator": "Story IV · THUNDER AND ANANSI; Story IV · THUNDER AND ANANSI, normalized characters 5276-5850",
       "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-72735",
-      "sourceId": "akan.jamaica-anansi",
-      "work": "Jamaica Anansi Stories",
-      "author": "Jamaican storytellers",
-      "translator": "Martha Warren Beckwith",
-      "locator": "Tiger and dangerous rivals",
-      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "This time, however, he presented Anansi with a fine stick and bade him good-bye. Anansi could scarcely wait till he got into the boat—so anxious was he to try the magic properties of his new gift. “Stick, stick,” he said, “what you used to do for your master do for me also.” The stick began to beat him so severely that, in a few minutes, he was obliged to jump into the water and swim ashore, leaving boat and stick to drift away where they pleased. Then he returned sorrowfully homeward, bemoaning his many bruises and wishing he had acted more wisely from the beginning.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Tiger and dangerous rivals",
-      "body": "Tiger and dangerous rivals is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A second gift",
+      "body": "In this Gold Coast story, Anansi returns to Thunder's cottage. Thunder gives him a stick and warns him of its magic.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
         "obj.akan.4.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "An instruction ignored",
+      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “This time, however, he presented Anansi with a fine stick and bade him good-bye. Anansi could scarcely wait till he got into the boat—so anxious was he to try the magic properties of his new gift. “Stick, stick,” he said, “what you used to do for your master do for me also.” The stick began to beat him so severely that, in a few minutes, he was obliged to jump into the water and swim ashore, leaving boat and stick to drift away where they pleased. Then he returned sorrowfully homeward, bemoaning his many bruises and wishing he had acted more wisely from the beginning.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
-        "obj.akan.4.source"
+        "obj.akan.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The stick turns on Anansi",
+      "body": "Anansi tries to command the stick to do for him what it did for Thunder. It beats him until he jumps into the water and swims ashore.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
-        "obj.akan.4.source"
+        "obj.akan.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A folktale's moral is not ethnography",
+      "body": "Barker and Sinclair retell this as one story in a Gold Coast collection. Its magical stick and comic punishment are narrative details, not evidence of a universal religious practice.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
         "obj.akan.4.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Repeated choices matter",
+      "body": "The episode frames Anansi's misfortune as a consequence of how he uses the gifts, not as a general account of Thunder worship.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
-        "obj.akan.4.concept"
+        "obj.akan.4.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Tiger and dangerous rivals be introduced?",
+      "prompt": "What does Thunder give Anansi on his second visit?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "A fine stick"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A jar of live bees"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A pot of wisdom"
         }
       ],
       "answerId": "a",
-      "explanation": "Tiger and dangerous rivals is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The passage says Thunder presents Anansi with a fine stick.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
         "obj.akan.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "stick"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What happens when Anansi tells the stick to serve him?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "It builds him a palace"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "It turns into the Sampo"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "It beats him until he escapes into the water"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "Anansi asks the stick to do for him what it did for its former master, and it beats him.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "stick"
       ],
       "objectiveIds": [
         "obj.akan.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "stick"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific stories from Barker and Sinclair's Gold Coast collection; community-specific and living-tradition review remains pending."
   }
 }

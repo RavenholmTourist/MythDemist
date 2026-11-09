@@ -344,6 +344,32 @@ def _plain_mesoamerican_segments(path, text):
     return segments
 
 
+def _plain_gold_coast_folktale_segments(text):
+    """Keep Barker and Sinclair's named tale retellings separate from their introduction."""
+    segments = []
+    start = text.find("I. ANANSI, OR SPIDER, TALES", 20000)
+    if start < 0:
+        return segments
+    headings = list(re.finditer(r"^\s*([IVXLCDM]+)\.\s+(.+?)\s*$", text[start:], re.M))
+    stories = [
+        item for item in headings
+        if item.group(2).strip().upper() not in {"ANANSI, OR SPIDER, TALES", "MISCELLANEOUS TALES"}
+    ]
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    add(text[:start], "Barker and Sinclair edition · introduction and contents", "editorial-note")
+    for index, heading in enumerate(stories):
+        section_start = start + heading.start()
+        section_end = start + stories[index + 1].start() if index + 1 < len(stories) else len(text)
+        locator = f"Story {heading.group(1).upper()} · {heading.group(2).strip()}"
+        add(text[section_start:section_end], locator, "source-text")
+    return segments
+
+
 def _plain_popol_vuh_spence_segments(text):
     """Separate Spence's K'iche' tale summaries from his comparative commentary."""
     segments = []
@@ -379,6 +405,32 @@ def _plain_popol_vuh_spence_segments(text):
     return segments
 
 
+def _plain_gold_coast_folktale_segments(text):
+    """Separate Dayrell's named story retellings from collection front matter."""
+    segments = []
+    heading_pattern = re.compile(r"^\s*([IVXLCDM]+)\.\s+(.+?)\s*$", re.M)
+    body_start = text.find("I. ANANSI, OR SPIDER, TALES", 20000)
+    if body_start < 0:
+        return segments
+    headings = [match for match in heading_pattern.finditer(text, body_start)]
+    story_headings = [
+        match for match in headings
+        if match.group(2).strip().upper() not in {"ANANSI, OR SPIDER, TALES", "MISCELLANEOUS TALES"}
+    ]
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    add(text[:body_start], "Barker and Sinclair edition · introduction and contents", "editorial-note")
+    for index, heading in enumerate(story_headings):
+        stop = story_headings[index + 1].start() if index + 1 < len(story_headings) else len(text)
+        locator = f"Story {heading.group(1).upper()} · {heading.group(2).strip()}"
+        add(text[heading.start():stop], locator, "source-text")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -396,8 +448,12 @@ def source_segments(path):
             return _plain_kalevala_segments(text)
         if path.name in {"myths-mexico-peru-spence-53080.txt", "mythologies-mexico-peru-spence-36386.txt"}:
             return _plain_mesoamerican_segments(path, text)
+        if path.name == "west-african-folk-tales-66923.txt":
+            return _plain_gold_coast_folktale_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
+        if path.name == "west-african-folk-tales-66923.txt":
+            return _plain_gold_coast_folktale_segments(text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

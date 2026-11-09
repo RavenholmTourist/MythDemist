@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T01:51:40.086987+00:00",
+  "generatedAt": "2026-11-09T02:07:37.710757+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -194,7 +194,7 @@
     },
     "akan": {
       "id": "akan",
-      "name": "Akan",
+      "name": "Akan and Gold Coast Folklore",
       "status": "active",
       "visual": {
         "logo": "akan-mark",
@@ -2095,7 +2095,7 @@
     },
     {
       "id": "akan.tradition.week01",
-      "title": "Akan Traditions",
+      "title": "Gold Coast Folktales and Anansi",
       "pantheon": "akan",
       "path": "content/curriculum/akan/akan-week-01.json",
       "dayCount": 5,
@@ -6463,23 +6463,22 @@
     },
     {
       "id": "akan.week01.day01.anansi-the-spider",
-      "version": 1,
+      "version": 3,
       "pantheon": "akan",
-      "title": "Anansi the spider",
+      "title": "How Anansi Earned the Name Spider Tales",
       "weekId": "akan.tradition.week01",
       "tags": [
         "akan",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-01-anansi-the-spider.json",
       "objectiveIds": [
         "obj.akan.1.concept",
         "obj.akan.1.source"
       ],
       "recordIds": [
-        "pg-66923",
-        "pg-72735"
+        "pg-66923"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6495,23 +6494,22 @@
     },
     {
       "id": "akan.week01.day02.wisdom-becomes-human",
-      "version": 1,
+      "version": 3,
       "pantheon": "akan",
-      "title": "Wisdom becomes human",
+      "title": "Anansi and the Pot of Wisdom",
       "weekId": "akan.tradition.week01",
       "tags": [
         "akan",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-02-wisdom-becomes-human.json",
       "objectiveIds": [
         "obj.akan.2.concept",
         "obj.akan.2.source"
       ],
       "recordIds": [
-        "pg-66923",
-        "pg-72735"
+        "pg-66923"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6527,23 +6525,22 @@
     },
     {
       "id": "akan.week01.day03.diaspora-and-transformation",
-      "version": 1,
+      "version": 3,
       "pantheon": "akan",
-      "title": "Diaspora and transformation",
+      "title": "Anansi and Nothing: A Gold Coast Story",
       "weekId": "akan.tradition.week01",
       "tags": [
         "akan",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-03-diaspora-and-transformation.json",
       "objectiveIds": [
         "obj.akan.3.concept",
         "obj.akan.3.source"
       ],
       "recordIds": [
-        "pg-66923",
-        "pg-72735"
+        "pg-66923"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6559,23 +6556,22 @@
     },
     {
       "id": "akan.week01.day04.tiger-and-dangerous-rivals",
-      "version": 1,
+      "version": 3,
       "pantheon": "akan",
-      "title": "Tiger and dangerous rivals",
+      "title": "Thunder and Anansi: The Gifted Stick",
       "weekId": "akan.tradition.week01",
       "tags": [
         "akan",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-04-tiger-and-dangerous-rivals.json",
       "objectiveIds": [
         "obj.akan.4.concept",
         "obj.akan.4.source"
       ],
       "recordIds": [
-        "pg-66923",
-        "pg-72735"
+        "pg-66923"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6591,23 +6587,22 @@
     },
     {
       "id": "akan.week01.day05.stories-as-social-power",
-      "version": 1,
+      "version": 3,
       "pantheon": "akan",
-      "title": "Stories as social power",
+      "title": "Anansi the Blind Fisherman",
       "weekId": "akan.tradition.week01",
       "tags": [
         "akan",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-05-stories-as-social-power.json",
       "objectiveIds": [
         "obj.akan.5.concept",
         "obj.akan.5.source"
       ],
       "recordIds": [
-        "pg-66923",
-        "pg-72735"
+        "pg-66923"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -9950,7 +9945,7 @@
       "id": "pg-66923",
       "pantheon": "akan",
       "title": "West African Folk-Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "regional-folklore-collection",
       "sourceIds": [
         "akan.west-african-folktales"
       ],
@@ -9962,7 +9957,7 @@
       "id": "pg-72735",
       "pantheon": "akan",
       "title": "Jamaica Anansi Stories",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "diaspora-folklore-field-collection",
       "sourceIds": [
         "akan.jamaica-anansi"
       ],

@@ -1,13 +1,13 @@
 {
   "id": "akan.week01.day01.anansi-the-spider",
-  "version": 1,
+  "version": 3,
   "weekId": "akan.tradition.week01",
   "pantheon": "akan",
   "themeMode": "pantheon",
-  "title": "Anansi the spider",
-  "subtitle": "Source-linked akan starter lesson",
+  "title": "How Anansi Earned the Name Spider Tales",
+  "subtitle": "A Gold Coast collection's own story about its genre",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "akan",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.akan.1.concept",
-      "text": "Identify the main idea in Anansi the spider."
+      "text": "What does Nyankupon require Anansi to bring?"
     },
     {
       "id": "obj.akan.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Nyankupon allow after Anansi completes the tasks?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "name": {
       "recordId": "pg-66923",
       "sourceId": "akan.west-african-folktales",
       "work": "West African Folk-Tales",
-      "author": "Akan and related traditions",
-      "translator": "William H. Barker and Cecilia Sinclair",
-      "locator": "Anansi the spider",
+      "author": "W. H. Barker and Cecilia Sinclair",
+      "translator": "not applicable; collected, arranged, and retold in English",
+      "locator": "Story I · HOW WE GOT THE NAME ‘SPIDER TALES’; Story I · HOW WE GOT THE NAME ‘SPIDER TALES’, normalized characters 38-2644",
       "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-72735",
-      "sourceId": "akan.jamaica-anansi",
-      "work": "Jamaica Anansi Stories",
-      "author": "Jamaican storytellers",
-      "translator": "Martha Warren Beckwith",
-      "locator": "Anansi the spider",
-      "localPath": "content/corpus/akan/primary/jamaica-anansi-stories-72735.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "In the olden days all the stories which men told were stories of Nyankupon, the chief of the gods. Spider, who was very conceited, wanted the stories to be told about him. Accordingly, one day he went to Nyankupon and asked that, in future, all tales told by men might be Anansi stories, instead of Nyankupon stories. Nyankupon agreed, on one condition. He told Spider (or Anansi) that he must bring him three things: the first was a jar full of live bees, the second was a boa-constrictor, and the third a tiger. Spider gave his promise. He took an earthen vessel and set out for a place where he knew were numbers of bees. When he came in sight of the bees he began saying to himself, “They will not be able to fill this jar”—“Yes, they will be able”—“No, they will not be able,” until the bees came up to him and said, “What are you talking about, Mr Anansi?” He thereupon explained to them that Nyankupon and he had had a great dispute. Nyankupon had said the bees could not fly into the jar—Anansi had said they could. The bees immediately declared that of course they could fly into the jar—which they at once did. As soon as they were safely inside, Anansi sealed up the jar and sent it off to Nyankupon. Next day he took a long stick and set out in search of a boa-constrictor. When he arrived at the place where one lived he began speaking to himself again. “He will just be as long as this stick”—“No, he will not be so long as this”—“Yes, he will be as long as this.” These words he repeated several times, till the boa came out and asked him what was the matter. “Oh, we have been having a dispute in Nyankupon’s town about you. Nyankupon’s people say you are not as long as this stick. I say you are. Please let me measure you by it.” The boa innocently laid himself out straight, and Spider lost no time in tying him on to the stick from end to end. He then sent him to Nyankupon. The third day he took a needle and thread and sewed up his eye. He then set out for a den where he knew a tiger lived. As he approached the place he began to shout and sing so loudly that the tiger came out to see what was the matter. “Can you not see?” said Spider. “My eye is sewn up and now I can see such wonderful things that I must sing about them.” “Sew up my eyes,” said the tiger, “then I too can see these surprising sights.” Spider immediately did so. Having thus made the tiger helpless, he led him straight to Nyankupon’s house. Nyankupon was amazed at Spider’s cleverness in fulfilling the three conditions. He immediately gave him permission for the future to call all the old tales Anansi tales.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Anansi the spider",
-      "body": "Anansi the spider is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A request to Nyankupon",
+      "body": "In Barker and Sinclair's collection, Anansi asks Nyankupon to let future stories be called Anansi tales instead of Nyankupon stories.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
         "obj.akan.1.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Three tasks",
+      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “In the olden days all the stories which men told were stories of Nyankupon, the chief of the gods. Spider, who was very conceited, wanted the stories to be told about him. Accordingly, one day he went to Nyankupon and asked that, in future, all tales told by men might be Anansi stories, instead of Nyankupon stories. Nyankupon agreed, on one condition. He told Spider (or Anansi) that he must bring him three things: the first was a jar full of live bees, the second was a boa-constrictor, and the third a tiger. Spider gave his promise. He took an earthen vessel and set out for a place where he knew were numbers of bees. When he came in sight of the bees he began saying to himself, “They will not be able to fill this jar”—“Yes, they will be able”—“No, they will not be able,” until the bees came up to him and said, “What are you talking about, Mr Anansi?” He thereupon explained to them that Nyankupon and he had had a great dispute. Nyankupon had said the bees could not fly into the jar—Anansi had said they could. The bees immediately declared that of course they could fly into the jar—which they at once did. As soon as they were safely inside, Anansi sealed up the jar and sent it off to Nyankupon. Next day he took a long stick and set out in search of a boa-constrictor. When he arrived at the place where one lived he began speaking to himself again. “He will just be as long as this stick”—“No, he will not be so long as this”—“Yes, he will be as long as this.” These words he repeated several times, till the boa came out and asked him what was the matter. “Oh, we have been having a dispute in Nyankupon’s town about you. Nyankupon’s people say you are not as long as this stick. I say you are. Please let me measure you by it.” The boa innocently laid himself out straight, and Spider lost no time in tying him on to the stick from end to end. He then sent him to Nyankupon. The third day he took a needle and thread and sewed up his eye. He then set out for a den where he knew a tiger lived. As he approached the place he began to shout and sing so loudly that the tiger came out to see what was the matter. “Can you not see?” said Spider. “My eye is sewn up and now I can see such wonderful things that I must sing about them.” “Sew up my eyes,” said the tiger, “then I too can see these surprising sights.” Spider immediately did so. Having thus made the tiger helpless, he led him straight to Nyankupon’s house. Nyankupon was amazed at Spider’s cleverness in fulfilling the three conditions. He immediately gave him permission for the future to call all the old tales Anansi tales.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
-        "obj.akan.1.source"
+        "obj.akan.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Trickery fulfills the condition",
+      "body": "Nyankupon requires Anansi to bring bees, a boa-constrictor, and a tiger. Anansi tricks each one into going with him.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
-        "obj.akan.1.source"
+        "obj.akan.1.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A written collection, not a uniform canon",
+      "body": "The 1917 book was collected and arranged by Barker and Sinclair from Gold Coast storytellers. Its preface notes that versions vary and are retold; it does not name a specific community for every tale.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
         "obj.akan.1.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The collection comments on itself",
+      "body": "This tale explains the collection's label 'Spider Tales' through an Anansi story. It is a story about storytelling, not proof that every West African tradition tells it the same way.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
-        "obj.akan.1.concept"
+        "obj.akan.1.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Anansi the spider be introduced?",
+      "prompt": "What does Nyankupon require Anansi to bring?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Bees, a boa-constrictor, and a tiger"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A tortoise, a fish, and a yam"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "A drum, a pot, and a palm-tree"
         }
       ],
       "answerId": "a",
-      "explanation": "Anansi the spider is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The tale lists three tasks: a jar of bees, a boa-constrictor, and a tiger.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
         "obj.akan.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "name"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Nyankupon allow after Anansi completes the tasks?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Anansi becomes ruler of the Gold Coast"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "All stories are translated into English"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The old tales may be called Anansi tales"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "The ending says Nyankupon gives permission to call the old tales Anansi tales.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "name"
       ],
       "objectiveIds": [
         "obj.akan.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Gold Coast story in the printed collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection say about the teller or place?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "name"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific stories from Barker and Sinclair's Gold Coast collection; community-specific and living-tradition review remains pending."
   }
 }

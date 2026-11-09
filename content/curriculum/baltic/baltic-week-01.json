@@ -1,7 +1,7 @@
 {
   "id": "baltic.tradition.week01",
-  "title": "Baltic Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "One Lithuanian Story in Katherine Pyle's Collection",
+  "subtitle": "Five short scenes from a 1922 English children's retelling, not a Baltic survey",
   "pantheon": "baltic",
   "coverageType": "folklore",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Baltic folk traditions",
+      "title": "The Exiled Princes",
       "lessonId": "baltic.week01.day01.baltic-folk-traditions",
       "lessonPath": "content/lessons/baltic/tradition/day-01-baltic-folk-traditions.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Lithuanian heroes",
+      "title": "The Animals Become Helpers",
       "lessonId": "baltic.week01.day02.lithuanian-heroes",
       "lessonPath": "content/lessons/baltic/tradition/day-02-lithuanian-heroes.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Sun and sacred groves",
+      "title": "Three Roads and a Tree's Warning",
       "lessonId": "baltic.week01.day03.sun-and-sacred-groves",
       "lessonPath": "content/lessons/baltic/tradition/day-03-sun-and-sacred-groves.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Fate and helpers",
+      "title": "The Dragon and the Youngest Prince",
       "lessonId": "baltic.week01.day04.fate-and-helpers",
       "lessonPath": "content/lessons/baltic/tradition/day-04-fate-and-helpers.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "European variants",
+      "title": "Betrayal, Healing, and Return",
       "lessonId": "baltic.week01.day05.european-variants",
       "lessonPath": "content/lessons/baltic/tradition/day-05-european-variants.json",
       "status": "available"

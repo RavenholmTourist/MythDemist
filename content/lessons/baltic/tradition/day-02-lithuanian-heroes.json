@@ -1,13 +1,13 @@
 {
   "id": "baltic.week01.day02.lithuanian-heroes",
-  "version": 1,
+  "version": 2,
   "weekId": "baltic.tradition.week01",
   "pantheon": "baltic",
   "themeMode": "pantheon",
-  "title": "Lithuanian heroes",
-  "subtitle": "Source-linked baltic starter lesson",
+  "title": "The Animals Become Helpers",
+  "subtitle": "Each prince spares a mother animal",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "baltic",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.baltic.2.concept",
-      "text": "Identify the main idea in Lithuanian heroes."
+      "text": "What does the mother bear offer if the princes spare her?"
     },
     {
       "id": "obj.baltic.2.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Which animals follow each prince by the end of the passage?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-6746",
-      "sourceId": "baltic.fairy-variants",
-      "work": "The Grey Fairy Book",
-      "author": "various European traditions",
-      "translator": "Andrew Lang",
-      "locator": "Lithuanian heroes",
-      "localPath": "content/corpus/baltic/primary/grey-fairy-book-6746.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
+    "helpers": {
       "recordId": "pg-66919",
       "sourceId": "baltic.fairy-tales-far-near",
       "work": "Fairy Tales From Far and Near",
-      "author": "various traditions",
-      "translator": "Katherine Pyle",
-      "locator": "Lithuanian heroes",
+      "author": "Katherine Pyle",
+      "translator": "not applicable; authored in English",
+      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 561-1681",
       "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "The eldest Prince was about to shoot at her, but the bear cried out, “Do not shoot, Prince, and I will give you my three cubs for servants, one for you, and one for each of your brothers.” To this the Prince agreed. He let the bear go away unharmed, and the three cubs followed after the three Princes, each one behind his own master. After they had gone a bit farther into the forest, they saw a lioness, and she also had three young ones with her. Now it was the second Prince who was about to shoot, but the lioness called to him, “Do not slay me, Prince, and I will give my three cubs to you and your brothers, one to each of you.” Thereupon the Prince allowed her to go unharmed and the three young lions followed after the Princes with the bear cubs. Soon after that they saw a mother fox, and three little ones were with her. This time it was the youngest Prince who would have shot, but the fox called to him, imploring him to spare her life and offering instead her three young ones to the Princes. She too was allowed to escape, and now each Prince had a young fox, a young lion and a young bear to follow him.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Lithuanian heroes",
-      "body": "Lithuanian heroes is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A bear asks to be spared",
+      "body": "When the princes meet a mother bear and her cubs, she asks them not to kill her and offers one cub to each brother.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
         "obj.baltic.2.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The bargain repeats",
+      "body": "Quotation from Pyle's English retelling (whitespace normalized): “The eldest Prince was about to shoot at her, but the bear cried out, “Do not shoot, Prince, and I will give you my three cubs for servants, one for you, and one for each of your brothers.” To this the Prince agreed. He let the bear go away unharmed, and the three cubs followed after the three Princes, each one behind his own master. After they had gone a bit farther into the forest, they saw a lioness, and she also had three young ones with her. Now it was the second Prince who was about to shoot, but the lioness called to him, “Do not slay me, Prince, and I will give my three cubs to you and your brothers, one to each of you.” Thereupon the Prince allowed her to go unharmed and the three young lions followed after the Princes with the bear cubs. Soon after that they saw a mother fox, and three little ones were with her. This time it was the youngest Prince who would have shot, but the fox called to him, imploring him to spare her life and offering instead her three young ones to the Princes. She too was allowed to escape, and now each Prince had a young fox, a young lion and a young bear to follow him.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
-        "obj.baltic.2.source"
+        "obj.baltic.2.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Lioness and fox follow",
+      "body": "The second prince spares a lioness, then the youngest spares a fox. By the end, each prince is followed by a bear, lion, and fox cub.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
-        "obj.baltic.2.source"
+        "obj.baltic.2.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Do not universalize animal meanings",
+      "body": "The tale gives these animals specific roles in Pyle's retelling. It does not establish a fixed Baltic symbolism for bears, lions, or foxes.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
         "obj.baltic.2.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The helpers follow acts of mercy",
+      "body": "The princes gain companions after sparing each mother animal in this story's sequence.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
         "obj.baltic.2.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Lithuanian heroes be introduced?",
+      "prompt": "What does the mother bear offer if the princes spare her?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "A golden ring"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "A magic stick"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Her three cubs, one for each prince"
         }
       ],
-      "answerId": "a",
-      "explanation": "Lithuanian heroes is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The bear offers a cub to each brother in exchange for being spared.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
         "obj.baltic.2.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "helpers"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Which animals follow each prince by the end of the passage?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A dragon, a wolf, and a hare"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A bear cub, a lion cub, and a fox cub"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "A raven, a goose, and a dog"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The excerpt concludes that each prince has a young fox, lion, and bear following him.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "helpers"
       ],
       "objectiveIds": [
         "obj.baltic.2.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "helpers"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "One Lithuanian-labeled tale as retold by Katherine Pyle; this is not a survey of Baltic traditions and the original source/informant is unspecified."
   }
 }

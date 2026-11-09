@@ -6,34 +6,34 @@
     {
       "id": "pg-6746",
       "title": "The Grey Fairy Book",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "multiregional-fairy-tale-anthology",
       "ancientAuthors": [
-        "various European traditions"
+        "Andrew Lang (editor of translations/adaptations from varied traditions)"
       ],
-      "translator": "Andrew Lang",
+      "translator": "Multiple contributors; Lang edited and adapted selections",
       "sourceIds": [
         "baltic.fairy-variants"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/6746",
       "localPath": "primary/grey-fairy-book-6746.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Lang's anthology preface names Lithuania among many source regions, but individual tales are not consistently tagged with their origin; do not use the volume as undifferentiated Baltic evidence."
     },
     {
       "id": "pg-66919",
       "title": "Fairy Tales From Far and Near",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "modern-folktale-retelling",
       "ancientAuthors": [
-        "various traditions"
+        "Katherine Pyle (modern author and reteller)"
       ],
-      "translator": "Katherine Pyle",
+      "translator": "not applicable; authored in English by Katherine Pyle",
       "sourceIds": [
         "baltic.fairy-tales-far-near"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/66919",
       "localPath": "primary/fairy-tales-far-near-66919.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Pyle's 1922 children's collection labels 'The Princes and the Friendly Animals' a Lithuanian story, but gives no underlying source text or oral informant; the retelling is not a full Baltic tradition source."
     }
   ]
 }

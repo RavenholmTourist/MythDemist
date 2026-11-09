@@ -1,13 +1,13 @@
 {
   "id": "baltic.week01.day03.sun-and-sacred-groves",
-  "version": 1,
+  "version": 2,
   "weekId": "baltic.tradition.week01",
   "pantheon": "baltic",
   "themeMode": "pantheon",
-  "title": "Sun and sacred groves",
-  "subtitle": "Source-linked baltic starter lesson",
+  "title": "Three Roads and a Tree's Warning",
+  "subtitle": "Milk or blood marks the brothers' fortunes",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "baltic",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.baltic.3.concept",
-      "text": "Identify the main idea in Sun and sacred groves."
+      "text": "What does milk from a brother's notch mean?"
     },
     {
       "id": "obj.baltic.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Which direction does the eldest prince choose?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-6746",
-      "sourceId": "baltic.fairy-variants",
-      "work": "The Grey Fairy Book",
-      "author": "various European traditions",
-      "translator": "Andrew Lang",
-      "locator": "Sun and sacred groves",
-      "localPath": "content/corpus/baltic/primary/grey-fairy-book-6746.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
+    "notches": {
       "recordId": "pg-66919",
       "sourceId": "baltic.fairy-tales-far-near",
       "work": "Fairy Tales From Far and Near",
-      "author": "various traditions",
-      "translator": "Katherine Pyle",
-      "locator": "Sun and sacred groves",
+      "author": "Katherine Pyle",
+      "translator": "not applicable; authored in English",
+      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 2328-3261",
       "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "The three brothers then asked their stepsister which of them she would follow, and she said she would go with the eldest Prince, for she too wished nothing better than a place to dwell in, where she could live in peace and safety. So the three brothers parted, but first the eldest Prince cut three notches in a tree that stood at the parting of the ways. He cut one at the East, and one at the West, and one in the center between them, one for each of his brothers, and one for himself. He told them the notch to the East was for the youngest brother, the notch to the West was for the second brother, and the one in the center belonged to himself. “When any one of us returns to this spot,” said he, “let him place his finger first upon one notch, and then upon the other. If milk flows forth from the notch, then all is well with the one to whom it belongs, but if blood flows forth, then it means death or misfortune to that one.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Sun and sacred groves",
-      "body": "Sun and sacred groves is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "The family parts at a crossroads",
+      "body": "The youngest prince chooses east, the second west, and the eldest chooses the road straight ahead. Their stepsister goes with the eldest.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
         "obj.baltic.3.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A sign for each brother",
+      "body": "Quotation from Pyle's English retelling (whitespace normalized): “The three brothers then asked their stepsister which of them she would follow, and she said she would go with the eldest Prince, for she too wished nothing better than a place to dwell in, where she could live in peace and safety. So the three brothers parted, but first the eldest Prince cut three notches in a tree that stood at the parting of the ways. He cut one at the East, and one at the West, and one in the center between them, one for each of his brothers, and one for himself. He told them the notch to the East was for the youngest brother, the notch to the West was for the second brother, and the one in the center belonged to himself. “When any one of us returns to this spot,” said he, “let him place his finger first upon one notch, and then upon the other. If milk flows forth from the notch, then all is well with the one to whom it belongs, but if blood flows forth, then it means death or misfortune to that one.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
-        "obj.baltic.3.source"
+        "obj.baltic.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The tree records their fortunes",
+      "body": "The eldest prince cuts a notch for each brother and explains the sign: milk means all is well; blood means death or misfortune.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
-        "obj.baltic.3.source"
+        "obj.baltic.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A story device, not a ritual claim",
+      "body": "The notched tree is a plot device in Pyle's Lithuanian-labeled story. Do not present it as evidence of a documented Baltic divination practice.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
         "obj.baltic.3.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The sign sets up the next event",
+      "body": "The brothers' separate roads and the tree's signal give the tale a way to reunite their stories later.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
         "obj.baltic.3.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Sun and sacred groves be introduced?",
+      "prompt": "What does milk from a brother's notch mean?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The prince must return to the crossroads"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "All is well with that brother"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "He has reached the dragon"
         }
       ],
-      "answerId": "a",
-      "explanation": "Sun and sacred groves is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "The eldest says milk means all is well, while blood means death or misfortune.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
         "obj.baltic.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "notches"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Which direction does the eldest prince choose?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Straight ahead, neither east nor west"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "East toward sunrise"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "West toward sunset"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The eldest says his road will go straight ahead.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "notches"
       ],
       "objectiveIds": [
         "obj.baltic.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "notches"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "One Lithuanian-labeled tale as retold by Katherine Pyle; this is not a survey of Baltic traditions and the original source/informant is unspecified."
   }
 }

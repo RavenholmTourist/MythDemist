@@ -705,6 +705,41 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(intro['evidenceType'], 'editorial-note')
         self.assertIn('various parts of Greenland', intro['text'])
 
+    def test_baltic_sampler_is_explicitly_one_lithuanian_labeled_retelling(self):
+        files = sorted((ROOT / 'content/lessons/baltic').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-66919'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('Pyle retelling', ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('stepsister', titles['The Exiled Princes'])
+        self.assertIn('bear', titles['The Animals Become Helpers'].lower())
+        self.assertIn('milk', titles["Three Roads and a Tree's Warning"])
+        self.assertIn('dragon', titles['The Dragon and the Youngest Prince'].lower())
+        self.assertIn('Pyle', titles['Betrayal, Healing, and Return'])
+        manifest = json.loads((ROOT / 'content/corpus/baltic/manifest.json').read_text(encoding='utf-8'))
+        pyle = next(item for item in manifest['records'] if item['id'] == 'pg-66919')
+        lang = next(item for item in manifest['records'] if item['id'] == 'pg-6746')
+        self.assertEqual(pyle['sourceType'], 'modern-folktale-retelling')
+        self.assertIn('no underlying source text or oral informant', pyle['notes'])
+        self.assertEqual(lang['sourceType'], 'multiregional-fairy-tale-anthology')
+
+    def test_pyle_parser_scopes_the_named_lithuanian_tale(self):
+        segments = source_segments(ROOT / 'content/corpus/baltic/primary/fairy-tales-far-near-66919.txt')
+        story = next(s for s in segments if s['locator'] == 'Pyle retelling · The Princes And The Friendly Animals')
+        self.assertEqual(story['evidenceType'], 'source-text')
+        self.assertIn('three Princes', story['text'])
+        self.assertTrue(any(s['locator'] == 'Pyle edition · front matter and contents' and s['evidenceType'] == 'editorial-note' for s in segments))
+
 
 if __name__ == '__main__':
     unittest.main()

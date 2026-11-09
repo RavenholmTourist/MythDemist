@@ -494,6 +494,44 @@ def _plain_rasmussen_greenland_segments(text):
     return segments
 
 
+def _plain_pyle_fairy_segments(text):
+    """Separate Pyle's named tale retellings from the anthology apparatus."""
+    stories = [
+        "LITTLE SURYA BAI",
+        "THE PRINCES AND THE FRIENDLY ANIMALS",
+        "GRACIOSA AND PERCINET",
+        "THE GIANT'S CLIFF",
+        "THE STORY OF CONN-EDA",
+        "THE BLUE BELT",
+        "THE DUTIFUL DAUGHTER",
+        "THE OAT CAKE",
+        "THE DREAMER",
+        "THE STORY OF HARKA",
+        "SCHIPPEITARO",
+        "EROS AND PSYCHE",
+    ]
+    headings = []
+    for title in stories:
+        matches = list(re.finditer(r"^\s*" + re.escape(title) + r"\.?\s*$", text, re.I | re.M))
+        if matches:
+            headings.append((matches[-1].start(), matches[-1], title))
+    headings.sort(key=lambda item: item[0])
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if not headings:
+        return segments
+    add(text[:headings[0][0]], "Pyle edition · front matter and contents", "editorial-note")
+    for index, (start, heading, title) in enumerate(headings):
+        stop = headings[index + 1][0] if index + 1 < len(headings) else len(text)
+        add(text[start:stop], f"Pyle retelling · {title.title()}", "source-text")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -517,6 +555,8 @@ def source_segments(path):
             return _plain_westervelt_maui_segments(text)
         if path.name == "eskimo-folk-tales-28932.txt":
             return _plain_rasmussen_greenland_segments(text)
+        if path.name == "fairy-tales-far-near-66919.txt":
+            return _plain_pyle_fairy_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":

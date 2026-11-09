@@ -1,13 +1,13 @@
 {
   "id": "baltic.week01.day04.fate-and-helpers",
-  "version": 1,
+  "version": 2,
   "weekId": "baltic.tradition.week01",
   "pantheon": "baltic",
   "themeMode": "pantheon",
-  "title": "Fate and helpers",
-  "subtitle": "Source-linked baltic starter lesson",
+  "title": "The Dragon and the Youngest Prince",
+  "subtitle": "Animal helpers join the fight",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "baltic",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.baltic.4.concept",
-      "text": "Identify the main idea in Fate and helpers."
+      "text": "How does the fox help fight the dragon?"
     },
     {
       "id": "obj.baltic.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "Who delivers the final wound in this episode?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-6746",
-      "sourceId": "baltic.fairy-variants",
-      "work": "The Grey Fairy Book",
-      "author": "various European traditions",
-      "translator": "Andrew Lang",
-      "locator": "Fate and helpers",
-      "localPath": "content/corpus/baltic/primary/grey-fairy-book-6746.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
+    "dragon": {
       "recordId": "pg-66919",
       "sourceId": "baltic.fairy-tales-far-near",
       "work": "Fairy Tales From Far and Near",
-      "author": "various traditions",
-      "translator": "Katherine Pyle",
-      "locator": "Fate and helpers",
+      "author": "Katherine Pyle",
+      "translator": "not applicable; authored in English",
+      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 12957-14901",
       "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "The Prince hid himself behind a heap of rocks and lay there watching, and presently he heard a great noise. It was made by a procession of people who were bringing the Princess down to the seashore. She was very beautiful, but so sad looking that the Prince’s heart melted within him for pity of her. They brought her to the seashore and left her there, and every one went away except two nobles of the Court. One of them was driving the coach that brought the Princess, and the other one sat beside him as footman. They were to wait until all was over, and then they were to take the news back to the King, but they kept the coach high up on top of the cliff where they would be out of danger. The Prince waited until all the others had left her, and then he came out from behind the rocks and went to speak to the Princess; but when she saw him she was frightened, for she did not know who he was nor whence he came. “Do not fear me,” the Prince said to her. “I mean you no harm, but instead I have come hither to do battle with the dragon, and if it may be, to save you.” When the Princess heard this, she begged and implored him to leave her. “Why should you perish also? None can ever do battle with yonder monster and come out alive.” But the Prince would not listen to her. And now the dragon bestirred itself and turned and came slowly toward the shore, and as it came they could smell the smoke of its breathing. The Prince drew his sword and stood waiting for it. Then as it came still nearer, the fox sprang out on a rock, dipped his tail in the salty water and slashed it across the eyes of the monster so that it was almost blinded. The lion and the bear also splashed up the water; the boar ripped at the dragon with his sharp tusks; the hare sprang upon its head and struck with its paws; and the Prince drew his sword and plunged it into the monster’s heart, so that the life blood ran out from it into the sea, and it was dead.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Fate and helpers",
-      "body": "Fate and helpers is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A princess is offered as a reward",
+      "body": "The youngest prince hears that a dragon threatens the country and that the king promises his daughter's hand to whoever defeats it.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
         "obj.baltic.4.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The animals attack",
+      "body": "Quotation from Pyle's English retelling (whitespace normalized): “The Prince hid himself behind a heap of rocks and lay there watching, and presently he heard a great noise. It was made by a procession of people who were bringing the Princess down to the seashore. She was very beautiful, but so sad looking that the Prince’s heart melted within him for pity of her. They brought her to the seashore and left her there, and every one went away except two nobles of the Court. One of them was driving the coach that brought the Princess, and the other one sat beside him as footman. They were to wait until all was over, and then they were to take the news back to the King, but they kept the coach high up on top of the cliff where they would be out of danger. The Prince waited until all the others had left her, and then he came out from behind the rocks and went to speak to the Princess; but when she saw him she was frightened, for she did not know who he was nor whence he came. “Do not fear me,” the Prince said to her. “I mean you no harm, but instead I have come hither to do battle with the dragon, and if it may be, to save you.” When the Princess heard this, she begged and implored him to leave her. “Why should you perish also? None can ever do battle with yonder monster and come out alive.” But the Prince would not listen to her. And now the dragon bestirred itself and turned and came slowly toward the shore, and as it came they could smell the smoke of its breathing. The Prince drew his sword and stood waiting for it. Then as it came still nearer, the fox sprang out on a rock, dipped his tail in the salty water and slashed it across the eyes of the monster so that it was almost blinded. The lion and the bear also splashed up the water; the boar ripped at the dragon with his sharp tusks; the hare sprang upon its head and struck with its paws; and the Prince drew his sword and plunged it into the monster’s heart, so that the life blood ran out from it into the sea, and it was dead.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
-        "obj.baltic.4.source"
+        "obj.baltic.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The prince delivers the final blow",
+      "body": "The fox splashes water into the dragon's eyes, the bear and boar attack, and the hare strikes its head; the prince's sword kills it.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
-        "obj.baltic.4.source"
+        "obj.baltic.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Keep the plot and source attribution distinct",
+      "body": "Pyle's story calls this a Lithuanian tale, but does not identify an informant or source-language text. Teach the episode as Pyle's retelling.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
         "obj.baltic.4.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Victory is collaborative",
+      "body": "The scene gives the animals active roles in the fight rather than making the prince succeed alone.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
         "obj.baltic.4.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Fate and helpers be introduced?",
+      "prompt": "How does the fox help fight the dragon?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "It splashes water into the dragon's eyes"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "It cuts the dragon's tongue"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "It lures the dragon into the sea"
         }
       ],
       "answerId": "a",
-      "explanation": "Fate and helpers is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The excerpt says the fox dips its tail in salty water and slashes it across the dragon's eyes.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
         "obj.baltic.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "dragon"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "Who delivers the final wound in this episode?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "The princess"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "The old woman by the fire"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The youngest prince"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "After the animals help, the prince plunges his sword into the dragon's heart.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "dragon"
       ],
       "objectiveIds": [
         "obj.baltic.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "dragon"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "One Lithuanian-labeled tale as retold by Katherine Pyle; this is not a survey of Baltic traditions and the original source/informant is unspecified."
   }
 }

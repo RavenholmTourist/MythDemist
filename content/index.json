@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T02:34:08.070822+00:00",
+  "generatedAt": "2026-11-09T02:42:30.199084+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -184,7 +184,7 @@
     },
     "baltic": {
       "id": "baltic",
-      "name": "Baltic",
+      "name": "Lithuanian Folklore Sampler",
       "status": "active",
       "visual": {
         "logo": "baltic-mark",
@@ -2076,7 +2076,7 @@
     },
     {
       "id": "baltic.tradition.week01",
-      "title": "Baltic Traditions",
+      "title": "One Lithuanian Story in Katherine Pyle's Collection",
       "pantheon": "baltic",
       "path": "content/curriculum/baltic/baltic-week-01.json",
       "dayCount": 5,
@@ -6293,23 +6293,22 @@
     },
     {
       "id": "baltic.week01.day01.baltic-folk-traditions",
-      "version": 1,
+      "version": 2,
       "pantheon": "baltic",
-      "title": "Baltic folk traditions",
+      "title": "The Exiled Princes",
       "weekId": "baltic.tradition.week01",
       "tags": [
         "baltic",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-01-baltic-folk-traditions.json",
       "objectiveIds": [
         "obj.baltic.1.concept",
         "obj.baltic.1.source"
       ],
       "recordIds": [
-        "pg-66919",
-        "pg-6746"
+        "pg-66919"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6325,23 +6324,22 @@
     },
     {
       "id": "baltic.week01.day02.lithuanian-heroes",
-      "version": 1,
+      "version": 2,
       "pantheon": "baltic",
-      "title": "Lithuanian heroes",
+      "title": "The Animals Become Helpers",
       "weekId": "baltic.tradition.week01",
       "tags": [
         "baltic",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-02-lithuanian-heroes.json",
       "objectiveIds": [
         "obj.baltic.2.concept",
         "obj.baltic.2.source"
       ],
       "recordIds": [
-        "pg-66919",
-        "pg-6746"
+        "pg-66919"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6357,23 +6355,22 @@
     },
     {
       "id": "baltic.week01.day03.sun-and-sacred-groves",
-      "version": 1,
+      "version": 2,
       "pantheon": "baltic",
-      "title": "Sun and sacred groves",
+      "title": "Three Roads and a Tree's Warning",
       "weekId": "baltic.tradition.week01",
       "tags": [
         "baltic",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-03-sun-and-sacred-groves.json",
       "objectiveIds": [
         "obj.baltic.3.concept",
         "obj.baltic.3.source"
       ],
       "recordIds": [
-        "pg-66919",
-        "pg-6746"
+        "pg-66919"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6389,23 +6386,22 @@
     },
     {
       "id": "baltic.week01.day04.fate-and-helpers",
-      "version": 1,
+      "version": 2,
       "pantheon": "baltic",
-      "title": "Fate and helpers",
+      "title": "The Dragon and the Youngest Prince",
       "weekId": "baltic.tradition.week01",
       "tags": [
         "baltic",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-04-fate-and-helpers.json",
       "objectiveIds": [
         "obj.baltic.4.concept",
         "obj.baltic.4.source"
       ],
       "recordIds": [
-        "pg-66919",
-        "pg-6746"
+        "pg-66919"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -6421,23 +6417,22 @@
     },
     {
       "id": "baltic.week01.day05.european-variants",
-      "version": 1,
+      "version": 2,
       "pantheon": "baltic",
-      "title": "European variants",
+      "title": "Betrayal, Healing, and Return",
       "weekId": "baltic.tradition.week01",
       "tags": [
         "baltic",
         "tradition"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-05-european-variants.json",
       "objectiveIds": [
         "obj.baltic.5.concept",
         "obj.baltic.5.source"
       ],
       "recordIds": [
-        "pg-66919",
-        "pg-6746"
+        "pg-66919"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -9911,7 +9906,7 @@
       "id": "pg-6746",
       "pantheon": "baltic",
       "title": "The Grey Fairy Book",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "multiregional-fairy-tale-anthology",
       "sourceIds": [
         "baltic.fairy-variants"
       ],
@@ -9923,7 +9918,7 @@
       "id": "pg-66919",
       "pantheon": "baltic",
       "title": "Fairy Tales From Far and Near",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "modern-folktale-retelling",
       "sourceIds": [
         "baltic.fairy-tales-far-near"
       ],

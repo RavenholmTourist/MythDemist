@@ -1,13 +1,13 @@
 {
   "id": "baltic.week01.day05.european-variants",
-  "version": 1,
+  "version": 2,
   "weekId": "baltic.tradition.week01",
   "pantheon": "baltic",
   "themeMode": "pantheon",
-  "title": "European variants",
-  "subtitle": "Source-linked baltic starter lesson",
+  "title": "Betrayal, Healing, and Return",
+  "subtitle": "The animals rescue the prince",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "baltic",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.baltic.5.concept",
-      "text": "Identify the main idea in European variants."
+      "text": "Who fetches the healing flasks for the wounded prince?"
     },
     {
       "id": "obj.baltic.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does the bear do with the ointment?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-6746",
-      "sourceId": "baltic.fairy-variants",
-      "work": "The Grey Fairy Book",
-      "author": "various European traditions",
-      "translator": "Andrew Lang",
-      "locator": "European variants",
-      "localPath": "content/corpus/baltic/primary/grey-fairy-book-6746.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
+    "betrayal": {
       "recordId": "pg-66919",
       "sourceId": "baltic.fairy-tales-far-near",
       "work": "Fairy Tales From Far and Near",
-      "author": "various traditions",
-      "translator": "Katherine Pyle",
-      "locator": "European variants",
+      "author": "Katherine Pyle",
+      "translator": "not applicable; authored in English",
+      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 15869-17001",
       "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "But after they had driven on and left the Prince lying there, the faithful animals did not desert him. They stayed beside him and mourned over him, and the lion licked his face and hands, but it could not revive him. Then the fox, which was very clever, reminded the animals of the flasks of ointment and healing water in the robbers’ house. The hare, which was very swift, said it would go and fetch the flasks, and it sped away to get them. Now the stepsister had wept the bowl full of tears of repentance and was free again; and when the hare came to the door and told her what it wanted, she gladly gave it the flasks and hung them about its neck in a little wicker basket. Then the hare fled back again to where the animals were waiting beside the Prince. With its tusks the boar broke the flask that held the ointment, and the bear rubbed it on the Prince’s wounds so that they were healed. Then they poured some drops from the second bottle between his lips, and the color came back to his cheeks and the light to his eyes. When they gave him to drink from the third bottle, he became quite well again and stronger than ever.",
+      "evidenceType": "quotation",
+      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "European variants",
-      "body": "European variants is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "The prince is betrayed",
+      "body": "On the way to the palace, two nobles kill the prince and threaten the princess into silence so one of them can claim the reward.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
         "obj.baltic.5.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The animals stay",
+      "body": "Quotation from Pyle's English retelling (whitespace normalized): “But after they had driven on and left the Prince lying there, the faithful animals did not desert him. They stayed beside him and mourned over him, and the lion licked his face and hands, but it could not revive him. Then the fox, which was very clever, reminded the animals of the flasks of ointment and healing water in the robbers’ house. The hare, which was very swift, said it would go and fetch the flasks, and it sped away to get them. Now the stepsister had wept the bowl full of tears of repentance and was free again; and when the hare came to the door and told her what it wanted, she gladly gave it the flasks and hung them about its neck in a little wicker basket. Then the hare fled back again to where the animals were waiting beside the Prince. With its tusks the boar broke the flask that held the ointment, and the bear rubbed it on the Prince’s wounds so that they were healed. Then they poured some drops from the second bottle between his lips, and the color came back to his cheeks and the light to his eyes. When they gave him to drink from the third bottle, he became quite well again and stronger than ever.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
-        "obj.baltic.5.source"
+        "obj.baltic.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Medicine brings him back",
+      "body": "The animals mourn beside the prince. The fox remembers healing supplies at the robbers' house; the hare fetches them, and the bear treats the wounds.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
-        "obj.baltic.5.source"
+        "obj.baltic.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A tale's sequence, not historical testimony",
+      "body": "This is one written Lithuanian-labeled story in Pyle's children's collection. Its healing water and animal helpers support claims about this plot only.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
         "obj.baltic.5.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A promise is finally fulfilled",
+      "body": "The rescued prince can continue to the palace, where the story's earlier rescue and betrayal are brought to light.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
         "obj.baltic.5.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should European variants be introduced?",
+      "prompt": "Who fetches the healing flasks for the wounded prince?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "The dragon"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "The stepsister"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "The hare"
         }
       ],
-      "answerId": "a",
-      "explanation": "European variants is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The hare runs to the robbers' house and returns with the flasks.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
         "obj.baltic.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "betrayal"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does the bear do with the ointment?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Pours it into the sea"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Rubs it on the prince's wounds"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Uses it to turn the nobles to stone"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The passage says the bear rubs the ointment on the prince's wounds.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "betrayal"
       ],
       "objectiveIds": [
         "obj.baltic.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What does the collection not tell us about the tale's original source?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "betrayal"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "One Lithuanian-labeled tale as retold by Katherine Pyle; this is not a survey of Baltic traditions and the original source/informant is unspecified."
   }
 }

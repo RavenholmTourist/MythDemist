@@ -1,13 +1,13 @@
 {
   "id": "inuit.week01.day03.animal-helpers",
-  "version": 1,
+  "version": 2,
   "weekId": "inuit.tradition.week01",
   "pantheon": "inuit",
   "themeMode": "pantheon",
-  "title": "Animal helpers",
-  "subtitle": "Source-linked inuit starter lesson",
+  "title": "The Woman and Her Bear Foster-Son",
+  "subtitle": "An animal becomes part of a household",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "inuit",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.inuit.3.concept",
-      "text": "Identify the main idea in Animal helpers."
+      "text": "What does the old woman feed the bear cub?"
     },
     {
       "id": "obj.inuit.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does the old woman tell the bear to remember when playing with children?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "bear": {
       "recordId": "pg-28932",
       "sourceId": "inuit.folk-tales",
       "work": "Eskimo Folk-Tales",
-      "author": "Inuit traditions",
-      "translator": "Knud Rasmussen",
-      "locator": "Animal helpers",
+      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+      "translator": "W. J. Alexander Worster",
+      "locator": "The Woman Who Had A Bear As A Foster-Son; The Woman Who Had A Bear As A Foster-Son, normalized characters 394-1594",
       "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-24569",
-      "sourceId": "inuit.tales",
-      "work": "A Treasury of Eskimo Tales",
-      "author": "Inuit traditions",
-      "translator": "Clara K. Bayliss",
-      "locator": "Animal helpers",
-      "localPath": "content/corpus/inuit/primary/treasury-eskimo-tales-24569.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "The old woman received a piece from the ribs as her share, and took it home to her house. After she had come home to her house, the wife of the man who had killed the bear came to the window and said: \"Dear little old woman in there, would you like to have a bear's cub?\" And the old woman went and fetched it, and brought it into her house, shifted her lamp, and placed the cub, because it was frozen, up on to the drying frame to thaw. Suddenly she noticed that it moved a little, and took it down to warm it. Then she roasted some blubber, for she had heard that bears lived on blubber, and in this way she fed it from that time onwards, giving it greaves to eat and melted blubber to drink, and it lay beside her at night. And after it had begun to lie beside her at night it grew very fast, and she began to talk to it in human speech, and thus it gained the mind of a human being, and when it wished to ask its foster-mother for food, it would sniff. The old woman now no longer suffered want, and those living near brought her food for the cub. The children came sometimes to play with it, but then the old woman would say: \"Little bear, remember to sheathe your claws when you play with them.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Animal helpers",
-      "body": "Animal helpers is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A cub comes into the house",
+      "body": "A hunter's household gives an old woman a bear cub. She warms it beside her lamp and feeds it blubber.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
         "obj.inuit.3.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A rule for play",
+      "body": "Quotation from the cited Worster translation (whitespace normalized): “The old woman received a piece from the ribs as her share, and took it home to her house. After she had come home to her house, the wife of the man who had killed the bear came to the window and said: \"Dear little old woman in there, would you like to have a bear's cub?\" And the old woman went and fetched it, and brought it into her house, shifted her lamp, and placed the cub, because it was frozen, up on to the drying frame to thaw. Suddenly she noticed that it moved a little, and took it down to warm it. Then she roasted some blubber, for she had heard that bears lived on blubber, and in this way she fed it from that time onwards, giving it greaves to eat and melted blubber to drink, and it lay beside her at night. And after it had begun to lie beside her at night it grew very fast, and she began to talk to it in human speech, and thus it gained the mind of a human being, and when it wished to ask its foster-mother for food, it would sniff. The old woman now no longer suffered want, and those living near brought her food for the cub. The children came sometimes to play with it, but then the old woman would say: \"Little bear, remember to sheathe your claws when you play with them.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
-        "obj.inuit.3.source"
+        "obj.inuit.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "The cub learns restraint",
+      "body": "The story says the bear grows quickly and joins the children at play. The old woman reminds it to sheath its claws.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
-        "obj.inuit.3.source"
+        "obj.inuit.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "One named Greenland tale",
+      "body": "This passage comes from Rasmussen's collection and Worster's English version. Do not turn this single narrative into a universal statement about Inuit relationships with bears.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
         "obj.inuit.3.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Kinship across species in this story",
+      "body": "The title calls the animal a foster-son; the narrative focuses on care, food, and limits during play.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
         "obj.inuit.3.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Animal helpers be introduced?",
+      "prompt": "What does the old woman feed the bear cub?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Berries and cinnamon"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Yams and peppers"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Greaves and melted blubber"
         }
       ],
-      "answerId": "a",
-      "explanation": "Animal helpers is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The story says she feeds it greaves and melted blubber.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
         "obj.inuit.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "bear"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does the old woman tell the bear to remember when playing with children?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "To leave the village before sunrise"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "To sheath its claws"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "To hide its food in a tree"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "She tells the cub to sheath its claws while playing with the children.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bear"
       ],
       "objectiveIds": [
         "obj.inuit.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "bear"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Greenland-specific tale revisions; independent community, translation, source-history, and pedagogical review remains pending."
   }
 }

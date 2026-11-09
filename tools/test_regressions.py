@@ -672,6 +672,39 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(front['evidenceType'], 'editorial-note')
         self.assertIn('Gold Coast peoples', front['text'])
 
+    def test_inuit_starter_pack_is_scoped_to_rasmussens_greenland_collection(self):
+        files = sorted((ROOT / 'content/lessons/inuit').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-28932'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('willow bushes', titles['The Coming of Men'].lower())
+        self.assertIn('bear', titles['The Woman and Her Bear Foster-Son'].lower())
+        self.assertIn('underworld', titles['Kúnigseq Visits the Land of Shades'].lower())
+        self.assertIn('raven', titles['The Raven and the Goose'].lower())
+        self.assertIn('star', titles['The Man Who Became a Star'].lower())
+        bayliss = next(item for item in json.loads((ROOT / 'content/corpus/inuit/manifest.json').read_text(encoding='utf-8'))['records'] if item['id'] == 'pg-24569')
+        self.assertIn('Central Inuit and Bering Strait', bayliss['notes'])
+
+    def test_rasmussen_parser_labels_greenland_stories_and_excludes_intro(self):
+        segments = source_segments(ROOT / 'content/corpus/inuit/primary/eskimo-folk-tales-28932.txt')
+        origin = next(s for s in segments if s['locator'] == 'The Coming Of Men, A Long, Long While Ago')
+        self.assertIn('little children came out of the earth', origin['text'].lower())
+        raven = next(s for s in segments if s['locator'] == 'The Raven And The Goose')
+        self.assertIn('simply splashed it black all over', raven['text'])
+        intro = next(s for s in segments if s['locator'] == 'Rasmussen edition · introduction and contents')
+        self.assertEqual(intro['evidenceType'], 'editorial-note')
+        self.assertIn('various parts of Greenland', intro['text'])
+
 
 if __name__ == '__main__':
     unittest.main()

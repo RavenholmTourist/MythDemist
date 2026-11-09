@@ -1,13 +1,13 @@
 {
   "id": "inuit.week01.day04.moon-tides-and-danger",
-  "version": 1,
+  "version": 2,
   "weekId": "inuit.tradition.week01",
   "pantheon": "inuit",
   "themeMode": "pantheon",
-  "title": "Moon, tides, and danger",
-  "subtitle": "Source-linked inuit starter lesson",
+  "title": "Kúnigseq Visits the Land of Shades",
+  "subtitle": "A visitor must not eat the underworld berries",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "inuit",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.inuit.4.concept",
-      "text": "Identify the main idea in Moon, tides, and danger."
+      "text": "What warning does Kúnigseq's helping spirit give about the berries?"
     },
     {
       "id": "obj.inuit.4.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What does Kúnigseq say after seeing his dead family?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "visit": {
       "recordId": "pg-28932",
       "sourceId": "inuit.folk-tales",
       "work": "Eskimo Folk-Tales",
-      "author": "Inuit traditions",
-      "translator": "Knud Rasmussen",
-      "locator": "Moon, tides, and danger",
+      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+      "translator": "W. J. Alexander Worster",
+      "locator": "Kúnigseq; Kúnigseq, normalized characters 9-1440",
       "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-24569",
-      "sourceId": "inuit.tales",
-      "work": "A Treasury of Eskimo Tales",
-      "author": "Inuit traditions",
-      "translator": "Clara K. Bayliss",
-      "locator": "Moon, tides, and danger",
-      "localPath": "content/corpus/inuit/primary/treasury-eskimo-tales-24569.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "There was once a wizard whose name was Kúnigseq. One day, when he was about to call on his helping spirits and make a flight down into the underworld, he gave orders that the floor should be swilled with salt water, to take off the evil smell which might otherwise frighten his helping spirits away. Then he began to call upon his helping spirits, and without moving his body, began to pass downward through the floor. And down he went. On his way he came to a reef, which was covered with weed, and therefore so slippery that none could pass that way. And as he could not pass, his helping spirit lay down beside him, and by placing his foot upon the spirit, he was able to pass. And on he went, and came to a great slope covered with heather. Far down in the underworld, men say, the land is level, and the hills are small; there is sun down there, and the sky is also like that which we see from the earth. Suddenly he heard one crying: \"Here comes Kúnigseq.\" By the side of a little river he saw some children looking for greyfish. And before he had reached the houses of men, he met his mother, who had gone out to gather berries. When he came up to her, she tried again and again to kiss him, but his helping spirit thrust her aside. \"He is only here on a visit,\" said the spirit. Then she offered him some berries, and these he was about to put in his mouth, when the spirit said: \"If you eat of them, you will never return.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Moon, tides, and danger",
-      "body": "Moon, tides, and danger is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A journey below the floor",
+      "body": "Kúnigseq calls his helping spirits and travels down into the underworld, where he meets his dead mother.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
         "obj.inuit.4.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "A warning at the boundary",
+      "body": "Quotation from the cited Worster translation (whitespace normalized): “There was once a wizard whose name was Kúnigseq. One day, when he was about to call on his helping spirits and make a flight down into the underworld, he gave orders that the floor should be swilled with salt water, to take off the evil smell which might otherwise frighten his helping spirits away. Then he began to call upon his helping spirits, and without moving his body, began to pass downward through the floor. And down he went. On his way he came to a reef, which was covered with weed, and therefore so slippery that none could pass that way. And as he could not pass, his helping spirit lay down beside him, and by placing his foot upon the spirit, he was able to pass. And on he went, and came to a great slope covered with heather. Far down in the underworld, men say, the land is level, and the hills are small; there is sun down there, and the sky is also like that which we see from the earth. Suddenly he heard one crying: \"Here comes Kúnigseq.\" By the side of a little river he saw some children looking for greyfish. And before he had reached the houses of men, he met his mother, who had gone out to gather berries. When he came up to her, she tried again and again to kiss him, but his helping spirit thrust her aside. \"He is only here on a visit,\" said the spirit. Then she offered him some berries, and these he was about to put in his mouth, when the spirit said: \"If you eat of them, you will never return.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
-        "obj.inuit.4.source"
+        "obj.inuit.4.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A visit has rules",
+      "body": "His spirit companion says that if Kúnigseq eats the berries, he will never return. The dead mother invites him to stay, but he says he will come back when he dies.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
-        "obj.inuit.4.source"
+        "obj.inuit.4.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Do not infer one uniform afterlife",
+      "body": "This is one Greenland story in Rasmussen's collection, translated and edited by Worster. The title's historical spelling and the story's details belong to this edition and its source context.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
         "obj.inuit.4.source"
@@ -102,11 +88,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "A visit differs from a permanent journey",
+      "body": "The warning about eating marks a boundary between the living visitor and the dead community in this particular tale.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
         "obj.inuit.4.concept"
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Moon, tides, and danger be introduced?",
+      "prompt": "What warning does Kúnigseq's helping spirit give about the berries?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "They will turn him into a raven"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "If he eats them, he will never return"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "They will make the Sun move faster"
         }
       ],
-      "answerId": "a",
-      "explanation": "Moon, tides, and danger is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "The spirit warns that eating the berries will prevent Kúnigseq from returning.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
         "obj.inuit.4.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "visit"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What does Kúnigseq say after seeing his dead family?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "He will come again when he dies"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "He will stay forever in the underworld"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He will take the berries back to the village"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "The story quotes Kúnigseq saying he will come again when he dies.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "visit"
       ],
       "objectiveIds": [
         "obj.inuit.4.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "visit"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Greenland-specific tale revisions; independent community, translation, source-history, and pedagogical review remains pending."
   }
 }

@@ -1,13 +1,13 @@
 {
   "id": "inuit.week01.day05.shamans-and-taboo",
-  "version": 1,
+  "version": 2,
   "weekId": "inuit.tradition.week01",
   "pantheon": "inuit",
   "themeMode": "pantheon",
-  "title": "Shamans and taboo",
-  "subtitle": "Source-linked inuit starter lesson",
+  "title": "The Man Who Became a Star",
+  "subtitle": "A violent story explains a low star in the west",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "inuit",
     "tradition"
@@ -15,46 +15,35 @@
   "learningObjectives": [
     {
       "id": "obj.inuit.5.concept",
-      "text": "Identify the main idea in Shamans and taboo."
+      "text": "Why does the hunter call for the ravine to close?"
     },
     {
       "id": "obj.inuit.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "How does the story end for the old man?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "star": {
       "recordId": "pg-28932",
       "sourceId": "inuit.folk-tales",
       "work": "Eskimo Folk-Tales",
-      "author": "Inuit traditions",
-      "translator": "Knud Rasmussen",
-      "locator": "Shamans and taboo",
+      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+      "translator": "W. J. Alexander Worster",
+      "locator": "The Man Who Became A Star; The Man Who Became A Star, normalized characters 26-1253",
       "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
-    },
-    "ref-secondary": {
-      "recordId": "pg-24569",
-      "sourceId": "inuit.tales",
-      "work": "A Treasury of Eskimo Tales",
-      "author": "Inuit traditions",
-      "translator": "Clara K. Bayliss",
-      "locator": "Shamans and taboo",
-      "localPath": "content/corpus/inuit/primary/treasury-eskimo-tales-24569.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+      "excerpt": "There was once an old man who stood out on the ice waiting for the seal to come up to their breathing holes to breathe. But on the shore, just opposite where he was, a crowd of children were playing in a ravine, and time after time they frightened away a seal just as he was about to harpoon it. At last the old man grew angry with them for thus spoiling his catch, and cried out: \"Close up, Ravine, over those who are spoiling my hunting.\" And at once the hillside closed over those children at play. One of them, who was carrying a little brother, had her fur coat torn. Then they all fell to screaming inside the hill, for they could not come out. And none could bring them food, only water that they were able to pour down a crack, and this they licked up from the sides. At last they all died of hunger. And now the neighbours fell upon that old man who had shut up the children by magic in the hill. He took to flight, and the others ran after him. But all at once he became bright, and rose up to heaven as a great star. We can see it now, in the west, when the lights begin to return after the great darkness. But it is low down, and never climbs high in the sky. And we call it Nâlaussartoq: he who stands and listens.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Shamans and taboo",
-      "body": "Shamans and taboo is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "Children disturb a hunt",
+      "body": "An old hunter becomes angry when children repeatedly frighten seals away from his harpoon. He calls for the ravine to close over them.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.inuit.5.concept"
@@ -63,37 +52,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "An ending among the stars",
+      "body": "Quotation from the cited Worster translation (whitespace normalized): “There was once an old man who stood out on the ice waiting for the seal to come up to their breathing holes to breathe. But on the shore, just opposite where he was, a crowd of children were playing in a ravine, and time after time they frightened away a seal just as he was about to harpoon it. At last the old man grew angry with them for thus spoiling his catch, and cried out: \"Close up, Ravine, over those who are spoiling my hunting.\" And at once the hillside closed over those children at play. One of them, who was carrying a little brother, had her fur coat torn. Then they all fell to screaming inside the hill, for they could not come out. And none could bring them food, only water that they were able to pour down a crack, and this they licked up from the sides. At last they all died of hunger. And now the neighbours fell upon that old man who had shut up the children by magic in the hill. He took to flight, and the others ran after him. But all at once he became bright, and rose up to heaven as a great star. We can see it now, in the west, when the lights begin to return after the great darkness. But it is low down, and never climbs high in the sky. And we call it Nâlaussartoq: he who stands and listens.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
-        "obj.inuit.5.source"
+        "obj.inuit.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A transformation after pursuit",
+      "body": "The story says the old man flees from the neighbours, becomes a bright star, and remains low in the western sky as the lights return after darkness.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
-        "obj.inuit.5.source"
+        "obj.inuit.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Treat the violence plainly",
+      "body": "This collection records a particular Greenland story with a violent outcome. Do not generalize it into a belief shared by all Inuit communities or soften the event into an abstract 'moral.'",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.inuit.5.source"
@@ -102,14 +88,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "The story names a visible star",
+      "body": "The narrator gives the name Nélaussartoq and glosses it as 'he who stands and listens'; keep that attribution within Rasmussen's collection.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
-        "obj.inuit.5.concept"
+        "obj.inuit.5.source"
       ]
     }
   ],
@@ -117,85 +102,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Shamans and taboo be introduced?",
+      "prompt": "Why does the hunter call for the ravine to close?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "They take his berries from the underworld"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "They refuse to play with a bear cub"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Children keep frightening seals away from his hunt"
         }
       ],
-      "answerId": "a",
-      "explanation": "Shamans and taboo is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The story says the children repeatedly frighten a seal just as he is about to harpoon it.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.inuit.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "star"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "How does the story end for the old man?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "He returns as a bear cub"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "He becomes a bright star low in the western sky"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He becomes Raven's wife"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "The final lines say he rises as a star and give its Greenlandic name.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "star"
       ],
       "objectiveIds": [
         "obj.inuit.5.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "star"
         ]
       }
     }
@@ -210,8 +184,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Greenland-specific tale revisions; independent community, translation, source-history, and pedagogical review remains pending."
   }
 }

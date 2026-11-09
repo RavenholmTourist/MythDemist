@@ -1,13 +1,13 @@
 {
   "id": "inuit.week01.day01.the-sea-and-survival",
-  "version": 1,
+  "version": 2,
   "weekId": "inuit.tradition.week01",
   "pantheon": "inuit",
   "themeMode": "pantheon",
-  "title": "The sea and survival",
-  "subtitle": "Source-linked inuit starter lesson",
+  "title": "The Coming of Men",
+  "subtitle": "An origin narrative in a Greenland collection",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "inuit",
     "tradition"
@@ -15,46 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.inuit.1.concept",
-      "text": "Identify the main idea in The sea and survival."
+      "text": "How does the story say children first appeared?"
     },
     {
       "id": "obj.inuit.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What do the two old women disagree about?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "people": {
       "recordId": "pg-28932",
       "sourceId": "inuit.folk-tales",
       "work": "Eskimo Folk-Tales",
-      "author": "Inuit traditions",
-      "translator": "Knud Rasmussen",
-      "locator": "The sea and survival",
+      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+      "translator": "W. J. Alexander Worster",
+      "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 552-1417",
       "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+      "excerpt": "A long, long time ago, when the earth was to be made, it fell down from the sky. Earth, hills and stones, all fell down from the sky, and thus the earth was made. And then, when the earth was made, came men. It is said that they came forth out of the earth. Little children came out of the earth. They came forth from among the willow bushes, all covered with willow leaves. And there they lay among the little bushes: lay and kicked, for they could not even crawl. And they got their food from the earth. Then there is something about a man and a woman, but what of them? It is not clearly known. When did they find each other, and when had they grown up? I do not know. But the woman sewed, and made children's clothes, and wandered forth. And she found little children, and dressed them in the clothes, and brought them home. And in this way men grew to be many.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
     },
-    "ref-secondary": {
-      "recordId": "pg-24569",
-      "sourceId": "inuit.tales",
-      "work": "A Treasury of Eskimo Tales",
-      "author": "Inuit traditions",
-      "translator": "Clara K. Bayliss",
-      "locator": "The sea and survival",
-      "localPath": "content/corpus/inuit/primary/treasury-eskimo-tales-24569.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "light": {
+      "recordId": "pg-28932",
+      "sourceId": "inuit.folk-tales",
+      "work": "Eskimo Folk-Tales",
+      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+      "translator": "W. J. Alexander Worster",
+      "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 1792-3423",
+      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+      "excerpt": "They knew nothing of death in those days, a long, long time ago, and grew to be very old. At last they could not walk, but went blind, and could not lie down. Neither did they know the sun, but lived in the dark. No day ever dawned. Only inside their houses was there ever light, and they burned water in their lamps, for in those days water would burn. But these men who did not know how to die, they grew to be too many, and crowded the earth. And then there came a mighty flood from the sea. Many were drowned, and men grew fewer. We can still see marks of that great flood, on the high hill-tops, where mussel shells may often be found. And now that men had begun to be fewer, two old women began to speak thus: \"Better to be without day, if thus we may be without death,\" said the one. \"No; let us have both light and death,\" said the other. And when the old woman had spoken these words, it was as she had wished. Light came, and death. It is said, that when the first man died, others covered up the body with stones. But the body came back again, not knowing rightly how to die. It stuck out its head from the bench, and tried to get up. But an old woman thrust it back, and said: \"We have much to carry, and our sledges are small.\" For they were about to set out on a hunting journey. And so the dead one was forced to go back to the mound of stones. And now, after men had got light on their earth, they were able to go on journeys, and to hunt, and no longer needed to eat of the earth. And with death came also the sun, moon and stars. For when men die, they go up into the sky and become brightly shining things there.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The sea and survival",
-      "body": "The sea and survival is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A story about how people came",
+      "body": "This Greenland story says that earth, hills, and stones fell from the sky, and that children later came out of the earth among willow bushes.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "people"
       ],
       "objectiveIds": [
         "obj.inuit.1.concept"
@@ -63,37 +64,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Light and death enter the story",
+      "body": "Quotation from the cited Worster translation (whitespace normalized): “They knew nothing of death in those days, a long, long time ago, and grew to be very old. At last they could not walk, but went blind, and could not lie down. Neither did they know the sun, but lived in the dark. No day ever dawned. Only inside their houses was there ever light, and they burned water in their lamps, for in those days water would burn. But these men who did not know how to die, they grew to be too many, and crowded the earth. And then there came a mighty flood from the sea. Many were drowned, and men grew fewer. We can still see marks of that great flood, on the high hill-tops, where mussel shells may often be found. And now that men had begun to be fewer, two old women began to speak thus: \"Better to be without day, if thus we may be without death,\" said the one. \"No; let us have both light and death,\" said the other. And when the old woman had spoken these words, it was as she had wished. Light came, and death. It is said, that when the first man died, others covered up the body with stones. But the body came back again, not knowing rightly how to die. It stuck out its head from the bench, and tried to get up. But an old woman thrust it back, and said: \"We have much to carry, and our sledges are small.\" For they were about to set out on a hunting journey. And so the dead one was forced to go back to the mound of stones. And now, after men had got light on their earth, they were able to go on journeys, and to hunt, and no longer needed to eat of the earth. And with death came also the sun, moon and stars. For when men die, they go up into the sky and become brightly shining things there.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "light"
       ],
       "objectiveIds": [
-        "obj.inuit.1.source"
+        "obj.inuit.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Two old women disagree",
+      "body": "When people crowd the earth, one old woman asks for a world without day if that will prevent death; another asks for both light and death. The story says the latter wish prevails.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "light"
       ],
       "objectiveIds": [
-        "obj.inuit.1.source"
+        "obj.inuit.1.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "A collected Greenland story",
+      "body": "The text was collected by Knud Rasmussen in Greenland and edited into English by W. J. Alexander Worster. Keep this tale within that collection rather than treating it as a pan-Inuit origin account.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "people",
+        "light"
       ],
       "objectiveIds": [
         "obj.inuit.1.source"
@@ -102,14 +101,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Keep the narrator's uncertainty",
+      "body": "The narrator says that parts of the first people's story are not clearly known. Preserve that uncertainty instead of filling gaps with a universal creation system.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "people"
       ],
       "objectiveIds": [
-        "obj.inuit.1.concept"
+        "obj.inuit.1.source"
       ]
     }
   ],
@@ -117,85 +115,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should The sea and survival be introduced?",
+      "prompt": "How does the story say children first appeared?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "They came out of the earth among willow bushes"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "They were made from yellow and white maize"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "They emerged from a wooden boat"
         }
       ],
       "answerId": "a",
-      "explanation": "The sea and survival is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "The text says little children came out of the earth among willow bushes.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "people"
       ],
       "objectiveIds": [
         "obj.inuit.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "people"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What do the two old women disagree about?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "Whether Raven should marry a goose"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "Whether the sea should be inside a mountain"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Whether they should have light and death or avoid death by living without day"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "One woman prefers no day if it means no death; the other wants both light and death.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "light"
       ],
       "objectiveIds": [
         "obj.inuit.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "What Greenland-specific source label is given?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "light"
         ]
       }
     }
@@ -210,8 +197,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Small-tradition starter lesson."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Greenland-specific tale revisions; independent community, translation, source-history, and pedagogical review remains pending."
   }
 }

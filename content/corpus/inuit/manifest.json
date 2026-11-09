@@ -6,34 +6,34 @@
     {
       "id": "pg-28932",
       "title": "Eskimo Folk-Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "field-collected-folklore-translation",
       "ancientAuthors": [
-        "Inuit traditions"
+        "Greenlandic storytellers; collected by Knud Rasmussen"
       ],
-      "translator": "Knud Rasmussen",
+      "translator": "Edited and translated into English by W. J. Alexander Worster",
       "sourceIds": [
         "inuit.folk-tales"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/28932",
       "localPath": "primary/eskimo-folk-tales-28932.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "Stories collected by Rasmussen in various parts of Greenland and selected/edited by Worster for an English popular collection. The book title uses an outdated ethnonym; individual teller provenance is not consistently supplied."
     },
     {
       "id": "pg-24569",
       "title": "A Treasury of Eskimo Tales",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "juvenile-comparative-compilation",
       "ancientAuthors": [
-        "Inuit traditions"
+        "Clara K. Bayliss (modern author)"
       ],
-      "translator": "Clara K. Bayliss",
+      "translator": "not applicable; authored in English",
       "sourceIds": [
         "inuit.tales"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/24569",
       "localPath": "primary/treasury-eskimo-tales-24569.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "Small-tradition corpus record."
+      "notes": "A 1922 juvenile compilation drawing separately on Central Inuit and Bering Strait sources from U.S. Ethnological Reports. These communities should not be collapsed into one generic Inuit tradition."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "id": "inuit.tradition.week01",
-  "title": "Inuit Traditions",
-  "subtitle": "Five source-linked starter lessons",
+  "title": "Greenlandic Stories in Rasmussen's Collection",
+  "subtitle": "Five tales from a 1921 English edition with a defined Greenland scope",
   "pantheon": "inuit",
   "coverageType": "regional-tradition",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "The sea and survival",
+      "title": "The Coming of Men",
       "lessonId": "inuit.week01.day01.the-sea-and-survival",
       "lessonPath": "content/lessons/inuit/tradition/day-01-the-sea-and-survival.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Raven and daylight",
+      "title": "The Woman and Her Bear Foster-Son",
       "lessonId": "inuit.week01.day02.raven-and-daylight",
       "lessonPath": "content/lessons/inuit/tradition/day-02-raven-and-daylight.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Animal helpers",
+      "title": "K\u00fanigseq Visits the Land of Shades",
       "lessonId": "inuit.week01.day03.animal-helpers",
       "lessonPath": "content/lessons/inuit/tradition/day-03-animal-helpers.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Moon, tides, and danger",
+      "title": "The Raven and the Goose",
       "lessonId": "inuit.week01.day04.moon-tides-and-danger",
       "lessonPath": "content/lessons/inuit/tradition/day-04-moon-tides-and-danger.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Shamans and taboo",
+      "title": "The Man Who Became a Star",
       "lessonId": "inuit.week01.day05.shamans-and-taboo",
       "lessonPath": "content/lessons/inuit/tradition/day-05-shamans-and-taboo.json",
       "status": "available"

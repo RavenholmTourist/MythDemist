@@ -459,6 +459,41 @@ def _plain_westervelt_maui_segments(text):
     return segments
 
 
+def _plain_rasmussen_greenland_segments(text):
+    """Split Rasmussen's Greenland collection into named story readings."""
+    segments = []
+    body_markers = list(re.finditer(r"^\s*ESKIMO FOLK-TALES\s*$", text, re.I | re.M))
+    body_marker = body_markers[-1] if body_markers else None
+    end = re.search(r"^\s*NOTES\s*$", text, re.I | re.M)
+    if not body_marker:
+        return segments
+    body_start = body_marker.start()
+    body_end = end.start() if end and end.start() > body_start else len(text)
+    headings = []
+    offset = body_start
+    for line in text[body_start:body_end].splitlines(keepends=True):
+        title = line.strip()
+        if len(title) > 3 and title.isupper() and not re.fullmatch(r"[IVXLCDM]+", title):
+            headings.append((offset, title))
+        offset += len(line)
+    headings = [(position, title) for position, title in headings if title != "ESKIMO FOLK-TALES"]
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if not headings:
+        return segments
+    add(text[:body_start], "Rasmussen edition · introduction and contents", "editorial-note")
+    for index, (position, title) in enumerate(headings):
+        stop = headings[index + 1][0] if index + 1 < len(headings) else body_end
+        add(text[position:stop], title.title(), "source-text")
+    if end:
+        add(text[end.start():], "Rasmussen edition · notes", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -480,6 +515,8 @@ def source_segments(path):
             return _plain_gold_coast_folktale_segments(text)
         if path.name == "legends-ma-ui-westervelt-32601.txt":
             return _plain_westervelt_maui_segments(text)
+        if path.name == "eskimo-folk-tales-28932.txt":
+            return _plain_rasmussen_greenland_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":

@@ -594,11 +594,11 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(commentary['evidenceType'], 'editorial-note')
         self.assertTrue(any(s['locator'] == 'Spence edition · preface and source history' and s['evidenceType'] == 'editorial-note' for s in segments))
 
-    def test_yoruba_pack_stays_planned_until_community_specific_sources_exist(self):
+    def test_yoruba_pack_uses_yoruba_specific_sources_not_incidental_ones(self):
         registry = json.loads((ROOT / 'content/pantheons.json').read_text(encoding='utf-8'))
-        self.assertEqual(registry['pantheons']['yoruba']['status'], 'planned')
+        self.assertEqual(registry['pantheons']['yoruba']['status'], 'active')
         gates = json.loads((ROOT / 'content/curriculum/programme-gates.json').read_text(encoding='utf-8'))
-        self.assertNotIn('arc.yoruba-traditions', gates)
+        self.assertEqual(gates['arc.yoruba-traditions']['prerequisiteArcIds'], ['arc.akan-traditions'])
         self.assertEqual(gates['arc.akan-traditions']['prerequisiteArcIds'], ['arc.origins-across-pantheons'])
         manifest = json.loads((ROOT / 'content/corpus/yoruba/manifest.json').read_text(encoding='utf-8'))
         nassau = next(item for item in manifest['records'] if item['id'] == 'pg-38038')
@@ -607,6 +607,53 @@ class RegressionTests(unittest.TestCase):
         self.assertIn('not a Yoruba community source', nassau['notes'])
         self.assertEqual(dayrell['sourceType'], 'folklore-retelling-collection')
         self.assertIn('do not label its tales Yoruba', dayrell['notes'])
+        ellis = next(item for item in manifest['records'] if item['id'] == 'sacred-texts-ellis-1894')
+        ogumefu = next(item for item in manifest['records'] if item['id'] == 'sacred-texts-ogumefu-1929')
+        self.assertEqual(ellis['sourceType'], 'colonial-era-ethnographic-survey')
+        self.assertIn('Yoruba-Speaking Peoples', ellis['title'])
+        self.assertEqual(ogumefu['sourceType'], 'yoruba-authored-legend-collection')
+        self.assertIn('unverified', ogumefu['rightsStatus'])
+        allowed = {'sacred-texts-ellis-1894', 'sacred-texts-ogumefu-1929'}
+        files = sorted((ROOT / 'content/lessons/yoruba').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        bodies = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertGreaterEqual(lesson['version'], 2, lesson['id'])
+            self.assert_editorially_reviewed(lesson)
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertIn(ref['recordId'], allowed, lesson['id'])
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            bodies[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Long live the King', bodies['Shango, the King Who Became a Storm'])
+        self.assertIn('sixteen palm-nuts', bodies['Ifa and the Secret-Keeper'])
+        self.assertIn('bull-roarer', bodies['Egungun and the Voice of Oro'])
+        self.assertIn('Anansi', bodies['Tortoise the Boaster'])
+        self.assertIn('Akiti', bodies['Why the Bat Hides by Day'])
+
+    def test_yoruba_segmenters_split_ellis_chapters_and_ogumefu_legends(self):
+        ellis = source_segments(ROOT / 'content/corpus/yoruba/primary/yoruba-speaking-peoples-ellis-1894.txt')
+        locators = {s['locator'] for s in ellis}
+        self.assertIn('Chapter II · CHIEF GODS', locators)
+        self.assertIn('Chapter XIV · FOLK-LORE TALES', locators)
+        # Chapters X-XII are listed in the contents but were never transcribed;
+        # the contents page must not open phantom segments for them.
+        self.assertNotIn('Chapter X · SYSTEM OF GOVERNMENT', locators)
+        self.assertEqual(sum(1 for s in ellis if s['evidenceType'] == 'source-text'), 12)
+        chief = next(s for s in ellis if s['locator'] == 'Chapter II · CHIEF GODS')
+        self.assertIn('One who sees the cult', chief['text'])
+        ogumefu = source_segments(ROOT / 'content/corpus/yoruba/primary/yoruba-legends-ogumefu-1929.txt')
+        legends = [s for s in ogumefu if s['locator'].startswith('Legend ')]
+        self.assertEqual(len(legends), 40)
+        thunder = next(s for s in ogumefu if s['locator'].startswith('Legend VI'))
+        self.assertIn('Long live the King', thunder['text'])
+        preface = next(s for s in ogumefu if s['locator'] == 'Preface')
+        self.assertEqual(preface['evidenceType'], 'source-text')
+        divider = next(s for s in ogumefu if s['locator'] == 'Section divider · STORIES OF TORTOISE')
+        self.assertEqual(divider['evidenceType'], 'editorial-note')
 
     def test_polynesian_starter_pack_keeps_maui_versions_island_labeled(self):
         files = sorted((ROOT / 'content/lessons/polynesian').rglob('*.json'))

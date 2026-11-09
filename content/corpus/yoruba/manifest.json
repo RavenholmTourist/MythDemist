@@ -34,6 +34,38 @@
       "localPath": "primary/folk-stories-southern-nigeria-34655.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
       "notes": "A colonial-era English collection titled for Southern Nigeria that does not consistently identify the specific community for each story; do not label its tales Yoruba without additional provenance."
+    },
+    {
+      "id": "sacred-texts-ellis-1894",
+      "title": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "sourceType": "colonial-era-ethnographic-survey",
+      "ancientAuthors": [
+        "A. B. Ellis (modern author)"
+      ],
+      "translator": "not applicable; authored in English by A. B. Ellis",
+      "sourceIds": [
+        "yoruba.ellis-survey"
+      ],
+      "sourceUrl": "https://sacred-texts.com/afr/yor/index.htm",
+      "localPath": "primary/yoruba-speaking-peoples-ellis-1894.txt",
+      "rightsStatus": "First published 1894; public domain in the United States. Transcription via the Internet Sacred Text Archive; preserve attribution.",
+      "notes": "Ellis was a British colonial officer; this 1894 survey is specifically about the Yoruba-speaking peoples of the Slave Coast, unlike Nassau's wider synthesis. It remains colonial-era ethnography with dated interpretations: attribute claims to Ellis's report, keep his comparative and evolutionary frameworks visible as commentary, and do not treat it as community testimony. The transcription omits chapters X-XII (government, laws, language)."
+    },
+    {
+      "id": "sacred-texts-ogumefu-1929",
+      "title": "Yoruba Legends",
+      "sourceType": "yoruba-authored-legend-collection",
+      "ancientAuthors": [
+        "Yoruba storytellers; collected and published in English by M. I. Ogumefu"
+      ],
+      "translator": "not applicable; authored in English by M. I. Ogumefu",
+      "sourceIds": [
+        "yoruba.ogumefu-legends"
+      ],
+      "sourceUrl": "https://sacred-texts.com/afr/yl/index.htm",
+      "localPath": "primary/yoruba-legends-ogumefu-1929.txt",
+      "rightsStatus": "First published 1929; public domain in the United States as a pre-1930 work. Author's death date is unverified, so review UK/EU reuse before redistribution. Transcription via the Internet Sacred Text Archive; preserve attribution.",
+      "notes": "A Yoruba-authored English collection of forty legends, explicitly framed by Ogumefu as belonging to \"the Yoruba country of Southern Nigeria.\" The preface shows a mission-era Christian framing alongside pride in the tales; keep both visible. Nine tales form a dedicated Tortoise cycle."
     }
   ]
 }

@@ -631,6 +631,75 @@ def _plain_webster_basque_segments(text):
     return segments
 
 
+def _plain_ellis_yoruba_segments(text):
+    """Scope Ellis's 1894 Yoruba survey to its transcribed chapters.
+
+    The contents page repeats every chapter heading (including chapters X-XII,
+    which the archive did not transcribe), so a CHAPTER line only opens a
+    segment when the next non-empty line is not another CHAPTER entry."""
+    chapters = []
+    # Body headings end with a period; contents-page entries do not.
+    for match in re.finditer(r"(?m)^CHAPTER ([IVXLC]+)\. (.+?)\.\s*$", text):
+        rest = text[match.end():]
+        next_line = next((line.strip() for line in rest.splitlines() if line.strip()), "")
+        if next_line.startswith("CHAPTER "):
+            continue
+        chapters.append((match.start(), match.group(1), match.group(2).rstrip(".").strip()))
+    if not chapters:
+        return []
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    add(text[:chapters[0][0]], "Ellis edition · title page and contents", "editorial-note")
+    for index, (position, number, title) in enumerate(chapters):
+        stop = chapters[index + 1][0] if index + 1 < len(chapters) else len(text)
+        add(text[position:stop], f"Chapter {number} · {title}", "source-text")
+    return segments
+
+
+def _plain_yoruba_legends_segments(text):
+    """Split Ogumefu's 1929 collection into its forty named legends.
+
+    Body headings read "IX ORISA OKO"; the contents page writes the same titles
+    as "IX.TITLE<page>" without a space, so it cannot open a false boundary.
+    Ogumefu's own preface remains quotable source text, while the title page,
+    contents, and the STORIES OF TORTOISE divider are editorial apparatus."""
+    boundaries = [
+        (match.start(), f"Legend {match.group(1)} · {match.group(2).strip()}", "source-text")
+        for match in re.finditer(r"(?m)^([IVXLC]{1,7}) ([A-Z][A-Z0-9 .,'\"()\u2018\u2019\u201c\u201d\-!?]+)\s*$", text)
+    ]
+    divider = re.search(r"(?m)^STORIES OF TORTOISE\s*$", text)
+    if divider:
+        boundaries.append((divider.start(), "Section divider · STORIES OF TORTOISE", "editorial-note"))
+    boundaries.sort()
+    if not boundaries:
+        return []
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    front = text[:boundaries[0][0]]
+    preface = re.search(r"(?m)^PREFACE\s*$", front)
+    contents = re.search(r"(?m)^CONTENTS\s*$", front)
+    if preface and contents and preface.start() < contents.start():
+        add(front[:preface.start()], "Ogumefu edition · title page", "editorial-note")
+        add(front[preface.start():contents.start()], "Preface", "source-text")
+        add(front[contents.start():], "Ogumefu edition · contents", "editorial-note")
+    else:
+        add(front, "Ogumefu edition · front matter", "editorial-note")
+    for index, (position, locator, kind) in enumerate(boundaries):
+        stop = boundaries[index + 1][0] if index + 1 < len(boundaries) else len(text)
+        add(text[position:stop], locator, kind)
+    return segments
+
+
 def _plain_mooney_cherokee_segments(text):
     """Separate Mooney's numbered Cherokee narratives from his ethnographic apparatus."""
     starts = list(re.finditer(r"(?m)^\s*V--THE MYTHS\s*$", text, re.I))
@@ -692,6 +761,10 @@ def source_segments(path):
             return _plain_webster_basque_segments(text)
         if path.name == "myths-cherokee-mooney-45634.txt":
             return _plain_mooney_cherokee_segments(text)
+        if path.name == "yoruba-speaking-peoples-ellis-1894.txt":
+            return _plain_ellis_yoruba_segments(text)
+        if path.name == "yoruba-legends-ogumefu-1929.txt":
+            return _plain_yoruba_legends_segments(text)
         if path.name == "popol-vuh-56550.txt":
             return _plain_popol_vuh_spence_segments(text)
         if path.name == "west-african-folk-tales-66923.txt":

@@ -260,7 +260,7 @@
       "id": "yoruba",
       "name": "Yoruba",
       "coverageType": "living-tradition",
-      "status": "planned",
+      "status": "active",
       "visual": {
         "logo": "yoruba-mark",
         "palette": "purple"

@@ -1,13 +1,13 @@
 {
   "id": "yoruba.week01.day03.ancestors-and-community",
-  "version": 1,
+  "version": 2,
   "weekId": "yoruba.tradition.week01",
   "pantheon": "yoruba",
   "themeMode": "pantheon",
-  "title": "Ancestors and community",
-  "subtitle": "Source-linked yoruba starter lesson",
+  "title": "Egungun and the Voice of Oro",
+  "subtitle": "Ancestors and community in a colonial-era report",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "yoruba",
     "tradition"
@@ -15,46 +15,47 @@
   "learningObjectives": [
     {
       "id": "obj.yoruba.3.concept",
-      "text": "Identify the main idea in Ancestors and community."
+      "text": "What does Ellis say the word Egungun means?"
     },
     {
       "id": "obj.yoruba.3.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "In Ellis's account, what produces the voice of Oro?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-38038",
-      "sourceId": "yoruba.west-african-religion",
-      "work": "Fetichism in West Africa",
-      "author": "various West African traditions",
-      "translator": "Robert Hamill Nassau",
-      "locator": "Ancestors and community",
-      "localPath": "content/corpus/yoruba/primary/fetichism-west-africa-nassau-38038.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+    "egungun": {
+      "recordId": "sacred-texts-ellis-1894",
+      "sourceId": "yoruba.ellis-survey",
+      "work": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "author": "A. B. Ellis",
+      "translator": "not applicable; authored in English by A. B. Ellis",
+      "locator": "Chapter VI · EGUNGUN, ORO, ABIKU, AND VARIOUS SUPERSTITIONS; Chapter VI · EGUNGUN, ORO, ABIKU, AND VARIOUS SUPERSTITIONS, normalized characters 68-1085",
+      "localPath": "content/corpus/yoruba/primary/yoruba-speaking-peoples-ellis-1894.txt",
+      "excerpt": "EGUNGUN really means \"bone,\" hence \"skeleton,\" and Egungun himself is supposed to be a man risen from the dead. The part is acted by a man disguised in a long robe, usually made of grass, and a mask of wood, which generally represents a hideous human face, with a long pointed nose and thin lips, but sometimes the head of an animal. Egungun appears in the streets by day or night indifferently, leaping, dancing, or walking grotesquely, and uttering loud cries. He is supposed to have returned from the land of the dead in order to ascertain what is going on in the land of the living, and his function is to carry away those persons who are troublesome to their neighbors. He may thus be considered a kind of supernatitral inquisitor who appears from time to time to inquire into the general domestic conduct of people, particularly of women, and to punish misdeeds. Although it is very well known that Egungun is only a disguised man, yet it is popularly believed that to touch him, even by accident, causes death.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Ellis's 1894 survey of the Yoruba-speaking peoples. It is colonial-era ethnography: claims belong to Ellis's report, and his comparative and evolutionary framing is commentary, not community testimony."
     },
-    "ref-secondary": {
-      "recordId": "pg-34655",
-      "sourceId": "yoruba.southern-nigeria-folktales",
-      "work": "Folk Stories from Southern Nigeria",
-      "author": "various Nigerian traditions",
-      "translator": "Elphinstone Dayrell",
-      "locator": "Ancestors and community",
-      "localPath": "content/corpus/yoruba/primary/folk-stories-southern-nigeria-34655.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "oro": {
+      "recordId": "sacred-texts-ellis-1894",
+      "sourceId": "yoruba.ellis-survey",
+      "work": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "author": "A. B. Ellis",
+      "translator": "not applicable; authored in English by A. B. Ellis",
+      "locator": "Chapter VI · EGUNGUN, ORO, ABIKU, AND VARIOUS SUPERSTITIONS; Chapter VI · EGUNGUN, ORO, ABIKU, AND VARIOUS SUPERSTITIONS, normalized characters 4082-4651",
+      "localPath": "content/corpus/yoruba/primary/yoruba-speaking-peoples-ellis-1894.txt",
+      "excerpt": "The word Oro means fierceness, tempest, or provocation, and Oro himself appears to be personified executive power. Oro is supposed to haunt the forest in the neighbourhood of towns, and he makes his approach known by a strange, whirring, roaring noise. As soon as this is heard, all women must shut themselves up in their houses, and refrain from looking out on pain of death. The voice of Oro is produced by whirling round and round a thin strip of wood, some 21/2 inches broad, 12 inches long, and tapering at both ends, which is fastened to a stick by a long string.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Ellis's 1894 survey of the Yoruba-speaking peoples. It is colonial-era ethnography: claims belong to Ellis's report, and his comparative and evolutionary framing is commentary, not community testimony."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Ancestors and community",
-      "body": "Ancestors and community is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A figure named for bone",
+      "body": "Ellis reports that Egungun means “bone,” hence “skeleton”: a performer in a long grass robe and wooden mask plays a man risen from the dead.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "egungun"
       ],
       "objectiveIds": [
         "obj.yoruba.3.concept"
@@ -63,37 +64,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The dead inspect the living",
+      "body": "Source quotation (The Yoruba-Speaking Peoples of the Slave Coast of West Africa; whitespace normalized): “EGUNGUN really means \"bone,\" hence \"skeleton,\" and Egungun himself is supposed to be a man risen from the dead. The part is acted by a man disguised in a long robe, usually made of grass, and a mask of wood, which generally represents a hideous human face, with a long pointed nose and thin lips, but sometimes the head of an animal. Egungun appears in the streets by day or night indifferently, leaping, dancing, or walking grotesquely, and uttering loud cries. He is supposed to have returned from the land of the dead in order to ascertain what is going on in the land of the living, and his function is to carry away those persons who are troublesome to their neighbors. He may thus be considered a kind of supernatitral inquisitor who appears from time to time to inquire into the general domestic conduct of people, particularly of women, and to punish misdeeds. Although it is very well known that Egungun is only a disguised man, yet it is popularly believed that to touch him, even by accident, causes death.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "egungun"
       ],
       "objectiveIds": [
-        "obj.yoruba.3.source"
+        "obj.yoruba.3.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "Everyone knows, and still steps back",
+      "body": "Ellis notes it is “very well known” that Egungun is only a disguised man, yet people believe even an accidental touch causes death, and crowds scatter when he rushes toward them.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "egungun"
       ],
       "objectiveIds": [
-        "obj.yoruba.3.source"
+        "obj.yoruba.3.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "An outside reporter's apparatus",
+      "body": "Ellis openly describes the costume, the performer, and the crowd's reaction. That is an 1894 observer explaining how the figure is made, not testimony from inside the institution.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "egungun"
       ],
       "objectiveIds": [
         "obj.yoruba.3.source"
@@ -102,14 +100,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Oro's hidden voice",
+      "body": "In the same chapter Ellis describes Oro as “personified executive power.” Its voice is the whirring roar of a slat of wood spun on a string, a bull-roarer, and women were required to stay indoors when it sounded. Two figures, two different relationships between the community and the unseen.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "oro"
       ],
       "objectiveIds": [
-        "obj.yoruba.3.concept"
+        "obj.yoruba.3.source"
       ]
     }
   ],
@@ -117,85 +114,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Ancestors and community be introduced?",
+      "prompt": "What does Ellis say the word Egungun means?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "Lord of the White Cloth"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "Bone, and so skeleton"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "Thunder-clap"
         }
       ],
-      "answerId": "a",
-      "explanation": "Ancestors and community is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "b",
+      "explanation": "Ellis glosses Egungun as “bone,” hence “skeleton,” suiting a figure “supposed to be a man risen from the dead.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "egungun"
       ],
       "objectiveIds": [
         "obj.yoruba.3.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "egungun"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "In Ellis's account, what produces the voice of Oro?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "A thin strip of wood whirled on a string, a bull-roarer"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "A drum beaten inside a cave"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "The chant of the Oni-Shango priests"
         }
       ],
       "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "explanation": "Ellis says Oro's whirring, roaring voice is made by whirling a tapering strip of wood on a long string, the instrument he calls a bull-roarer.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "oro"
       ],
       "objectiveIds": [
         "obj.yoruba.3.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "oro"
         ]
       }
     }
@@ -209,10 +195,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "needs-revision",
+    "status": "reviewed",
     "reviewedBy": "Devin (AI editorial review)",
     "reviewedAt": "2026-11-09",
     "reviewType": "editorial",
-    "notes": "AI editorial source audit on 2026-11-09: this planned curriculum lacks adequately identified community-specific local evidence. Keep it inactive and revise only after appropriate sources are curated. This is not scholarly certification."
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

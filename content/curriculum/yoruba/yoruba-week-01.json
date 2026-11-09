@@ -1,7 +1,7 @@
 {
   "id": "yoruba.tradition.week01",
-  "title": "Yoruba Source Curation Needed",
-  "subtitle": "Current local books do not provide an adequately identified Yoruba-specific lesson base",
+  "title": "Yoruba Sources: Ellis's Survey and Ogumefu's Legends",
+  "subtitle": "Five lessons bounded by two Yoruba-specific sources: an 1894 colonial-era survey and a 1929 Yoruba-authored legend collection",
   "pantheon": "yoruba",
   "coverageType": "living-tradition",
   "themeMode": "pantheon",
@@ -12,35 +12,35 @@
   "days": [
     {
       "day": 1,
-      "title": "Orishas and living religion",
+      "title": "Shango, the King Who Became a Storm",
       "lessonId": "yoruba.week01.day01.orishas-and-living-religion",
       "lessonPath": "content/lessons/yoruba/tradition/day-01-orishas-and-living-religion.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Divination and destiny",
+      "title": "Ifa and the Secret-Keeper",
       "lessonId": "yoruba.week01.day02.divination-and-destiny",
       "lessonPath": "content/lessons/yoruba/tradition/day-02-divination-and-destiny.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Ancestors and community",
+      "title": "Egungun and the Voice of Oro",
       "lessonId": "yoruba.week01.day03.ancestors-and-community",
       "lessonPath": "content/lessons/yoruba/tradition/day-03-ancestors-and-community.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "Tortoise tales",
+      "title": "Tortoise the Boaster",
       "lessonId": "yoruba.week01.day04.tortoise-tales",
       "lessonPath": "content/lessons/yoruba/tradition/day-04-tortoise-tales.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Animals and moral lessons",
+      "title": "Why the Bat Hides by Day",
       "lessonId": "yoruba.week01.day05.animals-and-moral-lessons",
       "lessonPath": "content/lessons/yoruba/tradition/day-05-animals-and-moral-lessons.json",
       "status": "available"

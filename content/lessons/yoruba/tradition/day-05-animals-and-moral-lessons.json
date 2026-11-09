@@ -1,13 +1,13 @@
 {
   "id": "yoruba.week01.day05.animals-and-moral-lessons",
-  "version": 1,
+  "version": 3,
   "weekId": "yoruba.tradition.week01",
   "pantheon": "yoruba",
   "themeMode": "pantheon",
-  "title": "Animals and moral lessons",
-  "subtitle": "Source-linked yoruba starter lesson",
+  "title": "Why the Bat Hides by Day",
+  "subtitle": "Why-stories and morals in Ogumefu's collection",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "yoruba",
     "tradition"
@@ -15,46 +15,59 @@
   "learningObjectives": [
     {
       "id": "obj.yoruba.5.concept",
-      "text": "Identify the main idea in Animals and moral lessons."
+      "text": "Why do the rats and the birds unite against the Bat?"
     },
     {
       "id": "obj.yoruba.5.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "In Ogumefu's telling, where do the Leopard's spots come from?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-38038",
-      "sourceId": "yoruba.west-african-religion",
-      "work": "Fetichism in West Africa",
-      "author": "various West African traditions",
-      "translator": "Robert Hamill Nassau",
-      "locator": "Animals and moral lessons",
-      "localPath": "content/corpus/yoruba/primary/fetichism-west-africa-nassau-38038.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+    "bat": {
+      "recordId": "sacred-texts-ogumefu-1929",
+      "sourceId": "yoruba.ogumefu-legends",
+      "work": "Yoruba Legends",
+      "author": "Yoruba storytellers; collected and published in English by M. I. Ogumefu",
+      "translator": "not applicable; authored in English by M. I. Ogumefu",
+      "locator": "Legend XI · THE BAT; Legend XI · THE BAT, normalized characters 11-676",
+      "localPath": "content/corpus/yoruba/primary/yoruba-legends-ogumefu-1929.txt",
+      "excerpt": "THE Bat is half a bird and half a rodent, and lives partly on the earth and partly in the air, but both rats and birds shun him, and this is why: The rats, his cousins, were once fighting a great battle with the birds, and Bat fought in their midst. But when he saw that the birds were likely to be victorious, he left the rats and flew up into the air to fight on the side of the birds. Both the rats and the birds were disgusted at this cowardly action, so they ceased from fighting one another and all combined to attack the Bat. Since that day he has been forced to hide in dark places all day, and only comes out in the evening when his enemies cannot see him.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from M. I. Ogumefu's 1929 collection, which his preface describes as belonging to the Yoruba country of Southern Nigeria. It is a Yoruba-authored retelling for readers, not an ethnographic record of practice."
     },
-    "ref-secondary": {
-      "recordId": "pg-34655",
-      "sourceId": "yoruba.southern-nigeria-folktales",
-      "work": "Folk Stories from Southern Nigeria",
-      "author": "various Nigerian traditions",
-      "translator": "Elphinstone Dayrell",
-      "locator": "Animals and moral lessons",
-      "localPath": "content/corpus/yoruba/primary/folk-stories-southern-nigeria-34655.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "leopard": {
+      "recordId": "sacred-texts-ogumefu-1929",
+      "sourceId": "yoruba.ogumefu-legends",
+      "work": "Yoruba Legends",
+      "author": "Yoruba storytellers; collected and published in English by M. I. Ogumefu",
+      "translator": "not applicable; authored in English by M. I. Ogumefu",
+      "locator": "Legend XIX · HOW LEOPARD GOT HIS SPOTS; Legend XIX · HOW LEOPARD GOT HIS SPOTS, normalized characters 485-755",
+      "localPath": "content/corpus/yoruba/primary/yoruba-legends-ogumefu-1929.txt",
+      "excerpt": "But where each arrow struck him, there appeared a dark mark, and now, though hunters still pursue him, he is rarely caught, but his body is covered with the marks of the arrows, so that as he goes among the trees he looks exactly like the mingling of the sun and shadow.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from M. I. Ogumefu's 1929 collection, which his preface describes as belonging to the Yoruba country of Southern Nigeria. It is a Yoruba-authored retelling for readers, not an ethnographic record of practice."
+    },
+    "explain": {
+      "recordId": "sacred-texts-ogumefu-1929",
+      "sourceId": "yoruba.ogumefu-legends",
+      "work": "Yoruba Legends",
+      "author": "Yoruba storytellers; collected and published in English by M. I. Ogumefu",
+      "translator": "not applicable; authored in English by M. I. Ogumefu",
+      "locator": "Preface; Preface, normalized characters 333-493",
+      "localPath": "content/corpus/yoruba/primary/yoruba-legends-ogumefu-1929.txt",
+      "excerpt": "They relate the adventures of men and animals, and try to explain the mysteries of Nature—Why Women have Long Hair, How the Leopard got his Spots, and so forth.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from M. I. Ogumefu's 1929 collection, which his preface describes as belonging to the Yoruba country of Southern Nigeria. It is a Yoruba-authored retelling for readers, not an ethnographic record of practice."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Animals and moral lessons",
-      "body": "Animals and moral lessons is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A deserter in mid-battle",
+      "body": "In Ogumefu's tale, the Bat fights beside his cousins the rats, but when the birds begin to win he flies up and joins their side instead.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bat"
       ],
       "objectiveIds": [
         "obj.yoruba.5.concept"
@@ -63,37 +76,35 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "Both armies turn on him",
+      "body": "Source quotation (Yoruba Legends; whitespace normalized): “THE Bat is half a bird and half a rodent, and lives partly on the earth and partly in the air, but both rats and birds shun him, and this is why: The rats, his cousins, were once fighting a great battle with the birds, and Bat fought in their midst. But when he saw that the birds were likely to be victorious, he left the rats and flew up into the air to fight on the side of the birds. Both the rats and the birds were disgusted at this cowardly action, so they ceased from fighting one another and all combined to attack the Bat. Since that day he has been forced to hide in dark places all day, and only comes out in the evening when his enemies cannot see him.”",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bat"
       ],
       "objectiveIds": [
-        "obj.yoruba.5.source"
+        "obj.yoruba.5.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "A story that explains a habit",
+      "body": "Disgusted by his disloyalty, rats and birds unite against the Bat, who must now hide in dark places all day and only come out in the evening. The moral punishes a traitor; the ending explains a real animal's behaviour.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bat"
       ],
       "objectiveIds": [
-        "obj.yoruba.5.source"
+        "obj.yoruba.5.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "The collector's own description",
+      "body": "Ogumefu writes in his 1929 preface that these legends “relate the adventures of men and animals, and try to explain the mysteries of Nature”, naming the leopard’s spots and women’s long hair as examples. In his leopard tale, every arrow the hunter Akiti fires leaves a dark mark on the Leopard’s coat; the Bat’s nights fit the same why-story pattern.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "explain",
+        "leopard"
       ],
       "objectiveIds": [
         "obj.yoruba.5.source"
@@ -102,14 +113,14 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "Two jobs at once",
+      "body": "These tales explain an animal's feature (spots, night-flying) and judge a character's conduct (cowardice, greed) at the same time. Reading only the moral or only the explanation misses half the design.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bat",
+        "leopard"
       ],
       "objectiveIds": [
-        "obj.yoruba.5.concept"
+        "obj.yoruba.5.source"
       ]
     }
   ],
@@ -117,85 +128,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Animals and moral lessons be introduced?",
+      "prompt": "Why do the rats and the birds unite against the Bat?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "He stole their food stores during the fight"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "He refused to take any side at all"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "He abandoned the rats mid-battle to join the winning side"
         }
       ],
-      "answerId": "a",
-      "explanation": "Animals and moral lessons is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "answerId": "c",
+      "explanation": "The Bat fought with the rats but flew to the birds when they seemed to be winning; both armies, disgusted, joined to attack him.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "bat"
       ],
       "objectiveIds": [
         "obj.yoruba.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "bat"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "In Ogumefu's telling, where do the Leopard's spots come from?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "They are burn marks from a forest fire"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "The dark marks left where Akiti's arrows struck him"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "He painted himself to hide in the forest"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "b",
+      "explanation": "Each of the hunter Akiti's arrows left a dark mark on the Leopard, so his coat now looks like the mingling of sun and shadow.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "leopard"
       ],
       "objectiveIds": [
-        "obj.yoruba.5.source"
+        "obj.yoruba.5.concept"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "leopard"
         ]
       }
     }
@@ -209,10 +209,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "needs-revision",
+    "status": "reviewed",
     "reviewedBy": "Devin (AI editorial review)",
     "reviewedAt": "2026-11-09",
     "reviewType": "editorial",
-    "notes": "AI editorial source audit on 2026-11-09: this planned curriculum lacks adequately identified community-specific local evidence. Keep it inactive and revise only after appropriate sources are curated. This is not scholarly certification."
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

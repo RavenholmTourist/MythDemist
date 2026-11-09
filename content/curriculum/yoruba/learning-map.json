@@ -17,12 +17,12 @@
     }
   ],
   "topics": {
-    "topic.yoruba-living-tradition": {
-      "title": "Orishas and living religion",
-      "body": "Orishas and living religion can be compared only after preserving its own source and regional context.",
+    "topic.yoruba-survey-and-legends": {
+      "title": "Ellis’s survey and Ogumefu’s legends",
+      "body": "Two Yoruba-specific sources with different authority: Ellis’s 1894 colonial-era ethnographic report and Ogumefu’s 1929 Yoruba-authored legend collection. Claims stay attached to whichever book actually supports them.",
       "recordIds": [
-        "pg-38038",
-        "pg-34655"
+        "sacred-texts-ellis-1894",
+        "sacred-texts-ogumefu-1929"
       ],
       "nextTopicIds": [
         "topic.shared.cunning-power",
@@ -30,11 +30,19 @@
       ],
       "cards": [
         {
-          "title": "Local first",
-          "body": "Orishas and living religion belongs first to its own tradition.",
+          "title": "Who wrote it?",
+          "body": "Ellis was a British colonial officer reporting in 1894; Ogumefu was a Yoruba author collecting legends in 1929.",
           "recordIds": [
-            "pg-38038",
-            "pg-34655"
+            "sacred-texts-ellis-1894",
+            "sacred-texts-ogumefu-1929"
+          ]
+        },
+        {
+          "title": "A living tradition",
+          "body": "Yoruba religion is practised today in West Africa and the diaspora; these nineteenth- and early-twentieth-century books are windows, not the whole tradition.",
+          "recordIds": [
+            "sacred-texts-ellis-1894",
+            "sacred-texts-ogumefu-1929"
           ]
         }
       ]

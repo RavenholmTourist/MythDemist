@@ -1,13 +1,13 @@
 {
   "id": "yoruba.week01.day01.orishas-and-living-religion",
-  "version": 1,
+  "version": 2,
   "weekId": "yoruba.tradition.week01",
   "pantheon": "yoruba",
   "themeMode": "pantheon",
-  "title": "Orishas and living religion",
-  "subtitle": "Source-linked yoruba starter lesson",
+  "title": "Shango, the King Who Became a Storm",
+  "subtitle": "A legend and an ethnographer hear the same royal cry",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "yoruba",
     "tradition"
@@ -15,46 +15,59 @@
   "learningObjectives": [
     {
       "id": "obj.yoruba.1.concept",
-      "text": "Identify the main idea in Orishas and living religion."
+      "text": "In Ogumefu's legend, what happens after lightning destroys Sango's palace?"
     },
     {
       "id": "obj.yoruba.1.source",
-      "text": "Keep the claim attached to its source type."
+      "text": "What do people cry when thunder follows lightning, in both Ogumefu's legend and Ellis's report?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-38038",
-      "sourceId": "yoruba.west-african-religion",
-      "work": "Fetichism in West Africa",
-      "author": "various West African traditions",
-      "translator": "Robert Hamill Nassau",
-      "locator": "Orishas and living religion",
-      "localPath": "content/corpus/yoruba/primary/fetichism-west-africa-nassau-38038.txt",
-      "excerpt": "Local corpus source.",
-      "note": "Starter tradition-library reference."
+    "sango": {
+      "recordId": "sacred-texts-ogumefu-1929",
+      "sourceId": "yoruba.ogumefu-legends",
+      "work": "Yoruba Legends",
+      "author": "Yoruba storytellers; collected and published in English by M. I. Ogumefu",
+      "translator": "not applicable; authored in English by M. I. Ogumefu",
+      "locator": "Legend VI · WHY PEOPLE CRY “LONG LIVE THE KING!” WHEN THUNDER FOLLOWS LIGHTNING; Legend VI · WHY PEOPLE CRY “LONG LIVE THE KING!” WHEN THUNDER FOLLOWS LIGHTNING, normalized characters 1261-1513",
+      "localPath": "content/corpus/yoruba/primary/yoruba-legends-ogumefu-1929.txt",
+      "excerpt": "worshipped as the god of thunder and lightning. So, among all the Yorubas, when people see the flash of lightning followed by the sullen roar of thunder, they remember Sango’s rage after the destruction of his palace, and exclaim: “Long live the King!”",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from M. I. Ogumefu's 1929 collection, which his preface describes as belonging to the Yoruba country of Southern Nigeria. It is a Yoruba-authored retelling for readers, not an ethnographic record of practice."
     },
-    "ref-secondary": {
-      "recordId": "pg-34655",
-      "sourceId": "yoruba.southern-nigeria-folktales",
-      "work": "Folk Stories from Southern Nigeria",
-      "author": "various Nigerian traditions",
-      "translator": "Elphinstone Dayrell",
-      "locator": "Orishas and living religion",
-      "localPath": "content/corpus/yoruba/primary/folk-stories-southern-nigeria-34655.txt",
-      "excerpt": "Comparative local corpus source.",
-      "note": "Second source lens."
+    "chant": {
+      "recordId": "sacred-texts-ellis-1894",
+      "sourceId": "yoruba.ellis-survey",
+      "work": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "author": "A. B. Ellis",
+      "translator": "not applicable; authored in English by A. B. Ellis",
+      "locator": "Chapter II · CHIEF GODS; Chapter II · CHIEF GODS, normalized characters 21545-22176",
+      "localPath": "content/corpus/yoruba/primary/yoruba-speaking-peoples-ellis-1894.txt",
+      "excerpt": "A chant of the Oni-Shango very commonly heard is, \"Oh Shango, thou art the master. Thou takest in thy hand thy fiery stones, to punish the guilty and satisfy thine anger. Everything that they strike is destroyed. Their fire eats up the forest, the trees are broken down, and all living creatures are slain;\" and the lay-worshippers of Shango flock into the streets during a thunderstorm crying, \"Shango, Shango, Great King! Shango is the lord and master. In the storm he hurls his fiery stones against his enemies, and their track gleams in the midst of the darkness.\" \"May Shango's stone strike you,\" is a very common imprecation.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Ellis's 1894 survey of the Yoruba-speaking peoples. It is colonial-era ethnography: claims belong to Ellis's report, and his comparative and evolutionary framing is commentary, not community testimony."
+    },
+    "orisha": {
+      "recordId": "sacred-texts-ellis-1894",
+      "sourceId": "yoruba.ellis-survey",
+      "work": "The Yoruba-Speaking Peoples of the Slave Coast of West Africa",
+      "author": "A. B. Ellis",
+      "translator": "not applicable; authored in English by A. B. Ellis",
+      "locator": "Chapter II · CHIEF GODS; Chapter II · CHIEF GODS, normalized characters 1610-2131",
+      "localPath": "content/corpus/yoruba/primary/yoruba-speaking-peoples-ellis-1894.txt",
+      "excerpt": "The term used by the Yoruba tribes to express a superhuman being, or god, is orisha, and as it is used equally to express the images and sacred objects, and also as an adjective with the meaning of sacred or holy, it answers exactly to the Tshi term bohszon, the Gã wong, and the Ewe vodu. The word orisha seems to be compounded of ori (summit, top, head) and sha (to select, choose); though some natives prefer to derive it from ri (to see) and isha (selection, choice), and thus to make it mean \"One who sees the cult.\"",
+      "evidenceType": "quotation",
+      "note": "Verbatim English text from Ellis's 1894 survey of the Yoruba-speaking peoples. It is colonial-era ethnography: claims belong to Ellis's report, and his comparative and evolutionary framing is commentary, not community testimony."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Orishas and living religion",
-      "body": "Orishas and living religion is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "title": "A king's terrible charm",
+      "body": "In Ogumefu's legend, King Sango finds a charm that calls down lightning. He tries it on his own palace; the storm kills his family, his followers desert him, and he ends his life in despair.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sango"
       ],
       "objectiveIds": [
         "obj.yoruba.1.concept"
@@ -63,24 +76,22 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "Source boundary",
-      "body": "This lesson uses local public-domain corpus records; preserve author, translator, collector, and genre boundaries.",
+      "title": "The people remember a king",
+      "body": "Source quotation (Yoruba Legends; whitespace normalized): “worshipped as the god of thunder and lightning. So, among all the Yorubas, when people see the flash of lightning followed by the sullen roar of thunder, they remember Sango’s rage after the destruction of his palace, and exclaim: “Long live the King!””",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sango"
       ],
       "objectiveIds": [
-        "obj.yoruba.1.source"
+        "obj.yoruba.1.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "A second lens",
-      "body": "Compare this source with another record where available, and note whether the tradition is mythic epic, folklore, or living religion.",
+      "kind": "context",
+      "title": "An ethnographer hears the same cry",
+      "body": "Writing in 1894, Ellis reports that Shango's worshippers run into the streets during thunderstorms crying \"Shango, Shango, Great King!\" A legend explains the cry; the survey records it happening.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "chant"
       ],
       "objectiveIds": [
         "obj.yoruba.1.source"
@@ -89,11 +100,11 @@
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read it",
-      "body": "Ask who preserved the story, in what genre, and what a small tradition can safely support without turning it into a generic pantheon.",
+      "title": "Two kinds of book, one custom",
+      "body": "Ogumefu was a Yoruba author publishing legends in 1929; Ellis was a British colonial officer describing religion in 1894. Keep the legend's explanation and the ethnographer's report distinct, and remember Yoruba religion is still practised today.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sango",
+        "chant"
       ],
       "objectiveIds": [
         "obj.yoruba.1.source"
@@ -102,14 +113,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "Connect without flattening",
-      "body": "Use shared themes to compare traditions while keeping source type, region, and living context distinct.",
+      "title": "What orisha means",
+      "body": "Ellis reports that the Yoruba word for a superhuman being or god is orisha, a word also used for sacred images and objects and as an adjective meaning holy. Shango is one orisha among many in his survey.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "orisha"
       ],
       "objectiveIds": [
-        "obj.yoruba.1.concept"
+        "obj.yoruba.1.source"
       ]
     }
   ],
@@ -117,85 +127,76 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How should Orishas and living religion be introduced?",
+      "prompt": "In Ogumefu's legend, what happens after lightning destroys Sango's palace?",
       "choices": [
         {
           "id": "a",
-          "text": "Through its own sources and tradition type"
+          "text": "His friends desert him and he ends his life in despair"
         },
         {
           "id": "b",
-          "text": "A universal pantheon"
+          "text": "He marries the river goddess Oya"
         },
         {
           "id": "c",
-          "text": "A modern novel"
-        },
-        {
-          "id": "d",
-          "text": "No source boundary"
+          "text": "He hides in a cave and becomes a soothsayer"
         }
       ],
       "answerId": "a",
-      "explanation": "Orishas and living religion is introduced through local source material and compared only after its own genre and regional context are clear.",
+      "explanation": "After the palace burns, Sango's followers desert him one by one until, alone, he puts an end to his life; his people then give him an honourable funeral and worship him as god of thunder.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sango"
       ],
       "objectiveIds": [
         "obj.yoruba.1.concept"
       ],
       "deepDive": {
-        "prompt": "Check the local source.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "What source type is this?",
-          "What does it support?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sango"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should remain attached to this lesson?",
+      "prompt": "What do people cry when thunder follows lightning, in both Ogumefu's legend and Ellis's report?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source, genre, and tradition type"
+          "text": "“Oro has spoken!”"
         },
         {
           "id": "b",
-          "text": "Only a character name"
+          "text": "“Egungun walks tonight!”"
         },
         {
           "id": "c",
-          "text": "Only a modern label"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "“Long live the King!”"
         }
       ],
-      "answerId": "a",
-      "explanation": "Small traditions need careful source and living-context labels.",
+      "answerId": "c",
+      "explanation": "Ogumefu ends the legend with people crying “Long live the King!”; Ellis independently records worshippers crying “Shango, Shango, Great King!” in storms.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sango",
+        "chant"
       ],
       "objectiveIds": [
         "obj.yoruba.1.source"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named passage in the cited local source.",
         "suggestedQuestions": [
-          "Pantheon, folklore, or living tradition?"
+          "Which words support this answer?",
+          "Is this passage a legend retold by Ogumefu or a report written by Ellis, and how does that change what it can prove?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sango",
+          "chant"
         ]
       }
     }
@@ -209,10 +210,10 @@
     "want-more-flavor"
   ],
   "review": {
-    "status": "needs-revision",
+    "status": "reviewed",
     "reviewedBy": "Devin (AI editorial review)",
     "reviewedAt": "2026-11-09",
     "reviewType": "editorial",
-    "notes": "AI editorial source audit on 2026-11-09: this planned curriculum lacks adequately identified community-specific local evidence. Keep it inactive and revise only after appropriate sources are curated. This is not scholarly certification."
+    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
   }
 }

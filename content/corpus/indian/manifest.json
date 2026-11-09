@@ -5,9 +5,9 @@
     {
       "id": "pg-19630",
       "title": "Maha-bharata",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "abridged-primary-text-translation",
       "ancientAuthors": [
-        "traditionally Vyasa"
+        "traditionally attributed to Vyasa"
       ],
       "translator": "Romesh Chunder Dutt",
       "sourceIds": [
@@ -16,12 +16,12 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/19630",
       "localPath": "primary/mahabharata-dutt-19630.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "A condensed English verse rendering of the Mahabharata; useful as a literary gateway, not a complete translation."
+      "notes": "Romesh Chunder Dutt's nineteenth-century condensed English verse rendering, translating selected portions of the Sanskrit epic rather than a complete critical text."
     },
     {
       "id": "pg-57265",
       "title": "The R\u0101m\u0101yana, Volume 1",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "ancientAuthors": [
         "Valmiki"
       ],
@@ -32,7 +32,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/57265",
       "localPath": "primary/ramayana-vol1-dutt-57265.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "The first volume of a public-domain English prose translation of Valmiki\u2019s Ramayana."
+      "notes": "Manmatha Nath Dutt's English prose translation of the Balakandam and Ayodhyakandam only; later kandas and regional retellings are outside this volume."
     }
   ]
 }

@@ -448,6 +448,43 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(front_matter['evidenceType'], 'editorial-note')
         self.assertFalse(any(s['locator'] == 'CONTENTS' and s['evidenceType'] == 'source-text' for s in folklore))
 
+    def test_indian_epic_lessons_use_named_books_and_sections(self):
+        files = sorted((ROOT / 'content/lessons/indian').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 4, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('normalized characters', ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('peace', titles["Krishna's Counsel: Peace Before War"].lower())
+        self.assertIn('fourteen years', titles['Rama: Accepting the Exile'].lower())
+        self.assertIn('Sita', titles['Sita: Choosing the Forest'])
+        self.assertIn('Draupadi', titles['The Dice Game: Draupadi Questions the Wager'])
+        self.assertIn('sandals', titles["Bharata: Governing in Rama's Name"])
+        self.assertNotIn('Bhagavad Gita', ' '.join(titles.values()))
+
+    def test_indian_parser_separates_preface_and_scopes_epic_units(self):
+        mahabharata = source_segments(ROOT / 'content/corpus/indian/primary/mahabharata-dutt-19630.txt')
+        dice = next(s for s in mahabharata if s['locator'] == 'Book IV · DYUTA')
+        self.assertIn('Doth a crowned king and husband stake his wife', dice['text'])
+        krishna = next(s for s in mahabharata if s['locator'] == 'Book VII · UDYOGA')
+        self.assertIn('Seek not war and death of kinsmen', krishna['text'])
+        self.assertTrue(any(s['locator'] == 'Dutt edition · preface and introduction' and s['evidenceType'] == 'editorial-note' for s in mahabharata))
+        self.assertFalse(any("TRANSLATOR'S EPILOGUE" in s['text'] for s in mahabharata if s['evidenceType'] == 'source-text'))
+        ramayana = source_segments(ROOT / 'content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt')
+        sita = next(s for s in ramayana if s['locator'] == 'Ayodhyakandam · Section XXVII')
+        self.assertIn('I shall go before thee', sita['text'])
+        sandals = next(s for s in ramayana if s['locator'] == 'Ayodhyakandam · Section CXII')
+        self.assertIn('made over the task of government unto thy sandals', sandals['text'])
+        self.assertFalse(any('THE RAMAYANA IN AN ENGLISH GARB' in s['text'] for s in ramayana if s['evidenceType'] == 'source-text'))
+
 
 if __name__ == '__main__':
     unittest.main()

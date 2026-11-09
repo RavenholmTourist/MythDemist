@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T00:55:11.985968+00:00",
+  "generatedAt": "2026-11-09T01:11:39.988473+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1925,7 +1925,7 @@
     },
     {
       "id": "ind.epics.week01",
-      "title": "Dharma and the Indian Epics",
+      "title": "Indian Epics in Dutt's English Renderings",
       "pantheon": "indian",
       "path": "content/curriculum/indian/indian-week-01.json",
       "dayCount": 5,
@@ -5202,24 +5202,23 @@
     },
     {
       "id": "indian.week01.day01.dharma-duty",
-      "version": 1,
+      "version": 4,
       "pantheon": "indian",
-      "title": "Dharma: Duty Under Pressure",
+      "title": "Krishna's Counsel: Peace Before War",
       "weekId": "ind.epics.week01",
       "tags": [
         "indian",
         "Dharma:",
         "Duty"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/indian/epics/day-01-dharma-duty.json",
       "objectiveIds": [
         "obj.dharma-duty.concept",
         "obj.dharma-duty.sources"
       ],
       "recordIds": [
-        "pg-19630",
-        "pg-57265"
+        "pg-19630"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5237,23 +5236,22 @@
     },
     {
       "id": "indian.week01.day02.rama-exile",
-      "version": 1,
+      "version": 4,
       "pantheon": "indian",
-      "title": "Rama: Exile and Honor",
+      "title": "Rama: Accepting the Exile",
       "weekId": "ind.epics.week01",
       "tags": [
         "indian",
         "Rama:",
         "Exile"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/indian/epics/day-02-rama-exile.json",
       "objectiveIds": [
         "obj.rama-exile.concept",
         "obj.rama-exile.sources"
       ],
       "recordIds": [
-        "pg-19630",
         "pg-57265"
       ],
       "rewardArtId": null,
@@ -5272,23 +5270,22 @@
     },
     {
       "id": "indian.week01.day03.sita-separation",
-      "version": 1,
+      "version": 4,
       "pantheon": "indian",
-      "title": "Sita: Separation and Trial",
+      "title": "Sita: Choosing the Forest",
       "weekId": "ind.epics.week01",
       "tags": [
         "indian",
         "Sita:",
         "Separation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/indian/epics/day-03-sita-separation.json",
       "objectiveIds": [
         "obj.sita-separation.concept",
         "obj.sita-separation.sources"
       ],
       "recordIds": [
-        "pg-19630",
         "pg-57265"
       ],
       "rewardArtId": null,
@@ -5307,24 +5304,23 @@
     },
     {
       "id": "indian.week01.day04.dice-war",
-      "version": 1,
+      "version": 4,
       "pantheon": "indian",
-      "title": "Dice and Catastrophic War",
+      "title": "The Dice Game: Draupadi Questions the Wager",
       "weekId": "ind.epics.week01",
       "tags": [
         "indian",
         "Dice",
         "and"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/indian/epics/day-04-dice-war.json",
       "objectiveIds": [
         "obj.dice-war.concept",
         "obj.dice-war.sources"
       ],
       "recordIds": [
-        "pg-19630",
-        "pg-57265"
+        "pg-19630"
       ],
       "rewardArtId": null,
       "questionCount": 2,
@@ -5342,23 +5338,22 @@
     },
     {
       "id": "indian.week01.day05.krishna-counsel",
-      "version": 1,
+      "version": 4,
       "pantheon": "indian",
-      "title": "Krishna: Counsel and Divine Vision",
+      "title": "Bharata: Governing in Rama's Name",
       "weekId": "ind.epics.week01",
       "tags": [
         "indian",
         "Krishna:",
         "Counsel"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/indian/epics/day-05-krishna-counsel.json",
       "objectiveIds": [
         "obj.krishna-counsel.concept",
         "obj.krishna-counsel.sources"
       ],
       "recordIds": [
-        "pg-19630",
         "pg-57265"
       ],
       "rewardArtId": null,
@@ -10018,7 +10013,7 @@
       "id": "pg-19630",
       "pantheon": "indian",
       "title": "Maha-bharata",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "abridged-primary-text-translation",
       "sourceIds": [
         "ind.mahabharata-dutt"
       ],
@@ -10030,7 +10025,7 @@
       "id": "pg-57265",
       "pantheon": "indian",
       "title": "The R\u0101m\u0101yana, Volume 1",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "primary-text-translation",
       "sourceIds": [
         "ind.ramayana-vol1-dutt"
       ],

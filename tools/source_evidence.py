@@ -237,6 +237,60 @@ def _plain_chinese_segments(path, text):
     return segments
 
 
+def _plain_indian_epic_segments(path, text):
+    """Scope Dutt's English epic renderings to named books and sections."""
+    segments = []
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if path.name == "mahabharata-dutt-19630.txt":
+        books = list(re.finditer(r"^\s*BOOK ([IVXLCDM]+)\s*$", text, re.I | re.M))
+        epilogue = re.search(r"^\s*TRANSLATOR'S EPILOGUE\s*$", text, re.I | re.M)
+        for index, book in enumerate(books):
+            start = book.start()
+            stop = books[index + 1].start() if index + 1 < len(books) else (epilogue.start() if epilogue else len(text))
+            lines = text[book.end():stop].splitlines()
+            title = next((line.strip() for line in lines if line.strip()), "Untitled")
+            add(text[start:stop], f"Book {book.group(1).upper()} · {title}", "source-text")
+        if books:
+            add(text[:books[0].start()], "Dutt edition · preface and introduction", "editorial-note")
+            if epilogue:
+                add(text[epilogue.start():], "Dutt edition · translator's epilogue and back matter", "editorial-note")
+    elif path.name == "ramayana-vol1-dutt-57265.txt":
+        # The front matter repeats both kanda headings in its table of contents;
+        # the final heading occurrence marks the actual translated text.
+        kanda_headers = []
+        for name in ("BALAKANDAM\\.", "AYODHYAKANDAM"):
+            matches = list(re.finditer(r"^\s*" + name + r"\s*$", text, re.I | re.M))
+            if matches:
+                kanda_headers.append(matches[-1])
+        kanda_headers.sort(key=lambda item: item.start())
+        sections = list(re.finditer(r"^\s*SECTION ([IVXLCDM]+)\.?\s*$", text, re.I | re.M))
+        starts = []
+        kanda_index = 0
+        for section in sections:
+            while kanda_index + 1 < len(kanda_headers) and kanda_headers[kanda_index + 1].start() < section.start():
+                kanda_index += 1
+            if kanda_headers and section.start() > kanda_headers[0].start():
+                kanda_name = "Balakandam" if "BALAKANDAM" in kanda_headers[kanda_index].group(0).upper() else "Ayodhyakandam"
+                starts.append((section, kanda_name))
+        for index, (section, kanda) in enumerate(starts):
+            stop = starts[index + 1][0].start() if index + 1 < len(starts) else len(text)
+            locator = f"{kanda} · Section {section.group(1).upper()}"
+            add(text[section.start():stop], locator, "source-text")
+        if starts:
+            add(text[:starts[0][0].start()], "Dutt Ramayana edition · front matter and translator's preface", "editorial-note")
+            end = re.search(r"^\s*\*\*\*\s*END OF THE PROJECT GUTENBERG", text, re.I | re.M)
+            if end and end.start() > starts[-1][0].start():
+                tail = text[end.start():]
+                add(tail, "Dutt Ramayana edition · end matter", "editorial-note")
+
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -248,6 +302,8 @@ def source_segments(path):
             return _plain_mesopotamian_segments(path, text)
         if path.name in {"myths-legends-china-werner-15250.txt", "chinese-folk-lore-tales-macgowan-26070.txt"}:
             return _plain_chinese_segments(path, text)
+        if path.name in {"mahabharata-dutt-19630.txt", "ramayana-vol1-dutt-57265.txt"}:
+            return _plain_indian_epic_segments(path, text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

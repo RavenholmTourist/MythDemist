@@ -1,13 +1,13 @@
 {
   "id": "indian.week01.day05.krishna-counsel",
-  "version": 1,
+  "version": 4,
   "weekId": "ind.epics.week01",
   "pantheon": "indian",
   "themeMode": "pantheon",
-  "title": "Krishna: Counsel and Divine Vision",
-  "subtitle": "Guidance inside moral uncertainty",
+  "title": "Bharata: Governing in Rama's Name",
+  "subtitle": "The sandals become a sign of delegated rule",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "indian",
     "Krishna:",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.krishna-counsel.concept",
-      "text": "Identify the main source-grounded idea in Krishna: Counsel and Divine Vision."
+      "text": "What does Bharata assign the work of government to?"
     },
     {
       "id": "obj.krishna-counsel.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "How long does Bharata vow to wait for Rama?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
-      "recordId": "pg-19630",
-      "sourceId": "ind.mahabharata-dutt",
-      "work": "Maha-bharata",
-      "author": "traditionally Vyasa",
-      "translator": "Romesh Chunder Dutt",
-      "locator": "Primary scaffold source \u2014 Krishna: Counsel and Divine Vision",
-      "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
-      "excerpt": "A condensed English verse rendering of the Mahabharata; useful as a literary gateway, not a complete translation.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
+    "sandals": {
       "recordId": "pg-57265",
       "sourceId": "ind.ramayana-vol1-dutt",
-      "work": "The R\u0101m\u0101yana, Volume 1",
+      "work": "The Rāmāyana, Volume 1",
       "author": "Valmiki",
       "translator": "Manmatha Nath Dutt",
-      "locator": "Comparative corpus source \u2014 Krishna: Counsel and Divine Vision",
+      "locator": "Ayodhyakandam · Section CXII; Ayodhyakandam · Section CXII, normalized characters 3098-3503",
       "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
-      "excerpt": "The first volume of a public-domain English prose translation of Valmiki\u2019s Ramayana.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "Thereupon taking off his sandals, that highly energetic one gave them to the magnanimous Bharata. Bharata, bowing down unto the sandals, said, \"O hero, for four and ten years shall I, wearing matted locks and bark, and subsisting upon fruits and roots, O scion of the Raghu race, expecting thy arrival, remain outside the city, having, O subduer of foes, made over the task of government unto thy sandals.",
+      "evidenceType": "quotation",
+      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "Krishna: Counsel and Divine Vision",
-      "body": "Krishna\u2019s role brings divine counsel into a world where human choices remain painful and consequential.",
+      "title": "Bharata refuses to replace Rama",
+      "body": "In Dutt's Ayodhyakandam, Bharata returns to Rama and asks him to take the throne. Rama's sandals become part of their agreement about who will govern.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
         "obj.krishna-counsel.concept"
@@ -64,35 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "A symbol of delegated rule",
+      "body": "Source quotation (Dutt's English rendering; whitespace normalized): “Thereupon taking off his sandals, that highly energetic one gave them to the magnanimous Bharata. Bharata, bowing down unto the sandals, said, \"O hero, for four and ten years shall I, wearing matted locks and bark, and subsisting upon fruits and roots, O scion of the Raghu race, expecting thy arrival, remain outside the city, having, O subduer of foes, made over the task of government unto thy sandals.”",
       "sourceRefIds": [
-        "ref-primary"
+        "sandals"
       ],
       "objectiveIds": [
-        "obj.krishna-counsel.sources"
+        "obj.krishna-counsel.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "A vow with a time limit",
+      "body": "Bharata says he will remain outside the city in ascetic dress for fourteen years and assign the work of government to the sandals while awaiting Rama's return.",
       "sourceRefIds": [
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
-        "obj.krishna-counsel.sources"
+        "obj.krishna-counsel.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "Keep this within Volume 1",
+      "body": "Dutt's first volume contains the Balakandam and Ayodhyakandam. This episode is a literary account of a specific succession, not evidence that sandals universally signify kingship in Indian practice.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
         "obj.krishna-counsel.sources"
@@ -101,11 +89,10 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "Authority is represented in absence",
+      "body": "The passage shows Bharata acting as steward while treating Rama as the rightful ruler in this version.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
         "obj.krishna-counsel.concept"
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does Krishna bring to the epic?",
+      "prompt": "What does Bharata assign the work of government to?",
       "choices": [
         {
           "id": "a",
-          "text": "Divine counsel inside moral uncertainty"
+          "text": "Krishna's chariot"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "The council's dice"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "Rama's sandals"
         }
       ],
-      "answerId": "a",
-      "explanation": "Krishna\u2019s role brings divine counsel into a world where human choices remain painful and consequential.",
+      "answerId": "c",
+      "explanation": "Bharata says he has made over the task of government to Rama's sandals.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
         "obj.krishna-counsel.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the named book and section in Dutt's translation.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Is this a translation, abridgment, or later retelling?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sandals"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "How long does Bharata vow to wait for Rama?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "One year"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "Fourteen years"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Twelve years"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "b",
+      "explanation": "Bharata says he will wait for four and ten years.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sandals"
       ],
       "objectiveIds": [
         "obj.krishna-counsel.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named book and section in Dutt's translation.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Is this a translation, abridgment, or later retelling?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sandals"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Passage-specific Dutt epic revisions; independent review of Sanskrit source, translation, abridgment, reception, and pedagogy remains pending."
   }
 }

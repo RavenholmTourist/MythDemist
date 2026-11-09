@@ -5,25 +5,25 @@
     {
       "id": "pg-53080",
       "title": "The Myths of Mexico & Peru",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "ancientAuthors": [
-        "various Mesoamerican traditions"
+        "Lewis Spence (modern compiler and author)"
       ],
-      "translator": "Lewis Spence",
+      "translator": "not applicable; authored in English by Lewis Spence",
       "sourceIds": [
         "mes.myths-mexico-peru"
       ],
       "sourceUrl": "https://www.gutenberg.org/ebooks/53080",
       "localPath": "primary/myths-mexico-peru-spence-53080.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "An early 20th-century synthesis covering Mexican and Peruvian traditions; use with awareness of colonial and dated framing."
+      "notes": "An early twentieth-century English synthesis covering multiple Mexican, Maya, and Peruvian traditions. It summarizes and cites older colonial-era sources; it is not a primary-source translation and must not be used to flatten distinct peoples."
     },
     {
       "id": "pg-36386",
       "title": "The Mythologies of Ancient Mexico and Peru",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "ancientAuthors": [
-        "various traditions"
+        "Lewis Spence (modern author)"
       ],
       "translator": "Lewis Spence",
       "sourceIds": [
@@ -32,7 +32,7 @@
       "sourceUrl": "https://www.gutenberg.org/ebooks/36386",
       "localPath": "primary/mythologies-mexico-peru-spence-36386.txt",
       "rightsStatus": "Project Gutenberg public-domain edition; preserve attribution and review UK reuse before redistribution.",
-      "notes": "A shorter early study of Mexican and Peruvian religious systems, useful as a second dated scholarly lens."
+      "notes": "Lewis Spence's shorter early twentieth-century comparative study of Mexican and Peruvian religious systems; dated scholarship, not an Indigenous primary text."
     }
   ]
 }

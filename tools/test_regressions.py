@@ -517,6 +517,41 @@ class RegressionTests(unittest.TestCase):
         volume_one = json.loads((ROOT / 'content/corpus/finnish/manifest.json').read_text(encoding='utf-8'))
         self.assertIn('not an independent witness', next(item for item in volume_one['records'] if item['id'] == 'pg-5184')['notes'])
 
+    def test_mesoamerican_starter_pack_keeps_regional_source_scope(self):
+        files = sorted((ROOT / 'content/lessons/mesoamerican').rglob('*.json'))
+        self.assertEqual(len(files), 5)
+        titles = {}
+        for path in files:
+            lesson = json.loads(path.read_text(encoding='utf-8'))
+            self.assertEqual(lesson['version'], 4, lesson['id'])
+            self.assertEqual(lesson['review']['status'], 'draft', lesson['id'])
+            self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
+            self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-53080'})
+            for ref in lesson['sourceReferences'].values():
+                self.assertEqual(ref.get('evidenceType'), 'quotation', lesson['id'])
+                self.assertIn('Chapter ', ref['locator'])
+                self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
+            titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
+        self.assertIn('Nanahuatl', titles["Nanahuatl: The Sun's Birth"])
+        self.assertIn('Toltec', titles['Quetzalcoatl: Departure from Tollan'])
+        self.assertIn('Coatepec', titles['Huitzilopochtli: Birth and Battle'])
+        self.assertIn('Mictlan', titles['Mictlan: A Journey after Death'])
+        self.assertIn('Nahua', titles['The Mexica Foundation Omen'])
+        self.assertNotIn('all Mesoamerican', ' '.join(titles.values()).lower())
+
+    def test_spence_parser_scopes_mexican_maya_and_peruvian_chapters(self):
+        path = ROOT / 'content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt'
+        segments = source_segments(path)
+        mexica = next(s for s in segments if s['locator'] == 'Chapter II · MEXICAN MYTHOLOGY')
+        self.assertIn('the Centzonuitznaua', mexica['text'])
+        migration = next(s for s in segments if s['locator'] == 'Chapter I · THE CIVILISATION OF MEXICO')
+        self.assertIn('eagle of great size and majesty', migration['text'])
+        maya = next(s for s in segments if s['locator'] == 'Chapter V · MYTHS OF THE MAYA')
+        self.assertNotIn('eagle of great size and majesty', maya['text'])
+        editorial = next(s for s in segments if s['locator'] == 'Spence edition · front matter and contents')
+        self.assertEqual(editorial['evidenceType'], 'editorial-note')
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -1,7 +1,7 @@
 {
   "id": "mes.myth.week01",
-  "title": "Mesoamerican Myth and Sacred Order",
-  "subtitle": "Creation, gods, sacrifice, and underworld journeys",
+  "title": "Central Mexican Stories in Spence's Synthesis",
+  "subtitle": "Mexica and Toltec accounts in a dated English compilation",
   "pantheon": "mesoamerican",
   "themeMode": "pantheon",
   "visual": {
@@ -11,35 +11,35 @@
   "days": [
     {
       "day": 1,
-      "title": "The Five Suns",
+      "title": "Nanahuatl: The Sun's Birth",
       "lessonId": "mesoamerican.week01.day01.five-suns",
       "lessonPath": "content/lessons/mesoamerican/myth/day-01-five-suns.json",
       "status": "available"
     },
     {
       "day": 2,
-      "title": "Quetzalcoatl",
+      "title": "Quetzalcoatl: Departure from Tollan",
       "lessonId": "mesoamerican.week01.day02.quetzalcoatl",
       "lessonPath": "content/lessons/mesoamerican/myth/day-02-quetzalcoatl.json",
       "status": "available"
     },
     {
       "day": 3,
-      "title": "Huitzilopochtli",
+      "title": "Huitzilopochtli: Birth and Battle",
       "lessonId": "mesoamerican.week01.day03.huitzilopochtli",
       "lessonPath": "content/lessons/mesoamerican/myth/day-03-huitzilopochtli.json",
       "status": "available"
     },
     {
       "day": 4,
-      "title": "The Road to Mictlan",
+      "title": "Mictlan: A Journey after Death",
       "lessonId": "mesoamerican.week01.day04.underworld-road",
       "lessonPath": "content/lessons/mesoamerican/myth/day-04-underworld-road.json",
       "status": "available"
     },
     {
       "day": 5,
-      "title": "Sacred Obligation",
+      "title": "The Mexica Foundation Omen",
       "lessonId": "mesoamerican.week01.day05.sacred-obligation",
       "lessonPath": "content/lessons/mesoamerican/myth/day-05-sacred-obligation.json",
       "status": "available"
@@ -48,8 +48,8 @@
   "suggestedTopics": [
     {
       "id": "topic.meso-sacred-order",
-      "title": "Sacrifice and sacred order",
-      "description": "Mesoamerican traditions often connect divine order, human obligation, and costly cosmic maintenance.",
+      "title": "Regional limits matter",
+      "description": "Spence's early synthesis discusses Mexica, Toltec, Maya, and Peruvian materials; these starter episodes name the community and chapter being discussed.",
       "relatedDay": 1,
       "recordIds": [
         "pg-53080",

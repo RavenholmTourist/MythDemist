@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-09T01:19:57.655011+00:00",
+  "generatedAt": "2026-11-09T01:33:25.803211+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1873,7 +1873,7 @@
     },
     {
       "id": "mes.myth.week01",
-      "title": "Mesoamerican Myth and Sacred Order",
+      "title": "Central Mexican Stories in Spence's Synthesis",
       "pantheon": "mesoamerican",
       "path": "content/curriculum/mesoamerican/mesoamerican-week-01.json",
       "dayCount": 5,
@@ -4863,23 +4863,22 @@
     },
     {
       "id": "mesoamerican.week01.day01.five-suns",
-      "version": 1,
+      "version": 4,
       "pantheon": "mesoamerican",
-      "title": "The Five Suns",
+      "title": "Nanahuatl: The Sun's Birth",
       "weekId": "mes.myth.week01",
       "tags": [
         "mesoamerican",
         "The",
         "Five"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-01-five-suns.json",
       "objectiveIds": [
         "obj.five-suns.concept",
         "obj.five-suns.sources"
       ],
       "recordIds": [
-        "pg-36386",
         "pg-53080"
       ],
       "rewardArtId": null,
@@ -4898,22 +4897,21 @@
     },
     {
       "id": "mesoamerican.week01.day02.quetzalcoatl",
-      "version": 1,
+      "version": 4,
       "pantheon": "mesoamerican",
-      "title": "Quetzalcoatl",
+      "title": "Quetzalcoatl: Departure from Tollan",
       "weekId": "mes.myth.week01",
       "tags": [
         "mesoamerican",
         "Quetzalcoatl"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-02-quetzalcoatl.json",
       "objectiveIds": [
         "obj.quetzalcoatl.concept",
         "obj.quetzalcoatl.sources"
       ],
       "recordIds": [
-        "pg-36386",
         "pg-53080"
       ],
       "rewardArtId": null,
@@ -4930,22 +4928,21 @@
     },
     {
       "id": "mesoamerican.week01.day03.huitzilopochtli",
-      "version": 1,
+      "version": 4,
       "pantheon": "mesoamerican",
-      "title": "Huitzilopochtli",
+      "title": "Huitzilopochtli: Birth and Battle",
       "weekId": "mes.myth.week01",
       "tags": [
         "mesoamerican",
         "Huitzilopochtli"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-03-huitzilopochtli.json",
       "objectiveIds": [
         "obj.huitzilopochtli.concept",
         "obj.huitzilopochtli.sources"
       ],
       "recordIds": [
-        "pg-36386",
         "pg-53080"
       ],
       "rewardArtId": null,
@@ -4962,23 +4959,22 @@
     },
     {
       "id": "mesoamerican.week01.day04.underworld-road",
-      "version": 1,
+      "version": 4,
       "pantheon": "mesoamerican",
-      "title": "The Road to Mictlan",
+      "title": "Mictlan: A Journey after Death",
       "weekId": "mes.myth.week01",
       "tags": [
         "mesoamerican",
         "The",
         "Road"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-04-underworld-road.json",
       "objectiveIds": [
         "obj.underworld-road.concept",
         "obj.underworld-road.sources"
       ],
       "recordIds": [
-        "pg-36386",
         "pg-53080"
       ],
       "rewardArtId": null,
@@ -4997,23 +4993,22 @@
     },
     {
       "id": "mesoamerican.week01.day05.sacred-obligation",
-      "version": 1,
+      "version": 4,
       "pantheon": "mesoamerican",
-      "title": "Sacred Obligation",
+      "title": "The Mexica Foundation Omen",
       "weekId": "mes.myth.week01",
       "tags": [
         "mesoamerican",
         "Sacred",
         "Obligation"
       ],
-      "difficulty": 1,
+      "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-05-sacred-obligation.json",
       "objectiveIds": [
         "obj.sacred-obligation.concept",
         "obj.sacred-obligation.sources"
       ],
       "recordIds": [
-        "pg-36386",
         "pg-53080"
       ],
       "rewardArtId": null,
@@ -9960,7 +9955,7 @@
       "id": "pg-53080",
       "pantheon": "mesoamerican",
       "title": "The Myths of Mexico & Peru",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "mes.myths-mexico-peru"
       ],
@@ -9972,7 +9967,7 @@
       "id": "pg-36386",
       "pantheon": "mesoamerican",
       "title": "The Mythologies of Ancient Mexico and Peru",
-      "sourceType": "public-domain-corpus-text",
+      "sourceType": "secondary-synthesis",
       "sourceIds": [
         "mes.mythologies-mexico-peru"
       ],

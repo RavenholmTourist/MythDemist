@@ -1,13 +1,13 @@
 {
   "id": "mesoamerican.week01.day01.five-suns",
-  "version": 1,
+  "version": 4,
   "weekId": "mes.myth.week01",
   "pantheon": "mesoamerican",
   "themeMode": "pantheon",
-  "title": "The Five Suns",
-  "subtitle": "A cosmos made through repeated endings",
+  "title": "Nanahuatl: The Sun's Birth",
+  "subtitle": "A creation episode in Spence's Mexican synthesis",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "mesoamerican",
     "The",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.five-suns.concept",
-      "text": "Identify the main source-grounded idea in The Five Suns."
+      "text": "What happens to Nanahuatl in Spence's account?"
     },
     {
       "id": "obj.five-suns.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "What source is this lesson quoting?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "sun": {
       "recordId": "pg-53080",
       "sourceId": "mes.myths-mexico-peru",
       "work": "The Myths of Mexico & Peru",
-      "author": "various Mesoamerican traditions",
-      "translator": "Lewis Spence",
-      "locator": "Primary scaffold source \u2014 The Five Suns",
+      "author": "Lewis Spence",
+      "translator": "not applicable; authored in English",
+      "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 67893-68294",
       "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "An early 20th-century synthesis covering Mexican and Peruvian traditions; use with awareness of colonial and dated framing.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
-      "recordId": "pg-36386",
-      "sourceId": "mes.mythologies-mexico-peru",
-      "work": "The Mythologies of Ancient Mexico and Peru",
-      "author": "various traditions",
-      "translator": "Lewis Spence",
-      "locator": "Comparative corpus source \u2014 The Five Suns",
-      "localPath": "content/corpus/mesoamerican/primary/mythologies-mexico-peru-spence-36386.txt",
-      "excerpt": "A shorter early study of Mexican and Peruvian religious systems, useful as a second dated scholarly lens.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "The myth of Nanahuatl tells how before the sun was created humanity dwelt in sable and horrid gloom. Only a human sacrifice could hasten the appearance of the luminary. Metztli (The Moon) led forth Nanahuatl as a sacrifice, and he was cast upon a funeral pyre, in the flames of which he was consumed. Metztli also cast herself upon the mass of flame, and with her death the sun rose above the horizon.",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The Five Suns",
-      "body": "Mesoamerican creation traditions often imagine successive worlds, each shaped and ended by divine action.",
+      "title": "A world in darkness",
+      "body": "Spence's account says humanity lived in darkness before the sun appeared. Nanahuatl is led as a sacrifice and cast onto a funeral pyre.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
         "obj.five-suns.concept"
@@ -64,35 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "The sun rises",
+      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “The myth of Nanahuatl tells how before the sun was created humanity dwelt in sable and horrid gloom. Only a human sacrifice could hasten the appearance of the luminary. Metztli (The Moon) led forth Nanahuatl as a sacrifice, and he was cast upon a funeral pyre, in the flames of which he was consumed. Metztli also cast herself upon the mass of flame, and with her death the sun rose above the horizon.”",
       "sourceRefIds": [
-        "ref-primary"
+        "sun"
       ],
       "objectiveIds": [
-        "obj.five-suns.sources"
+        "obj.five-suns.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "The moon also enters the story",
+      "body": "In this version, Metztli also casts herself onto the flames, after which the sun rises. The lesson follows Spence's account rather than merging it with other creation narratives.",
       "sourceRefIds": [
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
-        "obj.five-suns.sources"
+        "obj.five-suns.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "A twentieth-century synthesis",
+      "body": "Lewis Spence's early twentieth-century book summarizes Mexican, Maya, and Peruvian material. This passage is Spence's English account, not a direct translation from a named Nahuatl manuscript.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
         "obj.five-suns.sources"
@@ -101,14 +89,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "Name the tradition in view",
+      "body": "This episode is presented in Spence's Mexican mythology chapter; it is not evidence for every Mesoamerican people or every account of the sun's origin.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
-        "obj.five-suns.concept"
+        "obj.five-suns.sources"
       ]
     }
   ],
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "What does the Five Suns model emphasize?",
+      "prompt": "What happens to Nanahuatl in Spence's account?",
       "choices": [
         {
           "id": "a",
-          "text": "Repeated creation and catastrophe"
+          "text": "He is cast onto a funeral pyre as a sacrifice"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "He escapes by raft to Tlapallan"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "He hides the Sun and Moon in a mountain"
         }
       ],
       "answerId": "a",
-      "explanation": "Mesoamerican creation traditions often imagine successive worlds, each shaped and ended by divine action.",
+      "explanation": "Spence says Metztli leads Nanahuatl to the pyre, where he is consumed.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
         "obj.five-suns.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the named chapter section in Spence's synthesis.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which community or source does this passage name?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sun"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "What source is this lesson quoting?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "A direct translation of one named Nahuatl manuscript"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "A contemporary eyewitness record"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "Lewis Spence's modern English synthesis"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "c",
+      "explanation": "The local source is Spence's early twentieth-century synthesis, not a direct primary-text translation.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "sun"
       ],
       "objectiveIds": [
         "obj.five-suns.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named chapter section in Spence's synthesis.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which community or source does this passage name?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "sun"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Mexica and Toltec passages in Spence's dated synthesis; independent Indigenous, historical, translation, and pedagogical review remains pending."
   }
 }

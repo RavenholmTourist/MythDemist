@@ -319,6 +319,31 @@ def _plain_kalevala_segments(text):
     return segments
 
 
+def _plain_mesoamerican_segments(path, text):
+    """Keep Lewis Spence's regional chapters distinct from his reference matter."""
+    segments = []
+    chapters = list(re.finditer(r"^\s*CHAPTER ([IVXLCDM]+)(?::\s*(.*))?\s*$", text, re.I | re.M))
+    end = re.search(r"^\s*(?:BIBLIOGRAPHY|INDEX AND GLOSSARY)\s*$", text, re.I | re.M)
+
+    def add(value, locator, evidence_type):
+        value = normalize(value)
+        if value:
+            segments.append({"text": value, "locator": locator, "evidenceType": evidence_type})
+
+    if not chapters:
+        return segments
+    for index, chapter in enumerate(chapters):
+        start = chapter.start()
+        stop = chapters[index + 1].start() if index + 1 < len(chapters) else (end.start() if end and end.start() > start else len(text))
+        lines = text[chapter.end():stop].splitlines()
+        title = chapter.group(2).strip() if chapter.group(2) else next((line.strip() for line in lines if line.strip()), "Untitled")
+        add(text[start:stop], f"Chapter {chapter.group(1).upper()} · {title}", "source-text")
+    add(text[:chapters[0].start()], "Spence edition · front matter and contents", "editorial-note")
+    if end:
+        add(text[end.start():], "Spence edition · bibliography and index", "editorial-note")
+    return segments
+
+
 def source_segments(path):
     path = Path(path)
     if path.suffix.lower() != ".xml":
@@ -334,6 +359,8 @@ def source_segments(path):
             return _plain_indian_epic_segments(path, text)
         if path.name in {"kalevala-crawford-5186.txt", "kalevala-vol1-crawford-5184.txt"}:
             return _plain_kalevala_segments(text)
+        if path.name in {"myths-mexico-peru-spence-53080.txt", "mythologies-mexico-peru-spence-36386.txt"}:
+            return _plain_mesoamerican_segments(path, text)
         # Riley's Ovid files include a contents page with Roman-numbered book
         # synopses before the actual "BOOK THE FIRST/SECOND..." text. Prefer
         # those actual headings and keep editorial apparatus out of primary

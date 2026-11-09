@@ -1,13 +1,13 @@
 {
   "id": "mesoamerican.week01.day04.underworld-road",
-  "version": 1,
+  "version": 4,
   "weekId": "mes.myth.week01",
   "pantheon": "mesoamerican",
   "themeMode": "pantheon",
-  "title": "The Road to Mictlan",
-  "subtitle": "Death as a difficult journey",
+  "title": "Mictlan: A Journey after Death",
+  "subtitle": "A posthumous journey in Spence's Mexica chapter",
   "estimatedMinutes": 3,
-  "difficulty": 1,
+  "difficulty": 2,
   "tags": [
     "mesoamerican",
     "The",
@@ -16,46 +16,35 @@
   "learningObjectives": [
     {
       "id": "obj.underworld-road.concept",
-      "text": "Identify the main source-grounded idea in The Road to Mictlan."
+      "text": "What animal accompanies the dead person in Spence's account?"
     },
     {
       "id": "obj.underworld-road.sources",
-      "text": "Distinguish primary, collection, synthesis, folklore, and reception evidence."
+      "text": "Which boundary matters when using this passage?"
     }
   ],
   "sourceReferences": {
-    "ref-primary": {
+    "journey": {
       "recordId": "pg-53080",
       "sourceId": "mes.myths-mexico-peru",
       "work": "The Myths of Mexico & Peru",
-      "author": "various Mesoamerican traditions",
-      "translator": "Lewis Spence",
-      "locator": "Primary scaffold source \u2014 The Road to Mictlan",
+      "author": "Lewis Spence",
+      "translator": "not applicable; authored in English",
+      "locator": "Chapter I · THE CIVILISATION OF MEXICO; Chapter I · THE CIVILISATION OF MEXICO, normalized characters 62370-63137",
       "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "An early 20th-century synthesis covering Mexican and Peruvian traditions; use with awareness of colonial and dated framing.",
-      "note": "Use the named collection/translation and preserve its dated or editorial frame."
-    },
-    "ref-secondary": {
-      "recordId": "pg-36386",
-      "sourceId": "mes.mythologies-mexico-peru",
-      "work": "The Mythologies of Ancient Mexico and Peru",
-      "author": "various traditions",
-      "translator": "Lewis Spence",
-      "locator": "Comparative corpus source \u2014 The Road to Mictlan",
-      "localPath": "content/corpus/mesoamerican/primary/mythologies-mexico-peru-spence-36386.txt",
-      "excerpt": "A shorter early study of Mexican and Peruvian religious systems, useful as a second dated scholarly lens.",
-      "note": "Use as a second source lens; do not blend separate traditions into one canon."
+      "excerpt": "The dead person is given over to the tests which precede entrance to the abode of the dead, the realm of Mictlan, and so that he may not have to meet the perils of the journey in a defenceless condition a sheaf of javelins is bestowed upon him. He first passes between two lofty peaks, which may fall and crush him if he cannot skilfully escape them. A terrible serpent then intercepts his path, and, if he succeeds in defeating this monster, the fierce alligator Xochitonal awaits him. Eight deserts and a corresponding number of mountains have then to be negotiated by the hapless spirit, and a whirlwind sharp as a sword, which cuts even through solid rocks, must be withstood. Accompanied by the shade of his favourite dog, the harassed ghost at length encounters",
+      "evidenceType": "quotation",
+      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
     }
   },
   "narrativeBlocks": [
     {
       "id": "card-01",
       "kind": "context",
-      "title": "The Road to Mictlan",
-      "body": "Mesoamerican underworld traditions imagine death as a dangerous passage, not a simple ending.",
+      "title": "A journey with dangers",
+      "body": "Spence describes a dead person being sent toward Mictlan and facing collapsing peaks, a serpent, an alligator, deserts, mountains, and a sharp whirlwind.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
         "obj.underworld-road.concept"
@@ -64,35 +53,34 @@
     {
       "id": "card-02",
       "kind": "source",
-      "title": "What the first source adds",
-      "body": "The first corpus source gives the broad story-world and vocabulary. Keep its editor, translator, and date in view rather than treating it as a neutral myth file.",
+      "title": "The road to Mictlan",
+      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “The dead person is given over to the tests which precede entrance to the abode of the dead, the realm of Mictlan, and so that he may not have to meet the perils of the journey in a defenceless condition a sheaf of javelins is bestowed upon him. He first passes between two lofty peaks, which may fall and crush him if he cannot skilfully escape them. A terrible serpent then intercepts his path, and, if he succeeds in defeating this monster, the fierce alligator Xochitonal awaits him. Eight deserts and a corresponding number of mountains have then to be negotiated by the hapless spirit, and a whirlwind sharp as a sword, which cuts even through solid rocks, must be withstood. Accompanied by the shade of his favourite dog, the harassed ghost at length encounters”",
       "sourceRefIds": [
-        "ref-primary"
+        "journey"
       ],
       "objectiveIds": [
-        "obj.underworld-road.sources"
+        "obj.underworld-road.concept"
       ]
     },
     {
       "id": "card-03",
-      "kind": "source",
-      "title": "What the second source adds",
-      "body": "The second corpus record gives a different genre, region, or editorial lens. Comparing them helps you see where a tradition is stable and where it varies.",
+      "kind": "context",
+      "title": "A companion for the dead",
+      "body": "In this account, a favourite dog accompanies the ghost through the journey. This is Spence's summary of a source tradition, not a universal Mesoamerican afterlife map.",
       "sourceRefIds": [
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
-        "obj.underworld-road.sources"
+        "obj.underworld-road.concept"
       ]
     },
     {
       "id": "card-04",
       "kind": "method",
-      "title": "How to read this tradition",
-      "body": "Ask who preserved the story, what kind of work it appears in, whether it is primary myth, folklore, synthesis, or reception, and what claim the passage can actually support.",
+      "title": "Do not generalize across peoples",
+      "body": "Spence's discussion is an early twentieth-century synthesis. The location and sequence should be attributed to the Mexican material as he presents it, not generalized to Maya, Peruvian, or all Indigenous traditions.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
         "obj.underworld-road.sources"
@@ -101,14 +89,13 @@
     {
       "id": "card-05",
       "kind": "synthesis",
-      "title": "The cross-pantheon hook",
-      "body": "This gives you a comparative theme, not a blended canon. Keep the source boundary attached while you connect it to other pantheons.",
+      "title": "A source-specific afterlife account",
+      "body": "Read the route as one account within Spence's compilation; keep its monsters, tests, and companion attached to that written framing.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
-        "obj.underworld-road.concept"
+        "obj.underworld-road.sources"
       ]
     }
   ],
@@ -116,85 +103,74 @@
     {
       "id": "q1",
       "type": "single-choice",
-      "prompt": "How does Mictlan frame death?",
+      "prompt": "What animal accompanies the dead person in Spence's account?",
       "choices": [
         {
           "id": "a",
-          "text": "As a difficult journey"
+          "text": "A favourite dog"
         },
         {
           "id": "b",
-          "text": "A single universal myth canon"
+          "text": "A nine-headed serpent"
         },
         {
           "id": "c",
-          "text": "Only modern entertainment"
-        },
-        {
-          "id": "d",
-          "text": "Unrelated historical data"
+          "text": "An eagle carrying a cactus"
         }
       ],
       "answerId": "a",
-      "explanation": "Mesoamerican underworld traditions imagine death as a dangerous passage, not a simple ending.",
+      "explanation": "Spence says the ghost is accompanied by the shade of a favourite dog.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
         "obj.underworld-road.concept"
       ],
       "deepDive": {
-        "prompt": "Inspect the two corpus records.",
+        "prompt": "Read the named chapter section in Spence's synthesis.",
         "suggestedQuestions": [
-          "What genre is each source?",
-          "What claim can each support?"
+          "Which words support this answer?",
+          "Which community or source does this passage name?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "journey"
         ]
       }
     },
     {
       "id": "q2",
       "type": "single-choice",
-      "prompt": "What should stay attached to this claim?",
+      "prompt": "Which boundary matters when using this passage?",
       "choices": [
         {
           "id": "a",
-          "text": "Its source type, translator/editor, and pantheon"
+          "text": "It is a direct Maya inscription"
         },
         {
           "id": "b",
-          "text": "Only the character name"
+          "text": "It is a Peruvian eyewitness report"
         },
         {
           "id": "c",
-          "text": "Only the modern summary"
-        },
-        {
-          "id": "d",
-          "text": "Nothing"
+          "text": "It is Spence's account of Mexican material, not a universal Mesoamerican belief"
         }
       ],
-      "answerId": "a",
-      "explanation": "The app keeps source boundaries visible so comparisons do not erase differences between traditions.",
+      "answerId": "c",
+      "explanation": "The citation comes from Spence's broad synthesis and should not be generalized to distinct traditions.",
       "sourceRefIds": [
-        "ref-primary",
-        "ref-secondary"
+        "journey"
       ],
       "objectiveIds": [
         "obj.underworld-road.sources"
       ],
       "deepDive": {
-        "prompt": "Check the source boundary.",
+        "prompt": "Read the named chapter section in Spence's synthesis.",
         "suggestedQuestions": [
-          "Is this primary, folklore, retelling, synthesis, or reception?"
+          "Which words support this answer?",
+          "Which community or source does this passage name?"
         ],
         "sourceRefIds": [
-          "ref-primary",
-          "ref-secondary"
+          "journey"
         ]
       }
     }
@@ -209,8 +185,8 @@
   ],
   "review": {
     "status": "draft",
-    "reviewedBy": "Devin",
-    "reviewedAt": "2026-11-07",
-    "notes": "Second-wave generated lesson; five-card structure and two-source boundary included."
+    "reviewedBy": null,
+    "reviewedAt": null,
+    "notes": "Mexica and Toltec passages in Spence's dated synthesis; independent Indigenous, historical, translation, and pedagogical review remains pending."
   }
 }

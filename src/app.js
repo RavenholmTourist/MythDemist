@@ -243,6 +243,13 @@ function markOutcomeAttempt(id, correct) {
   if (!dateList.includes(today)) {
     dateList.push(today);
   }
+  // Spaced retrieval: a correct recall doubles the interval (capped at 30
+  // days); a miss brings the item back immediately. srDue drives the
+  // Memory practice queue below.
+  outcome.srInterval = correct ? Math.min((outcome.srInterval || 1) * 2, 30) : 0;
+  outcome.srDue = correct
+    ? new Date(Date.now() + outcome.srInterval * 86400000).toISOString()
+    : new Date().toISOString();
   updateMastery(outcome);
 }
 
@@ -614,6 +621,12 @@ function getReviewQuestions() {
         priority:
           (lessonState(item).questions[question.id]?.correct === true ? 0 : 100) +
           question.objectiveIds.reduce((sum, id) => sum + (masteryRank[progress.outcomes[id]?.mastery || "unseen"] * 10), 0) +
+          // Overdue spaced-retrieval items surface first; items not yet due
+          // get pushed down rather than churning fresh recalls.
+          question.objectiveIds.reduce((sum, id) => {
+            const due = progress.outcomes[id]?.srDue;
+            return sum + (due ? (new Date(due) <= new Date() ? 25 : -10) : 0);
+          }, 0) +
           (lessonState(item).nextReviewAt && new Date(lessonState(item).nextReviewAt) <= new Date() ? 15 : 0) +
           topicAffinity(`${item.title} ${item.tags.join(" ")}`) * 5
       }))

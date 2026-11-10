@@ -63,6 +63,8 @@
           "correctDates": { "type": "array", "items": { "type": "string", "format": "date" }, "uniqueItems": true },
           "incorrectDates": { "type": "array", "items": { "type": "string", "format": "date" }, "uniqueItems": true },
           "mastery": { "enum": ["unseen", "seen", "learning", "secure", "mastered"] },
+          "srInterval": { "type": "number" },
+          "srDue": { "type": "string", "format": "date-time" },
           "updatedAt": { "type": ["string", "null"], "format": "date-time" }
         }
       }

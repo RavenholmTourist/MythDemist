@@ -25,8 +25,10 @@ jobs:
         with:
           python-version: '3.12'
       - run: pip install jsonschema
-      # Rebuild committed index + generated retrieval files for deployment.
-      - run: python -B tools/content_pipeline.py
+      # Deployment only needs the generated retrieval files; content/index.json
+      # is committed. The builder skips source records absent from this clone
+      # (e.g. personal-local-only texts), which the full validator would reject.
+      - run: python -B tools/build_retrieval_index.py
       - uses: actions/upload-pages-artifact@v3
       - id: deployment
         uses: actions/deploy-pages@v4

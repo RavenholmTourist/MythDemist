@@ -33,6 +33,6 @@ jobs:
       # secrets like .env are gitignored so never reach this checkout.
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: '.
+          path: '.'
       - id: deployment
         uses: actions/deploy-pages@v4

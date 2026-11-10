@@ -823,6 +823,14 @@ function renderHome() {
         <button class="secondary-button full-width" type="button" data-action="open-assistant">Open researcher</button>
       </section>
 
+      <section class="dashboard-card" aria-labelledby="dataTitle">
+        <p class="eyebrow">Your data</p>
+        <h2 id="dataTitle">Export or restore progress</h2>
+        <p>Progress stays on this device. Export a snapshot to share for review or to restore on another device.</p>
+        <button class="secondary-button full-width" type="button" data-action="export-progress">Export progress</button>
+        <button class="secondary-button full-width" type="button" data-action="import-progress">Import snapshot</button>
+      </section>
+
       <section class="dashboard-card" aria-labelledby="statsTitle">
         <p class="eyebrow">Learning stats</p>
         <h2 id="statsTitle">Your trail</h2>
@@ -1694,6 +1702,52 @@ function navigateCard(direction, isLast = runtime.cardIndex === activeLesson().n
   render();
 }
 
+function exportProgress() {
+  // A learner-owned snapshot: everything the app knows about their progress,
+  // wrapped with just enough metadata to validate on import later.
+  const payload = {
+    exportedAt: new Date().toISOString(),
+    app: "project-mythos",
+    storageKey: "mythos.progress.v1",
+    formatVersion: 1,
+    progress,
+  };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
+  const url = URL.createObjectURL(blob);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `mythos-progress-${new Date().toISOString().slice(0, 10)}.json`;
+  link.click();
+  URL.revokeObjectURL(url);
+}
+
+function importProgress() {
+  const input = document.createElement("input");
+  input.type = "file";
+  input.accept = "application/json,.json";
+  input.addEventListener("change", () => {
+    const file = input.files?.[0];
+    if (!file) return;
+    file.text().then((raw) => {
+      const parsed = JSON.parse(raw);
+      const candidate = parsed?.progress ?? parsed;
+      // Accept either the wrapped export shape or a raw progress object;
+      // sanity-check the fields the app actually depends on rather than
+      // trusting arbitrary JSON into localStorage.
+      const looksValid = candidate && typeof candidate === "object"
+        && (candidate.arcPlans || candidate.outcomes || candidate.lessons || candidate.streak);
+      if (!looksValid) throw new Error("That file does not look like a Mythos progress snapshot.");
+      progress = candidate;
+      saveProgress();
+      location.reload();
+    }).catch((error) => {
+      runtime.assistantError = null;
+      window.alert(`Import failed: ${error.message}`);
+    });
+  });
+  input.click();
+}
+
 function startLesson(lessonId) {
   const target = lessons.get(lessonId) || lesson;
   if (!isLessonUnlocked(target)) return renderHome();
@@ -1958,6 +2012,14 @@ function handleAction(action, target) {
   if (action === "set-tradition-filter") {
     runtime.traditionFilter = target.dataset.filter;
     render();
+  }
+  if (action === "export-progress") {
+    exportProgress();
+    return;
+  }
+  if (action === "import-progress") {
+    importProgress();
+    return;
   }
   if (action === "open-assistant" || action === "assistant-from-deep-dive") {
     if (deepDiveDialog.open) deepDiveDialog.close();

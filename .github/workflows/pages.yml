@@ -29,6 +29,10 @@ jobs:
       # is committed. The builder skips source records absent from this clone
       # (e.g. personal-local-only texts), which the full validator would reject.
       - run: python -B tools/build_retrieval_index.py
+      # Site is the repo root; tar excludes .git/.github automatically and
+      # secrets like .env are gitignored so never reach this checkout.
       - uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.
       - id: deployment
         uses: actions/deploy-pages@v4

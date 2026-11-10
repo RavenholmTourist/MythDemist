@@ -65,26 +65,32 @@ def main():
                     # Chunks stay slim; shared bibliographic fields live once in
                     # sources[] and consumers join on recordId. Keeps the file ~half
                     # the size and makes the generated-not-committed artifact cheap.
+                    # terms are recomputable from text at load time; storing them
+                    # doubled every file. Keep chunks to the evidence itself.
                     rows.append({
                         'id': f"{record['id']}:{number}", 'recordId': record['id'],
                         'locator': f"{record['title']} · {segment['locator']} · characters {start}-{start + len(text_chunk)}",
-                        'start': start, 'text': text_chunk, 'terms': sorted(set(tokens))
+                        'start': start, 'text': text_chunk
                     })
     out = ROOT / "content/retrieval"
     out.mkdir(parents=True, exist_ok=True)
     # Split chunk payloads per tradition so the browser only parses what the
     # active tradition needs instead of one ~58 MB monolith on the phone.
-    by_pantheon = {}
+    # Split by tradition AND source type so a browser only ever parses the
+    # slices the active tradition needs (e.g. greek-primary ~11 MB instead of
+    # one 58 MB monolith).
+    by_group = {}
     for row in rows:
         source = sources.get(row['recordId'], {})
-        by_pantheon.setdefault(source.get('pantheon', 'shared'), []).append(row)
+        key = (source.get('pantheon', 'shared'), source.get('sourceType') or 'primary')
+        by_group.setdefault(key, []).append(row)
     files = []
-    for pantheon_id, group in sorted(by_pantheon.items()):
-        name = f"chunks-{pantheon_id}.json"
+    for (pantheon_id, source_type), group in sorted(by_group.items()):
+        name = f"chunks-{pantheon_id}-{source_type}.json"
         temporary = out / (name + '.tmp')
-        temporary.write_text(json.dumps({"pantheon": pantheon_id, "chunks": group}, separators=(',', ':')), encoding='utf-8')
+        temporary.write_text(json.dumps({"pantheon": pantheon_id, "sourceType": source_type, "chunks": group}, separators=(',', ':')), encoding='utf-8')
         temporary.replace(out / name)
-        files.append({"pantheon": pantheon_id, "path": f"content/retrieval/{name}", "chunks": len(group)})
+        files.append({"pantheon": pantheon_id, "sourceType": source_type, "path": f"content/retrieval/{name}", "chunks": len(group)})
     index = {
         "version": 3,
         "generatedAt": datetime.now(timezone.utc).isoformat(),

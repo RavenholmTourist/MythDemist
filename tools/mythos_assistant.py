@@ -32,6 +32,9 @@ def load_index(traditions=None):
         for key in ("pantheon", "title", "sourceType", "coverageType", "rightsStatus", "translator"):
             chunk.setdefault(key, source.get(key))
         chunk.setdefault("evidenceType", "source-text")
+        # terms were dropped from the generated files (they doubled the size);
+        # recompute the exact-match vocabulary from the chunk text.
+        chunk.setdefault("terms", re.findall(r"[a-z0-9][a-z0-9'-]+", chunk["text"].lower()))
     return index
 
 

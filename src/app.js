@@ -1640,6 +1640,9 @@ async function ensureRetrieval(pantheonId) {
     for (const chunk of payload.chunks || []) {
       retrievalIndex.chunks.push({
         evidenceType: "source-text",
+        // terms are recomputed from text; the generated files dropped them
+        // because they doubled every payload.
+        terms: (chunk.text.toLowerCase().match(/[a-z0-9][a-z0-9'-]+/g) || []),
         ...retrievalIndex.byId.get(chunk.recordId),
         ...chunk,
       });

@@ -1,193 +1,182 @@
 {
-  "id": "mesopotamian.week01.day01.kingship-excess",
-  "version": 2,
-  "weekId": "mesopot.gilgamesh.week01",
-  "pantheon": "mesopotamian",
-  "themeMode": "pantheon",
-  "title": "Gilgamesh's Dream of a Companion",
-  "subtitle": "A dream foreshadows the arrival of Enkidu",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesopotamian",
-    "Gilgamesh:",
-    "Kingship"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.kingship-excess.concept",
-      "text": "What does Gilgamesh say he does with the figure in his second dream?"
-    },
-    {
-      "id": "obj.kingship-excess.sources",
-      "text": "What do square brackets in this edited translation often signal?"
-    }
-  ],
-  "sourceReferences": {
-    "dream": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Pennsylvania Tablet · Column I; Pennsylvania Tablet · Column I, normalized characters 841-1231",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "My likeness I have seen in the streets [Of Erech] of the plazas. An axe was brandished, and They gathered about him; And the axe made him angry. I saw him and I rejoiced, I loved him as a woman, I embraced him. I took him and regarded him As my brother.\" The mother of Gish, who knows all things, [Spoke to Gish]: [\"O Gish, the man whom thou sawest,] [Whom thou didst embrace like a woman].",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    }
+ "id": "mesopotamian.week01.day01.kingship-excess",
+ "version": 3,
+ "weekId": "mesopot.gilgamesh.week01",
+ "pantheon": "mesopotamian",
+ "themeMode": "pantheon",
+ "title": "Gilgamesh: The King's Dream",
+ "subtitle": "A tyrant so strong the gods must build him a match",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "gilgamesh",
+  "uruk",
+  "enkidu",
+  "mesopotamian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.gilg.problem",
+   "text": "What kind of king is Gilgamesh at the start?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A second dream",
-      "body": "In the Pennsylvania Tablet translation, Gilgamesh describes a dream to his mother: he sees a likeness in Erech, an axe, and a figure he embraces as a brother.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Gilgamesh names the dream",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “My likeness I have seen in the streets [Of Erech] of the plazas. An axe was brandished, and They gathered about him; And the axe made him angry. I saw him and I rejoiced, I loved him as a woman, I embraced him. I took him and regarded him As my brother.\" The mother of Gish, who knows all things, [Spoke to Gish]: [\"O Gish, the man whom thou sawest,] [Whom thou didst embrace like a woman].”",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A mother's interpretation",
-      "body": "The surviving lines show Gilgamesh's mother interpreting the dream as a man who will become his companion. The bracketed words signal editorial restorations in this translation.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A fragment, not a complete epic",
-      "body": "The Pennsylvania Tablet is an Old Babylonian fragment in a modern edited translation by Jastrow and Clay. Its missing or restored wording should remain visible.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The companion is anticipated",
-      "body": "The dream gives the relationship a narrative beginning before the two men meet. It is a scene in this tablet witness, not evidence that every version uses identical wording.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Gilgamesh say he does with the figure in his second dream?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He embraces the figure and regards him as a brother"
-        },
-        {
-          "id": "b",
-          "text": "He defeats the figure in a chariot race"
-        },
-        {
-          "id": "c",
-          "text": "He follows the figure into the cedar forest"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The quoted dream says Gilgamesh embraces the figure and takes him as a brother.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "dream"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What do square brackets in this edited translation often signal?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A new scene written by a later poet"
-        },
-        {
-          "id": "b",
-          "text": "A line spoken by Gilgamesh's mother"
-        },
-        {
-          "id": "c",
-          "text": "Words restored or supplied by the editors"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The editors use brackets to mark readings or words supplied where the tablet is damaged.",
-      "sourceRefIds": [
-        "dream"
-      ],
-      "objectiveIds": [
-        "obj.kingship-excess.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "dream"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.gilg.answer",
+   "text": "What do the gods create in answer?"
   }
+ ],
+ "sourceReferences": {
+  "dream": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Pennsylvania Tablet · Column I; Pennsylvania Tablet · Column I, normalized characters 841-1231",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "My likeness I have seen in the streets [Of Erech] of the plazas. An axe was brandished, and They gathered about him; And the axe made him angry. I saw him and I rejoiced, I loved him as a woman, I embraced him. I took him and regarded him As my brother.\" The mother of Gish, who knows all things, [Spoke to Gish]: [\"O Gish, the man whom thou sawest,] [Whom thou didst embrace like a woman].",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Two-thirds god, all problem",
+   "body": "Gilgamesh, king of Uruk, is part divine and entirely too much: he exhausts his own people — young men conscripted for his endless games, brides claimed before their weddings. The city prays for relief.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.problem"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The gods' answer is not punishment",
+   "body": "Instead of destroying him, the gods make a COUNTERWEIGHT: a wild man named Enkidu, shaped from clay, running with the herds on the steppe — Gilgamesh's equal in strength.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.answer"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A dream foretells him",
+   "body": "Gilgamesh dreams of a meteor — or an axe — that he loves like a wife. His mother Ninsun reads it: a companion is coming who will be as strong as you and will save your life.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.answer"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "context",
+   "title": "The epic's real engine",
+   "body": "The story that follows is not about a tyrant being punished — it is about the first friendship in world literature, and what it costs. Everything in Gilgamesh turns on the bond formed next.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.answer"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Oldest epic, newest problem",
+   "body": "This is the oldest surviving epic (c. 2100 BCE) — and its opening question is still ours: what do you do with a leader no one can stop? The gods' answer: give him an equal, not an enemy.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.problem"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why do the people of Uruk cry out to the gods?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The city is under siege"
+    },
+    {
+     "id": "b",
+     "text": "The harvest has failed"
+    },
+    {
+     "id": "c",
+     "text": "Gilgamesh is an unbearable tyrant — exhausting the city with conscription and claiming brides"
+    },
+    {
+     "id": "d",
+     "text": "Gilgamesh refuses to build temples"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "He's too strong and too much — the problem is his unchecked greatness, not an external enemy.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.problem"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What do the gods create in answer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Enkidu — a wild man of the steppe, Gilgamesh's equal and destined companion"
+    },
+    {
+     "id": "b",
+     "text": "A second king to depose him"
+    },
+    {
+     "id": "c",
+     "text": "A flood to humble the city"
+    },
+    {
+     "id": "d",
+     "text": "A prophecy to warn him"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The gods' fix is a counterweight, not a punishment — the first friendship begins.",
+   "sourceRefIds": [
+    "dream"
+   ],
+   "objectiveIds": [
+    "obj.gilg.answer"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

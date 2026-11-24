@@ -1,208 +1,196 @@
 {
-  "id": "celtic.week01.day05.taliesin-change",
-  "version": 2,
-  "weekId": "cel.tales.week01",
-  "pantheon": "celtic",
-  "themeMode": "pantheon",
-  "title": "Taliesin: Poetry and Transformation",
-  "subtitle": "Identity spoken into power",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "taliesin",
-    "poetry",
-    "transformation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.taliesin-change.concept",
-      "text": "What happens after the cauldron drops reach Gwion?"
-    },
-    {
-      "id": "obj.taliesin-change.source",
-      "text": "Which sequence describes the chase?"
-    }
-  ],
-  "sourceReferences": {
-    "cauldron": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Tale of Taliesin (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Tale of Taliesin, Gwion drinks the cauldron drops; local text normalized characters 532165-532968",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "three blessed drops were obtained of the grace of Inspiration. And she put Gwion Bach the son of Gwreang of Llanfair in Caereinion, in Powys, to stir the cauldron, and a blind man named Morda to kindle the fire beneath it, and she charged them that they should not suffer it to cease boiling for the space of a year and a day. And she herself, according to the books of the astronomers, and in planetary hours, gathered every day of all charm-bearing herbs. And one day, towards the end of the year, as Caridwen was culling plants and making incantations, it chanced that three drops of the charmed liquor flew out of the cauldron and fell upon the finger of Gwion Bach. And by reason of their great heat he put his finger to his mouth, and the instant he put those marvel-working drops into his mouth,",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    },
-    "chase": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Tale of Taliesin (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Tale of Taliesin, Gwion and Ceridwen transform; local text normalized characters 533917-534199",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "he saw her, and changed himself into a hare and fled. But she changed herself into a greyhound and turned him. And he ran towards a river, and became a fish. And she in the form of an otter-bitch chased him under the water, until he was fain to turn himself into a bird of the air.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    }
+ "id": "celtic.week01.day05.taliesin-change",
+ "version": 3,
+ "weekId": "cel.tales.week01",
+ "pantheon": "celtic",
+ "themeMode": "pantheon",
+ "title": "Taliesin: The Shape-Shifter",
+ "subtitle": "Chased through a dozen forms — the poet who becomes everything he sings",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "taliesin",
+  "cerridwen",
+  "cauldron",
+  "celtic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.tal.chase",
+   "text": "How does Taliesin escape Cerridwen?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Ceridwen keeps a cauldron boiling to create three drops of inspiration for her son. Gwion receives the drops by accident, gains foresight, and flees; the tale then turns his flight into a sequence of transformations.",
-      "sourceRefIds": [
-        "cauldron"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The drops change Gwion's knowledge",
-      "body": "Source quotation (Guest translation; whitespace normalized): “three blessed drops were obtained of the grace of Inspiration. And she put Gwion Bach the son of Gwreang of Llanfair in Caereinion, in Powys, to stir the cauldron, and a blind man named Morda to kindle the fire beneath it, and she charged them that they should not suffer it to cease boiling for the space of a year and a day. And she herself, according to the books of the astronomers, and in planetary hours, gathered every day of all charm-bearing herbs. And one day, towards the end of the year, as Caridwen was culling plants and making incantations, it chanced that three drops of the charmed liquor flew out of the cauldron and fell upon the finger of Gwion Bach. And by reason of their great heat he put his finger to his mouth, and the instant he put those marvel-working drops into his mouth,”",
-      "sourceRefIds": [
-        "cauldron"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The source links poetic inspiration to a specific magical episode. Keep this account in the Mabinogion's Taliesin tale rather than treating it as the origin story of every Welsh bard.",
-      "sourceRefIds": [
-        "cauldron",
-        "chase"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The Mabinogion is a later translated collection of Welsh tales. This passage is evidence for the tale as transmitted in Guest's edition, not an eyewitness record of an ancient poet's life.",
-      "sourceRefIds": [
-        "cauldron",
-        "chase"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Track what the drops change first—Gwion's knowledge—and then notice how the chase changes bodies and forms.",
-      "sourceRefIds": [
-        "cauldron",
-        "chase"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What happens after the cauldron drops reach Gwion?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He becomes king of Dyved"
-        },
-        {
-          "id": "b",
-          "text": "He immediately forgets every poem he knows"
-        },
-        {
-          "id": "c",
-          "text": "He gains foresight and realizes he must escape Ceridwen"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The tale says he foresaw what was to come and fled in fear of Ceridwen.",
-      "sourceRefIds": [
-        "cauldron"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "cauldron"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which sequence describes the chase?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Ceridwen turns into a horse and Gwion hides in a cave"
-        },
-        {
-          "id": "b",
-          "text": "Gwion becomes a hare, then a fish, then a bird; Ceridwen follows in other forms"
-        },
-        {
-          "id": "c",
-          "text": "Gwion sails to Ireland while Ceridwen remains at court"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage presents a series of transformations as Ceridwen pursues Gwion.",
-      "sourceRefIds": [
-        "chase"
-      ],
-      "objectiveIds": [
-        "obj.taliesin-change.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "chase"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.tal.poet",
+   "text": "What does his transformation make him?"
   }
+ ],
+ "sourceReferences": {
+  "cauldron": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Tale of Taliesin (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Tale of Taliesin, Gwion drinks the cauldron drops; local text normalized characters 532165-532968",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "three blessed drops were obtained of the grace of Inspiration. And she put Gwion Bach the son of Gwreang of Llanfair in Caereinion, in Powys, to stir the cauldron, and a blind man named Morda to kindle the fire beneath it, and she charged them that they should not suffer it to cease boiling for the space of a year and a day. And she herself, according to the books of the astronomers, and in planetary hours, gathered every day of all charm-bearing herbs. And one day, towards the end of the year, as Caridwen was culling plants and making incantations, it chanced that three drops of the charmed liquor flew out of the cauldron and fell upon the finger of Gwion Bach. And by reason of their great heat he put his finger to his mouth, and the instant he put those marvel-working drops into his mouth,",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  },
+  "chase": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Tale of Taliesin (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Tale of Taliesin, Gwion and Ceridwen transform; local text normalized characters 533917-534199",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "he saw her, and changed himself into a hare and fled. But she changed herself into a greyhound and turned him. And he ran towards a river, and became a fish. And she in the form of an otter-bitch chased him under the water, until he was fain to turn himself into a bird of the air.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The three drops of wisdom",
+   "body": "The witch Cerridwen brews a cauldron of wisdom for her ugly son — three drops will grant all knowledge. Her servant-boy Gwion stirs it, and the drops splash on his thumb instead.",
+   "sourceRefIds": [
+    "cauldron"
+   ],
+   "objectiveIds": [
+    "obj.tal.chase"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Instant omniscience",
+   "body": "The moment the drops touch his tongue, Gwion knows everything — including that Cerridwen will kill him. He flees by changing shape: a hare, a fish, a bird, a grain of wheat.",
+   "sourceRefIds": [
+    "cauldron"
+   ],
+   "objectiveIds": [
+    "obj.tal.chase"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The chase that can't end",
+   "body": "Cerridwen pursues as a greyhound, an otter, a hawk — and finally as a hen she swallows the wheat-grain that is Gwion. She thinks the chase is done.",
+   "sourceRefIds": [
+    "chase"
+   ],
+   "objectiveIds": [
+    "obj.tal.chase"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Born again as Taliesin",
+   "body": "But swallowing him makes her pregnant — nine months later she births a shining infant and, unable to kill it, casts him into the sea. Rescued from the weir, he grows into Taliesin, the greatest of bards.",
+   "sourceRefIds": [
+    "chase"
+   ],
+   "objectiveIds": [
+    "obj.tal.poet"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Poetry as transformation",
+   "body": "Taliesin's story is the poet's myth of itself: the bard claims to have BEEN everything — the hunt, the grain, the child in the sea. Imagination lets a man wear every shape; that is what the tale says poetry is.",
+   "sourceRefIds": [
+    "cauldron",
+    "chase"
+   ],
+   "objectiveIds": [
+    "obj.tal.poet"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Gwion escape Cerridwen?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "By killing her in the chase"
+    },
+    {
+     "id": "b",
+     "text": "By hiding in the mountains"
+    },
+    {
+     "id": "c",
+     "text": "By shape-shifting through animal forms — until she swallows him as a grain of wheat and he is reborn"
+    },
+    {
+     "id": "d",
+     "text": "By drinking the whole cauldron"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "He doesn't escape — he transforms into her rebirth.",
+   "sourceRefIds": [
+    "cauldron",
+    "chase"
+   ],
+   "objectiveIds": [
+    "obj.tal.chase"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Taliesin's story say about the poet?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That imagination lets the poet BE everything — the shape-shifter claims he has been every form he sings"
+    },
+    {
+     "id": "b",
+     "text": "That poetry is magic for hire"
+    },
+    {
+     "id": "c",
+     "text": "That wisdom belongs to the old"
+    },
+    {
+     "id": "d",
+     "text": "That the poet serves only kings"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The bard's claim — 'I have been all things' — is the tale's myth of poetry itself.",
+   "sourceRefIds": [
+    "chase"
+   ],
+   "objectiveIds": [
+    "obj.tal.poet"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

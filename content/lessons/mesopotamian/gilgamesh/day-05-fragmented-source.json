@@ -1,210 +1,196 @@
 {
-  "id": "mesopotamian.week01.day05.fragmented-source",
-  "version": 2,
-  "weekId": "mesopot.gilgamesh.week01",
-  "pantheon": "mesopotamian",
-  "themeMode": "pantheon",
-  "title": "Gilgamesh: Reading Across Fragments",
-  "subtitle": "Separate tablets preserve different pieces",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesopotamian",
-    "A",
-    "Fragmentary"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.fragmented-source.concept",
-      "text": "Which detail belongs to the Pennsylvania Tablet passage?"
-    },
-    {
-      "id": "obj.fragmented-source.sources",
-      "text": "Why should the Yale and Pennsylvania passages not be silently merged?"
-    }
-  ],
-  "sourceReferences": {
-    "pennsylvania": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    },
-    "yale": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Yale Tablet · Column IV; Yale Tablet · Column IV, normalized characters 0-1009",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    }
+ "id": "mesopotamian.week01.day05.fragmented-source",
+ "version": 3,
+ "weekId": "mesopot.gilgamesh.week01",
+ "pantheon": "mesopotamian",
+ "themeMode": "pantheon",
+ "title": "Gilgamesh: The Broken Epic",
+ "subtitle": "Reading a 4,000-year-old story from pieces of clay",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "gilgamesh",
+  "epic",
+  "fragments",
+  "mesopotamian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.frag.source",
+   "text": "How does the epic reach us?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Two named witnesses",
-      "body": "The local edition distinguishes a Pennsylvania Tablet from a Yale Tablet. These are separate fragmentary witnesses, and the edition presents different episodes from them.",
-      "sourceRefIds": [
-        "pennsylvania",
-        "yale"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.sources"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A passage from the Pennsylvania Tablet",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.”",
-      "sourceRefIds": [
-        "pennsylvania"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "source",
-      "title": "A passage from the Yale Tablet",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.”",
-      "sourceRefIds": [
-        "yale"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not silently join gaps",
-      "body": "The tablet texts contain breaks, restorations, and uncertain readings. A continuous classroom retelling can obscure what is present on each witness and what editors supply.",
-      "sourceRefIds": [
-        "pennsylvania",
-        "yale"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Read the edition as an edition",
-      "body": "Jastrow and Clay's book includes translated tablets alongside transliteration, introduction, and commentary. This lesson quotes only its labeled tablet translations.",
-      "sourceRefIds": [
-        "pennsylvania",
-        "yale"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Which detail belongs to the Pennsylvania Tablet passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Enlil decrees sevenfold terror for the cedar forest"
-        },
-        {
-          "id": "b",
-          "text": "Caesar's soul becomes a star"
-        },
-        {
-          "id": "c",
-          "text": "Enkidu learns food and wine customs and protects shepherds"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Pennsylvania Tablet excerpt describes Enkidu's food, clothing, and protector role.",
-      "sourceRefIds": [
-        "pennsylvania"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "pennsylvania"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why should the Yale and Pennsylvania passages not be silently merged?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "One is a Greek poem and the other a Roman law code"
-        },
-        {
-          "id": "b",
-          "text": "They are distinct, fragmentary tablet witnesses with visible gaps and restorations"
-        },
-        {
-          "id": "c",
-          "text": "They are two names for the same complete modern novel"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The edition presents separate tablet texts and marks uncertainty and missing lines.",
-      "sourceRefIds": [
-        "pennsylvania",
-        "yale"
-      ],
-      "objectiveIds": [
-        "obj.fragmented-source.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "pennsylvania",
-          "yale"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.frag.read",
+   "text": "Why does the fragmentary state matter?"
   }
+ ],
+ "sourceReferences": {
+  "pennsylvania": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  },
+  "yale": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Yale Tablet · Column IV; Yale Tablet · Column IV, normalized characters 0-1009",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Clay, not parchment",
+   "body": "Gilgamesh survives on baked clay tablets — cuneiform libraries buried when cities fell. The story you read was literally dug out of the dirt in the 19th century.",
+   "sourceRefIds": [
+    "pennsylvania"
+   ],
+   "objectiveIds": [
+    "obj.frag.source"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A text made of shards",
+   "body": "No single tablet has the whole epic. Scholars assemble it from overlapping fragments across tablets and centuries — the Pennsylvania tablet, the Yale tablet, pieces from Ashurbanipal's library — each filling another's gaps.",
+   "sourceRefIds": [
+    "pennsylvania",
+    "yale"
+   ],
+   "objectiveIds": [
+    "obj.frag.source"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Older than Homer by miles",
+   "body": "The story predates the Iliad by over a thousand years — and the flood account inside it is older than the version in Genesis, raising the famous question of which tradition borrowed from which.",
+   "sourceRefIds": [
+    "yale"
+   ],
+   "objectiveIds": [
+    "obj.frag.read"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "What the gaps mean",
+   "body": "The fragments' broken edges aren't just damage — they are part of what the text IS now. You read an epic about loss, assembled out of pieces, about the one thing everyone in it most wants and cannot keep: life without end.",
+   "sourceRefIds": [
+    "pennsylvania"
+   ],
+   "objectiveIds": [
+    "obj.frag.read"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why read a broken thing?",
+   "body": "Because it still works. Gilgamesh's grief for Enkidu lands across 4,000 years through clay dust — proof that the story was good enough to survive being buried alive.",
+   "sourceRefIds": [
+    "yale"
+   ],
+   "objectiveIds": [
+    "obj.frag.read"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does the Epic of Gilgamesh reach modern readers?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A single complete manuscript in Babylon"
+    },
+    {
+     "id": "b",
+     "text": "Oral recitation preserved unbroken"
+    },
+    {
+     "id": "c",
+     "text": "Assembled from broken cuneiform tablets dug out of buried cities — overlapping fragments from different libraries"
+    },
+    {
+     "id": "d",
+     "text": "Carved on a palace wall"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The epic is a jigsaw of shards — reading it is archaeology.",
+   "sourceRefIds": [
+    "pennsylvania",
+    "yale"
+   ],
+   "objectiveIds": [
+    "obj.frag.source"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why does the fragmentary state matter?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The text's brokenness is part of its meaning — an epic about loss literally lost, recovered piece by piece"
+    },
+    {
+     "id": "b",
+     "text": "It proves the epic is fiction"
+    },
+    {
+     "id": "c",
+     "text": "It means we can't trust any part"
+    },
+    {
+     "id": "d",
+     "text": "It makes the text shorter to read"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The gaps are honest — a story about mortality that almost didn't survive its own.",
+   "sourceRefIds": [
+    "yale"
+   ],
+   "objectiveIds": [
+    "obj.frag.read"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

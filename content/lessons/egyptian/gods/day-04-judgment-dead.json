@@ -1,193 +1,182 @@
 {
-  "id": "egyptian.week01.day04.judgment-dead",
-  "version": 2,
-  "weekId": "egy.gods.week01",
-  "pantheon": "egyptian",
-  "themeMode": "pantheon",
-  "title": "Judgment of the Dead",
-  "subtitle": "Moral order beyond life",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "judgment",
-    "dead",
-    "maat"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.judgment-dead.concept",
-      "text": "What kind of statements appear in the quoted declarations?"
-    },
-    {
-      "id": "obj.judgment-dead.source",
-      "text": "What should this passage not be used to claim by itself?"
-    }
-  ],
-  "sourceReferences": {
-    "confession": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges",
-      "author": "various Egyptian authors",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges; local text normalized characters 112809-113336",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "Hail, thou of the long strides, who comest forth from Heliopolis, I have not committed sin. 2. \"Hail, thou who art embraced by flame, who comest forth from Kheraha, I have not robbed with violence. 3. \"Hail, Nose, who comest forth from Hermopolis, I have not done violence [to any man]. 4. \"Hail, Eater of shadows, who comest forth from the Qerti, I have not thieved. 5. \"Hail, Stinking Face, who comest forth from Rastau, I have not slain man or woman. 9. \"Hail, Crusher of bones, who comest forth from Hensu, I have not lied.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    }
+ "id": "egyptian.week01.day04.judgment-dead",
+ "version": 3,
+ "weekId": "egy.gods.week01",
+ "pantheon": "egyptian",
+ "themeMode": "pantheon",
+ "title": "The Weighing of the Heart",
+ "subtitle": "Feather, scales, and the monster at the door — Egypt's afterlife entrance exam",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "maat",
+  "judgment",
+  "osiris",
+  "egyptian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.judge.scale",
+   "text": "What is weighed at judgment?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In Budge's translation of Chapter 125, the deceased addresses named judges and declares that they have not committed particular wrongs. The text frames judgment as a speech act before divine assessors.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A few declarations from Chapter 125",
-      "body": "Source quotation (Budge translation; whitespace normalized): “Hail, thou of the long strides, who comest forth from Heliopolis, I have not committed sin. 2. \"Hail, thou who art embraced by flame, who comest forth from Kheraha, I have not robbed with violence. 3. \"Hail, Nose, who comest forth from Hermopolis, I have not done violence [to any man]. 4. \"Hail, Eater of shadows, who comest forth from the Qerti, I have not thieved. 5. \"Hail, Stinking Face, who comest forth from Rastau, I have not slain man or woman. 9. \"Hail, Crusher of bones, who comest forth from Hensu, I have not lied.”",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "These declarations belong to a particular funerary text and edition. Do not turn them into one uniform moral code for every Egyptian person or period.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the evidence carefully",
-      "body": "The source is a translated collection with editorial explanations. A text about judgment is evidence for this ritual-literary tradition, not direct observation of every funeral practice.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "When a funerary text speaks in the first person, ask whether the speaker is the deceased, a ritual officiant, or a god.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What kind of statements appear in the quoted declarations?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The deceased denies specific wrongs before named judges"
-        },
-        {
-          "id": "b",
-          "text": "A list of Ra's military victories"
-        },
-        {
-          "id": "c",
-          "text": "A record of how the pyramids were built"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The excerpt lists declarations such as not committing sin, theft, or murder.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "confession"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What should this passage not be used to claim by itself?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "That this text names judges"
-        },
-        {
-          "id": "b",
-          "text": "That the translation comes through Budge's edition"
-        },
-        {
-          "id": "c",
-          "text": "That every Egyptian community shared one identical judgment ritual"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "One funerary text cannot establish a uniform practice across all places and periods.",
-      "sourceRefIds": [
-        "confession"
-      ],
-      "objectiveIds": [
-        "obj.judgment-dead.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "confession"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.judge.fail",
+   "text": "What happens if you fail?"
   }
+ ],
+ "sourceReferences": {
+  "confession": {
+   "recordId": "pg-15932",
+   "sourceId": "egy.literature-ancient-egyptians",
+   "work": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges",
+   "author": "various Egyptian authors",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Book of the Dead, Chapter 125, declarations before the Forty-two Judges; local text normalized characters 112809-113336",
+   "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+   "excerpt": "Hail, thou of the long strides, who comest forth from Heliopolis, I have not committed sin. 2. \"Hail, thou who art embraced by flame, who comest forth from Kheraha, I have not robbed with violence. 3. \"Hail, Nose, who comest forth from Hermopolis, I have not done violence [to any man]. 4. \"Hail, Eater of shadows, who comest forth from the Qerti, I have not thieved. 5. \"Hail, Stinking Face, who comest forth from Rastau, I have not slain man or woman. 9. \"Hail, Crusher of bones, who comest forth from Hensu, I have not lied.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The Hall of Two Truths",
+   "body": "After death, you arrive at the hall where Osiris presides and your whole life is audited. This is the Judgment of the Dead — and it's not a vague reckoning; it is a literal test.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.scale"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The negative confession",
+   "body": "You recite a list of everything you did NOT do: 'I have not stolen, I have not killed, I have not lied, I have not made anyone hungry.' Forty-two declarations before forty-two judges.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.scale"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Heart against feather",
+   "body": "Then the scales: your heart is weighed against the feather of Maat — truth, order, the rightness of the cosmos. A heart light as the feather lives; a heart heavy with wrongdoing does not pass.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.scale"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The devourer at the scales",
+   "body": "Waiting beside the scales is Ammit — part crocodile, part lion, part hippo: 'the devourer of the dead.' If your heart fails the test, she eats it — and that is the second death, the true end.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.fail"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why this picture lasts",
+   "body": "The Judgment scene is Egypt's most copied image — and the idea that a life is weighed is older than any courtroom. Egyptians carried cheat-sheet Book of the Dead scrolls to help their hearts pass.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.fail"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is weighed in the Judgment of the Dead?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Your deeds against a stone tablet"
+    },
+    {
+     "id": "b",
+     "text": "Your wealth against temple gold"
+    },
+    {
+     "id": "c",
+     "text": "Your heart against the feather of Maat — truth and right order"
+    },
+    {
+     "id": "d",
+     "text": "Your name against the king's list"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The heart is the seat of conduct — it must be as light as truth itself.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.scale"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens to a heart that fails the weighing?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ammit devours it — the second death, final annihilation"
+    },
+    {
+     "id": "b",
+     "text": "It is sent back to earth reborn"
+    },
+    {
+     "id": "c",
+     "text": "It wanders the desert forever"
+    },
+    {
+     "id": "d",
+     "text": "It serves Osiris in the fields"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "There's no hell-torment — just non-existence, delivered by a monster at the scales.",
+   "sourceRefIds": [
+    "confession"
+   ],
+   "objectiveIds": [
+    "obj.judge.fail"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

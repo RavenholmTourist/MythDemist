@@ -120,22 +120,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "She takes half the battle-dead first and is mistress of seidr — the fate-magic she taught the gods"
-    },
-    {
-     "id": "b",
      "text": "She rules the harvest"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "She commands the winds"
+    },
+    {
+     "id": "c",
+     "text": "She takes half the battle-dead first and is mistress of seidr — the fate-magic she taught the gods"
     },
     {
      "id": "d",
      "text": "She guards the rainbow bridge"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "The 'love goddess' is also a war-power and the pantheon's magic-teacher.",
    "sourceRefIds": [
     "poem"

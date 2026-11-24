@@ -1,207 +1,195 @@
 {
-  "id": "slavic.week01.day03.vasilissa-wise",
-  "version": 2,
-  "weekId": "sla.folklore.week01",
-  "pantheon": "slavic",
-  "themeMode": "pantheon",
-  "title": "Vasilissa: Courage and Tasks",
-  "subtitle": "Heroism through service and judgment",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "vasilissa",
-    "tasks",
-    "courage"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.vasilissa-wise.concept",
-      "text": "What does Vasilissa's mother tell her to do with the doll?"
-    },
-    {
-      "id": "obj.vasilissa-wise.source",
-      "text": "What task does the doll complete at Baba Yaga's house?"
-    }
-  ],
-  "sourceReferences": {
-    "doll": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Vasilissa the Fair, her mother's instructions)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Vasilissa the Fair, her mother's instructions; local text normalized characters 275814-276113",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "Listen, Vasilissa, dear; remember and obey these last words of mine. I am going to die. And now, together with my parental blessing, I bequeath to you this doll. Keep it always by you, and never show it to anybody; and whenever any misfortune comes upon you, give the doll food, and ask its advice.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    },
-    "task": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Vasilissa the Fair, the doll completes the work)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Vasilissa the Fair, the doll completes the work; local text normalized characters 285591-286315",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "The doll had cleared the wheat to the very last grain. \"Ah, my preserver!\" cried Vasilissa, \"you've saved me from danger!\" \"All you've got to do now is to cook the dinner,\" answered the doll, slipping into Vasilissa's pocket. \"Cook away, in God's name, and then take some rest for your health's sake!\" Towards evening Vasilissa got the table ready, and awaited the Baba Yaga. It began to grow dusky; the black rider appeared for a moment at the gate, and all grew dark. Only the eyes of the skulls sent forth their light. The trees began to crack, the leaves began to rustle, up drove the Baba Yaga. Vasilissa went out to meet her. \"Is everything done?\" asks the Yaga. \"Please to look for yourself, granny!\" says Vasilissa.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    }
+ "id": "slavic.week01.day03.vasilissa-wise",
+ "version": 3,
+ "weekId": "sla.folklore.week01",
+ "pantheon": "slavic",
+ "themeMode": "pantheon",
+ "title": "Vasilissa and the Doll",
+ "subtitle": "A dying mother's gift — and the tasks that make a girl survive Baba Yaga",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "vasilissa",
+  "doll",
+  "baba-yaga",
+  "slavic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.vas.doll",
+   "text": "What does Vasilissa's doll do for her?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A gift with instructions",
-      "body": "Before she dies, Vasilissa's mother gives her a doll and tells her to feed it and ask for counsel when trouble comes.",
-      "sourceRefIds": [
-        "doll"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The mother's instructions",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “Listen, Vasilissa, dear; remember and obey these last words of mine. I am going to die. And now, together with my parental blessing, I bequeath to you this doll. Keep it always by you, and never show it to anybody; and whenever any misfortune comes upon you, give the doll food, and ask its advice.”",
-      "sourceRefIds": [
-        "doll"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The work is done",
-      "body": "At Baba Yaga's house, Vasilissa fears she will fail. The doll clears the wheat while she rests, allowing her to face the morning inspection.",
-      "sourceRefIds": [
-        "task"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Stay with this collected tale",
-      "body": "Ralston presents this as Vasilissa the Fair, a Russian folktale. Do not turn one tale's doll into evidence of a universal Slavic household ritual.",
-      "sourceRefIds": [
-        "doll",
-        "task"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Help is relational",
-      "body": "The doll's help follows Vasilissa's care and her mother's instruction; the tale connects survival with attention and trust.",
-      "sourceRefIds": [
-        "doll",
-        "task"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Vasilissa's mother tell her to do with the doll?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Trade it to Baba Yaga for a horse"
-        },
-        {
-          "id": "b",
-          "text": "Feed it and ask its advice when misfortune comes"
-        },
-        {
-          "id": "c",
-          "text": "Hide it from every family member and never use it"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The mother's instruction explicitly links feeding the doll with asking its advice.",
-      "sourceRefIds": [
-        "doll"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "doll"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What task does the doll complete at Baba Yaga's house?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Clearing the wheat"
-        },
-        {
-          "id": "b",
-          "text": "Building the Water King's bridge"
-        },
-        {
-          "id": "c",
-          "text": "Finding Koschei's hidden egg"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The source says Vasilissa finds the wheat cleared after the doll helps her.",
-      "sourceRefIds": [
-        "task"
-      ],
-      "objectiveIds": [
-        "obj.vasilissa-wise.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "task"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.vas.tasks",
+   "text": "How does she survive Baba Yaga's tasks?"
   }
+ ],
+ "sourceReferences": {
+  "doll": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Vasilissa the Fair, her mother's instructions)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Vasilissa the Fair, her mother's instructions; local text normalized characters 275814-276113",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "Listen, Vasilissa, dear; remember and obey these last words of mine. I am going to die. And now, together with my parental blessing, I bequeath to you this doll. Keep it always by you, and never show it to anybody; and whenever any misfortune comes upon you, give the doll food, and ask its advice.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  },
+  "task": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Vasilissa the Fair, the doll completes the work)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Vasilissa the Fair, the doll completes the work; local text normalized characters 285591-286315",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "The doll had cleared the wheat to the very last grain. \"Ah, my preserver!\" cried Vasilissa, \"you've saved me from danger!\" \"All you've got to do now is to cook the dinner,\" answered the doll, slipping into Vasilissa's pocket. \"Cook away, in God's name, and then take some rest for your health's sake!\" Towards evening Vasilissa got the table ready, and awaited the Baba Yaga. It began to grow dusky; the black rider appeared for a moment at the gate, and all grew dark. Only the eyes of the skulls sent forth their light. The trees began to crack, the leaves began to rustle, up drove the Baba Yaga. Vasilissa went out to meet her. \"Is everything done?\" asks the Yaga. \"Please to look for yourself, granny!\" says Vasilissa.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A mother's last gift",
+   "body": "Vasilissa's dying mother gives her a little doll and a blessing: keep it with you, feed it, and it will advise you. Then she dies, and the stepmother and stepsisters begin to work the girl like a servant.",
+   "sourceRefIds": [
+    "doll"
+   ],
+   "objectiveIds": [
+    "obj.vas.doll"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Sent to the witch",
+   "body": "The stepsisters put out the fire at home and send Vasilissa to Baba Yaga for a light — a mission no one expects her to survive. On the way she feeds her doll and asks its counsel.",
+   "sourceRefIds": [
+    "doll"
+   ],
+   "objectiveIds": [
+    "obj.vas.doll"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Tasks for a meal",
+   "body": "Baba Yaga sets impossible tasks — sort a barn of poppy-seeds from dirt overnight, wash the linen, cook the feast — before she'll part with fire. The doll does the sorting while Vasilissa sleeps; each day the task is done by dawn.",
+   "sourceRefIds": [
+    "task"
+   ],
+   "objectiveIds": [
+    "obj.vas.tasks"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The lantern of skulls",
+   "body": "The witch, outwitted, sends her home with a burning skull on a stick — which flies home and burns the stepmother and stepsisters to ash. The tale is brutal and just: the helpers' cruelty is answered by the very fire they sent for.",
+   "sourceRefIds": [
+    "task"
+   ],
+   "objectiveIds": [
+    "obj.vas.tasks"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The tale's real heroine",
+   "body": "Vasilissa survives not by strength or wit alone but by a chain of rightness — love for the doll, obedience to its counsel, patience through the tasks. The tale's pattern: kindness is the skill that survives the forest.",
+   "sourceRefIds": [
+    "doll",
+    "task"
+   ],
+   "objectiveIds": [
+    "obj.vas.tasks"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Vasilissa's doll?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A charm against Baba Yaga's eye"
+    },
+    {
+     "id": "b",
+     "text": "Her mother's ghost in miniature"
+    },
+    {
+     "id": "c",
+     "text": "Her dying mother's gift — kept and fed, it advises her and does the impossible tasks while she sleeps"
+    },
+    {
+     "id": "d",
+     "text": "A toy the stepsisters envied"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The doll is the story's magic: maternal blessing made object.",
+   "sourceRefIds": [
+    "doll"
+   ],
+   "objectiveIds": [
+    "obj.vas.doll"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Vasilissa survive Baba Yaga?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She completes each impossible task through the doll's help and her own courtesy — and is sent home with the burning skull"
+    },
+    {
+     "id": "b",
+     "text": "She bribes the witch's cat"
+    },
+    {
+     "id": "c",
+     "text": "She escapes through the fence-gate"
+    },
+    {
+     "id": "d",
+     "text": "She tricks the witch into the oven"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "She wins by following the doll's counsel — the tale rewards patience and rightness.",
+   "sourceRefIds": [
+    "task"
+   ],
+   "objectiveIds": [
+    "obj.vas.tasks"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

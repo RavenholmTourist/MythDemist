@@ -1,208 +1,196 @@
 {
-  "id": "celtic.week01.day02.branwen-sovereignty",
-  "version": 2,
-  "weekId": "cel.tales.week01",
-  "pantheon": "celtic",
-  "themeMode": "pantheon",
-  "title": "Branwen: Hospitality and Consequence",
-  "subtitle": "Royal bonds and their human cost",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "branwen",
-    "sovereignty",
-    "consequence"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.branwen-sovereignty.concept",
-      "text": "What starts the insult to Matholwch?"
-    },
-    {
-      "id": "obj.branwen-sovereignty.source",
-      "text": "How does Branwen get her message to Britain?"
-    }
-  ],
-  "sourceReferences": {
-    "insult": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Second Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Second Branch, Evnissyen injures Matholwch's horses; local text normalized characters 409985-410726",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "And behold one day, Evnissyen, the quarrelsome man of whom it is spoken above, came by chance into the place, where the horses of Matholwch were, and asked whose horses they might be. “They are the horses of Matholwch king of Ireland, who is married to Branwen, thy sister; his horses are they.” “And is it thus they have done with a maiden such as she, and moreover my sister, bestowing her without my consent? They could have offered no greater insult to me than this,” said he. And thereupon he rushed under the horses and cut off their lips at the teeth, and their ears close to their heads, and their tails close to their backs, and wherever he could clutch their eyelids, he cut them to the very bone, and he disfigured the horses and",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    },
-    "message": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Second Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Second Branch, Branwen sends word to her brother; local text normalized characters 420563-421266",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "And Branwen reared a starling in the cover of the kneading trough, and she taught it to speak, and she taught the bird what manner of man her brother was. And she wrote a letter of her woes, and the despite with which she was treated, and she bound the letter to the root of the bird’s wing, and sent it towards Britain. And the bird came to this island, and one day it found Bendigeid Vran at Caer Seiont in Arvon, conferring there, and it alighted upon his shoulder and ruffled its feathers, so that the letter was seen, and they knew that the bird had been reared in a domestic manner. Then Bendigeid Vran took the letter and looked upon it. And when he had read the letter he grieved exceedingly at",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    }
+ "id": "celtic.week01.day02.branwen-sovereignty",
+ "version": 3,
+ "weekId": "cel.tales.week01",
+ "pantheon": "celtic",
+ "themeMode": "pantheon",
+ "title": "Branwen: The Insult That Started a War",
+ "subtitle": "A marriage meant to heal — and a kingdom burned for a face-slapped horse",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "branwen",
+  "mabinogion",
+  "ireland",
+  "celtic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.bran.insult",
+   "text": "What insult poisons the Irish marriage?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "When Efnissien learns that Branwen was married to Matholwch without his consent, he mutilates the Irish king's horses. The insult helps turn an alliance into a conflict that reaches Branwen.",
-      "sourceRefIds": [
-        "insult"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Branwen sends her letter",
-      "body": "Source quotation (Guest translation; whitespace normalized): “And behold one day, Evnissyen, the quarrelsome man of whom it is spoken above, came by chance into the place, where the horses of Matholwch were, and asked whose horses they might be. “They are the horses of Matholwch king of Ireland, who is married to Branwen, thy sister; his horses are they.” “And is it thus they have done with a maiden such as she, and moreover my sister, bestowing her without my consent? They could have offered no greater insult to me than this,” said he. And thereupon he rushed under the horses and cut off their lips at the teeth, and their ears close to their heads, and their tails close to their backs, and wherever he could clutch their eyelids, he cut them to the very bone, and he disfigured the horses and”",
-      "sourceRefIds": [
-        "insult"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Branwen's starling carries a letter across the sea after she has been mistreated and isolated. The tale makes communication a turning point in a political crisis.",
-      "sourceRefIds": [
-        "insult",
-        "message"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "This is a Welsh tale in the Mabinogion, translated by Lady Charlotte Guest. Do not merge it with the Irish Táin Bó Cúailnge just because both are medieval Celtic-language narratives.",
-      "sourceRefIds": [
-        "insult",
-        "message"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Follow the chain from the wedding alliance to the insult, Branwen's message, and Bran's response; keep each step tied to the tale.",
-      "sourceRefIds": [
-        "insult",
-        "message"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What starts the insult to Matholwch?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Branwen refuses to send her brother a message"
-        },
-        {
-          "id": "b",
-          "text": "Matholwch takes the throne of Dyved"
-        },
-        {
-          "id": "c",
-          "text": "Efnissien mutilates his horses because the marriage was made without consulting him"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The tale says Efnissien objects that his sister was married without his consent, then injures Matholwch's horses.",
-      "sourceRefIds": [
-        "insult"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "insult"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Branwen get her message to Britain?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She asks Matholwch to carry it to her brother"
-        },
-        {
-          "id": "b",
-          "text": "She trains a starling and ties her letter to its wing"
-        },
-        {
-          "id": "c",
-          "text": "She sends it through a merchant at the Ford"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The narrative describes Branwen teaching the bird to speak and attaching her letter to its wing.",
-      "sourceRefIds": [
-        "message"
-      ],
-      "objectiveIds": [
-        "obj.branwen-sovereignty.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "message"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.bran.cost",
+   "text": "What does the war cost?"
   }
+ ],
+ "sourceReferences": {
+  "insult": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Second Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Second Branch, Evnissyen injures Matholwch's horses; local text normalized characters 409985-410726",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "And behold one day, Evnissyen, the quarrelsome man of whom it is spoken above, came by chance into the place, where the horses of Matholwch were, and asked whose horses they might be. “They are the horses of Matholwch king of Ireland, who is married to Branwen, thy sister; his horses are they.” “And is it thus they have done with a maiden such as she, and moreover my sister, bestowing her without my consent? They could have offered no greater insult to me than this,” said he. And thereupon he rushed under the horses and cut off their lips at the teeth, and their ears close to their heads, and their tails close to their backs, and wherever he could clutch their eyelids, he cut them to the very bone, and he disfigured the horses and",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  },
+  "message": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Second Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Second Branch, Branwen sends word to her brother; local text normalized characters 420563-421266",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "And Branwen reared a starling in the cover of the kneading trough, and she taught it to speak, and she taught the bird what manner of man her brother was. And she wrote a letter of her woes, and the despite with which she was treated, and she bound the letter to the root of the bird’s wing, and sent it towards Britain. And the bird came to this island, and one day it found Bendigeid Vran at Caer Seiont in Arvon, conferring there, and it alighted upon his shoulder and ruffled its feathers, so that the letter was seen, and they knew that the bird had been reared in a domestic manner. Then Bendigeid Vran took the letter and looked upon it. And when he had read the letter he grieved exceedingly at",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The bridge of ships",
+   "body": "Bran the Blessed, giant king of Britain, wades the sea to Ireland for a marriage treaty: his sister Branwen will wed the Irish king Matholwch. The alliance is meant to bind two peoples.",
+   "sourceRefIds": [
+    "insult"
+   ],
+   "objectiveIds": [
+    "obj.bran.insult"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The insult that undoes it",
+   "body": "Bran's half-brother Efnisien, furious he wasn't consulted, mutilates Matholwch's horses — lips, ears, tails. The Irish king treats it as a calculated insult, and the 'peace' is poisoned from the wedding day.",
+   "sourceRefIds": [
+    "insult"
+   ],
+   "objectiveIds": [
+    "obj.bran.insult"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Branwen in the kitchen",
+   "body": "In Ireland, Matholwch's revenge is quiet cruelty: Branwen is demoted to work in the kitchens, her son kept hostage. A starling she trains carries her plea for rescue back to Britain.",
+   "sourceRefIds": [
+    "message"
+   ],
+   "objectiveIds": [
+    "obj.bran.cost"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The war over the sea",
+   "body": "Bran wades across with his army for the rescue — and Ireland offers peace through trickery, hiding warriors in the hall. The battle that follows destroys almost everyone on both sides.",
+   "sourceRefIds": [
+    "insult",
+    "message"
+   ],
+   "objectiveIds": [
+    "obj.bran.cost"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The cost of a horse's ear",
+   "body": "From a mutilated horse to a war that annihilates two kingdoms: the tale teaches that small insults, unanswered, compound. Branwen dies of grief homecoming, and the surviving Britons flee with Bran's severed — still-talking — head.",
+   "sourceRefIds": [
+    "insult",
+    "message"
+   ],
+   "objectiveIds": [
+    "obj.bran.cost"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What insult poisons the Irish marriage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The bride is given a false crown"
+    },
+    {
+     "id": "b",
+     "text": "The feast lacks meat for the guests"
+    },
+    {
+     "id": "c",
+     "text": "Efnisien mutilates Matholwch's horses — the half-brother offended at not being consulted"
+    },
+    {
+     "id": "d",
+     "text": "The king refuses the wedding-gift"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "A petty vandalism compounds into war — the tale's warning about unchecked insults.",
+   "sourceRefIds": [
+    "insult"
+   ],
+   "objectiveIds": [
+    "obj.bran.insult"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Branwen summon rescue?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She trains a starling to carry her plea across the sea to Bran"
+    },
+    {
+     "id": "b",
+     "text": "She writes on a birch scroll"
+    },
+    {
+     "id": "c",
+     "text": "She sends her son secretly"
+    },
+    {
+     "id": "d",
+     "text": "A merchant smuggles her message"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The trained bird is the detail the tale is famous for.",
+   "sourceRefIds": [
+    "message"
+   ],
+   "objectiveIds": [
+    "obj.bran.cost"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

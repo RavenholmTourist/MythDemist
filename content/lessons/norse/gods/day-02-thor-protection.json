@@ -132,22 +132,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "The gods' defender — the physical force that keeps the giants from Asgard"
-    },
-    {
-     "id": "b",
      "text": "The trickster who causes trouble"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "The wise counsellor of Odin"
+    },
+    {
+     "id": "c",
+     "text": "The gods' defender — the physical force that keeps the giants from Asgard"
     },
     {
      "id": "d",
      "text": "The god of the harvest"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "He is the wall: blunt, strong, and the answer when scheming fails.",
    "sourceRefIds": [
     "loss"

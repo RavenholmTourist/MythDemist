@@ -120,22 +120,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "One of his eyes — left in the well as a pledge for wisdom"
-    },
-    {
-     "id": "b",
      "text": "A hand of gold"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "Nine years of service"
+    },
+    {
+     "id": "c",
+     "text": "One of his eyes — left in the well as a pledge for wisdom"
     },
     {
      "id": "d",
      "text": "The spear Gungnir"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "The well's price is permanent: wisdom bought with sight.",
    "sourceRefIds": [
     "mimer"

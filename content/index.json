@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T14:38:48.226560+00:00",
+  "generatedAt": "2026-11-24T19:19:59.291585+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1928,19 +1928,17 @@
       ],
       "assessment": null,
       "themes": [
-        "dead",
-        "death",
         "egyptian",
+        "hathor",
         "isis",
         "judgment",
-        "knowledge",
         "maat",
         "magic",
+        "moon",
         "osiris",
         "ra",
-        "renewal",
-        "restoration",
-        "sun",
+        "sekhmet",
+        "set",
         "thoth",
         "writing"
       ]
@@ -1960,21 +1958,21 @@
       ],
       "assessment": null,
       "themes": [
+        "arawn",
+        "blodeuwedd",
         "branwen",
+        "cauldron",
         "celtic",
-        "consequence",
-        "law",
+        "cerridwen",
+        "enchantment",
+        "gwydion",
+        "ireland",
         "mabinogion",
-        "magic",
         "manawydan",
         "math",
-        "otherworld",
-        "patience",
-        "poetry",
-        "sovereignty",
-        "taliesin",
-        "transformation",
-        "welsh"
+        "pwyll",
+        "rhiannon",
+        "taliesin"
       ]
     },
     {
@@ -1994,19 +1992,18 @@
       "themes": [
         "baba-yaga",
         "bargain",
-        "boundary",
-        "courage",
         "death",
+        "doll",
+        "egg",
         "firebird",
-        "folklore",
+        "folktale",
+        "forest",
+        "ivan",
         "koschei",
-        "quest",
         "slavic",
-        "tasks",
         "vasilissa",
         "water-king",
-        "witches",
-        "wonder"
+        "wolf"
       ]
     },
     {
@@ -2137,16 +2134,16 @@
       ],
       "assessment": null,
       "themes": [
-        "A",
-        "Enkidu:",
-        "Flood",
-        "Fragmentary",
-        "Friendship",
-        "Gilgamesh:",
-        "Kingship",
-        "The",
-        "and",
-        "mesopotamian"
+        "cedar",
+        "enkidu",
+        "epic",
+        "fragments",
+        "friendship",
+        "gilgamesh",
+        "huwawa",
+        "mesopotamian",
+        "shamhat",
+        "uruk"
       ]
     },
     {
@@ -4071,21 +4068,21 @@
     },
     {
       "id": "egy.gods.day01.osiris-renewal",
-      "version": 3,
+      "version": 4,
       "pantheon": "egyptian",
-      "title": "Osiris: Kingship in a Funerary Hymn",
+      "title": "Osiris: The First Mummy",
       "weekId": "egy.gods.week01",
       "tags": [
-        "egyptian",
         "osiris",
-        "death",
-        "renewal"
+        "isis",
+        "set",
+        "egyptian"
       ],
       "difficulty": 2,
       "path": "content/lessons/egyptian/osiris-renewal/day-01-osiris-renewal.json",
       "objectiveIds": [
-        "obj.osiris-renewal.concept",
-        "obj.osiris-renewal.source"
+        "obj.osiris.murder",
+        "obj.osiris.meaning"
       ],
       "recordIds": [
         "pg-15932"
@@ -4094,34 +4091,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "death",
         "egyptian",
+        "isis",
         "osiris",
-        "renewal"
+        "set"
       ],
       "entities": [
-        "death",
         "egyptian",
+        "isis",
         "osiris",
-        "renewal"
+        "set"
       ]
     },
     {
       "id": "egyptian.week01.day02.ra-order",
-      "version": 3,
+      "version": 4,
       "pantheon": "egyptian",
-      "title": "Ra and the Destruction of Mankind",
+      "title": "Ra and the Eye of Destruction",
       "weekId": "egy.gods.week01",
       "tags": [
         "ra",
-        "sun",
-        "maat"
+        "hathor",
+        "sekhmet",
+        "egyptian"
       ],
       "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-02-ra-order.json",
       "objectiveIds": [
-        "obj.ra-order.concept",
-        "obj.ra-order.source"
+        "obj.ra.rebellion",
+        "obj.ra.beer"
       ],
       "recordIds": [
         "pg-9411"
@@ -4130,32 +4128,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "maat",
+        "egyptian",
+        "hathor",
         "ra",
-        "sun"
+        "sekhmet"
       ],
       "entities": [
-        "maat",
+        "egyptian",
+        "hathor",
         "ra",
-        "sun"
+        "sekhmet"
       ]
     },
     {
       "id": "egyptian.week01.day03.isis-restoration",
-      "version": 3,
+      "version": 4,
       "pantheon": "egyptian",
-      "title": "Isis and Ra\u2019s Secret Name",
+      "title": "Isis and the Secret Name",
       "weekId": "egy.gods.week01",
       "tags": [
         "isis",
+        "ra",
         "magic",
-        "restoration"
+        "egyptian"
       ],
       "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-03-isis-restoration.json",
       "objectiveIds": [
-        "obj.isis-restoration.concept",
-        "obj.isis-restoration.source"
+        "obj.isis.trick",
+        "obj.isis.power"
       ],
       "recordIds": [
         "pg-9411"
@@ -4164,32 +4165,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "egyptian",
         "isis",
         "magic",
-        "restoration"
+        "ra"
       ],
       "entities": [
+        "egyptian",
         "isis",
         "magic",
-        "restoration"
+        "ra"
       ]
     },
     {
       "id": "egyptian.week01.day04.judgment-dead",
-      "version": 2,
+      "version": 3,
       "pantheon": "egyptian",
-      "title": "Judgment of the Dead",
+      "title": "The Weighing of the Heart",
       "weekId": "egy.gods.week01",
       "tags": [
+        "maat",
         "judgment",
-        "dead",
-        "maat"
+        "osiris",
+        "egyptian"
       ],
       "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-04-judgment-dead.json",
       "objectiveIds": [
-        "obj.judgment-dead.concept",
-        "obj.judgment-dead.source"
+        "obj.judge.scale",
+        "obj.judge.fail"
       ],
       "recordIds": [
         "pg-15932"
@@ -4198,32 +4202,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "dead",
+        "egyptian",
         "judgment",
-        "maat"
+        "maat",
+        "osiris"
       ],
       "entities": [
-        "dead",
+        "egyptian",
         "judgment",
-        "maat"
+        "maat",
+        "osiris"
       ]
     },
     {
       "id": "egyptian.week01.day05.thoth-knowledge",
-      "version": 3,
+      "version": 4,
       "pantheon": "egyptian",
-      "title": "Thoth: Writing and Sacred Speech",
+      "title": "Thoth: The God's Scribe",
       "weekId": "egy.gods.week01",
       "tags": [
         "thoth",
         "writing",
-        "knowledge"
+        "moon",
+        "egyptian"
       ],
       "difficulty": 2,
       "path": "content/lessons/egyptian/gods/day-05-thoth-knowledge.json",
       "objectiveIds": [
-        "obj.thoth-knowledge.concept",
-        "obj.thoth-knowledge.source"
+        "obj.thoth.roles",
+        "obj.thoth.moon"
       ],
       "recordIds": [
         "pg-15932"
@@ -4232,33 +4239,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "knowledge",
+        "egyptian",
+        "moon",
         "thoth",
         "writing"
       ],
       "entities": [
-        "knowledge",
+        "egyptian",
+        "moon",
         "thoth",
         "writing"
       ]
     },
     {
       "id": "cel.tales.day01.pwyll-otherworld",
-      "version": 2,
+      "version": 3,
       "pantheon": "celtic",
       "title": "Pwyll and the Otherworld",
       "weekId": "cel.tales.week01",
       "tags": [
-        "celtic",
-        "welsh",
-        "mabinogion",
-        "otherworld"
+        "pwyll",
+        "arawn",
+        "rhiannon",
+        "celtic"
       ],
       "difficulty": 2,
       "path": "content/lessons/celtic/pwyll-otherworld/day-01-pwyll-otherworld.json",
       "objectiveIds": [
-        "obj.pwyll-otherworld.concept",
-        "obj.pwyll-otherworld.source"
+        "obj.pwyll.swap",
+        "obj.pwyll.rhiannon"
       ],
       "recordIds": [
         "pg-5160"
@@ -4267,34 +4276,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "arawn",
         "celtic",
-        "mabinogion",
-        "otherworld",
-        "welsh"
+        "pwyll",
+        "rhiannon"
       ],
       "entities": [
+        "arawn",
         "celtic",
-        "mabinogion",
-        "otherworld",
-        "welsh"
+        "pwyll",
+        "rhiannon"
       ]
     },
     {
       "id": "celtic.week01.day02.branwen-sovereignty",
-      "version": 2,
+      "version": 3,
       "pantheon": "celtic",
-      "title": "Branwen: Hospitality and Consequence",
+      "title": "Branwen: The Insult That Started a War",
       "weekId": "cel.tales.week01",
       "tags": [
         "branwen",
-        "sovereignty",
-        "consequence"
+        "mabinogion",
+        "ireland",
+        "celtic"
       ],
       "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-02-branwen-sovereignty.json",
       "objectiveIds": [
-        "obj.branwen-sovereignty.concept",
-        "obj.branwen-sovereignty.source"
+        "obj.bran.insult",
+        "obj.bran.cost"
       ],
       "recordIds": [
         "pg-5160"
@@ -4304,31 +4314,34 @@
       "cardCount": 5,
       "themes": [
         "branwen",
-        "consequence",
-        "sovereignty"
+        "celtic",
+        "ireland",
+        "mabinogion"
       ],
       "entities": [
         "branwen",
-        "consequence",
-        "sovereignty"
+        "celtic",
+        "ireland",
+        "mabinogion"
       ]
     },
     {
       "id": "celtic.week01.day03.manawydan-patience",
-      "version": 2,
+      "version": 3,
       "pantheon": "celtic",
-      "title": "Manawydan: Patience and Enchantment",
+      "title": "Manawydan: The Enchantment",
       "weekId": "cel.tales.week01",
       "tags": [
         "manawydan",
-        "patience",
-        "magic"
+        "rhiannon",
+        "enchantment",
+        "celtic"
       ],
       "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-03-manawydan-patience.json",
       "objectiveIds": [
-        "obj.manawydan-patience.concept",
-        "obj.manawydan-patience.source"
+        "obj.man.mist",
+        "obj.man.mouse"
       ],
       "recordIds": [
         "pg-5160"
@@ -4337,32 +4350,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "magic",
+        "celtic",
+        "enchantment",
         "manawydan",
-        "patience"
+        "rhiannon"
       ],
       "entities": [
-        "magic",
+        "celtic",
+        "enchantment",
         "manawydan",
-        "patience"
+        "rhiannon"
       ]
     },
     {
       "id": "celtic.week01.day04.math-sovereignty",
-      "version": 2,
+      "version": 3,
       "pantheon": "celtic",
-      "title": "Math: Law, Magic, and Sovereignty",
+      "title": "Math: Magic and Sovereignty",
       "weekId": "cel.tales.week01",
       "tags": [
         "math",
-        "law",
-        "sovereignty"
+        "gwydion",
+        "blodeuwedd",
+        "celtic"
       ],
       "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-04-math-sovereignty.json",
       "objectiveIds": [
-        "obj.math-sovereignty.concept",
-        "obj.math-sovereignty.source"
+        "obj.math.rule",
+        "obj.math.flower"
       ],
       "recordIds": [
         "pg-5160"
@@ -4371,32 +4387,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "law",
-        "math",
-        "sovereignty"
+        "blodeuwedd",
+        "celtic",
+        "gwydion",
+        "math"
       ],
       "entities": [
-        "law",
-        "math",
-        "sovereignty"
+        "blodeuwedd",
+        "celtic",
+        "gwydion",
+        "math"
       ]
     },
     {
       "id": "celtic.week01.day05.taliesin-change",
-      "version": 2,
+      "version": 3,
       "pantheon": "celtic",
-      "title": "Taliesin: Poetry and Transformation",
+      "title": "Taliesin: The Shape-Shifter",
       "weekId": "cel.tales.week01",
       "tags": [
         "taliesin",
-        "poetry",
-        "transformation"
+        "cerridwen",
+        "cauldron",
+        "celtic"
       ],
       "difficulty": 2,
       "path": "content/lessons/celtic/tales/day-05-taliesin-change.json",
       "objectiveIds": [
-        "obj.taliesin-change.concept",
-        "obj.taliesin-change.source"
+        "obj.tal.chase",
+        "obj.tal.poet"
       ],
       "recordIds": [
         "pg-5160"
@@ -4405,33 +4424,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "poetry",
-        "taliesin",
-        "transformation"
+        "cauldron",
+        "celtic",
+        "cerridwen",
+        "taliesin"
       ],
       "entities": [
-        "poetry",
-        "taliesin",
-        "transformation"
+        "cauldron",
+        "celtic",
+        "cerridwen",
+        "taliesin"
       ]
     },
     {
       "id": "sla.folklore.day01.baba-yaga",
-      "version": 2,
+      "version": 3,
       "pantheon": "slavic",
-      "title": "Baba Yaga in Vasilissa the Fair",
+      "title": "Baba Yaga: The House on Legs",
       "weekId": "sla.folklore.week01",
       "tags": [
-        "slavic",
         "baba-yaga",
-        "folklore",
-        "witches"
+        "folktale",
+        "forest",
+        "slavic"
       ],
       "difficulty": 2,
       "path": "content/lessons/slavic/baba-yaga/day-01-baba-yaga.json",
       "objectiveIds": [
-        "obj.baba-yaga.concept",
-        "obj.baba-yaga.source"
+        "obj.baba.hut",
+        "obj.baba.role"
       ],
       "recordIds": [
         "pg-22373"
@@ -4441,33 +4462,34 @@
       "cardCount": 5,
       "themes": [
         "baba-yaga",
-        "folklore",
-        "slavic",
-        "witches"
+        "folktale",
+        "forest",
+        "slavic"
       ],
       "entities": [
         "baba-yaga",
-        "folklore",
-        "slavic",
-        "witches"
+        "folktale",
+        "forest",
+        "slavic"
       ]
     },
     {
       "id": "slavic.week01.day02.koschei-hidden-death",
-      "version": 2,
+      "version": 3,
       "pantheon": "slavic",
-      "title": "Koschei: Hidden Death",
+      "title": "Koschei: Death in an Egg",
       "weekId": "sla.folklore.week01",
       "tags": [
         "koschei",
         "death",
-        "folklore"
+        "egg",
+        "slavic"
       ],
       "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-02-koschei-hidden-death.json",
       "objectiveIds": [
-        "obj.koschei-hidden-death.concept",
-        "obj.koschei-hidden-death.source"
+        "obj.kos.hidden",
+        "obj.kos.chain"
       ],
       "recordIds": [
         "pg-22373"
@@ -4477,31 +4499,34 @@
       "cardCount": 5,
       "themes": [
         "death",
-        "folklore",
-        "koschei"
+        "egg",
+        "koschei",
+        "slavic"
       ],
       "entities": [
         "death",
-        "folklore",
-        "koschei"
+        "egg",
+        "koschei",
+        "slavic"
       ]
     },
     {
       "id": "slavic.week01.day03.vasilissa-wise",
-      "version": 2,
+      "version": 3,
       "pantheon": "slavic",
-      "title": "Vasilissa: Courage and Tasks",
+      "title": "Vasilissa and the Doll",
       "weekId": "sla.folklore.week01",
       "tags": [
         "vasilissa",
-        "tasks",
-        "courage"
+        "doll",
+        "baba-yaga",
+        "slavic"
       ],
       "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-03-vasilissa-wise.json",
       "objectiveIds": [
-        "obj.vasilissa-wise.concept",
-        "obj.vasilissa-wise.source"
+        "obj.vas.doll",
+        "obj.vas.tasks"
       ],
       "recordIds": [
         "pg-22373"
@@ -4510,32 +4535,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "courage",
-        "tasks",
+        "baba-yaga",
+        "doll",
+        "slavic",
         "vasilissa"
       ],
       "entities": [
-        "courage",
-        "tasks",
+        "baba-yaga",
+        "doll",
+        "slavic",
         "vasilissa"
       ]
     },
     {
       "id": "slavic.week01.day04.water-king-bargain",
-      "version": 2,
+      "version": 3,
       "pantheon": "slavic",
-      "title": "The Water King: Bargains and Impossible Tasks",
+      "title": "The Water King: The Bargain",
       "weekId": "sla.folklore.week01",
       "tags": [
         "water-king",
         "bargain",
-        "boundary"
+        "ivan",
+        "slavic"
       ],
       "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-04-water-king-bargain.json",
       "objectiveIds": [
-        "obj.water-king-bargain.concept",
-        "obj.water-king-bargain.source"
+        "obj.king.bargain",
+        "obj.king.escape"
       ],
       "recordIds": [
         "pg-22373"
@@ -4545,31 +4573,34 @@
       "cardCount": 5,
       "themes": [
         "bargain",
-        "boundary",
+        "ivan",
+        "slavic",
         "water-king"
       ],
       "entities": [
         "bargain",
-        "boundary",
+        "ivan",
+        "slavic",
         "water-king"
       ]
     },
     {
       "id": "slavic.week01.day05.firebird-quest",
-      "version": 2,
+      "version": 3,
       "pantheon": "slavic",
-      "title": "The Firebird: A Chapbook Quest",
+      "title": "The Firebird: The Shining Quest",
       "weekId": "sla.folklore.week01",
       "tags": [
         "firebird",
-        "quest",
-        "wonder"
+        "wolf",
+        "ivan",
+        "slavic"
       ],
       "difficulty": 2,
       "path": "content/lessons/slavic/folklore/day-05-firebird-quest.json",
       "objectiveIds": [
-        "obj.firebird-quest.concept",
-        "obj.firebird-quest.source"
+        "obj.fire.quest",
+        "obj.fire.wolf"
       ],
       "recordIds": [
         "pg-22373"
@@ -4579,13 +4610,15 @@
       "cardCount": 5,
       "themes": [
         "firebird",
-        "quest",
-        "wonder"
+        "ivan",
+        "slavic",
+        "wolf"
       ],
       "entities": [
         "firebird",
-        "quest",
-        "wonder"
+        "ivan",
+        "slavic",
+        "wolf"
       ]
     },
     {
@@ -5270,20 +5303,21 @@
     },
     {
       "id": "mesopotamian.week01.day01.kingship-excess",
-      "version": 2,
+      "version": 3,
       "pantheon": "mesopotamian",
-      "title": "Gilgamesh's Dream of a Companion",
+      "title": "Gilgamesh: The King's Dream",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
-        "mesopotamian",
-        "Gilgamesh:",
-        "Kingship"
+        "gilgamesh",
+        "uruk",
+        "enkidu",
+        "mesopotamian"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-01-kingship-excess.json",
       "objectiveIds": [
-        "obj.kingship-excess.concept",
-        "obj.kingship-excess.sources"
+        "obj.gilg.problem",
+        "obj.gilg.answer"
       ],
       "recordIds": [
         "pg-11000"
@@ -5292,32 +5326,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Gilgamesh:",
-        "Kingship",
-        "mesopotamian"
+        "enkidu",
+        "gilgamesh",
+        "mesopotamian",
+        "uruk"
       ],
       "entities": [
-        "Gilgamesh:",
-        "Kingship",
-        "mesopotamian"
+        "enkidu",
+        "gilgamesh",
+        "mesopotamian",
+        "uruk"
       ]
     },
     {
       "id": "mesopotamian.week01.day02.enkidu-wild",
-      "version": 2,
+      "version": 3,
       "pantheon": "mesopotamian",
-      "title": "Enkidu: From the Herd to Erech",
+      "title": "Enkidu: The Making of a Man",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
-        "mesopotamian",
-        "Enkidu:",
-        "The"
+        "enkidu",
+        "shamhat",
+        "uruk",
+        "mesopotamian"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-02-enkidu-wild.json",
       "objectiveIds": [
-        "obj.enkidu-wild.concept",
-        "obj.enkidu-wild.sources"
+        "obj.enk.taming",
+        "obj.enk.cost"
       ],
       "recordIds": [
         "pg-11000"
@@ -5326,32 +5363,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Enkidu:",
-        "The",
-        "mesopotamian"
+        "enkidu",
+        "mesopotamian",
+        "shamhat",
+        "uruk"
       ],
       "entities": [
-        "Enkidu:",
-        "The",
-        "mesopotamian"
+        "enkidu",
+        "mesopotamian",
+        "shamhat",
+        "uruk"
       ]
     },
     {
       "id": "mesopotamian.week01.day03.friendship-grief",
-      "version": 2,
+      "version": 3,
       "pantheon": "mesopotamian",
-      "title": "Gilgamesh and Enkidu: The First Contest",
+      "title": "Gilgamesh and Enkidu: The Wrestle",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
-        "mesopotamian",
-        "Friendship",
-        "and"
+        "gilgamesh",
+        "enkidu",
+        "friendship",
+        "mesopotamian"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-03-friendship-grief.json",
       "objectiveIds": [
-        "obj.friendship-grief.concept",
-        "obj.friendship-grief.sources"
+        "obj.fight.start",
+        "obj.fight.bond"
       ],
       "recordIds": [
         "pg-11000"
@@ -5360,32 +5400,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Friendship",
-        "and",
+        "enkidu",
+        "friendship",
+        "gilgamesh",
         "mesopotamian"
       ],
       "entities": [
-        "Friendship",
-        "and",
+        "enkidu",
+        "friendship",
+        "gilgamesh",
         "mesopotamian"
       ]
     },
     {
       "id": "mesopotamian.week01.day04.flood-mortality",
-      "version": 2,
+      "version": 3,
       "pantheon": "mesopotamian",
       "title": "The Cedar Forest: Huwawa's Terror",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
-        "mesopotamian",
-        "Flood",
-        "and"
+        "gilgamesh",
+        "enkidu",
+        "huwawa",
+        "cedar"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-04-flood-mortality.json",
       "objectiveIds": [
-        "obj.flood-mortality.concept",
-        "obj.flood-mortality.sources"
+        "obj.cedar.quest",
+        "obj.cedar.price"
       ],
       "recordIds": [
         "pg-11000"
@@ -5394,32 +5437,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Flood",
-        "and",
-        "mesopotamian"
+        "cedar",
+        "enkidu",
+        "gilgamesh",
+        "huwawa"
       ],
       "entities": [
-        "Flood",
-        "and",
-        "mesopotamian"
+        "cedar",
+        "enkidu",
+        "gilgamesh",
+        "huwawa"
       ]
     },
     {
       "id": "mesopotamian.week01.day05.fragmented-source",
-      "version": 2,
+      "version": 3,
       "pantheon": "mesopotamian",
-      "title": "Gilgamesh: Reading Across Fragments",
+      "title": "Gilgamesh: The Broken Epic",
       "weekId": "mesopot.gilgamesh.week01",
       "tags": [
-        "mesopotamian",
-        "A",
-        "Fragmentary"
+        "gilgamesh",
+        "epic",
+        "fragments",
+        "mesopotamian"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesopotamian/gilgamesh/day-05-fragmented-source.json",
       "objectiveIds": [
-        "obj.fragmented-source.concept",
-        "obj.fragmented-source.sources"
+        "obj.frag.source",
+        "obj.frag.read"
       ],
       "recordIds": [
         "pg-11000"
@@ -5428,13 +5474,15 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "A",
-        "Fragmentary",
+        "epic",
+        "fragments",
+        "gilgamesh",
         "mesopotamian"
       ],
       "entities": [
-        "A",
-        "Fragmentary",
+        "epic",
+        "fragments",
+        "gilgamesh",
         "mesopotamian"
       ]
     },

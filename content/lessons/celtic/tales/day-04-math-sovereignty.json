@@ -1,208 +1,194 @@
 {
-  "id": "celtic.week01.day04.math-sovereignty",
-  "version": 2,
-  "weekId": "cel.tales.week01",
-  "pantheon": "celtic",
-  "themeMode": "pantheon",
-  "title": "Math: Law, Magic, and Sovereignty",
-  "subtitle": "Rulership tested by transgression",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "math",
-    "law",
-    "sovereignty"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.math-sovereignty.concept",
-      "text": "When can Math be without a maiden holding his feet?"
-    },
-    {
-      "id": "obj.math-sovereignty.source",
-      "text": "Whom does Goewin identify in her report to Math?"
-    }
-  ],
-  "sourceReferences": {
-    "rule": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Fourth Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Fourth Branch, Math's rule and Goewin; local text normalized characters 464283-464369",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "Math the son of Mathonwy could not exist unless his feet were in the lap of a maiden,",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    },
-    "testimony": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Fourth Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Fourth Branch, Goewin reports the assault; local text normalized characters 475408-475656",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "An attack, lord, was made unawares upon me; but I held not my peace, and there was no one in the Court who knew not of it. Now the attack was made by thy nephews, lord, the sons of thy sister, Gwydion the son of Don, and Gilvaethwy the son of Don;",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    }
+ "id": "celtic.week01.day04.math-sovereignty",
+ "version": 3,
+ "weekId": "cel.tales.week01",
+ "pantheon": "celtic",
+ "themeMode": "pantheon",
+ "title": "Math: Magic and Sovereignty",
+ "subtitle": "A king who needs a virgin foot-holder — and a nephew who makes a wife from flowers",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "math",
+  "gwydion",
+  "blodeuwedd",
+  "celtic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.math.rule",
+   "text": "What is Math's strange royal custom?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The Fourth Branch says Math normally must rest his feet in a maiden's lap, except when war prevents it. Goewin later tells Math that his nephews attacked her while he was away and names them.",
-      "sourceRefIds": [
-        "rule"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Goewin speaks to Math",
-      "body": "Source quotation (Guest translation; whitespace normalized): “Math the son of Mathonwy could not exist unless his feet were in the lap of a maiden,”",
-      "sourceRefIds": [
-        "rule"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The tale links a court custom with the harm done under its protection. Keep Goewin's testimony visible; do not turn the assault into a romantic subplot or erase her account.",
-      "sourceRefIds": [
-        "rule",
-        "testimony"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "This is one medieval Welsh branch in the Mabinogion collection, not a universal account of Celtic law or kingship.",
-      "sourceRefIds": [
-        "rule",
-        "testimony"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Compare the rule described at the opening with Goewin's own report of how it was violated.",
-      "sourceRefIds": [
-        "rule",
-        "testimony"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "When can Math be without a maiden holding his feet?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "When war prevents the custom"
-        },
-        {
-          "id": "b",
-          "text": "Whenever he is judging a legal dispute"
-        },
-        {
-          "id": "c",
-          "text": "Only while he is travelling to Annwvyn"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The branch states the condition and gives war as the exception.",
-      "sourceRefIds": [
-        "rule"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "rule"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Whom does Goewin identify in her report to Math?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Pwyll and Arawn"
-        },
-        {
-          "id": "b",
-          "text": "Bran and Matholwch"
-        },
-        {
-          "id": "c",
-          "text": "Gwydion and Gilvaethwy, Math's nephews"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Goewin names the two nephews and says they wronged her and dishonoured Math.",
-      "sourceRefIds": [
-        "testimony"
-      ],
-      "objectiveIds": [
-        "obj.math-sovereignty.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "testimony"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.math.flower",
+   "text": "How is Blodeuwedd made?"
   }
+ ],
+ "sourceReferences": {
+  "rule": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Fourth Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Fourth Branch, Math's rule and Goewin; local text normalized characters 464283-464369",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "Math the son of Mathonwy could not exist unless his feet were in the lap of a maiden,",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  },
+  "testimony": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Fourth Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Fourth Branch, Goewin reports the assault; local text normalized characters 475408-475656",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "An attack, lord, was made unawares upon me; but I held not my peace, and there was no one in the Court who knew not of it. Now the attack was made by thy nephews, lord, the sons of thy sister, Gwydion the son of Don, and Gilvaethwy the son of Don;",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A king's peculiar rule",
+   "body": "Math, king of Gwynedd, can only hold office while his feet rest in a virgin's lap — a magical condition of rule so specific it reads like law. His nephew Gwydion exploits this to start a war for his brother.",
+   "sourceRefIds": [
+    "rule"
+   ],
+   "objectiveIds": [
+    "obj.math.rule"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The flower-wife",
+   "body": "Punished for the war, Gwydion's nephew Lleu has a wife made for him by magic — Blodeuwedd, fashioned from oak, broom, and meadowsweet flowers, the most beautiful woman ever made.",
+   "sourceRefIds": [
+    "rule"
+   ],
+   "objectiveIds": [
+    "obj.math.flower"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The wife who was flowers",
+   "body": "Blodeuwedd loves a stranger and plots her husband's death — he can only be killed under impossible conditions, which she tricks him into demonstrating. She is made of flowers, not flesh — the tale's strange cruelty.",
+   "sourceRefIds": [
+    "testimony"
+   ],
+   "objectiveIds": [
+    "obj.math.flower"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Owl in the oak",
+   "body": "Lleu is not quite killed — he turns into an eagle. Blodeuwedd is punished by being made an owl, shunned by every other bird. Justice in the tale is transformation, not death.",
+   "sourceRefIds": [
+    "testimony"
+   ],
+   "objectiveIds": [
+    "obj.math.flower"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The strangest tale of the four",
+   "body": "The Fourth Branch asks what a person made of flowers owes to human loyalty — and what happens when a created thing chooses for herself. It's the uncanniest of the Mabinogion.",
+   "sourceRefIds": [
+    "testimony"
+   ],
+   "objectiveIds": [
+    "obj.math.flower"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Math's peculiar condition of rule?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He must never touch iron"
+    },
+    {
+     "id": "b",
+     "text": "He rules only at night"
+    },
+    {
+     "id": "c",
+     "text": "He can only hold office while his feet rest in a virgin's lap — a magical law of sovereignty"
+    },
+    {
+     "id": "d",
+     "text": "His crown must be remade each year"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The foot-holder condition is the tale's strangest law — Gwydion exploits it to trigger war.",
+   "sourceRefIds": [
+    "rule"
+   ],
+   "objectiveIds": [
+    "obj.math.rule"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is Blodeuwedd?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A woman made from flowers — created to be Lleu's wife, who chooses a lover and plots his death"
+    },
+    {
+     "id": "b",
+     "text": "A fairy who seduces the king"
+    },
+    {
+     "id": "c",
+     "text": "A sorceress who curses Gwydion"
+    },
+    {
+     "id": "d",
+     "text": "A giantess from the Otherworld"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Made from oak, broom, and meadowsweet — the flower-wife's betrayal is the Fourth Branch's heart.",
+   "sourceRefIds": [
+    "testimony"
+   ],
+   "objectiveIds": [
+    "obj.math.flower"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

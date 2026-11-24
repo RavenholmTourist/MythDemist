@@ -1,206 +1,194 @@
 {
-  "id": "slavic.week01.day02.koschei-hidden-death",
-  "version": 2,
-  "weekId": "sla.folklore.week01",
-  "pantheon": "slavic",
-  "themeMode": "pantheon",
-  "title": "Koschei: Hidden Death",
-  "subtitle": "Power located outside the body",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "koschei",
-    "death",
-    "folklore"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.koschei-hidden-death.concept",
-      "text": "Where does Koschei say his death is hidden in this version?"
-    },
-    {
-      "id": "obj.koschei-hidden-death.source",
-      "text": "What does Ivan do when the wolf asks him to spare its cub?"
-    }
-  ],
-  "sourceReferences": {
-    "death": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Ralston's recorded Koschei tale, the external death)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Ralston's recorded Koschei tale, the external death; local text normalized characters 197105-197244",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "There stands an oak, and under the oak is a casket, and in the casket is a hare, and in the hare is a duck, and in the duck is an egg, and",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    },
-    "wolf": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Marya Morevna, Ivan spares the wolf)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Marya Morevna, Ivan spares the wolf; local text normalized characters 197605-197784",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "Suddenly there appeared a young wolf; he determined to kill it. But out from a hole sprang the she wolf, and said, \"Don't hurt my little one; I'll do you a good turn.\" Very good!",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    }
+ "id": "slavic.week01.day02.koschei-hidden-death",
+ "version": 3,
+ "weekId": "sla.folklore.week01",
+ "pantheon": "slavic",
+ "themeMode": "pantheon",
+ "title": "Koschei: Death in an Egg",
+ "subtitle": "The deathless villain whose death is hidden at the edge of the world",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "koschei",
+  "death",
+  "egg",
+  "slavic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.kos.hidden",
+   "text": "Where does Koschei keep his death?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A strength that can be found",
-      "body": "In one tale Ralston records, Koschei locates his death outside his body: inside an egg, inside a duck, inside a hare, inside a casket beneath an oak.",
-      "sourceRefIds": [
-        "death"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The nested hiding place",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “There stands an oak, and under the oak is a casket, and in the casket is a hare, and in the hare is a duck, and in the duck is an egg, and”",
-      "sourceRefIds": [
-        "death"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A choice on the journey",
-      "body": "On his search, Ivan considers killing a young wolf. Its mother asks him to spare the cub and promises a good turn; Ivan lets it live.",
-      "sourceRefIds": [
-        "wolf"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not flatten variants",
-      "body": "Ralston compares multiple reported versions of Koschei. The external death motif appears in a tale he quotes; details vary and do not define every Slavic story.",
-      "sourceRefIds": [
-        "death",
-        "wolf"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Discovery changes the contest",
-      "body": "The story makes knowledge of a hidden vulnerability more important than a direct contest of strength.",
-      "sourceRefIds": [
-        "death"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Where does Koschei say his death is hidden in this version?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "In a ring carried by Vasilissa"
-        },
-        {
-          "id": "b",
-          "text": "In the Water King's bridge"
-        },
-        {
-          "id": "c",
-          "text": "In an egg nested inside a duck, hare, and casket under an oak"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The quoted tale gives a sequence of containers outside Koschei's body.",
-      "sourceRefIds": [
-        "death"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "death"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Ivan do when the wolf asks him to spare its cub?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asks Koschei to decide"
-        },
-        {
-          "id": "b",
-          "text": "He spares it, and the wolf promises help"
-        },
-        {
-          "id": "c",
-          "text": "He kills the cub for food"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Ivan lets the young wolf live; later the animal helps him.",
-      "sourceRefIds": [
-        "wolf"
-      ],
-      "objectiveIds": [
-        "obj.koschei-hidden-death.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "wolf"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.kos.chain",
+   "text": "How is he finally killed?"
   }
+ ],
+ "sourceReferences": {
+  "death": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Ralston's recorded Koschei tale, the external death)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Ralston's recorded Koschei tale, the external death; local text normalized characters 197105-197244",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "There stands an oak, and under the oak is a casket, and in the casket is a hare, and in the hare is a duck, and in the duck is an egg, and",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  },
+  "wolf": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Marya Morevna, Ivan spares the wolf)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Marya Morevna, Ivan spares the wolf; local text normalized characters 197605-197784",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "Suddenly there appeared a young wolf; he determined to kill it. But out from a hole sprang the she wolf, and said, \"Don't hurt my little one; I'll do you a good turn.\" Very good!",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The undying abductor",
+   "body": "Koschei the Deathless is the Slavic cycle's great villain — a withered sorcerer who abducts brides and heroes' loves and cannot be killed, because his death is not in him.",
+   "sourceRefIds": [
+    "death"
+   ],
+   "objectiveIds": [
+    "obj.kos.hidden"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A nesting doll of death",
+   "body": "His death is hidden inside layers: on the tip of a needle, inside an egg, inside a duck, inside a hare, inside an iron chest, buried under an oak on the island of Buyan at the edge of the world.",
+   "sourceRefIds": [
+    "death"
+   ],
+   "objectiveIds": [
+    "obj.kos.hidden"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Only helpers reach it",
+   "body": "No hero fights Koschei head-on and wins. The path to the egg runs through helpers — a wolf, an eagle, a pike — each earned by a kindness the hero did earlier. The chain of favours is the actual weapon.",
+   "sourceRefIds": [
+    "wolf"
+   ],
+   "objectiveIds": [
+    "obj.kos.chain"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The egg in his face",
+   "body": "When the egg is finally brought to Koschei, the hero doesn't even need to break it: holding it, he can make the sorcerer helpless — crushing it kills him. The most dangerous thing in the world is his own hidden death.",
+   "sourceRefIds": [
+    "wolf"
+   ],
+   "objectiveIds": [
+    "obj.kos.chain"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Death externalized",
+   "body": "The pattern — a giant whose life is hidden outside his body — is one of folklore's most travelled ideas (the giant's heart in the well, the troll's heart in the egg). It says: the unkillable are still fragile — you just have to find where the fragility lives.",
+   "sourceRefIds": [
+    "death"
+   ],
+   "objectiveIds": [
+    "obj.kos.hidden"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Where does Koschei keep his death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "In a ring on his finger"
+    },
+    {
+     "id": "b",
+     "text": "In the roots of the world-tree"
+    },
+    {
+     "id": "c",
+     "text": "On a needle's tip, in an egg, in a duck, in a hare, in a chest under an oak on the island of Buyan"
+    },
+    {
+     "id": "d",
+     "text": "In a stone in his chest"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The nested hiding — needle, egg, duck, hare, chest, island — is the tale's famous riddle.",
+   "sourceRefIds": [
+    "death"
+   ],
+   "objectiveIds": [
+    "obj.kos.hidden"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the hero finally defeat Koschei?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He gains the egg through helpers earned by earlier kindnesses — holding or crushing it ends the sorcerer"
+    },
+    {
+     "id": "b",
+     "text": "He burns the iron chest on a pyre"
+    },
+    {
+     "id": "c",
+     "text": "He finds Koschei's true name"
+    },
+    {
+     "id": "d",
+     "text": "He beheads Koschei in single combat"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The weapon is the favours-chain — kindnesses, not swords, reach the death.",
+   "sourceRefIds": [
+    "wolf"
+   ],
+   "objectiveIds": [
+    "obj.kos.chain"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

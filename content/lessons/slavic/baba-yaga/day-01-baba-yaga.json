@@ -1,194 +1,182 @@
 {
-  "id": "sla.folklore.day01.baba-yaga",
-  "version": 2,
-  "weekId": "sla.folklore.week01",
-  "pantheon": "slavic",
-  "themeMode": "pantheon",
-  "title": "Baba Yaga in Vasilissa the Fair",
-  "subtitle": "Ambiguous power in Slavic folklore",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "slavic",
-    "baba-yaga",
-    "folklore",
-    "witches"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.baba-yaga.concept",
-      "text": "What does the doll do for Vasilissa while Baba Yaga is away?"
-    },
-    {
-      "id": "obj.baba-yaga.source",
-      "text": "What kind of evidence is this episode?"
-    }
-  ],
-  "sourceReferences": {
-    "scene": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Vasilissa the Fair, Baba Yaga's daily routine)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Vasilissa the Fair, Baba Yaga's daily routine; local text normalized characters 285045-285560",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "The Baba Yaga went out into the courtyard and whistled--before her appeared a mortar with a pestle and a broom. The red horseman appeared--the sun rose. The Baba Yaga seated herself in the mortar, and drove out of the courtyard, shooting herself along with the pestle, sweeping away her traces with the broom. Vasilissa was left alone, so she examined the Baba Yaga's house, wondered at the abundance there was in everything, and remained lost in thought as to which work she ought to take to first. She looked up;",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    }
+ "id": "sla.folklore.day01.baba-yaga",
+ "version": 3,
+ "weekId": "sla.folklore.week01",
+ "pantheon": "slavic",
+ "themeMode": "pantheon",
+ "title": "Baba Yaga: The House on Legs",
+ "subtitle": "A witch in a hut that walks — the forest's most dangerous gatekeeper",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "baba-yaga",
+  "folktale",
+  "forest",
+  "slavic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.baba.hut",
+   "text": "What is Baba Yaga's house?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "At Baba Yaga's house",
-      "body": "In Ralston's Vasilissa the Fair, the witch leaves the girl with difficult work. The scene makes the household itself a test.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The task is tested at dawn",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “The Baba Yaga went out into the courtyard and whistled--before her appeared a mortar with a pestle and a broom. The red horseman appeared--the sun rose. The Baba Yaga seated herself in the mortar, and drove out of the courtyard, shooting herself along with the pestle, sweeping away her traces with the broom. Vasilissa was left alone, so she examined the Baba Yaga's house, wondered at the abundance there was in everything, and remained lost in thought as to which work she ought to take to first. She looked up;”",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Threat and help coexist",
-      "body": "Vasilissa is frightened by Baba Yaga, but an enchanted doll helps her meet the demands. Avoid reducing this tale's figure to a universal villain type.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Name the collector and tale",
-      "body": "Ralston's Russian Fairy Tales is a nineteenth-century collection and interpretation of stories; this scene is one recorded version, not a scripture or pan-Slavic canon.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "An uneasy helper",
-      "body": "The tale leaves Vasilissa with a dangerous household and help that depends on her following her mother's instructions.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the doll do for Vasilissa while Baba Yaga is away?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Completes the wheat-clearing task"
-        },
-        {
-          "id": "b",
-          "text": "Hides Baba Yaga's mortar"
-        },
-        {
-          "id": "c",
-          "text": "Turns the house into a palace"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The cited passage says Vasilissa finds the work completed and credits her doll.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "scene"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of evidence is this episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A law code used by every Slavic community"
-        },
-        {
-          "id": "b",
-          "text": "A contemporary eyewitness report"
-        },
-        {
-          "id": "c",
-          "text": "A Russian folktale recorded and translated by Ralston"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The source is a nineteenth-century folklore collection, not an eyewitness record or universal canon.",
-      "sourceRefIds": [
-        "scene"
-      ],
-      "objectiveIds": [
-        "obj.baba-yaga.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "scene"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.baba.role",
+   "text": "Is she villain, helper, or both?"
   }
+ ],
+ "sourceReferences": {
+  "scene": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Vasilissa the Fair, Baba Yaga's daily routine)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Vasilissa the Fair, Baba Yaga's daily routine; local text normalized characters 285045-285560",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "The Baba Yaga went out into the courtyard and whistled--before her appeared a mortar with a pestle and a broom. The red horseman appeared--the sun rose. The Baba Yaga seated herself in the mortar, and drove out of the courtyard, shooting herself along with the pestle, sweeping away her traces with the broom. Vasilissa was left alone, so she examined the Baba Yaga's house, wondered at the abundance there was in everything, and remained lost in thought as to which work she ought to take to first. She looked up;",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The hut that walks",
+   "body": "Deep in the forest stands a hut on chicken legs — it turns and dances and squats to let visitors in only when they ask the right way. Around it, a fence of bones; on the posts, skulls whose eyes burn at night.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.hut"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The old woman in the mortar",
+   "body": "Baba Yaga herself flies in a mortar, driving with a pestle, sweeping her tracks away with a broom. She is old beyond measure, iron-nosed, and always hungry for news of the outside.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.hut"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Both monster and test",
+   "body": "The tales never decide her: she eats the unwary, but for the right visitor — the courteous, the patient, the well-advised — she gives impossible tasks and then the help to pass them. She is the forest's gatekeeper, not simply its villain.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.role"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The riders at the door",
+   "body": "At her gate pass three riders — white for dawn, red for day, black for night — the day's passage personified. Even time itself rides in her service; this witch stands at the world's hinges.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.role"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why she's everywhere",
+   "body": "Baba Yaga is the Slavic tradition's indispensable figure: the dangerous border between the everyday world and the deep forest where everything is possible. Every quest in this pack passes her gate.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.role"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Baba Yaga's house?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A stone tower in the deep forest"
+    },
+    {
+     "id": "b",
+     "text": "A cave beneath a birch tree"
+    },
+    {
+     "id": "c",
+     "text": "A hut that stands and turns on chicken legs, fenced with bones and burning-eyed skulls"
+    },
+    {
+     "id": "d",
+     "text": "A palace of ice"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The chicken-legged hut is her signature — it moves, and only admits visitors who know how to ask.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.hut"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What role does Baba Yaga play in the tales?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Both devourer of the unwary and gatekeeper who aids the courteous — the forest's test, not just its monster"
+    },
+    {
+     "id": "b",
+     "text": "Pure villain to be destroyed"
+    },
+    {
+     "id": "c",
+     "text": "A kindly grandmother"
+    },
+    {
+     "id": "d",
+     "text": "A captive princess in disguise"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Her ambiguity is the point — the forest gives what you're equipped to ask for.",
+   "sourceRefIds": [
+    "scene"
+   ],
+   "objectiveIds": [
+    "obj.baba.role"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

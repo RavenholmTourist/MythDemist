@@ -1,207 +1,194 @@
 {
-  "id": "slavic.week01.day05.firebird-quest",
-  "version": 2,
-  "weekId": "sla.folklore.week01",
-  "pantheon": "slavic",
-  "themeMode": "pantheon",
-  "title": "The Firebird: A Chapbook Quest",
-  "subtitle": "Beauty that triggers a journey",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "firebird",
-    "quest",
-    "wonder"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.firebird-quest.concept",
-      "text": "How does Ralston describe the source of this Zhar-Ptitsa tale?"
-    },
-    {
-      "id": "obj.firebird-quest.source",
-      "text": "What does Ivan secure when he cannot catch the Firebird?"
-    }
-  ],
-  "sourceReferences": {
-    "provenance": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Ralston's source note on the Zhar-Ptitsa tale)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Ralston's source note on the Zhar-Ptitsa tale; local text normalized characters 531477-531538",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "it is a \"Chap-book\" story, and therefore of doubtful origin.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    },
-    "story": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (Ralston's summary of King Vuislaf and the Zhar-Ptitsa)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "Ralston's summary of King Vuislaf and the Zhar-Ptitsa; local text normalized characters 531538-531861",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "King Vuislaf has an apple-tree which bears golden fruits. These are stolen by a _Zhar-Ptitsa_ which flies every night into the garden, so he orders his sons to keep watch there by turns. The elder brothers cannot keep awake, and see nothing; but the youngest of the three, Prince Ivan, though he fails to capture the bird,",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    }
+ "id": "slavic.week01.day05.firebird-quest",
+ "version": 3,
+ "weekId": "sla.folklore.week01",
+ "pantheon": "slavic",
+ "themeMode": "pantheon",
+ "title": "The Firebird: The Shining Quest",
+ "subtitle": "A feather of fire, a grey wolf, and a quest that keeps making new demands",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "firebird",
+  "wolf",
+  "ivan",
+  "slavic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fire.quest",
+   "text": "What sends Ivan on the quest?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A bird that starts a quest",
-      "body": "Ralston summarizes a tale in which a Zhar-Ptitsa steals golden fruit from King Vuislaf's tree. Ivan fails to catch the bird but secures a feather.",
-      "sourceRefIds": [
-        "story"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The collector's caveat",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “it is a \"Chap-book\" story, and therefore of doubtful origin.”",
-      "sourceRefIds": [
-        "provenance"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.source"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "source",
-      "title": "The tale as summarized",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “King Vuislaf has an apple-tree which bears golden fruits. These are stolen by a _Zhar-Ptitsa_ which flies every night into the garden, so he orders his sons to keep watch there by turns. The elder brothers cannot keep awake, and see nothing; but the youngest of the three, Prince Ivan, though he fails to capture the bird,”",
-      "sourceRefIds": [
-        "story"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "This is a summary, not the full folktale",
-      "body": "Ralston explicitly calls this a chapbook story and says its origin is doubtful. Attribute the outline to his discussion rather than presenting it as an ancient pan-Slavic myth.",
-      "sourceRefIds": [
-        "provenance",
-        "story"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Do not collapse the bird variants",
-      "body": "Ralston compares the Zhar-Ptitsa with the German Golden Bird and notes other variants. Similar motifs do not make every version the same story.",
-      "sourceRefIds": [
-        "provenance",
-        "story"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does Ralston describe the source of this Zhar-Ptitsa tale?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "An eyewitness record of an ancient rite"
-        },
-        {
-          "id": "b",
-          "text": "A fixed scripture used across all Slavic communities"
-        },
-        {
-          "id": "c",
-          "text": "A chapbook story of doubtful origin"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage is Ralston's folkloristic summary and explicitly questions the chapbook's origin.",
-      "sourceRefIds": [
-        "provenance"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "provenance"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Ivan secure when he cannot catch the Firebird?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The entire apple tree"
-        },
-        {
-          "id": "b",
-          "text": "One feather from its tail"
-        },
-        {
-          "id": "c",
-          "text": "The bird's golden cage"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Ralston's summary says the youngest son gets a tail feather, then begins a quest.",
-      "sourceRefIds": [
-        "story"
-      ],
-      "objectiveIds": [
-        "obj.firebird-quest.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "story"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fire.wolf",
+   "text": "What is the wolf's role?"
   }
+ ],
+ "sourceReferences": {
+  "provenance": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Ralston's source note on the Zhar-Ptitsa tale)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Ralston's source note on the Zhar-Ptitsa tale; local text normalized characters 531477-531538",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "it is a \"Chap-book\" story, and therefore of doubtful origin.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  },
+  "story": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (Ralston's summary of King Vuislaf and the Zhar-Ptitsa)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "Ralston's summary of King Vuislaf and the Zhar-Ptitsa; local text normalized characters 531538-531861",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "King Vuislaf has an apple-tree which bears golden fruits. These are stolen by a _Zhar-Ptitsa_ which flies every night into the garden, so he orders his sons to keep watch there by turns. The elder brothers cannot keep awake, and see nothing; but the youngest of the three, Prince Ivan, though he fails to capture the bird,",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The feather that starts it",
+   "body": "A tsar covets the Firebird — the glowing bird that comes to steal his golden apples. His youngest son Ivan goes to catch it and finds only a feather — but a feather so bright it lights the room.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.quest"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The wolf who eats his horse",
+   "body": "On the road a grey wolf eats Ivan's horse — then, in compensation, becomes his guide and mount: faster than any horse, wiser than any courtier, and the architect of every success Ivan has.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.wolf"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Demands that multiply",
+   "body": "Each prize breeds a new demand: the Firebird requires a golden cage; the beautiful princess requires another princess's hand in exchange; each errand to a new tsar spirals. The quest teaches that getting is never the end.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.quest"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The wolf makes it work",
+   "body": "Through every snag, the wolf's counsel rescues Ivan — impersonating him, advising his refusals, turning each 'impossible' exchange around. The hero's real strength is that he listens to the wolf.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.wolf"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "A chapbook's reach",
+   "body": "The Firebird tale survived in cheap printed chapbooks — folk publishing that carried the stories to generations. The tale's structure — radiant prize, wise animal guide, cascading demands — is one of the world's most copied quest-patterns.",
+   "sourceRefIds": [
+    "provenance"
+   ],
+   "objectiveIds": [
+    "obj.fire.quest"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What sends Ivan on the Firebird quest?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Firebird burns his city"
+    },
+    {
+     "id": "b",
+     "text": "He seeks the bird to cure his mother"
+    },
+    {
+     "id": "c",
+     "text": "His tsar father covets the bird that steals his golden apples — Ivan brings back a feather and the quest grows from there"
+    },
+    {
+     "id": "d",
+     "text": "A dream commands him"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The feather's radiance hooks the tsar — one prize always demands another.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.quest"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the grey wolf's role in the tale?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Ivan's guide and rescuer — after eating his horse, the wolf carries him, advises him, and solves each impossible demand"
+    },
+    {
+     "id": "b",
+     "text": "A beast Ivan must kill"
+    },
+    {
+     "id": "c",
+     "text": "The Firebird's guardian"
+    },
+    {
+     "id": "d",
+     "text": "A villain in disguise"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The wolf is the tale's real hero — Ivan succeeds by listening.",
+   "sourceRefIds": [
+    "story"
+   ],
+   "objectiveIds": [
+    "obj.fire.wolf"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,211 +1,195 @@
 {
-  "id": "egyptian.week01.day05.thoth-knowledge",
-  "version": 3,
-  "weekId": "egy.gods.week01",
-  "pantheon": "egyptian",
-  "themeMode": "pantheon",
-  "title": "Thoth: Writing and Sacred Speech",
-  "subtitle": "Divine order through record and speech",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "thoth",
-    "writing",
-    "knowledge"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.thoth-knowledge.concept",
-      "text": "Who says 'I am Thoth, the perfect scribe' in the cited passage?"
-    },
-    {
-      "id": "obj.thoth-knowledge.source",
-      "text": "How should Budge's statement that Thoth invented writing be treated?"
-    }
-  ],
-  "sourceReferences": {
-    "hunefer": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration",
-      "author": "various Egyptian authors",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration; local text normalized characters 97437-97674",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "I have not committed any kind of sin in the land; I have defrauded no man of what is his. I am Thoth, the perfect scribe, whose hands are pure. I am the lord of purity, the destroyer of evil, the scribe of truth; what I abominate is sin.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    },
-    "budge": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "Budge, Chapter I, Thoth and writing",
-      "author": "various Egyptian authors",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Budge, Chapter I, Thoth and writing; local text normalized characters 9441-9709",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "Egyptian writing was believed to have been invented by the god Tehuti, or Thoth, and as this god was thought to be a form of the mind and intellect and wisdom of the God who created the heavens and the earth, the picture characters, or hieroglyphs as they are called,",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    }
+ "id": "egyptian.week01.day05.thoth-knowledge",
+ "version": 4,
+ "weekId": "egy.gods.week01",
+ "pantheon": "egyptian",
+ "themeMode": "pantheon",
+ "title": "Thoth: The God's Scribe",
+ "subtitle": "Writing, magic, and the moon — the ibis-headed keeper of the accounts",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "thoth",
+  "writing",
+  "moon",
+  "egyptian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.thoth.roles",
+   "text": "What does Thoth actually do?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In a hymn that Budge attributes to the Papyrus of Hunefer, the speaker says, 'I am Thoth, the perfect scribe.' Budge's separate introductory chapter reports a belief that Thoth invented writing.",
-      "sourceRefIds": [
-        "hunefer",
-        "budge"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A ritual speaker identifies with Thoth",
-      "body": "Source quotation (Budge translation; whitespace normalized): “I have not committed any kind of sin in the land; I have defrauded no man of what is his. I am Thoth, the perfect scribe, whose hands are pure. I am the lord of purity, the destroyer of evil, the scribe of truth; what I abominate is sin.”",
-      "sourceRefIds": [
-        "hunefer"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The words 'I am Thoth' occur in a funerary hymn's first-person declaration. They are not a biography of the god or proof that Thoth literally authored this manuscript.",
-      "sourceRefIds": [
-        "hunefer",
-        "budge"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the evidence carefully",
-      "body": "Budge's Chapter I is modern editorial prose; the Hunefer hymn is a translated ancient text. Keep those evidence types and voices separate.",
-      "sourceRefIds": [
-        "hunefer",
-        "budge"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Ask who is speaking before treating a divine identity formula as a literal statement about authorship.",
-      "sourceRefIds": [
-        "hunefer",
-        "budge"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Who says 'I am Thoth, the perfect scribe' in the cited passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Budge in his Chapter I essay"
-        },
-        {
-          "id": "b",
-          "text": "A Greek historian describing Thoth"
-        },
-        {
-          "id": "c",
-          "text": "The first-person speaker in a funerary hymn"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Budge introduces the words as part of a hymn in the Papyrus of Hunefer.",
-      "sourceRefIds": [
-        "hunefer"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "hunefer"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How should Budge's statement that Thoth invented writing be treated?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As a claim made in the Hunefer hymn"
-        },
-        {
-          "id": "b",
-          "text": "As a modern editor's report of an Egyptian religious belief"
-        },
-        {
-          "id": "c",
-          "text": "As Thoth's own surviving autobiography"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The statement appears in Budge's introductory essay, not as the Hunefer hymn's own voice.",
-      "sourceRefIds": [
-        "budge",
-        "hunefer"
-      ],
-      "objectiveIds": [
-        "obj.thoth-knowledge.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "budge",
-          "hunefer"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.thoth.moon",
+   "text": "How is he connected to the moon?"
   }
+ ],
+ "sourceReferences": {
+  "hunefer": {
+   "recordId": "pg-15932",
+   "sourceId": "egy.literature-ancient-egyptians",
+   "work": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration",
+   "author": "various Egyptian authors",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Hymn to Osiris in the Papyrus of Hunefer, the speaker's declaration; local text normalized characters 97437-97674",
+   "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+   "excerpt": "I have not committed any kind of sin in the land; I have defrauded no man of what is his. I am Thoth, the perfect scribe, whose hands are pure. I am the lord of purity, the destroyer of evil, the scribe of truth; what I abominate is sin.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  },
+  "budge": {
+   "recordId": "pg-15932",
+   "sourceId": "egy.literature-ancient-egyptians",
+   "work": "Budge, Chapter I, Thoth and writing",
+   "author": "various Egyptian authors",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Budge, Chapter I, Thoth and writing; local text normalized characters 9441-9709",
+   "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+   "excerpt": "Egyptian writing was believed to have been invented by the god Tehuti, or Thoth, and as this god was thought to be a form of the mind and intellect and wisdom of the God who created the heavens and the earth, the picture characters, or hieroglyphs as they are called,",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The pantheon's clerk",
+   "body": "Thoth — ibis-headed — is the gods' scribe and record-keeper: he invented writing, keeps the divine accounts, and records the verdict at the Judgment of the Dead. Every Egyptian scribe worked under his patronage.",
+   "sourceRefIds": [
+    "hunefer"
+   ],
+   "objectiveIds": [
+    "obj.thoth.roles"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Magic and words",
+   "body": "He is also lord of magic and sacred speech — the power of saying things truly. In Egypt's thought, writing is not mere record: the written word has power, and Thoth is its keeper.",
+   "sourceRefIds": [
+    "budge"
+   ],
+   "objectiveIds": [
+    "obj.thoth.roles"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Five stolen days",
+   "body": "In one famous story, Thoth gambles with the moon-god and wins enough light to make five extra days — days outside the calendar where Nut can bear her children (Osiris, Isis, Set, and the rest). The calendar literally exists because he won a bet.",
+   "sourceRefIds": [
+    "budge"
+   ],
+   "objectiveIds": [
+    "obj.thoth.moon"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The mediator",
+   "body": "When Horus and Set fight their succession-war, Thoth is the gods' mediator — the one who can be trusted by both sides. Scribes and wisdom-keepers keep order without swords.",
+   "sourceRefIds": [
+    "hunefer"
+   ],
+   "objectiveIds": [
+    "obj.thoth.roles"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why Thoth matters to you",
+   "body": "If you're reading written mythology at all, you're in Thoth's world — the Greeks borrowed him as Hermes Trismegistus and blamed the entire art of letters on him. The tradition you're studying IS his office.",
+   "sourceRefIds": [
+    "budge"
+   ],
+   "objectiveIds": [
+    "obj.thoth.roles"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Thoth's essential role?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "God of the harvest"
+    },
+    {
+     "id": "b",
+     "text": "Champion of the pharaoh in war"
+    },
+    {
+     "id": "c",
+     "text": "The gods' scribe — inventor of writing, keeper of magic and sacred speech, recorder of the judgment verdict"
+    },
+    {
+     "id": "d",
+     "text": "Builder of the pyramids"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Every written and magical function in the pantheon routes through Thoth.",
+   "sourceRefIds": [
+    "hunefer",
+    "budge"
+   ],
+   "objectiveIds": [
+    "obj.thoth.roles"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is Thoth connected to the moon?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He gambles with the moon-god and wins the light for five extra days outside the calendar"
+    },
+    {
+     "id": "b",
+     "text": "He is born from the moon's shadow"
+    },
+    {
+     "id": "c",
+     "text": "He draws his power from lunar phases"
+    },
+    {
+     "id": "d",
+     "text": "He ferries the moon through the underworld"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The five epagomenal days — where the main gods are born — exist because of Thoth's wager.",
+   "sourceRefIds": [
+    "budge"
+   ],
+   "objectiveIds": [
+    "obj.thoth.moon"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -120,22 +120,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "The gods know it's coming — prophecy runs through the whole tradition, and they prepare for a doom they can't prevent"
-    },
-    {
-     "id": "b",
      "text": "It only affects humans"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "It is a punishment the gods choose"
+    },
+    {
+     "id": "c",
+     "text": "The gods know it's coming — prophecy runs through the whole tradition, and they prepare for a doom they can't prevent"
     },
     {
      "id": "d",
      "text": "It happens without warning"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "The Norse cosmology builds the ending in from the start — knowledge doesn't prevent it.",
    "sourceRefIds": [
     "prose"

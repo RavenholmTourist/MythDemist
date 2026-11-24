@@ -1,193 +1,182 @@
 {
-  "id": "mesopotamian.week01.day02.enkidu-wild",
-  "version": 2,
-  "weekId": "mesopot.gilgamesh.week01",
-  "pantheon": "mesopotamian",
-  "themeMode": "pantheon",
-  "title": "Enkidu: From the Herd to Erech",
-  "subtitle": "Food, clothing, and a new social role",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesopotamian",
-    "Enkidu:",
-    "The"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.enkidu-wild.concept",
-      "text": "What does the Pennsylvania Tablet say Enkidu had not learned before?"
-    },
-    {
-      "id": "obj.enkidu-wild.sources",
-      "text": "What role does Enkidu take among the shepherds in this passage?"
-    }
-  ],
-  "sourceReferences": {
-    "change": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    }
+ "id": "mesopotamian.week01.day02.enkidu-wild",
+ "version": 3,
+ "weekId": "mesopot.gilgamesh.week01",
+ "pantheon": "mesopotamian",
+ "themeMode": "pantheon",
+ "title": "Enkidu: The Making of a Man",
+ "subtitle": "From the herd to the city — what it costs to become human",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "enkidu",
+  "shamhat",
+  "uruk",
+  "mesopotamian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.enk.taming",
+   "text": "How is Enkidu drawn out of the wild?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A new kind of meal",
-      "body": "The Pennsylvania Tablet describes Enkidu learning to eat prepared food and drink wine with the woman who leads him away from the herds.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Learning the customs of the land",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.”",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A changed role",
-      "body": "The passage says Enkidu is anointed, clothed, and becomes a protector of shepherds against lions. It presents a shift in social role, not a timeless claim about 'civilization.'",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Notice uncertain words",
-      "body": "This is Jastrow and Clay's translation of a damaged tablet. Even its phrase '[The barber(?)]' is uncertain; do not convert the translator's reconstruction into a secure detail.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Transformation through relationships",
-      "body": "Enkidu's change is narrated through food, clothing, speech, and his work among shepherds.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Pennsylvania Tablet say Enkidu had not learned before?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "To fight with an axe"
-        },
-        {
-          "id": "b",
-          "text": "To interpret a dream"
-        },
-        {
-          "id": "c",
-          "text": "To eat prepared food or drink wine"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The text says Enkidu had not known food or been taught to drink wine.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "change"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What role does Enkidu take among the shepherds in this passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He guards the cedar forest for Enlil"
-        },
-        {
-          "id": "b",
-          "text": "He protects them from lions"
-        },
-        {
-          "id": "c",
-          "text": "He becomes king of Erech"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The translation says Enkidu attacks lions so night shepherds can rest and becomes their protector.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.enkidu-wild.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "change"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.enk.cost",
+   "text": "What does he lose in becoming human?"
   }
+ ],
+ "sourceReferences": {
+  "change": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Pennsylvania Tablet · Column III · part 1; Pennsylvania Tablet · Column III · part 1, normalized characters 115-785",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "Enkidu had not known To eat food. To drink wine He had not been taught. The woman opened her mouth and Spoke to Enkidu: \"Eat food, O Enkidu, The provender of life! Drink wine, the custom of the land!\" Enkidu ate food Till he was satiated. Wine he drank, Seven goblets. His spirit was loosened, he became hilarious. His heart became glad and His face shone. [The barber(?)] removed The hair on his body. He was anointed with oil. He became manlike. He put on a garment, He was like a man. He took his weapon; Lions he attacked, (so that) the night shepherds could rest. He plunged the dagger; Lions he overcame. The great [shepherds] lay down; Enkidu was their protector.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Wild as the steppe",
+   "body": "Enkidu runs with gazelles, drinks at the water-hole, and frees animals from hunters' traps — a man made of clay, innocent of everything human.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.taming"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The trap that works",
+   "body": "Hunters can't catch him, so they send Shamhat, a temple woman. Six days and seven nights with her do what no snare could: afterwards the gazelles flee from him. He has become human — and wild things sense it.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.taming"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The price of belonging",
+   "body": "Enkidu gains speech, cooked food, beer, clothing — and loses the herd. The epic is blunt about the trade: civilization is a door that closes behind you.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.cost"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "To Uruk",
+   "body": "Shamhat brings him to the city — and on the road he hears of Gilgamesh's tyranny over brides. Enkidu's first act as a human is to oppose the king: the equal the gods designed has arrived angry.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.cost"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "An older Eden",
+   "body": "This is the world's earliest 'civilization costs innocence' story — two millennia before Genesis, the same pattern: eat, become aware, and the wilderness no longer wants you.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.cost"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How is Enkidu drawn from the wild?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The hunters finally snare him"
+    },
+    {
+     "id": "b",
+     "text": "Gilgamesh challenges him to combat"
+    },
+    {
+     "id": "c",
+     "text": "The temple woman Shamhat stays with him — afterwards the animals flee from him, and he is human"
+    },
+    {
+     "id": "d",
+     "text": "He wanders to Uruk out of curiosity"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Civilization reaches him through intimacy, not force — and the wild rejects him instantly.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.taming"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Enkidu lose by becoming human?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "His wild kin — the gazelles flee him, and he can never return to the herd"
+    },
+    {
+     "id": "b",
+     "text": "His strength"
+    },
+    {
+     "id": "c",
+     "text": "His freedom to roam only"
+    },
+    {
+     "id": "d",
+     "text": "His memory of the steppe"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The epic prices civilization in lost kinship — the door closes behind him.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.enk.cost"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

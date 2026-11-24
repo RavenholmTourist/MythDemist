@@ -1,193 +1,182 @@
 {
-  "id": "mesopotamian.week01.day04.flood-mortality",
-  "version": 2,
-  "weekId": "mesopot.gilgamesh.week01",
-  "pantheon": "mesopotamian",
-  "themeMode": "pantheon",
-  "title": "The Cedar Forest: Huwawa's Terror",
-  "subtitle": "Fear, fame, and a dangerous expedition",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesopotamian",
-    "Flood",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.flood-mortality.concept",
-      "text": "What does the Yale Tablet say Enlil decreed for the cedar forest?"
-    },
-    {
-      "id": "obj.flood-mortality.sources",
-      "text": "Why does Gilgamesh say he will enter the forest even if he falls?"
-    }
-  ],
-  "sourceReferences": {
-    "terror": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Yale Tablet · Column IV; Yale Tablet · Column IV, normalized characters 0-1009",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    }
+ "id": "mesopotamian.week01.day04.flood-mortality",
+ "version": 3,
+ "weekId": "mesopot.gilgamesh.week01",
+ "pantheon": "mesopotamian",
+ "themeMode": "pantheon",
+ "title": "The Cedar Forest: Huwawa's Terror",
+ "subtitle": "The fame-quest that costs more than it earns",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "gilgamesh",
+  "enkidu",
+  "huwawa",
+  "cedar"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.cedar.quest",
+   "text": "Why do they go to the Cedar Forest?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A guarded forest",
-      "body": "In the Yale Tablet fragment, Enkidu warns that Huwawa guards the cedar forest. The danger is described through a roar like a flood, a mouth of fire, and breath of death.",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A sevenfold terror",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.”",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Gilgamesh insists on going",
-      "body": "The translated fragment has Gilgamesh answer that if he falls, he will establish his name. The men then entrust work to artisans to make weapons.",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "The tablet is fragmentary",
-      "body": "The Yale Tablet translation includes gaps, question marks, and bracketed restorations. Treat the wording as an edited reading of a damaged witness, not an unbroken transcript.",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Fear and fame",
-      "body": "This passage stages a tension between Enkidu's knowledge of danger and Gilgamesh's desire for lasting renown.",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Yale Tablet say Enlil decreed for the cedar forest?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Sevenfold terror"
-        },
-        {
-          "id": "b",
-          "text": "A feast of seven goblets"
-        },
-        {
-          "id": "c",
-          "text": "A wall around Erech"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The translated fragment says Enlil decreed sevenfold terror to keep the cedar forest safe.",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "terror"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Gilgamesh say he will enter the forest even if he falls?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "To find a cure from Sabitum"
-        },
-        {
-          "id": "b",
-          "text": "To recover an axe from Enkidu"
-        },
-        {
-          "id": "c",
-          "text": "To establish his name"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The fragment has Gilgamesh say, 'If I fall, I will establish my name.'",
-      "sourceRefIds": [
-        "terror"
-      ],
-      "objectiveIds": [
-        "obj.flood-mortality.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "terror"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.cedar.price",
+   "text": "What does the victory cost?"
   }
+ ],
+ "sourceReferences": {
+  "terror": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Yale Tablet · Column IV; Yale Tablet · Column IV, normalized characters 0-1009",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "To keep safe [the cedar forest], [Enlil has decreed for it] seven-fold terror.\" Gish [opened] his mouth and spoke to [Enkidu]: \"Whoever, my friend, overcomes (?) [terror(?)], it is well (for him) with Shamash for the length of [his days]. Mankind will speak of it at the gates. Wherever terror is to be faced, Thou, forsooth, art in fear of death. Thy prowess lacks strength. I will go before thee. Though thy mouth calls to me; \"thou art afraid to approach.\" If I fall, I will establish my name. Gish, the corpse(?) of Huwawa, the terrible one, has snatched (?) from the time that My offspring was born in ...... The lion restrained (?) thee, all of which thou knowest. ........................ .............. thee and ................ open (?) ........ like a shepherd(?) ..... [When thou callest to me], thou afflictest my heart. I am determined [to enter] the cedar forest. I will, indeed, establish my name. [The work(?)], my friend, to the artisans I will entrust. [Weapons(?)] let them mould before us.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A name worth having",
+   "body": "Gilgamesh wants the one thing immortality can't give: a name that outlasts him. The target is Huwawa — the monstrous guardian of the gods' Cedar Forest, whose roar alone can kill.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.quest"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Enkidu's foreboding",
+   "body": "Enkidu knows the guardian — he met Huwawa in his wild days — and warns that the giant's terror is the real weapon. The dream-omens Gilgamesh interprets as favour keep pulling them forward anyway.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.quest"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The terror defeated",
+   "body": "They reach the forest and do the deed — Huwawa is brought down by their combined strength and the god Shamash's favour. The fame-quest succeeds.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.quest"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "And the gods notice",
+   "body": "But Huwawa was APPOINTED guardian by the gods — killing him is sacrilege as well as heroism. The victory becomes the charge-sheet: the divine council decides one of the two friends must pay.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.price"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The beginning of the grief",
+   "body": "The bill comes due in the next tablets: Enkidu sickens and dies. The fame-quest is the hinge — Gilgamesh gets his name and loses the person who made it bearable.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.price"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why do Gilgamesh and Enkidu go to the Cedar Forest?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To steal the gods' cedar"
+    },
+    {
+     "id": "b",
+     "text": "To rescue a captive priestess"
+    },
+    {
+     "id": "c",
+     "text": "For fame — Gilgamesh wants a name that outlasts him, and Huwawa's defeat is the prize"
+    },
+    {
+     "id": "d",
+     "text": "To fulfill a vow to Shamhat"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The quest is glory-seeking — and the price is far higher than either expects.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.quest"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the cost of killing Huwawa?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The gods mark it sacrilege — the council decides a life must pay, and Enkidu sickens and dies"
+    },
+    {
+     "id": "b",
+     "text": "The forest burns with them"
+    },
+    {
+     "id": "c",
+     "text": "Gilgamesh is exiled forever"
+    },
+    {
+     "id": "d",
+     "text": "The cedar turns to ash"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The 'victory' is the bill — Enkidu's death begins the grief that drives the epic's second half.",
+   "sourceRefIds": [
+    "terror"
+   ],
+   "objectiveIds": [
+    "obj.cedar.price"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

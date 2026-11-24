@@ -107,22 +107,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "The same cleverness that solves their problems also betrays them — he engineers Baldr's death"
-    },
-    {
-     "id": "b",
      "text": "He sides openly with the giants"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "He steals the gods' treasures"
+    },
+    {
+     "id": "c",
+     "text": "The same cleverness that solves their problems also betrays them — he engineers Baldr's death"
     },
     {
      "id": "d",
      "text": "He refuses all oaths"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Loki is the inside problem: fixer and traitor at once, unresolved until the end.",
    "sourceRefIds": [
     "lokasenna"

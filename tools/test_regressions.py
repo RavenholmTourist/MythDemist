@@ -199,7 +199,7 @@ class RegressionTests(unittest.TestCase):
         self.assertEqual(len(files), 5)
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 4, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -217,10 +217,10 @@ class RegressionTests(unittest.TestCase):
         collected = []
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assertTrue(all(ref['sourceId'] == 'cel.mabinogion' for ref in lesson['sourceReferences'].values()))
             for ref in lesson['sourceReferences'].values():
                 self.assertEqual(ref.get('evidenceType'), 'quotation')
@@ -233,11 +233,11 @@ class RegressionTests(unittest.TestCase):
             self.assertNotIn('additional corpus record gives a second lens', combined)
             collected.append((lesson, combined))
         by_title = {lesson['title']: text for lesson, text in collected}
-        self.assertIn('one stroke', by_title['Pwyll and the Otherworld'])
-        self.assertIn('starling', by_title['Branwen: Hospitality and Consequence'])
-        self.assertIn('Llwyd', by_title['Manawydan: Patience and Enchantment'])
-        self.assertIn('Goewin', by_title['Math: Law, Magic, and Sovereignty'])
-        self.assertIn('Gwion', by_title['Taliesin: Poetry and Transformation'])
+        self.assertIn('bargain', by_title['Pwyll and the Otherworld'])
+        self.assertIn('starling', by_title['Branwen: The Insult That Started a War'])
+        self.assertIn('mouse', by_title['Manawydan: The Enchantment'])
+        self.assertIn('Blodeuwedd', by_title['Math: Magic and Sovereignty'])
+        self.assertIn('Gwion', by_title['Taliesin: The Shape-Shifter'])
 
     def test_egyptian_starter_pack_distinguishes_text_and_editorial_layers(self):
         files = sorted((ROOT / 'content/lessons/egyptian').rglob('*.json'))
@@ -245,12 +245,12 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            expected_version = 3 if lesson['id'] in {
+            expected_version = 4 if lesson['id'] in {
                 'egy.gods.day01.osiris-renewal',
                 'egyptian.week01.day02.ra-order',
                 'egyptian.week01.day03.isis-restoration',
                 'egyptian.week01.day05.thoth-knowledge',
-            } else 2
+            } else 3
             self.assertEqual(lesson['version'], expected_version, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
@@ -261,12 +261,12 @@ class RegressionTests(unittest.TestCase):
             text = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
             self.assertNotIn('starter lesson uses the local scaffold source', text)
             titles[lesson['title']] = text
-        self.assertIn('Papyrus of Ani', titles['Osiris: Kingship in a Funerary Hymn'])
+        self.assertIn('reassembles', titles['Osiris: The First Mummy'])
         ra = json.loads(next(path for path in files if 'ra-order' in path.name).read_text(encoding='utf-8'))
         self.assertIn('Legend of the Destruction of Mankind', ra['sourceReferences']['complaint']['locator'])
-        self.assertIn('secret name', titles['Isis and Ra’s Secret Name'])
-        self.assertIn('Chapter 125', titles['Judgment of the Dead'])
-        self.assertIn('Papyrus of Hunefer', titles['Thoth: Writing and Sacred Speech'])
+        self.assertIn('secret name', titles['Isis and the Secret Name'])
+        self.assertIn('feather', titles['The Weighing of the Heart'])
+        self.assertIn('mediator', titles['Thoth: The God\'s Scribe'])
         osiris = json.loads(next(path for path in files if 'osiris-renewal' in path.name).read_text(encoding='utf-8'))
         self.assertIn('Horus is established on thy throne', osiris['sourceReferences']['ani']['excerpt'])
         self.assertIn('let thine Eye go against', ra['sourceReferences']['eye']['excerpt'])
@@ -306,7 +306,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -317,11 +317,11 @@ class RegressionTests(unittest.TestCase):
             combined = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
             self.assertNotIn('starter lesson uses the local scaffold source', combined)
             titles[lesson['title']] = combined
-        self.assertIn('Vasilissa the Fair', titles['Baba Yaga in Vasilissa the Fair'])
-        self.assertIn('egg', titles['Koschei: Hidden Death'])
-        self.assertIn('doll', titles['Vasilissa: Courage and Tasks'])
-        self.assertIn('crystal bridge', titles['The Water King: Bargains and Impossible Tasks'])
-        self.assertIn('chapbook', titles['The Firebird: A Chapbook Quest'])
+        self.assertIn('mortar', titles['Baba Yaga: The House on Legs'])
+        self.assertIn('egg', titles['Koschei: Death in an Egg'])
+        self.assertIn('doll', titles['Vasilissa and the Doll'])
+        self.assertIn('bridge', titles['The Water King: The Bargain'])
+        self.assertIn('chapbook', titles['The Firebird: The Shining Quest'])
 
     def test_ovid_plain_text_parser_separates_poem_from_editorial_apparatus(self):
         books_1_7 = ROOT / 'content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt'
@@ -377,7 +377,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -386,11 +386,11 @@ class RegressionTests(unittest.TestCase):
                 self.assertTrue(any(name in ref['locator'] for name in ['Tablet', 'tablet']), ref['locator'])
                 self.assertEqual(check_reference(ref, ROOT), [], lesson['id'])
             titles[lesson['title']] = ' '.join(block['body'] for block in lesson['narrativeBlocks'])
-        self.assertIn('dream', titles["Gilgamesh's Dream of a Companion"].lower())
-        self.assertIn('shepherds', titles['Enkidu: From the Herd to Erech'])
-        self.assertIn('wrestle', titles['Gilgamesh and Enkidu: The First Contest'])
+        self.assertIn('dream', titles['Gilgamesh: The King\'s Dream'].lower())
+        self.assertIn('gazelles', titles['Enkidu: The Making of a Man'])
+        self.assertIn('wrestle', titles['Gilgamesh and Enkidu: The Wrestle'])
         self.assertIn('Huwawa', titles["The Cedar Forest: Huwawa's Terror"])
-        self.assertIn('fragmentary', titles['Gilgamesh: Reading Across Fragments'].lower())
+        self.assertIn('fragment', titles['Gilgamesh: The Broken Epic'].lower())
         self.assertNotIn('universal flood', ' '.join(titles.values()).lower())
 
     def test_mesopotamian_parser_separates_tablet_verse_and_editorial_apparatus(self):

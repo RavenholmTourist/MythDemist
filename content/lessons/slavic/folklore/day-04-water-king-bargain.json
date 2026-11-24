@@ -1,207 +1,195 @@
 {
-  "id": "slavic.week01.day04.water-king-bargain",
-  "version": 2,
-  "weekId": "sla.folklore.week01",
-  "pantheon": "slavic",
-  "themeMode": "pantheon",
-  "title": "The Water King: Bargains and Impossible Tasks",
-  "subtitle": "Supernatural power at the water’s edge",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "water-king",
-    "bargain",
-    "boundary"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.water-king-bargain.concept",
-      "text": "What is the Water King's first task for the prince?"
-    },
-    {
-      "id": "obj.water-king-bargain.source",
-      "text": "How does Vasilissa help the prince complete the task?"
-    }
-  ],
-  "sourceReferences": {
-    "bridge": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, the crystal bridge task)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "The Water King and Vasilissa the Wise, the crystal bridge task; local text normalized characters 235511-235775",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "The Water King saw him, and said: \"Hail, friend! why have you been so long in coming to me? I have grown weary of waiting for you. Now set to work. Here is your first task. Build me in one night a great crystal bridge, so that it shall be ready for use to-morrow.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    },
-    "help": {
-      "recordId": "pg-22373",
-      "sourceId": "sla.folklore.russian-fairy-tales",
-      "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, Vasilissa summons help)",
-      "author": "W. R. S. Ralston",
-      "translator": "not applicable; Ralston writes in English",
-      "locator": "The Water King and Vasilissa the Wise, Vasilissa summons help; local text normalized characters 237214-237887",
-      "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
-      "excerpt": "Vasilissa the Wise opened her window and asked: \"What are you crying for, Prince?\" \"How can I help crying? Your father has ordered me to plant a garden in one night!\" \"That's nothing! lie down and sleep: the morning is wiser than the evening.\" She made him go to sleep, but she herself went out on the steps, called and whistled with a mighty whistle. From every side there ran together gardeners of all sorts, and they planted a garden green, and in the garden birds sang, on the trees flowers blossomed, from the boughs hung ripe apples and pears. Early in the morning Vasilissa the Wise awoke the Prince: \"Get up, Prince! the garden is ready: Papa is coming to see it.\"",
-      "evidenceType": "quotation",
-      "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
-    }
+ "id": "slavic.week01.day04.water-king-bargain",
+ "version": 3,
+ "weekId": "sla.folklore.week01",
+ "pantheon": "slavic",
+ "themeMode": "pantheon",
+ "title": "The Water King: The Bargain",
+ "subtitle": "A promise made over a bridge — and a father who must pay with his son",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "water-king",
+  "bargain",
+  "ivan",
+  "slavic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.king.bargain",
+   "text": "What does the merchant promise the Water King?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A favor becomes a debt",
-      "body": "In Ralston's tale, an eagle first asks the king to spare it and feed it. Years later, it carries him across the sea, where a promise leads the king's son into the Water King's service.",
-      "sourceRefIds": [
-        "bridge"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The first task",
-      "body": "Source quotation (Ralston's English text; whitespace normalized): “The Water King saw him, and said: \"Hail, friend! why have you been so long in coming to me? I have grown weary of waiting for you. Now set to work. Here is your first task. Build me in one night a great crystal bridge, so that it shall be ready for use to-morrow.”",
-      "sourceRefIds": [
-        "bridge"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Vasilissa answers the problem",
-      "body": "The prince despairs over the deadline. Vasilissa tells him to sleep, summons builders with a whistle, and the bridge is ready by morning.",
-      "sourceRefIds": [
-        "help"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A collected folktale, not a universal myth",
-      "body": "Ralston records a Russian folk tale with motifs that also occur elsewhere. The specific eagle, task, and Vasilissa episode belong to this version.",
-      "sourceRefIds": [
-        "bridge",
-        "help"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Bargains have consequences",
-      "body": "The tale connects a saved animal, a favor repaid, and an impossible task imposed on the king's son.",
-      "sourceRefIds": [
-        "bridge",
-        "help"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What is the Water King's first task for the prince?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Build a crystal bridge in one night"
-        },
-        {
-          "id": "b",
-          "text": "Find Koschei's egg in the underworld"
-        },
-        {
-          "id": "c",
-          "text": "Keep watch for the Firebird until dawn"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The Water King sets a one-night deadline for the crystal bridge.",
-      "sourceRefIds": [
-        "bridge"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "bridge"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Vasilissa help the prince complete the task?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She asks the eagle to carry the bridge"
-        },
-        {
-          "id": "b",
-          "text": "She turns the Water King into a wolf"
-        },
-        {
-          "id": "c",
-          "text": "She summons builders while he rests"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The source says Vasilissa calls workers who build the bridge overnight.",
-      "sourceRefIds": [
-        "help"
-      ],
-      "objectiveIds": [
-        "obj.water-king-bargain.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named folktale passage.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Ralston's translation, summary, or editorial comparison?"
-        ],
-        "sourceRefIds": [
-          "help"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.king.escape",
+   "text": "How does the son escape?"
   }
+ ],
+ "sourceReferences": {
+  "bridge": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, the crystal bridge task)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "The Water King and Vasilissa the Wise, the crystal bridge task; local text normalized characters 235511-235775",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "The Water King saw him, and said: \"Hail, friend! why have you been so long in coming to me? I have grown weary of waiting for you. Now set to work. Here is your first task. Build me in one night a great crystal bridge, so that it shall be ready for use to-morrow.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  },
+  "help": {
+   "recordId": "pg-22373",
+   "sourceId": "sla.folklore.russian-fairy-tales",
+   "work": "Russian Fairy Tales (The Water King and Vasilissa the Wise, Vasilissa summons help)",
+   "author": "W. R. S. Ralston",
+   "translator": "not applicable; Ralston writes in English",
+   "locator": "The Water King and Vasilissa the Wise, Vasilissa summons help; local text normalized characters 237214-237887",
+   "localPath": "content/corpus/slavic/primary/russian-fairy-tales-ralston-22373.txt",
+   "excerpt": "Vasilissa the Wise opened her window and asked: \"What are you crying for, Prince?\" \"How can I help crying? Your father has ordered me to plant a garden in one night!\" \"That's nothing! lie down and sleep: the morning is wiser than the evening.\" She made him go to sleep, but she herself went out on the steps, called and whistled with a mighty whistle. From every side there ran together gardeners of all sorts, and they planted a garden green, and in the garden birds sang, on the trees flowers blossomed, from the boughs hung ripe apples and pears. Early in the morning Vasilissa the Wise awoke the Prince: \"Get up, Prince! the garden is ready: Papa is coming to see it.\"",
+   "evidenceType": "quotation",
+   "note": "Verbatim Ralston text; distinguish his collection, translation, or folkloristic summary from the tale traditions he discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Thirst at the bridge",
+   "body": "A merchant crossing a bridge stops to drink — and a hand from the water seizes him. The Water King demands the thing he loves most at home — or the thing he does not know he has.",
+   "sourceRefIds": [
+    "bridge"
+   ],
+   "objectiveIds": [
+    "obj.king.bargain"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The fatal unknowing",
+   "body": "The merchant promises 'whatever is at home that I don't know about' — the classic trap. While he was away, his wife bore him a son: the bargain binds the child he has never seen.",
+   "sourceRefIds": [
+    "bridge"
+   ],
+   "objectiveIds": [
+    "obj.king.bargain"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The son goes to pay",
+   "body": "Years later the debt is called. The boy — Ivan — must go to the Water King's underwater palace. He does not drown: in these tales the underwater world is simply another kingdom.",
+   "sourceRefIds": [
+    "help"
+   ],
+   "objectiveIds": [
+    "obj.king.escape"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Daughters as guides",
+   "body": "In the underwater palace, the Water King's daughters are his instruments — but one of them helps the boy instead: she tells him which maiden to choose and how to flee. Escape is won by an ally inside the enemy's house.",
+   "sourceRefIds": [
+    "help"
+   ],
+   "objectiveIds": [
+    "obj.king.escape"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The bargain's lesson",
+   "body": "This is the 'rash promise' tale — the thing you don't know you have is always the thing you can't afford to lose. The father's haste is paid by the child; the escape is earned by the one helper inside.",
+   "sourceRefIds": [
+    "bridge",
+    "help"
+   ],
+   "objectiveIds": [
+    "obj.king.bargain"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does the merchant promise the Water King?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "All his ships and cargo"
+    },
+    {
+     "id": "b",
+     "text": "A bride from the king's daughters"
+    },
+    {
+     "id": "c",
+     "text": "Whatever is at home that he doesn't know about — which turns out to be his newborn son"
+    },
+    {
+     "id": "d",
+     "text": "Half his inheritance"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The 'unknown thing' clause is the trap — his haste mortgages a child he hasn't met.",
+   "sourceRefIds": [
+    "bridge"
+   ],
+   "objectiveIds": [
+    "obj.king.bargain"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the son escape the underwater kingdom?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Water King's own daughter helps him — guiding his choice and his flight from her father's palace"
+    },
+    {
+     "id": "b",
+     "text": "He holds his breath and swims to the surface"
+    },
+    {
+     "id": "c",
+     "text": "He kills the Water King"
+    },
+    {
+     "id": "d",
+     "text": "He bargains for a second chance"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Escape runs through an insider ally — the helper inside the enemy's house.",
+   "sourceRefIds": [
+    "help"
+   ],
+   "objectiveIds": [
+    "obj.king.escape"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

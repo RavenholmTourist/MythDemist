@@ -1,60 +1,60 @@
 {
-  "id": "egy.gods.week01",
-  "title": "Egyptian Gods",
-  "subtitle": "Creation, death, order, and renewal",
-  "pantheon": "egyptian",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "egyptian-ankh",
-    "accent": "lapis"
+ "id": "egy.gods.week01",
+ "title": "Egyptian Gods",
+ "subtitle": "Creation, death, order, and renewal",
+ "pantheon": "egyptian",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "egyptian-ankh",
+  "accent": "lapis"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Osiris: The First Mummy",
+   "lessonId": "egy.gods.day01.osiris-renewal",
+   "lessonPath": "content/lessons/egyptian/osiris-renewal/day-01-osiris-renewal.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Osiris: Kingship in a Funerary Hymn",
-      "lessonId": "egy.gods.day01.osiris-renewal",
-      "lessonPath": "content/lessons/egyptian/osiris-renewal/day-01-osiris-renewal.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Ra and the Destruction of Mankind",
-      "status": "available",
-      "lessonId": "egyptian.week01.day02.ra-order",
-      "lessonPath": "content/lessons/egyptian/gods/day-02-ra-order.json"
-    },
-    {
-      "day": 3,
-      "title": "Isis and Ra’s Secret Name",
-      "status": "available",
-      "lessonId": "egyptian.week01.day03.isis-restoration",
-      "lessonPath": "content/lessons/egyptian/gods/day-03-isis-restoration.json"
-    },
-    {
-      "day": 4,
-      "title": "Judgment of the Dead",
-      "status": "available",
-      "lessonId": "egyptian.week01.day04.judgment-dead",
-      "lessonPath": "content/lessons/egyptian/gods/day-04-judgment-dead.json"
-    },
-    {
-      "day": 5,
-      "title": "Thoth: Writing and Sacred Speech",
-      "status": "available",
-      "lessonId": "egyptian.week01.day05.thoth-knowledge",
-      "lessonPath": "content/lessons/egyptian/gods/day-05-thoth-knowledge.json"
-    }
-  ],
-  "suggestedTopics": [
-    {
-      "id": "topic.egypt-death-renewal",
-      "title": "Osiris and renewal",
-      "description": "Egyptian traditions repeatedly turn loss into restoration, tying divine kingship, burial, and cosmic order together.",
-      "relatedDay": 1,
-      "recordIds": [
-        "pg-9411"
-      ],
-      "prompt": "Follow this thread and compare it across pantheons."
-    }
-  ]
+  {
+   "day": 2,
+   "title": "Ra and the Eye of Destruction",
+   "status": "available",
+   "lessonId": "egyptian.week01.day02.ra-order",
+   "lessonPath": "content/lessons/egyptian/gods/day-02-ra-order.json"
+  },
+  {
+   "day": 3,
+   "title": "Isis and the Secret Name",
+   "status": "available",
+   "lessonId": "egyptian.week01.day03.isis-restoration",
+   "lessonPath": "content/lessons/egyptian/gods/day-03-isis-restoration.json"
+  },
+  {
+   "day": 4,
+   "title": "The Weighing of the Heart",
+   "status": "available",
+   "lessonId": "egyptian.week01.day04.judgment-dead",
+   "lessonPath": "content/lessons/egyptian/gods/day-04-judgment-dead.json"
+  },
+  {
+   "day": 5,
+   "title": "Thoth: The God's Scribe",
+   "status": "available",
+   "lessonId": "egyptian.week01.day05.thoth-knowledge",
+   "lessonPath": "content/lessons/egyptian/gods/day-05-thoth-knowledge.json"
+  }
+ ],
+ "suggestedTopics": [
+  {
+   "id": "topic.egypt-death-renewal",
+   "title": "Osiris and renewal",
+   "description": "Egyptian traditions repeatedly turn loss into restoration, tying divine kingship, burial, and cosmic order together.",
+   "relatedDay": 1,
+   "recordIds": [
+    "pg-9411"
+   ],
+   "prompt": "Follow this thread and compare it across pantheons."
+  }
+ ]
 }

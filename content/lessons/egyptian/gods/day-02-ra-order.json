@@ -1,225 +1,206 @@
 {
-  "id": "egyptian.week01.day02.ra-order",
-  "version": 3,
-  "weekId": "egy.gods.week01",
-  "pantheon": "egyptian",
-  "themeMode": "pantheon",
-  "title": "Ra and the Destruction of Mankind",
-  "subtitle": "A rebellion, the divine Eye, and the beer ruse",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "ra",
-    "sun",
-    "maat"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.ra-order.concept",
-      "text": "What complaint prompts Ra to consult the gods in this version?"
-    },
-    {
-      "id": "obj.ra-order.source",
-      "text": "What happens after the beer is prepared and poured out?"
-    }
-  ],
-  "sourceReferences": {
-    "complaint": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legend of the Destruction of Mankind, Chapter I, human complaint",
-      "author": "E. A. Wallis Budge",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Legend of the Destruction of Mankind, Chapter I, human complaint; local text normalized characters 118442-118701",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "Now men and women were speaking words of complaint, saying:--\"Behold, his Majesty (Life, Strength, and Health to him!) hath grown old, and his bones have become like silver, and his members have turned into gold and his hair is like unto real lapis- lazuli.\"",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    },
-    "eye": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legend of the Destruction of Mankind, Ra consults the gods",
-      "author": "E. A. Wallis Budge",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Legend of the Destruction of Mankind, Ra consults the gods; local text normalized characters 120391-120682",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "Then the Majesty of Nu, to son Ra, spake, saying:--\"Thou art the god who art greater than he who made thee, thou art the sovereign of those who were created with thee, thy throne is set, and the fear of thee is great; let thine Eye go against those who have uttered blasphemies against thee.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    },
-    "beer": {
-      "recordId": "pg-9411",
-      "sourceId": "egy.legends-of-the-gods",
-      "work": "Legend of the Destruction of Mankind, the beer plan",
-      "author": "E. A. Wallis Budge",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Legend of the Destruction of Mankind, the beer plan; local text normalized characters 122463-123525",
-      "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
-      "excerpt": "Now when the Majesty of Re, the King of the South and North, had come with the gods to look at the vessels of beer, and behold, the daylight had appeared after the slaughter of men and women by the goddess in their season as she sailed up the river, the Majesty of Ra said, \"It is good, it is good, nevertheless I must protect men and women against her.\" And Ra, said, \"Let them take up the vases and carry them to the place where the men and women were slaughtered by her.\" Then the Majesty of the King of the South and North in the three-fold beauty of the night caused to be poured out these vases of beer which make [men] to lie down (or, sleep), and the meadows of the Four Heavens[FN#61] were filled with beer (or, water) by reason of the Souls of the Majesty of this god. And it came to pass that when this goddess arrived at the dawn of day, she found these [Heavens] flooded [with beer], and she was pleased thereat; and she drank [of the beer and blood], and her heart rejoiced, and she became drunk, and she gave no further attention to men and women.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    }
+ "id": "egyptian.week01.day02.ra-order",
+ "version": 4,
+ "weekId": "egy.gods.week01",
+ "pantheon": "egyptian",
+ "themeMode": "pantheon",
+ "title": "Ra and the Eye of Destruction",
+ "subtitle": "The sun god tires of human rebellion — and sends his daughter to end it",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "ra",
+  "hathor",
+  "sekhmet",
+  "egyptian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ra.rebellion",
+   "text": "Why does Ra punish humanity?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In this translated legend, people complain that Ra has grown old. He consults the gods, and the divine Eye is sent against the rebels. Later, beer mixed with mandrake and blood makes the goddess drink and stop the slaughter.",
-      "sourceRefIds": [
-        "complaint",
-        "eye",
-        "beer"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Humans complain and Ra consults",
-      "body": "Source quotation (Budge translation; whitespace normalized): “Now men and women were speaking words of complaint, saying:--\"Behold, his Majesty (Life, Strength, and Health to him!) hath grown old, and his bones have become like silver, and his members have turned into gold and his hair is like unto real lapis- lazuli.\"”",
-      "sourceRefIds": [
-        "complaint"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The tale connects royal authority, rebellion, violence, and a ruse that ends the slaughter. Preserve the episode's sequence rather than simplifying it to 'Ra brings order.'",
-      "sourceRefIds": [
-        "complaint",
-        "eye",
-        "beer"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the evidence carefully",
-      "body": "Budge presents this as a translated Egyptian legend with editorial framing. The passage is one literary account, not proof that every Egyptian community held a single creation or order doctrine.",
-      "sourceRefIds": [
-        "complaint",
-        "eye",
-        "beer"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Compare the decision to release the Eye with the later beer plan. The story gives two different moments of divine action.",
-      "sourceRefIds": [
-        "complaint",
-        "eye",
-        "beer"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What complaint prompts Ra to consult the gods in this version?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "People refuse to honor Osiris' throne"
-        },
-        {
-          "id": "b",
-          "text": "Hathor asks to become ruler of the earth"
-        },
-        {
-          "id": "c",
-          "text": "People say Ra has grown old"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The story opens with people complaining about Ra's age and appearance.",
-      "sourceRefIds": [
-        "complaint"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "complaint"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens after the beer is prepared and poured out?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The people are turned into stars"
-        },
-        {
-          "id": "b",
-          "text": "The goddess drinks, becomes intoxicated, and stops attacking people"
-        },
-        {
-          "id": "c",
-          "text": "The beer restores Ra's youth"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The translated legend says the beer distracts and intoxicates the destructive goddess.",
-      "sourceRefIds": [
-        "beer"
-      ],
-      "objectiveIds": [
-        "obj.ra-order.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "beer"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ra.beer",
+   "text": "How is the destruction stopped?"
   }
+ ],
+ "sourceReferences": {
+  "complaint": {
+   "recordId": "pg-9411",
+   "sourceId": "egy.legends-of-the-gods",
+   "work": "Legend of the Destruction of Mankind, Chapter I, human complaint",
+   "author": "E. A. Wallis Budge",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Legend of the Destruction of Mankind, Chapter I, human complaint; local text normalized characters 118442-118701",
+   "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+   "excerpt": "Now men and women were speaking words of complaint, saying:--\"Behold, his Majesty (Life, Strength, and Health to him!) hath grown old, and his bones have become like silver, and his members have turned into gold and his hair is like unto real lapis- lazuli.\"",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  },
+  "eye": {
+   "recordId": "pg-9411",
+   "sourceId": "egy.legends-of-the-gods",
+   "work": "Legend of the Destruction of Mankind, Ra consults the gods",
+   "author": "E. A. Wallis Budge",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Legend of the Destruction of Mankind, Ra consults the gods; local text normalized characters 120391-120682",
+   "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+   "excerpt": "Then the Majesty of Nu, to son Ra, spake, saying:--\"Thou art the god who art greater than he who made thee, thou art the sovereign of those who were created with thee, thy throne is set, and the fear of thee is great; let thine Eye go against those who have uttered blasphemies against thee.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  },
+  "beer": {
+   "recordId": "pg-9411",
+   "sourceId": "egy.legends-of-the-gods",
+   "work": "Legend of the Destruction of Mankind, the beer plan",
+   "author": "E. A. Wallis Budge",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Legend of the Destruction of Mankind, the beer plan; local text normalized characters 122463-123525",
+   "localPath": "content/corpus/egyptian/primary/legends-of-the-gods-budge-9411.txt",
+   "excerpt": "Now when the Majesty of Re, the King of the South and North, had come with the gods to look at the vessels of beer, and behold, the daylight had appeared after the slaughter of men and women by the goddess in their season as she sailed up the river, the Majesty of Ra said, \"It is good, it is good, nevertheless I must protect men and women against her.\" And Ra, said, \"Let them take up the vases and carry them to the place where the men and women were slaughtered by her.\" Then the Majesty of the King of the South and North in the three-fold beauty of the night caused to be poured out these vases of beer which make [men] to lie down (or, sleep), and the meadows of the Four Heavens[FN#61] were filled with beer (or, water) by reason of the Souls of the Majesty of this god. And it came to pass that when this goddess arrived at the dawn of day, she found these [Heavens] flooded [with beer], and she was pleased thereat; and she drank [of the beer and blood], and her heart rejoiced, and she became drunk, and she gave no further attention to men and women.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Humans plot against the sun",
+   "body": "Ra, the ageing sun-king, hears that humanity is plotting rebellion against him. He convenes the gods: his verdict is that mankind must be punished — and the instrument will be his own Eye.",
+   "sourceRefIds": [
+    "complaint"
+   ],
+   "objectiveIds": [
+    "obj.ra.rebellion"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The Eye becomes Sekhmet",
+   "body": "The Eye of Ra descends as Hathor — who transforms into Sekhmet, the lioness of war. She begins the slaughter and finds it to her taste: the destruction doesn't stop when the rebels are gone.",
+   "sourceRefIds": [
+    "eye"
+   ],
+   "objectiveIds": [
+    "obj.ra.rebellion"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A goddess who won't stop",
+   "body": "Sekhmet drinks blood until she is drunk on killing — the punishment has become a rampage no one can call off. Ra, who sent her, now has a bigger problem than the rebels.",
+   "sourceRefIds": [
+    "eye"
+   ],
+   "objectiveIds": [
+    "obj.ra.rebellion"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Seven thousand jars of red",
+   "body": "The solution is a trick: seven thousand jars of beer dyed red to look like blood are flooded across the fields. Sekhmet drinks them dry, falls asleep drunk, and wakes as gentle Hathor again.",
+   "sourceRefIds": [
+    "beer"
+   ],
+   "objectiveIds": [
+    "obj.ra.beer"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A warning about the instrument",
+   "body": "The story reads like a god-learning parable: the destructive power you unleash may not stop where you stop it. Egypt's flood festival reenacted the red-beer trick as a celebration.",
+   "sourceRefIds": [
+    "beer"
+   ],
+   "objectiveIds": [
+    "obj.ra.beer"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Ra decide to punish humanity?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They stopped building temples"
+    },
+    {
+     "id": "b",
+     "text": "They refused to pay the flood tax"
+    },
+    {
+     "id": "c",
+     "text": "He hears that humans are plotting rebellion against him — and answers with his Eye"
+    },
+    {
+     "id": "d",
+     "text": "They stole the sun's fire"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "A human conspiracy against the sun-king triggers the myth's whole arc.",
+   "sourceRefIds": [
+    "complaint"
+   ],
+   "objectiveIds": [
+    "obj.ra.rebellion"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is Sekhmet's destruction stopped?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Seven thousand jars of red-dyed beer — she drinks it as blood, falls asleep, and wakes as Hathor"
+    },
+    {
+     "id": "b",
+     "text": "Ra wrestles her back to the sky"
+    },
+    {
+     "id": "c",
+     "text": "Isis sings her to sleep"
+    },
+    {
+     "id": "d",
+     "text": "The people hide until she starves"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "You can't fight the war-goddess — so you outdrink her.",
+   "sourceRefIds": [
+    "beer"
+   ],
+   "objectiveIds": [
+    "obj.ra.beer"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

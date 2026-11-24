@@ -1,208 +1,196 @@
 {
-  "id": "celtic.week01.day03.manawydan-patience",
-  "version": 2,
-  "weekId": "cel.tales.week01",
-  "pantheon": "celtic",
-  "themeMode": "pantheon",
-  "title": "Manawydan: Patience and Enchantment",
-  "subtitle": "Heroism without speed",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "manawydan",
-    "patience",
-    "magic"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.manawydan-patience.concept",
-      "text": "What does Manawydan do with the last mouse he catches?"
-    },
-    {
-      "id": "obj.manawydan-patience.source",
-      "text": "Who does the mouse turn out to be?"
-    }
-  ],
-  "sourceReferences": {
-    "mouse": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Third Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Third Branch, Manawydan catches the last mouse; local text normalized characters 455041-455354",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "he caught it and put it in his glove, and tied up the opening of the glove with a string, and kept it with him, and returned to the palace. Then he came to the hall where Kicva was, and he lighted a fire, and hung the glove by the string upon a peg. “What hast thou there, lord?” said Kicva. “A thief,” said he, “",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    },
-    "reveal": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The Third Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The Third Branch, Llwyd explains the enchantment; local text normalized characters 460820-461300",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "I will know who the mouse may be.” “She is my wife.” “Even though she be, I will not set her free. Wherefore came she to me?” “To despoil thee,” he answered. “I am Llwyd the son of Kilcoed, and I cast the charm over the seven Cantrevs of Dyved. And it was to avenge Gwawl the son of Clud, from the friendship I had towards him, that I cast the charm. And upon Pryderi did I revenge Gwawl the son of Clud, for the game of Badger in the Bag, that Pwyll Pen Annwvyn played upon him,",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    }
+ "id": "celtic.week01.day03.manawydan-patience",
+ "version": 3,
+ "weekId": "cel.tales.week01",
+ "pantheon": "celtic",
+ "themeMode": "pantheon",
+ "title": "Manawydan: The Enchantment",
+ "subtitle": "A whole castle gone mist — and patience as the hero's weapon",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "manawydan",
+  "rhiannon",
+  "enchantment",
+  "celtic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.man.mist",
+   "text": "What happens to Rhiannon and Pryderi?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "After the harvest has been stripped, Manawydan catches the slowest mouse and keeps it in his glove. His questioning reveals that it is part of a deliberate enchantment, not an ordinary pest.",
-      "sourceRefIds": [
-        "mouse"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The mouse is not an ordinary thief",
-      "body": "Source quotation (Guest translation; whitespace normalized): “he caught it and put it in his glove, and tied up the opening of the glove with a string, and kept it with him, and returned to the palace. Then he came to the hall where Kicva was, and he lighted a fire, and hung the glove by the string upon a peg. “What hast thou there, lord?” said Kicva. “A thief,” said he, “”",
-      "sourceRefIds": [
-        "mouse"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The tale delays the explanation. Manawydan observes what happened, preserves the evidence, and questions the mouse rather than answering magical trouble with immediate violence.",
-      "sourceRefIds": [
-        "mouse",
-        "reveal"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The story explains Llwyd's act as revenge for an earlier episode in Pwyll's tale. Keep that narrative connection explicit; do not make it a generic claim about all Welsh enchantment stories.",
-      "sourceRefIds": [
-        "mouse",
-        "reveal"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Follow the evidence from the ruined harvest to the captured mouse, then to Llwyd's account of the revenge behind the spell.",
-      "sourceRefIds": [
-        "mouse",
-        "reveal"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Manawydan do with the last mouse he catches?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Takes it to Math for a wrestling contest"
-        },
-        {
-          "id": "b",
-          "text": "Keeps it in his glove and questions it"
-        },
-        {
-          "id": "c",
-          "text": "Turns it loose as a harvest offering"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The source says he catches the mouse, ties the glove, and asks what kind of thief it is.",
-      "sourceRefIds": [
-        "mouse"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "mouse"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Who does the mouse turn out to be?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Llwyd's wife, part of his revenge enchantment"
-        },
-        {
-          "id": "b",
-          "text": "Rhiannon in disguise"
-        },
-        {
-          "id": "c",
-          "text": "A messenger sent by Arawn"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Llwyd tells Manawydan that the mouse is his wife and explains the spell as revenge.",
-      "sourceRefIds": [
-        "reveal"
-      ],
-      "objectiveIds": [
-        "obj.manawydan-patience.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "reveal"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.man.mouse",
+   "text": "How does Manawydan break the spell?"
   }
+ ],
+ "sourceReferences": {
+  "mouse": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Third Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Third Branch, Manawydan catches the last mouse; local text normalized characters 455041-455354",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "he caught it and put it in his glove, and tied up the opening of the glove with a string, and kept it with him, and returned to the palace. Then he came to the hall where Kicva was, and he lighted a fire, and hung the glove by the string upon a peg. “What hast thou there, lord?” said Kicva. “A thief,” said he, “",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  },
+  "reveal": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The Third Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The Third Branch, Llwyd explains the enchantment; local text normalized characters 460820-461300",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "I will know who the mouse may be.” “She is my wife.” “Even though she be, I will not set her free. Wherefore came she to me?” “To despoil thee,” he answered. “I am Llwyd the son of Kilcoed, and I cast the charm over the seven Cantrevs of Dyved. And it was to avenge Gwawl the son of Clud, from the friendship I had towards him, that I cast the charm. And upon Pryderi did I revenge Gwawl the son of Clud, for the game of Badger in the Bag, that Pwyll Pen Annwvyn played upon him,",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A feast interrupted by mist",
+   "body": "Manawydan — Bran's brother and Branwen's widower-friend — is feasting with Rhiannon and her son Pryderi when a white mist rolls in. When it clears, the palace and every person in it has vanished.",
+   "sourceRefIds": [
+    "reveal"
+   ],
+   "objectiveIds": [
+    "obj.man.mist"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "An empty kingdom",
+   "body": "The three survivors — Manawydan, Rhiannon, Pryderi — walk a depopulated landscape. Pryderi follows a strange boar into a fort and doesn't come out; Rhiannon follows and vanishes too.",
+   "sourceRefIds": [
+    "reveal"
+   ],
+   "objectiveIds": [
+    "obj.man.mist"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Alone and patient",
+   "body": "Manawydan alone stays — not fighting, not raging, just present. He plants wheat, harvests it, lives quietly in the ruined land, because the other way is already tried.",
+   "sourceRefIds": [
+    "reveal"
+   ],
+   "objectiveIds": [
+    "obj.man.mouse"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The mouse's secret",
+   "body": "When a mouse steals his grain, he catches it — and instead of killing it, ties it up to hang. A stranger arrives offering ransom for it: the 'mouse' is the enchanter's wife, and the spell is broken for her life.",
+   "sourceRefIds": [
+    "mouse"
+   ],
+   "objectiveIds": [
+    "obj.man.mouse"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Patience as victory",
+   "body": "Where Greek heroes win by doing, Manawydan wins by waiting and noticing — the Welsh hero-ideal is different: quiet attention, not force, breaks the enchantment.",
+   "sourceRefIds": [
+    "mouse"
+   ],
+   "objectiveIds": [
+    "obj.man.mouse"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What happens when the mist clears?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The castle is buried in snow"
+    },
+    {
+     "id": "b",
+     "text": "The feast becomes a funeral"
+    },
+    {
+     "id": "c",
+     "text": "The palace and all its people have vanished — only Manawydan, Rhiannon, and Pryderi remain in an empty land"
+    },
+    {
+     "id": "d",
+     "text": "Rhiannon is taken to Annwn"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The mist takes the whole population — the enchantment is total.",
+   "sourceRefIds": [
+    "mouse",
+    "reveal"
+   ],
+   "objectiveIds": [
+    "obj.man.mist"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is the enchantment finally broken?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Manawydan catches the enchanter's wife disguised as a mouse and ransoms her for the people's return"
+    },
+    {
+     "id": "b",
+     "text": "He finds the hidden cauldron"
+    },
+    {
+     "id": "c",
+     "text": "He duels the enchanter"
+    },
+    {
+     "id": "d",
+     "text": "Rhiannon frees herself by cunning"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Patience plus a single caught mouse — the Welsh hero wins by waiting.",
+   "sourceRefIds": [
+    "mouse",
+    "reveal"
+   ],
+   "objectiveIds": [
+    "obj.man.mouse"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

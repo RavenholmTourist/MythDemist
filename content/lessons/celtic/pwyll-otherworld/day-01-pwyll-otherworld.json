@@ -1,194 +1,182 @@
 {
-  "id": "cel.tales.day01.pwyll-otherworld",
-  "version": 2,
-  "weekId": "cel.tales.week01",
-  "pantheon": "celtic",
-  "themeMode": "pantheon",
-  "title": "Pwyll and the Otherworld",
-  "subtitle": "Welsh tales make rulership meet enchantment",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "celtic",
-    "welsh",
-    "mabinogion",
-    "otherworld"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.pwyll-otherworld.concept",
-      "text": "What does Arawn ask Pwyll to do?"
-    },
-    {
-      "id": "obj.pwyll-otherworld.source",
-      "text": "Why does Arawn forbid a second blow?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-5160",
-      "sourceId": "cel.mabinogion",
-      "work": "The First Branch (in The Mabinogion)",
-      "author": "various Welsh traditions",
-      "translator": "Lady Charlotte Guest",
-      "locator": "The First Branch, Arawn asks Pwyll to defeat Hafgan; local text normalized characters 368527-368896",
-      "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
-      "excerpt": "One year from this night,” he answered, “is the time fixed between him and me that we should meet at the Ford; be thou there in my likeness, and with one stroke that thou givest him, he shall no longer live. And if he ask thee to give him another, give it not, how much soever he may entreat thee, for when I did so, he fought with me next day as well as ever before.”",
-      "evidenceType": "quotation",
-      "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
-    }
+ "id": "cel.tales.day01.pwyll-otherworld",
+ "version": 3,
+ "weekId": "cel.tales.week01",
+ "pantheon": "celtic",
+ "themeMode": "pantheon",
+ "title": "Pwyll and the Otherworld",
+ "subtitle": "A prince swaps places with a deathless lord for a year — the opening of the Mabinogion",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "pwyll",
+  "arawn",
+  "rhiannon",
+  "celtic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.pwyll.swap",
+   "text": "What bargain does Arawn offer Pwyll?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Arawn, king of Annwvyn, asks Pwyll to fight Hafgan at the Ford after a year. Pwyll must take Arawn’s shape and give Hafgan only one blow; a second blow would let him recover.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Arawn's terms",
-      "body": "Source quotation (Guest translation; whitespace normalized): “One year from this night,” he answered, “is the time fixed between him and me that we should meet at the Ford; be thou there in my likeness, and with one stroke that thou givest him, he shall no longer live. And if he ask thee to give him another, give it not, how much soever he may entreat thee, for when I did so, he fought with me next day as well as ever before.””",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The test is not just whether Pwyll can win a fight. He must keep the agreement's exact limit, even when his opponent asks for another blow.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "This is the Mabinogion's Welsh tale of Pwyll and Arawn. Keep the otherworld setting and the tale's rule about a single blow attached to this version.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Track the promise through the exchange: what Pwyll owes Arawn, what he is forbidden to do, and how restraint changes the result.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Arawn ask Pwyll to do?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Take Arawn's shape and defeat Hafgan with one blow at the Ford after a year"
-        },
-        {
-          "id": "b",
-          "text": "Defeat Arawn in a contest for Dyved"
-        },
-        {
-          "id": "c",
-          "text": "Marry Hafgan's daughter and surrender Annwvyn"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Arawn offers friendship if Pwyll takes his form, meets Hafgan at the Ford, and gives only one blow.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "main"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Arawn forbid a second blow?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A second blow would break Pwyll's disguise"
-        },
-        {
-          "id": "b",
-          "text": "The Ford can be crossed only once"
-        },
-        {
-          "id": "c",
-          "text": "Hafgan would recover and fight again the next day"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Arawn explains that Hafgan fought as well as before after receiving a second blow.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.pwyll-otherworld.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage closely.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this one text not establish?"
-        ],
-        "sourceRefIds": [
-          "main"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.pwyll.rhiannon",
+   "text": "What makes Rhiannon's courtship strange?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-5160",
+   "sourceId": "cel.mabinogion",
+   "work": "The First Branch (in The Mabinogion)",
+   "author": "various Welsh traditions",
+   "translator": "Lady Charlotte Guest",
+   "locator": "The First Branch, Arawn asks Pwyll to defeat Hafgan; local text normalized characters 368527-368896",
+   "localPath": "content/corpus/celtic/primary/mabinogion-guest-5160.txt",
+   "excerpt": "One year from this night,” he answered, “is the time fixed between him and me that we should meet at the Ford; be thou there in my likeness, and with one stroke that thou givest him, he shall no longer live. And if he ask thee to give him another, give it not, how much soever he may entreat thee, for when I did so, he fought with me next day as well as ever before.”",
+   "evidenceType": "quotation",
+   "note": "Verbatim Guest translation excerpt; whitespace normalized. Lesson interpretation is separate."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A hunt that opens a door",
+   "body": "Pwyll, prince of Dyfed, hunts on a misty morning and chases a strange stag — into a clearing where he meets Arawn, lord of Annwn, the Otherworld. They have offended each other's courtesy.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.swap"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The strangest bargain in Welsh myth",
+   "body": "Arawn offers a fix: swap places for one year. Pwyll will rule Annwn in Arawn's shape, fight Arawn's enemy king, and — the catch — share Arawn's queen's bed. Honour demands he touch no one.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.swap"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A year well kept",
+   "body": "Pwyll keeps the bargain perfectly: he defeats the enemy in the year-end single combat, and through a whole year in the Otherworld never touches the queen. Returning home, the two kingdoms are bound in friendship.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.swap"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Then comes Rhiannon",
+   "body": "The story's second wonder: Rhiannon rides past on a horse no rider can catch — until Pwyll simply asks her to stop. She has come for him, having refused the suitor her father chose. The marriage is made with her consent, not the suitor's claim.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.rhiannon"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "What the tale is for",
+   "body": "The Mabinogion's first branch teaches the book's values: a bargain kept, a woman choosing her own husband, the Otherworld a mirror to the courtly one. These tales care about honour more than swordplay.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.swap"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Arawn's bargain with Pwyll?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Foster his son for seven years"
+    },
+    {
+     "id": "b",
+     "text": "Bring him the magic cauldron"
+    },
+    {
+     "id": "c",
+     "text": "Swap places for a year — rule Annwn, fight his enemy, and share his queen's bed without touching her"
+    },
+    {
+     "id": "d",
+     "text": "Fight his champion at midsummer"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The year-long exchange tests courtesy above all — Pwyll keeps it perfectly.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.swap"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What makes Rhiannon's courtship unusual?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She chooses Pwyll herself — riding past uncatchably until he simply asks her to stop, refusing the suitor chosen for her"
+    },
+    {
+     "id": "b",
+     "text": "She is won in a tournament"
+    },
+    {
+     "id": "c",
+     "text": "Her father offers her as a prize"
+    },
+    {
+     "id": "d",
+     "text": "She appears only in dreams"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Her agency is the point — the tale gives her the choosing.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.pwyll.rhiannon"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -842,6 +842,7 @@ function renderHome() {
         <p>Progress stays on this device. Export a snapshot to share for review or to restore on another device.</p>
         <button class="secondary-button full-width" type="button" data-action="export-progress">Export progress</button>
         <button class="secondary-button full-width" type="button" data-action="import-progress">Import snapshot</button>
+        <button class="secondary-button full-width" type="button" data-action="reset-progress">Reset progress</button>
       </section>
 
       <section class="dashboard-card" aria-labelledby="statsTitle">
@@ -2032,6 +2033,13 @@ function handleAction(action, target) {
   }
   if (action === "import-progress") {
     importProgress();
+    return;
+  }
+  if (action === "reset-progress") {
+    if (window.confirm("Erase all progress on this device and start over? Export a snapshot first if you want to keep your history.")) {
+      localStorage.removeItem(STORAGE_KEY);
+      location.reload();
+    }
     return;
   }
   if (action === "open-assistant" || action === "assistant-from-deep-dive") {

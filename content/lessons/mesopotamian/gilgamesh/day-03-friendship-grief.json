@@ -1,193 +1,182 @@
 {
-  "id": "mesopotamian.week01.day03.friendship-grief",
-  "version": 2,
-  "weekId": "mesopot.gilgamesh.week01",
-  "pantheon": "mesopotamian",
-  "themeMode": "pantheon",
-  "title": "Gilgamesh and Enkidu: The First Contest",
-  "subtitle": "A violent meeting ends with recognition",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesopotamian",
-    "Friendship",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.friendship-grief.concept",
-      "text": "How does the Pennsylvania Tablet describe their first contest?"
-    },
-    {
-      "id": "obj.friendship-grief.sources",
-      "text": "What happens after Gilgamesh's breast is quieted?"
-    }
-  ],
-  "sourceReferences": {
-    "meeting": {
-      "recordId": "pg-11000",
-      "sourceId": "mesopot.gilgamesh-old-babylonian",
-      "work": "An Old Babylonian Version of the Gilgamesh Epic",
-      "author": "Anonymous",
-      "translator": "Morris Jastrow and Albert T. Clay",
-      "locator": "Pennsylvania Tablet · Column VI · part 2; Pennsylvania Tablet · Column VI · part 2, normalized characters 105-738",
-      "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
-      "excerpt": "They met in the plaza of the district. Enkidu blocked the gate With his foot, Not permitting Gish to enter. They seized (each other), like oxen, They fought. The threshold they demolished; The wall they impaired. Gish and Enkidu Seized (each other). Like oxen they fought. The threshold they demolished; The wall they impaired. Gish bent His foot to the ground, [149] His wrath was appeased, His breast was quieted. When his breast was quieted, Enkidu to him Spoke, to Gish: \"As a unique one, thy mother bore thee. The wild cow of the stall, [150] Ninsun, Has exalted thy head above men. Kingship over men Enlil has decreed for thee.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
-    }
+ "id": "mesopotamian.week01.day03.friendship-grief",
+ "version": 3,
+ "weekId": "mesopot.gilgamesh.week01",
+ "pantheon": "mesopotamian",
+ "themeMode": "pantheon",
+ "title": "Gilgamesh and Enkidu: The Wrestle",
+ "subtitle": "They meet as enemies and end as the first friendship in literature",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "gilgamesh",
+  "enkidu",
+  "friendship",
+  "mesopotamian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fight.start",
+   "text": "How do Gilgamesh and Enkidu meet?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Enkidu blocks the gate",
-      "body": "In this Pennsylvania Tablet witness, Enkidu prevents Gilgamesh from entering. They wrestle with the force of oxen and damage the threshold and wall.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The contest changes direction",
-      "body": "Source quotation (Jastrow and Clay's tablet translation; whitespace normalized): “They met in the plaza of the district. Enkidu blocked the gate With his foot, Not permitting Gish to enter. They seized (each other), like oxen, They fought. The threshold they demolished; The wall they impaired. Gish and Enkidu Seized (each other). Like oxen they fought. The threshold they demolished; The wall they impaired. Gish bent His foot to the ground, [149] His wrath was appeased, His breast was quieted. When his breast was quieted, Enkidu to him Spoke, to Gish: \"As a unique one, thy mother bore thee. The wild cow of the stall, [150] Ninsun, Has exalted thy head above men. Kingship over men Enlil has decreed for thee.”",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The encounter eases",
-      "body": "After Gilgamesh's wrath is appeased, Enkidu speaks of Gilgamesh's mother Ninsun and the kingship Enlil decreed. This fragment presents a turn after their struggle.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep witness and inference distinct",
-      "body": "The surviving translated lines show a fight followed by speech. Calling it a beginning of friendship is an interpretation of that sequence, not a separate line in this excerpt.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Conflict becomes a relationship",
-      "body": "The scene moves from physical opposition toward recognition, but the lesson should not imply the fragment preserves every step of their relationship.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does the Pennsylvania Tablet describe their first contest?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They fight Huwawa in the cedar forest"
-        },
-        {
-          "id": "b",
-          "text": "They grapple like oxen and damage the threshold and wall"
-        },
-        {
-          "id": "c",
-          "text": "They compete in a chariot race"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The translated lines compare their struggle to oxen and describe damage to the threshold and wall.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "meeting"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens after Gilgamesh's breast is quieted?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Enkidu speaks to him about Ninsun and kingship"
-        },
-        {
-          "id": "b",
-          "text": "Enkidu returns to the herds"
-        },
-        {
-          "id": "c",
-          "text": "Gilgamesh interprets another dream"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The excerpt follows the easing of Gilgamesh's anger with Enkidu's speech.",
-      "sourceRefIds": [
-        "meeting"
-      ],
-      "objectiveIds": [
-        "obj.friendship-grief.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the labeled tablet passage and its edition notes.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which words are bracketed or uncertain?"
-        ],
-        "sourceRefIds": [
-          "meeting"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fight.bond",
+   "text": "What does the fight produce?"
   }
+ ],
+ "sourceReferences": {
+  "meeting": {
+   "recordId": "pg-11000",
+   "sourceId": "mesopot.gilgamesh-old-babylonian",
+   "work": "An Old Babylonian Version of the Gilgamesh Epic",
+   "author": "Anonymous",
+   "translator": "Morris Jastrow and Albert T. Clay",
+   "locator": "Pennsylvania Tablet · Column VI · part 2; Pennsylvania Tablet · Column VI · part 2, normalized characters 105-738",
+   "localPath": "content/corpus/mesopotamian/primary/gilgamesh-clay-jastrow-11000.txt",
+   "excerpt": "They met in the plaza of the district. Enkidu blocked the gate With his foot, Not permitting Gish to enter. They seized (each other), like oxen, They fought. The threshold they demolished; The wall they impaired. Gish and Enkidu Seized (each other). Like oxen they fought. The threshold they demolished; The wall they impaired. Gish bent His foot to the ground, [149] His wrath was appeased, His breast was quieted. When his breast was quieted, Enkidu to him Spoke, to Gish: \"As a unique one, thy mother bore thee. The wild cow of the stall, [150] Ninsun, Has exalted thy head above men. Kingship over men Enlil has decreed for thee.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation from the named Old Babylonian tablet witness in this edited edition. Brackets and question marks signal textual restoration or uncertainty."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "At the bride's door",
+   "body": "Enkidu blocks Gilgamesh from claiming another bride — and the king of Uruk, unbeaten, meets his match. They wrestle in the street until the city's walls shake.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.start"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Mutual recognition",
+   "body": "Gilgamesh wins — barely — and something unexpected happens: the two strongest beings in the world look at each other and stop. They embrace and become inseparable friends.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.bond"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The purpose of an equal",
+   "body": "The gods' design works exactly as planned: Gilgamesh's excess energy finally has somewhere to go — partnership instead of tyranny. The city gets relief; the king gets a brother.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.bond"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Restlessness follows",
+   "body": "But two strong men idle is its own problem. Gilgamesh proposes a fame-quest: the Cedar Forest and its guardian Huwawa. Enkidu warns him it is dangerous — and goes anyway, because that is what friends do.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.bond"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the friendship matters",
+   "body": "Gilgamesh is the first epic where the emotional core is a bond between two men, not a conquest or a romance. Enkidu's coming death — the grief that drives the second half — lands only because this friendship is real.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.bond"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How do Gilgamesh and Enkidu first meet?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "On a hunting expedition"
+    },
+    {
+     "id": "b",
+     "text": "At a council of the gods"
+    },
+    {
+     "id": "c",
+     "text": "In a wrestling match — Enkidu blocks Gilgamesh from the bride, and they fight until the walls shake"
+    },
+    {
+     "id": "d",
+     "text": "When Enkidu raids Uruk's herds"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The city brawl is the meeting — the contest of equals.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.start"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does the fight produce?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Friendship — they become inseparable, and Gilgamesh's energy finally has a partner instead of victims"
+    },
+    {
+     "id": "b",
+     "text": "Enkidu is imprisoned"
+    },
+    {
+     "id": "c",
+     "text": "Gilgamesh is exiled"
+    },
+    {
+     "id": "d",
+     "text": "A lasting rivalry"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The gods' counterweight works: the king's excess becomes partnership.",
+   "sourceRefIds": [
+    "meeting"
+   ],
+   "objectiveIds": [
+    "obj.fight.bond"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

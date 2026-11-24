@@ -1,194 +1,182 @@
 {
-  "id": "egy.gods.day01.osiris-renewal",
-  "version": 3,
-  "weekId": "egy.gods.week01",
-  "pantheon": "egyptian",
-  "themeMode": "pantheon",
-  "title": "Osiris: Kingship in a Funerary Hymn",
-  "subtitle": "Order, loss, and return in Egyptian tradition",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "egyptian",
-    "osiris",
-    "death",
-    "renewal"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.osiris-renewal.concept",
-      "text": "What does the Papyrus of Ani hymn say about Horus?"
-    },
-    {
-      "id": "obj.osiris-renewal.source",
-      "text": "What kind of passage is this excerpt?"
-    }
-  ],
-  "sourceReferences": {
-    "ani": {
-      "recordId": "pg-15932",
-      "sourceId": "egy.literature-ancient-egyptians",
-      "work": "Hymn to Osiris in the Papyrus of Ani",
-      "author": "various Egyptian authors",
-      "translator": "E. A. Wallis Budge",
-      "locator": "Hymn to Osiris in the Papyrus of Ani; local text normalized characters 94392-94886",
-      "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
-      "excerpt": "Glory be to Osiris Un-Nefer, the great god who dwelleth in Abydos, king of eternity, lord of everlastingness, whose existence endureth for millions of years. Eldest son of the womb of Nut,[1] begotten by Keb,[2] the Erpat,[3] lord of the crowns of the South and North, lord of the lofty white crown, prince of gods and men: he hath received the sceptre, and the whip, and the rank of his divine fathers. Let thy heart in Semt-Ament[4] be content, for thy son Horus is established on thy throne.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
-    }
+ "id": "egy.gods.day01.osiris-renewal",
+ "version": 4,
+ "weekId": "egy.gods.week01",
+ "pantheon": "egyptian",
+ "themeMode": "pantheon",
+ "title": "Osiris: The First Mummy",
+ "subtitle": "Murdered, dismembered, reassembled — Egypt's dead king who keeps coming back",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "osiris",
+  "isis",
+  "set",
+  "egyptian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.osiris.murder",
+   "text": "What does Set do to Osiris?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The opening hymn in the Papyrus of Ani addresses Osiris as an enduring king and says Horus is established on his throne. This passage praises and invokes Osiris; it does not narrate the whole story of his death and restoration.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The hymn names Osiris and Horus",
-      "body": "Source quotation (Budge translation; whitespace normalized): “Glory be to Osiris Un-Nefer, the great god who dwelleth in Abydos, king of eternity, lord of everlastingness, whose existence endureth for millions of years. Eldest son of the womb of Nut,[1] begotten by Keb,[2] the Erpat,[3] lord of the crowns of the South and North, lord of the lofty white crown, prince of gods and men: he hath received the sceptre, and the whip, and the rank of his divine fathers. Let thy heart in Semt-Ament[4] be content, for thy son Horus is established on thy throne.”",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The passage links Osiris' kingship with Horus' succession. Treat it as a funerary hymn from one manuscript, not a single canonical timeline for all Egyptian traditions.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the evidence carefully",
-      "body": "Budge's anthology translates and introduces the papyrus. Keep his edition and translation attached; distinguish the hymn's words from his notes about them.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "As you read other funerary texts, ask who is speaking, to whom, and what the text is meant to do.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Papyrus of Ani hymn say about Horus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Horus is established on Osiris' throne"
-        },
-        {
-          "id": "b",
-          "text": "Horus destroys the Papyrus of Ani"
-        },
-        {
-          "id": "c",
-          "text": "Horus is named as the translator"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The hymn explicitly places Horus on Osiris' throne.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "ani"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of passage is this excerpt?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A complete chronological biography of Osiris"
-        },
-        {
-          "id": "b",
-          "text": "A modern novel about Egyptian kings"
-        },
-        {
-          "id": "c",
-          "text": "An opening funerary hymn in the Papyrus of Ani"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The edition identifies the excerpt as an opening hymn; it is not a complete narrative of the Osiris cycle.",
-      "sourceRefIds": [
-        "ani"
-      ],
-      "objectiveIds": [
-        "obj.osiris-renewal.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local text.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this the translated text or editorial context?"
-        ],
-        "sourceRefIds": [
-          "ani"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.osiris.meaning",
+   "text": "What does Osiris's return mean for the dead?"
   }
+ ],
+ "sourceReferences": {
+  "ani": {
+   "recordId": "pg-15932",
+   "sourceId": "egy.literature-ancient-egyptians",
+   "work": "Hymn to Osiris in the Papyrus of Ani",
+   "author": "various Egyptian authors",
+   "translator": "E. A. Wallis Budge",
+   "locator": "Hymn to Osiris in the Papyrus of Ani; local text normalized characters 94392-94886",
+   "localPath": "content/corpus/egyptian/primary/literature-ancient-egyptians-budge-15932.txt",
+   "excerpt": "Glory be to Osiris Un-Nefer, the great god who dwelleth in Abydos, king of eternity, lord of everlastingness, whose existence endureth for millions of years. Eldest son of the womb of Nut,[1] begotten by Keb,[2] the Erpat,[3] lord of the crowns of the South and North, lord of the lofty white crown, prince of gods and men: he hath received the sceptre, and the whip, and the rank of his divine fathers. Let thy heart in Semt-Ament[4] be content, for thy son Horus is established on thy throne.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translation excerpt; whitespace normalized. Keep the ancient text separate from Budge's editorial notes."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The good king",
+   "body": "Osiris rules Egypt as a civilizing king — he teaches agriculture and law. His brother Set, jealous, tricks him into a coffin 'to see if it fits', seals it, and throws it in the Nile.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.murder"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Cut to pieces",
+   "body": "When Isis finally recovers the body, Set steals it back and dismembers Osiris — scattering the parts across Egypt so he can never be whole. The ultimate erasure.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.murder"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Isis reassembles him",
+   "body": "Isis searches the land and gathers every piece — and with her magic reassembles Osiris and revives him long enough to conceive their son Horus. The first resurrection in world myth.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.murder"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "King of the dead",
+   "body": "Osiris doesn't return to earthly kingship — he becomes king of the UNDERWORLD, lord of the dead. His murder is transformed into an office: he who was dismembered now welcomes every dismembered-by-time Egyptian.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.meaning"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why every Egyptian wanted this story",
+   "body": "Osiris's pattern — death, dismemberment, reassembly, life again — is what every dead person hopes to repeat. That is why mummification exists: you make the body whole so the Osiris-story can repeat in you.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.meaning"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Set do to Osiris?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Exiles him to the desert"
+    },
+    {
+     "id": "b",
+     "text": "Poisons him at a feast"
+    },
+    {
+     "id": "c",
+     "text": "Traps him in a coffin, then dismembers the body and scatters the pieces across Egypt"
+    },
+    {
+     "id": "d",
+     "text": "Seals him in a pyramid"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The dismemberment is the point — only Isis's reassembly can undo it.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.murder"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Osiris become after death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "King of the underworld — the dead pharaoh and lord of the dead, the pattern every Egyptian hoped to follow"
+    },
+    {
+     "id": "b",
+     "text": "He is reborn as Horus"
+    },
+    {
+     "id": "c",
+     "text": "He rules the sky as sun"
+    },
+    {
+     "id": "d",
+     "text": "He becomes a serpent of the Nile"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "His story is the promise: death is not the end if the pieces are gathered.",
+   "sourceRefIds": [
+    "ani"
+   ],
+   "objectiveIds": [
+    "obj.osiris.meaning"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,206 +1,195 @@
 {
-  "id": "indian.week01.day02.rama-exile",
-  "version": 4,
-  "weekId": "ind.epics.week01",
-  "pantheon": "indian",
-  "themeMode": "pantheon",
-  "title": "Rama: Accepting the Exile",
-  "subtitle": "A royal command, a kingdom, and a promise",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "indian",
-    "Rama:",
-    "Exile"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.rama-exile.concept",
-      "text": "What does Rama say he will give up at his father's command?"
-    },
-    {
-      "id": "obj.rama-exile.sources",
-      "text": "Which part of the Ramayana does this local volume contain?"
-    }
-  ],
-  "sourceReferences": {
-    "acceptance": {
-      "recordId": "pg-57265",
-      "sourceId": "ind.ramayana-vol1-dutt",
-      "work": "The Rāmāyana, Volume 1",
-      "author": "Valmiki",
-      "translator": "Manmatha Nath Dutt",
-      "locator": "Ayodhyakandam · Section XIX; Ayodhyakandam · Section XIX, normalized characters 896-1042",
-      "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
-      "excerpt": "What of the command of the king, my father, I shall even at thy mandate joyfully make over unto Bharata, my kingdom, Sita, wealth and even my life",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    },
-    "duration": {
-      "recordId": "pg-57265",
-      "sourceId": "ind.ramayana-vol1-dutt",
-      "work": "The Rāmāyana, Volume 1",
-      "author": "Valmiki",
-      "translator": "Manmatha Nath Dutt",
-      "locator": "Ayodhyakandam · Section XIX; Ayodhyakandam · Section XIX, normalized characters 1348-1472",
-      "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
-      "excerpt": "I shall, not even judging the propriety of my father's words, speedily repair unto the forest of Dandaka for fourteen years.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    }
+ "id": "indian.week01.day02.rama-exile",
+ "version": 5,
+ "weekId": "ind.epics.week01",
+ "pantheon": "indian",
+ "themeMode": "pantheon",
+ "title": "Rama: Accepting the Exile",
+ "subtitle": "A royal command, a kingdom, and a promise",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "rama",
+  "exile",
+  "ramayana",
+  "indian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ram.boon",
+   "text": "Why is Rama exiled?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The command changes the succession",
-      "body": "In Manmatha Nath Dutt's prose translation of the Ayodhyakandam, Rama responds to the command that sends him to the forest for fourteen years while Bharata is to receive the kingdom.",
-      "sourceRefIds": [
-        "acceptance",
-        "duration"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Rama accepts the command",
-      "body": "Source quotation (Dutt's English rendering; whitespace normalized): “What of the command of the king, my father, I shall even at thy mandate joyfully make over unto Bharata, my kingdom, Sita, wealth and even my life”",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The promise is more than a throne",
-      "body": "Rama says he will give up kingdom, Sita, wealth, and even life at the command of his father and Kaikeyi. The words are part of this translation's literary scene.",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A specific volume and translation",
-      "body": "This source is Volume 1 of Dutt's English prose translation, containing the Balakandam and Ayodhyakandam. It does not include every later Ramayana episode or regional retelling.",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Exile begins with a decision",
-      "body": "The passage frames the exile through Rama's response to a royal promise and command, not through a single general definition of duty.",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Rama say he will give up at his father's command?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Only his bow and chariot"
-        },
-        {
-          "id": "b",
-          "text": "Bharata's claim to the throne"
-        },
-        {
-          "id": "c",
-          "text": "His kingdom, Sita, wealth, and even his life"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Rama's speech explicitly lists kingdom, Sita, wealth, and life.",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "acceptance"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which part of the Ramayana does this local volume contain?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Only the Bhagavad Gita"
-        },
-        {
-          "id": "b",
-          "text": "The Balakandam and Ayodhyakandam"
-        },
-        {
-          "id": "c",
-          "text": "The complete seven-kanda epic"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The title page identifies this as Volume 1, Balakandam and Ayodhyakandam.",
-      "sourceRefIds": [
-        "acceptance"
-      ],
-      "objectiveIds": [
-        "obj.rama-exile.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "acceptance"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ram.accept",
+   "text": "How does he respond?"
   }
+ ],
+ "sourceReferences": {
+  "acceptance": {
+   "recordId": "pg-57265",
+   "sourceId": "ind.ramayana-vol1-dutt",
+   "work": "The Rāmāyana, Volume 1",
+   "author": "Valmiki",
+   "translator": "Manmatha Nath Dutt",
+   "locator": "Ayodhyakandam · Section XIX; Ayodhyakandam · Section XIX, normalized characters 896-1042",
+   "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
+   "excerpt": "What of the command of the king, my father, I shall even at thy mandate joyfully make over unto Bharata, my kingdom, Sita, wealth and even my life",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  },
+  "duration": {
+   "recordId": "pg-57265",
+   "sourceId": "ind.ramayana-vol1-dutt",
+   "work": "The Rāmāyana, Volume 1",
+   "author": "Valmiki",
+   "translator": "Manmatha Nath Dutt",
+   "locator": "Ayodhyakandam · Section XIX; Ayodhyakandam · Section XIX, normalized characters 1348-1472",
+   "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
+   "excerpt": "I shall, not even judging the propriety of my father's words, speedily repair unto the forest of Dandaka for fourteen years.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Coronation eve",
+   "body": "Ayodhya prepares to crown Rama — until old King Dasaratha's youngest queen, Kaikeyi, reminded by her maid of two ancient boons the king owes her, calls them in.",
+   "sourceRefIds": [
+    "duration"
+   ],
+   "objectiveIds": [
+    "obj.ram.boon"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The two boons",
+   "body": "Her price: her own son Bharata crowned instead — and Rama banished to the forest for fourteen years. Dasaratha is bound by his word: a king's promise cannot be unmade.",
+   "sourceRefIds": [
+    "duration"
+   ],
+   "objectiveIds": [
+    "obj.ram.boon"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "No protest",
+   "body": "Rama's response is the lesson: no argument, no appeal, no bitterness. He takes off the royal ornaments, puts on bark and antelope-skin, and walks toward the forest — dharma as obedience to a father's word.",
+   "sourceRefIds": [
+    "acceptance"
+   ],
+   "objectiveIds": [
+    "obj.ram.accept"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The city weeps",
+   "body": "Ayodhya tries to follow him; the charioteer drives through the night so the city wakes to find him gone. The old king dies of grief within days.",
+   "sourceRefIds": [
+    "acceptance"
+   ],
+   "objectiveIds": [
+    "obj.ram.accept"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The epic's engine",
+   "body": "The exile is what the whole Ramayana turns on: the kidnapping, the war, the triumph — all flow from fourteen years in the forest, accepted without a word.",
+   "sourceRefIds": [
+    "acceptance",
+    "duration"
+   ],
+   "objectiveIds": [
+    "obj.ram.accept"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why is Rama exiled?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He offended a sage"
+    },
+    {
+     "id": "b",
+     "text": "He lost a duel for the throne"
+    },
+    {
+     "id": "c",
+     "text": "Queen Kaikeyi calls in two boons owed her by King Dasaratha — Bharata crowned, Rama banished for fourteen years"
+    },
+    {
+     "id": "d",
+     "text": "He chose the forest himself"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The boons bind the king — Rama's exile is a promise kept, not a crime punished.",
+   "sourceRefIds": [
+    "duration"
+   ],
+   "objectiveIds": [
+    "obj.ram.boon"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Rama respond to the exile?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He accepts without protest — bark garments on, forest-bound, honoring his father's word"
+    },
+    {
+     "id": "b",
+     "text": "He appeals to the council"
+    },
+    {
+     "id": "c",
+     "text": "He flees before the order"
+    },
+    {
+     "id": "d",
+     "text": "He bargains for half the term"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The acceptance is the teaching: dharma first, even when it costs everything.",
+   "sourceRefIds": [
+    "acceptance"
+   ],
+   "objectiveIds": [
+    "obj.ram.accept"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

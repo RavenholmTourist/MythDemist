@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T19:28:11.265869+00:00",
+  "generatedAt": "2026-11-24T19:34:19.648298+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -2176,17 +2176,19 @@
       ],
       "assessment": null,
       "themes": [
-        "Counsel",
-        "Dharma:",
-        "Dice",
-        "Duty",
-        "Exile",
-        "Krishna:",
-        "Rama:",
-        "Separation",
-        "Sita:",
-        "and",
-        "indian"
+        "bharata",
+        "dice",
+        "draupadi",
+        "exile",
+        "forest",
+        "indian",
+        "krishna",
+        "mahabharata",
+        "peace",
+        "rama",
+        "ramayana",
+        "sandals",
+        "sita"
       ]
     },
     {
@@ -2204,17 +2206,18 @@
       ],
       "assessment": null,
       "themes": [
-        "Finding",
-        "Fire",
-        "Fishing",
-        "Maui:",
-        "Pele",
-        "Snaring",
-        "The",
-        "Up",
-        "and",
+        "alae",
+        "fire",
+        "fishing",
+        "hina",
+        "islands",
+        "maui",
+        "moon",
         "polynesian",
-        "the"
+        "snare",
+        "sun",
+        "tapa",
+        "trickster"
       ]
     },
     {
@@ -2232,8 +2235,21 @@
       ],
       "assessment": null,
       "themes": [
+        "birth",
+        "bride",
+        "cake",
         "finnish",
-        "tradition"
+        "gold",
+        "ilmarinen",
+        "kalevala",
+        "knife",
+        "kullervo",
+        "louhi",
+        "mill",
+        "pohjola",
+        "sampo",
+        "sun",
+        "vainamoinen"
       ]
     },
     {
@@ -2251,8 +2267,21 @@
       ],
       "assessment": null,
       "themes": [
+        "ballgame",
+        "bats",
+        "blowgun",
+        "call",
+        "creation",
+        "death",
+        "hero-twins",
         "maya",
-        "tradition"
+        "ordeals",
+        "popol-vuh",
+        "return",
+        "twins",
+        "vukub-cakix",
+        "wooden",
+        "xibalba"
       ]
     },
     {
@@ -5563,20 +5592,21 @@
     },
     {
       "id": "indian.week01.day01.dharma-duty",
-      "version": 4,
+      "version": 5,
       "pantheon": "indian",
       "title": "Krishna's Counsel: Peace Before War",
       "weekId": "ind.epics.week01",
       "tags": [
-        "indian",
-        "Dharma:",
-        "Duty"
+        "krishna",
+        "peace",
+        "mahabharata",
+        "indian"
       ],
       "difficulty": 2,
       "path": "content/lessons/indian/epics/day-01-dharma-duty.json",
       "objectiveIds": [
-        "obj.dharma-duty.concept",
-        "obj.dharma-duty.sources"
+        "obj.kri.embassy",
+        "obj.kri.refusal"
       ],
       "recordIds": [
         "pg-19630"
@@ -5585,32 +5615,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Dharma:",
-        "Duty",
-        "indian"
+        "indian",
+        "krishna",
+        "mahabharata",
+        "peace"
       ],
       "entities": [
-        "Dharma:",
-        "Duty",
-        "indian"
+        "indian",
+        "krishna",
+        "mahabharata",
+        "peace"
       ]
     },
     {
       "id": "indian.week01.day02.rama-exile",
-      "version": 4,
+      "version": 5,
       "pantheon": "indian",
       "title": "Rama: Accepting the Exile",
       "weekId": "ind.epics.week01",
       "tags": [
-        "indian",
-        "Rama:",
-        "Exile"
+        "rama",
+        "exile",
+        "ramayana",
+        "indian"
       ],
       "difficulty": 2,
       "path": "content/lessons/indian/epics/day-02-rama-exile.json",
       "objectiveIds": [
-        "obj.rama-exile.concept",
-        "obj.rama-exile.sources"
+        "obj.ram.boon",
+        "obj.ram.accept"
       ],
       "recordIds": [
         "pg-57265"
@@ -5619,32 +5652,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Exile",
-        "Rama:",
-        "indian"
+        "exile",
+        "indian",
+        "rama",
+        "ramayana"
       ],
       "entities": [
-        "Exile",
-        "Rama:",
-        "indian"
+        "exile",
+        "indian",
+        "rama",
+        "ramayana"
       ]
     },
     {
       "id": "indian.week01.day03.sita-separation",
-      "version": 4,
+      "version": 5,
       "pantheon": "indian",
       "title": "Sita: Choosing the Forest",
       "weekId": "ind.epics.week01",
       "tags": [
-        "indian",
-        "Sita:",
-        "Separation"
+        "sita",
+        "forest",
+        "ramayana",
+        "indian"
       ],
       "difficulty": 2,
       "path": "content/lessons/indian/epics/day-03-sita-separation.json",
       "objectiveIds": [
-        "obj.sita-separation.concept",
-        "obj.sita-separation.sources"
+        "obj.sita.choice",
+        "obj.sita.duty"
       ],
       "recordIds": [
         "pg-57265"
@@ -5653,32 +5689,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Separation",
-        "Sita:",
-        "indian"
+        "forest",
+        "indian",
+        "ramayana",
+        "sita"
       ],
       "entities": [
-        "Separation",
-        "Sita:",
-        "indian"
+        "forest",
+        "indian",
+        "ramayana",
+        "sita"
       ]
     },
     {
       "id": "indian.week01.day04.dice-war",
-      "version": 4,
+      "version": 5,
       "pantheon": "indian",
       "title": "The Dice Game: Draupadi Questions the Wager",
       "weekId": "ind.epics.week01",
       "tags": [
-        "indian",
-        "Dice",
-        "and"
+        "draupadi",
+        "dice",
+        "mahabharata",
+        "indian"
       ],
       "difficulty": 2,
       "path": "content/lessons/indian/epics/day-04-dice-war.json",
       "objectiveIds": [
-        "obj.dice-war.concept",
-        "obj.dice-war.sources"
+        "obj.dra.wager",
+        "obj.dra.question"
       ],
       "recordIds": [
         "pg-19630"
@@ -5687,32 +5726,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Dice",
-        "and",
-        "indian"
+        "dice",
+        "draupadi",
+        "indian",
+        "mahabharata"
       ],
       "entities": [
-        "Dice",
-        "and",
-        "indian"
+        "dice",
+        "draupadi",
+        "indian",
+        "mahabharata"
       ]
     },
     {
       "id": "indian.week01.day05.krishna-counsel",
-      "version": 4,
+      "version": 5,
       "pantheon": "indian",
       "title": "Bharata: Governing in Rama's Name",
       "weekId": "ind.epics.week01",
       "tags": [
-        "indian",
-        "Krishna:",
-        "Counsel"
+        "bharata",
+        "sandals",
+        "ramayana",
+        "indian"
       ],
       "difficulty": 2,
       "path": "content/lessons/indian/epics/day-05-krishna-counsel.json",
       "objectiveIds": [
-        "obj.krishna-counsel.concept",
-        "obj.krishna-counsel.sources"
+        "obj.bha.refusal",
+        "obj.bha.sandals"
       ],
       "recordIds": [
         "pg-57265"
@@ -5721,32 +5763,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Counsel",
-        "Krishna:",
-        "indian"
+        "bharata",
+        "indian",
+        "ramayana",
+        "sandals"
       ],
       "entities": [
-        "Counsel",
-        "Krishna:",
-        "indian"
+        "bharata",
+        "indian",
+        "ramayana",
+        "sandals"
       ]
     },
     {
       "id": "polynesian.week01.day01.maui-trickster",
-      "version": 2,
+      "version": 3,
       "pantheon": "polynesian",
       "title": "Maui's Family Across Island Accounts",
       "weekId": "pol.maui.week01",
       "tags": [
-        "polynesian",
-        "Maui:",
-        "The"
+        "maui",
+        "islands",
+        "trickster",
+        "polynesian"
       ],
       "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-01-maui-trickster.json",
       "objectiveIds": [
-        "obj.maui-trickster.concept",
-        "obj.maui-trickster.sources"
+        "obj.maui.family",
+        "obj.maui.islands"
       ],
       "recordIds": [
         "pg-32601"
@@ -5755,32 +5800,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Maui:",
-        "The",
-        "polynesian"
+        "islands",
+        "maui",
+        "polynesian",
+        "trickster"
       ],
       "entities": [
-        "Maui:",
-        "The",
-        "polynesian"
+        "islands",
+        "maui",
+        "polynesian",
+        "trickster"
       ]
     },
     {
       "id": "polynesian.week01.day02.fishing-islands",
-      "version": 2,
+      "version": 3,
       "pantheon": "polynesian",
       "title": "Hawaiian Maui and the Fishing Hook",
       "weekId": "pol.maui.week01",
       "tags": [
-        "polynesian",
-        "Fishing",
-        "Up"
+        "maui",
+        "fishing",
+        "islands",
+        "polynesian"
       ],
       "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-02-fishing-islands.json",
       "objectiveIds": [
-        "obj.fishing-islands.concept",
-        "obj.fishing-islands.sources"
+        "obj.fish.hook",
+        "obj.fish.islands"
       ],
       "recordIds": [
         "pg-32601"
@@ -5789,32 +5837,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Fishing",
-        "Up",
+        "fishing",
+        "islands",
+        "maui",
         "polynesian"
       ],
       "entities": [
-        "Fishing",
-        "Up",
+        "fishing",
+        "islands",
+        "maui",
         "polynesian"
       ]
     },
     {
       "id": "polynesian.week01.day03.snaring-sun",
-      "version": 2,
+      "version": 3,
       "pantheon": "polynesian",
       "title": "Maui: The Sun-Snaring Variant",
       "weekId": "pol.maui.week01",
       "tags": [
-        "polynesian",
-        "Snaring",
-        "the"
+        "maui",
+        "sun",
+        "snare",
+        "polynesian"
       ],
       "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-03-snaring-sun.json",
       "objectiveIds": [
-        "obj.snaring-sun.concept",
-        "obj.snaring-sun.sources"
+        "obj.sun.snare",
+        "obj.sun.deal"
       ],
       "recordIds": [
         "pg-32601"
@@ -5823,32 +5874,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Snaring",
+        "maui",
         "polynesian",
-        "the"
+        "snare",
+        "sun"
       ],
       "entities": [
-        "Snaring",
+        "maui",
         "polynesian",
-        "the"
+        "snare",
+        "sun"
       ]
     },
     {
       "id": "polynesian.week01.day04.finding-fire",
-      "version": 2,
+      "version": 3,
       "pantheon": "polynesian",
       "title": "Hawaiian Maui: Finding Fire",
       "weekId": "pol.maui.week01",
       "tags": [
-        "polynesian",
-        "Finding",
-        "Fire"
+        "maui",
+        "fire",
+        "alae",
+        "polynesian"
       ],
       "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-04-finding-fire.json",
       "objectiveIds": [
-        "obj.finding-fire.concept",
-        "obj.finding-fire.sources"
+        "obj.fire.secret",
+        "obj.fire.theft"
       ],
       "recordIds": [
         "pg-32601"
@@ -5857,32 +5911,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Finding",
-        "Fire",
+        "alae",
+        "fire",
+        "maui",
         "polynesian"
       ],
       "entities": [
-        "Finding",
-        "Fire",
+        "alae",
+        "fire",
+        "maui",
         "polynesian"
       ]
     },
     {
       "id": "polynesian.week01.day05.pele-volcano",
-      "version": 2,
+      "version": 3,
       "pantheon": "polynesian",
       "title": "Hina: A Hawaiian Ascent to the Moon",
       "weekId": "pol.maui.week01",
       "tags": [
-        "polynesian",
-        "Pele",
-        "and"
+        "hina",
+        "moon",
+        "tapa",
+        "polynesian"
       ],
       "difficulty": 2,
       "path": "content/lessons/polynesian/maui/day-05-pele-volcano.json",
       "objectiveIds": [
-        "obj.pele-volcano.concept",
-        "obj.pele-volcano.sources"
+        "obj.hina.flight",
+        "obj.hina.refuge"
       ],
       "recordIds": [
         "pg-32601"
@@ -5891,31 +5948,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Pele",
-        "and",
-        "polynesian"
+        "hina",
+        "moon",
+        "polynesian",
+        "tapa"
       ],
       "entities": [
-        "Pele",
-        "and",
-        "polynesian"
+        "hina",
+        "moon",
+        "polynesian",
+        "tapa"
       ]
     },
     {
       "id": "finnish.week01.day01.vainamoinen-and-song",
-      "version": 2,
+      "version": 3,
       "pantheon": "finnish",
       "title": "V\u00e4in\u00e4m\u00f6inen: Birth and Song",
       "weekId": "finnish.tradition.week01",
       "tags": [
-        "finnish",
-        "tradition"
+        "vainamoinen",
+        "birth",
+        "kalevala",
+        "finnish"
       ],
       "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-01-vainamoinen-and-song.json",
       "objectiveIds": [
-        "obj.finnish.1.concept",
-        "obj.finnish.1.source"
+        "obj.vain.birth",
+        "obj.vain.sage"
       ],
       "recordIds": [
         "pg-5186"
@@ -5924,29 +5985,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "birth",
         "finnish",
-        "tradition"
+        "kalevala",
+        "vainamoinen"
       ],
       "entities": [
+        "birth",
         "finnish",
-        "tradition"
+        "kalevala",
+        "vainamoinen"
       ]
     },
     {
       "id": "finnish.week01.day02.the-sampo",
-      "version": 2,
+      "version": 3,
       "pantheon": "finnish",
       "title": "The Sampo: A Threefold Mill",
       "weekId": "finnish.tradition.week01",
       "tags": [
-        "finnish",
-        "tradition"
+        "sampo",
+        "ilmarinen",
+        "mill",
+        "finnish"
       ],
       "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-02-the-sampo.json",
       "objectiveIds": [
-        "obj.finnish.2.concept",
-        "obj.finnish.2.source"
+        "obj.sam.forge",
+        "obj.sam.mill"
       ],
       "recordIds": [
         "pg-5186"
@@ -5956,28 +6023,34 @@
       "cardCount": 5,
       "themes": [
         "finnish",
-        "tradition"
+        "ilmarinen",
+        "mill",
+        "sampo"
       ],
       "entities": [
         "finnish",
-        "tradition"
+        "ilmarinen",
+        "mill",
+        "sampo"
       ]
     },
     {
       "id": "finnish.week01.day03.ilmarinen-the-smith",
-      "version": 2,
+      "version": 3,
       "pantheon": "finnish",
       "title": "Ilmarinen: The Bride of Gold",
       "weekId": "finnish.tradition.week01",
       "tags": [
-        "finnish",
-        "tradition"
+        "ilmarinen",
+        "bride",
+        "gold",
+        "finnish"
       ],
       "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-03-ilmarinen-the-smith.json",
       "objectiveIds": [
-        "obj.finnish.3.concept",
-        "obj.finnish.3.source"
+        "obj.ilm.forge",
+        "obj.ilm.flaw"
       ],
       "recordIds": [
         "pg-5186"
@@ -5986,29 +6059,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "bride",
         "finnish",
-        "tradition"
+        "gold",
+        "ilmarinen"
       ],
       "entities": [
+        "bride",
         "finnish",
-        "tradition"
+        "gold",
+        "ilmarinen"
       ]
     },
     {
       "id": "finnish.week01.day04.louhi-and-pohjola",
-      "version": 2,
+      "version": 3,
       "pantheon": "finnish",
       "title": "Louhi: The Sun and Moon Hidden",
       "weekId": "finnish.tradition.week01",
       "tags": [
-        "finnish",
-        "tradition"
+        "louhi",
+        "pohjola",
+        "sun",
+        "finnish"
       ],
       "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-04-louhi-and-pohjola.json",
       "objectiveIds": [
-        "obj.finnish.4.concept",
-        "obj.finnish.4.source"
+        "obj.lou.theft",
+        "obj.lou.dark"
       ],
       "recordIds": [
         "pg-5186"
@@ -6018,28 +6097,34 @@
       "cardCount": 5,
       "themes": [
         "finnish",
-        "tradition"
+        "louhi",
+        "pohjola",
+        "sun"
       ],
       "entities": [
         "finnish",
-        "tradition"
+        "louhi",
+        "pohjola",
+        "sun"
       ]
     },
     {
       "id": "finnish.week01.day05.kullervo-and-consequence",
-      "version": 2,
+      "version": 3,
       "pantheon": "finnish",
       "title": "Kullervo: The Cheat-Cake",
       "weekId": "finnish.tradition.week01",
       "tags": [
-        "finnish",
-        "tradition"
+        "kullervo",
+        "knife",
+        "cake",
+        "finnish"
       ],
       "difficulty": 2,
       "path": "content/lessons/finnish/tradition/day-05-kullervo-and-consequence.json",
       "objectiveIds": [
-        "obj.finnish.5.concept",
-        "obj.finnish.5.source"
+        "obj.kul.cake",
+        "obj.kul.knife"
       ],
       "recordIds": [
         "pg-5186"
@@ -6048,29 +6133,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "cake",
         "finnish",
-        "tradition"
+        "knife",
+        "kullervo"
       ],
       "entities": [
+        "cake",
         "finnish",
-        "tradition"
+        "knife",
+        "kullervo"
       ]
     },
     {
       "id": "maya.week01.day01.creation-and-first-people",
-      "version": 2,
+      "version": 3,
       "pantheon": "maya",
       "title": "Wooden People and the Flood",
       "weekId": "maya.tradition.week01",
       "tags": [
-        "maya",
-        "tradition"
+        "popol-vuh",
+        "creation",
+        "wooden",
+        "maya"
       ],
       "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-01-creation-and-first-people.json",
       "objectiveIds": [
-        "obj.maya.1.concept",
-        "obj.maya.1.source"
+        "obj.wood.made",
+        "obj.wood.flood"
       ],
       "recordIds": [
         "pg-56550"
@@ -6079,29 +6170,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "creation",
         "maya",
-        "tradition"
+        "popol-vuh",
+        "wooden"
       ],
       "entities": [
+        "creation",
         "maya",
-        "tradition"
+        "popol-vuh",
+        "wooden"
       ]
     },
     {
       "id": "maya.week01.day02.the-hero-twins",
-      "version": 2,
+      "version": 3,
       "pantheon": "maya",
       "title": "Vukub-Cakix and the Hero Twins",
       "weekId": "maya.tradition.week01",
       "tags": [
-        "maya",
-        "tradition"
+        "vukub-cakix",
+        "hero-twins",
+        "blowgun",
+        "maya"
       ],
       "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-02-the-hero-twins.json",
       "objectiveIds": [
-        "obj.maya.2.concept",
-        "obj.maya.2.source"
+        "obj.vk.pride",
+        "obj.vk.fall"
       ],
       "recordIds": [
         "pg-56550"
@@ -6110,29 +6207,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "blowgun",
+        "hero-twins",
         "maya",
-        "tradition"
+        "vukub-cakix"
       ],
       "entities": [
+        "blowgun",
+        "hero-twins",
         "maya",
-        "tradition"
+        "vukub-cakix"
       ]
     },
     {
       "id": "maya.week01.day03.xibalba-and-trials",
-      "version": 2,
+      "version": 3,
       "pantheon": "maya",
       "title": "The Hero Twins Receive a Call from Xibalba",
       "weekId": "maya.tradition.week01",
       "tags": [
-        "maya",
-        "tradition"
+        "xibalba",
+        "call",
+        "ballgame",
+        "maya"
       ],
       "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-03-xibalba-and-trials.json",
       "objectiveIds": [
-        "obj.maya.3.concept",
-        "obj.maya.3.source"
+        "obj.xib.call",
+        "obj.xib.debt"
       ],
       "recordIds": [
         "pg-56550"
@@ -6141,29 +6244,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "ballgame",
+        "call",
         "maya",
-        "tradition"
+        "xibalba"
       ],
       "entities": [
+        "ballgame",
+        "call",
         "maya",
-        "tradition"
+        "xibalba"
       ]
     },
     {
       "id": "maya.week01.day04.the-ballgame",
-      "version": 2,
+      "version": 3,
       "pantheon": "maya",
       "title": "Xibalba's Houses of Ordeal",
       "weekId": "maya.tradition.week01",
       "tags": [
-        "maya",
-        "tradition"
+        "xibalba",
+        "ordeals",
+        "bats",
+        "maya"
       ],
       "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-04-the-ballgame.json",
       "objectiveIds": [
-        "obj.maya.4.concept",
-        "obj.maya.4.source"
+        "obj.ord.houses",
+        "obj.ord.bats"
       ],
       "recordIds": [
         "pg-56550"
@@ -6172,29 +6281,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "bats",
         "maya",
-        "tradition"
+        "ordeals",
+        "xibalba"
       ],
       "entities": [
+        "bats",
         "maya",
-        "tradition"
+        "ordeals",
+        "xibalba"
       ]
     },
     {
       "id": "maya.week01.day05.death-return-and-renewal",
-      "version": 2,
+      "version": 3,
       "pantheon": "maya",
       "title": "The Twins' Death and Return",
       "weekId": "maya.tradition.week01",
       "tags": [
-        "maya",
-        "tradition"
+        "twins",
+        "death",
+        "return",
+        "maya"
       ],
       "difficulty": 2,
       "path": "content/lessons/maya/tradition/day-05-death-return-and-renewal.json",
       "objectiveIds": [
-        "obj.maya.5.concept",
-        "obj.maya.5.source"
+        "obj.ret.death",
+        "obj.ret.trick"
       ],
       "recordIds": [
         "pg-56550"
@@ -6203,12 +6318,16 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "death",
         "maya",
-        "tradition"
+        "return",
+        "twins"
       ],
       "entities": [
+        "death",
         "maya",
-        "tradition"
+        "return",
+        "twins"
       ]
     },
     {

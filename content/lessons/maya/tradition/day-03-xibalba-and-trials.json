@@ -1,192 +1,182 @@
 {
-  "id": "maya.week01.day03.xibalba-and-trials",
-  "version": 2,
-  "weekId": "maya.tradition.week01",
-  "pantheon": "maya",
-  "themeMode": "pantheon",
-  "title": "The Hero Twins Receive a Call from Xibalba",
-  "subtitle": "A ballgame leads to the underworld",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "maya",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maya.3.concept",
-      "text": "Why do the rulers of Xibalba summon the twins?"
-    },
-    {
-      "id": "obj.maya.3.source",
-      "text": "Which creatures carry the grandmother's message in the summary?"
-    }
-  ],
-  "sourceReferences": {
-    "call": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 5743-6844",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "It was not long, however, until Hun-Came and Vukub-Came, the princes of Xibalba, heard them at play, and decided to lure them to the Underworld as they had lured their fathers. Messengers were despatched to the house of Xmucane, who, filled with alarm, despatched a louse to carry the message to her grandsons. The louse, wishing to ensure greater speed to reach the brothers, consented to be swallowed by a toad, the toad by a serpent, and the serpent by the great bird Voc. The other animals duly liberated one another; but despite his utmost efforts, the toad could not get rid of the louse, who had played him a trick by lodging in his gums, and had not been swallowed at all. The message, however, was duly delivered, and the players returned home to take leave of their grandmother and mother. Before their departure they each planted a cane in the middle of the house, which was to acquaint those they left behind with their welfare, since it would wither if any fatal circumstance befel them. Pursuing the route their fathers had followed, they passed the river of blood and the river Papuhya.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    }
+ "id": "maya.week01.day03.xibalba-and-trials",
+ "version": 3,
+ "weekId": "maya.tradition.week01",
+ "pantheon": "maya",
+ "themeMode": "pantheon",
+ "title": "The Hero Twins Receive a Call from Xibalba",
+ "subtitle": "A ballgame leads to the underworld",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "xibalba",
+  "call",
+  "ballgame",
+  "maya"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.xib.call",
+   "text": "What summons the twins to Xibalba?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The twins play ball",
-      "body": "In Spence's summary, the twins play in their fathers' ballcourt. The rulers of Xibalba hear them and send owls as messengers to summon them.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The summons is carried by owls",
-      "body": "Quotation from Spence's English summary (whitespace normalized): “It was not long, however, until Hun-Came and Vukub-Came, the princes of Xibalba, heard them at play, and decided to lure them to the Underworld as they had lured their fathers. Messengers were despatched to the house of Xmucane, who, filled with alarm, despatched a louse to carry the message to her grandsons. The louse, wishing to ensure greater speed to reach the brothers, consented to be swallowed by a toad, the toad by a serpent, and the serpent by the great bird Voc. The other animals duly liberated one another; but despite his utmost efforts, the toad could not get rid of the louse, who had played him a trick by lodging in his gums, and had not been swallowed at all. The message, however, was duly delivered, and the players returned home to take leave of their grandmother and mother. Before their departure they each planted a cane in the middle of the house, which was to acquaint those they left behind with their welfare, since it would wither if any fatal circumstance befel them. Pursuing the route their fathers had followed, they passed the river of blood and the river Papuhya.”",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A message travels by animal helpers",
-      "body": "The grandmother sends a louse with the message; a toad, serpent, and bird help carry it. The twins return home before leaving for Xibalba.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the K'iche' frame specific",
-      "body": "The story belongs to the Popol Vuh material about the K'iche' Hero Twins as Spence summarizes it. It is not a generic Maya account or proof of one universal ballgame ritual.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The ballgame has narrative stakes",
-      "body": "The twins' game prompts the summons, connecting play, family memory, and a journey to Xibalba.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Why do the rulers of Xibalba summon the twins?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Vukub-Cakix asks them to create the Sun"
-        },
-        {
-          "id": "b",
-          "text": "They hear the twins playing ball and challenge them"
-        },
-        {
-          "id": "c",
-          "text": "The twins steal the Sampo"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Spence says Hun-Came and Vukub-Came hear the ballgame and decide to lure the twins to the underworld.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "call"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which creatures carry the grandmother's message in the summary?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A louse, a toad, a serpent, and the bird Voc"
-        },
-        {
-          "id": "b",
-          "text": "A dog, a rabbit, and two owls"
-        },
-        {
-          "id": "c",
-          "text": "An eagle, a tortoise, and a jaguar"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The message is passed through the louse, toad, serpent, and bird Voc.",
-      "sourceRefIds": [
-        "call"
-      ],
-      "objectiveIds": [
-        "obj.maya.3.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "call"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.xib.debt",
+   "text": "What is the debt of their fathers?"
   }
+ ],
+ "sourceReferences": {
+  "call": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 5743-6844",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "It was not long, however, until Hun-Came and Vukub-Came, the princes of Xibalba, heard them at play, and decided to lure them to the Underworld as they had lured their fathers. Messengers were despatched to the house of Xmucane, who, filled with alarm, despatched a louse to carry the message to her grandsons. The louse, wishing to ensure greater speed to reach the brothers, consented to be swallowed by a toad, the toad by a serpent, and the serpent by the great bird Voc. The other animals duly liberated one another; but despite his utmost efforts, the toad could not get rid of the louse, who had played him a trick by lodging in his gums, and had not been swallowed at all. The message, however, was duly delivered, and the players returned home to take leave of their grandmother and mother. Before their departure they each planted a cane in the middle of the house, which was to acquaint those they left behind with their welfare, since it would wither if any fatal circumstance befel them. Pursuing the route their fathers had followed, they passed the river of blood and the river Papuhya.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The sound that offends the dead",
+   "body": "The Hero Twins play ball so loudly on the court above that the lords of Xibalba — the Maya underworld — take offense: the noise of living joy is an insult below.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.call"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The summons",
+   "body": "The lords send the owl-messengers to call the twins down to play ball in Xibalba — the same summons their fathers had answered and died for.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.call"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The fathers' fate",
+   "body": "Hun Hunahpu and Vukub Hunahpu went down before them, failed the first trial of the Dark House, and were sacrificed — their sons go down knowing the same fate is planned.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.debt"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The game that is a trap",
+   "body": "The 'ballgame' is a cover: the real contest is a series of lethal ordeals in Xibalba's houses — and the twins, warned by a mosquito, already know the lords' names.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.call"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A rematch in the underworld",
+   "body": "The whole second half of the Popol Vuh is this rematch: the sons of the sacrificed go down to beat the death-lords at their own deadly game.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.debt"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why do the lords of Xibalba summon the twins?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To avenge Vukub-Cakix"
+    },
+    {
+     "id": "b",
+     "text": "To answer the wooden people's prayer"
+    },
+    {
+     "id": "c",
+     "text": "Their ballgame noise offends the underworld — the same summons that killed their fathers"
+    },
+    {
+     "id": "d",
+     "text": "To restore the first sun"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The noise of living play insults the dead — and the call is a death-sentence.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.call"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happened to the twins' fathers in Xibalba?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They answered the same summons, failed the first ordeal, and were sacrificed"
+    },
+    {
+     "id": "b",
+     "text": "They founded Xibalba's dynasty"
+    },
+    {
+     "id": "c",
+     "text": "They escaped with the sun"
+    },
+    {
+     "id": "d",
+     "text": "They became the moon and stars"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The sons go down knowing the trap their fathers died in.",
+   "sourceRefIds": [
+    "call"
+   ],
+   "objectiveIds": [
+    "obj.xib.debt"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

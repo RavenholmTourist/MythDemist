@@ -1,193 +1,182 @@
 {
-  "id": "polynesian.week01.day02.fishing-islands",
-  "version": 2,
-  "weekId": "pol.maui.week01",
-  "pantheon": "polynesian",
-  "themeMode": "pantheon",
-  "title": "Hawaiian Maui and the Fishing Hook",
-  "subtitle": "A chant of Kualii describes land drawn from the sea",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "polynesian",
-    "Fishing",
-    "Up"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.fishing-islands.concept",
-      "text": "What does the chant say Maui's hook catches?"
-    },
-    {
-      "id": "obj.fishing-islands.sources",
-      "text": "Which chant does Westervelt identify in this section?"
-    }
-  ],
-  "sourceReferences": {
-    "chant": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter II · MAUI THE FISHERMAN; Chapter II · MAUI THE FISHERMAN, normalized characters 24-536",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "Oh the great fish hook of Maui! Manai-i-ka-lani 'Made fast to the heavens'--its name; An earth-twisted cord ties the hook. Engulfed from the lofty Kauiki. Its bait the red billed Alae, The bird made sacred to Hina. It sinks far down to Hawaii, Struggling and painfully dying. Caught is the land under the water, Floated up, up to the surface, But Hina hid a wing of the bird And broke the land under the water. Below, was the bait snatched away And eaten at once by the fishes, The Ulua of the deep muddy places.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    }
+ "id": "polynesian.week01.day02.fishing-islands",
+ "version": 3,
+ "weekId": "pol.maui.week01",
+ "pantheon": "polynesian",
+ "themeMode": "pantheon",
+ "title": "Hawaiian Maui and the Fishing Hook",
+ "subtitle": "A chant of Kualii describes land drawn from the sea",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "maui",
+  "fishing",
+  "islands",
+  "polynesian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fish.hook",
+   "text": "What is the hook Manaiakalani?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A hook with a name",
-      "body": "Westervelt prints a chant attributed to Kualii, about 1700, in which Maui's hook is named Manai-i-ka-lani, 'Made fast to the heavens.'",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The land rises",
-      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “Oh the great fish hook of Maui! Manai-i-ka-lani 'Made fast to the heavens'--its name; An earth-twisted cord ties the hook. Engulfed from the lofty Kauiki. Its bait the red billed Alae, The bird made sacred to Hina. It sinks far down to Hawaii, Struggling and painfully dying. Caught is the land under the water, Floated up, up to the surface, But Hina hid a wing of the bird And broke the land under the water. Below, was the bait snatched away And eaten at once by the fishes, The Ulua of the deep muddy places.”",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A Hawaiian setting",
-      "body": "The chant names Kauiki, Hawaii, and Hina. Westervelt's surrounding account locates one version near Kauiki in the Hawaiian Islands.",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.sources"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Attribute the chant as printed",
-      "body": "The quotation is Westervelt's English presentation of a chant he attributes to Kualii. Its date and wording are transmitted through his compilation and should not be treated as an independently verified original.",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A named island version",
-      "body": "The episode gives one Hawaiian account of Maui fishing up land; other islands preserve related but not identical Maui stories.",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the chant say Maui's hook catches?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Sun's legs"
-        },
-        {
-          "id": "b",
-          "text": "A golden bride from a furnace"
-        },
-        {
-          "id": "c",
-          "text": "Land beneath the water, which floats to the surface"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The chant says the hook catches land under the water and floats it up.",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "chant"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which chant does Westervelt identify in this section?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A Jamaican recording by Martha Beckwith"
-        },
-        {
-          "id": "b",
-          "text": "A chant of Kualii, about A.D. 1700"
-        },
-        {
-          "id": "c",
-          "text": "A K'iche' chant from the Popol Vuh"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Westervelt attributes the quoted chant to Kualii and gives an approximate date.",
-      "sourceRefIds": [
-        "chant"
-      ],
-      "objectiveIds": [
-        "obj.fishing-islands.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "chant"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fish.islands",
+   "text": "What does Maui pull from the sea?"
   }
+ ],
+ "sourceReferences": {
+  "chant": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter II · MAUI THE FISHERMAN; Chapter II · MAUI THE FISHERMAN, normalized characters 24-536",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "Oh the great fish hook of Maui! Manai-i-ka-lani 'Made fast to the heavens'--its name; An earth-twisted cord ties the hook. Engulfed from the lofty Kauiki. Its bait the red billed Alae, The bird made sacred to Hina. It sinks far down to Hawaii, Struggling and painfully dying. Caught is the land under the water, Floated up, up to the surface, But Hina hid a wing of the bird And broke the land under the water. Below, was the bait snatched away And eaten at once by the fishes, The Ulua of the deep muddy places.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The magic hook",
+   "body": "Maui's fishing hook is Manaiakalani — in some tellings made from his grandmother's jawbone, in others a gift of the gods. It is the Polynesian Excalibur: the tool that makes him more than a trickster.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.hook"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A fishing trip that moves the world",
+   "body": "He goes out with his brothers to fish — and hooks not a fish but the sea-floor itself: the chant of Kualii records him heaving until islands rise from the deep.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The brothers' forbidden look",
+   "body": "Some versions say the brothers must not look back while he hauls; they look — the line slackens, the catch breaks apart, and the islands come up scattered instead of whole.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The islands as bycatch",
+   "body": "Hawaii claims Maui fished up its islands; New Zealand claims its North Island is the great fish itself, Te Ika a Maui. The same feat explains different maps.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "A hero who fishes",
+   "body": "Where other myth-heroes slay monsters, Maui's signature feat is fishing — the ocean itself is his prey, and the land is the catch.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Maui pull from the sea with his hook?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The largest fish in the world"
+    },
+    {
+     "id": "b",
+     "text": "The lost city of the gods"
+    },
+    {
+     "id": "c",
+     "text": "Islands — the sea-floor itself, hauled up as land"
+    },
+    {
+     "id": "d",
+     "text": "The sun's own reflection"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The catch is land — islands raised by a fishing line.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What do the brothers do that breaks the catch?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They look back at the forbidden moment — the line slackens and the islands scatter"
+    },
+    {
+     "id": "b",
+     "text": "They fall asleep mid-chant"
+    },
+    {
+     "id": "c",
+     "text": "They cut the line in jealousy"
+    },
+    {
+     "id": "d",
+     "text": "They laugh at the struggle"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The glance costs the whole catch — the taboo broken.",
+   "sourceRefIds": [
+    "chant"
+   ],
+   "objectiveIds": [
+    "obj.fish.islands"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

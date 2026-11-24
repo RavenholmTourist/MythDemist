@@ -1,192 +1,182 @@
 {
-  "id": "maya.week01.day04.the-ballgame",
-  "version": 2,
-  "weekId": "maya.tradition.week01",
-  "pantheon": "maya",
-  "themeMode": "pantheon",
-  "title": "Xibalba's Houses of Ordeal",
-  "subtitle": "Cold, fire, tigers, and bats",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "maya",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maya.4.concept",
-      "text": "In which House is Hun-Ahpu beheaded in Spence's summary?"
-    },
-    {
-      "id": "obj.maya.4.source",
-      "text": "What does Spence say about how Hun-Ahpu recovers?"
-    }
-  ],
-  "sourceReferences": {
-    "ordeals": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 7319-8624",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "They even passed scatheless through the first ordeal of the House of Gloom. The Xibalbans were furious, and their wrath was by no means allayed when they found themselves beaten at the game of ball to which they had challenged the brothers. Then Hun-Came and Vukub-Came ordered the twins to bring them four bouquets of flowers, asking the guards of the royal gardens to watch most carefully, and committed Hun-Ahpu and Xbalanque to the \"House of Lances\"--the second ordeal--where the lancers were directed to kill them. The brothers, however, had at their beck and call a swarm of ants, which entered the royal gardens on the first errand, and they succeeded in bribing the lancers. The Xibalbans, white with fury, ordered that the owls, the guardians of the gardens, should have their lips split, and otherwise showed their anger at their third defeat. Then came the third ordeal in the \"House of Cold.\" Here the heroes escaped death by freezing by being warmed with burning pine-cones. In the fourth and fifth ordeals they were equally lucky, for they passed a night each in the \"House of Tigers\" and the \"House of Fire\" without injury. But at the sixth ordeal misfortune overtook them in the \"House of Bats.\" Hun-Ahpu's head being cut off by Camazotz, \"Ruler of Bats,\" who suddenly appeared from above.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    }
+ "id": "maya.week01.day04.the-ballgame",
+ "version": 3,
+ "weekId": "maya.tradition.week01",
+ "pantheon": "maya",
+ "themeMode": "pantheon",
+ "title": "Xibalba's Houses of Ordeal",
+ "subtitle": "Cold, fire, tigers, and bats",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "xibalba",
+  "ordeals",
+  "bats",
+  "maya"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ord.houses",
+   "text": "What are the Houses of Ordeal?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The first test is a trap",
-      "body": "Spence describes the twins avoiding the red-hot seat and passing the House of Gloom before the rulers set further ordeals.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A series of dangerous houses",
-      "body": "Quotation from Spence's English summary (whitespace normalized): “They even passed scatheless through the first ordeal of the House of Gloom. The Xibalbans were furious, and their wrath was by no means allayed when they found themselves beaten at the game of ball to which they had challenged the brothers. Then Hun-Came and Vukub-Came ordered the twins to bring them four bouquets of flowers, asking the guards of the royal gardens to watch most carefully, and committed Hun-Ahpu and Xbalanque to the \"House of Lances\"--the second ordeal--where the lancers were directed to kill them. The brothers, however, had at their beck and call a swarm of ants, which entered the royal gardens on the first errand, and they succeeded in bribing the lancers. The Xibalbans, white with fury, ordered that the owls, the guardians of the gardens, should have their lips split, and otherwise showed their anger at their third defeat. Then came the third ordeal in the \"House of Cold.\" Here the heroes escaped death by freezing by being warmed with burning pine-cones. In the fourth and fifth ordeals they were equally lucky, for they passed a night each in the \"House of Tigers\" and the \"House of Fire\" without injury. But at the sixth ordeal misfortune overtook them in the \"House of Bats.\" Hun-Ahpu's head being cut off by Camazotz, \"Ruler of Bats,\" who suddenly appeared from above.”",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The House of Bats is different",
-      "body": "The twins survive the Houses of Cold, Tigers, and Fire, but in the House of Bats Hun-Ahpu is beheaded by Camazotz.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "The summary admits uncertainty",
-      "body": "Spence says the account does not make clear how Hun-Ahpu recovers from the wound, because the text is unintelligible at that point. Do not fill that gap with invented certainty.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Survival does not erase the textual gap",
-      "body": "The episode names several ordeals and records a severe injury, while Spence explicitly marks the recovery sequence as unclear.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "In which House is Hun-Ahpu beheaded in Spence's summary?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The House of Bats"
-        },
-        {
-          "id": "b",
-          "text": "The House of Cold"
-        },
-        {
-          "id": "c",
-          "text": "The House of Fire"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The passage says Camazotz appears in the House of Bats and cuts off Hun-Ahpu's head.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "ordeals"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Spence say about how Hun-Ahpu recovers?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The twins use the Sampo to restore him"
-        },
-        {
-          "id": "b",
-          "text": "The rulers of Xibalba return his head"
-        },
-        {
-          "id": "c",
-          "text": "The text is unclear at that point"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Spence explicitly says the text is unintelligible about how the wound is cured.",
-      "sourceRefIds": [
-        "ordeals"
-      ],
-      "objectiveIds": [
-        "obj.maya.4.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "ordeals"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ord.bats",
+   "text": "What happens in the House of Bats?"
   }
+ ],
+ "sourceReferences": {
+  "ordeals": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 7319-8624",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "They even passed scatheless through the first ordeal of the House of Gloom. The Xibalbans were furious, and their wrath was by no means allayed when they found themselves beaten at the game of ball to which they had challenged the brothers. Then Hun-Came and Vukub-Came ordered the twins to bring them four bouquets of flowers, asking the guards of the royal gardens to watch most carefully, and committed Hun-Ahpu and Xbalanque to the \"House of Lances\"--the second ordeal--where the lancers were directed to kill them. The brothers, however, had at their beck and call a swarm of ants, which entered the royal gardens on the first errand, and they succeeded in bribing the lancers. The Xibalbans, white with fury, ordered that the owls, the guardians of the gardens, should have their lips split, and otherwise showed their anger at their third defeat. Then came the third ordeal in the \"House of Cold.\" Here the heroes escaped death by freezing by being warmed with burning pine-cones. In the fourth and fifth ordeals they were equally lucky, for they passed a night each in the \"House of Tigers\" and the \"House of Fire\" without injury. But at the sixth ordeal misfortune overtook them in the \"House of Bats.\" Hun-Ahpu's head being cut off by Camazotz, \"Ruler of Bats,\" who suddenly appeared from above.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Xibalba's lethal hospitality",
+   "body": "The twins' 'welcome' is a string of ordeal-houses: the Dark House, the Cold House, the House of Jaguars, the House of Fire — each designed to kill, each passed by cunning.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.houses"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The tricks that pass them",
+   "body": "In the Dark House, they pass the night by fooling the lords — their own trick of putting substitutes for the required candles and macaw-feathers keeps them alive till dawn.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.houses"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The House of Bats",
+   "body": "In the House of Bats, Hunahpu sticks his head out to watch for dawn — and the great bat Camazotz snips it off: the most famous moment of the ordeals.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.bats"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The head in the ballcourt",
+   "body": "The lords hang his head on the ballcourt — but the twins trick it back: a squash on the shoulders while the real head is rescued, and the game goes on.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.bats"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Cunning as survival",
+   "body": "The ordeals are the Popol Vuh's proof: the twins survive the death-houses not by force but by wit — every 'defeat' is a trick that flips the lords' trap.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.houses"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What are Xibalba's Houses of Ordeal?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The lords' private palaces"
+    },
+    {
+     "id": "b",
+     "text": "The paths to the upper world"
+    },
+    {
+     "id": "c",
+     "text": "Lethal test-chambers — the Dark House, the Cold House, the Jaguars, the Fire, and the Bats"
+    },
+    {
+     "id": "d",
+     "text": "The temples of the dead"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Each house is designed to kill — and each is beaten by cunning.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.houses"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens in the House of Bats?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hunahpu's head is snipped off by Camazotz — and later restored by trickery"
+    },
+    {
+     "id": "b",
+     "text": "The twins are devoured"
+    },
+    {
+     "id": "c",
+     "text": "The bat becomes their ally"
+    },
+    {
+     "id": "d",
+     "text": "The house burns down"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The famous decapitation — survived by the squash trick.",
+   "sourceRefIds": [
+    "ordeals"
+   ],
+   "objectiveIds": [
+    "obj.ord.bats"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

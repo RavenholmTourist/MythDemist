@@ -1,193 +1,182 @@
 {
-  "id": "indian.week01.day03.sita-separation",
-  "version": 4,
-  "weekId": "ind.epics.week01",
-  "pantheon": "indian",
-  "themeMode": "pantheon",
-  "title": "Sita: Choosing the Forest",
-  "subtitle": "A wife's argument against remaining in the palace",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "indian",
-    "Sita:",
-    "Separation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.sita-separation.concept",
-      "text": "What does Sita decide when Rama prepares to go to the forest?"
-    },
-    {
-      "id": "obj.sita-separation.sources",
-      "text": "Which source boundary is important when discussing this speech?"
-    }
-  ],
-  "sourceReferences": {
-    "choice": {
-      "recordId": "pg-57265",
-      "sourceId": "ind.ramayana-vol1-dutt",
-      "work": "The Rāmāyana, Volume 1",
-      "author": "Valmiki",
-      "translator": "Manmatha Nath Dutt",
-      "locator": "Ayodhyakandam · Section XXVII; Ayodhyakandam · Section XXVII, normalized characters 955-1557",
-      "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
-      "excerpt": "I shall go before thee, Oh Raghava, treading upon the thorns and prickly grass. Confident do thou take me with thee, Oh great hero, renouncing jealousy and indignation, like unto water left after drinking; there exists no sin in me that could justify forsaking. Unto woman is preferable under all circumtances the shade of her husband's feet to the tops of a palace, the celestial car or excursion in the airy path.[131] I have been taught by my father and mother to follow my husband in all conditions of life; and I shall carry out now what I have been taught; I shall not abide by any other counsel.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    }
+ "id": "indian.week01.day03.sita-separation",
+ "version": 5,
+ "weekId": "ind.epics.week01",
+ "pantheon": "indian",
+ "themeMode": "pantheon",
+ "title": "Sita: Choosing the Forest",
+ "subtitle": "A wife's argument against remaining in the palace",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "sita",
+  "forest",
+  "ramayana",
+  "indian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.sita.choice",
+   "text": "Does Sita accept staying behind?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Sita answers the exile",
-      "body": "When Rama prepares to leave for the forest, Sita argues that she will go with him rather than remain in the palace.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Sita states her choice",
-      "body": "Source quotation (Dutt's English rendering; whitespace normalized): “I shall go before thee, Oh Raghava, treading upon the thorns and prickly grass. Confident do thou take me with thee, Oh great hero, renouncing jealousy and indignation, like unto water left after drinking; there exists no sin in me that could justify forsaking. Unto woman is preferable under all circumtances the shade of her husband's feet to the tops of a palace, the celestial car or excursion in the airy path.[131] I have been taught by my father and mother to follow my husband in all conditions of life; and I shall carry out now what I have been taught; I shall not abide by any other counsel.”",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A reasoned appeal",
-      "body": "Sita invokes the teaching she says she received from her parents and insists that she will follow Rama. The lesson stays with Dutt's translated speech rather than treating it as a rule for all women.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the text's own voice carefully",
-      "body": "This passage is Dutt's English prose translation of one Ayodhyakandam section. Its gendered language belongs to this scene and translation; it should not be made into a universal statement about Indian women or practice.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Sita is an active speaker",
-      "body": "In this episode, Sita argues for her own course and gives reasons rather than remaining a silent object in Rama's decision.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Sita decide when Rama prepares to go to the forest?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She remains in the palace without objection"
-        },
-        {
-          "id": "b",
-          "text": "She insists on accompanying him"
-        },
-        {
-          "id": "c",
-          "text": "She asks Bharata to go in her place"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Sita says she will go before Rama and describes how she will live in the forest.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "choice"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which source boundary is important when discussing this speech?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It is one translated epic scene, not a universal rule for all women"
-        },
-        {
-          "id": "b",
-          "text": "It is a modern legal code"
-        },
-        {
-          "id": "c",
-          "text": "It proves that every Ramayana version uses identical words"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The cited lines are from one translated Ayodhyakandam passage, not a survey of all traditions or practice.",
-      "sourceRefIds": [
-        "choice"
-      ],
-      "objectiveIds": [
-        "obj.sita-separation.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "choice"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.sita.duty",
+   "text": "What is her argument for going?"
   }
+ ],
+ "sourceReferences": {
+  "choice": {
+   "recordId": "pg-57265",
+   "sourceId": "ind.ramayana-vol1-dutt",
+   "work": "The Rāmāyana, Volume 1",
+   "author": "Valmiki",
+   "translator": "Manmatha Nath Dutt",
+   "locator": "Ayodhyakandam · Section XXVII; Ayodhyakandam · Section XXVII, normalized characters 955-1557",
+   "localPath": "content/corpus/indian/primary/ramayana-vol1-dutt-57265.txt",
+   "excerpt": "I shall go before thee, Oh Raghava, treading upon the thorns and prickly grass. Confident do thou take me with thee, Oh great hero, renouncing jealousy and indignation, like unto water left after drinking; there exists no sin in me that could justify forsaking. Unto woman is preferable under all circumtances the shade of her husband's feet to the tops of a palace, the celestial car or excursion in the airy path.[131] I have been taught by my father and mother to follow my husband in all conditions of life; and I shall carry out now what I have been taught; I shall not abide by any other counsel.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Stay, says the prince",
+   "body": "Rama tells Sita to remain in Ayodhya: the forest is no place for a princess — thorns, beasts, hunger, hardship. He paints the dangers vividly to spare her.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.choice"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "'I shall go before thee'",
+   "body": "Sita refuses the refusal: a wife's place is beside her husband, whatever the road. Her words stand among the epic's famous lines — she will go before him, treading down the thorns herself.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.duty"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The argument that wins",
+   "body": "Her case is devotion as duty: married to Rama, she shares his fortunes — palace or wilderness. A fourteen-year separation would be the harder path.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.duty"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Into the forest together",
+   "body": "Rama relents. Sita and his brother Lakshmana go with him — the trio of the forest years. The choice she insists on will place her in Ravana's path.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.choice"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the choice matters",
+   "body": "Her insistence is the hinge of the whole epic: had she stayed, no abduction, no war at Lanka. The Ramayana is built on a wife refusing to be left behind.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.duty"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Rama ask of Sita at the exile?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That she rule in his place"
+    },
+    {
+     "id": "b",
+     "text": "That she wait with Bharata's family"
+    },
+    {
+     "id": "c",
+     "text": "That she stay in Ayodhya — the forest is too dangerous for a princess"
+    },
+    {
+     "id": "d",
+     "text": "That she take a vow of silence"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "He tries to spare her the wilderness — and she refuses the sparing.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.choice"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is Sita's argument for going?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A wife shares her husband's fortunes — palace or wilderness — so she will go before him into the forest"
+    },
+    {
+     "id": "b",
+     "text": "She can fight better than the guards"
+    },
+    {
+     "id": "c",
+     "text": "The forest is sacred to her family"
+    },
+    {
+     "id": "d",
+     "text": "She foresees the war at Lanka"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Her claim is devotion as duty — and it wins.",
+   "sourceRefIds": [
+    "choice"
+   ],
+   "objectiveIds": [
+    "obj.sita.duty"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

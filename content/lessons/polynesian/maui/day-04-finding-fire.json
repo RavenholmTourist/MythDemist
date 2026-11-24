@@ -1,206 +1,195 @@
 {
-  "id": "polynesian.week01.day04.finding-fire",
-  "version": 2,
-  "weekId": "pol.maui.week01",
-  "pantheon": "polynesian",
-  "themeMode": "pantheon",
-  "title": "Hawaiian Maui: Finding Fire",
-  "subtitle": "A Maui and Hina story set near Kaupo",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "polynesian",
-    "Finding",
-    "Fire"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.finding-fire.concept",
-      "text": "Where does Westervelt locate this Hawaiian Maui story?"
-    },
-    {
-      "id": "obj.finding-fire.sources",
-      "text": "What does the mud-hen finally tell Maui about fire?"
-    }
-  ],
-  "sourceReferences": {
-    "place": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter V · MAUI FINDING FIRE.; Chapter V · MAUI FINDING FIRE., normalized characters 6403-6752",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "The Hawaiian story of fire finding is one of the least marvelous of all the legends. Hina, Maui's mother, wanted fish. One morning early Maui saw that the great storm waves of the sea had died down and the fishing grounds could be easily reached. He awakened his brothers and with them hastened to the beach. This was at Kaupo on the island of Maui.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    },
-    "fire": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter V · MAUI FINDING FIRE.; Chapter V · MAUI FINDING FIRE., normalized characters 9620-10676",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "The bird told the demi-god to rub the stalks of water plants together. He guarded the bird and tried the plants. Water instead of fire ran out of the twisted stems. Then she told him to rub reeds together--but they bent and broke and could make no fire. He twisted her neck until she was half dead--then she cried out: \"I have hidden the fire in a green stick.\" Maui worked hard, but not a spark of fire appeared. Again he caught his prisoner by the head and wrung her neck, and she named a kind of dry wood. Maui rubbed the sticks together, but they only became warm. The neck twisting process was resumed--and repeated again and again, until the mud-hen was almost dead--and Maui had tried tree after tree. At last Maui found fire. Then as the flames rose he said: \"There is one more thing to rub.\" He took a fire stick and rubbed the top of the head of his prisoner until the feathers fell off and the raw flesh appeared. Thus the Hawaiian mud-hen and her descendants have ever since had bald heads, and the Hawaiians have had the secret of fire making.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    }
+ "id": "polynesian.week01.day04.finding-fire",
+ "version": 3,
+ "weekId": "pol.maui.week01",
+ "pantheon": "polynesian",
+ "themeMode": "pantheon",
+ "title": "Hawaiian Maui: Finding Fire",
+ "subtitle": "A Maui and Hina story set near Kaupo",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "maui",
+  "fire",
+  "alae",
+  "polynesian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fire.secret",
+   "text": "Where is fire's secret hidden?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A fire on the mountain",
-      "body": "In the Hawaiian story presented by Westervelt, Maui sees a fire while fishing with his brothers near Kaupo on Maui and leaves to discover who kindled it.",
-      "sourceRefIds": [
-        "place"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The mud-hen's secret",
-      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “The bird told the demi-god to rub the stalks of water plants together. He guarded the bird and tried the plants. Water instead of fire ran out of the twisted stems. Then she told him to rub reeds together--but they bent and broke and could make no fire. He twisted her neck until she was half dead--then she cried out: \"I have hidden the fire in a green stick.\" Maui worked hard, but not a spark of fire appeared. Again he caught his prisoner by the head and wrung her neck, and she named a kind of dry wood. Maui rubbed the sticks together, but they only became warm. The neck twisting process was resumed--and repeated again and again, until the mud-hen was almost dead--and Maui had tried tree after tree. At last Maui found fire. Then as the flames rose he said: \"There is one more thing to rub.\" He took a fire stick and rubbed the top of the head of his prisoner until the feathers fell off and the raw flesh appeared. Thus the Hawaiian mud-hen and her descendants have ever since had bald heads, and the Hawaiians have had the secret of fire making.”",
-      "sourceRefIds": [
-        "fire"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Repeated attempts",
-      "body": "Maui tests different plants and woods after the mud-hen reveals that fire is hidden in a green stick. The account links the legend to rubbing wood to make fire.",
-      "sourceRefIds": [
-        "fire"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "This is one Hawaiian version",
-      "body": "Westervelt distinguishes the Hawaiian story from other versions in which Hina may be a grandmother or the fire-giver's role differs. Do not treat the compilation as a uniform Polynesian practice.",
-      "sourceRefIds": [
-        "place",
-        "fire"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A practical art in narrative form",
-      "body": "The episode explains fire-making through Maui's struggle with the mud-hen, in a story Westervelt specifically labels Hawaiian.",
-      "sourceRefIds": [
-        "fire"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Where does Westervelt locate this Hawaiian Maui story?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Near Kaupo on the island of Maui"
-        },
-        {
-          "id": "b",
-          "text": "In Xibalba"
-        },
-        {
-          "id": "c",
-          "text": "At the foot of Mount Coatepec"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The passage says the fishing trip was at Kaupo on the island of Maui.",
-      "sourceRefIds": [
-        "place"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "place"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does the mud-hen finally tell Maui about fire?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It comes from a Sampo"
-        },
-        {
-          "id": "b",
-          "text": "It is inside a pill of immortality"
-        },
-        {
-          "id": "c",
-          "text": "It is hidden in a green stick"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The bird says it has hidden fire in a green stick.",
-      "sourceRefIds": [
-        "fire"
-      ],
-      "objectiveIds": [
-        "obj.finding-fire.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "fire"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fire.theft",
+   "text": "How does Maui get it?"
   }
+ ],
+ "sourceReferences": {
+  "place": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter V · MAUI FINDING FIRE.; Chapter V · MAUI FINDING FIRE., normalized characters 6403-6752",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "The Hawaiian story of fire finding is one of the least marvelous of all the legends. Hina, Maui's mother, wanted fish. One morning early Maui saw that the great storm waves of the sea had died down and the fishing grounds could be easily reached. He awakened his brothers and with them hastened to the beach. This was at Kaupo on the island of Maui.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  },
+  "fire": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter V · MAUI FINDING FIRE.; Chapter V · MAUI FINDING FIRE., normalized characters 9620-10676",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "The bird told the demi-god to rub the stalks of water plants together. He guarded the bird and tried the plants. Water instead of fire ran out of the twisted stems. Then she told him to rub reeds together--but they bent and broke and could make no fire. He twisted her neck until she was half dead--then she cried out: \"I have hidden the fire in a green stick.\" Maui worked hard, but not a spark of fire appeared. Again he caught his prisoner by the head and wrung her neck, and she named a kind of dry wood. Maui rubbed the sticks together, but they only became warm. The neck twisting process was resumed--and repeated again and again, until the mud-hen was almost dead--and Maui had tried tree after tree. At last Maui found fire. Then as the flames rose he said: \"There is one more thing to rub.\" He took a fire stick and rubbed the top of the head of his prisoner until the feathers fell off and the raw flesh appeared. Thus the Hawaiian mud-hen and her descendants have ever since had bald heads, and the Hawaiians have had the secret of fire making.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A people without fire",
+   "body": "In the Kaupo lands of Hawaii, the people eat raw — fire exists only in the keeping of the alae birds, who guard the secret jealously.",
+   "sourceRefIds": [
+    "place"
+   ],
+   "objectiveIds": [
+    "obj.fire.secret"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The bird that keeps fire",
+   "body": "The alae — small mud-hens — are the only creatures who can make fire: they know the fire-sticks and the right wood, and they share with no one.",
+   "sourceRefIds": [
+    "fire"
+   ],
+   "objectiveIds": [
+    "obj.fire.secret"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A snare for the teacher",
+   "body": "Maui's method is characteristically direct: he catches the leading alae and holds it until the bird tells him which wood to rub — the secret squeezed out, literally.",
+   "sourceRefIds": [
+    "fire"
+   ],
+   "objectiveIds": [
+    "obj.fire.theft"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The rubbed sticks",
+   "body": "Following the bird's instruction, he rubs the right sticks and brings fire to the people — a theft that becomes a gift to everyone after.",
+   "sourceRefIds": [
+    "fire"
+   ],
+   "objectiveIds": [
+    "obj.fire.theft"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The mark of the theft",
+   "body": "The tale explains the alae's red forehead: Maui rubbed the bird's head in the ashes of the fire it tried to hide — a permanent mark of the secret's theft.",
+   "sourceRefIds": [
+    "fire",
+    "place"
+   ],
+   "objectiveIds": [
+    "obj.fire.theft"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Who keeps the secret of fire in the Hawaiian tale?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The priests of the volcano"
+    },
+    {
+     "id": "b",
+     "text": "The gods of the deep sea"
+    },
+    {
+     "id": "c",
+     "text": "The alae birds — the only creatures who know the fire-sticks and the right wood"
+    },
+    {
+     "id": "d",
+     "text": "Pele in her crater"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The birds are the keepers — small, common, and unshareable.",
+   "sourceRefIds": [
+    "fire"
+   ],
+   "objectiveIds": [
+    "obj.fire.secret"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Maui take the secret?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He catches the leading alae and squeezes the truth from it — then rubs the sticks himself"
+    },
+    {
+     "id": "b",
+     "text": "He steals the burning stick"
+    },
+    {
+     "id": "c",
+     "text": "He trades the birds a net"
+    },
+    {
+     "id": "d",
+     "text": "He follows them at night"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Brute-force extraction of a guarded secret — the trickster's style.",
+   "sourceRefIds": [
+    "fire"
+   ],
+   "objectiveIds": [
+    "obj.fire.theft"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

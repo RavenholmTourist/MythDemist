@@ -1,206 +1,195 @@
 {
-  "id": "maya.week01.day02.the-hero-twins",
-  "version": 2,
-  "weekId": "maya.tradition.week01",
-  "pantheon": "maya",
-  "themeMode": "pantheon",
-  "title": "Vukub-Cakix and the Hero Twins",
-  "subtitle": "Pride, a fruit tree, and a blowpipe",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "maya",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maya.2.concept",
-      "text": "What does Vukub-Cakix claim about the Sun and Moon?"
-    },
-    {
-      "id": "obj.maya.2.source",
-      "text": "How do the twins first strike Vukub-Cakix in this summary?"
-    }
-  ],
-  "sourceReferences": {
-    "pride": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 370-540",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "In his own opinion Vukub-Cakix's existence rendered unnecessary that of the sun and the moon, and this egoism so disgusted the gods that they resolved upon his overthrow.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    },
-    "attack": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 1391-1680",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "The hero-gods, who lay concealed within the foliage, now added injury to theft by hurling at Vukub-Cakix a dart from a blow-pipe, which had the effect of precipitating him from the summit of the tree to the earth. He arose in great wrath, bleeding profusely from a severe wound in the jaw.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    }
+ "id": "maya.week01.day02.the-hero-twins",
+ "version": 3,
+ "weekId": "maya.tradition.week01",
+ "pantheon": "maya",
+ "themeMode": "pantheon",
+ "title": "Vukub-Cakix and the Hero Twins",
+ "subtitle": "Pride, a fruit tree, and a blowpipe",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "vukub-cakix",
+  "hero-twins",
+  "blowgun",
+  "maya"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.vk.pride",
+   "text": "What does Vukub-Cakix boast?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A being claims the light",
-      "body": "After the wooden people are destroyed, Spence's summary introduces Vukub-Cakix, whose brilliant ornaments make him boast that the Sun and Moon are unnecessary.",
-      "sourceRefIds": [
-        "pride"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A fruit-tree encounter",
-      "body": "Quotation from Spence's English summary (whitespace normalized): “The hero-gods, who lay concealed within the foliage, now added injury to theft by hurling at Vukub-Cakix a dart from a blow-pipe, which had the effect of precipitating him from the summit of the tree to the earth. He arose in great wrath, bleeding profusely from a severe wound in the jaw.”",
-      "sourceRefIds": [
-        "attack"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The twins challenge the boast",
-      "body": "Hun-Ahpu and Xbalanque hide in a tree and strike Vukub-Cakix with a blowpipe dart. The shot knocks him down and wounds his jaw.",
-      "sourceRefIds": [
-        "attack"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "An editor's summary, not the source manuscript",
-      "body": "Spence summarizes a K'iche' narrative through earlier Spanish and French editions. His language, spelling, and framing are not a new translation from the K'iche' text.",
-      "sourceRefIds": [
-        "pride",
-        "attack"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The conflict begins with a claim",
-      "body": "The episode links Vukub-Cakix's boast about the Sun and Moon with the twins' first attack.",
-      "sourceRefIds": [
-        "pride",
-        "attack"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Vukub-Cakix claim about the Sun and Moon?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He created them from a maize-stone"
-        },
-        {
-          "id": "b",
-          "text": "He hides them in a mountain"
-        },
-        {
-          "id": "c",
-          "text": "His existence makes them unnecessary"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Spence says Vukub-Cakix believes his brilliance makes the Sun and Moon unnecessary.",
-      "sourceRefIds": [
-        "pride"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "pride"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How do the twins first strike Vukub-Cakix in this summary?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They trap him in the House of Cold"
-        },
-        {
-          "id": "b",
-          "text": "They hit him with a blowpipe dart while he is in a tree"
-        },
-        {
-          "id": "c",
-          "text": "They defeat him in the ballcourt"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The account says the twins shoot him with a blowpipe while concealed in the foliage.",
-      "sourceRefIds": [
-        "attack"
-      ],
-      "objectiveIds": [
-        "obj.maya.2.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "attack"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.vk.fall",
+   "text": "How do the twins bring him down?"
   }
+ ],
+ "sourceReferences": {
+  "pride": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 370-540",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "In his own opinion Vukub-Cakix's existence rendered unnecessary that of the sun and the moon, and this egoism so disgusted the gods that they resolved upon his overthrow.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  },
+  "attack": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Vukub-Cakix; Spence summary · Vukub-Cakix, normalized characters 1391-1680",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "The hero-gods, who lay concealed within the foliage, now added injury to theft by hurling at Vukub-Cakix a dart from a blow-pipe, which had the effect of precipitating him from the summit of the tree to the earth. He arose in great wrath, bleeding profusely from a severe wound in the jaw.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The boast that calls for a hero",
+   "body": "Vukub-Cakix is a giant bird-monster of the Popol Vuh who claims to be the sun and the moon — the world's most dangerous boast: taking the powers' place.",
+   "sourceRefIds": [
+    "pride"
+   ],
+   "objectiveIds": [
+    "obj.vk.pride"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The twins' answer",
+   "body": "The Hero Twins — Hunahpu and Xbalanque — take up their blowguns and climb into his tree, waiting for the boaster to come feed.",
+   "sourceRefIds": [
+    "pride"
+   ],
+   "objectiveIds": [
+    "obj.vk.fall"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The shot that breaks his jaw",
+   "body": "They shoot Vukub-Cakix in the jaw; he tears Hunahpu's arm off in the fight — and the battle that follows is a comedy of healing and counter-trickery.",
+   "sourceRefIds": [
+    "attack"
+   ],
+   "objectiveIds": [
+    "obj.vk.fall"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Teeth, medicine, and a fall",
+   "body": "The twins send two 'healers' — actually the twins disguised as grandparents — who pull his jade teeth and replace them with grains of corn; his pride literally goes to pieces.",
+   "sourceRefIds": [
+    "attack"
+   ],
+   "objectiveIds": [
+    "obj.vk.fall"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The pattern of the book",
+   "body": "The Vukub-Cakix episode is the Popol Vuh's rehearsal: the twins' true test is yet to come in Xibalba — this is the warmup, and the trickery is the signature.",
+   "sourceRefIds": [
+    "pride",
+    "attack"
+   ],
+   "objectiveIds": [
+    "obj.vk.pride"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Vukub-Cakix boast?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That he is lord of Xibalba"
+    },
+    {
+     "id": "b",
+     "text": "That he cannot be killed"
+    },
+    {
+     "id": "c",
+     "text": "That he is the sun and the moon — a pride that draws the Hero Twins' challenge"
+    },
+    {
+     "id": "d",
+     "text": "That he is the creator of humans"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The false claim to be the lights of heaven is his downfall.",
+   "sourceRefIds": [
+    "pride"
+   ],
+   "objectiveIds": [
+    "obj.vk.pride"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How do the twins defeat him?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They shoot him with blowguns, then send 'healers' who pull his jade teeth and fill his jaw with corn"
+    },
+    {
+     "id": "b",
+     "text": "They burn his tree with him in it"
+    },
+    {
+     "id": "c",
+     "text": "They trap him in a ballcourt"
+    },
+    {
+     "id": "d",
+     "text": "They poison his food"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The twins win by trickery — the shot plus the dental fraud.",
+   "sourceRefIds": [
+    "attack"
+   ],
+   "objectiveIds": [
+    "obj.vk.fall"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

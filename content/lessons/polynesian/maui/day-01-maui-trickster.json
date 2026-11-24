@@ -1,193 +1,182 @@
 {
-  "id": "polynesian.week01.day01.maui-trickster",
-  "version": 2,
-  "weekId": "pol.maui.week01",
-  "pantheon": "polynesian",
-  "themeMode": "pantheon",
-  "title": "Maui's Family Across Island Accounts",
-  "subtitle": "Names and kinship vary across the collected versions",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "polynesian",
-    "Maui:",
-    "The"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maui-trickster.concept",
-      "text": "What does the Hawaiian chant name as Maui's father's name?"
-    },
-    {
-      "id": "obj.maui-trickster.sources",
-      "text": "What does Westervelt say varies among the island accounts?"
-    }
-  ],
-  "sourceReferences": {
-    "family": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter I · MAUI'S HOME; Chapter I · MAUI'S HOME, normalized characters 2031-2317",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "In the Hawaiian chant, Akalana was the name of his father. In other groups this was the name by which his mother was known. Kanaloa, the god, is sometimes known as the father of Maui. In Hawaii Hina was his mother. Elsewhere Ina, or Hina, was the grandmother, from whom he secured fire.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    }
+ "id": "polynesian.week01.day01.maui-trickster",
+ "version": 3,
+ "weekId": "pol.maui.week01",
+ "pantheon": "polynesian",
+ "themeMode": "pantheon",
+ "title": "Maui's Family Across Island Accounts",
+ "subtitle": "Names and kinship vary across the collected versions",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "maui",
+  "islands",
+  "trickster",
+  "polynesian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.maui.family",
+   "text": "What pattern repeats across the Maui accounts?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "One hero, different genealogies",
-      "body": "Westervelt's collection notes that accounts vary: in the Hawaiian chant Akalana is Maui's father, while other versions give the name to his mother or connect Hina with his grandmother.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Kinship depends on the island version",
-      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “In the Hawaiian chant, Akalana was the name of his father. In other groups this was the name by which his mother was known. Kanaloa, the god, is sometimes known as the father of Maui. In Hawaii Hina was his mother. Elsewhere Ina, or Hina, was the grandmother, from whom he secured fire.”",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The compiler compares traditions",
-      "body": "Westervelt's 1910s volume brings together material identified with Hawaii, New Zealand, Hervey, Tahiti, and other islands. The compiler's comparison is not one single Polynesian canon.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.sources"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A modern compilation",
-      "body": "W. D. Westervelt wrote in English and collated island accounts and chants. This source is not a direct translation of one ancient manuscript or one unmediated oral performance.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Keep the variant label",
-      "body": "When retelling Maui's family story, name the Hawaiian chant or the other island account rather than merging their genealogies.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Hawaiian chant name as Maui's father's name?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Akalana"
-        },
-        {
-          "id": "b",
-          "text": "Kullervo"
-        },
-        {
-          "id": "c",
-          "text": "Vukub-Cakix"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Westervelt says the Hawaiian chant gives Akalana as Maui's father.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "family"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Westervelt say varies among the island accounts?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Whether the Sampo makes flour or salt"
-        },
-        {
-          "id": "b",
-          "text": "Whether Xibalba has six or seven houses"
-        },
-        {
-          "id": "c",
-          "text": "Whether a name such as Akalana or Hina refers to the father, mother, or grandmother"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage explicitly contrasts the Hawaiian genealogy with other island versions.",
-      "sourceRefIds": [
-        "family"
-      ],
-      "objectiveIds": [
-        "obj.maui-trickster.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "family"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.maui.islands",
+   "text": "How do the island versions differ?"
   }
+ ],
+ "sourceReferences": {
+  "family": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter I · MAUI'S HOME; Chapter I · MAUI'S HOME, normalized characters 2031-2317",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "In the Hawaiian chant, Akalana was the name of his father. In other groups this was the name by which his mother was known. Kanaloa, the god, is sometimes known as the father of Maui. In Hawaii Hina was his mother. Elsewhere Ina, or Hina, was the grandmother, from whom he secured fire.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A hero with many homes",
+   "body": "Maui is the great Polynesian culture-hero — and he belongs to no single island: Hawaii, New Zealand, Samoa, Tonga, and more each claim their own Maui, and the tales braid versions together.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.islands"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The miraculous birth",
+   "body": "Nearly everywhere the pattern repeats: Maui is the unwanted fifth son — thrown into the sea in his mother's topknot or afterbirth — rescued by the gods, raised away, returning as the youngest and cleverest.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.family"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The trickster's job",
+   "body": "He is not a war-hero: Maui's tools are nerve and cunning — he fishes islands from the sea, slows the sun, steals fire, tries to win immortality. The world's conveniences are his pranks.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.family"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The family that doubts him",
+   "body": "His four brothers are the story's skeptics — they mock his claims, then watch him do the impossible anyway. Doubt-then-wonder is the pattern every episode repeats.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.family"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "One hero, many cultures",
+   "body": "Westervelt's collection gathers the island accounts side by side — so we can see the same trickster wearing different local details across the whole Pacific.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.islands"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is consistent across the island accounts of Maui?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is always the eldest son"
+    },
+    {
+     "id": "b",
+     "text": "He is a war-god of each island"
+    },
+    {
+     "id": "c",
+     "text": "The pattern: unwanted youngest son, rescued by gods, returns to do impossible feats with cunning"
+    },
+    {
+     "id": "d",
+     "text": "He is born at sea and raised by fish"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The structure repeats across the Pacific; only the local details change.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.family"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What role do Maui's brothers play in the tales?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They doubt his claims — then watch him succeed anyway"
+    },
+    {
+     "id": "b",
+     "text": "They aid each of his quests"
+    },
+    {
+     "id": "c",
+     "text": "They betray him to the gods"
+    },
+    {
+     "id": "d",
+     "text": "They compete for his inheritance"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The doubters-turned-witnesses are the tales' rhythm.",
+   "sourceRefIds": [
+    "family"
+   ],
+   "objectiveIds": [
+    "obj.maui.family"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

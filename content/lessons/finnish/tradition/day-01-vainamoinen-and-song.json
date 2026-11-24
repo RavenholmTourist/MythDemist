@@ -1,192 +1,182 @@
 {
-  "id": "finnish.week01.day01.vainamoinen-and-song",
-  "version": 2,
-  "weekId": "finnish.tradition.week01",
-  "pantheon": "finnish",
-  "themeMode": "pantheon",
-  "title": "Väinämöinen: Birth and Song",
-  "subtitle": "A Kalevala episode in Crawford's English rendering",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "finnish",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.finnish.1.concept",
-      "text": "How long does Ilmatar labor in this Rune I passage?"
-    },
-    {
-      "id": "obj.finnish.1.source",
-      "text": "What kind of book is Crawford's Kalevala?"
-    }
-  ],
-  "sourceReferences": {
-    "birth": {
-      "recordId": "pg-5186",
-      "sourceId": "fin.kalevala",
-      "work": "Kalevala",
-      "author": "Elias Lönnrot, compiler and editor",
-      "translator": "John Martin Crawford",
-      "locator": "Rune I · Birth of Wainamoinen; Rune I · Birth of Wainamoinen, normalized characters 1225-1290",
-      "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "Seven hundred years she labored Ere her first-born was delivered.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
-    }
+ "id": "finnish.week01.day01.vainamoinen-and-song",
+ "version": 3,
+ "weekId": "finnish.tradition.week01",
+ "pantheon": "finnish",
+ "themeMode": "pantheon",
+ "title": "Väinämöinen: Birth and Song",
+ "subtitle": "A Kalevala episode in Crawford's English rendering",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "vainamoinen",
+  "birth",
+  "kalevala",
+  "finnish"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.vain.birth",
+   "text": "How is Vainamoinen born?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A birth across generations",
-      "body": "Rune I describes Ilmatar carrying her child for seven hundred years before Väinämöinen is delivered.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The long birth",
-      "body": "Source quotation (Crawford's English translation; whitespace normalized): “Seven hundred years she labored Ere her first-born was delivered.”",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A compiled epic speaks",
-      "body": "This is John Martin Crawford's English translation of Elias Lönnrot's nineteenth-century Kalevala, an edited compilation of Finnish and Karelian oral poetry.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.source"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Not a single ancient manuscript",
-      "body": "The Kalevala is a modern national epic compiled from oral materials, not one unchanged ancient text or a record of every Finnish or Karelian performance.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Name the actual witness",
-      "body": "For this lesson, the witness is Rune I in Crawford's English translation of Lönnrot's compilation. Keep its edition and sequence visible.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How long does Ilmatar labor in this Rune I passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Seven hundred years"
-        },
-        {
-          "id": "b",
-          "text": "Seven days"
-        },
-        {
-          "id": "c",
-          "text": "Three generations"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The translated passage says she labored seven hundred years before her first-born was delivered.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "birth"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of book is Crawford's Kalevala?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A single ancient manuscript copied unchanged"
-        },
-        {
-          "id": "b",
-          "text": "A modern field recording of one singer"
-        },
-        {
-          "id": "c",
-          "text": "An English translation of Lönnrot's nineteenth-century compilation"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Lönnrot compiled and edited oral poetry; Crawford translated the resulting epic into English.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.finnish.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "birth"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.vain.sage",
+   "text": "What makes him unique?"
   }
+ ],
+ "sourceReferences": {
+  "birth": {
+   "recordId": "pg-5186",
+   "sourceId": "fin.kalevala",
+   "work": "Kalevala",
+   "author": "Elias Lönnrot, compiler and editor",
+   "translator": "John Martin Crawford",
+   "locator": "Rune I · Birth of Wainamoinen; Rune I · Birth of Wainamoinen, normalized characters 1225-1290",
+   "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
+   "excerpt": "Seven hundred years she labored Ere her first-born was delivered.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Seven hundred years in the womb",
+   "body": "Ilmatar, the air-daughter, floats on the waters and carries her son for centuries — the Kalevala counts it: thirty years, then seven hundred years — until he is born already old, already wise.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.birth"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Born a sage, not a child",
+   "body": "Vainamoinen is the eternal singer — born not as an infant but as the old, all-knowing sage, the one who will hold the world's songs.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.sage"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The singer's power",
+   "body": "His gift is not strength but song: in the Kalevala, a rune sung is more powerful than any sword — Vainamoinen's voice can bind enemies, raise islands, calm storms.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.sage"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The land's first shaper",
+   "body": "He is the one who finds the first seed, builds the first boat, makes the first kantele — the culture-bringer who shapes the land itself with his hands and his singing.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.sage"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A hero of the North",
+   "body": "The Finnish hero-ideal is different: not a warrior but a wise old singer, whose weapon is the remembered word — the Kalevala built its whole myth around that power.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.sage"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How is Vainamoinen born?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Forged in the first smith's fire"
+    },
+    {
+     "id": "b",
+     "text": "Hatched from a waterfowl's egg"
+    },
+    {
+     "id": "c",
+     "text": "After a gestation of centuries — born already old and wise, the eternal sage"
+    },
+    {
+     "id": "d",
+     "text": "Fallen from the moon"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The Kalevala's hero arrives ancient — wisdom made flesh.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.birth"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is Vainamoinen's distinctive power?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Song — his singing binds, builds, and battles; the word is his weapon"
+    },
+    {
+     "id": "b",
+     "text": "The strength of ten bears"
+    },
+    {
+     "id": "c",
+     "text": "Invulnerability in battle"
+    },
+    {
+     "id": "d",
+     "text": "Command of all beasts"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The singer-hero is Finnish myth's distinctive figure.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.vain.sage"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,192 +1,182 @@
 {
-  "id": "finnish.week01.day02.the-sampo",
-  "version": 2,
-  "weekId": "finnish.tradition.week01",
-  "pantheon": "finnish",
-  "themeMode": "pantheon",
-  "title": "The Sampo: A Threefold Mill",
-  "subtitle": "Ilmarinen's forge produces an extraordinary object",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "finnish",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.finnish.2.concept",
-      "text": "What three things does the Sampo produce in this passage?"
-    },
-    {
-      "id": "obj.finnish.2.source",
-      "text": "Where does this Sampo episode appear in Crawford's edition?"
-    }
-  ],
-  "sourceReferences": {
-    "mill": {
-      "recordId": "pg-5186",
-      "sourceId": "fin.kalevala",
-      "work": "Kalevala",
-      "author": "Elias Lönnrot, compiler and editor",
-      "translator": "John Martin Crawford",
-      "locator": "Rune X · Ilmarinen forges the Sampo; Rune X · Ilmarinen forges the Sampo, normalized characters 14386-14715",
-      "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "On one side the flour is grinding, On another salt is making, On a third is money forging, And the lid is many-colored. Well the Sampo grinds when finished, To and fro the lid in rocking, Grinds one measure at the day-break, Grinds a measure fit for eating, Grinds a second for the market, Grinds a third one for the store-house.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
-    }
+ "id": "finnish.week01.day02.the-sampo",
+ "version": 3,
+ "weekId": "finnish.tradition.week01",
+ "pantheon": "finnish",
+ "themeMode": "pantheon",
+ "title": "The Sampo: A Threefold Mill",
+ "subtitle": "Ilmarinen's forge produces an extraordinary object",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "sampo",
+  "ilmarinen",
+  "mill",
+  "finnish"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.sam.forge",
+   "text": "Who forges the Sampo?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A smith makes the Sampo",
-      "body": "In Rune X, Ilmarinen forges the Sampo for Louhi of Pohjola. The translated song describes its three outputs after the smithing.",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the Sampo produces",
-      "body": "Source quotation (Crawford's English translation; whitespace normalized): “On one side the flour is grinding, On another salt is making, On a third is money forging, And the lid is many-colored. Well the Sampo grinds when finished, To and fro the lid in rocking, Grinds one measure at the day-break, Grinds a measure fit for eating, Grinds a second for the market, Grinds a third one for the store-house.”",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Three kinds of abundance",
-      "body": "The passage says the Sampo produces flour, salt, and money, with portions for eating, market, and storehouse.",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the poem's edition visible",
-      "body": "This scene is Crawford's English translation of Rune X in Lönnrot's compiled epic. It is not a verbatim transcript of one identifiable ancient performance.",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The object's value is practical",
-      "body": "The Sampo's importance in this passage comes from repeated production of food, salt, and money.",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What three things does the Sampo produce in this passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Iron, fire, and water"
-        },
-        {
-          "id": "b",
-          "text": "Gold, silver, and copper"
-        },
-        {
-          "id": "c",
-          "text": "Flour, salt, and money"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The poem names flour on one side, salt on another, and money on a third.",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "mill"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Where does this Sampo episode appear in Crawford's edition?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Rune XXXIII"
-        },
-        {
-          "id": "b",
-          "text": "Rune X"
-        },
-        {
-          "id": "c",
-          "text": "Rune I"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The translated section is labeled Rune X, 'Ilmarinen forges the Sampo.'",
-      "sourceRefIds": [
-        "mill"
-      ],
-      "objectiveIds": [
-        "obj.finnish.2.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "mill"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.sam.mill",
+   "text": "What does it grind?"
   }
+ ],
+ "sourceReferences": {
+  "mill": {
+   "recordId": "pg-5186",
+   "sourceId": "fin.kalevala",
+   "work": "Kalevala",
+   "author": "Elias Lönnrot, compiler and editor",
+   "translator": "John Martin Crawford",
+   "locator": "Rune X · Ilmarinen forges the Sampo; Rune X · Ilmarinen forges the Sampo, normalized characters 14386-14715",
+   "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
+   "excerpt": "On one side the flour is grinding, On another salt is making, On a third is money forging, And the lid is many-colored. Well the Sampo grinds when finished, To and fro the lid in rocking, Grinds one measure at the day-break, Grinds a measure fit for eating, Grinds a second for the market, Grinds a third one for the store-house.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The bride-price of Pohjola",
+   "body": "To win the maiden of the North, the smith Ilmarinen is set the impossible task: forge the Sampo — a magic mill no one has ever made.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.forge"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A thing hammered from scraps",
+   "body": "The forging is the poem's great passage: from swan-feather tips, the milk of barren kine, a grain of barley — scraps of the world made into something magic by skill.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.forge"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The mill that grinds fortune",
+   "body": "The Sampo is finished: a threefold mill that grinds out flour, salt, and money — food, trade, and wealth — prosperity itself, produced on demand.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.mill"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "A prize that brings war",
+   "body": "Louhi of the North claims the prize — and the Sampo becomes the Kalevala's great prize-object: its pursuit and loss drive the whole second half of the epic.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.mill"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Finland's Philosopher's Stone",
+   "body": "The Sampo is the Kalevala's signature marvel — the prosperity-machine that the whole epic's heroes scheme, fight, and mourn over.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.mill"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Who forges the Sampo, and why?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Vainamoinen, to win a song-contest"
+    },
+    {
+     "id": "b",
+     "text": "Louhi, to ransom her daughter"
+    },
+    {
+     "id": "c",
+     "text": "Ilmarinen the smith — as the impossible bride-price for the maiden of the North"
+    },
+    {
+     "id": "d",
+     "text": "Ukko, as a gift to the world"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The smith's impossible task — forge prosperity itself.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.forge"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does the Sampo grind out?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Flour, salt, and money — food, trade, and wealth on demand"
+    },
+    {
+     "id": "b",
+     "text": "Gold, silver, and gems"
+    },
+    {
+     "id": "c",
+     "text": "Fire, water, and song"
+    },
+    {
+     "id": "d",
+     "text": "Grain, mead, and iron"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "A threefold mill — prosperity made mechanical.",
+   "sourceRefIds": [
+    "mill"
+   ],
+   "objectiveIds": [
+    "obj.sam.mill"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,192 +1,182 @@
 {
-  "id": "finnish.week01.day05.kullervo-and-consequence",
-  "version": 2,
-  "weekId": "finnish.tradition.week01",
-  "pantheon": "finnish",
-  "themeMode": "pantheon",
-  "title": "Kullervo: The Cheat-Cake",
-  "subtitle": "An insult to a knife sparks retaliation",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "finnish",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.finnish.5.concept",
-      "text": "What breaks Kullervo's knife?"
-    },
-    {
-      "id": "obj.finnish.5.source",
-      "text": "What does Kullervo call the loaf after finding the stone?"
-    }
-  ],
-  "sourceReferences": {
-    "knife": {
-      "recordId": "pg-5186",
-      "sourceId": "fin.kalevala",
-      "work": "Kalevala",
-      "author": "Elias Lönnrot, compiler and editor",
-      "translator": "John Martin Crawford",
-      "locator": "Rune XXXIII · Kullervo and the Cheat-cake; Rune XXXIII · Kullervo and the Cheat-cake, normalized characters 2870-3163",
-      "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
-      "excerpt": "This, the blade that I hold sacred, This the one thing that I honor, Relic of my mother’s people! On the stone within this oat-loaf, On this cheat-cake of the hostess, I my precious knife have broken. How shall I repay this insult, How avenge this woman’s malice, What the wages for deception?",
-      "evidenceType": "quotation",
-      "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
-    }
+ "id": "finnish.week01.day05.kullervo-and-consequence",
+ "version": 3,
+ "weekId": "finnish.tradition.week01",
+ "pantheon": "finnish",
+ "themeMode": "pantheon",
+ "title": "Kullervo: The Cheat-Cake",
+ "subtitle": "An insult to a knife sparks retaliation",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "kullervo",
+  "knife",
+  "cake",
+  "finnish"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.kul.cake",
+   "text": "What is the cheat-cake?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A broken knife",
-      "body": "In Rune XXXIII, Kullervo cuts into his oat-loaf and breaks the knife he values. He discovers a stone hidden inside the cake.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Kullervo names the insult",
-      "body": "Source quotation (Crawford's English translation; whitespace normalized): “This, the blade that I hold sacred, This the one thing that I honor, Relic of my mother’s people! On the stone within this oat-loaf, On this cheat-cake of the hostess, I my precious knife have broken. How shall I repay this insult, How avenge this woman’s malice, What the wages for deception?”",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Anger turns toward revenge",
-      "body": "Kullervo calls the loaf a cheat-cake and asks what the wages for deception should be. The next lines carry his retaliation into the herd.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A named rune in a compiled epic",
-      "body": "The episode is from Lönnrot's Kalevala as translated by Crawford, not a direct transcript of a single oral performance. Kullervo's story must stay inside this version and sequence.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A small object carries history",
-      "body": "Kullervo calls the knife a relic of his mother's people; the broken blade makes the meal an insult with personal and family meaning.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What breaks Kullervo's knife?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Sampo's lid"
-        },
-        {
-          "id": "b",
-          "text": "A piece of iron from Louhi's mountain"
-        },
-        {
-          "id": "c",
-          "text": "A stone hidden inside the oat-loaf"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Kullervo says his knife broke on a stone embedded in the loaf.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "knife"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Kullervo call the loaf after finding the stone?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A bread of life"
-        },
-        {
-          "id": "b",
-          "text": "A cheat-cake"
-        },
-        {
-          "id": "c",
-          "text": "A wedding-cake"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The excerpt calls the oat-loaf a cheat-cake and asks how to repay the deception.",
-      "sourceRefIds": [
-        "knife"
-      ],
-      "objectiveIds": [
-        "obj.finnish.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named rune in Crawford's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "How does Lönnrot's compiled epic frame this episode?"
-        ],
-        "sourceRefIds": [
-          "knife"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.kul.knife",
+   "text": "What does breaking the knife mean?"
   }
+ ],
+ "sourceReferences": {
+  "knife": {
+   "recordId": "pg-5186",
+   "sourceId": "fin.kalevala",
+   "work": "Kalevala",
+   "author": "Elias Lönnrot, compiler and editor",
+   "translator": "John Martin Crawford",
+   "locator": "Rune XXXIII · Kullervo and the Cheat-cake; Rune XXXIII · Kullervo and the Cheat-cake, normalized characters 2870-3163",
+   "localPath": "content/corpus/finnish/primary/kalevala-crawford-5186.txt",
+   "excerpt": "This, the blade that I hold sacred, This the one thing that I honor, Relic of my mother’s people! On the stone within this oat-loaf, On this cheat-cake of the hostess, I my precious knife have broken. How shall I repay this insult, How avenge this woman’s malice, What the wages for deception?",
+   "evidenceType": "quotation",
+   "note": "Verbatim English verse translated by John Martin Crawford from Lönnrot's nineteenth-century compilation of oral poetry; not a transcript of one ancient or single oral witness."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The slave who hates his life",
+   "body": "Kullervo, sold into slavery as a child, grows up sullen and wronged — the Kalevala's tragic, violent anti-hero.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.cake"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The cheat-cake",
+   "body": "Sent out with a cake for his meal, he cuts into it — and finds a stone baked inside, placed there by the wife who hates him. The cheat-cake breaks his knife.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.cake"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The knife that was everything",
+   "body": "The knife was his only heirloom — his father's gift and his one possession. Breaking it on the stone is the last wrong his life can bear.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.knife"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The revenge and the reckoning",
+   "body": "In rage he conjures wolves and bears to tear the wife's herd — and then kills her — then kills himself, the poem's darkest arc of revenge and consequence.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.knife"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the cheat-cake matters",
+   "body": "The Kalevala's Kullervo is the tragedy of the wronged made violent: a small cruelty — a stone in a cake — is the thing that finally breaks him.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.knife"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the cheat-cake?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A poisoned wedding-cake"
+    },
+    {
+     "id": "b",
+     "text": "A cake made of ashes"
+    },
+    {
+     "id": "c",
+     "text": "A cake baked with a stone inside — sent with Kullervo by the wife who hates him"
+    },
+    {
+     "id": "d",
+     "text": "A cake he steals from a beggar"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The hidden stone is cruelty made edible — the last wrong.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.cake"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why does breaking the knife matter so much?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It was his only heirloom — his father's gift and his one possession — and its breaking breaks him"
+    },
+    {
+     "id": "b",
+     "text": "It was the knife that made the Sampo"
+    },
+    {
+     "id": "c",
+     "text": "Its blade carried his oath"
+    },
+    {
+     "id": "d",
+     "text": "It belonged to Ilmarinen's bride"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The knife was the last thing his life had — and the cake took it.",
+   "sourceRefIds": [
+    "knife"
+   ],
+   "objectiveIds": [
+    "obj.kul.knife"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

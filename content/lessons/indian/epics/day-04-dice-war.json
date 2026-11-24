@@ -1,193 +1,182 @@
 {
-  "id": "indian.week01.day04.dice-war",
-  "version": 4,
-  "weekId": "ind.epics.week01",
-  "pantheon": "indian",
-  "themeMode": "pantheon",
-  "title": "The Dice Game: Draupadi Questions the Wager",
-  "subtitle": "A challenge to the claim made in the council hall",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "indian",
-    "Dice",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.dice-war.concept",
-      "text": "What does Draupadi question in the council hall?"
-    },
-    {
-      "id": "obj.dice-war.sources",
-      "text": "What kind of Mahabharata text is this?"
-    }
-  ],
-  "sourceReferences": {
-    "wager": {
-      "recordId": "pg-19630",
-      "sourceId": "ind.mahabharata-dutt",
-      "work": "Maha-bharata",
-      "author": "traditionally attributed to Vyasa",
-      "translator": "Romesh Chunder Dutt",
-      "locator": "Book IV · DYUTA; Book IV · DYUTA, normalized characters 2126-2309",
-      "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
-      "excerpt": "Doth a crowned king and husband stake his wife and lose his queen, Did my noble lord and monarch sense and reason lose at dice, Other stake he did not wager, wedded wife to sacrifice!",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    }
+ "id": "indian.week01.day04.dice-war",
+ "version": 5,
+ "weekId": "ind.epics.week01",
+ "pantheon": "indian",
+ "themeMode": "pantheon",
+ "title": "The Dice Game: Draupadi Questions the Wager",
+ "subtitle": "A challenge to the claim made in the council hall",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "draupadi",
+  "dice",
+  "mahabharata",
+  "indian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.dra.wager",
+   "text": "What does Yudhishthira stake?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A messenger brings the claim",
-      "body": "In Dutt's condensed verse rendering, a menial tells Draupadi that Yudhishthira lost a dice game and that Duryodhana claims her as a stake.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Draupadi asks what was wagered",
-      "body": "Source quotation (Dutt's English rendering; whitespace normalized): “Doth a crowned king and husband stake his wife and lose his queen, Did my noble lord and monarch sense and reason lose at dice, Other stake he did not wager, wedded wife to sacrifice!”",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The question is about agency",
-      "body": "Draupadi asks whether a king who has lost himself can then stake his wife. The scene gives her a direct argument in the assembly.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Abridged verse, not a full critical text",
-      "body": "Dutt's Maha-bharata is explicitly condensed into English verse. The local edition notes that it translates selected portions of the Sanskrit epic.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The wager is contested",
-      "body": "The episode does not ask learners to accept the dice outcome as morally settled: Draupadi challenges the logic of the claim against her.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Draupadi question in the council hall?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Whether Yudhishthira could stake her after losing himself"
-        },
-        {
-          "id": "b",
-          "text": "Whether Krishna should lead the exile"
-        },
-        {
-          "id": "c",
-          "text": "Whether Rama should give Bharata the sandals"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Draupadi asks if a king who is himself a bondsman can stake his wife.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "wager"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of Mahabharata text is this?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A complete Sanskrit critical edition"
-        },
-        {
-          "id": "b",
-          "text": "A modern eyewitness account of a dice game"
-        },
-        {
-          "id": "c",
-          "text": "A condensed English verse rendering by Romesh Chunder Dutt"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The book identifies itself as the epic condensed into English verse.",
-      "sourceRefIds": [
-        "wager"
-      ],
-      "objectiveIds": [
-        "obj.dice-war.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "wager"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.dra.question",
+   "text": "What question does Draupadi ask?"
   }
+ ],
+ "sourceReferences": {
+  "wager": {
+   "recordId": "pg-19630",
+   "sourceId": "ind.mahabharata-dutt",
+   "work": "Maha-bharata",
+   "author": "traditionally attributed to Vyasa",
+   "translator": "Romesh Chunder Dutt",
+   "locator": "Book IV · DYUTA; Book IV · DYUTA, normalized characters 2126-2309",
+   "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
+   "excerpt": "Doth a crowned king and husband stake his wife and lose his queen, Did my noble lord and monarch sense and reason lose at dice, Other stake he did not wager, wedded wife to sacrifice!",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A game that can't be won",
+   "body": "Yudhishthira — eldest Pandava, famously honest, hopelessly drawn to dice — is invited to a game in the Kaurava hall. The dice are Shakuni's, and they are loaded.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.wager"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Everything on the table",
+   "body": "He loses his wealth, his kingdom, his brothers one by one, himself — and finally, desperate, stakes Draupadi, their shared wife. She loses to a stranger's dice.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.wager"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Dragged into the hall",
+   "body": "Dushasana drags her by the hair into the assembly and tries to strip her — and the elders sit silent. Her sari, by divine mercy, extends endlessly, but the insult stands.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.wager"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The question nobody answers",
+   "body": "Draupadi asks the hall the question the epic never resolves: did Yudhishthira stake himself FIRST? If he lost himself before staking her, he had no right to stake her — a slave cannot wager what he no longer owns. The law stammers; no one answers.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.question"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The vow that starts a war",
+   "body": "She takes oaths from the hall — Bhima will break Dushasana's thigh, drink his blood — and the humiliation is the debt the war later pays. The epic's darkest scene is legal, not violent.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.question"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Yudhishthira stake and lose in the dice game?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Only his kingdom and treasury"
+    },
+    {
+     "id": "b",
+     "text": "His weapons and chariot"
+    },
+    {
+     "id": "c",
+     "text": "His wealth, kingdom, brothers, himself — and finally Draupadi"
+    },
+    {
+     "id": "d",
+     "text": "His right to rule"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "He loses literally everything, ending with the wife he had no right to stake.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.wager"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What question does Draupadi ask the assembly?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Did Yudhishthira stake himself first? If he was already lost, he had no right to stake her"
+    },
+    {
+     "id": "b",
+     "text": "Why do the gods permit the game?"
+    },
+    {
+     "id": "c",
+     "text": "Who loaded the dice?"
+    },
+    {
+     "id": "d",
+     "text": "Will anyone duel for her?"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The legal question exposes the wager's invalidity — and the hall stays silent.",
+   "sourceRefIds": [
+    "wager"
+   ],
+   "objectiveIds": [
+    "obj.dra.question"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

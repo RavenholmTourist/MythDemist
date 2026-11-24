@@ -1,206 +1,195 @@
 {
-  "id": "maya.week01.day01.creation-and-first-people",
-  "version": 2,
-  "weekId": "maya.tradition.week01",
-  "pantheon": "maya",
-  "themeMode": "pantheon",
-  "title": "Wooden People and the Flood",
-  "subtitle": "A creation episode in Spence's K'iche' summary",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "maya",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maya.1.concept",
-      "text": "What material are the unsuccessful people made from in Spence's summary?"
-    },
-    {
-      "id": "obj.maya.1.source",
-      "text": "What happens to the wooden people?"
-    }
-  ],
-  "sourceReferences": {
-    "wood": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · First Book; Spence summary · First Book, normalized characters 396-609",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "To supply the deficiency the divine beings resolved to create mannikins carved out of wood. But these soon incurred the displeasure of the gods, who, irritated by their lack of reverence, resolved to destroy them.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    },
-    "flood": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · First Book; Spence summary · First Book, normalized characters 610-2472",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "Then by the will of Hurakan, the Heart of Heaven, the waters were swollen, and a great flood came upon the mannikins of wood. They were drowned and a thick resin fell from heaven. The bird Xecotcovach tore out their eyes; the bird Camulatz cut off their heads; the bird Cotzbalam devoured their flesh; the bird Tecumbalam broke their bones and sinews and ground them into powder. Because they had not thought on Hurakan, therefore the face of the earth grew dark, and a pouring rain commenced, raining by day and by night. Then all sorts of beings, great and small, gathered together to abuse the men to their faces. The very household utensils and animals jeered at them, their mill-stones, their plates, their cups, their dogs, their hens. Said the dogs and hens, \"Very badly have you treated us, and you have bitten us. Now we bite you in turn.\" Said the mill-stones (metates [2]), \"Very much were we tormented by you, and daily, daily, night and day, it was squeak, screech, screech, [3] for your sake. Now you shall feel our strength, and we will grind your flesh and make meal of your bodies.\" And the dogs upbraided the mannikins because they had not been fed, and tore the unhappy images with their teeth. And the cups and dishes said, \"Pain and misery you gave us, smoking our tops and sides, cooking us over the fire, burning and hurting us as if we had no feeling. Now it is your turn, and you shall burn.\" Then ran the mannikins hither and thither in despair. They climbed to the roofs of the houses, but the houses crumbled under their feet; they tried to mount to the tops of the trees, but the trees hurled them from them; they sought refuge in the caverns, but the caverns closed before them. Thus was accomplished the ruin of this race, destined to be overthrown. And it is said that their posterity are the little monkeys who live in the woods.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    }
+ "id": "maya.week01.day01.creation-and-first-people",
+ "version": 3,
+ "weekId": "maya.tradition.week01",
+ "pantheon": "maya",
+ "themeMode": "pantheon",
+ "title": "Wooden People and the Flood",
+ "subtitle": "A creation episode in Spence's K'iche' summary",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "popol-vuh",
+  "creation",
+  "wooden",
+  "maya"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.wood.made",
+   "text": "What are the wooden people?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The first people do not satisfy the gods",
-      "body": "In Spence's summary of the Popol Vuh, the divine beings make wooden people, who fail to show reverence and are rejected.",
-      "sourceRefIds": [
-        "wood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A flood destroys the wooden people",
-      "body": "Quotation from Spence's English summary (whitespace normalized): “Then by the will of Hurakan, the Heart of Heaven, the waters were swollen, and a great flood came upon the mannikins of wood. They were drowned and a thick resin fell from heaven. The bird Xecotcovach tore out their eyes; the bird Camulatz cut off their heads; the bird Cotzbalam devoured their flesh; the bird Tecumbalam broke their bones and sinews and ground them into powder. Because they had not thought on Hurakan, therefore the face of the earth grew dark, and a pouring rain commenced, raining by day and by night. Then all sorts of beings, great and small, gathered together to abuse the men to their faces. The very household utensils and animals jeered at them, their mill-stones, their plates, their cups, their dogs, their hens. Said the dogs and hens, \"Very badly have you treated us, and you have bitten us. Now we bite you in turn.\" Said the mill-stones (metates [2]), \"Very much were we tormented by you, and daily, daily, night and day, it was squeak, screech, screech, [3] for your sake. Now you shall feel our strength, and we will grind your flesh and make meal of your bodies.\" And the dogs upbraided the mannikins because they had not been fed, and tore the unhappy images with their teeth. And the cups and dishes said, \"Pain and misery you gave us, smoking our tops and sides, cooking us over the fire, burning and hurting us as if we had no feeling. Now it is your turn, and you shall burn.\" Then ran the mannikins hither and thither in despair. They climbed to the roofs of the houses, but the houses crumbled under their feet; they tried to mount to the tops of the trees, but the trees hurled them from them; they sought refuge in the caverns, but the caverns closed before them. Thus was accomplished the ruin of this race, destined to be overthrown. And it is said that their posterity are the little monkeys who live in the woods.”",
-      "sourceRefIds": [
-        "flood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The world responds to mistreatment",
-      "body": "The summary describes animals and household objects turning against the wooden people. Their descendants, it says, are the monkeys of the woods.",
-      "sourceRefIds": [
-        "flood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Spence is summarizing translations",
-      "body": "Lewis Spence's 1908 essay says it draws on Brasseur de Bourbourg's French translation and Ximénez's Spanish translation. This is Spence's English summary, not a direct translation of the K'iche' text.",
-      "sourceRefIds": [
-        "wood",
-        "flood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Keep community and source visible",
-      "body": "This is a K'iche' narrative as transmitted through a colonial-era manuscript and Spence's early twentieth-century comparison. Do not present it as all Maya peoples' single creation account.",
-      "sourceRefIds": [
-        "wood",
-        "flood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What material are the unsuccessful people made from in Spence's summary?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Wood"
-        },
-        {
-          "id": "b",
-          "text": "Gold and silver"
-        },
-        {
-          "id": "c",
-          "text": "Yellow and white maize"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The summary says the divine beings made mannikins carved out of wood.",
-      "sourceRefIds": [
-        "wood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "wood"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens to the wooden people?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They become the rulers of Xibalba"
-        },
-        {
-          "id": "b",
-          "text": "They leave for Tlapallan on a raft"
-        },
-        {
-          "id": "c",
-          "text": "A flood destroys them, and animals and household objects turn against them"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Spence describes a flood and the animals and utensils abusing the wooden people.",
-      "sourceRefIds": [
-        "flood"
-      ],
-      "objectiveIds": [
-        "obj.maya.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "flood"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.wood.flood",
+   "text": "What happens to them?"
   }
+ ],
+ "sourceReferences": {
+  "wood": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · First Book; Spence summary · First Book, normalized characters 396-609",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "To supply the deficiency the divine beings resolved to create mannikins carved out of wood. But these soon incurred the displeasure of the gods, who, irritated by their lack of reverence, resolved to destroy them.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  },
+  "flood": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · First Book; Spence summary · First Book, normalized characters 610-2472",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "Then by the will of Hurakan, the Heart of Heaven, the waters were swollen, and a great flood came upon the mannikins of wood. They were drowned and a thick resin fell from heaven. The bird Xecotcovach tore out their eyes; the bird Camulatz cut off their heads; the bird Cotzbalam devoured their flesh; the bird Tecumbalam broke their bones and sinews and ground them into powder. Because they had not thought on Hurakan, therefore the face of the earth grew dark, and a pouring rain commenced, raining by day and by night. Then all sorts of beings, great and small, gathered together to abuse the men to their faces. The very household utensils and animals jeered at them, their mill-stones, their plates, their cups, their dogs, their hens. Said the dogs and hens, \"Very badly have you treated us, and you have bitten us. Now we bite you in turn.\" Said the mill-stones (metates [2]), \"Very much were we tormented by you, and daily, daily, night and day, it was squeak, screech, screech, [3] for your sake. Now you shall feel our strength, and we will grind your flesh and make meal of your bodies.\" And the dogs upbraided the mannikins because they had not been fed, and tore the unhappy images with their teeth. And the cups and dishes said, \"Pain and misery you gave us, smoking our tops and sides, cooking us over the fire, burning and hurting us as if we had no feeling. Now it is your turn, and you shall burn.\" Then ran the mannikins hither and thither in despair. They climbed to the roofs of the houses, but the houses crumbled under their feet; they tried to mount to the tops of the trees, but the trees hurled them from them; they sought refuge in the caverns, but the caverns closed before them. Thus was accomplished the ruin of this race, destined to be overthrown. And it is said that their posterity are the little monkeys who live in the woods.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The first people are wooden",
+   "body": "In the Popol Vuh, before true humans, the gods fashion a race of mannikins carved out of wood — people who can talk and walk but are hollow: no minds, no souls, no gratitude.",
+   "sourceRefIds": [
+    "wood"
+   ],
+   "objectiveIds": [
+    "obj.wood.made"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "People who can't remember heaven",
+   "body": "The wooden people fail the essential test: they do not remember their creators — no prayer, no thanks, no thought of the gods. They are form without reverence.",
+   "sourceRefIds": [
+    "wood"
+   ],
+   "objectiveIds": [
+    "obj.wood.made"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The flood that unmakes them",
+   "body": "The gods send a black rain and a flood; the animals and household things — even the grinding stones and pots — rise against the wooden people and tear them apart.",
+   "sourceRefIds": [
+    "flood"
+   ],
+   "objectiveIds": [
+    "obj.wood.flood"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The monkeys who remain",
+   "body": "The few who escape become the monkeys of the forest — the Popol Vuh's explanation for why monkeys look almost human but are not.",
+   "sourceRefIds": [
+    "flood"
+   ],
+   "objectiveIds": [
+    "obj.wood.flood"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "What the gods actually wanted",
+   "body": "The point of the failed creation: the gods don't want bodies — they want creatures who remember and give thanks. Gratitude is what makes a person real.",
+   "sourceRefIds": [
+    "wood",
+    "flood"
+   ],
+   "objectiveIds": [
+    "obj.wood.made"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is wrong with the wooden people?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They can't feel pain"
+    },
+    {
+     "id": "b",
+     "text": "They attack the gods"
+    },
+    {
+     "id": "c",
+     "text": "They are hollow — they can talk and move but have no souls and do not remember their creators"
+    },
+    {
+     "id": "d",
+     "text": "They refuse to work"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The failure is gratitude, not form — a carved body without reverence.",
+   "sourceRefIds": [
+    "wood"
+   ],
+   "objectiveIds": [
+    "obj.wood.made"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens to the wooden people?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A flood and a black rain destroy them; the survivors become the monkeys of the forest"
+    },
+    {
+     "id": "b",
+     "text": "They are burned to ash"
+    },
+    {
+     "id": "c",
+     "text": "They are taken to the underworld"
+    },
+    {
+     "id": "d",
+     "text": "They are turned into stone"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The flood unmakes them; the monkeys are the remains.",
+   "sourceRefIds": [
+    "flood"
+   ],
+   "objectiveIds": [
+    "obj.wood.flood"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

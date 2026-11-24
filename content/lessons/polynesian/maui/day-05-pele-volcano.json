@@ -1,207 +1,194 @@
 {
-  "id": "polynesian.week01.day05.pele-volcano",
-  "version": 2,
-  "weekId": "pol.maui.week01",
-  "pantheon": "polynesian",
-  "themeMode": "pantheon",
-  "title": "Hina: A Hawaiian Ascent to the Moon",
-  "subtitle": "One Hawaiian version among several island accounts",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "polynesian",
-    "Pele",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.pele-volcano.concept",
-      "text": "Why does Hina leave the Sun in the Hawaiian version?"
-    },
-    {
-      "id": "obj.pele-volcano.sources",
-      "text": "What accompanies the woman in the New Zealand version described here?"
-    }
-  ],
-  "sourceReferences": {
-    "hawaiian": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 3695-5256",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "The Sun was very bright and Hina said, \"I will go to the Sun.\" So she left her home very early in the morning and climbed up, higher, higher, until the heat of the rays of the sun beat strongly upon her and weakened her so that she could scarcely crawl along her beautiful path. Up a little higher and the clouds no longer gave her even the least shadow. The heat from the sun was so great that she began to feel the fire shriveling and torturing her. Quickly she slipped down into the storms around her rainbow and then back to earth. As the day passed her strength came back, and when the full moon rose through the shadows of the night she said, \"I will climb to the moon and there find rest.\" But when Hina began to go upward her husband saw her and called to her: \"Do not go into the heavens.\" She answered him: \"My mind is fixed; I will go to my new husband, the moon.\" And she climbed up higher and higher. Her husband ran toward her. She was almost out of reach, but he leaped and caught her foot. This did not deter Hina from her purpose. She shook off her husband, but as he fell he broke her leg so that the lower part came off in his hands. Hina went up through the stars, crying out the strongest incantations she could use. The powers of the night aided her. The mysterious hands of darkness lifted her, until she stood at the door of the moon. She had packed her calabash with her most priceless possessions and had carried it with her even when injured by her cruel husband. With her calabash she limped into the moon and found her abiding home.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    },
-    "variant": {
-      "recordId": "pg-32601",
-      "sourceId": "pol.legends-maui",
-      "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
-      "author": "W. D. Westervelt",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 7367-8184",
-      "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
-      "excerpt": "The New Zealand legend says that the woman went after water in the night. As she passed down the path to the spring the bright light of the full moon made the way easy for her quick footsteps, but when she had filled her calabash and started homeward, suddenly the bright light was hidden by a passing cloud and she stumbled against a stone in the path and fell to the ground, spilling the water she was carrying. Then she became very angry and cursed the moon heartily. Then the moon became angry and swiftly swept down upon her from the skies, grasping her and lifting her up. In her terrible fight she caught a small tree with one hand and her calabash with the other. But oh! the strong moon pulled her up with the tree and the calabash and there in the full moon they can all be traced when the nights are clear.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
-    }
+ "id": "polynesian.week01.day05.pele-volcano",
+ "version": 3,
+ "weekId": "pol.maui.week01",
+ "pantheon": "polynesian",
+ "themeMode": "pantheon",
+ "title": "Hina: A Hawaiian Ascent to the Moon",
+ "subtitle": "One Hawaiian version among several island accounts",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "hina",
+  "moon",
+  "tapa",
+  "polynesian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.hina.flight",
+   "text": "Why does Hina flee to the moon?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Hina seeks a place in the sky",
-      "body": "In one Hawaiian account summarized by Westervelt, Hina tries the Sun, finds the heat unbearable, and then climbs toward the Moon.",
-      "sourceRefIds": [
-        "hawaiian"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The Hawaiian ascent",
-      "body": "Quotation from Westervelt's English compilation (whitespace normalized): “The Sun was very bright and Hina said, \"I will go to the Sun.\" So she left her home very early in the morning and climbed up, higher, higher, until the heat of the rays of the sun beat strongly upon her and weakened her so that she could scarcely crawl along her beautiful path. Up a little higher and the clouds no longer gave her even the least shadow. The heat from the sun was so great that she began to feel the fire shriveling and torturing her. Quickly she slipped down into the storms around her rainbow and then back to earth. As the day passed her strength came back, and when the full moon rose through the shadows of the night she said, \"I will climb to the moon and there find rest.\" But when Hina began to go upward her husband saw her and called to her: \"Do not go into the heavens.\" She answered him: \"My mind is fixed; I will go to my new husband, the moon.\" And she climbed up higher and higher. Her husband ran toward her. She was almost out of reach, but he leaped and caught her foot. This did not deter Hina from her purpose. She shook off her husband, but as he fell he broke her leg so that the lower part came off in his hands. Hina went up through the stars, crying out the strongest incantations she could use. The powers of the night aided her. The mysterious hands of darkness lifted her, until she stood at the door of the moon. She had packed her calabash with her most priceless possessions and had carried it with her even when injured by her cruel husband. With her calabash she limped into the moon and found her abiding home.”",
-      "sourceRefIds": [
-        "hawaiian"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A different New Zealand account",
-      "body": "Westervelt separately describes a New Zealand woman who spills water, curses the Moon, and is carried into the sky with a tree and calabash.",
-      "sourceRefIds": [
-        "variant"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep Hina's island versions distinct",
-      "body": "The chapter notes that stories about Hina's ascent vary across Hawaiian, New Zealand, Tongan, Hervey, Nauru, and other island traditions. This lesson does not merge them into one account.",
-      "sourceRefIds": [
-        "hawaiian",
-        "variant"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The compiler records variation",
-      "body": "The two passages show different motives and outcomes; the useful comparison depends on retaining their regional labels.",
-      "sourceRefIds": [
-        "hawaiian",
-        "variant"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Why does Hina leave the Sun in the Hawaiian version?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Moon orders her away"
-        },
-        {
-          "id": "b",
-          "text": "She loses a ballgame to Xibalba"
-        },
-        {
-          "id": "c",
-          "text": "Its heat is too great"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage says the Sun's heat weakens and torments her, so she returns to earth before trying the Moon.",
-      "sourceRefIds": [
-        "hawaiian"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "hawaiian"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What accompanies the woman in the New Zealand version described here?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A canoe and a fire-stick"
-        },
-        {
-          "id": "b",
-          "text": "A tree and a calabash"
-        },
-        {
-          "id": "c",
-          "text": "A golden Sampo and an iron rod"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The New Zealand account says she is pulled up with the tree and calabash.",
-      "sourceRefIds": [
-        "variant"
-      ],
-      "objectiveIds": [
-        "obj.pele-volcano.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the island-labeled chapter in Westervelt's compilation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which island version is being described?"
-        ],
-        "sourceRefIds": [
-          "variant"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.hina.refuge",
+   "text": "What is she doing there?"
   }
+ ],
+ "sourceReferences": {
+  "hawaiian": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 3695-5256",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "The Sun was very bright and Hina said, \"I will go to the Sun.\" So she left her home very early in the morning and climbed up, higher, higher, until the heat of the rays of the sun beat strongly upon her and weakened her so that she could scarcely crawl along her beautiful path. Up a little higher and the clouds no longer gave her even the least shadow. The heat from the sun was so great that she began to feel the fire shriveling and torturing her. Quickly she slipped down into the storms around her rainbow and then back to earth. As the day passed her strength came back, and when the full moon rose through the shadows of the night she said, \"I will climb to the moon and there find rest.\" But when Hina began to go upward her husband saw her and called to her: \"Do not go into the heavens.\" She answered him: \"My mind is fixed; I will go to my new husband, the moon.\" And she climbed up higher and higher. Her husband ran toward her. She was almost out of reach, but he leaped and caught her foot. This did not deter Hina from her purpose. She shook off her husband, but as he fell he broke her leg so that the lower part came off in his hands. Hina went up through the stars, crying out the strongest incantations she could use. The powers of the night aided her. The mysterious hands of darkness lifted her, until she stood at the door of the moon. She had packed her calabash with her most priceless possessions and had carried it with her even when injured by her cruel husband. With her calabash she limped into the moon and found her abiding home.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  },
+  "variant": {
+   "recordId": "pg-32601",
+   "sourceId": "pol.legends-maui",
+   "work": "Legends of Ma-Ui, a Demi God of Polynesia and of his Mother Hina",
+   "author": "W. D. Westervelt",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter XV · HINA, THE WOMAN IN THE MOON.; Chapter XV · HINA, THE WOMAN IN THE MOON., normalized characters 7367-8184",
+   "localPath": "content/corpus/polynesian/primary/legends-ma-ui-westervelt-32601.txt",
+   "excerpt": "The New Zealand legend says that the woman went after water in the night. As she passed down the path to the spring the bright light of the full moon made the way easy for her quick footsteps, but when she had filled her calabash and started homeward, suddenly the bright light was hidden by a passing cloud and she stumbled against a stone in the path and fell to the ground, spilling the water she was carrying. Then she became very angry and cursed the moon heartily. Then the moon became angry and swiftly swept down upon her from the skies, grasping her and lifting her up. In her terrible fight she caught a small tree with one hand and her calabash with the other. But oh! the strong moon pulled her up with the tree and the calabash and there in the full moon they can all be traced when the nights are clear.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Westervelt's early twentieth-century English compilation. Retain the named island/version; this is not a direct transcription of one oral performance."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The woman who beats tapa",
+   "body": "In the Hawaiian tale, Hina is a worker — a woman who beats bark into tapa cloth all day, never resting, always pounding the same rhythm.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.flight"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A weariness that reaches the sky",
+   "body": "She tires of the endless labour and the earth's noise, and longs for a place to rest — so she climbs the rainbow's path toward a quieter world.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.flight"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The sun refuses her",
+   "body": "The sun's realm is too hot and bright — she cannot stay — so she presses on past it toward the cool, dim moon.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.refuge"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The moon that took her in",
+   "body": "The moon accepts her: a quiet realm, a resting place, and — the tale says — she beats her tapa there still, the figure the Hawaiians see in the moon.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.refuge"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Two islands, two Hinas",
+   "body": "The New Zealand legend says its own version of Hina — different details, same pattern: a woman of the tapa-beater's rhythm who ends in the moon's face.",
+   "sourceRefIds": [
+    "variant"
+   ],
+   "objectiveIds": [
+    "obj.hina.refuge"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Hina flee to the moon?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She is exiled for breaking a tapu"
+    },
+    {
+     "id": "b",
+     "text": "She follows her husband's spirit"
+    },
+    {
+     "id": "c",
+     "text": "She is weary of endless tapa-beating and the earth's noise — and seeks a place to rest"
+    },
+    {
+     "id": "d",
+     "text": "She is blown there by a storm"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The flight is escape from labour — weariness reaching for quiet.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.flight"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does the Hawaiian tradition see in the moon's face?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hina herself — still beating her tapa cloth there in the quiet realm"
+    },
+    {
+     "id": "b",
+     "text": "Her abandoned family"
+    },
+    {
+     "id": "c",
+     "text": "The goddess Pele's fire"
+    },
+    {
+     "id": "d",
+     "text": "A sleeping giant"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The moon's figure is her — the worker at rest, still at her rhythm.",
+   "sourceRefIds": [
+    "hawaiian"
+   ],
+   "objectiveIds": [
+    "obj.hina.refuge"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

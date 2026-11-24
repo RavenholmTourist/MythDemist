@@ -1,208 +1,195 @@
 {
-  "id": "indian.week01.day01.dharma-duty",
-  "version": 4,
-  "weekId": "ind.epics.week01",
-  "pantheon": "indian",
-  "themeMode": "pantheon",
-  "title": "Krishna's Counsel: Peace Before War",
-  "subtitle": "Duty is weighed against the cost of conflict",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "indian",
-    "Dharma:",
-    "Duty"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.dharma-duty.concept",
-      "text": "What does the poem say Yudhishthira prizes above empire?"
-    },
-    {
-      "id": "obj.dharma-duty.sources",
-      "text": "What does Krishna ask Dhrita-rashtra to do?"
-    }
-  ],
-  "sourceReferences": {
-    "duty": {
-      "recordId": "pg-19630",
-      "sourceId": "ind.mahabharata-dutt",
-      "work": "Maha-bharata",
-      "author": "traditionally attributed to Vyasa",
-      "translator": "Romesh Chunder Dutt",
-      "locator": "Book VII · UDYOGA; Book VII · UDYOGA, normalized characters 1850-2481",
-      "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
-      "excerpt": "Known to all, ye mighty monarchs! May your glory ever last! True to plighted word Yudhishthir hath his weary exile passed, Twelve long years with fair Draupadi in the pathless jungle strayed, And a year in menial service in Virata's palace stayed, He hath kept his plighted promise, braved affliction, woe and shame, And he begs, assembled monarchs, ye shall now his duty name! For he swerveth not from duty kingdom of the sky to win, Prizeth hamlet more than empire, so his course be free from sin, Loss of realm and wealth and glory higher virtues in him prove, Thoughts of peace and not of anger still the good Yudhishthir move!",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    },
-    "counsel": {
-      "recordId": "pg-19630",
-      "sourceId": "ind.mahabharata-dutt",
-      "work": "Maha-bharata",
-      "author": "traditionally attributed to Vyasa",
-      "translator": "Romesh Chunder Dutt",
-      "locator": "Book VII · UDYOGA; Book VII · UDYOGA, normalized characters 10208-10915",
-      "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
-      "excerpt": "Seek not war and death of kinsmen, word of peace and love I bring! 'Midst the wide earth's many nations Bharats in their worth excel, Love and kindness, spotless virtue, in the Kuru-elders dwell, Father of the noble nation, now retired from life's turmoil, Ill beseems that sin or untruth should thy ancient bosom soil! For thy sons in impious anger seek to do their kinsmen wrong, And withhold the throne and kingdom which by right to them belong, And a danger thus ariseth like the comet's baleful fire, Slaughtered kinsmen, bleeding nations, soon shall feed its fatal ire! Stretch thy hands, O Kuru monarch! prove thy truth and holy grace, Man of peace! avert the slaughter and preserve thy ancient race.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
-    }
+ "id": "indian.week01.day01.dharma-duty",
+ "version": 5,
+ "weekId": "ind.epics.week01",
+ "pantheon": "indian",
+ "themeMode": "pantheon",
+ "title": "Krishna's Counsel: Peace Before War",
+ "subtitle": "Duty is weighed against the cost of conflict",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "krishna",
+  "peace",
+  "mahabharata",
+  "indian"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.kri.embassy",
+   "text": "What is Krishna's embassy for?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A kingdom is disputed",
-      "body": "In Dutt's condensed verse rendering of the Mahabharata, Krishna addresses a council while the Pandavas seek the return of their kingdom after exile.",
-      "sourceRefIds": [
-        "duty",
-        "counsel"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Krishna asks for counsel",
-      "body": "Source quotation (Dutt's English rendering; whitespace normalized): “Seek not war and death of kinsmen, word of peace and love I bring! 'Midst the wide earth's many nations Bharats in their worth excel, Love and kindness, spotless virtue, in the Kuru-elders dwell, Father of the noble nation, now retired from life's turmoil, Ill beseems that sin or untruth should thy ancient bosom soil! For thy sons in impious anger seek to do their kinsmen wrong, And withhold the throne and kingdom which by right to them belong, And a danger thus ariseth like the comet's baleful fire, Slaughtered kinsmen, bleeding nations, soon shall feed its fatal ire! Stretch thy hands, O Kuru monarch! prove thy truth and holy grace, Man of peace! avert the slaughter and preserve thy ancient race.”",
-      "sourceRefIds": [
-        "counsel"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A claim without eager war",
-      "body": "Krishna describes Yudhishthira as preferring even a small settlement to empire if it can be gained without sin, and asks the assembled rulers how to proceed.",
-      "sourceRefIds": [
-        "duty"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not turn one epic scene into a universal rule",
-      "body": "This is Romesh Chunder Dutt's nineteenth-century condensed verse rendering. It gives one literary portrayal of deliberation, not a complete account of dharma across Indian traditions.",
-      "sourceRefIds": [
-        "duty",
-        "counsel"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The choice is political and ethical",
-      "body": "The council scene connects a disputed inheritance with questions about peace, justice, and the cost of war.",
-      "sourceRefIds": [
-        "duty",
-        "counsel"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the poem say Yudhishthira prizes above empire?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A hamlet, if his course can remain free from sin"
-        },
-        {
-          "id": "b",
-          "text": "A victory won by a loaded dice game"
-        },
-        {
-          "id": "c",
-          "text": "A throne gained without the council's knowledge"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Krishna says Yudhishthira prizes even a hamlet more than empire if his course is free from sin.",
-      "sourceRefIds": [
-        "duty"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "duty"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Krishna ask Dhrita-rashtra to do?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Send Sita into exile"
-        },
-        {
-          "id": "b",
-          "text": "Award the kingdom by another dice game"
-        },
-        {
-          "id": "c",
-          "text": "Avert slaughter and preserve his ancient race"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Krishna pleads with Dhrita-rashtra to avert slaughter and preserve the Kuru family.",
-      "sourceRefIds": [
-        "counsel"
-      ],
-      "objectiveIds": [
-        "obj.dharma-duty.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named book and section in Dutt's translation.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a translation, abridgment, or later retelling?"
-        ],
-        "sourceRefIds": [
-          "counsel"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.kri.refusal",
+   "text": "What does Duryodhana refuse?"
   }
+ ],
+ "sourceReferences": {
+  "duty": {
+   "recordId": "pg-19630",
+   "sourceId": "ind.mahabharata-dutt",
+   "work": "Maha-bharata",
+   "author": "traditionally attributed to Vyasa",
+   "translator": "Romesh Chunder Dutt",
+   "locator": "Book VII · UDYOGA; Book VII · UDYOGA, normalized characters 1850-2481",
+   "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
+   "excerpt": "Known to all, ye mighty monarchs! May your glory ever last! True to plighted word Yudhishthir hath his weary exile passed, Twelve long years with fair Draupadi in the pathless jungle strayed, And a year in menial service in Virata's palace stayed, He hath kept his plighted promise, braved affliction, woe and shame, And he begs, assembled monarchs, ye shall now his duty name! For he swerveth not from duty kingdom of the sky to win, Prizeth hamlet more than empire, so his course be free from sin, Loss of realm and wealth and glory higher virtues in him prove, Thoughts of peace and not of anger still the good Yudhishthir move!",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  },
+  "counsel": {
+   "recordId": "pg-19630",
+   "sourceId": "ind.mahabharata-dutt",
+   "work": "Maha-bharata",
+   "author": "traditionally attributed to Vyasa",
+   "translator": "Romesh Chunder Dutt",
+   "locator": "Book VII · UDYOGA; Book VII · UDYOGA, normalized characters 10208-10915",
+   "localPath": "content/corpus/indian/primary/mahabharata-dutt-19630.txt",
+   "excerpt": "Seek not war and death of kinsmen, word of peace and love I bring! 'Midst the wide earth's many nations Bharats in their worth excel, Love and kindness, spotless virtue, in the Kuru-elders dwell, Father of the noble nation, now retired from life's turmoil, Ill beseems that sin or untruth should thy ancient bosom soil! For thy sons in impious anger seek to do their kinsmen wrong, And withhold the throne and kingdom which by right to them belong, And a danger thus ariseth like the comet's baleful fire, Slaughtered kinsmen, bleeding nations, soon shall feed its fatal ire! Stretch thy hands, O Kuru monarch! prove thy truth and holy grace, Man of peace! avert the slaughter and preserve thy ancient race.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English translation from Dutt. The Mahabharata volume is a condensed verse rendering; the Ramayana volume contains only the Balakandam and Ayodhyakandam."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "One last try for peace",
+   "body": "The dice game has exiled the Pandavas for thirteen years; the term is up, and Duryodhana shows no sign of returning their kingdom. Krishna goes to Hastinapura as the Pandavas' ambassador — the last chance for peace before a war that will consume the world.",
+   "sourceRefIds": [
+    "counsel"
+   ],
+   "objectiveIds": [
+    "obj.kri.embassy"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The modest ask",
+   "body": "Krishna's offer is deliberately small: not the whole kingdom, not half — just five villages for the five brothers. Peace costs almost nothing, and everyone at court knows it.",
+   "sourceRefIds": [
+    "counsel"
+   ],
+   "objectiveIds": [
+    "obj.kri.embassy"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "'Not a needle-point of land'",
+   "body": "Duryodhana's answer refuses even the token: he will not yield so much as the point of a needle. The refusal is total — and it makes the war certain.",
+   "sourceRefIds": [
+    "duty"
+   ],
+   "objectiveIds": [
+    "obj.kri.refusal"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Krishna reveals himself",
+   "body": "When the Kauravas move to seize him, Krishna shows his cosmic form in the hall — and walks out. Diplomacy is done; the epic turns toward Kurukshetra.",
+   "sourceRefIds": [
+    "counsel"
+   ],
+   "objectiveIds": [
+    "obj.kri.refusal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the embassy matters",
+   "body": "The Mahabharata is honest about its war: it begins only after every peaceful door is tried and shut. The epic's tragedy is that everyone sees the war coming and cannot stop it.",
+   "sourceRefIds": [
+    "duty",
+    "counsel"
+   ],
+   "objectiveIds": [
+    "obj.kri.refusal"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Krishna ask for on the peace embassy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Half the kingdom back"
+    },
+    {
+     "id": "b",
+     "text": "Draupadi's public apology"
+    },
+    {
+     "id": "c",
+     "text": "Just five villages for the five Pandava brothers — a token to prevent the war"
+    },
+    {
+     "id": "d",
+     "text": "The throne for Yudhishthira"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The ask is deliberately small — peace for almost nothing.",
+   "sourceRefIds": [
+    "counsel"
+   ],
+   "objectiveIds": [
+    "obj.kri.embassy"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Duryodhana answer?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He refuses even a needle-point of land — making the war inevitable"
+    },
+    {
+     "id": "b",
+     "text": "He offers a single city"
+    },
+    {
+     "id": "c",
+     "text": "He delays until monsoon"
+    },
+    {
+     "id": "d",
+     "text": "He accepts but breaks the oath"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Total refusal is what turns the epic toward Kurukshetra.",
+   "sourceRefIds": [
+    "duty"
+   ],
+   "objectiveIds": [
+    "obj.kri.refusal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

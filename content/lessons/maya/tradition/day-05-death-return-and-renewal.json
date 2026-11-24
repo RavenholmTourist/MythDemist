@@ -1,205 +1,195 @@
 {
-  "id": "maya.week01.day05.death-return-and-renewal",
-  "version": 2,
-  "weekId": "maya.tradition.week01",
-  "pantheon": "maya",
-  "themeMode": "pantheon",
-  "title": "The Twins' Death and Return",
-  "subtitle": "A staged death outwits Xibalba's rulers",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "maya",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.maya.5.concept",
-      "text": "What happens to the twins' bones after their deaths?"
-    },
-    {
-      "id": "obj.maya.5.source",
-      "text": "What do the twins do when Xibalba's rulers ask to be revived?"
-    }
-  ],
-  "sourceReferences": {
-    "return": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9276-9455",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "they stretched themselves upon a funeral pile and died together. Their bones were beaten to powder and thrown into the river, where they sank, and were transformed into young men.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    },
-    "fate": {
-      "recordId": "pg-56550",
-      "sourceId": "maya.popol-vuh",
-      "work": "The Popol Vuh",
-      "author": "Lewis Spence",
-      "translator": "not applicable; Spence authored this English summary",
-      "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9915-10136",
-      "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
-      "excerpt": "The monarchs of Xibalba, anxious to experience the novel sensation of a temporary death, requested to be slain and resuscitated. They were speedily killed, but the brothers refrained from resuscitating their arch-enemies.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
-    }
+ "id": "maya.week01.day05.death-return-and-renewal",
+ "version": 3,
+ "weekId": "maya.tradition.week01",
+ "pantheon": "maya",
+ "themeMode": "pantheon",
+ "title": "The Twins' Death and Return",
+ "subtitle": "A staged death outwits Xibalba's rulers",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "twins",
+  "death",
+  "return",
+  "maya"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ret.death",
+   "text": "How do the twins die?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The twins plan a deception",
-      "body": "After surviving the ordeals, Hun-Ahpu and Xbalanque tell two sorcerers what to do with their bones, then die on a funeral pyre.",
-      "sourceRefIds": [
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Bones return to life",
-      "body": "Quotation from Spence's English summary (whitespace normalized): “they stretched themselves upon a funeral pile and died together. Their bones were beaten to powder and thrown into the river, where they sank, and were transformed into young men.”",
-      "sourceRefIds": [
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The rulers ask for the same power",
-      "body": "The princes of Xibalba ask the twins to kill and revive them. The twins kill them but refuse to bring them back.",
-      "sourceRefIds": [
-        "fate"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not confuse the different returns",
-      "body": "Spence's summary says the twins return to life, then later says their father and uncle rise to heaven and become the Sun and Moon. Those are distinct events in his account.",
-      "sourceRefIds": [
-        "return",
-        "fate"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Victory ends the rulers' authority",
-      "body": "After the princes die, the twins forbid them from playing ball and assign them menial tasks in Spence's version.",
-      "sourceRefIds": [
-        "fate"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What happens to the twins' bones after their deaths?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They are placed in the Sampo"
-        },
-        {
-          "id": "b",
-          "text": "They are turned into the Sun and Moon immediately"
-        },
-        {
-          "id": "c",
-          "text": "They are beaten to powder, thrown in the river, and the twins return in new forms"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Spence says the bones are powdered and thrown into the river, after which the twins reappear in other forms.",
-      "sourceRefIds": [
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "return"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What do the twins do when Xibalba's rulers ask to be revived?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They send the rulers to the House of Bats"
-        },
-        {
-          "id": "b",
-          "text": "They kill the rulers but do not bring them back"
-        },
-        {
-          "id": "c",
-          "text": "They let the rulers win a ballgame"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The summary says the twins refuse to resuscitate their arch-enemies.",
-      "sourceRefIds": [
-        "fate"
-      ],
-      "objectiveIds": [
-        "obj.maya.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named section of Spence's Popol Vuh summary.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this Spence's summary or a direct translation?"
-        ],
-        "sourceRefIds": [
-          "fate"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ret.trick",
+   "text": "What is the return-trick?"
   }
+ ],
+ "sourceReferences": {
+  "return": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9276-9455",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "they stretched themselves upon a funeral pile and died together. Their bones were beaten to powder and thrown into the river, where they sank, and were transformed into young men.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  },
+  "fate": {
+   "recordId": "pg-56550",
+   "sourceId": "maya.popol-vuh",
+   "work": "The Popol Vuh",
+   "author": "Lewis Spence",
+   "translator": "not applicable; Spence authored this English summary",
+   "locator": "Spence summary · Second Book; Spence summary · Second Book, normalized characters 9915-10136",
+   "localPath": "content/corpus/maya/primary/popol-vuh-56550.txt",
+   "excerpt": "The monarchs of Xibalba, anxious to experience the novel sensation of a temporary death, requested to be slain and resuscitated. They were speedily killed, but the brothers refrained from resuscitating their arch-enemies.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Spence's 1908 English summary, which he says draws on Brasseur de Bourbourg's French and Ximénez's Spanish translations. This is not a direct translation of the K'iche' text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The death they choose",
+   "body": "Out-tricked at every turn, the lords summon the twins to one last pyre — and the twins, knowing it, leap in willingly: they are burned, ground, and scattered on the river.",
+   "sourceRefIds": [
+    "fate"
+   ],
+   "objectiveIds": [
+    "obj.ret.death"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Ashes into catfish",
+   "body": "From the river the ashes become catfish — then the twins themselves, returned disguised as wandering beggar-dancers.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The dance that kills the lords",
+   "body": "Their show-stopper trick: they 'sacrifice' each other and restore one another — the lords, delighted, ask to be sacrificed too — and the twins sacrifice them for real, without the restoration.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The lords' defeat",
+   "body": "One by one the death-lords of Xibalba are destroyed — the twins win the underworld by the very trick the lords taught them: sacrifice.",
+   "sourceRefIds": [
+    "return",
+    "fate"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Through Spence's summary",
+   "body": "We reach this tale through Lewis Spence's summary of the Popol Vuh — a secondary retelling of the Quiche Maya book, not the text itself — the story is real, the voice is an intermediary.",
+   "sourceRefIds": [
+    "fate"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How do the twins defeat the lords of Xibalba?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They storm Xibalba with an army"
+    },
+    {
+     "id": "b",
+     "text": "They burn the underworld's gates"
+    },
+    {
+     "id": "c",
+     "text": "They let themselves be sacrificed and return disguised — then 'sacrifice' the lords in their own show-trick, without restoring them"
+    },
+    {
+     "id": "d",
+     "text": "They bargain for the lords' surrender"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The final trick flips the sacrifice on the sacrificers.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What form do the twins take after being burned?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Their ashes become catfish in the river — then the twins returned as beggar-dancers"
+    },
+    {
+     "id": "b",
+     "text": "They are reborn as jaguars"
+    },
+    {
+     "id": "c",
+     "text": "They become birds in the sky"
+    },
+    {
+     "id": "d",
+     "text": "They return as old men"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Death → ashes → catfish → beggars → gods of the story.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ret.trick"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

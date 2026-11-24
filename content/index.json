@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T14:21:42.368670+00:00",
+  "generatedAt": "2026-11-24T14:38:48.226560+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -1897,23 +1897,20 @@
       ],
       "assessment": null,
       "themes": [
-        "ambiguity",
-        "cunning",
-        "desire",
-        "ending",
         "fate",
         "freyja",
+        "giants",
         "loki",
-        "magic",
+        "mimir",
+        "mjolnir",
         "norse",
         "odin",
-        "power",
-        "prose-edda",
-        "protection",
         "ragnarok",
-        "strength",
+        "runes",
+        "seidr",
         "thor",
-        "wisdom"
+        "trickster",
+        "vanir"
       ]
     },
     {
@@ -3889,21 +3886,21 @@
     },
     {
       "id": "nor.gods.day01.odin-wisdom",
-      "version": 2,
+      "version": 4,
       "pantheon": "norse",
-      "title": "Odin: Wisdom Has a Price",
+      "title": "Odin: The Price of Wisdom",
       "weekId": "nor.gods.week01",
       "tags": [
-        "norse",
         "odin",
-        "wisdom",
-        "prose-edda"
+        "mimir",
+        "runes",
+        "norse"
       ],
       "difficulty": 2,
       "path": "content/lessons/norse/norse-gods/day-01-odin-wisdom.json",
       "objectiveIds": [
-        "obj.odin.wisdom",
-        "obj.edda.source"
+        "obj.odin.eye",
+        "obj.odin.runes"
       ],
       "recordIds": [
         "pg-18947",
@@ -3913,34 +3910,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "mimir",
         "norse",
         "odin",
-        "prose-edda",
-        "wisdom"
+        "runes"
       ],
       "entities": [
+        "mimir",
         "norse",
         "odin",
-        "prose-edda",
-        "wisdom"
+        "runes"
       ]
     },
     {
       "id": "norse.week01.day02.thor-protection",
-      "version": 2,
+      "version": 4,
       "pantheon": "norse",
-      "title": "Thor: Strength and Protection",
+      "title": "Thor: The Walls' Defender",
       "weekId": "nor.gods.week01",
       "tags": [
         "thor",
-        "protection",
-        "strength"
+        "mjolnir",
+        "giants",
+        "norse"
       ],
       "difficulty": 2,
       "path": "content/lessons/norse/gods/day-02-thor-protection.json",
       "objectiveIds": [
-        "obj.thor-protection.concept",
-        "obj.thor-protection.source"
+        "obj.thor.role",
+        "obj.thor.humour"
       ],
       "recordIds": [
         "pg-73533"
@@ -3949,32 +3947,34 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "protection",
-        "strength",
+        "giants",
+        "mjolnir",
+        "norse",
         "thor"
       ],
       "entities": [
-        "protection",
-        "strength",
+        "giants",
+        "mjolnir",
+        "norse",
         "thor"
       ]
     },
     {
       "id": "norse.week01.day03.loki-ambiguity",
-      "version": 2,
+      "version": 4,
       "pantheon": "norse",
-      "title": "Loki: Cunning and Ambiguity",
+      "title": "Loki: The Problem Inside",
       "weekId": "nor.gods.week01",
       "tags": [
         "loki",
-        "cunning",
-        "ambiguity"
+        "trickster",
+        "norse"
       ],
       "difficulty": 2,
       "path": "content/lessons/norse/gods/day-03-loki-ambiguity.json",
       "objectiveIds": [
-        "obj.loki-ambiguity.concept",
-        "obj.loki-ambiguity.source"
+        "obj.loki.both",
+        "obj.loki.bound"
       ],
       "recordIds": [
         "pg-73533"
@@ -3983,33 +3983,33 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "ambiguity",
-        "cunning",
-        "loki"
+        "loki",
+        "norse",
+        "trickster"
       ],
       "entities": [
-        "ambiguity",
-        "cunning",
-        "loki"
+        "loki",
+        "norse",
+        "trickster"
       ]
     },
     {
       "id": "norse.week01.day04.freyja-power",
-      "version": 2,
+      "version": 4,
       "pantheon": "norse",
-      "title": "Freyja: Desire, Magic, and Power",
+      "title": "Freyja: Not a Prize",
       "weekId": "nor.gods.week01",
       "tags": [
         "freyja",
-        "desire",
-        "magic",
-        "power"
+        "seidr",
+        "vanir",
+        "norse"
       ],
       "difficulty": 2,
       "path": "content/lessons/norse/gods/day-04-freyja-power.json",
       "objectiveIds": [
-        "obj.freyja-power.concept",
-        "obj.freyja-power.source"
+        "obj.freyja.scope",
+        "obj.freyja.refusal"
       ],
       "recordIds": [
         "pg-18947",
@@ -4019,34 +4019,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "desire",
         "freyja",
-        "magic",
-        "power"
+        "norse",
+        "seidr",
+        "vanir"
       ],
       "entities": [
-        "desire",
         "freyja",
-        "magic",
-        "power"
+        "norse",
+        "seidr",
+        "vanir"
       ]
     },
     {
       "id": "norse.week01.day05.ragnarok-fate",
-      "version": 2,
+      "version": 4,
       "pantheon": "norse",
-      "title": "Fate and Ragnar\u00f6k",
+      "title": "Ragnar\u00f6k: The End Everyone Sees Coming",
       "weekId": "nor.gods.week01",
       "tags": [
         "ragnarok",
         "fate",
-        "ending"
+        "odin",
+        "norse"
       ],
       "difficulty": 2,
       "path": "content/lessons/norse/gods/day-05-ragnarok-fate.json",
       "objectiveIds": [
-        "obj.ragnarok-fate.concept",
-        "obj.ragnarok-fate.source"
+        "obj.rag.know",
+        "obj.rag.after"
       ],
       "recordIds": [
         "pg-18947",
@@ -4056,13 +4057,15 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "ending",
         "fate",
+        "norse",
+        "odin",
         "ragnarok"
       ],
       "entities": [
-        "ending",
         "fate",
+        "norse",
+        "odin",
         "ragnarok"
       ]
     },

@@ -1,210 +1,194 @@
 {
-  "id": "norse.week01.day04.freyja-power",
-  "version": 2,
-  "weekId": "nor.gods.week01",
-  "pantheon": "norse",
-  "themeMode": "pantheon",
-  "title": "Freyja: Desire, Magic, and Power",
-  "subtitle": "A goddess whose roles resist one label",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "freyja",
-    "desire",
-    "magic",
-    "power"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.freyja-power.concept",
-      "text": "Explain what Snorri and Grímnismál say about Freyja and the slain."
-    },
-    {
-      "id": "obj.freyja-power.source",
-      "text": "Compare the prose account with its cited poetic passage."
-    }
-  ],
-  "sourceReferences": {
-    "prose": {
-      "recordId": "pg-18947",
-      "sourceId": "nor.snorri.prose-edda",
-      "work": "Gylfaginning (in the Prose Edda)",
-      "author": "Snorri Sturluson",
-      "translator": "Rasmus B. Anderson",
-      "locator": "Freyja and Folkvang in Gylfaginning; local text normalized characters 86916-87244",
-      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "Freyja is the most famous of the goddesses. She has in heaven a dwelling which is called Folkvang, and when she rides to the battle, one half of the slain belong to her, and the other half to Odin. As is here said: Folkvang it is called, And there rules Freyja. For the seats in the hall Half of the slain She chooses each day;",
-      "evidenceType": "quotation",
-      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
-    },
-    "poem": {
-      "recordId": "pg-73533",
-      "sourceId": "nor.poetic-edda",
-      "work": "Grímnismál (in the Poetic Edda)",
-      "author": "Anonymous Old Norse poets",
-      "translator": "Henry Adams Bellows",
-      "locator": "Grímnismál, stanza 14; local text normalized characters 149488-149647",
-      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "14. The ninth is Folkvang, | where Freyja decrees Who shall have seats in the hall; The half of the dead | each day does she choose, And half does Othin have.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
-    }
+ "id": "norse.week01.day04.freyja-power",
+ "version": 4,
+ "weekId": "nor.gods.week01",
+ "pantheon": "norse",
+ "themeMode": "pantheon",
+ "title": "Freyja: Not a Prize",
+ "subtitle": "Love, war-magic, and the first pick of the dead — the goddess who refuses to be traded",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "freyja",
+  "seidr",
+  "vanir",
+  "norse"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.freyja.scope",
+   "text": "What powers does Freyja actually hold?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A share of the slain",
-      "body": "Snorri's Gylfaginning says Freyja chooses half of those slain in battle for seats in Folkvang; Odin receives the other half.",
-      "sourceRefIds": [
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Snorri's prose account",
-      "body": "Source quotation (translated; whitespace normalized): “Freyja is the most famous of the goddesses. She has in heaven a dwelling which is called Folkvang, and when she rides to the battle, one half of the slain belong to her, and the other half to Odin. As is here said: Folkvang it is called, And there rules Freyja. For the seats in the hall Half of the slain She chooses each day;”",
-      "sourceRefIds": [
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "source",
-      "title": "The poetic stanza",
-      "body": "Source quotation (translated; whitespace normalized): “14. The ninth is Folkvang, | where Freyja decrees Who shall have seats in the hall; The half of the dead | each day does she choose, And half does Othin have.”",
-      "sourceRefIds": [
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Compare the witnesses carefully",
-      "body": "Anderson's edition identifies the verse as Grímnismál 14. Treat the prose and poem as related source testimony, not as two unrelated confirmations of a historical afterlife system.",
-      "sourceRefIds": [
-        "prose",
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Do not flatten the claim",
-      "body": "These passages describe a literary division of the battle-dead. They do not establish that every Norse community held one uniform belief about the afterlife.",
-      "sourceRefIds": [
-        "prose",
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "In Gylfaginning, who chooses half of those slain in battle?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Freyja"
-        },
-        {
-          "id": "b",
-          "text": "Odin"
-        },
-        {
-          "id": "c",
-          "text": "Frigg"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Snorri assigns half to Freyja and half to Odin.",
-      "sourceRefIds": [
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.concept"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "prose"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Grímnismál 14 add to the prose description?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It says Thor chooses every fallen warrior"
-        },
-        {
-          "id": "b",
-          "text": "It gives a complete account of all Norse burial customs"
-        },
-        {
-          "id": "c",
-          "text": "A poetic stanza names Folkvang and says Freyja chooses half the dead"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The stanza supports a source-specific comparison, not a universal account of practice.",
-      "sourceRefIds": [
-        "poem",
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.freyja-power.source"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "poem",
-          "prose"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.freyja.refusal",
+   "text": "What does her refusal in the Thrym story show?"
   }
+ ],
+ "sourceReferences": {
+  "prose": {
+   "recordId": "pg-18947",
+   "sourceId": "nor.snorri.prose-edda",
+   "work": "Gylfaginning (in the Prose Edda)",
+   "author": "Snorri Sturluson",
+   "translator": "Rasmus B. Anderson",
+   "locator": "Freyja and Folkvang in Gylfaginning; local text normalized characters 86916-87244",
+   "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+   "excerpt": "Freyja is the most famous of the goddesses. She has in heaven a dwelling which is called Folkvang, and when she rides to the battle, one half of the slain belong to her, and the other half to Odin. As is here said: Folkvang it is called, And there rules Freyja. For the seats in the hall Half of the slain She chooses each day;",
+   "evidenceType": "quotation",
+   "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
+  },
+  "poem": {
+   "recordId": "pg-73533",
+   "sourceId": "nor.poetic-edda",
+   "work": "Grímnismál (in the Poetic Edda)",
+   "author": "Anonymous Old Norse poets",
+   "translator": "Henry Adams Bellows",
+   "locator": "Grímnismál, stanza 14; local text normalized characters 149488-149647",
+   "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+   "excerpt": "14. The ninth is Folkvang, | where Freyja decrees Who shall have seats in the hall; The half of the dead | each day does she choose, And half does Othin have.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The most-wanted goddess",
+   "body": "Freyja is the story every giant tries to win — Thrym asks for her as the hammer's price, and other giants try similarly. The myths' joke: everyone wants to 'marry Freyja' and nobody asks Freyja.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.freyja.refusal"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The first chooser of the slain",
+   "body": "But she is not a love-object in her own right: she takes HALF the battle-dead to her hall Folkvangr, before Odin's Valhalla gets the rest. The honoured dead answer to her first.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.freyja.scope"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The teacher of seidr",
+   "body": "Freyja is mistress of seidr — Norse fate-magic — and the myths say she taught it to the gods themselves, including Odin. The goddess the giants want is also the witch who trained the Allfather.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.freyja.scope"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Her own grief",
+   "body": "Her husband Od wanders the world and she weeps golden tears searching for him — the myth keeps her as an agent with her own loss, not a pawn in giants' bargains.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.freyja.refusal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why she refuses the trade",
+   "body": "When Thrym demands her, Freyja's fury shakes the hall and her necklace snaps — the outrage isn't just that she's asked, it's that the gods consider it. Her refusal is the myth's verdict on the bargaining.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.freyja.refusal"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What powers does Freyja hold beyond love?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She takes half the battle-dead first and is mistress of seidr — the fate-magic she taught the gods"
+    },
+    {
+     "id": "b",
+     "text": "She rules the harvest"
+    },
+    {
+     "id": "c",
+     "text": "She commands the winds"
+    },
+    {
+     "id": "d",
+     "text": "She guards the rainbow bridge"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The 'love goddess' is also a war-power and the pantheon's magic-teacher.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.freyja.scope"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Freyja react to being offered to Thrym?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "With fury that shakes the hall — the bargain is refused on her own terms, and Thor goes in disguise instead"
+    },
+    {
+     "id": "b",
+     "text": "She agrees reluctantly for the hammer's sake"
+    },
+    {
+     "id": "c",
+     "text": "She is tricked into the wedding"
+    },
+    {
+     "id": "d",
+     "text": "She flees Asgard to escape the giants"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Her refusal is decisive — the plan changes to costuming Thor.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.freyja.refusal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

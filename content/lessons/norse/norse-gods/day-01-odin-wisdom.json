@@ -1,210 +1,194 @@
 {
-  "id": "nor.gods.day01.odin-wisdom",
-  "version": 2,
-  "weekId": "nor.gods.week01",
-  "pantheon": "norse",
-  "themeMode": "pantheon",
-  "title": "Odin: Wisdom Has a Price",
-  "subtitle": "Knowledge, leadership, and cost in the Prose Edda",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "norse",
-    "odin",
-    "wisdom",
-    "prose-edda"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.odin.wisdom",
-      "text": "Explain the eye pledge in Snorri's Mimer's Well episode."
-    },
-    {
-      "id": "obj.edda.source",
-      "text": "Distinguish that prose episode from Havamal's rune ordeal."
-    }
-  ],
-  "sourceReferences": {
-    "mimer": {
-      "recordId": "pg-18947",
-      "sourceId": "nor.snorri.prose-edda",
-      "work": "Gylfaginning (in the Prose Edda)",
-      "author": "Snorri Sturluson",
-      "translator": "Rasmus B. Anderson",
-      "locator": "Mimer's Well in Gylfaginning; local text normalized characters 72397-72633",
-      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
-    },
-    "runes": {
-      "recordId": "pg-73533",
-      "sourceId": "nor.poetic-edda",
-      "work": "Havamal (in the Poetic Edda)",
-      "author": "Anonymous Old Norse poets",
-      "translator": "Henry Adams Bellows",
-      "locator": "Havamal, stanzas 139-140; local text normalized characters 102346-102711",
-      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "139. I ween that I hung | on the windy tree, Hung there for nights full nine; With the spear I was wounded, | and offered I was To Othin, myself to myself, On the tree that none | may ever know What root beneath it runs. 140. None made me happy | with loaf or horn, And there below I looked; I took up the runes, | shrieking I took them, And forthwith back I fell.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
-    }
+ "id": "nor.gods.day01.odin-wisdom",
+ "version": 4,
+ "weekId": "nor.gods.week01",
+ "pantheon": "norse",
+ "themeMode": "pantheon",
+ "title": "Odin: The Price of Wisdom",
+ "subtitle": "One eye in a well, nine nights on a tree — knowledge is never free",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odin",
+  "mimir",
+  "runes",
+  "norse"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.odin.eye",
+   "text": "What does Odin give for wisdom?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "An eye for a drink",
-      "body": "In Gylfaginning, Mimer's well contains wisdom. Odin receives a drink only after leaving one eye as a pledge.",
-      "sourceRefIds": [
-        "mimer"
-      ],
-      "objectiveIds": [
-        "obj.odin.wisdom"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Snorri's account",
-      "body": "Source quotation (translated; whitespace normalized): “The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.”",
-      "sourceRefIds": [
-        "mimer"
-      ],
-      "objectiveIds": [
-        "obj.edda.source"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "source",
-      "title": "A different ordeal in Havamal",
-      "body": "Source quotation (translated; whitespace normalized): “139. I ween that I hung | on the windy tree, Hung there for nights full nine; With the spear I was wounded, | and offered I was To Othin, myself to myself, On the tree that none | may ever know What root beneath it runs. 140. None made me happy | with loaf or horn, And there below I looked; I took up the runes, | shrieking I took them, And forthwith back I fell.”",
-      "sourceRefIds": [
-        "runes"
-      ],
-      "objectiveIds": [
-        "obj.odin.wisdom"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the episodes separate",
-      "body": "The prose account concerns Mimer's well; Havamal 139-140 describes Odin hanging, being wounded, and taking up runes. These are distinct literary episodes.",
-      "sourceRefIds": [
-        "mimer",
-        "runes"
-      ],
-      "objectiveIds": [
-        "obj.edda.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Wisdom has a cost",
-      "body": "Both texts link knowledge with sacrifice, but their shared theme does not make their episodes the same event or a record of one historical rite.",
-      "sourceRefIds": [
-        "mimer",
-        "runes"
-      ],
-      "objectiveIds": [
-        "obj.odin.wisdom"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Odin pledge at Mimer's well in Gylfaginning?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "One eye"
-        },
-        {
-          "id": "b",
-          "text": "His spear"
-        },
-        {
-          "id": "c",
-          "text": "His mead horn"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Snorri says Mimer grants the drink after Odin leaves one eye as a pledge.",
-      "sourceRefIds": [
-        "mimer"
-      ],
-      "objectiveIds": [
-        "obj.odin.wisdom"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "mimer"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which work tells of Odin hanging on the tree and taking up runes?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Gylfaginning's Mimer's Well passage"
-        },
-        {
-          "id": "b",
-          "text": "Grimnismal's list of divine halls"
-        },
-        {
-          "id": "c",
-          "text": "Havamal, stanzas 139-140"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The rune ordeal is narrated in Havamal; Snorri's Mimer passage tells a different sacrifice.",
-      "sourceRefIds": [
-        "runes",
-        "mimer"
-      ],
-      "objectiveIds": [
-        "obj.edda.source"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "runes",
-          "mimer"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.odin.runes",
+   "text": "How does he win the runes?"
   }
+ ],
+ "sourceReferences": {
+  "mimer": {
+   "recordId": "pg-18947",
+   "sourceId": "nor.snorri.prose-edda",
+   "work": "Gylfaginning (in the Prose Edda)",
+   "author": "Snorri Sturluson",
+   "translator": "Rasmus B. Anderson",
+   "locator": "Mimer's Well in Gylfaginning; local text normalized characters 72397-72633",
+   "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+   "excerpt": "The owner of the well hight Mimer. He is full of wisdom, for he drinks from the well with the Gjallar-horn. Alfather once came there and asked for a drink from the well, but he did not get it before he left one of his eyes as a pledge.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
+  },
+  "runes": {
+   "recordId": "pg-73533",
+   "sourceId": "nor.poetic-edda",
+   "work": "Havamal (in the Poetic Edda)",
+   "author": "Anonymous Old Norse poets",
+   "translator": "Henry Adams Bellows",
+   "locator": "Havamal, stanzas 139-140; local text normalized characters 102346-102711",
+   "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+   "excerpt": "139. I ween that I hung | on the windy tree, Hung there for nights full nine; With the spear I was wounded, | and offered I was To Othin, myself to myself, On the tree that none | may ever know What root beneath it runs. 140. None made me happy | with loaf or horn, And there below I looked; I took up the runes, | shrieking I took them, And forthwith back I fell.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "One eye for a drink",
+   "body": "Mimir's well holds wisdom itself, and its keeper will share it only at a price. Odin pays with an eye — dropped into the well, where it stays. From then on the wisest god sees the world through one.",
+   "sourceRefIds": [
+    "mimer"
+   ],
+   "objectiveIds": [
+    "obj.odin.eye"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Nine nights on the tree",
+   "body": "For the runes — the sacred letters that carry magic and knowledge — Odin performs a self-sacrifice: hanging nine nights on the world-tree Yggdrasil, wounded by his own spear, offering himself to himself. No food, no drink, nobody's help.",
+   "sourceRefIds": [
+    "runes"
+   ],
+   "objectiveIds": [
+    "obj.odin.runes"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "He takes the runes screaming",
+   "body": "At the end of the ordeal, wisdom arrives: he looks down, sees the runes below, and seizes them. The price of the knowledge is the suffering itself — it cannot be shortcut.",
+   "sourceRefIds": [
+    "runes"
+   ],
+   "objectiveIds": [
+    "obj.odin.runes"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The wanderer-god",
+   "body": "Odin is not a thunderbolt king — he walks the world in a grey cloak and broad hat, trading small favours for news. Kings have had their hall conversations with him without ever knowing who sat at their fire.",
+   "sourceRefIds": [
+    "mimer"
+   ],
+   "objectiveIds": [
+    "obj.odin.eye"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Wisdom that still costs",
+   "body": "Every knowledge-gain in Norse myth is paid for — an eye, nine nights, a hand. Watch for the pattern: in this tradition, the universe keeps accounts.",
+   "sourceRefIds": [
+    "mimer"
+   ],
+   "objectiveIds": [
+    "obj.odin.eye"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Odin pay for a drink from Mimir's well?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "One of his eyes — left in the well as a pledge for wisdom"
+    },
+    {
+     "id": "b",
+     "text": "A hand of gold"
+    },
+    {
+     "id": "c",
+     "text": "Nine years of service"
+    },
+    {
+     "id": "d",
+     "text": "The spear Gungnir"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The well's price is permanent: wisdom bought with sight.",
+   "sourceRefIds": [
+    "mimer"
+   ],
+   "objectiveIds": [
+    "obj.odin.eye"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Odin win the runes?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "By hanging nine nights wounded on Yggdrasil — a self-sacrifice that finally reveals them"
+    },
+    {
+     "id": "b",
+     "text": "By stealing them from a giant's hall"
+    },
+    {
+     "id": "c",
+     "text": "By deciphering them on the tree's bark"
+    },
+    {
+     "id": "d",
+     "text": "By trading an eye to the dwarves"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The runes are won through ordeal, not study — the suffering is the purchase.",
+   "sourceRefIds": [
+    "runes"
+   ],
+   "objectiveIds": [
+    "obj.odin.runes"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

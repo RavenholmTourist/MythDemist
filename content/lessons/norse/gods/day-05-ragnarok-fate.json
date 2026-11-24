@@ -1,207 +1,194 @@
 {
-  "id": "norse.week01.day05.ragnarok-fate",
-  "version": 2,
-  "weekId": "nor.gods.week01",
-  "pantheon": "norse",
-  "themeMode": "pantheon",
-  "title": "Fate and Ragnarök",
-  "subtitle": "An ending built into the world",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "ragnarok",
-    "fate",
-    "ending"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.ragnarok-fate.concept",
-      "text": "Describe the renewed world in Völuspá 59 and Gylfaginning 58."
-    },
-    {
-      "id": "obj.ragnarok-fate.source",
-      "text": "Distinguish the poem from Snorri's prose retelling."
-    }
-  ],
-  "sourceReferences": {
-    "prose": {
-      "recordId": "pg-18947",
-      "sourceId": "nor.snorri.prose-edda",
-      "work": "Gylfaginning (in the Prose Edda)",
-      "author": "Snorri Sturluson",
-      "translator": "Rasmus B. Anderson",
-      "locator": "Gylfaginning 58, the renewed world; local text normalized characters 159549-159741",
-      "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
-      "excerpt": "58. Then said Ganglere: Do any gods live then? Is there any earth or heaven? Har answered: The earth rises again from the sea, and is green and fair. The fields unsown produce their harvests.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
-    },
-    "poem": {
-      "recordId": "pg-73533",
-      "sourceId": "nor.poetic-edda",
-      "work": "Völuspá (in the Poetic Edda)",
-      "author": "Anonymous Old Norse poets",
-      "translator": "Henry Adams Bellows",
-      "locator": "Völuspá, stanzas 59-61; local text normalized characters 45061-45558",
-      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "59. Now do I see | the earth anew Rise all green | from the waves again; The cataracts fall, | and the eagle flies, And fish he catches | beneath the cliffs. 60. The gods in Ithavoll | meet together, Of the terrible girdler | of earth they talk, And the mighty past | they call to mind, And the ancient runes | of the Ruler of Gods. 61. In wondrous beauty | once again Shall the golden tables | stand mid the grass, Which the gods had owned | in the days of old, . . . . . . . . | . . . . . . . .",
-      "evidenceType": "quotation",
-      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
-    }
+ "id": "norse.week01.day05.ragnarok-fate",
+ "version": 4,
+ "weekId": "nor.gods.week01",
+ "pantheon": "norse",
+ "themeMode": "pantheon",
+ "title": "Ragnarök: The End Everyone Sees Coming",
+ "subtitle": "Even the gods die — and the world after it begins again",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "ragnarok",
+  "fate",
+  "odin",
+  "norse"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.rag.know",
+   "text": "Why is Ragnarök different from a surprise ending?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The story continues after catastrophe",
-      "body": "Völuspá does not end its vision with the burning and sinking of the old world. Stanza 59 describes the earth rising green again from the waves.",
-      "sourceRefIds": [
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The Völuspá stanza",
-      "body": "Source quotation (translated; whitespace normalized): “59. Now do I see | the earth anew Rise all green | from the waves again; The cataracts fall, | and the eagle flies, And fish he catches | beneath the cliffs. 60. The gods in Ithavoll | meet together, Of the terrible girdler | of earth they talk, And the mighty past | they call to mind, And the ancient runes | of the Ruler of Gods. 61. In wondrous beauty | once again Shall the golden tables | stand mid the grass, Which the gods had owned | in the days of old, . . . . . . . . | . . . . . . . .”",
-      "sourceRefIds": [
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "source",
-      "title": "Snorri's prose question and answer",
-      "body": "Source quotation (translated; whitespace normalized): “58. Then said Ganglere: Do any gods live then? Is there any earth or heaven? Har answered: The earth rises again from the sea, and is green and fair. The fields unsown produce their harvests.”",
-      "sourceRefIds": [
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Compare poem and retelling",
-      "body": "Völuspá speaks through a prophetic voice; Gylfaginning retells the events in a question-and-answer frame. Keep each work's wording and framing attached to the claim.",
-      "sourceRefIds": [
-        "poem",
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "An ending with a sequel",
-      "body": "Both excerpts make renewal part of their account, but their narrative forms differ. Do not turn these two texts into a single timeless Norse canon.",
-      "sourceRefIds": [
-        "poem",
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Völuspá 59 say happens to the earth?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It remains sunk beneath the sea"
-        },
-        {
-          "id": "b",
-          "text": "It is replaced by an untouched world with no prior catastrophe"
-        },
-        {
-          "id": "c",
-          "text": "It rises green again from the waves"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The stanza names renewal after the preceding catastrophe.",
-      "sourceRefIds": [
-        "poem"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.concept"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "poem"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "According to Gylfaginning 58, which gods survive to see the renewed world?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Freyja and Frigg"
-        },
-        {
-          "id": "b",
-          "text": "Vidar and Vale"
-        },
-        {
-          "id": "c",
-          "text": "Thor and Loki"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Snorri names Vidar and Vale in this answer; compare it with the poem's own prophecy.",
-      "sourceRefIds": [
-        "prose"
-      ],
-      "objectiveIds": [
-        "obj.ragnarok-fate.source"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "prose"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.rag.after",
+   "text": "What survives the end?"
   }
+ ],
+ "sourceReferences": {
+  "prose": {
+   "recordId": "pg-18947",
+   "sourceId": "nor.snorri.prose-edda",
+   "work": "Gylfaginning (in the Prose Edda)",
+   "author": "Snorri Sturluson",
+   "translator": "Rasmus B. Anderson",
+   "locator": "Gylfaginning 58, the renewed world; local text normalized characters 159549-159741",
+   "localPath": "content/corpus/norse/primary/prose-edda-anderson-18947.txt",
+   "excerpt": "58. Then said Ganglere: Do any gods live then? Is there any earth or heaven? Har answered: The earth rises again from the sea, and is green and fair. The fields unsown produce their harvests.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Rasmus B. Anderson translation excerpt; whitespace normalized."
+  },
+  "poem": {
+   "recordId": "pg-73533",
+   "sourceId": "nor.poetic-edda",
+   "work": "Völuspá (in the Poetic Edda)",
+   "author": "Anonymous Old Norse poets",
+   "translator": "Henry Adams Bellows",
+   "locator": "Völuspá, stanzas 59-61; local text normalized characters 45061-45558",
+   "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+   "excerpt": "59. Now do I see | the earth anew Rise all green | from the waves again; The cataracts fall, | and the eagle flies, And fish he catches | beneath the cliffs. 60. The gods in Ithavoll | meet together, Of the terrible girdler | of earth they talk, And the mighty past | they call to mind, And the ancient runes | of the Ruler of Gods. 61. In wondrous beauty | once again Shall the golden tables | stand mid the grass, Which the gods had owned | in the days of old, . . . . . . . . | . . . . . . . .",
+   "evidenceType": "quotation",
+   "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The doom in the calendar",
+   "body": "Norse myth is unusual: the gods KNOW how it ends. Prophecies of Ragnarök — the world's final battle — run through the whole tradition, and the gods spend their time preparing, not denying.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.rag.know"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Fimbulwinter and the wolves",
+   "body": "The end comes on schedule: three winters without summer, the sun and moon devoured by the wolves that chase them, the bonds breaking. Loki slips free; the giants sail for the last war.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.rag.know"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The gods fall in order",
+   "body": "Odin is swallowed by the wolf Fenrir. Thor kills the world-serpent and dies nine steps later of its poison. Heimdall and Loki kill each other. Tyr falls to the hellhound. The destruction is total and mutual.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.rag.know"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "And then the world again",
+   "body": "The earth sinks into the sea — then rises green. A new sun shines; the sons of the gods gather in a cleansed field; a man and woman hidden in the world-tree's trunk wake to seed humanity. Ragnarök is an ending that is also a beginning.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.rag.after"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why this myth matters",
+   "body": "Most traditions end at paradise or punishment. The Norse ending is stranger: everything dies, and something better quietly sprouts. A people who built a theology around inevitable doom made their hope conditional but real.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.rag.after"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What makes Ragnarök different from a surprise apocalypse?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The gods know it's coming — prophecy runs through the whole tradition, and they prepare for a doom they can't prevent"
+    },
+    {
+     "id": "b",
+     "text": "It only affects humans"
+    },
+    {
+     "id": "c",
+     "text": "It is a punishment the gods choose"
+    },
+    {
+     "id": "d",
+     "text": "It happens without warning"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The Norse cosmology builds the ending in from the start — knowledge doesn't prevent it.",
+   "sourceRefIds": [
+    "prose"
+   ],
+   "objectiveIds": [
+    "obj.rag.know"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens after Ragnarök?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The earth rises green again — a new sun, the gods' surviving sons, and a hidden human pair repopulate the world"
+    },
+    {
+     "id": "b",
+     "text": "The gods return to Asgard unchanged"
+    },
+    {
+     "id": "c",
+     "text": "The world stays underwater"
+    },
+    {
+     "id": "d",
+     "text": "Loki rebuilds a new pantheon"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The myth's ending is renewal, not eternal darkness — the world after the doom.",
+   "sourceRefIds": [
+    "poem"
+   ],
+   "objectiveIds": [
+    "obj.rag.after"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

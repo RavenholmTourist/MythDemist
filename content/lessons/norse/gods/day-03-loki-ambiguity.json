@@ -1,193 +1,181 @@
 {
-  "id": "norse.week01.day03.loki-ambiguity",
-  "version": 2,
-  "weekId": "nor.gods.week01",
-  "pantheon": "norse",
-  "themeMode": "pantheon",
-  "title": "Loki: Cunning and Ambiguity",
-  "subtitle": "A boundary-crosser whose help is never simple",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "loki",
-    "cunning",
-    "ambiguity"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.loki-ambiguity.concept",
-      "text": "Describe how Lokasenna stages Loki's entrance and hostile speech."
-    },
-    {
-      "id": "obj.loki-ambiguity.source",
-      "text": "Keep Loki's role in this poem distinct from other Norse works."
-    }
-  ],
-  "sourceReferences": {
-    "lokasenna": {
-      "recordId": "pg-73533",
-      "sourceId": "nor.poetic-edda",
-      "work": "Lokasenna (in the Poetic Edda)",
-      "author": "Anonymous Old Norse poets",
-      "translator": "Henry Adams Bellows",
-      "locator": "Lokasenna, stanzas 3-6; local text normalized characters 237167-237900",
-      "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
-      "excerpt": "3. “In shall I go | into Ægir’s hall, For the feast I fain would see; Bale and hatred | I bring to the gods, And their mead with venom I mix.” Eldir spake: 4. “If in thou goest | to Ægir’s hall, And fain the feast wouldst see, And with slander and spite | wouldst sprinkle the gods, Think well lest they wipe it on thee.” Loki spake: 5. “Bethink thee, Eldir, | if thou and I Shall strive with spiteful speech; Richer I grow | in ready words If thou speakest too much to me.” Then Loki went into the hall, but when they who were there saw who had entered, they were all silent. Loki spake: 6. “Thirsty I come | into this thine hall, I, Lopt, from a journey long, To ask of the gods | that one should give Fair mead for a drink to me.",
-      "evidenceType": "quotation",
-      "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
-    }
+ "id": "norse.week01.day03.loki-ambiguity",
+ "version": 4,
+ "weekId": "nor.gods.week01",
+ "pantheon": "norse",
+ "themeMode": "pantheon",
+ "title": "Loki: The Problem Inside",
+ "subtitle": "The gods' best fixer and their worst one — often in the same story",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "loki",
+  "trickster",
+  "norse"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.loki.both",
+   "text": "Why is Loki both rescue and ruin?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Loki approaches the feast",
-      "body": "In Lokasenna, Loki arrives at Aegir's hall after a warning from Eldir. His stated purpose is to provoke the assembled gods, not to mediate their dispute.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Loki states his intent",
-      "body": "Source quotation (translated; whitespace normalized): “3. “In shall I go | into Ægir’s hall, For the feast I fain would see; Bale and hatred | I bring to the gods, And their mead with venom I mix.” Eldir spake: 4. “If in thou goest | to Ægir’s hall, And fain the feast wouldst see, And with slander and spite | wouldst sprinkle the gods, Think well lest they wipe it on thee.” Loki spake: 5. “Bethink thee, Eldir, | if thou and I Shall strive with spiteful speech; Richer I grow | in ready words If thou speakest too much to me.” Then Loki went into the hall, but when they who were there saw who had entered, they were all silent. Loki spake: 6. “Thirsty I come | into this thine hall, I, Lopt, from a journey long, To ask of the gods | that one should give Fair mead for a drink to me.”",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Speech becomes the action",
-      "body": "The poem stages a contest of insults and accusations. Its Loki is a literary speaker in this feast scene, not a complete summary of the figure across Norse texts.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep this poem's frame visible",
-      "body": "Lokasenna is an Eddic poem, translated and transmitted in a medieval manuscript. Read its hostile speech as a scene with a particular dramatic purpose.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "An uneasy guest",
-      "body": "The poem's tension comes from Loki's position inside the feast and his choice to attack its hosts in words.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Loki say he brings into Aegir's hall?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A plan to return Thor's hammer"
-        },
-        {
-          "id": "b",
-          "text": "Bale and hatred, and venom for the mead"
-        },
-        {
-          "id": "c",
-          "text": "A peace offering to settle the gods' quarrel"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Loki announces hostile intent before he enters the hall.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.concept"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "lokasenna"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Lokasenna present Loki in this scene?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As a guest whose insults drive a feast-time verbal conflict"
-        },
-        {
-          "id": "b",
-          "text": "As a neutral compiler listing divine family lines"
-        },
-        {
-          "id": "c",
-          "text": "As a narrator recounting Freyja's marriage"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The poem stages a confrontation through speech; it is not a neutral biography.",
-      "sourceRefIds": [
-        "lokasenna"
-      ],
-      "objectiveIds": [
-        "obj.loki-ambiguity.source"
-      ],
-      "deepDive": {
-        "prompt": "Explore the named source passage.",
-        "suggestedQuestions": [
-          "What words in this excerpt support the answer?",
-          "Which details belong to this source rather than another version?"
-        ],
-        "sourceRefIds": [
-          "lokasenna"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.loki.bound",
+   "text": "What finally happens to him?"
   }
+ ],
+ "sourceReferences": {
+  "lokasenna": {
+   "recordId": "pg-73533",
+   "sourceId": "nor.poetic-edda",
+   "work": "Lokasenna (in the Poetic Edda)",
+   "author": "Anonymous Old Norse poets",
+   "translator": "Henry Adams Bellows",
+   "locator": "Lokasenna, stanzas 3-6; local text normalized characters 237167-237900",
+   "localPath": "content/corpus/norse/primary/poetic-edda-bellows-73533.txt",
+   "excerpt": "3. “In shall I go | into Ægir’s hall, For the feast I fain would see; Bale and hatred | I bring to the gods, And their mead with venom I mix.” Eldir spake: 4. “If in thou goest | to Ægir’s hall, And fain the feast wouldst see, And with slander and spite | wouldst sprinkle the gods, Think well lest they wipe it on thee.” Loki spake: 5. “Bethink thee, Eldir, | if thou and I Shall strive with spiteful speech; Richer I grow | in ready words If thou speakest too much to me.” Then Loki went into the hall, but when they who were there saw who had entered, they were all silent. Loki spake: 6. “Thirsty I come | into this thine hall, I, Lopt, from a journey long, To ask of the gods | that one should give Fair mead for a drink to me.",
+   "evidenceType": "quotation",
+   "note": "Verbatim Henry Adams Bellows translation excerpt; whitespace normalized."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The gods' fixer",
+   "body": "When the gods need a cheat, a shortcut, or a lie that works, Loki is the one they call — he talks them out of debts, tricks giants out of their own plans, and once gives birth to Odin's eight-legged horse.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.both"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "And their ruin",
+   "body": "The same Loki engineers the death of Baldr — the most loved of the gods — by tricking the blind god Hodr into throwing mistletoe, the one thing in the world that can kill him.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.both"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The flyting",
+   "body": "Cornered at a feast, Loki turns on the entire pantheon: he recites each god's private shame aloud — their cowardice, their secrets — until they finally seize him. The poem is called the Lokasenna, 'Loki's Flyting', and it is as brutal as it sounds.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.both"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Bound until the end",
+   "body": "The gods bind Loki in a cave beneath the world with the entrails of his own sons, a serpent dripping venom onto his face. His wife holds a bowl to catch the poison; when she empties it, the drips make him writhe — and the earth shakes. He stays bound until Ragnarök, when he will lead the forces that end the gods.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.bound"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Neither hero nor villain",
+   "body": "Loki is the Norse answer to 'what if the clever one in your camp is also the traitor?' The stories never resolve him — because a group's own wit is always double-edged.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.both"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why is Loki dangerous to the gods despite helping them?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The same cleverness that solves their problems also betrays them — he engineers Baldr's death"
+    },
+    {
+     "id": "b",
+     "text": "He sides openly with the giants"
+    },
+    {
+     "id": "c",
+     "text": "He steals the gods' treasures"
+    },
+    {
+     "id": "d",
+     "text": "He refuses all oaths"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Loki is the inside problem: fixer and traitor at once, unresolved until the end.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.both"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is Loki finally punished?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Bound beneath the world with his sons' entrails, a serpent dripping venom — held until Ragnarök"
+    },
+    {
+     "id": "b",
+     "text": "He is exiled to the sea's edge"
+    },
+    {
+     "id": "c",
+     "text": "He loses his tongue as a forfeit"
+    },
+    {
+     "id": "d",
+     "text": "He is thrown into Helheim"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The binding lasts until the world ends — and he will be there to end it.",
+   "sourceRefIds": [
+    "lokasenna"
+   ],
+   "objectiveIds": [
+    "obj.loki.bound"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

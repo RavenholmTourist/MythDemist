@@ -110,22 +110,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He turns each bandit's own cruelty back on them — club, pines, cliff, and bed"
-    },
-    {
-     "id": "b",
      "text": "He spares each bandit after winning their surrender"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "The gods strike each bandit before Theseus arrives"
+    },
+    {
+     "id": "c",
+     "text": "He turns each bandit's own cruelty back on them — club, pines, cliff, and bed"
     },
     {
      "id": "d",
      "text": "He traps each bandit in the labyrinth"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Plutarch notes Theseus acted 'in imitation of Hercules, who always returned upon his assailants the same sort of' violence they dealt others.",
    "sourceRefIds": [
     "plutarch"
@@ -141,22 +141,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "Sciron — Theseus hurled him off the same rock at Megara"
-    },
-    {
-     "id": "b",
      "text": "Sinis the Pine-Bender"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "Periphetes the Club-Bearer"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "Procrustes"
+    },
+    {
+     "id": "d",
+     "text": "Sciron — Theseus hurled him off the same rock at Megara"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "Sciron made passers-by wash his feet, then kicked them into the sea where a turtle waited; Theseus threw him off the cliff.",
    "sourceRefIds": [
     "plutarch"

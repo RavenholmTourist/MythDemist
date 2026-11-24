@@ -1,203 +1,205 @@
 {
-  "id": "grc.heroes.w05d01.the-catalogue-of-labours",
-  "version": 2,
-  "weekId": "grc.heroes.week05",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Catalogue of Labours",
-  "subtitle": "Mythography makes a system",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "library"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim",
-      "text": "Explain this episode: How many labours does the oracle initially require?"
-    },
-    {
-      "id": "obj.grc.heroes.w05d01.the-catalogue-of-labours.source",
-      "text": "Use the cited passage to explain: Why does the catalogue eventually reach twelve?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.4.12, the oracle and the initial ten labours; book 2 · chapter 4 · section 12, normalized characters 268-569",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "Thespius, and repairing to Delphi he inquired of the god where he should dwell. The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him, and so, she",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "hydra": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.5.2, Hydra labour refused because of Iolaus’ help; book 2 · chapter 5 · section 2, normalized characters 1194-1432",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "But the body of the hydra he slit up and dipped his arrows in the gall. However, Eurystheus said that this labour should not be reckoned among the ten because he had not got the better of the hydra by himself, but with the help of Iolaus.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage excerpt, with whitespace normalized."
-    },
-    "augeas": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.5.5, Augeas labour refused as hired work; book 2 · chapter 5 · section 5, normalized characters 1499-1686",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "by him for help, he slew Eurytion when that centaur came to fetch his bride. But Eurystheus would not admit this labour either among the ten, alleging that it had been performed for hire.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage excerpt, with whitespace normalized."
-    }
+ "id": "grc.heroes.w05d01.the-catalogue-of-labours",
+ "version": 3,
+ "weekId": "grc.heroes.week05",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heracles: The Twelve Labours",
+ "subtitle": "A debt of service measured in monsters",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "heracles",
+  "labours",
+  "eurystheus"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.labours.list",
+   "text": "What are the twelve labours?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "After the killing of his children in madness, Heracles receives an oracle directing service to Eurystheus. The initial instruction is ten labours; the familiar total becomes twelve when Eurystheus refuses to count two feats.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “Now it came to pass that after the battle with the Minyans Hercules was driven mad through the jealousy of Hera and flung his own children, whom he had by Megara, and two children of Iphicles into the fire; wherefore he condemned himself to exile, and was purified by Thespius, and repairing to Delphi”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The catalogue creates a readable system, but that order is a later mythographic construction rather than a single original script.",
-      "sourceRefIds": [
-        "main",
-        "hydra",
-        "augeas"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Do not start with the familiar total and assume the source begins there. Distinguish the oracle’s ten tasks from the eventual twelve, and ask how Eurystheus’ judgement shapes the catalogue.",
-      "sourceRefIds": [
-        "main",
-        "hydra",
-        "augeas"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Read the next labours as problems of method, not only feats of strength.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How many labours does the oracle initially require?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Ten"
-        },
-        {
-          "id": "b",
-          "text": "Twelve"
-        },
-        {
-          "id": "c",
-          "text": "Seven"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Ten is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does the catalogue eventually reach twelve?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Eurystheus refuses the Hydra labour because Iolaus helped and the Augeas labour because it was for hire."
-        },
-        {
-          "id": "b",
-          "text": "Heracles performs two extra labours after being received among the gods."
-        },
-        {
-          "id": "c",
-          "text": "The Pythian priestess revises her oracle after Heracles reaches Tiryns."
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The Library gives two distinct reasons: Iolaus helped with the Hydra, and the Augeas task was performed for hire.",
-      "sourceRefIds": [
-        "main",
-        "hydra",
-        "augeas"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.labours.reason",
+   "text": "Why does Heracles owe them?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.4.12, the oracle and the initial ten labours; book 2 · chapter 4 · section 12, normalized characters 268-569",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "Thespius, and repairing to Delphi he inquired of the god where he should dwell. The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him, and so, she",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "hydra": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.5.2, Hydra labour refused because of Iolaus’ help; book 2 · chapter 5 · section 2, normalized characters 1194-1432",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "But the body of the hydra he slit up and dipped his arrows in the gall. However, Eurystheus said that this labour should not be reckoned among the ten because he had not got the better of the hydra by himself, but with the help of Iolaus.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage excerpt, with whitespace normalized."
+  },
+  "augeas": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.5.5, Augeas labour refused as hired work; book 2 · chapter 5 · section 5, normalized characters 1499-1686",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "by him for help, he slew Eurytion when that centaur came to fetch his bride. But Eurystheus would not admit this labour either among the ten, alleging that it had been performed for hire.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage excerpt, with whitespace normalized."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The sentence",
+   "body": "Heracles does not labour for glory at first — he labours for a sentence. In a fit of god-sent madness he kills his own children; the oracle at Delphi orders him to serve King Eurystheus and perform the tasks set him. The labours are penance, not ambition.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.labours.reason"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The famous twelve",
+   "body": "The canonical list: the Nemean lion, the Lernaean hydra, the Ceryneian hind, the Erymanthian boar, the Augean stables, the Stymphalian birds, the Cretan bull, the man-eating mares of Diomedes, the Amazons' girdle, the cattle of Geryon, the apples of the Hesperides, and Cerberus dragged up from the underworld.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.labours.list"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Not always clean strength",
+   "body": "The labours are not all fights. The Hydra needs a cauterising ally; the Augean stables are cleaned in a day by diverting two rivers — labour as engineering, not muscles. Several 'labours' are errands or tricks, which is part of their interest.",
+   "sourceRefIds": [
+    "hydra",
+    "augeas"
+   ],
+   "objectiveIds": [
+    "obj.labours.list"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Eurystheus's moving goalposts",
+   "body": "The cowardly king hides in a bronze jar when Heracles returns, and disqualifies labours on technicalities — helped with the Hydra? doesn't count. Cleaned the stables for payment? doesn't count. Ten becomes twelve.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.labours.list"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why a catalogue endures",
+   "body": "The list is the story: each labour is a self-contained trial a listener can hold in memory. Together they map a hero who conquers not just monsters but geography — the labours literally walk him across the known world and below it.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.labours.list"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Heracles owe the labours?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He killed his own children in a fit of god-sent madness; the oracle sentences him to serve Eurystheus as penance"
+    },
+    {
+     "id": "b",
+     "text": "He volunteered to prove Zeus wrong"
+    },
+    {
+     "id": "c",
+     "text": "Eurystheus is his rival for the throne"
+    },
+    {
+     "id": "d",
+     "text": "The labours are a bride-price for Deianira"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The labours are penance for kin-killing under madness — the darkest possible origin for the hero.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.labours.reason"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Which labour shows the list isn't all fighting?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Nemean lion — wrestled barehanded"
+    },
+    {
+     "id": "b",
+     "text": "The Augean stables — cleaned by diverting two rivers through them, a feat of engineering not strength"
+    },
+    {
+     "id": "c",
+     "text": "The Amazons' girdle — taken by force"
+    },
+    {
+     "id": "d",
+     "text": "Cerberus — carried bodily from the underworld"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "Several labours are errands or tricks; the stables are the clearest case of brains over brawn.",
+   "sourceRefIds": [
+    "augeas"
+   ],
+   "objectiveIds": [
+    "obj.labours.list"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

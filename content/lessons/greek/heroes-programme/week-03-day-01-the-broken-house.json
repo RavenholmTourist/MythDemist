@@ -151,11 +151,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "She weaves Laertes's burial shroud by day and secretly unravels it each night"
+     "text": "She locks herself in a tower"
     },
     {
      "id": "b",
-     "text": "She locks herself in a tower"
+     "text": "She weaves Laertes's burial shroud by day and secretly unravels it each night"
     },
     {
      "id": "c",
@@ -166,7 +166,7 @@
      "text": "She sets the suitors to ploughing contests"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "The loom trick buys three years before a servant betrays her.",
    "sourceRefIds": [
     "main"

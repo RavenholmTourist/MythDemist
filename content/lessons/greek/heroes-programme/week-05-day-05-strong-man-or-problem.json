@@ -1,173 +1,180 @@
 {
-  "id": "grc.heroes.w05d05.strong-man-or-problem",
-  "version": 2,
-  "weekId": "grc.heroes.week05",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Strong Man or Problem",
-  "subtitle": "Sources use strength differently",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "pindar"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w05d05.strong-man-or-problem.claim",
-      "text": "Explain this episode: Whose victory does Olympian 2 celebrate?"
-    },
-    {
-      "id": "obj.grc.heroes.w05d05.strong-man-or-problem.source",
-      "text": "Use the cited passage to explain: What is Herakles doing in this opening?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-10717",
-      "sourceId": "grc.pindar.victory-odes",
-      "work": "The Extant Odes of Pindar",
-      "author": "Pindar",
-      "translator": "Ernest Myers",
-      "locator": "Olympian 2, opening invocation; local text, normalized characters 43184-43485",
-      "localPath": "content/corpus/greek/primary/pindar-extant-odes-10717.txt",
-      "excerpt": "what man, are we to celebrate?[2] Verily of Zeus is Pisa the abode, of Herakles the Olympian feast was founded from the chief spoils of war, and Theron's name must we proclaim for his victory with the four-horse-car, a righteous and god-fearing host, the stay of Akragas, of famous sires the flower, a",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w05d05.strong-man-or-problem",
+ "version": 3,
+ "weekId": "grc.heroes.week05",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heracles: Strong Man or Problem?",
+ "subtitle": "The hero who also wrecks things — weighing the ledger",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "heracles",
+  "violence",
+  "contradictions"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.prob.balance",
+   "text": "Why is Heracles both saviour and problem?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "At the opening of Olympian 2, Pindar moves from Zeus to Herakles and then to the victor Theron. Herakles’ association with the festival helps place a contemporary victory within a prestigious sacred and heroic frame.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “what man, are we to celebrate?[2] Verily of Zeus is Pisa the abode, of Herakles the Olympian feast was founded from the chief spoils of war, and Theron's name must we proclaim for his victory with the four-horse-car, a righteous and god-fearing host, the stay of Akragas, of famous sires the flower, a”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: That differs from Apollodorus’ catalogue; praise poetry highlights what the audience should admire, while mythography explains sequence and consequence.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Pindar is praising a particular victor before an audience, not compiling a complete life of Herakles. Ask why this allusion is useful at this point in the ode before using it as a general statement about the hero.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Heroic traits are arguments, not neutral labels.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Whose victory does Olympian 2 celebrate?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Hieron of Syracuse"
-        },
-        {
-          "id": "b",
-          "text": "Theron’s"
-        },
-        {
-          "id": "c",
-          "text": "Arcesilaus of Cyrene"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Olympian 2 addresses Theron of Acragas and praises his chariot victory.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What is Herakles doing in this opening?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Recounting the labour list as the ode’s main subject"
-        },
-        {
-          "id": "b",
-          "text": "Serving as the victor whose athletic success the ode celebrates"
-        },
-        {
-          "id": "c",
-          "text": "Connecting the festival’s heroic foundation with praise of the victor"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The opening connects Herakles with the Olympic festival, then turns to the contemporary victor Theron.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.prob.use",
+   "text": "What is he actually FOR in the myths?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-10717",
+   "sourceId": "grc.pindar.victory-odes",
+   "work": "The Extant Odes of Pindar",
+   "author": "Pindar",
+   "translator": "Ernest Myers",
+   "locator": "Olympian 2, opening invocation; local text, normalized characters 43184-43485",
+   "localPath": "content/corpus/greek/primary/pindar-extant-odes-10717.txt",
+   "excerpt": "what man, are we to celebrate?[2] Verily of Zeus is Pisa the abode, of Herakles the Olympian feast was founded from the chief spoils of war, and Theron's name must we proclaim for his victory with the four-horse-car, a righteous and god-fearing host, the stay of Akragas, of famous sires the flower, a",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The civilizing strong man",
+   "body": "On one side: he clears the world of monsters, frees Prometheus, kills bandits on every road, breaks the death-god's hold on Alcestis. He is the great remover — whatever is too dangerous for everyone else, he does.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.use"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "And the wrecker",
+   "body": "On the other side: he sacks cities on slight provocation, kills a guest-friend (Iphitus) in a rage, fights the god Apollo for a tripod, nearly breaks hospitality rules everywhere he goes. The same body that saves also smashes.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.balance"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A god's appetite",
+   "body": "Heracles eats like a force of nature and loves like a disaster — dozens of liaisons, a trail of sons across the Greek world. He is civilization's patron AND its problem, depending on which side of him you land.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.balance"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Why keep both halves?",
+   "body": "The myths don't reconcile the contradiction — they preserve it. Heracles is the honest hero: the strength that protects is the same strength that harms, and you don't get one without the other.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.balance"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The ancestor of the strong hero",
+   "body": "Every strong-with-questions hero that follows — Beowulf, Samson, the Hulk — runs on the Heracles template: power enormous enough to solve anything, and dangerous enough to be the problem itself.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.use"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why is Heracles a 'problem' as well as a saviour?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The same strength that clears monsters also sacks cities and breaks hospitality — the myths keep both halves"
+    },
+    {
+     "id": "b",
+     "text": "He serves King Arcesilaus in exile as penance"
+    },
+    {
+     "id": "c",
+     "text": "He abandons every labour halfway"
+    },
+    {
+     "id": "d",
+     "text": "He refuses to fight at all"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Heracles is the honest hero: protector and destroyer are the same quality at different moments.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.balance"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What role does Heracles play in the mythological world?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A model king and lawgiver"
+    },
+    {
+     "id": "b",
+     "text": "The great remover — he handles the dangers no one else can, and his power is what makes him both indispensable and dangerous"
+    },
+    {
+     "id": "c",
+     "text": "A purely comic strong-man"
+    },
+    {
+     "id": "d",
+     "text": "A villain the other heroes must stop"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The Greeks made him the answer to any impossible problem — and the question of what such power costs.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.prob.use"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

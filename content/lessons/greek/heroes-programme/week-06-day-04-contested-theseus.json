@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w06d04.contested-theseus",
-  "version": 2,
-  "weekId": "grc.heroes.week06",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Contested Theseus",
-  "subtitle": "Versions disagree about the founder",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "epitome"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w06d04.contested-theseus.claim",
-      "text": "Explain this episode: What should we do when Plutarch records conflicting accounts?"
-    },
-    {
-      "id": "obj.grc.heroes.w06d04.contested-theseus.source",
-      "text": "Use the cited passage to explain: Why is Ariadne useful for studying variants?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, conflicting accounts of Ariadne; local text file lines 597-601 (physical file lines, not ancient section numbers)",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "There are yet many other traditions about these things, and as many concerning Ariadne, all inconsistent with each other. Some relate that she hung herself, being deserted by Theseus. Others that she was carried away by his sailors to the isle of Naxos, and married to Oenarus, priest of Bacchus;",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w06d04.contested-theseus",
+ "version": 3,
+ "weekId": "grc.heroes.week06",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Perseus: Andromeda",
+ "subtitle": "A princess on a rock, a sea-monster, and a wedding interrupted",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "perseus",
+  "andromeda",
+  "sea-monster",
+  "rescue"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.andro.monster",
+   "text": "Why is Andromeda chained to the rock?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Plutarch records disagreements about Ariadne rather than giving one uncontested ending. The variations are evidence about how a story was transmitted and used, not errors to conceal by blending every account together.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “There are yet many other traditions about these things, and as many concerning Ariadne, all inconsistent with each other. Some relate that she hung herself, being deserted by Theseus. Others that she was carried away by his sailors to the isle of Naxos, and married to Oenarus, priest of Bacchus;”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The founder remains stable as a civic symbol while biographical details shift under pressure from different tellings.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Record a disagreement rather than repairing it into one continuous plot. Plutarch’s report of alternatives is evidence of varied transmission, not a guarantee that every reported event happened.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Variant traditions are evidence about how the story was used, not merely errors to remove.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What should we do when Plutarch records conflicting accounts?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Combine incompatible details into one certain sequence."
-        },
-        {
-          "id": "b",
-          "text": "Discard every version except the best-known modern one."
-        },
-        {
-          "id": "c",
-          "text": "Keep the alternatives attached to their reported sources."
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Keep the alternatives attached to their reported sources. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why is Ariadne useful for studying variants?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Her fate is told differently in accounts Plutarch discusses."
-        },
-        {
-          "id": "b",
-          "text": "Every source preserves her own written testimony."
-        },
-        {
-          "id": "c",
-          "text": "Her story appears only in one surviving sentence."
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Her fate is told differently in accounts Plutarch discusses. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.andro.rescue",
+   "text": "How does Perseus win her?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment.",
+   "locator": "Library 2.4.3, Andromeda and the sea-monster",
+   "excerpt": "he found the king's daughter Andromeda set out to be the prey of a sea monster"
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A mother's boast, a daughter's price",
+   "body": "Flying home past the Ethiopian coast, Perseus finds a princess chained to a sea-cliff: Andromeda, offered to a monster because her mother Cassiopeia boasted she was more beautiful than the sea-nymphs. Poseidon sent a flood and a beast; the oracle named Andromeda the price.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.monster"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The bargain at the rock",
+   "body": "Her parents Cepheus and Cassiopeia can't fight the monster — and can't quite resist the stranger who offers to. Perseus's price is marriage; they accept before he even draws his sword.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.rescue"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Monster, meet head",
+   "body": "When the beast rises from the surf, Perseus fights it — in some tellings with sword and sandals, in others simply by pulling out Medusa's head and letting the Gorgon do the work: the monster turns to a reef of stone.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.rescue"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The rival at the wedding",
+   "body": "The celebration itself is interrupted: Andromeda was already promised to her uncle Phineus, who arrives with armed men to claim her. The reception becomes a battle — ended the same way the monster was ended.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.rescue"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The rescue formula",
+   "body": "Andromeda is the cleanest 'damsel on a rock' story in the cycle — boast, oracle, sacrifice, sea-monster, hero. Every dragon-and-princess tale that follows descends from this shape.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.monster"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why is Andromeda chained to the rock?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her mother Cassiopeia boasted of surpassing the sea-nymphs — Poseidon's monster must be appeased with the princess"
+    },
+    {
+     "id": "b",
+     "text": "She refused to marry the god Poseidon"
+    },
+    {
+     "id": "c",
+     "text": "She stole the Gorgon's head"
+    },
+    {
+     "id": "d",
+     "text": "Her father lost a war and offered her as tribute"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The boast against the sea-nymphs is paid by the innocent daughter — a recurring pattern.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.monster"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Perseus defeat the monster and the rival suitor?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He kills both with his father's thunderbolt"
+    },
+    {
+     "id": "b",
+     "text": "He shows Medusa's head — the sea-monster and Phineus's men alike are turned to stone"
+    },
+    {
+     "id": "c",
+     "text": "He outwrestles the monster then bribes the rival"
+    },
+    {
+     "id": "d",
+     "text": "Athena destroys them in a storm"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The Gorgon's head does the fighting — the ultimate reuse of a trophy.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.andro.rescue"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite remapped to Perseus; cards retell the story, verbatim Apollodorus excerpts checked. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

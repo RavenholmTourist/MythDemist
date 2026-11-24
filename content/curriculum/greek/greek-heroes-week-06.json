@@ -1,206 +1,225 @@
 {
-  "id": "grc.heroes.week06",
-  "title": "Theseus and Athens",
-  "subtitle": "Founders, civic myth, and contested versions",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week06",
+ "title": "Theseus and Athens",
+ "subtitle": "Founders, civic myth, and contested versions",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Perseus: The Golden Shower",
+   "lessonId": "grc.heroes.w06d01.the-road-to-athens",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-01-the-road-to-athens.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "The Road to Athens",
-      "lessonId": "grc.heroes.w06d01.the-road-to-athens",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-01-the-road-to-athens.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "The Minotaur and Ariadne's Clue",
-      "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-02-the-minotaur-and-ariadne.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Founder and Unifier",
-      "lessonId": "grc.heroes.w06d03.founder-and-unifier",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-03-founder-and-unifier.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Contested Theseus",
-      "lessonId": "grc.heroes.w06d04.contested-theseus",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-04-contested-theseus.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "The Civic Hero",
-      "lessonId": "grc.heroes.w06d05.the-civic-hero",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-05-the-civic-hero.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Theseus and Athens assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w06d01.the-road-to-athens",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "Which source supplies this biographical framing?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Plutarch’s Life of Theseus"
-            },
-            {
-              "id": "b",
-              "text": "Pindar’s Olympian 2"
-            },
-            {
-              "id": "c",
-              "text": "The Homeric Hymn to Demeter"
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Plutarch’s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w06d01.the-road-to-athens.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Escape from Polyphemus."
-            },
-            {
-              "id": "b",
-              "text": "Find his way out after killing the Minotaur."
-            },
-            {
-              "id": "c",
-              "text": "Capture the Nemean lion."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
-          "sourceRefIds": [
-            "escape"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w06d03.founder-and-unifier",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "What changes when the hero becomes a civic founder?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "His story ceases to have political meaning."
-            },
-            {
-              "id": "b",
-              "text": "The source becomes an eyewitness record of prehistoric Athens."
-            },
-            {
-              "id": "c",
-              "text": "His deeds explain the community’s institutions and belonging."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "His deeds explain the community’s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w06d03.founder-and-unifier.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w06d04.contested-theseus",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "Which statement respects variant evidence?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Plutarch reports alternatives; his report does not establish one eyewitness history."
-            },
-            {
-              "id": "b",
-              "text": "All variants must have happened consecutively."
-            },
-            {
-              "id": "c",
-              "text": "A later biography cannot preserve any earlier traditions."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w06d04.contested-theseus.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w06d05.the-civic-hero",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What evidence is needed for the comparison?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Only a modern ranking of heroic strength"
-            },
-            {
-              "id": "b",
-              "text": "Both Plutarch’s unification account and the Library’s service account"
-            },
-            {
-              "id": "c",
-              "text": "Only an Iliad quotation about Achilles"
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Both Plutarch’s unification account and the Library’s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "heracles"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w06d05.the-civic-hero.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Perseus: The Impossible Errand",
+   "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-02-the-minotaur-and-ariadne.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Perseus: The Gorgon's Head",
+   "lessonId": "grc.heroes.w06d03.founder-and-unifier",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-03-founder-and-unifier.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Perseus: Andromeda",
+   "lessonId": "grc.heroes.w06d04.contested-theseus",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-04-contested-theseus.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "Perseus: The Reckoning",
+   "lessonId": "grc.heroes.w06d05.the-civic-hero",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-06-day-05-the-civic-hero.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Theseus and Athens assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w06d01.the-road-to-athens",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What sets Perseus's story in motion?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Danae's secret marriage to a rival king"
+      },
+      {
+       "id": "b",
+       "text": "An oracle that Acrisius's grandson will kill him — so he seals Danae away, Zeus arrives as gold, and mother and infant are cast to sea"
+      },
+      {
+       "id": "c",
+       "text": "A famine that empties Argos"
+      },
+      {
+       "id": "d",
+       "text": "Polydectes's invasion of Argos"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "The prophecy creates the conditions it predicts — the classic pattern.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.perseus.prophecy"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w06d02.the-minotaur-and-ariadne",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "How is Perseus manoeuvred into the Gorgon quest?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "A drunken boast at a feast"
+      },
+      {
+       "id": "b",
+       "text": "A challenge from the oracle"
+      },
+      {
+       "id": "c",
+       "text": "Polydectes's 'wedding contribution' scam — Perseus can't offer a horse and rashly promises anything; the king names Medusa's head"
+      },
+      {
+       "id": "d",
+       "text": "A ransom for his mother's freedom"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "The errand is engineered to remove the son guarding the mother.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.errand.trap"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w06d03.founder-and-unifier",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "What is the key technique of the Gorgon kill?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He creeps up on her in total darkness"
+      },
+      {
+       "id": "b",
+       "text": "He uses the cap of invisibility to approach awake"
+      },
+      {
+       "id": "c",
+       "text": "He poisons her food"
+      },
+      {
+       "id": "d",
+       "text": "He watches only the reflection in Athena's mirrored shield while striking the sleeping Medusa"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "The mirrored shield is the answer to 'how do you kill what kills you by sight?'",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.gorgon.method"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w06d04.contested-theseus",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "Why is Andromeda chained to the sea-cliff?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Her mother Cassiopeia's boast against the sea-nymphs — Poseidon sends flood and monster, and the oracle names the princess"
+      },
+      {
+       "id": "b",
+       "text": "She refused the god's advances"
+      },
+      {
+       "id": "c",
+       "text": "Her father's gambling debt"
+      },
+      {
+       "id": "d",
+       "text": "She is punished for stealing fire"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The innocent daughter pays for the mother's pride — a recurring formula.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.andro.monster"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w06d05.the-civic-hero",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "How does the prophecy about Acrisius come true?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Deliberately — Perseus kills him on returning to Argos"
+      },
+      {
+       "id": "b",
+       "text": "Accidentally — at funeral games, Perseus's discus swerves and kills his grandfather among the spectators"
+      },
+      {
+       "id": "c",
+       "text": "In the palace when the Gorgon head is shown"
+      },
+      {
+       "id": "d",
+       "text": "By poison from Medusa's head"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "Fate completes itself on a stray discus — the oracle never misses.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.reck.prophecy"
+     ]
+    }
+   }
+  ]
+ }
 }

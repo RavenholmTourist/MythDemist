@@ -139,11 +139,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "His sword and sandals — tokens to prove Theseus's parentage when he was strong enough to lift it"
+     "text": "A chest of gold for Theseus's inheritance"
     },
     {
      "id": "b",
-     "text": "A chest of gold for Theseus's inheritance"
+     "text": "His sword and sandals — tokens to prove Theseus's parentage when he was strong enough to lift it"
     },
     {
      "id": "c",
@@ -154,7 +154,7 @@
      "text": "His shield and spear"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "Aegeus hid his sword and sandals; Theseus lifts the rock at sixteen and takes the tokens to Athens.",
    "sourceRefIds": [
     "plutarch"

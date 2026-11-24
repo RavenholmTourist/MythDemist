@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w08d01.persephone-descends",
-  "version": 4,
-  "weekId": "grc.heroes.week08",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Persephone Descends",
-  "subtitle": "Absence reshapes the world",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "homeric"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w08d01.persephone-descends.claim",
-      "text": "Explain this episode: What food binds Persephone to the underworld?"
-    },
-    {
-      "id": "obj.grc.heroes.w08d01.persephone-descends.source",
-      "text": "Use the cited passage to explain: Why is the return not an unconditional rescue?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00348",
-      "sourceId": "grc.homeric-hymns",
-      "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
-      "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
-      "translator": "Hugh G. Evelyn-White",
-      "locator": "Homeric Hymn to Demeter, lines 370-383; local text, normalized characters 287210-287514",
-      "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
-      "excerpt": "with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "agreement": {
-      "recordId": "pg-00348",
-      "sourceId": "grc.homeric-hymns",
-      "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
-      "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
-      "translator": "Hugh G. Evelyn-White",
-      "locator": "Homeric Hymn to Demeter, return agreement; local text, normalized characters 292584-292757",
-      "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
-      "excerpt": "has agreed that for a third part of the circling year your daughter shall go down to darkness and gloom, but for the two parts shall be with you and the other deathless gods",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w08d01.persephone-descends",
+ "version": 5,
+ "weekId": "grc.heroes.week08",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Persephone: The Descent",
+ "subtitle": "A stolen daughter, a grieving mother, and why winter exists",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "persephone",
+  "demeter",
+  "hades",
+  "eleusis"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.perse.abduction",
+   "text": "How does Persephone end up in the underworld?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Demeter’s withdrawal threatens the growth that sustains mortals. Persephone returns, but the pomegranate binds her to time below as well. The hymn’s settlement concerns divine power, human survival, and reunion with a lasting limit.",
-      "sourceRefIds": [
-        "main",
-        "agreement"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The hymn's settlement says Persephone spends a third of the year below and two thirds with Demeter and the other gods.",
-      "sourceRefIds": [
-        "agreement"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Do not silently turn abduction and a constrained return into a freely chosen romance. Read the pomegranate within this hymn’s negotiations, while keeping later retellings separate.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Descent stories ask what part of the self can come back unchanged.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What food binds Persephone to the underworld?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Pomegranate seed"
-        },
-        {
-          "id": "b",
-          "text": "The cattle of the Sun"
-        },
-        {
-          "id": "c",
-          "text": "The Nemean lion’s flesh"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Pomegranate seed is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why is Persephone's return not unconditional?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Hermes takes her to Crete"
-        },
-        {
-          "id": "b",
-          "text": "The hymn assigns her part of the year below and the rest with Demeter"
-        },
-        {
-          "id": "c",
-          "text": "She refuses to eat any pomegranate"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The settlement gives Persephone one third of the year below and two thirds above.",
-      "sourceRefIds": [
-        "agreement"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.perse.seasons",
+   "text": "How does her return explain the seasons?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00348",
+   "sourceId": "grc.homeric-hymns",
+   "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
+   "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
+   "translator": "Hugh G. Evelyn-White",
+   "locator": "Homeric Hymn to Demeter, lines 370-383; local text, normalized characters 287210-287514",
+   "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
+   "excerpt": "with joy and hastily sprang up for gladness. But he on his part secretly gave her sweet pomegranate seed to eat, taking care for himself that she might not remain continually with grave, dark-robed Demeter. Then Aidoneus the Ruler of Many openly got ready his deathless horses beneath the golden chariot.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "agreement": {
+   "recordId": "pg-00348",
+   "sourceId": "grc.homeric-hymns",
+   "work": "Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica)",
+   "author": "Anonymous; traditionally Homeric, not attributed here to Hesiod or the historical Homer",
+   "translator": "Hugh G. Evelyn-White",
+   "locator": "Homeric Hymn to Demeter, return agreement; local text, normalized characters 292584-292757",
+   "localPath": "content/corpus/greek/primary/hesiod-homeric-hymns-homerica-0348.txt",
+   "excerpt": "has agreed that for a third part of the circling year your daughter shall go down to darkness and gloom, but for the two parts shall be with you and the other deathless gods",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Picking flowers, gone",
+   "body": "Persephone, Demeter's daughter, is gathering flowers in a meadow when the earth splits open — Hades rises in his chariot, seizes her, and carries her screaming into the underworld to be his bride. Zeus, her father, has quietly permitted it.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perse.abduction"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A mother who makes the world pay",
+   "body": "Demeter — goddess of grain — searches the earth nine days with torches. When she learns the truth, she doesn't rage at Hades; she simply stops working. Crops fail. Famine spreads. Humanity starves while a mother grieves — and the gods grow worried.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perse.abduction"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The pomegranate seeds",
+   "body": "Zeus finally orders her return — but there's a catch. In the underworld Persephone ate pomegranate seeds (six in most versions), and anything eaten in the land of the dead binds you to it. She can't stay above forever.",
+   "sourceRefIds": [
+    "agreement"
+   ],
+   "objectiveIds": [
+    "obj.perse.seasons"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The compromise that makes seasons",
+   "body": "The settlement: a third of each year below, two-thirds above. When Persephone descends, Demeter grieves and the earth goes cold — autumn and winter. When she returns, her mother blooms the world — spring and summer. The whole cycle of seasons is a custody arrangement.",
+   "sourceRefIds": [
+    "agreement"
+   ],
+   "objectiveIds": [
+    "obj.perse.seasons"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The deepest mystery cult",
+   "body": "This myth anchored the Eleusinian Mysteries — the most important secret rites in the Greek world for a thousand years, promising initiates a better fate after death. The story isn't just weather: it's a promise that descent isn't the end.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perse.seasons"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Persephone end up in the underworld?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She descends to rescue a companion"
+    },
+    {
+     "id": "b",
+     "text": "Demeter hides her there to spite Zeus"
+    },
+    {
+     "id": "c",
+     "text": "Hades abducts her while she gathers flowers — with Zeus's quiet permission — to be his bride"
+    },
+    {
+     "id": "d",
+     "text": "She falls through a cave gathering herbs"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The abduction is arranged at the divine level — her mother's rage is justified.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perse.abduction"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why can't Persephone stay above permanently?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hades has a legal claim by marriage"
+    },
+    {
+     "id": "b",
+     "text": "She is punished for the abduction"
+    },
+    {
+     "id": "c",
+     "text": "Demeter cursed her in anger"
+    },
+    {
+     "id": "d",
+     "text": "She ate pomegranate seeds in the underworld — food of the dead binds its eater to that realm"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "Underworld food is binding; the split year is the compromise that produces the seasons.",
+   "sourceRefIds": [
+    "agreement"
+   ],
+   "objectiveIds": [
+    "obj.perse.seasons"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

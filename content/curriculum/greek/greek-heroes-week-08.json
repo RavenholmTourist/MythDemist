@@ -1,209 +1,230 @@
 {
-  "id": "grc.heroes.week08",
-  "title": "Afterlives of Heroes",
-  "subtitle": "Cult, memory, reception, and comparison",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week08",
+ "title": "Afterlives of Heroes",
+ "subtitle": "Cult, memory, reception, and comparison",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Persephone: The Descent",
+   "lessonId": "grc.heroes.w08d01.persephone-descends",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-01-persephone-descends.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Persephone Descends",
-      "lessonId": "grc.heroes.w08d01.persephone-descends",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-01-persephone-descends.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Heroes in Memory",
-      "lessonId": "grc.heroes.w08d02.heroes-in-memory",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-02-heroes-in-memory.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Ovid Transforms",
-      "lessonId": "grc.heroes.w08d03.ovid-transforms",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-03-ovid-transforms.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Heroes in Landscape",
-      "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-04-heroes-in-landscape.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "Four Heroic Models",
-      "lessonId": "grc.heroes.w08d05.four-heroic-models",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-05-four-heroic-models.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Afterlives of Heroes assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w08d01.persephone-descends",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "What should a source-specific reading avoid?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Noticing Demeter’s grief and the threat to crops"
-            },
-            {
-              "id": "b",
-              "text": "Keeping the hymn distinct from later versions"
-            },
-            {
-              "id": "c",
-              "text": "Reducing the hymn to a universal story of a voluntary romantic journey"
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "agreement"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w08d01.persephone-descends.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w08d02.heroes-in-memory",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "What additional evidence would a claim about local hero cult require?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Evidence about the particular sanctuary, community, and practice"
-            },
-            {
-              "id": "b",
-              "text": "Only the fact that a hero speaks in an epic"
-            },
-            {
-              "id": "c",
-              "text": "Only a comparison of modern film heroes"
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles’ reply among the dead), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w08d02.heroes-in-memory.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w08d03.ovid-transforms",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "He orders Medea to return to Colchis."
-            },
-            {
-              "id": "b",
-              "text": "He embraces her and places her crown among the stars."
-            },
-            {
-              "id": "c",
-              "text": "He gives Theseus a clue to leave the labyrinth."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w08d03.ovid-transforms.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "Why keep Frazer’s scholarly layer visible?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "He is the original author of the Homeric Hymns."
-            },
-            {
-              "id": "b",
-              "text": "A modern scholarly work cannot mention ancient geography."
-            },
-            {
-              "id": "c",
-              "text": "His interpretation of ancient testimony is not the ancient testimony itself."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w08d05.four-heroic-models",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What is the strongest course-wide conclusion?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries."
-            },
-            {
-              "id": "b",
-              "text": "All four heroes express one unchanging moral code."
-            },
-            {
-              "id": "c",
-              "text": "Later biographies are eyewitness records of the heroic age."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "heracles",
-            "odysseus",
-            "theseus"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w08d05.four-heroic-models.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Heroes in Memory",
+   "lessonId": "grc.heroes.w08d02.heroes-in-memory",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-02-heroes-in-memory.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Ovid Transforms",
+   "lessonId": "grc.heroes.w08d03.ovid-transforms",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-03-ovid-transforms.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Heroes in the Landscape",
+   "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-04-heroes-in-landscape.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "Four Heroic Models",
+   "lessonId": "grc.heroes.w08d05.four-heroic-models",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-08-day-05-four-heroic-models.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Afterlives of Heroes assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w08d01.persephone-descends",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What does the Persephone myth explain?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The creation of the first humans"
+      },
+      {
+       "id": "b",
+       "text": "The origin of the Eleusinian Mysteries' secrets only"
+      },
+      {
+       "id": "c",
+       "text": "The founding of Athens"
+      },
+      {
+       "id": "d",
+       "text": "The seasons — her descent and return as a grieving mother's cycle, sealed by the pomegranate seeds"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "The custody arrangement is the weather — and the promise that descent isn't the end.",
+     "sourceRefIds": [
+      "main",
+      "agreement"
+     ],
+     "objectiveIds": [
+      "obj.perse.seasons"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w08d02.heroes-in-memory",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "What did hero cults mean in real Greek life?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Tombs as active shrines, cities claiming heroes' bones, and myths treated as early history rather than fiction"
+      },
+      {
+       "id": "b",
+       "text": "A secret religion for initiates"
+      },
+      {
+       "id": "c",
+       "text": "A literary club for reading Homer"
+      },
+      {
+       "id": "d",
+       "text": "Worship forbidden by the city-states"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Heroes were part of civic religion — the stories were their past, not just stories.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.mem.cult"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w08d03.ovid-transforms",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "Why does Ovid matter to how we know Greek myth?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He translated the Iliad into Latin"
+      },
+      {
+       "id": "b",
+       "text": "His Roman re-telling preserved many tales in their best-known form — Narcissus, Pyramus and Thisbe, Arachne, Icarus"
+      },
+      {
+       "id": "c",
+       "text": "He invented all the transformation myths"
+      },
+      {
+       "id": "d",
+       "text": "He was the original source of every tale"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "Much 'Greek mythology' in art and literature is Ovid's polished version.",
+     "sourceRefIds": [
+      "main",
+      "epitome"
+     ],
+     "objectiveIds": [
+      "obj.ovid.diff"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w08d04.heroes-in-landscape",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "How is myth written into the physical world?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Only in written maps"
+      },
+      {
+       "id": "b",
+       "text": "Through temple dedications alone"
+      },
+      {
+       "id": "c",
+       "text": "The Aegean Sea for Aegeus, constellations for Perseus's rescue, the Pillars of Hercules, and cities claiming founders"
+      },
+      {
+       "id": "d",
+       "text": "Via names of months"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "The landscape is the memory — names of seas and stars keep the stories physical.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.land.names"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w08d05.four-heroic-models",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "Which hero model does what?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "All four are models of strength"
+      },
+      {
+       "id": "b",
+       "text": "Only Achilles and Odysseus matter"
+      },
+      {
+       "id": "c",
+       "text": "They represent the same archetype"
+      },
+      {
+       "id": "d",
+       "text": "Achilles is glory-at-cost, Odysseus cunning endurance, Theseus civic founding, Heracles labour and apotheosis"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "The arc's final question: which kind of strength does the world need?",
+     "sourceRefIds": [
+      "main",
+      "heracles",
+      "odysseus",
+      "theseus"
+     ],
+     "objectiveIds": [
+      "obj.models.four"
+     ]
+    }
+   }
+  ]
+ }
 }

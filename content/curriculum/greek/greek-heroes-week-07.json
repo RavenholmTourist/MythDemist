@@ -1,210 +1,229 @@
 {
-  "id": "grc.heroes.week07",
-  "title": "Heroes on Stage",
-  "subtitle": "Tragedy as argument with inherited myth",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week07",
+ "title": "Heroes on Stage",
+ "subtitle": "Tragedy as argument with inherited myth",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Agamemnon: The Homecoming",
+   "lessonId": "grc.heroes.w07d01.agamemnon-returns",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-01-agamemnon-returns.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Agamemnon Returns",
-      "lessonId": "grc.heroes.w07d01.agamemnon-returns",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-01-agamemnon-returns.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Orestes and Justice",
-      "lessonId": "grc.heroes.w07d02.orestes-and-justice",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-02-orestes-and-justice.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Antigone and Burial",
-      "lessonId": "grc.heroes.w07d03.antigone-and-burial",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-03-antigone-and-burial.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Oedipus Investigates",
-      "lessonId": "grc.heroes.w07d04.oedipus-investigates",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-04-oedipus-investigates.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "The Trojan Women",
-      "lessonId": "grc.heroes.w07d05.the-trojan-women",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-05-the-trojan-women.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Heroes on Stage assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w07d01.agamemnon-returns",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "Which contrast between the returns is supported by these works?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Neither work includes a household after the war."
-            },
-            {
-              "id": "b",
-              "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
-            },
-            {
-              "id": "c",
-              "text": "Both kings are welcomed without conflict."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
-          "sourceRefIds": [
-            "main",
-            "murder",
-            "odyssey"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w07d01.agamemnon-returns.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w07d02.orestes-and-justice",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "Why is “law simply replaces religion” a poor summary?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The play contains no court or judgement."
-            },
-            {
-              "id": "b",
-              "text": "Athena is absent from the proceedings."
-            },
-            {
-              "id": "c",
-              "text": "Divine figures and the Erinyes remain central to the settlement."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "court"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w07d02.orestes-and-justice.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w07d03.antigone-and-burial",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "Which summary avoids flattening the conflict?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "A ruler’s decree collides with familial and divine obligations."
-            },
-            {
-              "id": "b",
-              "text": "Both characters agree that burial has no religious meaning."
-            },
-            {
-              "id": "c",
-              "text": "The play is chiefly about identifying Laius’ murderer."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "A ruler’s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon’s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "defense"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w07d03.antigone-and-burial.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w07d04.oedipus-investigates",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "What changes during the investigation?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The plague is solved by recovering the fleece."
-            },
-            {
-              "id": "b",
-              "text": "The investigator becomes the person his inquiry exposes."
-            },
-            {
-              "id": "c",
-              "text": "Oedipus abandons inquiry because no witnesses exist."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus’ proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "revelation"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w07d04.oedipus-investigates.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w07d05.the-trojan-women",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Captive women being assigned to Greek masters."
-            },
-            {
-              "id": "b",
-              "text": "A Greek council choosing a new king."
-            },
-            {
-              "id": "c",
-              "text": "Odysseus explaining the construction of his marriage bed."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w07d05.the-trojan-women.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Orestes: Vengeance and the Court",
+   "lessonId": "grc.heroes.w07d02.orestes-and-justice",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-02-orestes-and-justice.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Antigone: The Burial",
+   "lessonId": "grc.heroes.w07d03.antigone-and-burial",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-03-antigone-and-burial.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Oedipus: The Investigation",
+   "lessonId": "grc.heroes.w07d04.oedipus-investigates",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-04-oedipus-investigates.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "The Trojan Women",
+   "lessonId": "grc.heroes.w07d05.the-trojan-women",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-07-day-05-the-trojan-women.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Heroes on Stage assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w07d01.agamemnon-returns",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What is the deepest motive behind Agamemnon's murder?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Aegisthus's ambition for the throne"
+      },
+      {
+       "id": "b",
+       "text": "A quarrel over Trojan spoils"
+      },
+      {
+       "id": "c",
+       "text": "Clytemnestra's revenge for Iphigenia — the daughter sacrificed to launch the fleet"
+      },
+      {
+       "id": "d",
+       "text": "Apollo's command for justice"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "The sacrifice at Aulis is the wound; the carpet and the bath are only the staging.",
+     "sourceRefIds": [
+      "main",
+      "murder"
+     ],
+     "objectiveIds": [
+      "obj.agem.motive"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w07d02.orestes-and-justice",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "How does the Oresteia resolve the blood-feud?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Orestes is purified at Delphi and pardoned"
+      },
+      {
+       "id": "b",
+       "text": "The Furies are destroyed by Zeus"
+      },
+      {
+       "id": "c",
+       "text": "Orestes kills himself to end the cycle"
+      },
+      {
+       "id": "d",
+       "text": "Athena establishes a court at the Areopagus — law replaces vendetta, and the Furies are honoured, not defeated"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "Aeschylus's answer to endless retaliation is an institution.",
+     "sourceRefIds": [
+      "main",
+      "court"
+     ],
+     "objectiveIds": [
+      "obj.ore.court"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w07d03.antigone-and-burial",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "What is Antigone's core argument against Creon?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Divine law and burial duty outrank a king's decree — the unwritten laws of the gods are older than the state"
+      },
+      {
+       "id": "b",
+       "text": "Polynices was the rightful king"
+      },
+      {
+       "id": "c",
+       "text": "Creon has no legal right to rule"
+      },
+      {
+       "id": "d",
+       "text": "The burial was ordered by the oracle"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "She appeals above the state to the gods — which is why the conflict cannot be settled politically.",
+     "sourceRefIds": [
+      "main",
+      "defense"
+     ],
+     "objectiveIds": [
+      "obj.anti.conflict"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w07d04.oedipus-investigates",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "What is the twist at the heart of Oedipus Rex?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Tiresias is the murderer"
+      },
+      {
+       "id": "b",
+       "text": "The detective is the murderer — the king who hunts Laius's killer finds himself"
+      },
+      {
+       "id": "c",
+       "text": "Laius faked his death"
+      },
+      {
+       "id": "d",
+       "text": "The Sphinx set a trap for Oedipus"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "The play inverts every mystery: self-discovery is the catastrophe.",
+     "sourceRefIds": [
+      "main",
+      "revelation"
+     ],
+     "objectiveIds": [
+      "obj.oed.truth"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w07d05.the-trojan-women",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "What does The Trojan Women show that the Iliad does not?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The gods' political manoeuvres"
+      },
+      {
+       "id": "b",
+       "text": "Achilles's heroism"
+      },
+      {
+       "id": "c",
+       "text": "The defeated side's price — enslaved queens and a murdered child, the cost side of the same victory"
+      },
+      {
+       "id": "d",
+       "text": "The siege tactics of Troy"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "Euripides prices the same war the Iliad glorifies — for an audience that was itself an empire.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.tro.cost"
+     ]
+    }
+   }
+  ]
+ }
 }

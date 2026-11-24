@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T13:43:43.935672+00:00",
+  "generatedAt": "2026-11-24T14:21:42.368670+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -265,11 +265,11 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
+                  "text": "He spares each bandit after winning surrender"
                 },
                 {
                   "id": "b",
-                  "text": "He spares each bandit after winning surrender"
+                  "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
                 },
                 {
                   "id": "c",
@@ -280,7 +280,7 @@
                   "text": "Each duel is won by divine intervention"
                 }
               ],
-              "answerId": "a",
+              "answerId": "b",
               "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
               "sourceRefIds": [
                 "plutarch"
@@ -299,22 +299,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
-                },
-                {
-                  "id": "b",
                   "text": "Medea confesses before Theseus drinks"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "A servant switches the cups"
+                },
+                {
+                  "id": "c",
+                  "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
                 },
                 {
                   "id": "d",
                   "text": "An oracle warns him at the table"
                 }
               ],
-              "answerId": "a",
+              "answerId": "c",
               "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
               "sourceRefIds": [
                 "plutarch"
@@ -333,22 +333,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
-                },
-                {
-                  "id": "b",
                   "text": "He memorizes Daedalus's floor plan"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "The Minotaur's dying cry opens the walls"
                 },
                 {
-                  "id": "d",
+                  "id": "c",
                   "text": "Ariadne leads him out by hand"
+                },
+                {
+                  "id": "d",
+                  "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
                 }
               ],
-              "answerId": "a",
+              "answerId": "d",
               "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
               "sourceRefIds": [
                 "plutarch"
@@ -441,11 +441,11 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
+                  "text": "Achilles refuses to fight the Trojans"
                 },
                 {
                   "id": "b",
-                  "text": "Achilles refuses to fight the Trojans"
+                  "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
                 },
                 {
                   "id": "c",
@@ -456,7 +456,7 @@
                   "text": "Chryses poisons the wells"
                 }
               ],
-              "answerId": "a",
+              "answerId": "b",
               "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
               "sourceRefIds": [
                 "main"
@@ -475,22 +475,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
-                },
-                {
-                  "id": "b",
                   "text": "That Agamemnon be struck by lightning"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "That he be made king of the army"
+                },
+                {
+                  "id": "c",
+                  "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
                 },
                 {
                   "id": "d",
                   "text": "That his ships be spared for the voyage home"
                 }
               ],
-              "answerId": "a",
+              "answerId": "c",
               "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth \u2014 and nearly destroys it.",
               "sourceRefIds": [
                 "main"
@@ -509,22 +509,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
-                },
-                {
-                  "id": "b",
                   "text": "The offer arrives too late; he has already sailed"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "He demands the kingship, not gifts"
                 },
                 {
-                  "id": "d",
+                  "id": "c",
                   "text": "He has sworn an oath to Hector"
+                },
+                {
+                  "id": "d",
+                  "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
                 }
               ],
-              "answerId": "a",
+              "answerId": "d",
               "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
               "sourceRefIds": [
                 "main"
@@ -577,11 +577,11 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
+                  "text": "Zeus orders it directly"
                 },
                 {
                   "id": "b",
-                  "text": "Zeus orders it directly"
+                  "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
                 },
                 {
                   "id": "c",
@@ -592,7 +592,7 @@
                   "text": "The Greek commanders demand it"
                 }
               ],
-              "answerId": "a",
+              "answerId": "b",
               "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
               "sourceRefIds": [
                 "main"
@@ -647,22 +647,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "She weaves a burial shroud by day and unravels it by night"
-                },
-                {
-                  "id": "b",
                   "text": "She feigns illness in a locked tower"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "She makes them sail to Delphi first"
+                },
+                {
+                  "id": "c",
+                  "text": "She weaves a burial shroud by day and unravels it by night"
                 },
                 {
                   "id": "d",
                   "text": "She marries one in secret"
                 }
               ],
-              "answerId": "a",
+              "answerId": "c",
               "explanation": "The loom trick is undone only by a servant's betrayal.",
               "sourceRefIds": [
                 "main"
@@ -681,22 +681,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "His boast gives Polyphemus his name \u2014 Poseidon's curse ensures the voyage home is slow and solitary"
-                },
-                {
-                  "id": "b",
                   "text": "He loses his best crewmen to the Cyclops's club"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "His ship is wrecked on the island's rocks"
                 },
                 {
-                  "id": "d",
+                  "id": "c",
                   "text": "He is trapped for seven years"
+                },
+                {
+                  "id": "d",
+                  "text": "His boast gives Polyphemus his name \u2014 Poseidon's curse ensures the voyage home is slow and solitary"
                 }
               ],
-              "answerId": "a",
+              "answerId": "d",
               "explanation": "Outis saves him; the boast curses him \u2014 every later trial rides on Poseidon's anger.",
               "sourceRefIds": [
                 "main",
@@ -751,11 +751,11 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "Achilles would trade his fame for a poor man's life \u2014 the dead measure what the living pay for renown"
+                  "text": "They demand gold before speaking"
                 },
                 {
                   "id": "b",
-                  "text": "They demand gold before speaking"
+                  "text": "Achilles would trade his fame for a poor man's life \u2014 the dead measure what the living pay for renown"
                 },
                 {
                   "id": "c",
@@ -766,7 +766,7 @@
                   "text": "They tell him his crew is doomed by hubris alone"
                 }
               ],
-              "answerId": "a",
+              "answerId": "b",
               "explanation": "Anticleia died of longing; Achilles prefers labour to lordship of the dead.",
               "sourceRefIds": [
                 "main"
@@ -785,22 +785,22 @@
               "choices": [
                 {
                   "id": "a",
-                  "text": "She tests him with the bed \u2014 it is rooted to a living olive tree, a secret only he could know"
-                },
-                {
-                  "id": "b",
                   "text": "She checks the scar on his thigh"
                 },
                 {
-                  "id": "c",
+                  "id": "b",
                   "text": "She asks about the Trojan Horse"
+                },
+                {
+                  "id": "c",
+                  "text": "She tests him with the bed \u2014 it is rooted to a living olive tree, a secret only he could know"
                 },
                 {
                   "id": "d",
                   "text": "She watches him defeat the suitors"
                 }
               ],
-              "answerId": "a",
+              "answerId": "c",
               "explanation": "The immovable bed is the recognition the epic saves for last.",
               "sourceRefIds": [
                 "main"
@@ -849,28 +849,32 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Which detail explains Pelias\u2019 alarm?",
+              "prompt": "What triggers the quest for the Golden Fleece?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Medea arrives in Iolcus before Jason is born."
+                  "text": "The oracle commands a fleece offering"
                 },
                 {
                   "id": "b",
-                  "text": "Jason matches the warning about a man with one sandal."
+                  "text": "Jason seeks glory to win a bride"
                 },
                 {
                   "id": "c",
-                  "text": "Jason returns carrying the fleece before the voyage."
+                  "text": "The Argonauts are hired for a trading voyage"
+                },
+                {
+                  "id": "d",
+                  "text": "Pelias, warned by an oracle of a one-sandalled man, sends Jason on a quest meant to kill him"
                 }
               ],
-              "answerId": "b",
-              "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "The quest is Pelias's trap, not Jason's ambition.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w04d01.the-political-quest.source"
+                "obj.quest.pelias"
               ]
             }
           },
@@ -879,28 +883,33 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
+              "prompt": "What must Jason do to earn the fleece from Aeetes?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The bulls' fire and the earthborn men's weapons."
+                  "text": "Yoke fire-breathing bulls and sow dragon's teeth that rise as armed men"
                 },
                 {
                   "id": "b",
-                  "text": "The Sirens' song and the whirlpool."
+                  "text": "Kill the Colchian champion in single combat"
                 },
                 {
                   "id": "c",
-                  "text": "The cold of the House of Cold."
+                  "text": "Solve the riddle of the dragon grove"
+                },
+                {
+                  "id": "d",
+                  "text": "Bring a tribute of gold to the king"
                 }
               ],
               "answerId": "a",
-              "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
+              "explanation": "The tasks are impossible by design \u2014 and the king intends betrayal either way.",
               "sourceRefIds": [
+                "main",
                 "aid"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+                "obj.tasks.demand"
               ]
             }
           },
@@ -909,30 +918,34 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "How can we describe Medea without erasing the poem\u2019s tensions?",
+              "prompt": "What is the decisive factor in winning the fleece?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "She deliberates and acts within family pressures and divine influence."
+                  "text": "Jason's superior strength at the tasks"
                 },
                 {
                   "id": "b",
-                  "text": "She is merely a reward with no decisions in the plot."
+                  "text": "Medea's aid \u2014 her ointment, her trick, her calming of the dragon \u2014 at the price of betraying her father"
                 },
                 {
                   "id": "c",
-                  "text": "She has no connection to Colchis or Aeetes."
+                  "text": "Aeetes's honourable bargain"
+                },
+                {
+                  "id": "d",
+                  "text": "The Argonauts' night assault"
                 }
               ],
-              "answerId": "a",
-              "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
+              "answerId": "b",
+              "explanation": "Every winning move is Medea's; Jason's feat depends on her choice.",
               "sourceRefIds": [
                 "main",
-                "dilemma",
-                "aid"
+                "aid",
+                "dilemma"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w04d03.medea-chooses.source"
+                "obj.medea.choice"
               ]
             }
           },
@@ -941,28 +954,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "What does Apollonius say follows Apsyrtus' killing?",
+              "prompt": "What marks the flight from Colchis?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Aeetes welcomes the Argonauts home."
+                  "text": "A storm sent by Zeus"
                 },
                 {
                   "id": "b",
-                  "text": "Zeus orders the Argonauts to seek purification from Circe."
+                  "text": "A mutiny among the Argonauts"
                 },
                 {
                   "id": "c",
-                  "text": "Athena gives Jason the throne of Athens."
+                  "text": "Apsyrtus's death and a pursuit that requires purification before the voyage can continue"
+                },
+                {
+                  "id": "d",
+                  "text": "The loss of the fleece overboard"
                 }
               ],
-              "answerId": "b",
-              "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
+              "answerId": "c",
+              "explanation": "The brother's killing is the flight's defining crime; the escape is bought with kin-blood.",
               "sourceRefIds": [
                 "purification"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+                "obj.flight.apsyrtus"
               ]
             }
           },
@@ -971,40 +988,50 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "Which contrast between Apollonius and Euripides is supported?",
+              "prompt": "How does Euripides' Medea end?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
+                  "text": "She is executed by Creon's soldiers"
                 },
                 {
                   "id": "b",
-                  "text": "Both texts are eyewitness diaries of Jason's voyage."
+                  "text": "She returns the fleece to Colchis"
                 },
                 {
                   "id": "c",
-                  "text": "Euripides' play is a catalogue of the Argonauts."
+                  "text": "She sails into exile alone"
+                },
+                {
+                  "id": "d",
+                  "text": "She destroys Jason with a poisoned robe and the killing of their sons, then escapes to Athens \u2014 where she later poisons Theseus's cup"
                 }
               ],
-              "answerId": "a",
-              "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
+              "answerId": "d",
+              "explanation": "Her refuge at Aegeus's court links straight back to week 1's poisoned-cup scene.",
               "sourceRefIds": [
-                "argo",
-                "main"
+                "main",
+                "argo"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w04d05.medea-on-stage.source"
+                "obj.medea.revenge"
               ]
             }
           }
         ]
       },
       "themes": [
-        "argonautica",
+        "aeetes",
+        "apsyrtus",
+        "argonauts",
+        "colchis",
+        "corinth",
         "euripides",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "fleece",
+        "jason",
+        "medea",
+        "pelias",
+        "tragedy"
       ]
     },
     {
@@ -1030,30 +1057,34 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "What should a careful account distinguish?",
+              "prompt": "What event sentences Heracles to twelve years of labours?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The first oracle\u2019s ten tasks from the later total of twelve"
+                  "text": "He killed his children in Hera-sent madness \u2014 the oracle sentences him to serve Eurystheus"
                 },
                 {
                   "id": "b",
-                  "text": "The first oracle\u2019s ten tasks from a later pair added by Pindar"
+                  "text": "He wants to win the throne of Tiryns"
                 },
                 {
                   "id": "c",
-                  "text": "The first oracle\u2019s ten tasks from twelve versions of the same feat"
+                  "text": "Eurystheus hires him as a mercenary"
+                },
+                {
+                  "id": "d",
+                  "text": "He seeks the gods' favour for a quest"
                 }
               ],
               "answerId": "a",
-              "explanation": "The first oracle\u2019s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus\u2019 help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
+              "explanation": "The labours are penance, not ambition \u2014 the darkest origin for the greatest hero.",
               "sourceRefIds": [
                 "main",
                 "hydra",
                 "augeas"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
+                "obj.labours.reason"
               ]
             }
           },
@@ -1062,29 +1093,33 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What method defeats the lion after arrows fail?",
+              "prompt": "How does Heracles overcome the Nemean lion's unbreakable hide?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Iolaus helps cauterize the Hydra's neck."
+                  "text": "He beheads it with his nephew Iolaus at his side"
                 },
                 {
                   "id": "b",
-                  "text": "He distracts it with a singing contest."
+                  "text": "He strangles it barehanded, then skins it with its own claws \u2014 the trophy becomes his signature garb"
                 },
                 {
                   "id": "c",
-                  "text": "Heracles blocks one cave entrance and chokes the lion through the other."
+                  "text": "He starves it in its cave"
+                },
+                {
+                  "id": "d",
+                  "text": "He blinds it and ties it up"
                 }
               ],
-              "answerId": "c",
-              "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
+              "answerId": "b",
+              "explanation": "The lionskin and club that identify him in every image start with this fight.",
               "sourceRefIds": [
                 "main",
                 "combat"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+                "obj.lion.fight"
               ]
             }
           },
@@ -1093,28 +1128,32 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "Why attach the sequence to the Library?",
+              "prompt": "What drives the persecution of Heracles?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The Library is an eyewitness account that settles every later version."
+                  "text": "Eurystheus's envy of his strength"
                 },
                 {
                   "id": "b",
-                  "text": "Different works can place the family catastrophe differently."
+                  "text": "A curse on his father Amphitryon"
                 },
                 {
                   "id": "c",
-                  "text": "Later tragedies must follow the Library\u2019s sequence exactly."
+                  "text": "Hera's hatred of Zeus's mortal-born son \u2014 it produces the madness, the kin-killing, and the sentence of service"
+                },
+                {
+                  "id": "d",
+                  "text": "His refusal of divine honours"
                 }
               ],
-              "answerId": "b",
-              "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
+              "answerId": "c",
+              "explanation": "The whole labour-cycle flows from Hera's jealousy \u2014 she is the engine of his suffering.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w05d03.madness-and-service.source"
+                "obj.mad.hate"
               ]
             }
           },
@@ -1123,28 +1162,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "Which passage directly supports this ending?",
+              "prompt": "How does Heracles die, and what follows?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Library 2.5.2, Heracles\u2019 Hydra labour"
+                  "text": "He falls at Hades\u2019 gate in Library 2.5.2"
                 },
                 {
                   "id": "b",
-                  "text": "Library 2.4.12, the oracle and initial service"
+                  "text": "He is killed by Eurystheus's soldiers"
                 },
                 {
                   "id": "c",
-                  "text": "Library 2.7.7"
+                  "text": "He dies old and forgotten"
+                },
+                {
+                  "id": "d",
+                  "text": "A poisoned robe from Deianira (the centaur's revenge) \u2014 then pyre on Oeta and ascent to Olympus, the only deified hero"
                 }
               ],
-              "answerId": "c",
-              "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "His end is unique: mortality burned away, divinity ascended.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+                "obj.apo.god"
               ]
             }
           },
@@ -1153,40 +1196,50 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What distinguishes this use of Herakles from the Library\u2019s list?",
+              "prompt": "What makes Heracles dangerous to allies as well as monsters?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory."
+                  "text": "The same strength that clears monsters also breaks cities and hospitality \u2014 the myths preserve both halves"
                 },
                 {
                   "id": "b",
-                  "text": "It lists Heracles\u2019 twelve labours to document his whole life."
+                  "text": "He is only dangerous when drunk"
                 },
                 {
                   "id": "c",
-                  "text": "It omits the festival\u2019s founder and focuses only on Theron\u2019s victory."
+                  "text": "He refuses all labours but easy ones"
+                },
+                {
+                  "id": "d",
+                  "text": "He serves the wrong king"
                 }
               ],
               "answerId": "a",
-              "explanation": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
+              "explanation": "He is the honest hero: the power that protects is the power that wrecks.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+                "obj.prob.balance"
               ]
             }
           }
         ]
       },
       "themes": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "library",
-        "pindar",
-        "source-method"
+        "apotheosis",
+        "contradictions",
+        "deianira",
+        "eurystheus",
+        "hera",
+        "heracles",
+        "labours",
+        "lion",
+        "madness",
+        "nemean",
+        "nessus",
+        "violence"
       ]
     },
     {
@@ -1212,28 +1265,32 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Which source supplies this biographical framing?",
+              "prompt": "What sets Perseus's story in motion?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Plutarch\u2019s Life of Theseus"
+                  "text": "Danae's secret marriage to a rival king"
                 },
                 {
                   "id": "b",
-                  "text": "Pindar\u2019s Olympian 2"
+                  "text": "An oracle that Acrisius's grandson will kill him \u2014 so he seals Danae away, Zeus arrives as gold, and mother and infant are cast to sea"
                 },
                 {
                   "id": "c",
-                  "text": "The Homeric Hymn to Demeter"
+                  "text": "A famine that empties Argos"
+                },
+                {
+                  "id": "d",
+                  "text": "Polydectes's invasion of Argos"
                 }
               ],
-              "answerId": "a",
-              "explanation": "Plutarch\u2019s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
+              "answerId": "b",
+              "explanation": "The prophecy creates the conditions it predicts \u2014 the classic pattern.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w06d01.the-road-to-athens.source"
+                "obj.perseus.prophecy"
               ]
             }
           },
@@ -1242,28 +1299,32 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
+              "prompt": "How is Perseus manoeuvred into the Gorgon quest?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Escape from Polyphemus."
+                  "text": "A drunken boast at a feast"
                 },
                 {
                   "id": "b",
-                  "text": "Find his way out after killing the Minotaur."
+                  "text": "A challenge from the oracle"
                 },
                 {
                   "id": "c",
-                  "text": "Capture the Nemean lion."
+                  "text": "Polydectes's 'wedding contribution' scam \u2014 Perseus can't offer a horse and rashly promises anything; the king names Medusa's head"
+                },
+                {
+                  "id": "d",
+                  "text": "A ransom for his mother's freedom"
                 }
               ],
-              "answerId": "b",
-              "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
+              "answerId": "c",
+              "explanation": "The errand is engineered to remove the son guarding the mother.",
               "sourceRefIds": [
-                "escape"
+                "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+                "obj.errand.trap"
               ]
             }
           },
@@ -1272,28 +1333,32 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "What changes when the hero becomes a civic founder?",
+              "prompt": "What is the key technique of the Gorgon kill?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "His story ceases to have political meaning."
+                  "text": "He creeps up on her in total darkness"
                 },
                 {
                   "id": "b",
-                  "text": "The source becomes an eyewitness record of prehistoric Athens."
+                  "text": "He uses the cap of invisibility to approach awake"
                 },
                 {
                   "id": "c",
-                  "text": "His deeds explain the community\u2019s institutions and belonging."
+                  "text": "He poisons her food"
+                },
+                {
+                  "id": "d",
+                  "text": "He watches only the reflection in Athena's mirrored shield while striking the sleeping Medusa"
                 }
               ],
-              "answerId": "c",
-              "explanation": "His deeds explain the community\u2019s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "The mirrored shield is the answer to 'how do you kill what kills you by sight?'",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w06d03.founder-and-unifier.source"
+                "obj.gorgon.method"
               ]
             }
           },
@@ -1302,28 +1367,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "Which statement respects variant evidence?",
+              "prompt": "Why is Andromeda chained to the sea-cliff?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Plutarch reports alternatives; his report does not establish one eyewitness history."
+                  "text": "Her mother Cassiopeia's boast against the sea-nymphs \u2014 Poseidon sends flood and monster, and the oracle names the princess"
                 },
                 {
                   "id": "b",
-                  "text": "All variants must have happened consecutively."
+                  "text": "She refused the god's advances"
                 },
                 {
                   "id": "c",
-                  "text": "A later biography cannot preserve any earlier traditions."
+                  "text": "Her father's gambling debt"
+                },
+                {
+                  "id": "d",
+                  "text": "She is punished for stealing fire"
                 }
               ],
               "answerId": "a",
-              "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
+              "explanation": "The innocent daughter pays for the mother's pride \u2014 a recurring formula.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w06d04.contested-theseus.claim"
+                "obj.andro.monster"
               ]
             }
           },
@@ -1332,41 +1401,50 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What evidence is needed for the comparison?",
+              "prompt": "How does the prophecy about Acrisius come true?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Only a modern ranking of heroic strength"
+                  "text": "Deliberately \u2014 Perseus kills him on returning to Argos"
                 },
                 {
                   "id": "b",
-                  "text": "Both Plutarch\u2019s unification account and the Library\u2019s service account"
+                  "text": "Accidentally \u2014 at funeral games, Perseus's discus swerves and kills his grandfather among the spectators"
                 },
                 {
                   "id": "c",
-                  "text": "Only an Iliad quotation about Achilles"
+                  "text": "In the palace when the Gorgon head is shown"
+                },
+                {
+                  "id": "d",
+                  "text": "By poison from Medusa's head"
                 }
               ],
               "answerId": "b",
-              "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
+              "explanation": "Fate completes itself on a stray discus \u2014 the oracle never misses.",
               "sourceRefIds": [
-                "main",
-                "heracles"
+                "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w06d05.the-civic-hero.source"
+                "obj.reck.prophecy"
               ]
             }
           }
         ]
       },
       "themes": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "library",
-        "lives",
-        "source-method"
+        "acrisius",
+        "andromeda",
+        "danae",
+        "gorgon",
+        "medusa",
+        "origin-story",
+        "pegasus",
+        "perseus",
+        "polydectes",
+        "quest",
+        "rescue",
+        "sea-monster"
       ]
     },
     {
@@ -1392,30 +1470,33 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Which contrast between the returns is supported by these works?",
+              "prompt": "What is the deepest motive behind Agamemnon's murder?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Neither work includes a household after the war."
+                  "text": "Aegisthus's ambition for the throne"
                 },
                 {
                   "id": "b",
-                  "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
+                  "text": "A quarrel over Trojan spoils"
                 },
                 {
                   "id": "c",
-                  "text": "Both kings are welcomed without conflict."
+                  "text": "Clytemnestra's revenge for Iphigenia \u2014 the daughter sacrificed to launch the fleet"
+                },
+                {
+                  "id": "d",
+                  "text": "Apollo's command for justice"
                 }
               ],
-              "answerId": "b",
-              "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
+              "answerId": "c",
+              "explanation": "The sacrifice at Aulis is the wound; the carpet and the bath are only the staging.",
               "sourceRefIds": [
                 "main",
-                "murder",
-                "odyssey"
+                "murder"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w07d01.agamemnon-returns.source"
+                "obj.agem.motive"
               ]
             }
           },
@@ -1424,29 +1505,33 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "Why is \u201claw simply replaces religion\u201d a poor summary?",
+              "prompt": "How does the Oresteia resolve the blood-feud?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The play contains no court or judgement."
+                  "text": "Orestes is purified at Delphi and pardoned"
                 },
                 {
                   "id": "b",
-                  "text": "Athena is absent from the proceedings."
+                  "text": "The Furies are destroyed by Zeus"
                 },
                 {
                   "id": "c",
-                  "text": "Divine figures and the Erinyes remain central to the settlement."
+                  "text": "Orestes kills himself to end the cycle"
+                },
+                {
+                  "id": "d",
+                  "text": "Athena establishes a court at the Areopagus \u2014 law replaces vendetta, and the Furies are honoured, not defeated"
                 }
               ],
-              "answerId": "c",
-              "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "Aeschylus's answer to endless retaliation is an institution.",
               "sourceRefIds": [
                 "main",
                 "court"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+                "obj.ore.court"
               ]
             }
           },
@@ -1455,29 +1540,33 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "Which summary avoids flattening the conflict?",
+              "prompt": "What is Antigone's core argument against Creon?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "A ruler\u2019s decree collides with familial and divine obligations."
+                  "text": "Divine law and burial duty outrank a king's decree \u2014 the unwritten laws of the gods are older than the state"
                 },
                 {
                   "id": "b",
-                  "text": "Both characters agree that burial has no religious meaning."
+                  "text": "Polynices was the rightful king"
                 },
                 {
                   "id": "c",
-                  "text": "The play is chiefly about identifying Laius\u2019 murderer."
+                  "text": "Creon has no legal right to rule"
+                },
+                {
+                  "id": "d",
+                  "text": "The burial was ordered by the oracle"
                 }
               ],
               "answerId": "a",
-              "explanation": "A ruler\u2019s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon\u2019s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
+              "explanation": "She appeals above the state to the gods \u2014 which is why the conflict cannot be settled politically.",
               "sourceRefIds": [
                 "main",
                 "defense"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w07d03.antigone-and-burial.source"
+                "obj.anti.conflict"
               ]
             }
           },
@@ -1486,29 +1575,33 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "What changes during the investigation?",
+              "prompt": "What is the twist at the heart of Oedipus Rex?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The plague is solved by recovering the fleece."
+                  "text": "Tiresias is the murderer"
                 },
                 {
                   "id": "b",
-                  "text": "The investigator becomes the person his inquiry exposes."
+                  "text": "The detective is the murderer \u2014 the king who hunts Laius's killer finds himself"
                 },
                 {
                   "id": "c",
-                  "text": "Oedipus abandons inquiry because no witnesses exist."
+                  "text": "Laius faked his death"
+                },
+                {
+                  "id": "d",
+                  "text": "The Sphinx set a trap for Oedipus"
                 }
               ],
               "answerId": "b",
-              "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus\u2019 proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
+              "explanation": "The play inverts every mystery: self-discovery is the catastrophe.",
               "sourceRefIds": [
                 "main",
                 "revelation"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+                "obj.oed.truth"
               ]
             }
           },
@@ -1517,40 +1610,58 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
+              "prompt": "What does The Trojan Women show that the Iliad does not?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Captive women being assigned to Greek masters."
+                  "text": "The gods' political manoeuvres"
                 },
                 {
                   "id": "b",
-                  "text": "A Greek council choosing a new king."
+                  "text": "Achilles's heroism"
                 },
                 {
                   "id": "c",
-                  "text": "Odysseus explaining the construction of his marriage bed."
+                  "text": "The defeated side's price \u2014 enslaved queens and a murdered child, the cost side of the same victory"
+                },
+                {
+                  "id": "d",
+                  "text": "The siege tactics of Troy"
                 }
               ],
-              "answerId": "a",
-              "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
+              "answerId": "c",
+              "explanation": "Euripides prices the same war the Iliad glorifies \u2014 for an audience that was itself an empire.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w07d05.the-trojan-women.source"
+                "obj.tro.cost"
               ]
             }
           }
         ]
       },
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "oresteia",
-        "source-method",
-        "the",
-        "theban"
+        "aegisthus",
+        "agamemnon",
+        "andromache",
+        "antigone",
+        "athena",
+        "cassandra",
+        "clytemnestra",
+        "creon",
+        "electra",
+        "furies",
+        "hecuba",
+        "jocasta",
+        "oedipus",
+        "orestes",
+        "orestia",
+        "polynices",
+        "sphinx",
+        "thebes",
+        "tiresias",
+        "trojan-women"
       ]
     },
     {
@@ -1576,29 +1687,33 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "What should a source-specific reading avoid?",
+              "prompt": "What does the Persephone myth explain?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Noticing Demeter\u2019s grief and the threat to crops"
+                  "text": "The creation of the first humans"
                 },
                 {
                   "id": "b",
-                  "text": "Keeping the hymn distinct from later versions"
+                  "text": "The origin of the Eleusinian Mysteries' secrets only"
                 },
                 {
                   "id": "c",
-                  "text": "Reducing the hymn to a universal story of a voluntary romantic journey"
+                  "text": "The founding of Athens"
+                },
+                {
+                  "id": "d",
+                  "text": "The seasons \u2014 her descent and return as a grieving mother's cycle, sealed by the pomegranate seeds"
                 }
               ],
-              "answerId": "c",
-              "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "The custody arrangement is the weather \u2014 and the promise that descent isn't the end.",
               "sourceRefIds": [
                 "main",
                 "agreement"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w08d01.persephone-descends.source"
+                "obj.perse.seasons"
               ]
             }
           },
@@ -1607,28 +1722,32 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "What additional evidence would a claim about local hero cult require?",
+              "prompt": "What did hero cults mean in real Greek life?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Evidence about the particular sanctuary, community, and practice"
+                  "text": "Tombs as active shrines, cities claiming heroes' bones, and myths treated as early history rather than fiction"
                 },
                 {
                   "id": "b",
-                  "text": "Only the fact that a hero speaks in an epic"
+                  "text": "A secret religion for initiates"
                 },
                 {
                   "id": "c",
-                  "text": "Only a comparison of modern film heroes"
+                  "text": "A literary club for reading Homer"
+                },
+                {
+                  "id": "d",
+                  "text": "Worship forbidden by the city-states"
                 }
               ],
               "answerId": "a",
-              "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles\u2019 reply among the dead), keeping each work and version distinct.",
+              "explanation": "Heroes were part of civic religion \u2014 the stories were their past, not just stories.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+                "obj.mem.cult"
               ]
             }
           },
@@ -1637,28 +1756,33 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
+              "prompt": "Why does Ovid matter to how we know Greek myth?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "He orders Medea to return to Colchis."
+                  "text": "He translated the Iliad into Latin"
                 },
                 {
                   "id": "b",
-                  "text": "He embraces her and places her crown among the stars."
+                  "text": "His Roman re-telling preserved many tales in their best-known form \u2014 Narcissus, Pyramus and Thisbe, Arachne, Icarus"
                 },
                 {
                   "id": "c",
-                  "text": "He gives Theseus a clue to leave the labyrinth."
+                  "text": "He invented all the transformation myths"
+                },
+                {
+                  "id": "d",
+                  "text": "He was the original source of every tale"
                 }
               ],
               "answerId": "b",
-              "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
+              "explanation": "Much 'Greek mythology' in art and literature is Ovid's polished version.",
               "sourceRefIds": [
-                "main"
+                "main",
+                "epitome"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w08d03.ovid-transforms.source"
+                "obj.ovid.diff"
               ]
             }
           },
@@ -1667,28 +1791,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "Why keep Frazer\u2019s scholarly layer visible?",
+              "prompt": "How is myth written into the physical world?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "He is the original author of the Homeric Hymns."
+                  "text": "Only in written maps"
                 },
                 {
                   "id": "b",
-                  "text": "A modern scholarly work cannot mention ancient geography."
+                  "text": "Through temple dedications alone"
                 },
                 {
                   "id": "c",
-                  "text": "His interpretation of ancient testimony is not the ancient testimony itself."
+                  "text": "The Aegean Sea for Aegeus, constellations for Perseus's rescue, the Pillars of Hercules, and cities claiming founders"
+                },
+                {
+                  "id": "d",
+                  "text": "Via names of months"
                 }
               ],
               "answerId": "c",
-              "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
+              "explanation": "The landscape is the memory \u2014 names of seas and stars keep the stories physical.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+                "obj.land.names"
               ]
             }
           },
@@ -1697,23 +1825,27 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What is the strongest course-wide conclusion?",
+              "prompt": "Which hero model does what?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries."
+                  "text": "All four are models of strength"
                 },
                 {
                   "id": "b",
-                  "text": "All four heroes express one unchanging moral code."
+                  "text": "Only Achilles and Odysseus matter"
                 },
                 {
                   "id": "c",
-                  "text": "Later biographies are eyewitness records of the heroic age."
+                  "text": "They represent the same archetype"
+                },
+                {
+                  "id": "d",
+                  "text": "Achilles is glory-at-cost, Odysseus cunning endurance, Theseus civic founding, Heracles labour and apotheosis"
                 }
               ],
-              "answerId": "a",
-              "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
+              "answerId": "d",
+              "explanation": "The arc's final question: which kind of strength does the world need?",
               "sourceRefIds": [
                 "main",
                 "heracles",
@@ -1721,21 +1853,33 @@
                 "theseus"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w08d05.four-heroic-models.source"
+                "obj.models.four"
               ]
             }
           }
         ]
       },
       "themes": [
-        "greek",
+        "aegean",
+        "constellations",
+        "demeter",
+        "eleusis",
+        "greece",
         "greek-heroes",
-        "heroes",
-        "homeric",
-        "iliad",
+        "hades",
+        "hero-cult",
+        "hero-types",
+        "landscape",
+        "memory",
         "metamorphoses",
-        "odyssey",
-        "source-method"
+        "narcissus",
+        "ovid",
+        "persephone",
+        "perseus",
+        "recap",
+        "rome",
+        "synthesis",
+        "tombs"
       ]
     },
     {
@@ -2823,21 +2967,21 @@
     },
     {
       "id": "grc.heroes.w04d01.the-political-quest",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Political Quest",
+      "title": "Jason: The Quest for the Fleece",
       "weekId": "grc.heroes.week04",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "argonautica"
+        "jason",
+        "argonauts",
+        "pelias",
+        "fleece"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-04-day-01-the-political-quest.json",
       "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.claim",
-        "obj.grc.heroes.w04d01.the-political-quest.source"
+        "obj.quest.pelias",
+        "obj.quest.crew"
       ],
       "recordIds": [
         "pg-00830"
@@ -2846,35 +2990,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "argonauts",
+        "fleece",
+        "jason",
+        "pelias"
       ],
       "entities": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "argonauts",
+        "fleece",
+        "jason",
+        "pelias"
       ]
     },
     {
       "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Aeetes and the Tasks",
+      "title": "Jason: Aeetes and the Tasks",
       "weekId": "grc.heroes.week04",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "argonautica"
+        "jason",
+        "aeetes",
+        "colchis",
+        "argonauts"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-04-day-02-aeetes-and-the-tasks.json",
       "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim",
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
+        "obj.tasks.demand",
+        "obj.tasks.betrayal"
       ],
       "recordIds": [
         "pg-00830"
@@ -2883,35 +3027,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "aeetes",
+        "argonauts",
+        "colchis",
+        "jason"
       ],
       "entities": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "aeetes",
+        "argonauts",
+        "colchis",
+        "jason"
       ]
     },
     {
       "id": "grc.heroes.w04d03.medea-chooses",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
       "title": "Medea Chooses",
       "weekId": "grc.heroes.week04",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "argonautica"
+        "medea",
+        "jason",
+        "colchis",
+        "fleece"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-04-day-03-medea-chooses.json",
       "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.claim",
-        "obj.grc.heroes.w04d03.medea-chooses.source"
+        "obj.medea.choice",
+        "obj.medea.fleece"
       ],
       "recordIds": [
         "pg-00830"
@@ -2920,35 +3064,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "colchis",
+        "fleece",
+        "jason",
+        "medea"
       ],
       "entities": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "colchis",
+        "fleece",
+        "jason",
+        "medea"
       ]
     },
     {
       "id": "grc.heroes.w04d04.flight-and-pursuit",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Flight and Pursuit",
+      "title": "Jason and Medea: The Flight",
       "weekId": "grc.heroes.week04",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "argonautica"
+        "jason",
+        "medea",
+        "apsyrtus",
+        "argonauts"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-04-day-04-flight-and-pursuit.json",
       "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.claim",
-        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
+        "obj.flight.apsyrtus",
+        "obj.flight.price"
       ],
       "recordIds": [
         "pg-00830"
@@ -2957,35 +3101,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "apsyrtus",
+        "argonauts",
+        "jason",
+        "medea"
       ],
       "entities": [
-        "argonautica",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "apsyrtus",
+        "argonauts",
+        "jason",
+        "medea"
       ]
     },
     {
       "id": "grc.heroes.w04d05.medea-on-stage",
-      "version": 5,
+      "version": 6,
       "pantheon": "greek",
       "title": "Medea on Stage",
       "weekId": "grc.heroes.week04",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "euripides"
+        "medea",
+        "euripides",
+        "corinth",
+        "tragedy"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-04-day-05-medea-on-stage.json",
       "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.claim",
-        "obj.grc.heroes.w04d05.medea-on-stage.source"
+        "obj.medea.corinth",
+        "obj.medea.revenge"
       ],
       "recordIds": [
         "pg-00830",
@@ -2995,35 +3139,34 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "corinth",
         "euripides",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "medea",
+        "tragedy"
       ],
       "entities": [
+        "corinth",
         "euripides",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "medea",
+        "tragedy"
       ]
     },
     {
       "id": "grc.heroes.w05d01.the-catalogue-of-labours",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "The Catalogue of Labours",
+      "title": "Heracles: The Twelve Labours",
       "weekId": "grc.heroes.week05",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "library"
+        "heracles",
+        "labours",
+        "eurystheus"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-05-day-01-the-catalogue-of-labours.json",
       "objectiveIds": [
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.claim",
-        "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
+        "obj.labours.list",
+        "obj.labours.reason"
       ],
       "recordIds": [
         "perseus-apollodorus-library-frazer"
@@ -3032,35 +3175,32 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "eurystheus",
+        "heracles",
+        "labours"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "eurystheus",
+        "heracles",
+        "labours"
       ]
     },
     {
       "id": "grc.heroes.w05d02.the-nemean-lion",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Nemean Lion",
+      "title": "Heracles: The Nemean Lion",
       "weekId": "grc.heroes.week05",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "library"
+        "heracles",
+        "nemean",
+        "lion"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-05-day-02-the-nemean-lion.json",
       "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.claim",
-        "obj.grc.heroes.w05d02.the-nemean-lion.source"
+        "obj.lion.fight",
+        "obj.lion.skin"
       ],
       "recordIds": [
         "perseus-apollodorus-library-frazer"
@@ -3069,35 +3209,33 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "heracles",
+        "lion",
+        "nemean"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "heracles",
+        "lion",
+        "nemean"
       ]
     },
     {
       "id": "grc.heroes.w05d03.madness-and-service",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Madness and Service",
+      "title": "Heracles: Madness and Service",
       "weekId": "grc.heroes.week05",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "library"
+        "heracles",
+        "hera",
+        "eurystheus",
+        "madness"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-05-day-03-madness-and-service.json",
       "objectiveIds": [
-        "obj.grc.heroes.w05d03.madness-and-service.claim",
-        "obj.grc.heroes.w05d03.madness-and-service.source"
+        "obj.mad.cause",
+        "obj.mad.hate"
       ],
       "recordIds": [
         "perseus-apollodorus-library-frazer"
@@ -3106,35 +3244,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "eurystheus",
+        "hera",
+        "heracles",
+        "madness"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "eurystheus",
+        "hera",
+        "heracles",
+        "madness"
       ]
     },
     {
       "id": "grc.heroes.w05d04.death-and-apotheosis",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Death and Apotheosis",
+      "title": "Heracles: Death and Apotheosis",
       "weekId": "grc.heroes.week05",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "epitome"
+        "heracles",
+        "deianira",
+        "nessus",
+        "apotheosis"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-05-day-04-death-and-apotheosis.json",
       "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.claim",
-        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
+        "obj.apo.death",
+        "obj.apo.god"
       ],
       "recordIds": [
         "perseus-apollodorus-library-frazer"
@@ -3143,35 +3281,34 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "apotheosis",
+        "deianira",
+        "heracles",
+        "nessus"
       ],
       "entities": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "apotheosis",
+        "deianira",
+        "heracles",
+        "nessus"
       ]
     },
     {
       "id": "grc.heroes.w05d05.strong-man-or-problem",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Strong Man or Problem",
+      "title": "Heracles: Strong Man or Problem?",
       "weekId": "grc.heroes.week05",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "pindar"
+        "heracles",
+        "violence",
+        "contradictions"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-05-day-05-strong-man-or-problem.json",
       "objectiveIds": [
-        "obj.grc.heroes.w05d05.strong-man-or-problem.claim",
-        "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+        "obj.prob.balance",
+        "obj.prob.use"
       ],
       "recordIds": [
         "pg-10717"
@@ -3180,221 +3317,218 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "pindar",
-        "source-method"
+        "contradictions",
+        "heracles",
+        "violence"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "pindar",
-        "source-method"
+        "contradictions",
+        "heracles",
+        "violence"
       ]
     },
     {
       "id": "grc.heroes.w06d01.the-road-to-athens",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Road to Athens",
+      "title": "Perseus: The Golden Shower",
       "weekId": "grc.heroes.week06",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "lives"
+        "perseus",
+        "danae",
+        "acrisius",
+        "origin-story"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-06-day-01-the-road-to-athens.json",
       "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.claim",
-        "obj.grc.heroes.w06d01.the-road-to-athens.source"
+        "obj.perseus.prophecy",
+        "obj.perseus.chest"
       ],
       "recordIds": [
-        "pg-00674"
+        "perseus-apollodorus-library-frazer"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "lives",
-        "source-method"
+        "acrisius",
+        "danae",
+        "origin-story",
+        "perseus"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "lives",
-        "source-method"
+        "acrisius",
+        "danae",
+        "origin-story",
+        "perseus"
       ]
     },
     {
       "id": "grc.heroes.w06d02.the-minotaur-and-ariadne",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Minotaur and Ariadne's Clue",
+      "title": "Perseus: The Impossible Errand",
       "weekId": "grc.heroes.week06",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "epitome"
+        "perseus",
+        "polydectes",
+        "medusa",
+        "quest"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-06-day-02-the-minotaur-and-ariadne.json",
       "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim",
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
+        "obj.errand.trap",
+        "obj.errand.gifts"
       ],
       "recordIds": [
-        "perseus-apollodorus-epitome-frazer"
+        "perseus-apollodorus-library-frazer"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "medusa",
+        "perseus",
+        "polydectes",
+        "quest"
       ],
       "entities": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "medusa",
+        "perseus",
+        "polydectes",
+        "quest"
       ]
     },
     {
       "id": "grc.heroes.w06d03.founder-and-unifier",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Founder and Unifier",
+      "title": "Perseus: The Gorgon's Head",
       "weekId": "grc.heroes.week06",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "lives"
+        "perseus",
+        "medusa",
+        "pegasus",
+        "quest"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-06-day-03-founder-and-unifier.json",
       "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.claim",
-        "obj.grc.heroes.w06d03.founder-and-unifier.source"
+        "obj.gorgon.method",
+        "obj.gorgon.spring"
       ],
       "recordIds": [
-        "pg-00674"
+        "perseus-apollodorus-library-frazer"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "lives",
-        "source-method"
+        "medusa",
+        "pegasus",
+        "perseus",
+        "quest"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "lives",
-        "source-method"
+        "medusa",
+        "pegasus",
+        "perseus",
+        "quest"
       ]
     },
     {
       "id": "grc.heroes.w06d04.contested-theseus",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
-      "title": "Contested Theseus",
+      "title": "Perseus: Andromeda",
       "weekId": "grc.heroes.week06",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "epitome"
+        "perseus",
+        "andromeda",
+        "sea-monster",
+        "rescue"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-06-day-04-contested-theseus.json",
       "objectiveIds": [
-        "obj.grc.heroes.w06d04.contested-theseus.claim",
-        "obj.grc.heroes.w06d04.contested-theseus.source"
+        "obj.andro.monster",
+        "obj.andro.rescue"
       ],
       "recordIds": [
-        "pg-00674"
+        "perseus-apollodorus-library-frazer"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "andromeda",
+        "perseus",
+        "rescue",
+        "sea-monster"
       ],
       "entities": [
-        "epitome",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "andromeda",
+        "perseus",
+        "rescue",
+        "sea-monster"
       ]
     },
     {
       "id": "grc.heroes.w06d05.the-civic-hero",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Civic Hero",
+      "title": "Perseus: The Reckoning",
       "weekId": "grc.heroes.week06",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "library"
+        "perseus",
+        "polydectes",
+        "acrisius",
+        "gorgon"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-06-day-05-the-civic-hero.json",
       "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.claim",
-        "obj.grc.heroes.w06d05.the-civic-hero.source"
+        "obj.reck.seriphus",
+        "obj.reck.prophecy"
       ],
       "recordIds": [
-        "perseus-apollodorus-library-frazer",
-        "pg-00674"
+        "perseus-apollodorus-library-frazer"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "acrisius",
+        "gorgon",
+        "perseus",
+        "polydectes"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "library",
-        "source-method"
+        "acrisius",
+        "gorgon",
+        "perseus",
+        "polydectes"
       ]
     },
     {
       "id": "grc.heroes.w07d01.agamemnon-returns",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Agamemnon Returns",
+      "title": "Agamemnon: The Homecoming",
       "weekId": "grc.heroes.week07",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "oresteia"
+        "agamemnon",
+        "clytemnestra",
+        "aegisthus",
+        "orestia"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-07-day-01-agamemnon-returns.json",
       "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.claim",
-        "obj.grc.heroes.w07d01.agamemnon-returns.source"
+        "obj.agem.motive",
+        "obj.agem.scene"
       ],
       "recordIds": [
         "pg-01727",
@@ -3404,35 +3538,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "oresteia",
-        "source-method"
+        "aegisthus",
+        "agamemnon",
+        "clytemnestra",
+        "orestia"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "oresteia",
-        "source-method"
+        "aegisthus",
+        "agamemnon",
+        "clytemnestra",
+        "orestia"
       ]
     },
     {
       "id": "grc.heroes.w07d02.orestes-and-justice",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Orestes and Justice",
+      "title": "Orestes: Vengeance and the Court",
       "weekId": "grc.heroes.week07",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "oresteia"
+        "orestes",
+        "electra",
+        "furies",
+        "athena"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-07-day-02-orestes-and-justice.json",
       "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.claim",
-        "obj.grc.heroes.w07d02.orestes-and-justice.source"
+        "obj.ore.stasis",
+        "obj.ore.court"
       ],
       "recordIds": [
         "pg-08604"
@@ -3441,35 +3575,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "oresteia",
-        "source-method"
+        "athena",
+        "electra",
+        "furies",
+        "orestes"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "oresteia",
-        "source-method"
+        "athena",
+        "electra",
+        "furies",
+        "orestes"
       ]
     },
     {
       "id": "grc.heroes.w07d03.antigone-and-burial",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Antigone and Burial",
+      "title": "Antigone: The Burial",
       "weekId": "grc.heroes.week07",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "antigone",
+        "creon",
+        "polynices",
+        "thebes"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-07-day-03-antigone-and-burial.json",
       "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.claim",
-        "obj.grc.heroes.w07d03.antigone-and-burial.source"
+        "obj.anti.conflict",
+        "obj.anti.cost"
       ],
       "recordIds": [
         "pg-00031"
@@ -3478,35 +3612,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "antigone",
+        "creon",
+        "polynices",
+        "thebes"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "antigone",
+        "creon",
+        "polynices",
+        "thebes"
       ]
     },
     {
       "id": "grc.heroes.w07d04.oedipus-investigates",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Oedipus Investigates",
+      "title": "Oedipus: The Investigation",
       "weekId": "grc.heroes.week07",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "oedipus",
+        "tiresias",
+        "jocasta",
+        "sphinx"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-07-day-04-oedipus-investigates.json",
       "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.claim",
-        "obj.grc.heroes.w07d04.oedipus-investigates.source"
+        "obj.oed.method",
+        "obj.oed.truth"
       ],
       "recordIds": [
         "pg-00031"
@@ -3515,35 +3649,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "jocasta",
+        "oedipus",
+        "sphinx",
+        "tiresias"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "theban"
+        "jocasta",
+        "oedipus",
+        "sphinx",
+        "tiresias"
       ]
     },
     {
       "id": "grc.heroes.w07d05.the-trojan-women",
-      "version": 2,
+      "version": 3,
       "pantheon": "greek",
       "title": "The Trojan Women",
       "weekId": "grc.heroes.week07",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "the"
+        "trojan-women",
+        "hecuba",
+        "cassandra",
+        "andromache"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-07-day-05-the-trojan-women.json",
       "objectiveIds": [
-        "obj.grc.heroes.w07d05.the-trojan-women.claim",
-        "obj.grc.heroes.w07d05.the-trojan-women.source"
+        "obj.tro.cost",
+        "obj.tro.women"
       ],
       "recordIds": [
         "perseus-trojan-women-coleridge"
@@ -3552,35 +3686,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "the"
+        "andromache",
+        "cassandra",
+        "hecuba",
+        "trojan-women"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "the"
+        "andromache",
+        "cassandra",
+        "hecuba",
+        "trojan-women"
       ]
     },
     {
       "id": "grc.heroes.w08d01.persephone-descends",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Persephone Descends",
+      "title": "Persephone: The Descent",
       "weekId": "grc.heroes.week08",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "homeric"
+        "persephone",
+        "demeter",
+        "hades",
+        "eleusis"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-08-day-01-persephone-descends.json",
       "objectiveIds": [
-        "obj.grc.heroes.w08d01.persephone-descends.claim",
-        "obj.grc.heroes.w08d01.persephone-descends.source"
+        "obj.perse.abduction",
+        "obj.perse.seasons"
       ],
       "recordIds": [
         "pg-00348"
@@ -3589,35 +3723,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "homeric",
-        "source-method"
+        "demeter",
+        "eleusis",
+        "hades",
+        "persephone"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "homeric",
-        "source-method"
+        "demeter",
+        "eleusis",
+        "hades",
+        "persephone"
       ]
     },
     {
       "id": "grc.heroes.w08d02.heroes-in-memory",
-      "version": 3,
+      "version": 4,
       "pantheon": "greek",
       "title": "Heroes in Memory",
       "weekId": "grc.heroes.week08",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "odyssey"
+        "hero-cult",
+        "memory",
+        "tombs",
+        "greece"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-08-day-02-heroes-in-memory.json",
       "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.claim",
-        "obj.grc.heroes.w08d02.heroes-in-memory.source"
+        "obj.mem.cult",
+        "obj.mem.real"
       ],
       "recordIds": [
         "pg-01727"
@@ -3626,35 +3760,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "odyssey",
-        "source-method"
+        "greece",
+        "hero-cult",
+        "memory",
+        "tombs"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "odyssey",
-        "source-method"
+        "greece",
+        "hero-cult",
+        "memory",
+        "tombs"
       ]
     },
     {
       "id": "grc.heroes.w08d03.ovid-transforms",
-      "version": 3,
+      "version": 4,
       "pantheon": "greek",
       "title": "Ovid Transforms",
       "weekId": "grc.heroes.week08",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "metamorphoses"
+        "ovid",
+        "metamorphoses",
+        "rome",
+        "narcissus"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-08-day-03-ovid-transforms.json",
       "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.claim",
-        "obj.grc.heroes.w08d03.ovid-transforms.source"
+        "obj.ovid.diff",
+        "obj.ovid.famous"
       ],
       "recordIds": [
         "perseus-apollodorus-epitome-frazer",
@@ -3664,35 +3798,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
         "metamorphoses",
-        "source-method"
+        "narcissus",
+        "ovid",
+        "rome"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
         "metamorphoses",
-        "source-method"
+        "narcissus",
+        "ovid",
+        "rome"
       ]
     },
     {
       "id": "grc.heroes.w08d04.heroes-in-landscape",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Heroes in Landscape",
+      "title": "Heroes in the Landscape",
       "weekId": "grc.heroes.week08",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "greek"
+        "constellations",
+        "landscape",
+        "perseus",
+        "aegean"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-08-day-04-heroes-in-landscape.json",
       "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.claim",
-        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
+        "obj.land.names",
+        "obj.land.sky"
       ],
       "recordIds": [
         "pg-56002"
@@ -3701,35 +3835,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "aegean",
+        "constellations",
+        "landscape",
+        "perseus"
       ],
       "entities": [
-        "greek",
-        "greek-heroes",
-        "heroes",
-        "source-method"
+        "aegean",
+        "constellations",
+        "landscape",
+        "perseus"
       ]
     },
     {
       "id": "grc.heroes.w08d05.four-heroic-models",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
       "title": "Four Heroic Models",
       "weekId": "grc.heroes.week08",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
-        "iliad"
+        "synthesis",
+        "hero-types",
+        "recap",
+        "greek-heroes"
       ],
       "difficulty": 3,
       "path": "content/lessons/greek/heroes-programme/week-08-day-05-four-heroic-models.json",
       "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.claim",
-        "obj.grc.heroes.w08d05.four-heroic-models.source"
+        "obj.models.four",
+        "obj.models.pick"
       ],
       "recordIds": [
         "perseus-apollodorus-library-frazer",
@@ -3742,15 +3876,15 @@
       "cardCount": 5,
       "themes": [
         "greek-heroes",
-        "heroes",
-        "iliad",
-        "source-method"
+        "hero-types",
+        "recap",
+        "synthesis"
       ],
       "entities": [
         "greek-heroes",
-        "heroes",
-        "iliad",
-        "source-method"
+        "hero-types",
+        "recap",
+        "synthesis"
       ]
     },
     {
@@ -7789,11 +7923,11 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
+                      "text": "He spares each bandit after winning surrender"
                     },
                     {
                       "id": "b",
-                      "text": "He spares each bandit after winning surrender"
+                      "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
                     },
                     {
                       "id": "c",
@@ -7804,7 +7938,7 @@
                       "text": "Each duel is won by divine intervention"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "b",
                   "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
                   "sourceRefIds": [
                     "plutarch"
@@ -7823,22 +7957,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
-                    },
-                    {
-                      "id": "b",
                       "text": "Medea confesses before Theseus drinks"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "A servant switches the cups"
+                    },
+                    {
+                      "id": "c",
+                      "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
                     },
                     {
                       "id": "d",
                       "text": "An oracle warns him at the table"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "c",
                   "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
                   "sourceRefIds": [
                     "plutarch"
@@ -7857,22 +7991,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
-                    },
-                    {
-                      "id": "b",
                       "text": "He memorizes Daedalus's floor plan"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "The Minotaur's dying cry opens the walls"
                     },
                     {
-                      "id": "d",
+                      "id": "c",
                       "text": "Ariadne leads him out by hand"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "d",
                   "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
                   "sourceRefIds": [
                     "plutarch"
@@ -7939,11 +8073,11 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
+                      "text": "Achilles refuses to fight the Trojans"
                     },
                     {
                       "id": "b",
-                      "text": "Achilles refuses to fight the Trojans"
+                      "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
                     },
                     {
                       "id": "c",
@@ -7954,7 +8088,7 @@
                       "text": "Chryses poisons the wells"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "b",
                   "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
                   "sourceRefIds": [
                     "main"
@@ -7973,22 +8107,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
-                    },
-                    {
-                      "id": "b",
                       "text": "That Agamemnon be struck by lightning"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "That he be made king of the army"
+                    },
+                    {
+                      "id": "c",
+                      "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
                     },
                     {
                       "id": "d",
                       "text": "That his ships be spared for the voyage home"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "c",
                   "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth \u2014 and nearly destroys it.",
                   "sourceRefIds": [
                     "main"
@@ -8007,22 +8141,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
-                    },
-                    {
-                      "id": "b",
                       "text": "The offer arrives too late; he has already sailed"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "He demands the kingship, not gifts"
                     },
                     {
-                      "id": "d",
+                      "id": "c",
                       "text": "He has sworn an oath to Hector"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "d",
                   "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
                   "sourceRefIds": [
                     "main"
@@ -8075,11 +8209,11 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
+                      "text": "Zeus orders it directly"
                     },
                     {
                       "id": "b",
-                      "text": "Zeus orders it directly"
+                      "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
                     },
                     {
                       "id": "c",
@@ -8090,7 +8224,7 @@
                       "text": "The Greek commanders demand it"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "b",
                   "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
                   "sourceRefIds": [
                     "main"
@@ -8123,22 +8257,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "She weaves a burial shroud by day and unravels it by night"
-                    },
-                    {
-                      "id": "b",
                       "text": "She feigns illness in a locked tower"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "She makes them sail to Delphi first"
+                    },
+                    {
+                      "id": "c",
+                      "text": "She weaves a burial shroud by day and unravels it by night"
                     },
                     {
                       "id": "d",
                       "text": "She marries one in secret"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "c",
                   "explanation": "The loom trick is undone only by a servant's betrayal.",
                   "sourceRefIds": [
                     "main"
@@ -8157,22 +8291,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "His boast gives Polyphemus his name \u2014 Poseidon's curse ensures the voyage home is slow and solitary"
-                    },
-                    {
-                      "id": "b",
                       "text": "He loses his best crewmen to the Cyclops's club"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "His ship is wrecked on the island's rocks"
                     },
                     {
-                      "id": "d",
+                      "id": "c",
                       "text": "He is trapped for seven years"
+                    },
+                    {
+                      "id": "d",
+                      "text": "His boast gives Polyphemus his name \u2014 Poseidon's curse ensures the voyage home is slow and solitary"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "d",
                   "explanation": "Outis saves him; the boast curses him \u2014 every later trial rides on Poseidon's anger.",
                   "sourceRefIds": [
                     "main",
@@ -8227,11 +8361,11 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Achilles would trade his fame for a poor man's life \u2014 the dead measure what the living pay for renown"
+                      "text": "They demand gold before speaking"
                     },
                     {
                       "id": "b",
-                      "text": "They demand gold before speaking"
+                      "text": "Achilles would trade his fame for a poor man's life \u2014 the dead measure what the living pay for renown"
                     },
                     {
                       "id": "c",
@@ -8242,7 +8376,7 @@
                       "text": "They tell him his crew is doomed by hubris alone"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "b",
                   "explanation": "Anticleia died of longing; Achilles prefers labour to lordship of the dead.",
                   "sourceRefIds": [
                     "main"
@@ -8261,22 +8395,22 @@
                   "choices": [
                     {
                       "id": "a",
-                      "text": "She tests him with the bed \u2014 it is rooted to a living olive tree, a secret only he could know"
-                    },
-                    {
-                      "id": "b",
                       "text": "She checks the scar on his thigh"
                     },
                     {
-                      "id": "c",
+                      "id": "b",
                       "text": "She asks about the Trojan Horse"
+                    },
+                    {
+                      "id": "c",
+                      "text": "She tests him with the bed \u2014 it is rooted to a living olive tree, a secret only he could know"
                     },
                     {
                       "id": "d",
                       "text": "She watches him defeat the suitors"
                     }
                   ],
-                  "answerId": "a",
+                  "answerId": "c",
                   "explanation": "The immovable bed is the recognition the epic saves for last.",
                   "sourceRefIds": [
                     "main"
@@ -8305,28 +8439,32 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Which detail explains Pelias\u2019 alarm?",
+                  "prompt": "What triggers the quest for the Golden Fleece?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Medea arrives in Iolcus before Jason is born."
+                      "text": "The oracle commands a fleece offering"
                     },
                     {
                       "id": "b",
-                      "text": "Jason matches the warning about a man with one sandal."
+                      "text": "Jason seeks glory to win a bride"
                     },
                     {
                       "id": "c",
-                      "text": "Jason returns carrying the fleece before the voyage."
+                      "text": "The Argonauts are hired for a trading voyage"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Pelias, warned by an oracle of a one-sandalled man, sends Jason on a quest meant to kill him"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "The quest is Pelias's trap, not Jason's ambition.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w04d01.the-political-quest.source"
+                    "obj.quest.pelias"
                   ]
                 }
               },
@@ -8335,28 +8473,33 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
+                  "prompt": "What must Jason do to earn the fleece from Aeetes?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The bulls' fire and the earthborn men's weapons."
+                      "text": "Yoke fire-breathing bulls and sow dragon's teeth that rise as armed men"
                     },
                     {
                       "id": "b",
-                      "text": "The Sirens' song and the whirlpool."
+                      "text": "Kill the Colchian champion in single combat"
                     },
                     {
                       "id": "c",
-                      "text": "The cold of the House of Cold."
+                      "text": "Solve the riddle of the dragon grove"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Bring a tribute of gold to the king"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
+                  "explanation": "The tasks are impossible by design \u2014 and the king intends betrayal either way.",
                   "sourceRefIds": [
+                    "main",
                     "aid"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
+                    "obj.tasks.demand"
                   ]
                 }
               },
@@ -8365,30 +8508,34 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "How can we describe Medea without erasing the poem\u2019s tensions?",
+                  "prompt": "What is the decisive factor in winning the fleece?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "She deliberates and acts within family pressures and divine influence."
+                      "text": "Jason's superior strength at the tasks"
                     },
                     {
                       "id": "b",
-                      "text": "She is merely a reward with no decisions in the plot."
+                      "text": "Medea's aid \u2014 her ointment, her trick, her calming of the dragon \u2014 at the price of betraying her father"
                     },
                     {
                       "id": "c",
-                      "text": "She has no connection to Colchis or Aeetes."
+                      "text": "Aeetes's honourable bargain"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The Argonauts' night assault"
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
+                  "answerId": "b",
+                  "explanation": "Every winning move is Medea's; Jason's feat depends on her choice.",
                   "sourceRefIds": [
                     "main",
-                    "dilemma",
-                    "aid"
+                    "aid",
+                    "dilemma"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w04d03.medea-chooses.source"
+                    "obj.medea.choice"
                   ]
                 }
               },
@@ -8397,28 +8544,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "What does Apollonius say follows Apsyrtus' killing?",
+                  "prompt": "What marks the flight from Colchis?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Aeetes welcomes the Argonauts home."
+                      "text": "A storm sent by Zeus"
                     },
                     {
                       "id": "b",
-                      "text": "Zeus orders the Argonauts to seek purification from Circe."
+                      "text": "A mutiny among the Argonauts"
                     },
                     {
                       "id": "c",
-                      "text": "Athena gives Jason the throne of Athens."
+                      "text": "Apsyrtus's death and a pursuit that requires purification before the voyage can continue"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The loss of the fleece overboard"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
+                  "answerId": "c",
+                  "explanation": "The brother's killing is the flight's defining crime; the escape is bought with kin-blood.",
                   "sourceRefIds": [
                     "purification"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
+                    "obj.flight.apsyrtus"
                   ]
                 }
               },
@@ -8427,29 +8578,33 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "Which contrast between Apollonius and Euripides is supported?",
+                  "prompt": "How does Euripides' Medea end?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
+                      "text": "She is executed by Creon's soldiers"
                     },
                     {
                       "id": "b",
-                      "text": "Both texts are eyewitness diaries of Jason's voyage."
+                      "text": "She returns the fleece to Colchis"
                     },
                     {
                       "id": "c",
-                      "text": "Euripides' play is a catalogue of the Argonauts."
+                      "text": "She sails into exile alone"
+                    },
+                    {
+                      "id": "d",
+                      "text": "She destroys Jason with a poisoned robe and the killing of their sons, then escapes to Athens \u2014 where she later poisons Theseus's cup"
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
+                  "answerId": "d",
+                  "explanation": "Her refuge at Aegeus's court links straight back to week 1's poisoned-cup scene.",
                   "sourceRefIds": [
-                    "argo",
-                    "main"
+                    "main",
+                    "argo"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w04d05.medea-on-stage.source"
+                    "obj.medea.revenge"
                   ]
                 }
               }
@@ -8472,30 +8627,34 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "What should a careful account distinguish?",
+                  "prompt": "What event sentences Heracles to twelve years of labours?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The first oracle\u2019s ten tasks from the later total of twelve"
+                      "text": "He killed his children in Hera-sent madness \u2014 the oracle sentences him to serve Eurystheus"
                     },
                     {
                       "id": "b",
-                      "text": "The first oracle\u2019s ten tasks from a later pair added by Pindar"
+                      "text": "He wants to win the throne of Tiryns"
                     },
                     {
                       "id": "c",
-                      "text": "The first oracle\u2019s ten tasks from twelve versions of the same feat"
+                      "text": "Eurystheus hires him as a mercenary"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He seeks the gods' favour for a quest"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "The first oracle\u2019s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus\u2019 help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
+                  "explanation": "The labours are penance, not ambition \u2014 the darkest origin for the greatest hero.",
                   "sourceRefIds": [
                     "main",
                     "hydra",
                     "augeas"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
+                    "obj.labours.reason"
                   ]
                 }
               },
@@ -8504,29 +8663,33 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What method defeats the lion after arrows fail?",
+                  "prompt": "How does Heracles overcome the Nemean lion's unbreakable hide?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Iolaus helps cauterize the Hydra's neck."
+                      "text": "He beheads it with his nephew Iolaus at his side"
                     },
                     {
                       "id": "b",
-                      "text": "He distracts it with a singing contest."
+                      "text": "He strangles it barehanded, then skins it with its own claws \u2014 the trophy becomes his signature garb"
                     },
                     {
                       "id": "c",
-                      "text": "Heracles blocks one cave entrance and chokes the lion through the other."
+                      "text": "He starves it in its cave"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He blinds it and ties it up"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
+                  "answerId": "b",
+                  "explanation": "The lionskin and club that identify him in every image start with this fight.",
                   "sourceRefIds": [
                     "main",
                     "combat"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w05d02.the-nemean-lion.claim"
+                    "obj.lion.fight"
                   ]
                 }
               },
@@ -8535,28 +8698,32 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "Why attach the sequence to the Library?",
+                  "prompt": "What drives the persecution of Heracles?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The Library is an eyewitness account that settles every later version."
+                      "text": "Eurystheus's envy of his strength"
                     },
                     {
                       "id": "b",
-                      "text": "Different works can place the family catastrophe differently."
+                      "text": "A curse on his father Amphitryon"
                     },
                     {
                       "id": "c",
-                      "text": "Later tragedies must follow the Library\u2019s sequence exactly."
+                      "text": "Hera's hatred of Zeus's mortal-born son \u2014 it produces the madness, the kin-killing, and the sentence of service"
+                    },
+                    {
+                      "id": "d",
+                      "text": "His refusal of divine honours"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
+                  "answerId": "c",
+                  "explanation": "The whole labour-cycle flows from Hera's jealousy \u2014 she is the engine of his suffering.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w05d03.madness-and-service.source"
+                    "obj.mad.hate"
                   ]
                 }
               },
@@ -8565,28 +8732,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "Which passage directly supports this ending?",
+                  "prompt": "How does Heracles die, and what follows?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Library 2.5.2, Heracles\u2019 Hydra labour"
+                      "text": "He falls at Hades\u2019 gate in Library 2.5.2"
                     },
                     {
                       "id": "b",
-                      "text": "Library 2.4.12, the oracle and initial service"
+                      "text": "He is killed by Eurystheus's soldiers"
                     },
                     {
                       "id": "c",
-                      "text": "Library 2.7.7"
+                      "text": "He dies old and forgotten"
+                    },
+                    {
+                      "id": "d",
+                      "text": "A poisoned robe from Deianira (the centaur's revenge) \u2014 then pyre on Oeta and ascent to Olympus, the only deified hero"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "His end is unique: mortality burned away, divinity ascended.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
+                    "obj.apo.god"
                   ]
                 }
               },
@@ -8595,28 +8766,32 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What distinguishes this use of Herakles from the Library\u2019s list?",
+                  "prompt": "What makes Heracles dangerous to allies as well as monsters?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory."
+                      "text": "The same strength that clears monsters also breaks cities and hospitality \u2014 the myths preserve both halves"
                     },
                     {
                       "id": "b",
-                      "text": "It lists Heracles\u2019 twelve labours to document his whole life."
+                      "text": "He is only dangerous when drunk"
                     },
                     {
                       "id": "c",
-                      "text": "It omits the festival\u2019s founder and focuses only on Theron\u2019s victory."
+                      "text": "He refuses all labours but easy ones"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He serves the wrong king"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "It invokes Heracles\u2019 Olympic foundation while praising Theron\u2019s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
+                  "explanation": "He is the honest hero: the power that protects is the power that wrecks.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w05d05.strong-man-or-problem.source"
+                    "obj.prob.balance"
                   ]
                 }
               }
@@ -8639,28 +8814,32 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Which source supplies this biographical framing?",
+                  "prompt": "What sets Perseus's story in motion?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Plutarch\u2019s Life of Theseus"
+                      "text": "Danae's secret marriage to a rival king"
                     },
                     {
                       "id": "b",
-                      "text": "Pindar\u2019s Olympian 2"
+                      "text": "An oracle that Acrisius's grandson will kill him \u2014 so he seals Danae away, Zeus arrives as gold, and mother and infant are cast to sea"
                     },
                     {
                       "id": "c",
-                      "text": "The Homeric Hymn to Demeter"
+                      "text": "A famine that empties Argos"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Polydectes's invasion of Argos"
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Plutarch\u2019s Life of Theseus is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, road to Athens), keeping each work and version distinct.",
+                  "answerId": "b",
+                  "explanation": "The prophecy creates the conditions it predicts \u2014 the classic pattern.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w06d01.the-road-to-athens.source"
+                    "obj.perseus.prophecy"
                   ]
                 }
               },
@@ -8669,28 +8848,32 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What does Ariadne's clue let Theseus do in the Epitome?",
+                  "prompt": "How is Perseus manoeuvred into the Gorgon quest?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Escape from Polyphemus."
+                      "text": "A drunken boast at a feast"
                     },
                     {
                       "id": "b",
-                      "text": "Find his way out after killing the Minotaur."
+                      "text": "A challenge from the oracle"
                     },
                     {
                       "id": "c",
-                      "text": "Capture the Nemean lion."
+                      "text": "Polydectes's 'wedding contribution' scam \u2014 Perseus can't offer a horse and rashly promises anything; the king names Medusa's head"
+                    },
+                    {
+                      "id": "d",
+                      "text": "A ransom for his mother's freedom"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "The Epitome says Theseus draws the clue after him as he leaves the labyrinth.",
+                  "answerId": "c",
+                  "explanation": "The errand is engineered to remove the son guarding the mother.",
                   "sourceRefIds": [
-                    "escape"
+                    "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
+                    "obj.errand.trap"
                   ]
                 }
               },
@@ -8699,28 +8882,32 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "What changes when the hero becomes a civic founder?",
+                  "prompt": "What is the key technique of the Gorgon kill?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "His story ceases to have political meaning."
+                      "text": "He creeps up on her in total darkness"
                     },
                     {
                       "id": "b",
-                      "text": "The source becomes an eyewitness record of prehistoric Athens."
+                      "text": "He uses the cap of invisibility to approach awake"
                     },
                     {
                       "id": "c",
-                      "text": "His deeds explain the community\u2019s institutions and belonging."
+                      "text": "He poisons her food"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He watches only the reflection in Athena's mirrored shield while striking the sleeping Medusa"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "His deeds explain the community\u2019s institutions and belonging. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "The mirrored shield is the answer to 'how do you kill what kills you by sight?'",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w06d03.founder-and-unifier.source"
+                    "obj.gorgon.method"
                   ]
                 }
               },
@@ -8729,28 +8916,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "Which statement respects variant evidence?",
+                  "prompt": "Why is Andromeda chained to the sea-cliff?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Plutarch reports alternatives; his report does not establish one eyewitness history."
+                      "text": "Her mother Cassiopeia's boast against the sea-nymphs \u2014 Poseidon sends flood and monster, and the oracle names the princess"
                     },
                     {
                       "id": "b",
-                      "text": "All variants must have happened consecutively."
+                      "text": "She refused the god's advances"
                     },
                     {
                       "id": "c",
-                      "text": "A later biography cannot preserve any earlier traditions."
+                      "text": "Her father's gambling debt"
+                    },
+                    {
+                      "id": "d",
+                      "text": "She is punished for stealing fire"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Plutarch reports alternatives; his report does not establish one eyewitness history. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, conflicting accounts of Ariadne), keeping each work and version distinct.",
+                  "explanation": "The innocent daughter pays for the mother's pride \u2014 a recurring formula.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w06d04.contested-theseus.claim"
+                    "obj.andro.monster"
                   ]
                 }
               },
@@ -8759,29 +8950,32 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What evidence is needed for the comparison?",
+                  "prompt": "How does the prophecy about Acrisius come true?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Only a modern ranking of heroic strength"
+                      "text": "Deliberately \u2014 Perseus kills him on returning to Argos"
                     },
                     {
                       "id": "b",
-                      "text": "Both Plutarch\u2019s unification account and the Library\u2019s service account"
+                      "text": "Accidentally \u2014 at funeral games, Perseus's discus swerves and kills his grandfather among the spectators"
                     },
                     {
                       "id": "c",
-                      "text": "Only an Iliad quotation about Achilles"
+                      "text": "In the palace when the Gorgon head is shown"
+                    },
+                    {
+                      "id": "d",
+                      "text": "By poison from Medusa's head"
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Both Plutarch\u2019s unification account and the Library\u2019s service account is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
+                  "explanation": "Fate completes itself on a stray discus \u2014 the oracle never misses.",
                   "sourceRefIds": [
-                    "main",
-                    "heracles"
+                    "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w06d05.the-civic-hero.source"
+                    "obj.reck.prophecy"
                   ]
                 }
               }
@@ -8804,30 +8998,33 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Which contrast between the returns is supported by these works?",
+                  "prompt": "What is the deepest motive behind Agamemnon's murder?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Neither work includes a household after the war."
+                      "text": "Aegisthus's ambition for the throne"
                     },
                     {
                       "id": "b",
-                      "text": "Agamemnon faces household murder; Odysseus is recognized by Penelope."
+                      "text": "A quarrel over Trojan spoils"
                     },
                     {
                       "id": "c",
-                      "text": "Both kings are welcomed without conflict."
+                      "text": "Clytemnestra's revenge for Iphigenia \u2014 the daughter sacrificed to launch the fleet"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Apollo's command for justice"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "Aeschylus stages Agamemnon's murder; Butler's Odyssey passage shows Penelope recognizing Odysseus.",
+                  "answerId": "c",
+                  "explanation": "The sacrifice at Aulis is the wound; the carpet and the bath are only the staging.",
                   "sourceRefIds": [
                     "main",
-                    "murder",
-                    "odyssey"
+                    "murder"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w07d01.agamemnon-returns.source"
+                    "obj.agem.motive"
                   ]
                 }
               },
@@ -8836,29 +9033,33 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "Why is \u201claw simply replaces religion\u201d a poor summary?",
+                  "prompt": "How does the Oresteia resolve the blood-feud?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The play contains no court or judgement."
+                      "text": "Orestes is purified at Delphi and pardoned"
                     },
                     {
                       "id": "b",
-                      "text": "Athena is absent from the proceedings."
+                      "text": "The Furies are destroyed by Zeus"
                     },
                     {
                       "id": "c",
-                      "text": "Divine figures and the Erinyes remain central to the settlement."
+                      "text": "Orestes kills himself to end the cycle"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Athena establishes a court at the Areopagus \u2014 law replaces vendetta, and the Furies are honoured, not defeated"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Divine figures and the Erinyes remain central to the settlement. is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement); The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Athena establishes the court), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "Aeschylus's answer to endless retaliation is an institution.",
                   "sourceRefIds": [
                     "main",
                     "court"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w07d02.orestes-and-justice.claim"
+                    "obj.ore.court"
                   ]
                 }
               },
@@ -8867,29 +9068,33 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "Which summary avoids flattening the conflict?",
+                  "prompt": "What is Antigone's core argument against Creon?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "A ruler\u2019s decree collides with familial and divine obligations."
+                      "text": "Divine law and burial duty outrank a king's decree \u2014 the unwritten laws of the gods are older than the state"
                     },
                     {
                       "id": "b",
-                      "text": "Both characters agree that burial has no religious meaning."
+                      "text": "Polynices was the rightful king"
                     },
                     {
                       "id": "c",
-                      "text": "The play is chiefly about identifying Laius\u2019 murderer."
+                      "text": "Creon has no legal right to rule"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The burial was ordered by the oracle"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "A ruler\u2019s decree collides with familial and divine obligations. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon\u2019s burial decree); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, defense of divine laws), keeping each work and version distinct.",
+                  "explanation": "She appeals above the state to the gods \u2014 which is why the conflict cannot be settled politically.",
                   "sourceRefIds": [
                     "main",
                     "defense"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w07d03.antigone-and-burial.source"
+                    "obj.anti.conflict"
                   ]
                 }
               },
@@ -8898,29 +9103,33 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "What changes during the investigation?",
+                  "prompt": "What is the twist at the heart of Oedipus Rex?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The plague is solved by recovering the fleece."
+                      "text": "Tiresias is the murderer"
                     },
                     {
                       "id": "b",
-                      "text": "The investigator becomes the person his inquiry exposes."
+                      "text": "The detective is the murderer \u2014 the king who hunts Laius's killer finds himself"
                     },
                     {
                       "id": "c",
-                      "text": "Oedipus abandons inquiry because no witnesses exist."
+                      "text": "Laius faked his death"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The Sphinx set a trap for Oedipus"
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "The investigator becomes the person his inquiry exposes. is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus\u2019 proclamation); Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, the herdsman confirms the foundling), keeping each work and version distinct.",
+                  "explanation": "The play inverts every mystery: self-discovery is the catastrophe.",
                   "sourceRefIds": [
                     "main",
                     "revelation"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w07d04.oedipus-investigates.claim"
+                    "obj.oed.truth"
                   ]
                 }
               },
@@ -8929,28 +9138,32 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What does the cited Trojan Women passage foreground after Troy's fall?",
+                  "prompt": "What does The Trojan Women show that the Iliad does not?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Captive women being assigned to Greek masters."
+                      "text": "The gods' political manoeuvres"
                     },
                     {
                       "id": "b",
-                      "text": "A Greek council choosing a new king."
+                      "text": "Achilles's heroism"
                     },
                     {
                       "id": "c",
-                      "text": "Odysseus explaining the construction of his marriage bed."
+                      "text": "The defeated side's price \u2014 enslaved queens and a murdered child, the cost side of the same victory"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The siege tactics of Troy"
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "The passage describes captive women at the Scamander being assigned by lot.",
+                  "answerId": "c",
+                  "explanation": "Euripides prices the same war the Iliad glorifies \u2014 for an audience that was itself an empire.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w07d05.the-trojan-women.source"
+                    "obj.tro.cost"
                   ]
                 }
               }
@@ -8973,29 +9186,33 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "What should a source-specific reading avoid?",
+                  "prompt": "What does the Persephone myth explain?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Noticing Demeter\u2019s grief and the threat to crops"
+                      "text": "The creation of the first humans"
                     },
                     {
                       "id": "b",
-                      "text": "Keeping the hymn distinct from later versions"
+                      "text": "The origin of the Eleusinian Mysteries' secrets only"
                     },
                     {
                       "id": "c",
-                      "text": "Reducing the hymn to a universal story of a voluntary romantic journey"
+                      "text": "The founding of Athens"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The seasons \u2014 her descent and return as a grieving mother's cycle, sealed by the pomegranate seeds"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Reducing the hymn to a universal story of a voluntary romantic journey is the passage-specific answer. Check Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, lines 370-383); Homeric Hymn to Demeter (in Hesiod, the Homeric Hymns, and Homerica) (Homeric Hymn to Demeter, return agreement), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "The custody arrangement is the weather \u2014 and the promise that descent isn't the end.",
                   "sourceRefIds": [
                     "main",
                     "agreement"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w08d01.persephone-descends.source"
+                    "obj.perse.seasons"
                   ]
                 }
               },
@@ -9004,28 +9221,32 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "What additional evidence would a claim about local hero cult require?",
+                  "prompt": "What did hero cults mean in real Greek life?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Evidence about the particular sanctuary, community, and practice"
+                      "text": "Tombs as active shrines, cities claiming heroes' bones, and myths treated as early history rather than fiction"
                     },
                     {
                       "id": "b",
-                      "text": "Only the fact that a hero speaks in an epic"
+                      "text": "A secret religion for initiates"
                     },
                     {
                       "id": "c",
-                      "text": "Only a comparison of modern film heroes"
+                      "text": "A literary club for reading Homer"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Worship forbidden by the city-states"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Evidence about the particular sanctuary, community, and practice is the passage-specific answer. Check The Odyssey (Book 11, Achilles\u2019 reply among the dead), keeping each work and version distinct.",
+                  "explanation": "Heroes were part of civic religion \u2014 the stories were their past, not just stories.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w08d02.heroes-in-memory.claim"
+                    "obj.mem.cult"
                   ]
                 }
               },
@@ -9034,28 +9255,33 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "What does Ovid say Liber does after Theseus abandons Ariadne?",
+                  "prompt": "Why does Ovid matter to how we know Greek myth?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He orders Medea to return to Colchis."
+                      "text": "He translated the Iliad into Latin"
                     },
                     {
                       "id": "b",
-                      "text": "He embraces her and places her crown among the stars."
+                      "text": "His Roman re-telling preserved many tales in their best-known form \u2014 Narcissus, Pyramus and Thisbe, Arachne, Icarus"
                     },
                     {
                       "id": "c",
-                      "text": "He gives Theseus a clue to leave the labyrinth."
+                      "text": "He invented all the transformation myths"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He was the original source of every tale"
                     }
                   ],
                   "answerId": "b",
-                  "explanation": "Ovid names Liber as Ariadne's helper and describes the crown's celestial afterlife.",
+                  "explanation": "Much 'Greek mythology' in art and literature is Ovid's polished version.",
                   "sourceRefIds": [
-                    "main"
+                    "main",
+                    "epitome"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w08d03.ovid-transforms.source"
+                    "obj.ovid.diff"
                   ]
                 }
               },
@@ -9064,28 +9290,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "Why keep Frazer\u2019s scholarly layer visible?",
+                  "prompt": "How is myth written into the physical world?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He is the original author of the Homeric Hymns."
+                      "text": "Only in written maps"
                     },
                     {
                       "id": "b",
-                      "text": "A modern scholarly work cannot mention ancient geography."
+                      "text": "Through temple dedications alone"
                     },
                     {
                       "id": "c",
-                      "text": "His interpretation of ancient testimony is not the ancient testimony itself."
+                      "text": "The Aegean Sea for Aegeus, constellations for Perseus's rescue, the Pillars of Hercules, and cities claiming founders"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Via names of months"
                     }
                   ],
                   "answerId": "c",
-                  "explanation": "His interpretation of ancient testimony is not the ancient testimony itself. is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
+                  "explanation": "The landscape is the memory \u2014 names of seas and stars keep the stories physical.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
+                    "obj.land.names"
                   ]
                 }
               },
@@ -9094,23 +9324,27 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What is the strongest course-wide conclusion?",
+                  "prompt": "Which hero model does what?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries."
+                      "text": "All four are models of strength"
                     },
                     {
                       "id": "b",
-                      "text": "All four heroes express one unchanging moral code."
+                      "text": "Only Achilles and Odysseus matter"
                     },
                     {
                       "id": "c",
-                      "text": "Later biographies are eyewitness records of the heroic age."
+                      "text": "They represent the same archetype"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Achilles is glory-at-cost, Odysseus cunning endurance, Theseus civic founding, Heracles labour and apotheosis"
                     }
                   ],
-                  "answerId": "a",
-                  "explanation": "Heroic roles vary by episode, genre, and community; comparisons must retain those boundaries. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
+                  "answerId": "d",
+                  "explanation": "The arc's final question: which kind of strength does the world need?",
                   "sourceRefIds": [
                     "main",
                     "heracles",
@@ -9118,7 +9352,7 @@
                     "theseus"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w08d05.four-heroic-models.source"
+                    "obj.models.four"
                   ]
                 }
               }

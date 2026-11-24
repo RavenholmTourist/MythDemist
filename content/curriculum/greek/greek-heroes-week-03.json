@@ -59,22 +59,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "She weaves a burial shroud by day and unravels it by night"
-      },
-      {
-       "id": "b",
        "text": "She feigns illness in a locked tower"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "She makes them sail to Delphi first"
+      },
+      {
+       "id": "c",
+       "text": "She weaves a burial shroud by day and unravels it by night"
       },
       {
        "id": "d",
        "text": "She marries one in secret"
       }
      ],
-     "answerId": "a",
+     "answerId": "c",
      "explanation": "The loom trick is undone only by a servant's betrayal.",
      "sourceRefIds": [
       "main"
@@ -93,22 +93,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "His boast gives Polyphemus his name — Poseidon's curse ensures the voyage home is slow and solitary"
-      },
-      {
-       "id": "b",
        "text": "He loses his best crewmen to the Cyclops's club"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "His ship is wrecked on the island's rocks"
       },
       {
-       "id": "d",
+       "id": "c",
        "text": "He is trapped for seven years"
+      },
+      {
+       "id": "d",
+       "text": "His boast gives Polyphemus his name — Poseidon's curse ensures the voyage home is slow and solitary"
       }
      ],
-     "answerId": "a",
+     "answerId": "d",
      "explanation": "Outis saves him; the boast curses him — every later trial rides on Poseidon's anger.",
      "sourceRefIds": [
       "main",
@@ -163,11 +163,11 @@
      "choices": [
       {
        "id": "a",
-       "text": "Achilles would trade his fame for a poor man's life — the dead measure what the living pay for renown"
+       "text": "They demand gold before speaking"
       },
       {
        "id": "b",
-       "text": "They demand gold before speaking"
+       "text": "Achilles would trade his fame for a poor man's life — the dead measure what the living pay for renown"
       },
       {
        "id": "c",
@@ -178,7 +178,7 @@
        "text": "They tell him his crew is doomed by hubris alone"
       }
      ],
-     "answerId": "a",
+     "answerId": "b",
      "explanation": "Anticleia died of longing; Achilles prefers labour to lordship of the dead.",
      "sourceRefIds": [
       "main"
@@ -197,22 +197,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "She tests him with the bed — it is rooted to a living olive tree, a secret only he could know"
-      },
-      {
-       "id": "b",
        "text": "She checks the scar on his thigh"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "She asks about the Trojan Horse"
+      },
+      {
+       "id": "c",
+       "text": "She tests him with the bed — it is rooted to a living olive tree, a secret only he could know"
       },
       {
        "id": "d",
        "text": "She watches him defeat the suitors"
       }
      ],
-     "answerId": "a",
+     "answerId": "c",
      "explanation": "The immovable bed is the recognition the epic saves for last.",
      "sourceRefIds": [
       "main"

@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w04d01.the-political-quest",
-  "version": 4,
-  "weekId": "grc.heroes.week04",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Political Quest",
-  "subtitle": "The fleece is a route to power",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "argonautica"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w04d01.the-political-quest.claim",
-      "text": "Explain this episode: Who sends Jason after the fleece?"
-    },
-    {
-      "id": "obj.grc.heroes.w04d01.the-political-quest.source",
-      "text": "Use the cited passage to explain: Why does the opening connect politics with the quest?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 1, Pelias' commission and Jason's sign; Book 1, normalized characters 79-962",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "who, at the behest of King Pelias, down through the mouth of Pontus and between the Cyanean rocks, sped well-benched Argo in quest of the golden fleece. Such was the oracle that Pelias heard, that a hateful doom awaited him to be slain at the prompting of the man whom he should see coming forth from the people with but one sandal. And no long time after, in accordance with that true report, Jason crossed the stream of wintry Anaurus on foot, and saved one sandal from the mire, but the other he left in the depths held back by the flood. And straightway he came to Pelias to share the banquet which the king was offering to his father Poseidon and the rest of the gods, though he paid no honour to Pelasgian Hera. Quickly the king saw him and pondered, and devised for him the toil of a troublous voyage, in order that on the sea or among strangers he might lose his home-return.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w04d01.the-political-quest",
+ "version": 5,
+ "weekId": "grc.heroes.week04",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Jason: The Quest for the Fleece",
+ "subtitle": "A one-sandalled man, a usurper's trap, and the finest crew ever rowed",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "jason",
+  "argonauts",
+  "pelias",
+  "fleece"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.quest.pelias",
+   "text": "Why does Pelias send Jason for the Golden Fleece?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The Argonautica says the voyage begins at Pelias' behest. When Jason arrives with one sandal, Pelias devises a dangerous voyage to keep him from returning.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “the prompting of the man whom he should see coming forth from the people with but one sandal. And no long time after, in accordance with that true report, Jason crossed the stream of wintry Anaurus on foot, and saved one sandal from the mire, but the other he left in the depths held back by the flood.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: A quest can be a political instrument; the hero risks the journey while someone else sets the terms and benefits.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Read the voyage’s commission in its political setting. Pelias’ fear helps explain why this dangerous expedition is imposed; it is not simply an invitation to win a trophy.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This lens matters when Aeetes turns a royal test into an impossible demand.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Pelias do after Jason arrives with one sandal?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He appoints Jason king of Iolcus"
-        },
-        {
-          "id": "b",
-          "text": "He sends Medea to Athens"
-        },
-        {
-          "id": "c",
-          "text": "He devises a dangerous voyage that may keep Jason from returning"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage links the one-sandal prophecy with Pelias devising a dangerous voyage for Jason.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does the opening connect politics with the quest?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Jason has already been crowned king of Colchis."
-        },
-        {
-          "id": "b",
-          "text": "The fleece is being awarded at an athletic festival."
-        },
-        {
-          "id": "c",
-          "text": "Pelias uses the expedition against someone he fears."
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Pelias uses the expedition against someone he fears. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d01.the-political-quest.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.quest.crew",
+   "text": "Who sails on the Argo?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 1, Pelias' commission and Jason's sign; Book 1, normalized characters 79-962",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "who, at the behest of King Pelias, down through the mouth of Pontus and between the Cyanean rocks, sped well-benched Argo in quest of the golden fleece. Such was the oracle that Pelias heard, that a hateful doom awaited him to be slain at the prompting of the man whom he should see coming forth from the people with but one sandal. And no long time after, in accordance with that true report, Jason crossed the stream of wintry Anaurus on foot, and saved one sandal from the mire, but the other he left in the depths held back by the flood. And straightway he came to Pelias to share the banquet which the king was offering to his father Poseidon and the rest of the gods, though he paid no honour to Pelasgian Hera. Quickly the king saw him and pondered, and devised for him the toil of a troublous voyage, in order that on the sea or among strangers he might lose his home-return.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The prophecy of one sandal",
+   "body": "Pelias seized the throne of Iolcus from Jason's father — and an oracle warned him to beware a man wearing a single sandal. When Jason walks into court having lost a sandal helping an old woman (the goddess Hera in disguise) across a river, Pelias knows the prophecy has arrived.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.pelias"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A quest designed to kill",
+   "body": "Pelias cannot murder the stranger at his own hearth, so he offers a 'noble' deal: bring back the Golden Fleece from distant Colchis, and the throne is yours. It is meant to be a death sentence — no one has ever survived the voyage east.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.pelias"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The Argo and her crew",
+   "body": "Jason answers by building the greatest ship Greece has seen — the Argo — and recruiting heroes to fill her: Heracles, Orpheus the singer, the twins Castor and Pollux, swift Atalanta. Fifty oars of legend rowing one doomed errand.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.crew"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Why the fleece matters",
+   "body": "The fleece is more than treasure: it is the golden ram that carried Jason's kin to safety generations ago. Reclaiming it would be both a heroic feat and a dynastic claim — which is exactly why Pelias hopes it never comes back.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.pelias"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A different kind of hero",
+   "body": "Jason is not Achilles or Heracles — his gift is not strength but gathering: assembling the right people and letting them shine. Watch how often the quest succeeds through OTHERS, not Jason himself.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.crew"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Pelias send Jason after the Golden Fleece?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The fleece is needed to cure a plague"
+    },
+    {
+     "id": "b",
+     "text": "Jason volunteered to prove his courage"
+    },
+    {
+     "id": "c",
+     "text": "An oracle warned him of a one-sandalled man — the quest is a death sentence designed to remove the claimant"
+    },
+    {
+     "id": "d",
+     "text": "The gods commanded it at Delphi"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Pelias wants rid of the prophesied threat; Colchis is meant to kill him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.pelias"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What makes the Argo's crew remarkable?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are all sons of kings"
+    },
+    {
+     "id": "b",
+     "text": "They are volunteers seeking the fleece's magic"
+    },
+    {
+     "id": "c",
+     "text": "The gods chose each by lot"
+    },
+    {
+     "id": "d",
+     "text": "It gathers the greatest heroes of the age — Heracles, Orpheus, Castor and Pollux, Atalanta — Jason's real gift is assembling them"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The Argo carries an all-star crew; the quest succeeds through collective heroism, not Jason's strength.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.quest.crew"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

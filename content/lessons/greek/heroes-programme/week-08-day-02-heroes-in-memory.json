@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w08d02.heroes-in-memory",
-  "version": 3,
-  "weekId": "grc.heroes.week08",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Heroes in Memory",
-  "subtitle": "The dead keep asking questions",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w08d02.heroes-in-memory.claim",
-      "text": "Explain this episode: What does Achilles prefer to rule among the dead?"
-    },
-    {
-      "id": "obj.grc.heroes.w08d02.heroes-in-memory.source",
-      "text": "Use the cited passage to explain: What can this passage establish directly?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 11, Achilles’ reply among the dead; Book 11, normalized characters 23440-23742",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w08d02.heroes-in-memory",
+ "version": 4,
+ "weekId": "grc.heroes.week08",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heroes in Memory",
+ "subtitle": "Tombs, cults, and why the Greeks worshipped their dead differently",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "hero-cult",
+  "memory",
+  "tombs",
+  "greece"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.mem.cult",
+   "text": "What is a hero cult?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Return to Achilles’ answer among the dead: he prefers humble life to kingship over the departed. This is a literary encounter with a remembered hero; it is not by itself evidence of a particular community’s hero-cult ritual.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The living hero gains direction by listening to those whose stories complicate his own.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "A literary encounter with a dead hero establishes what this poem stages. A historical claim about hero cult would require evidence about a particular community’s sanctuary, offerings, and practices.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The dead make the heroic past answerable to the present.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Achilles prefer to rule among the dead?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A new suit of divine armour"
-        },
-        {
-          "id": "b",
-          "text": "A humble life among the living"
-        },
-        {
-          "id": "c",
-          "text": "Another funeral contest"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "A humble life among the living is the passage-specific answer. Check The Odyssey (Book 11, Achilles’ reply among the dead), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What can this passage establish directly?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The exact ritual of every historical hero cult"
-        },
-        {
-          "id": "b",
-          "text": "The beliefs of all Greeks in every period"
-        },
-        {
-          "id": "c",
-          "text": "How the Odyssey stages Achilles’ speech about death"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "How the Odyssey stages Achilles’ speech about death is the passage-specific answer. Check The Odyssey (Book 11, Achilles’ reply among the dead), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d02.heroes-in-memory.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.mem.real",
+   "text": "How did Greeks treat hero myths as history?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 11, Achilles’ reply among the dead; Book 11, normalized characters 23440-23742",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Not quite gods, not quite dead",
+   "body": "Greek heroes occupied a strange middle space: mortal once, but powerful after death. Their tombs became shrines — people left offerings at 'hero-shrines' for protection, healing, and local luck, long after the stories had calcified.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.cult"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Every city claims one",
+   "body": "City-states competed for famous heroes' bones. Athens displayed what it claimed were Theseus's bones, recovered from Skyros — a civic treasure that made the myth politically real. Sparta did the same for Orestes.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.cult"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The stories as ancient history",
+   "body": "The Greeks treated the hero-tales not as fairy-tales but as early history — genealogies ran back to heroes the way medieval kings traced to Troy. Thucydides opens his history with the Peloponnesian myth-cycle as backdrop.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.real"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Festivals and games",
+   "body": "Hero-cult shaped real life: the Panathenaic games, funeral games, and hero-shrines kept the myths physically present. A Greek boy grew up knowing Theseus's road because his city told it in festivals.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.real"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "What 'myth' meant to them",
+   "body": "This is why the stories matter: they weren't fiction to the Greeks — they were a shared past that explained landscape, named seas, and justified cities. That is what your lessons have been walking through.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.cult"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is a hero cult?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Worship at a hero's tomb or shrine — offerings and festivals to the dead heroes treated as locally powerful"
+    },
+    {
+     "id": "b",
+     "text": "A mystery religion of initiates"
+    },
+    {
+     "id": "c",
+     "text": "A priesthood devoted to Homer"
+    },
+    {
+     "id": "d",
+     "text": "A warrior society of hero-imittators"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Heroes' tombs were active religious sites, not just memorials — the dead were part of civic life.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.cult"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How did Greeks relate to hero myths as history?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They knew them to be fiction like novels"
+    },
+    {
+     "id": "b",
+     "text": "They treated them as real early history — cities claimed heroes' bones and genealogies ran back to the heroes"
+    },
+    {
+     "id": "c",
+     "text": "Only priests believed the stories"
+    },
+    {
+     "id": "d",
+     "text": "They were treated as foreign tales"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The stories were a shared past — that's why the landscape itself carries the names.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.mem.real"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,228 +1,217 @@
 {
-  "id": "grc.heroes.w08d05.four-heroic-models",
-  "version": 4,
-  "weekId": "grc.heroes.week08",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Four Heroic Models",
-  "subtitle": "Comparison without flattening",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "iliad"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w08d05.four-heroic-models.claim",
-      "text": "Explain this episode: Which pairing belongs to the cited Odyssey scene?"
-    },
-    {
-      "id": "obj.grc.heroes.w08d05.four-heroic-models.source",
-      "text": "Use the cited passage to explain: Why does this comparison need more than an Iliad citation?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 24, Priam appeals to Achilles; Book 24, normalized characters 25847-26149",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "heracles": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "odysseus": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "theseus": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, unification of Attica; local text, normalized characters 40458-40761",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w08d05.four-heroic-models",
+ "version": 5,
+ "weekId": "grc.heroes.week08",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Four Heroic Models",
+ "subtitle": "Achilles, Odysseus, Theseus, Heracles — four ways to be a hero",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "synthesis",
+  "hero-types",
+  "recap",
+  "greek-heroes"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.models.four",
+   "text": "What are the four heroic models?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Compare four selected roles, not four fixed personalities: Achilles facing grief, Odysseus recognised at home, Heracles serving Eurystheus, and Theseus founding civic order. Each contrast needs evidence from its own work.",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet”",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The point of comparison is not to rank them but to see how each source constructs value and consequence.",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Check all four references before making the comparison. An Iliad passage can support a claim about Achilles, but it cannot by itself establish Penelope’s test, Heracles’ service, or Theseus’ civic role.",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Carry this method into the next programme: compare without flattening.",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Which pairing fits the cited works?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Odysseus creates Attic democracy; Theseus kills the Nemean lion"
-        },
-        {
-          "id": "b",
-          "text": "Achilles receives the Sampo; Heracles wins the Argo"
-        },
-        {
-          "id": "c",
-          "text": "Achilles receives Priam; Heracles receives an oracle assigning service"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Iliad depicts Priam's appeal; the Library gives Heracles the oracle's service and labour instructions.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does this comparison need more than an Iliad citation?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Iliad contains every surviving heroic narrative."
-        },
-        {
-          "id": "b",
-          "text": "A comparison has no factual claims to support."
-        },
-        {
-          "id": "c",
-          "text": "Claims about the other heroes require their own source passages."
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Claims about the other heroes require their own source passages. is the passage-specific answer. Check The Iliad (Book 24, Priam appeals to Achilles); Bibliotheca (Library) (Library 2.4.12, oracle assigns service); The Odyssey (Book 23, Odysseus explains the rooted bed); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main",
-        "heracles",
-        "odysseus",
-        "theseus"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d05.four-heroic-models.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.models.pick",
+   "text": "Which model fits which situation?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 24, Priam appeals to Achilles; Book 24, normalized characters 25847-26149",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "heracles": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "odysseus": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "theseus": {
+   "recordId": "pg-00674",
+   "sourceId": "grc.plutarch.lives",
+   "work": "Plutarch: Lives of the Noble Grecians and Romans",
+   "author": "Plutarch",
+   "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+   "locator": "Life of Theseus, unification of Attica; local text, normalized characters 40458-40761",
+   "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+   "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Achilles: the burning one",
+   "body": "Achilles is glory-at-any-cost: a short life spent brilliantly, choosing fame over safety, rage and grief as the price of being the best. His model asks what excellence is worth — and what it costs everyone nearby.",
+   "sourceRefIds": [
+    "heracles"
+   ],
+   "objectiveIds": [
+    "obj.models.four"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Odysseus: the cunning one",
+   "body": "Odysseus is endurance-through-wit: he survives by patience, disguise, and improvisation — and gets home. His model asks whether survival and cleverness are virtues or just longer-running selfishness.",
+   "sourceRefIds": [
+    "odysseus"
+   ],
+   "objectiveIds": [
+    "obj.models.four"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Theseus: the founder",
+   "body": "Theseus is the civic hero — he clears the roads not for glory but to make them safe for everyone, unites Attica, and founds the civic idea of Athens. His model is heroism as public service.",
+   "sourceRefIds": [
+    "theseus"
+   ],
+   "objectiveIds": [
+    "obj.models.four"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Heracles: the labourer",
+   "body": "Heracles is the impossible made possible — penance, labour, and the strange fate of becoming a god after a life of pain. His model is the burden-carrier whose strength costs him everything.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.models.four"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The question you keep answering",
+   "body": "Eight weeks of Greek heroes, and the real question was never 'which is strongest' — it's which kind of strength the world needs: the burning talent, the survivor's wit, the civic builder, or the tireless labourer. You'll meet all four again in every tradition from here.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.models.pick"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Which model is Theseus?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The burning talent who dies young"
+    },
+    {
+     "id": "b",
+     "text": "The survivor who wins by wit"
+    },
+    {
+     "id": "c",
+     "text": "The civic hero — he clears roads and founds a city rather than pursuing glory for its own sake"
+    },
+    {
+     "id": "d",
+     "text": "The labourer doing impossible tasks"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Theseus's heroism is public service — he clears the road for everyone else.",
+   "sourceRefIds": [
+    "theseus"
+   ],
+   "objectiveIds": [
+    "obj.models.four"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What makes Heracles's model distinctive?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He wins by divine favour alone"
+    },
+    {
+     "id": "b",
+     "text": "He seeks glory through war"
+    },
+    {
+     "id": "c",
+     "text": "He founds the greatest city"
+    },
+    {
+     "id": "d",
+     "text": "His strength is burden — labours as penance, and apotheosis earned through a lifetime of pain"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "Heracles is the only hero whose reward is divinity itself — bought with a life of suffering.",
+   "sourceRefIds": [
+    "heracles"
+   ],
+   "objectiveIds": [
+    "obj.models.pick"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

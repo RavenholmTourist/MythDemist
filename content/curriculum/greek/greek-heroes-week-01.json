@@ -139,11 +139,11 @@
      "choices": [
       {
        "id": "a",
-       "text": "He turns each bandit's own cruelty back on them — club, bent pines, cliff, and bed"
+       "text": "He spares each bandit after winning surrender"
       },
       {
        "id": "b",
-       "text": "He spares each bandit after winning surrender"
+       "text": "He turns each bandit's own cruelty back on them — club, bent pines, cliff, and bed"
       },
       {
        "id": "c",
@@ -154,7 +154,7 @@
        "text": "Each duel is won by divine intervention"
       }
      ],
-     "answerId": "a",
+     "answerId": "b",
      "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
      "sourceRefIds": [
       "plutarch"
@@ -173,22 +173,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "He recognizes the sword Theseus draws at dinner — the token he left under the rock — and knocks the cup away"
-      },
-      {
-       "id": "b",
        "text": "Medea confesses before Theseus drinks"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "A servant switches the cups"
+      },
+      {
+       "id": "c",
+       "text": "He recognizes the sword Theseus draws at dinner — the token he left under the rock — and knocks the cup away"
       },
       {
        "id": "d",
        "text": "An oracle warns him at the table"
       }
      ],
-     "answerId": "a",
+     "answerId": "c",
      "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
      "sourceRefIds": [
       "plutarch"
@@ -207,22 +207,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "He follows Ariadne's thread — tied at the entrance and unwound through the maze — back out"
-      },
-      {
-       "id": "b",
        "text": "He memorizes Daedalus's floor plan"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "The Minotaur's dying cry opens the walls"
       },
       {
-       "id": "d",
+       "id": "c",
        "text": "Ariadne leads him out by hand"
+      },
+      {
+       "id": "d",
+       "text": "He follows Ariadne's thread — tied at the entrance and unwound through the maze — back out"
       }
      ],
-     "answerId": "a",
+     "answerId": "d",
      "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
      "sourceRefIds": [
       "plutarch"

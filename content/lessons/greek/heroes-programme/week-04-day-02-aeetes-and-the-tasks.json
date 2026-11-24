@@ -1,185 +1,193 @@
 {
-  "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
-  "version": 4,
-  "weekId": "grc.heroes.week04",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Aeetes and the Tasks",
-  "subtitle": "A king turns power into a trap",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "argonautica"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim",
-      "text": "Explain this episode: What must Jason sow in Aeetes’ field?"
-    },
-    {
-      "id": "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source",
-      "text": "Use the cited passage to explain: What does Medea supply for the challenge?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Aeetes sets the trial; Book 3, normalized characters 22216-22948",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "Two bulls with feet of bronze I have that pasture on the plain of Ares, breathing forth flame from their jaws; them do I yoke and drive over the stubborn field of Ares, four plough-gates; and quickly cleaving it with the share up to the headland, I cast into the furrows the seed, not the corn of Demeter, but the teeth of a dread serpent that grow up into the fashion of armed men; them I slay at once, cutting them down beneath my spear as they rise against me on all sides. In the morning do I yoke the oxen, and at eventide I cease from the harvesting. And thou, if thou wilt accomplish such deeds as these, on that very day shalt carry off the fleece to the king’s palace; ere that time comes I will not give it, expect it not.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "aid": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Medea explains the charm; Book 3, normalized characters 56995-57417",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "And at dawn steep this charm in water, strip, and anoint thy body therewith as with oil; and in it there will be boundless prowess and mighty strength, and thou wilt deem thyself a match not for men but for the immortal gods. And besides, let thy spear and shield and sword be sprinkled. Thereupon the spear-heads of the earthborn men shall not pierce thee, nor the flame of the deadly bulls as it rushes forth resistless.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w04d02.aeetes-and-the-tasks",
+ "version": 5,
+ "weekId": "grc.heroes.week04",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Jason: Aeetes and the Tasks",
+ "subtitle": "Fire-breathing bulls, dragon teeth, and a king who intends betrayal",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "jason",
+  "aeetes",
+  "colchis",
+  "argonauts"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.tasks.demand",
+   "text": "What tasks does Aeetes set Jason?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Aeetes orders Jason to yoke bronze bulls, plough four fields, and sow serpent's teeth before he will give up the fleece.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “Hephaestus had fashioned in the palace of Cytaean Aeetes. And he wrought for him bulls with feet of bronze, and their mouths were of bronze, and from them they breathed out a terrible flame of fire; moreover he forged a plough of unbending adamant, all in one piece, in payment of thanks to Helios, who”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Medea explains how to use a charm that gives Jason strength and protects him from the bronze spearpoints and the bulls' fire.",
-      "sourceRefIds": [
-        "aid"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "List the task and the help separately. Jason performs the feat, but Medea’s protection and instructions make it possible. Crediting only the visible fighter conceals part of the poem’s causal story.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Watch who supplies the means of survival and how later versions distribute credit.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What must Jason sow in Aeetes’ field?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Pomegranate seeds"
-        },
-        {
-          "id": "b",
-          "text": "Olive stones"
-        },
-        {
-          "id": "c",
-          "text": "Dragon’s teeth"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Dragon’s teeth is the passage-specific answer. Check The Argonautica (Argonautica 3, Aeetes sets the trial), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What protection does Medea instruct Jason to use?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A shield made by Daedalus"
-        },
-        {
-          "id": "b",
-          "text": "A charm to anoint his body and sprinkle on his weapons"
-        },
-        {
-          "id": "c",
-          "text": "A clue for the labyrinth"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Medea tells him to steep the charm in water, anoint himself, and sprinkle his weapons.",
-      "sourceRefIds": [
-        "aid"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.tasks.betrayal",
+   "text": "Why does the success still leave Jason in danger?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, Aeetes sets the trial; Book 3, normalized characters 22216-22948",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "Two bulls with feet of bronze I have that pasture on the plain of Ares, breathing forth flame from their jaws; them do I yoke and drive over the stubborn field of Ares, four plough-gates; and quickly cleaving it with the share up to the headland, I cast into the furrows the seed, not the corn of Demeter, but the teeth of a dread serpent that grow up into the fashion of armed men; them I slay at once, cutting them down beneath my spear as they rise against me on all sides. In the morning do I yoke the oxen, and at eventide I cease from the harvesting. And thou, if thou wilt accomplish such deeds as these, on that very day shalt carry off the fleece to the king’s palace; ere that time comes I will not give it, expect it not.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "aid": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, Medea explains the charm; Book 3, normalized characters 56995-57417",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "And at dawn steep this charm in water, strip, and anoint thy body therewith as with oil; and in it there will be boundless prowess and mighty strength, and thou wilt deem thyself a match not for men but for the immortal gods. And besides, let thy spear and shield and sword be sprinkled. Thereupon the spear-heads of the earthborn men shall not pierce thee, nor the flame of the deadly bulls as it rushes forth resistless.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Colchis at the world's edge",
+   "body": "The Argo survives clashing rocks, hostile kingdoms, and the loss of Heracles along the way — and reaches Colchis, at the edge of the known world, where the fleece hangs in a grove guarded by a sleepless dragon.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.tasks.demand"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "King Aeetes's price",
+   "body": "Aeetes, the fearsome local king, will not simply give his treasure to foreigners. His price: yoke his pair of fire-breathing bronze-hooved bulls, plough a field with them, and sow the teeth of a dragon.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.tasks.demand"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "An impossible morning",
+   "body": "Each task alone kills ordinary men: the bulls burn you, and the sown teeth spring up as armed warriors who kill the sower. Aeetes has no intention of honouring the bargain either — succeed, and he plans to destroy the Greeks anyway.",
+   "sourceRefIds": [
+    "aid"
+   ],
+   "objectiveIds": [
+    "obj.tasks.betrayal"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The watching princess",
+   "body": "In the palace, Aeetes's daughter Medea — a priestess and sorceress — watches the stranger undertake her father's murderous test. The gods arrange that she falls in love, and everything hinges on which loyalty she chooses.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.tasks.betrayal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Tasks as a mythic pattern",
+   "body": "Impossible tasks set by a hostile king recur everywhere (Heracles' labours, Bellerophon's missions). The pattern tests two things at once: can the hero do them — and does the king keep his word? Usually one fails.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.tasks.demand"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What tasks does Aeetes set Jason for the fleece?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Yoke his fire-breathing bulls, plough a field, and sow dragon's teeth that sprout armed warriors"
+    },
+    {
+     "id": "b",
+     "text": "Retrieve a golden apple from the Hesperides"
+    },
+    {
+     "id": "c",
+     "text": "Capture the sleepless dragon alive"
+    },
+    {
+     "id": "d",
+     "text": "Answer the king's three riddles"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The bulls and dragon-teeth are designed to kill — and Aeetes plans betrayal even if Jason succeeds.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.tasks.demand"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why is Jason still in danger after succeeding?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The dragon wakes and cannot be killed"
+    },
+    {
+     "id": "b",
+     "text": "Aeetes never meant to keep his word — he plans to destroy the Greeks regardless of the outcome"
+    },
+    {
+     "id": "c",
+     "text": "The tasks void the bargain by their terms"
+    },
+    {
+     "id": "d",
+     "text": "His own crew mutinies in Colchis"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The tasks are a trap within a trap; only inside help can get Jason out alive.",
+   "sourceRefIds": [
+    "aid"
+   ],
+   "objectiveIds": [
+    "obj.tasks.betrayal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

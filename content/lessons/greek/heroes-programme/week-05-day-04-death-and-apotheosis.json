@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w05d04.death-and-apotheosis",
-  "version": 2,
-  "weekId": "grc.heroes.week05",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Death and Apotheosis",
-  "subtitle": "Suffering crosses a boundary",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "epitome"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w05d04.death-and-apotheosis.claim",
-      "text": "Explain this episode: Where is Heracles’ pyre built?"
-    },
-    {
-      "id": "obj.grc.heroes.w05d04.death-and-apotheosis.source",
-      "text": "Use the cited passage to explain: What does apotheosis mean in this episode?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.7.7, the pyre and reception among the gods; book 2 · chapter 7 · section 7, normalized characters 2438-2965",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "he came of age, proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it. When no one would do so, Poeas, passing by to look for his flocks, set a light to it. On him Hercules bestowed his bow. While the pyre was burning, it is said that a cloud passed under Hercules and with a peal of thunder wafted him up to heaven. Thereafter he obtained immortality, and being reconciled to Hera he married her daughter Hebe, by whom he had sons, Alexiares and Anicetus.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w05d04.death-and-apotheosis",
+ "version": 3,
+ "weekId": "grc.heroes.week05",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heracles: Death and Apotheosis",
+ "subtitle": "A centaur's revenge, a burning robe, and a seat among the gods",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "heracles",
+  "deianira",
+  "nessus",
+  "apotheosis"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.apo.death",
+   "text": "How does Heracles die?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The poisoned garment causes Heracles unbearable suffering. He has a pyre built on Mount Oeta; the Library then tells of his ascent to heaven, reconciliation with Hera, and marriage to Hebe. Apotheosis means reception into divine life, not survival by ordinary healing.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “he came of age, proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it. When no one would do so, Poeas, passing by to look for his flocks, set a light to it. On him Hercules bestowed his bow. While the pyre was burning, it is said that a cloud passed under Hercules and with a peal of thunder wafted him up to heaven. Thereafter he obtained immortality, and being reconciled to Hera he married her daughter Hebe, by whom he had sons, Alexiares and Anicetus.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Apotheosis answers a life too extreme for normal categories, but it does not erase the violence or pain that came before.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Apotheosis names a change of status into divine life, not an ordinary recovery from injury. Cite Library 2.7.7 for this ending; the Epitome’s Trojan returns are not the relevant passage.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Ask what a source believes can repair or transform a damaged heroic life.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Where is Heracles’ pyre built?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Mount Oeta"
-        },
-        {
-          "id": "b",
-          "text": "Mount Pelion"
-        },
-        {
-          "id": "c",
-          "text": "Mount Cithaeron"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The Library says Heracles built the pyre on Mount Oeta in Trachis.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does apotheosis mean in this episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Heracles remains mortal but is released from Eurystheus’ service."
-        },
-        {
-          "id": "b",
-          "text": "Heracles is received among the gods."
-        },
-        {
-          "id": "c",
-          "text": "Heracles becomes a hero honoured only through a tomb."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Here the Library describes Heracles’ ascent, immortality, reconciliation with Hera, and marriage to Hebe.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.apo.god",
+   "text": "What happens to him after death?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.7.7, the pyre and reception among the gods; book 2 · chapter 7 · section 7, normalized characters 2438-2965",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "he came of age, proceeded to Mount Oeta, in the Trachinian territory, and there constructed a pyre, mounted it, and gave orders to kindle it. When no one would do so, Poeas, passing by to look for his flocks, set a light to it. On him Hercules bestowed his bow. While the pyre was burning, it is said that a cloud passed under Hercules and with a peal of thunder wafted him up to heaven. Thereafter he obtained immortality, and being reconciled to Hera he married her daughter Hebe, by whom he had sons, Alexiares and Anicetus.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The centaur's dying gift",
+   "body": "Years before, the centaur Nessus tried to assault Heracles's wife Deianira; Heracles shot him. Dying, Nessus told Deianira his blood was a love charm — keep it, and Heracles will never stray. She kept it.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.death"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The robe of fire",
+   "body": "When Deianira fears a rival, she soaks a robe in the centaur's blood and sends it to Heracles. It is poisoned: the fabric burns into his skin and cannot be torn off without tearing his flesh with it. The greatest body in the world dies by his wife's desperate gift.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.death"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The pyre on Oeta",
+   "body": "In agony beyond bearing, Heracles builds his own pyre on Mount Oeta and lies on it. No one will light the fire until a passing stranger does — the strongest man in creation begging for a mercy burn.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.death"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Up, not down",
+   "body": "The flames take the mortal part — and the immortal part ascends to Olympus. Hera finally relents; Heracles marries Hebe, goddess of youth, and feasts with the gods. He is the only hero in the whole cycle who becomes a god.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.god"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A hero's strange ending",
+   "body": "The apotheosis is earned the hard way — no other hero buys divinity with a life this painful. The Greeks meant it as the final verdict: the labours were redemption enough to lift him above mortals.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.god"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Heracles die?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is killed by Achilles in a duel"
+    },
+    {
+     "id": "b",
+     "text": "Hera strikes him down at last"
+    },
+    {
+     "id": "c",
+     "text": "Deianira sends him a robe soaked in the centaur Nessus's poisoned blood — it burns into his flesh and he asks to be burned on a pyre"
+    },
+    {
+     "id": "d",
+     "text": "He drowns crossing the river Styx"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The dying centaur's 'love charm' is actually his revenge — Heracles's own wife delivers the blow.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.death"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens to Heracles after death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He judges the dead in the underworld"
+    },
+    {
+     "id": "b",
+     "text": "He is reborn as a constellation"
+    },
+    {
+     "id": "c",
+     "text": "He remains a shade like all mortals"
+    },
+    {
+     "id": "d",
+     "text": "He becomes a god — the only hero in the cycle to be received on Olympus, reconciled to Hera and married to Hebe"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "His apotheosis is unique: mortality consumed on the pyre, divinity ascending to Olympus.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.apo.god"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -140,11 +140,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "That Theseus had survived — the crew was to swap the black sail for white on a successful return"
+     "text": "That the ship carried no weapons"
     },
     {
      "id": "b",
-     "text": "That the ship carried no weapons"
+     "text": "That Theseus had survived — the crew was to swap the black sail for white on a successful return"
     },
     {
      "id": "c",
@@ -155,7 +155,7 @@
      "text": "That Ariadne was aboard"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "White sail = Theseus lives, black = dead. The crew forgot to change it and Aegeus, seeing black, threw himself from the rock.",
    "sourceRefIds": [
     "plutarch"

@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w07d03.antigone-and-burial",
-  "version": 4,
-  "weekId": "grc.heroes.week07",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Antigone and Burial",
-  "subtitle": "Duties collide",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "theban"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w07d03.antigone-and-burial.claim",
-      "text": "Explain this episode: Whose burial does Creon forbid?"
-    },
-    {
-      "id": "obj.grc.heroes.w07d03.antigone-and-burial.source",
-      "text": "Use the cited passage to explain: What motivates Antigone’s defiance?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00031",
-      "sourceId": "grc.sophocles.theban-plays",
-      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
-      "author": "Sophocles",
-      "translator": "Francis Storr",
-      "locator": "Antigone, Creon’s burial decree; local text, normalized characters 157708-158010",
-      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
-      "excerpt": "vengeance with his kinsmen’s blood, Or drag them captive at his chariot wheels— For Polyneices ’tis ordained that none Shall give him burial or make mourn for him, But leave his corpse unburied, to be meat For dogs and carrion crows, a ghastly sight. So am I purposed; never by my will Shall miscreants",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "defense": {
-      "recordId": "pg-00031",
-      "sourceId": "grc.sophocles.theban-plays",
-      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
-      "author": "Sophocles",
-      "translator": "Francis Storr",
-      "locator": "Antigone, defense of divine laws; local text, normalized characters 168214-168424",
-      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
-      "excerpt": "Nor did I deem that thou, a mortal man, Could’st by a breath annul and override The immutable unwritten laws of Heaven. They were not born today nor yesterday; They die not; and none knoweth whence they sprang.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w07d03.antigone-and-burial",
+ "version": 5,
+ "weekId": "grc.heroes.week07",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Antigone: The Burial",
+ "subtitle": "A king's edict against a sister's duty — and no one bends",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "antigone",
+  "creon",
+  "polynices",
+  "thebes"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.anti.conflict",
+   "text": "What do Antigone and Creon each defend?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Creon forbids burial of Polyneices after the attack on Thebes. Antigone defies him in the name of obligations to her brother and the gods. The play tests Creon’s assertion of civic authority against duties his decree cannot simply erase.",
-      "sourceRefIds": [
-        "main",
-        "defense"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “vengeance with his kinsmen’s blood, Or drag them captive at his chariot wheels— For Polyneices ’tis ordained that none Shall give him burial or make mourn for him, But leave his corpse unburied, to be meat For dogs and carrion crows, a ghastly sight. So am I purposed; never by my will Shall miscreants”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Antigone says she follows unwritten divine laws rather than a mortal decree; the play stages the conflict and its consequences.",
-      "sourceRefIds": [
-        "defense"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Separate Creon’s justification of his decree from the play’s testing of that justification. Noticing competing claims does not require treating every character’s position as equally defensible.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "A hero can be right about a duty and still help produce catastrophe.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Whose burial does Creon forbid?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Polyneices’"
-        },
-        {
-          "id": "b",
-          "text": "Patroclus’"
-        },
-        {
-          "id": "c",
-          "text": "Laius’"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Polyneices’ is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Antigone, Creon’s burial decree), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What reason does Antigone give for burying Polyneices?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She wants to claim the throne of Thebes"
-        },
-        {
-          "id": "b",
-          "text": "She follows unwritten divine laws that a mortal decree cannot erase"
-        },
-        {
-          "id": "c",
-          "text": "Creon secretly ordered her to bury him"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Antigone says a mortal man's decree cannot override the unwritten laws of heaven.",
-      "sourceRefIds": [
-        "defense"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d03.antigone-and-burial.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.anti.cost",
+   "text": "What does the standoff cost?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00031",
+   "sourceId": "grc.sophocles.theban-plays",
+   "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+   "author": "Sophocles",
+   "translator": "Francis Storr",
+   "locator": "Antigone, Creon’s burial decree; local text, normalized characters 157708-158010",
+   "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+   "excerpt": "vengeance with his kinsmen’s blood, Or drag them captive at his chariot wheels— For Polyneices ’tis ordained that none Shall give him burial or make mourn for him, But leave his corpse unburied, to be meat For dogs and carrion crows, a ghastly sight. So am I purposed; never by my will Shall miscreants",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "defense": {
+   "recordId": "pg-00031",
+   "sourceId": "grc.sophocles.theban-plays",
+   "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+   "author": "Sophocles",
+   "translator": "Francis Storr",
+   "locator": "Antigone, defense of divine laws; local text, normalized characters 168214-168424",
+   "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+   "excerpt": "Nor did I deem that thou, a mortal man, Could’st by a breath annul and override The immutable unwritten laws of Heaven. They were not born today nor yesterday; They die not; and none knoweth whence they sprang.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Two brothers, one throne",
+   "body": "Oedipus's sons killed each other in civil war: Eteocles defending Thebes, Polynices attacking it. Creon, the new king, honours the defender with full burial — and leaves the attacker's body to rot, a warning to traitors.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.conflict"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Antigone's answer",
+   "body": "Their sister Antigone defies the edict: divine law and family duty outrank a king's decree. She walks out and buries her brother — scattering dust on the corpse herself when the guards undo her work.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.conflict"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Creon cannot bend",
+   "body": "Caught, she does not apologise — she argues. Creon cannot back down without weakening the new throne. So he sentences her to be walled alive in a cave: the state versus the family, neither willing to break first.",
+   "sourceRefIds": [
+    "defense"
+   ],
+   "objectiveIds": [
+    "obj.anti.conflict"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The cascade",
+   "body": "Too late, the prophet Tiresias warns Creon that the unburied corpse pollutes the city. Creon relents — but the cave is already empty: Antigone has hanged herself. His son Haemon (her betrothed) kills himself beside her; his mother follows. The 'stable' city loses its ruling family in an afternoon.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.cost"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The argument that never resolves",
+   "body": "Antigone is the foundational text of conscientious objection — every generation re-fights her case. Sophocles gives both sides real arguments; the tragedy is that both are right.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.conflict"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Antigone defend in burying Polynices?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Divine law and family duty — burial rites owed to the dead, above the king's decree"
+    },
+    {
+     "id": "b",
+     "text": "Polynices's claim to the throne"
+    },
+    {
+     "id": "c",
+     "text": "Thebes's treaty obligations"
+    },
+    {
+     "id": "d",
+     "text": "Her own right to rule"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Her argument is with unwritten divine law, not with Creon's politics — which is why the conflict can't be resolved by compromise.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.conflict"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the standoff end?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Antigone is exiled to Argos"
+    },
+    {
+     "id": "b",
+     "text": "Creon relents too late — Antigone is already dead, and his son and wife follow her"
+    },
+    {
+     "id": "c",
+     "text": "The chorus persuades Creon in time"
+    },
+    {
+     "id": "d",
+     "text": "Haemon rescues Antigone alive"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The tragedy isn't the wrong choice — it's the delayed right one.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.anti.cost"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

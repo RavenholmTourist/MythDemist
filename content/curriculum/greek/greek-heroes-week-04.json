@@ -1,208 +1,229 @@
 {
-  "id": "grc.heroes.week04",
-  "title": "Jason and Medea",
-  "subtitle": "Quest, persuasion, betrayal, and aftermath",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week04",
+ "title": "Jason and Medea",
+ "subtitle": "Quest, persuasion, betrayal, and aftermath",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Jason: The Quest for the Fleece",
+   "lessonId": "grc.heroes.w04d01.the-political-quest",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-01-the-political-quest.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "The Political Quest",
-      "lessonId": "grc.heroes.w04d01.the-political-quest",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-01-the-political-quest.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Aeetes and the Tasks",
-      "lessonId": "grc.heroes.w04d02.aeetes-and-the-tasks",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-02-aeetes-and-the-tasks.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Medea Chooses",
-      "lessonId": "grc.heroes.w04d03.medea-chooses",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-03-medea-chooses.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Flight and Pursuit",
-      "lessonId": "grc.heroes.w04d04.flight-and-pursuit",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-04-flight-and-pursuit.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "Medea on Stage",
-      "lessonId": "grc.heroes.w04d05.medea-on-stage",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-05-medea-on-stage.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Jason and Medea assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w04d01.the-political-quest",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "Which detail explains Pelias’ alarm?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Medea arrives in Iolcus before Jason is born."
-            },
-            {
-              "id": "b",
-              "text": "Jason matches the warning about a man with one sandal."
-            },
-            {
-              "id": "c",
-              "text": "Jason returns carrying the fleece before the voyage."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Jason matches the warning about a man with one sandal. is the passage-specific answer. Check The Argonautica (Argonautica 1, Pelias' commission and Jason's sign), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w04d01.the-political-quest.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w04d02.aeetes-and-the-tasks",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "What does Medea's charm protect Jason from during Aeetes' task?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The bulls' fire and the earthborn men's weapons."
-            },
-            {
-              "id": "b",
-              "text": "The Sirens' song and the whirlpool."
-            },
-            {
-              "id": "c",
-              "text": "The cold of the House of Cold."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Medea instructs Jason to use the charm against the spearpoints and the bulls' flame.",
-          "sourceRefIds": [
-            "aid"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w04d02.aeetes-and-the-tasks.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w04d03.medea-chooses",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "How can we describe Medea without erasing the poem’s tensions?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "She deliberates and acts within family pressures and divine influence."
-            },
-            {
-              "id": "b",
-              "text": "She is merely a reward with no decisions in the plot."
-            },
-            {
-              "id": "c",
-              "text": "She has no connection to Colchis or Aeetes."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "She deliberates and acts within family pressures and divine influence. is the passage-specific answer. Check The Argonautica (Argonautica 3, Eros' arrow strikes Medea); The Argonautica (Argonautica 3, Medea debates helping Jason); The Argonautica (Argonautica 3, Medea gives Jason the charm), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "dilemma",
-            "aid"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w04d03.medea-chooses.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w04d04.flight-and-pursuit",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "What does Apollonius say follows Apsyrtus' killing?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Aeetes welcomes the Argonauts home."
-            },
-            {
-              "id": "b",
-              "text": "Zeus orders the Argonauts to seek purification from Circe."
-            },
-            {
-              "id": "c",
-              "text": "Athena gives Jason the throne of Athens."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "The Book 4 passage connects the bloodshed with Zeus' purification order.",
-          "sourceRefIds": [
-            "purification"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w04d05.medea-on-stage",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "Which contrast between Apollonius and Euripides is supported?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Apollonius frames the fleece quest; Euripides begins with its later consequences for Medea."
-            },
-            {
-              "id": "b",
-              "text": "Both texts are eyewitness diaries of Jason's voyage."
-            },
-            {
-              "id": "c",
-              "text": "Euripides' play is a catalogue of the Argonauts."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Apollonius' proem frames the quest; Euripides' Nurse speaks from the later crisis in Corinth.",
-          "sourceRefIds": [
-            "argo",
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w04d05.medea-on-stage.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Jason: Aeetes and the Tasks",
+   "lessonId": "grc.heroes.w04d02.aeetes-and-the-tasks",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-02-aeetes-and-the-tasks.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Medea Chooses",
+   "lessonId": "grc.heroes.w04d03.medea-chooses",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-03-medea-chooses.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Jason and Medea: The Flight",
+   "lessonId": "grc.heroes.w04d04.flight-and-pursuit",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-04-flight-and-pursuit.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "Medea on Stage",
+   "lessonId": "grc.heroes.w04d05.medea-on-stage",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-04-day-05-medea-on-stage.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Jason and Medea assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w04d01.the-political-quest",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What triggers the quest for the Golden Fleece?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The oracle commands a fleece offering"
+      },
+      {
+       "id": "b",
+       "text": "Jason seeks glory to win a bride"
+      },
+      {
+       "id": "c",
+       "text": "The Argonauts are hired for a trading voyage"
+      },
+      {
+       "id": "d",
+       "text": "Pelias, warned by an oracle of a one-sandalled man, sends Jason on a quest meant to kill him"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "The quest is Pelias's trap, not Jason's ambition.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.quest.pelias"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w04d02.aeetes-and-the-tasks",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "What must Jason do to earn the fleece from Aeetes?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Yoke fire-breathing bulls and sow dragon's teeth that rise as armed men"
+      },
+      {
+       "id": "b",
+       "text": "Kill the Colchian champion in single combat"
+      },
+      {
+       "id": "c",
+       "text": "Solve the riddle of the dragon grove"
+      },
+      {
+       "id": "d",
+       "text": "Bring a tribute of gold to the king"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The tasks are impossible by design — and the king intends betrayal either way.",
+     "sourceRefIds": [
+      "main",
+      "aid"
+     ],
+     "objectiveIds": [
+      "obj.tasks.demand"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w04d03.medea-chooses",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "What is the decisive factor in winning the fleece?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Jason's superior strength at the tasks"
+      },
+      {
+       "id": "b",
+       "text": "Medea's aid — her ointment, her trick, her calming of the dragon — at the price of betraying her father"
+      },
+      {
+       "id": "c",
+       "text": "Aeetes's honourable bargain"
+      },
+      {
+       "id": "d",
+       "text": "The Argonauts' night assault"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "Every winning move is Medea's; Jason's feat depends on her choice.",
+     "sourceRefIds": [
+      "main",
+      "aid",
+      "dilemma"
+     ],
+     "objectiveIds": [
+      "obj.medea.choice"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w04d04.flight-and-pursuit",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "What marks the flight from Colchis?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "A storm sent by Zeus"
+      },
+      {
+       "id": "b",
+       "text": "A mutiny among the Argonauts"
+      },
+      {
+       "id": "c",
+       "text": "Apsyrtus's death and a pursuit that requires purification before the voyage can continue"
+      },
+      {
+       "id": "d",
+       "text": "The loss of the fleece overboard"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "The brother's killing is the flight's defining crime; the escape is bought with kin-blood.",
+     "sourceRefIds": [
+      "purification"
+     ],
+     "objectiveIds": [
+      "obj.flight.apsyrtus"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w04d05.medea-on-stage",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "How does Euripides' Medea end?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "She is executed by Creon's soldiers"
+      },
+      {
+       "id": "b",
+       "text": "She returns the fleece to Colchis"
+      },
+      {
+       "id": "c",
+       "text": "She sails into exile alone"
+      },
+      {
+       "id": "d",
+       "text": "She destroys Jason with a poisoned robe and the killing of their sons, then escapes to Athens — where she later poisons Theseus's cup"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "Her refuge at Aegeus's court links straight back to week 1's poisoned-cup scene.",
+     "sourceRefIds": [
+      "main",
+      "argo"
+     ],
+     "objectiveIds": [
+      "obj.medea.revenge"
+     ]
+    }
+   }
+  ]
+ }
 }

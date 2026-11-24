@@ -139,11 +139,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "A true son of Aegeus would end her influence at court and her children's claim to inherit"
+     "text": "Theseus had insulted her magic"
     },
     {
      "id": "b",
-     "text": "Theseus had insulted her magic"
+     "text": "A true son of Aegeus would end her influence at court and her children's claim to inherit"
     },
     {
      "id": "c",
@@ -154,7 +154,7 @@
      "text": "Aegeus ordered her to test him"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "Medea lived at Aegeus's court promising him an heir; a real son arriving meant she lost everything, so she framed Theseus as a spy and poisoned his cup.",
    "sourceRefIds": [
     "plutarch"

@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w07d04.oedipus-investigates",
-  "version": 4,
-  "weekId": "grc.heroes.week07",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Oedipus Investigates",
-  "subtitle": "Knowledge becomes reversal",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "theban"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w07d04.oedipus-investigates.claim",
-      "text": "Explain this episode: What crime does Oedipus investigate?"
-    },
-    {
-      "id": "obj.grc.heroes.w07d04.oedipus-investigates.source",
-      "text": "Use the cited passage to explain: What gives his curse dramatic irony?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00031",
-      "sourceId": "grc.sophocles.theban-plays",
-      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
-      "author": "Sophocles",
-      "translator": "Francis Storr",
-      "locator": "Oedipus the King, Oedipus’ proclamation; local text, normalized characters 12393-12693",
-      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
-      "excerpt": "as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "revelation": {
-      "recordId": "pg-00031",
-      "sourceId": "grc.sophocles.theban-plays",
-      "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
-      "author": "Sophocles",
-      "translator": "Francis Storr",
-      "locator": "Oedipus the King, the herdsman confirms the foundling; local text, normalized characters 52812-53512",
-      "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
-      "excerpt": "Friend, he that stands before thee was that child. HERDSMAN. A plague upon thee! Hold thy wanton tongue! OEDIPUS. Softly, old man, rebuke him not; thy words Are more deserving chastisement than his. HERDSMAN. O best of masters, what is my offense? OEDIPUS. Not answering what he asks about the child. HERDSMAN. He speaks at random, babbles like a fool. OEDIPUS. If thou lack’st grace to speak, I’ll loose thy tongue. HERDSMAN. For mercy’s sake abuse not an old man. OEDIPUS. Arrest the villain, seize and pinion him! HERDSMAN. Alack, alack! What have I done? what wouldst thou further learn? OEDIPUS. Didst give this man the child of whom he asks? HERDSMAN. I did; and would that I had died that day!",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w07d04.oedipus-investigates",
+ "version": 5,
+ "weekId": "grc.heroes.week07",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Oedipus: The Investigation",
+ "subtitle": "The king who hunts the murderer — and finds himself",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "oedipus",
+  "tiresias",
+  "jocasta",
+  "sphinx"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.oed.method",
+   "text": "How does Oedipus investigate the plague's cause?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "To free Thebes from plague, Oedipus seeks Laius’ killer and curses the unknown culprit. The investigation eventually identifies Oedipus himself. The skill and determination used to protect the city turn back upon its ruler.",
-      "sourceRefIds": [
-        "main",
-        "revelation"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The messenger connects Oedipus with the infant given away by Laius' household; the herdsman confirms he passed the child on.",
-      "sourceRefIds": [
-        "revelation"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Watch how the proclamation changes meaning as the inquiry proceeds. Oedipus speaks against an unknown culprit, while the audience can recognise that his investigation will expose the speaker himself.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This is heroic problem-solving turned into reversal.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What crime does Oedipus investigate?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The murder of Agamemnon"
-        },
-        {
-          "id": "b",
-          "text": "The killing of Laius"
-        },
-        {
-          "id": "c",
-          "text": "The theft of Briseis"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The killing of Laius is the passage-specific answer. Check Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone (Oedipus the King, Oedipus’ proclamation), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does the herdsman's testimony confirm?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Oedipus founded the Argo"
-        },
-        {
-          "id": "b",
-          "text": "Oedipus was the child passed from Laius' household to the messenger"
-        },
-        {
-          "id": "c",
-          "text": "Oedipus commanded the Trojan army"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The messenger identifies Oedipus as the child, and the herdsman confirms giving him away.",
-      "sourceRefIds": [
-        "revelation"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d04.oedipus-investigates.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.oed.truth",
+   "text": "What does the investigation reveal?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00031",
+   "sourceId": "grc.sophocles.theban-plays",
+   "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+   "author": "Sophocles",
+   "translator": "Francis Storr",
+   "locator": "Oedipus the King, Oedipus’ proclamation; local text, normalized characters 12393-12693",
+   "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+   "excerpt": "as their champion I maintain the cause Both of the god and of the murdered King. And on the murderer this curse I lay (On him and all the partners in his guilt):— Wretch, may he pine in utter wretchedness! And for myself, if with my privity He gain admittance to my hearth, I pray The curse I laid on",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "revelation": {
+   "recordId": "pg-00031",
+   "sourceId": "grc.sophocles.theban-plays",
+   "work": "Plays of Sophocles: Oedipus the King, Oedipus at Colonus, Antigone",
+   "author": "Sophocles",
+   "translator": "Francis Storr",
+   "locator": "Oedipus the King, the herdsman confirms the foundling; local text, normalized characters 52812-53512",
+   "localPath": "content/corpus/greek/primary/sophocles-theban-plays-0031.txt",
+   "excerpt": "Friend, he that stands before thee was that child. HERDSMAN. A plague upon thee! Hold thy wanton tongue! OEDIPUS. Softly, old man, rebuke him not; thy words Are more deserving chastisement than his. HERDSMAN. O best of masters, what is my offense? OEDIPUS. Not answering what he asks about the child. HERDSMAN. He speaks at random, babbles like a fool. OEDIPUS. If thou lack’st grace to speak, I’ll loose thy tongue. HERDSMAN. For mercy’s sake abuse not an old man. OEDIPUS. Arrest the villain, seize and pinion him! HERDSMAN. Alack, alack! What have I done? what wouldst thou further learn? OEDIPUS. Didst give this man the child of whom he asks? HERDSMAN. I did; and would that I had died that day!",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The plague and the promise",
+   "body": "Thebes is dying — crops fail, women miscarry, the city begs its king. Oedipus, who saved Thebes once by answering the Sphinx's riddle, sends to Delphi: the oracle says the plague lives because the city shelters the murderer of old King Laius, unpunished.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.oed.method"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The detective-king",
+   "body": "Oedipus does not hesitate: he curses the killer, orders a city-wide inquiry, questions the prophet Tiresias (who hints at the truth and is called a fraud for it), summons witnesses — and slowly unravels the case like a detective who never suspects the murderer is himself.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.oed.method"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The accumulating truth",
+   "body": "The pieces converge: Laius was killed at a crossroads where Oedipus once killed a rude stranger. A survivor's description of the attacker is one man, not bandits. A messenger brings news that his 'father' in Corinth died naturally — he was adopted. A shepherd confesses he once handed over a baby with pierced ankles.",
+   "sourceRefIds": [
+    "revelation"
+   ],
+   "objectiveIds": [
+    "obj.oed.truth"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The answer: himself",
+   "body": "The investigation concludes that Oedipus is Laius's killer — and worse: Laius's son, exposed at birth to prevent a prophecy that he would kill his father and marry his mother. Every precaution Laius and Oedipus took produced exactly what it feared. Jocasta hangs herself; Oedipus blinds himself with her brooch-pins.",
+   "sourceRefIds": [
+    "revelation"
+   ],
+   "objectiveIds": [
+    "obj.oed.truth"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the play endures",
+   "body": "Oedipus Rex is the first detective story — and its inversion: the detective is the criminal. Every generation re-reads the question of what self-knowledge costs.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.oed.truth"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What triggers Oedipus's investigation?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Tiresias's prophecy about the crown"
+    },
+    {
+     "id": "b",
+     "text": "Jocasta's nightmare"
+    },
+    {
+     "id": "c",
+     "text": "A plague on Thebes — the oracle says the city shelters Laius's unpunished murderer"
+    },
+    {
+     "id": "d",
+     "text": "The Sphinx's return"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The plague makes the murder a civic emergency — Oedipus must find the killer to save the city.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.oed.method"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does the investigation finally prove?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Tiresias killed Laius for the throne"
+    },
+    {
+     "id": "b",
+     "text": "The bandits were Polynices's men"
+    },
+    {
+     "id": "c",
+     "text": "Laius died of natural causes at the pass"
+    },
+    {
+     "id": "d",
+     "text": "Oedipus himself killed Laius at the crossroads — and the man he killed was his father, whose son he is"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The detective finds himself — the play's inversion of every mystery since.",
+   "sourceRefIds": [
+    "revelation"
+   ],
+   "objectiveIds": [
+    "obj.oed.truth"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

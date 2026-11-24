@@ -59,11 +59,11 @@
      "choices": [
       {
        "id": "a",
-       "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
+       "text": "Achilles refuses to fight the Trojans"
       },
       {
        "id": "b",
-       "text": "Achilles refuses to fight the Trojans"
+       "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
       },
       {
        "id": "c",
@@ -74,7 +74,7 @@
        "text": "Chryses poisons the wells"
       }
      ],
-     "answerId": "a",
+     "answerId": "b",
      "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
      "sourceRefIds": [
       "main"
@@ -93,22 +93,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "That the Trojans prevail — so the Greeks suffer until they learn what Achilles was worth"
-      },
-      {
-       "id": "b",
        "text": "That Agamemnon be struck by lightning"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "That he be made king of the army"
+      },
+      {
+       "id": "c",
+       "text": "That the Trojans prevail — so the Greeks suffer until they learn what Achilles was worth"
       },
       {
        "id": "d",
        "text": "That his ships be spared for the voyage home"
       }
      ],
-     "answerId": "a",
+     "answerId": "c",
      "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth — and nearly destroys it.",
      "sourceRefIds": [
       "main"
@@ -127,22 +127,22 @@
      "choices": [
       {
        "id": "a",
-       "text": "The stripped honour is beyond material compensation — he will fight only when fire reaches his own ships"
-      },
-      {
-       "id": "b",
        "text": "The offer arrives too late; he has already sailed"
       },
       {
-       "id": "c",
+       "id": "b",
        "text": "He demands the kingship, not gifts"
       },
       {
-       "id": "d",
+       "id": "c",
        "text": "He has sworn an oath to Hector"
+      },
+      {
+       "id": "d",
+       "text": "The stripped honour is beyond material compensation — he will fight only when fire reaches his own ships"
       }
      ],
-     "answerId": "a",
+     "answerId": "d",
      "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
      "sourceRefIds": [
       "main"
@@ -195,11 +195,11 @@
      "choices": [
       {
        "id": "a",
-       "text": "Priam kneels and asks him to think of his own father, Peleus — the two enemies weep together"
+       "text": "Zeus orders it directly"
       },
       {
        "id": "b",
-       "text": "Zeus orders it directly"
+       "text": "Priam kneels and asks him to think of his own father, Peleus — the two enemies weep together"
       },
       {
        "id": "c",
@@ -210,7 +210,7 @@
        "text": "The Greek commanders demand it"
       }
      ],
-     "answerId": "a",
+     "answerId": "b",
      "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
      "sourceRefIds": [
       "main"

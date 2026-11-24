@@ -132,22 +132,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "Odysseus gives his name as Nobody — when the blinded Cyclops cries that Nobody is killing him, the other giants dismiss it"
-    },
-    {
-     "id": "b",
      "text": "He hides his men under a false name of the island"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "He tells the Cyclops he is a god in disguise"
+    },
+    {
+     "id": "c",
+     "text": "Odysseus gives his name as Nobody — when the blinded Cyclops cries that Nobody is killing him, the other giants dismiss it"
     },
     {
      "id": "d",
      "text": "He names himself after the Cyclops's father"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Outis/'Nobody' means the Cyclops's cries for help are nonsense to his neighbours.",
    "sourceRefIds": [
     "main"
@@ -163,22 +163,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "Polyphemus prays to his father Poseidon, whose curse makes the voyage home slow, bloody, and lonely"
-    },
-    {
-     "id": "b",
      "text": "The Cyclops hurls a rock that sinks his flagship"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "His crew mutinies when they learn his name"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "Athena abandons him for the insult"
+    },
+    {
+     "id": "d",
+     "text": "Polyphemus prays to his father Poseidon, whose curse makes the voyage home slow, bloody, and lonely"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "The curse — late, alone, another man's ship, trouble at home — is fulfilled across the rest of the epic.",
    "sourceRefIds": [
     "curse"

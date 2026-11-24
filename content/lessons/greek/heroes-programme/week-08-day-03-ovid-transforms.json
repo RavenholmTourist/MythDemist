@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w08d03.ovid-transforms",
-  "version": 3,
-  "weekId": "grc.heroes.week08",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Ovid Transforms",
-  "subtitle": "Roman reception changes Greek myth",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "metamorphoses"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w08d03.ovid-transforms.claim",
-      "text": "Explain this episode: What becomes a constellation in this episode?"
-    },
-    {
-      "id": "obj.grc.heroes.w08d03.ovid-transforms.source",
-      "text": "Use the cited passage to explain: Why label Ovid as Roman reception here?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-26073",
-      "sourceId": "grc.ovid.metamorphoses",
-      "work": "The Metamorphoses of Ovid, Books VIII–XV",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Metamorphoses 8.169-182, Ariadne and the crown; Book VIII · Fable II [VIII.152-182], normalized characters 1498-1800",
-      "localPath": "content/corpus/greek/reception/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "epitome": {
-      "recordId": "perseus-apollodorus-epitome-frazer",
-      "sourceId": "grc.apollodorus.epitome",
-      "work": "Bibliotheca (Epitome)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Epitome 1.9, Ariadne's clue; chapter 1 · section 9, normalized characters 0-299",
-      "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
-      "excerpt": "And at his suggestion she gave Theseus a clue when he went in; Theseus fastened it to the door, and, drawing it after him, entered in. And having found the Minotaur in the last part of the labyrinth, he killed him by smiting him with his fists; and drawing the clue after him made his way out again.",
-      "evidenceType": "quotation",
-      "note": "Verbatim text from the Epitome; this passage calls the aid a clue and does not specify a thread."
-    }
+ "id": "grc.heroes.w08d03.ovid-transforms",
+ "version": 4,
+ "weekId": "grc.heroes.week08",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Ovid Transforms",
+ "subtitle": "Rome retells the Greeks — and the stories melt into new shapes",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "ovid",
+  "metamorphoses",
+  "rome",
+  "narcissus"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ovid.diff",
+   "text": "How does Ovid's telling differ?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In Ovid’s Roman epic, Theseus abandons Ariadne after the escape from Crete. Liber helps the deserted woman and sets her crown among the stars. Transformation moves the narrative beyond the hero’s successful escape.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Reception is evidence twice over: it preserves material and shows how a later culture chose to reorganize it.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Distinguish Ovid’s narrative from Riley’s explanatory summaries and footnotes in the same volume. Compare the thread, abandonment, and crown across named works instead of importing Ovid into every Greek version.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Later storytelling is part of mythology, but it must stay labeled as later storytelling.",
-      "sourceRefIds": [
-        "main",
-        "epitome"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What becomes a constellation in this episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Theseus’ sword"
-        },
-        {
-          "id": "b",
-          "text": "The Minotaur’s cave"
-        },
-        {
-          "id": "c",
-          "text": "Ariadne’s crown"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Ariadne’s crown is the passage-specific answer. Check The Metamorphoses of Ovid, Books VIII–XV (Metamorphoses 8.169-182, Ariadne and the crown), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why label Ovid as Roman reception here?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "His later Latin epic reshapes material also found in Greek traditions."
-        },
-        {
-          "id": "b",
-          "text": "He is the Greek eyewitness who built the labyrinth."
-        },
-        {
-          "id": "c",
-          "text": "He is the translator of the Epitome."
-        }
-      ],
-      "answerId": "a",
-      "explanation": "His later Latin epic reshapes material also found in Greek traditions. is the passage-specific answer. Check The Metamorphoses of Ovid, Books VIII–XV (Metamorphoses 8.169-182, Ariadne and the crown), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d03.ovid-transforms.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ovid.famous",
+   "text": "Which stories is Ovid best known for?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-26073",
+   "sourceId": "grc.ovid.metamorphoses",
+   "work": "The Metamorphoses of Ovid, Books VIII–XV",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Metamorphoses 8.169-182, Ariadne and the crown; Book VIII · Fable II [VIII.152-182], normalized characters 1498-1800",
+   "localPath": "content/corpus/greek/reception/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "the son of Ægeus, carrying away the daughter of Minos, sets sail for Dia,[13] and barbarously deserts his companion on those shores. Her, {thus} deserted and greatly lamenting, Liber embraces and aids; and, that she may be famed by a lasting Constellation, he places in the heavens the crown taken from",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "epitome": {
+   "recordId": "perseus-apollodorus-epitome-frazer",
+   "sourceId": "grc.apollodorus.epitome",
+   "work": "Bibliotheca (Epitome)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Epitome 1.9, Ariadne's clue; chapter 1 · section 9, normalized characters 0-299",
+   "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
+   "excerpt": "And at his suggestion she gave Theseus a clue when he went in; Theseus fastened it to the door, and, drawing it after him, entered in. And having found the Minotaur in the last part of the labyrinth, he killed him by smiting him with his fists; and drawing the clue after him made his way out again.",
+   "evidenceType": "quotation",
+   "note": "Verbatim text from the Epitome; this passage calls the aid a clue and does not specify a thread."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Five hundred years later, same stories",
+   "body": "Ovid's Metamorphoses is the Roman re-telling: a poetic encyclopedia of transformation myths, written centuries after the Greek originals — and now, for many stories, our main surviving source.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ovid.diff"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Different register entirely",
+   "body": "Where Greek tragedy is grave, Ovid is witty and nimble — he plays with the material, adds psychological depth, and tells the gods as vain, lecherous, petty characters as much as awe-inspiring ones.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ovid.diff"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The stories we owe him",
+   "body": "Narcissus and Echo, Pyramus and Thisbe (the proto-Romeo and Juliet), Arachne's weaving contest, Daedalus and Icarus in full form, Apollo and Daphne — many of the 'Greek myths' you know best survive through Ovid's version.",
+   "sourceRefIds": [
+    "epitome"
+   ],
+   "objectiveIds": [
+    "obj.ovid.famous"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Transformation as the theme",
+   "body": "Ovid's unifying idea is change: people become trees, stars, birds, spiders. The shape-shifting is often the gods' mercy or punishment — metamorphosis as both escape and sentence.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ovid.famous"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The pipeline to you",
+   "body": "Western art's mythology runs mostly through Ovid — Titian, Shakespeare, the whole Renaissance read him. Many 'original Greek' details you picture are actually Roman polish.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ovid.diff"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Ovid's Metamorphoses differ from the Greek sources?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It's a Greek original in Latin translation"
+    },
+    {
+     "id": "b",
+     "text": "It's a history of Roman kings"
+    },
+    {
+     "id": "c",
+     "text": "It's a Roman poetic re-telling centuries later — witty, psychologically rich, and for many myths our main surviving version"
+    },
+    {
+     "id": "d",
+     "text": "It's a comic satire of the gods"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Ovid is reception, not source — but the stories we know best often survive through him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ovid.diff"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Which famous tales are primarily Ovid's?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Trojan War and the Odyssey"
+    },
+    {
+     "id": "b",
+     "text": "The Theban plays of Sophocles"
+    },
+    {
+     "id": "c",
+     "text": "The twelve labours of Heracles"
+    },
+    {
+     "id": "d",
+     "text": "Narcissus and Echo, Pyramus and Thisbe, Arachne, Daedalus and Icarus — the most retold transformation myths"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The 'Greek myths' most familiar in art and literature are often Ovid's versions.",
+   "sourceRefIds": [
+    "epitome"
+   ],
+   "objectiveIds": [
+    "obj.ovid.famous"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

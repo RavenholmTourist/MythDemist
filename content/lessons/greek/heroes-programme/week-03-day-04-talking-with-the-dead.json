@@ -108,22 +108,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "The dead prophet Tiresias alone can tell him how to reach home — and what will doom the voyage"
-    },
-    {
-     "id": "b",
      "text": "He must retrieve a token of Hades as proof"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "His dead father demands an inheritance rite"
+    },
+    {
+     "id": "c",
+     "text": "The dead prophet Tiresias alone can tell him how to reach home — and what will doom the voyage"
     },
     {
      "id": "d",
      "text": "The underworld holds the stolen Palladium"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Tiresias's prophecy gives the route and the fatal condition: touch the Sun's cattle and all is lost.",
    "sourceRefIds": [
     "main"
@@ -139,22 +139,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He would rather be a poor living labourer than king of all the dead"
-    },
-    {
-     "id": "b",
      "text": "That he regrets ever sailing to Troy"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "That death in battle brings the finest honour"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "That Patroclus waits for him beyond the river"
+    },
+    {
+     "id": "d",
+     "text": "He would rather be a poor living labourer than king of all the dead"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "The greatest hero of the Iliad values life over posthumous fame — the Odyssey's central counterweight to epic glory.",
    "sourceRefIds": [
     "main"

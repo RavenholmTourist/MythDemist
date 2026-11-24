@@ -163,11 +163,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "Athena descends, seizes his hair, and orders restraint — promising the insult will be repaid threefold"
+     "text": "Nestor talks him down before the army"
     },
     {
      "id": "b",
-     "text": "Nestor talks him down before the army"
+     "text": "Athena descends, seizes his hair, and orders restraint — promising the insult will be repaid threefold"
     },
     {
      "id": "c",
@@ -178,7 +178,7 @@
      "text": "Agamemnon apologises first"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "Athena, visible only to Achilles, holds him back and promises the gods will repay the insult threefold.",
    "sourceRefIds": [
     "main"

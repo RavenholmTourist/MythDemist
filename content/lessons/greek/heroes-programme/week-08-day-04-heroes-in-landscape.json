@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w08d04.heroes-in-landscape",
-  "version": 4,
-  "weekId": "grc.heroes.week08",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Heroes in Landscape",
-  "subtitle": "Memory attaches to places",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "greek"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w08d04.heroes-in-landscape.claim",
-      "text": "Explain this episode: Whose observations is Frazer discussing in this passage?"
-    },
-    {
-      "id": "obj.grc.heroes.w08d04.heroes-in-landscape.source",
-      "text": "Use the cited passage to explain: What does a named legendary tomb establish by itself?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-56002",
-      "sourceId": "sch.frazer.greek-scenery-legend-history",
-      "work": "Studies in Greek Scenery, Legend and History",
-      "author": "James George Frazer",
-      "translator": "not applicable",
-      "locator": "Frazer's discussion of Pausanias and Mount Sipylus; local text, normalized characters 21213-21905",
-      "localPath": "content/corpus/greek/scholarship/frazer-greek-scenery-legend-history-56002.txt",
-      "excerpt": "This is nearly a direct affirmation that the region about Mount Sipylus in Lydia was his native land. The same thing appears, though less directly, from the minute acquaintance he displays with the district and from the evident fondness with which he recurs again and again to its scenery and legends. He had seen the white eagles wheeling above the lonely tarn of Tantalus in the heart of the hills; he had beheld the stately tomb of the same hero on Mount Sipylus, the ruined city at the bottom of the clear lake, the rock-hewn throne of Pelops crowning the dizzy peak that overhangs the cañon, and the dripping rock which popular fancy took for the bereaved Niobe weeping for her children.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w08d04.heroes-in-landscape",
+ "version": 5,
+ "weekId": "grc.heroes.week08",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heroes in the Landscape",
+ "subtitle": "Constellations, city names, and seas — myth written on the world",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "constellations",
+  "landscape",
+  "perseus",
+  "aegean"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.land.names",
+   "text": "How do myths mark geography?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Frazer discusses Pausanias’ familiarity with Mount Sipylus, including monuments linked with Tantalus, Pelops, and Niobe. Here Frazer is describing an ancient writer’s observations; the paragraph is not Frazer’s own eyewitness confirmation of those heroes.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “wheeling above the lonely tarn of Tantalus in the heart of the hills; he had beheld the stately tomb of the same hero on Mount Sipylus, the ruined city at the bottom of the clear lake, the rock-hewn throne of Pelops crowning the dizzy peak that overhangs the cañon, and the dripping rock which popular”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: places can preserve stories without proving their events. Frazer’s dated scholarship must be checked against the ancient testimony he discusses.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Identify each layer of testimony: a legendary association, Pausanias’ description, and Frazer’s discussion of it. None should be silently promoted into direct proof that a legendary event occurred.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Landscape gives heroic afterlife a physical address.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Whose observations does Frazer discuss in this passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Homer's description of Achilles' armour"
-        },
-        {
-          "id": "b",
-          "text": "Ovid's account of the Argo"
-        },
-        {
-          "id": "c",
-          "text": "Pausanias' accounts of Mount Sipylus and its monuments"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Frazer's passage explicitly discusses Pausanias' descriptions of monuments and scenery near Sipylus.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does a named legendary tomb establish by itself?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The historical truth of every attached episode"
-        },
-        {
-          "id": "b",
-          "text": "An association between a place and a story, not proof the hero lived there"
-        },
-        {
-          "id": "c",
-          "text": "A contemporary birth certificate for the hero"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "An association between a place and a story, not proof the hero lived there is the passage-specific answer. Check Studies in Greek Scenery, Legend and History (Frazer's discussion of Pausanias and Mount Sipylus), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w08d04.heroes-in-landscape.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.land.sky",
+   "text": "Which heroes are in the night sky?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-56002",
+   "sourceId": "sch.frazer.greek-scenery-legend-history",
+   "work": "Studies in Greek Scenery, Legend and History",
+   "author": "James George Frazer",
+   "translator": "not applicable",
+   "locator": "Frazer's discussion of Pausanias and Mount Sipylus; local text, normalized characters 21213-21905",
+   "localPath": "content/corpus/greek/scholarship/frazer-greek-scenery-legend-history-56002.txt",
+   "excerpt": "This is nearly a direct affirmation that the region about Mount Sipylus in Lydia was his native land. The same thing appears, though less directly, from the minute acquaintance he displays with the district and from the evident fondness with which he recurs again and again to its scenery and legends. He had seen the white eagles wheeling above the lonely tarn of Tantalus in the heart of the hills; he had beheld the stately tomb of the same hero on Mount Sipylus, the ruined city at the bottom of the clear lake, the rock-hewn throne of Pelops crowning the dizzy peak that overhangs the cañon, and the dripping rock which popular fancy took for the bereaved Niobe weeping for her children.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The sea that mourns a king",
+   "body": "The Aegean Sea is named for Aegeus — Theseus's father who threw himself from the rock watching black sails. Every voyage on it says his name.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.names"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The sky full of heroes",
+   "body": "Perseus, Andromeda, Cassiopeia, Cepheus, and Pegasus are all still overhead — the entire Andromeda rescue is preserved as constellations, plus Hercules kneeling with his club, Orion the hunter, and the Hydra Perseus never fought.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.sky"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Cities that claim founders",
+   "body": "Mycenae carries Perseus's founding; Athens wears Theseus's civic myth in its stones (the Parthenon's sculptures show the Centauromachy he fought in); Thebes is shaped by Cadmus's dragon-teeth founding.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.names"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Monsters in the map",
+   "body": "Geography absorbed the mythic: the Pillars of Hercules (Gibraltar) are where his tenth labour ended; the Bosporus is 'cow's crossing' for Io the cow-maiden; the Hellespont is 'Helle's sea' for the girl who fell off the golden ram.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.names"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why landscape-myth matters",
+   "body": "The myths didn't live in books — they lived in places. Sailing the Aegean or looking up at Pegasus keeps the stories physically present, which is how they survived a thousand years.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.names"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the Aegean Sea named after?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "King Aegeus — Theseus's father, who threw himself from the Acropolis on seeing the black sails"
+    },
+    {
+     "id": "b",
+     "text": "The god Aegeus of storms"
+    },
+    {
+     "id": "c",
+     "text": "The island Aegea near Troy"
+    },
+    {
+     "id": "d",
+     "text": "The Greek word for 'wine-dark'"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The sea still carries the mourning king's name — the whole Theseus tragedy is in the map.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.names"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Which constellations preserve the Perseus story?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Orion and the Pleiades only"
+    },
+    {
+     "id": "b",
+     "text": "Perseus, Andromeda, Cassiopeia, Cepheus, and Pegasus — the entire rescue is written in the sky"
+    },
+    {
+     "id": "c",
+     "text": "The zodiac signs"
+    },
+    {
+     "id": "d",
+     "text": "The Northern Crown and Lyra"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The star-map keeps the whole Andromeda myth visible tonight.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.land.sky"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

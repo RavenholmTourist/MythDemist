@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w07d02.orestes-and-justice",
-  "version": 4,
-  "weekId": "grc.heroes.week07",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Orestes and Justice",
-  "subtitle": "Revenge becomes civic judgment",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "oresteia"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w07d02.orestes-and-justice.claim",
-      "text": "Explain this episode: Whose killing has brought Orestes before judgement?"
-    },
-    {
-      "id": "obj.grc.heroes.w07d02.orestes-and-justice.source",
-      "text": "Use the cited passage to explain: What changes in the handling of the conflict?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-08604",
-      "sourceId": "grc.aeschylus.oresteia",
-      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
-      "author": "Aeschylus",
-      "translator": "E. D. A. Morshead",
-      "locator": "Eumenides, Orestes submits his act to judgement; local text, normalized characters 162029-162329",
-      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
-      "excerpt": "And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "court": {
-      "recordId": "pg-08604",
-      "sourceId": "grc.aeschylus.oresteia",
-      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
-      "author": "Aeschylus",
-      "translator": "E. D. A. Morshead",
-      "locator": "Eumenides, Athena establishes the court; local text, normalized characters 172758-172876",
-      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
-      "excerpt": "Here to all time for Aegeus’ Attic host Shall stand this council-court of judges sworn, Here the tribunal, set on Ares",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w07d02.orestes-and-justice",
+ "version": 5,
+ "weekId": "grc.heroes.week07",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Orestes: Vengeance and the Court",
+ "subtitle": "A son must kill his mother — and the gods argue about justice",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "orestes",
+  "electra",
+  "furies",
+  "athena"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ore.stasis",
+   "text": "What impossible duty is Orestes given?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Orestes has killed his mother to avenge his father. In Eumenides, Athena establishes a court to hear the conflict, and the pursuing Erinyes must also be addressed. The ending stages a negotiated civic settlement, not the disappearance of every competing claim.",
-      "sourceRefIds": [
-        "main",
-        "court"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Athena establishes a council-court for future cases. The Erinyes remain part of the settlement, so the play does not simply remove divine claims from justice.",
-      "sourceRefIds": [
-        "court"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The trial does not simply remove the gods from justice. Athena and the Erinyes remain part of the settlement, so describe a change in the handling of claims rather than a clean replacement of religion by law.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The heroic burden is being caught between irreconcilable duties.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Whose killing has brought Orestes before judgement?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Hector’s"
-        },
-        {
-          "id": "b",
-          "text": "The Minotaur’s"
-        },
-        {
-          "id": "c",
-          "text": "His mother’s"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "His mother’s is the passage-specific answer. Check The House of Atreus: Agamemnon, the Libation Bearers, and the Furies (Eumenides, Orestes submits his act to judgement), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What changes in the handling of Orestes' conflict?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Orestes is sent to fight Hector"
-        },
-        {
-          "id": "b",
-          "text": "Athena establishes a court to hear claims instead of another killing"
-        },
-        {
-          "id": "c",
-          "text": "The Erinyes leave before judgment"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Athena announces a council-court on Ares' Hill while the divine figures remain part of the play's outcome.",
-      "sourceRefIds": [
-        "court"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d02.orestes-and-justice.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ore.court",
+   "text": "How does the cycle of blood end?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-08604",
+   "sourceId": "grc.aeschylus.oresteia",
+   "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+   "author": "Aeschylus",
+   "translator": "E. D. A. Morshead",
+   "locator": "Eumenides, Orestes submits his act to judgement; local text, normalized characters 162029-162329",
+   "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+   "excerpt": "And I, returning from an exiled youth, Slew her, my mother—lo, it stands avowed! With blood for blood avenging my loved sire; And in this deed doth Loxias bear part, Decreeing agonies, to goad my will, Unless by me the guilty found their doom. Do thou decide if right or wrong were done— Thy dooming,",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "court": {
+   "recordId": "pg-08604",
+   "sourceId": "grc.aeschylus.oresteia",
+   "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+   "author": "Aeschylus",
+   "translator": "E. D. A. Morshead",
+   "locator": "Eumenides, Athena establishes the court; local text, normalized characters 172758-172876",
+   "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+   "excerpt": "Here to all time for Aegeus’ Attic host Shall stand this council-court of judges sworn, Here the tribunal, set on Ares",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The son returns",
+   "body": "Orestes, smuggled out as a baby when his father was murdered, comes home grown — to a mother who is both the wronged wife of Agamemnon and the killer of his father. Every obligation pulls in opposite directions.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ore.stasis"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Apollo's command",
+   "body": "The god of Delphi himself orders the revenge: kill Clytemnestra and Aegisthus. Matricide is the deepest pollution — and refusing vengeance is betrayal of the father. There is no clean act left in this family.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ore.stasis"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The deed and the Furies",
+   "body": "Orestes kills both his mother and her lover — and immediately the Furies arrive: ancient earth-goddesses who pursue blood-kin killers. He is hounded across Greece, purified yet never free.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ore.stasis"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Trial at Athens",
+   "body": "At the Areopagus, Athena convenes the first murder trial in myth: Apollo argues duty, the Furies argue blood. The jury of Athenians splits evenly — and Athena casts the deciding vote for acquittal.",
+   "sourceRefIds": [
+    "court"
+   ],
+   "objectiveIds": [
+    "obj.ore.court"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "story",
+   "title": "The court replaces the feud",
+   "body": "The play's real ending: blood-for-blood is replaced by legal process. The Furies are not defeated but honoured — renamed 'the Kindly Ones' and given a shrine. Vengeance doesn't end; it is institutionalised.",
+   "sourceRefIds": [
+    "court"
+   ],
+   "objectiveIds": [
+    "obj.ore.court"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What makes Orestes's duty impossible?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He must choose between two wives"
+    },
+    {
+     "id": "b",
+     "text": "He is asked to betray his ally Pylades"
+    },
+    {
+     "id": "c",
+     "text": "Apollo commands him to avenge his father by killing his mother — whichever way he acts, he violates a sacred bond"
+    },
+    {
+     "id": "d",
+     "text": "He must surrender the throne to Aegisthus"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Duty to father and horror of matricide collide — the play's engine is that no act is clean.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.ore.stasis"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is Orestes finally cleared?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Apollo pardons him at Delphi"
+    },
+    {
+     "id": "b",
+     "text": "The Furies are killed by Heracles"
+    },
+    {
+     "id": "c",
+     "text": "He exiles himself forever"
+    },
+    {
+     "id": "d",
+     "text": "Athena's court at the Areopagus — a jury splits evenly and her casting vote acquits him, ending the feud with law instead of blood"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "Aeschylus's answer to the vendetta: an institution — the court — replaces endless retaliation.",
+   "sourceRefIds": [
+    "court"
+   ],
+   "objectiveIds": [
+    "obj.ore.court"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

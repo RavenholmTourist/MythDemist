@@ -121,22 +121,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "Priam kneels before him and asks him to think of his own father — shared grief breaks through the rage"
-    },
-    {
-     "id": "b",
      "text": "The gods threaten him with divine punishment"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "The ransom of gold outweighs his anger"
+    },
+    {
+     "id": "c",
+     "text": "Priam kneels before him and asks him to think of his own father — shared grief breaks through the rage"
     },
     {
      "id": "d",
      "text": "The Greeks order him to release the body"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Priam asks Achilles to think of Peleus, his own father; the two weep together and Achilles releases the body and grants a funeral truce.",
    "sourceRefIds": [
     "main"
@@ -152,22 +152,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He drags it behind his chariot around Patroclus's tomb, day after day"
-    },
-    {
-     "id": "b",
      "text": "He burns it on a pyre immediately"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "He hangs it from the camp walls"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "He sinks it in the river Scamander"
+    },
+    {
+     "id": "d",
+     "text": "He drags it behind his chariot around Patroclus's tomb, day after day"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "Achilles pierces Hector's ankles and drags the body around Patroclus's tomb until Priam's ransom mission moves him.",
    "sourceRefIds": [
     "main"

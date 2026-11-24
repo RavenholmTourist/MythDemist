@@ -1,199 +1,205 @@
 {
-  "id": "grc.heroes.w07d01.agamemnon-returns",
-  "version": 4,
-  "weekId": "grc.heroes.week07",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Agamemnon Returns",
-  "subtitle": "Victory meets domestic violence",
-  "estimatedMinutes": 3,
-  "difficulty": 3,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "oresteia"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w07d01.agamemnon-returns.claim",
-      "text": "Explain this episode: What signal does the Watchman await?"
-    },
-    {
-      "id": "obj.grc.heroes.w07d01.agamemnon-returns.source",
-      "text": "Use the cited passage to explain: Why is victory an insecure ending here?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-08604",
-      "sourceId": "grc.aeschylus.oresteia",
-      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
-      "author": "Aeschylus",
-      "translator": "E. D. A. Morshead",
-      "locator": "Agamemnon, the Watchman waits for the beacon; local text, normalized characters 3196-4782",
-      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
-      "excerpt": "I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry conclave of the midnight sky, Too well, the splendours of the firmament, The lords of light, whose kingly aspect shows— What time they set or climb the sky in turn— The year’s divisions, bringing frost or fire. And now, as ever, am I set to mark When shall stream up the glow of signal-flame, The bale-fire bright, and tell its Trojan tale— _Troy town is ta’en:_ such issue holds in hope She in whose woman’s breast beats heart of man. Thus upon mine unrestful couch I lie, Bathed with the dews of night, unvisited By dreams—ah me!—for in the place of sleep Stands Fear as my familiar, and repels The soft repose that would mine eyelids seal. And if at whiles, for the lost balm of sleep, I medicine my soul with melody Of trill or song—anon to tears I turn, Wailing the woe that broods upon this home, Not now by honour guided as of old. But now at last fair fall the welcome hour That sets me free, whene’er the thick night glow With beacon-fire of hope deferred no more. All hail! [_A beacon-light is seen reddening the distant sky._] Fire of the night, that brings my spirit day, Shedding on Argos light, and dance, and song, Greetings to fortune, hail! Let my loud summons ring within the ears Of Agamemnon’s queen, that she anon Start from her couch and with a shrill voice cry A joyous welcome to the beacon-blaze, For Ilion’s fall; such fiery message gleams",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "murder": {
-      "recordId": "pg-08604",
-      "sourceId": "grc.aeschylus.oresteia",
-      "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
-      "author": "Aeschylus",
-      "translator": "E. D. A. Morshead",
-      "locator": "Agamemnon, Clytemnestra confesses; local text, normalized characters 78520-78583",
-      "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
-      "excerpt": "By me he fell, by me he died, And now his burial rites be mine!",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "odyssey": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "locator": "Odyssey 23, Odysseus and Penelope reunite; Book 23, normalized characters 10694-11686",
-      "excerpt": "When she heard the sure proofs Ulysses now gave her, she fairly broke down. She flew weeping to his side, flung her arms about his neck, and kissed him. “Do not be angry with me Ulysses,” she cried, “you, who are the wisest of mankind. We have suffered, both of us. Heaven has denied us the happiness of spending our youth, and of growing old, together; do not then be aggrieved or take it amiss that I did not embrace you thus as soon as I saw you. I have been shuddering all the time through fear that someone might come here and deceive me with a lying story; for there are many very wicked people going about. Jove’s daughter Helen would never have yielded herself to a man from a foreign country, if she had known that the sons of Achaeans would come after her and bring her back. Heaven put it in her heart to do wrong, and she gave no thought to that sin, which has been the source of all our sorrows. Now, however, that you have convinced me by showing that you know all about our bed",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w07d01.agamemnon-returns",
+ "version": 5,
+ "weekId": "grc.heroes.week07",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Agamemnon: The Homecoming",
+ "subtitle": "Ten years at Troy, one bath at Mycenae — the king's return is the murder scene",
+ "estimatedMinutes": 3,
+ "difficulty": 3,
+ "tags": [
+  "agamemnon",
+  "clytemnestra",
+  "aegisthus",
+  "orestia"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.agem.motive",
+   "text": "Why does Clytemnestra kill Agamemnon?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The Watchman awaits a beacon announcing Troy's fall. Aeschylus later gives Clytemnestra's account of killing Agamemnon.",
-      "sourceRefIds": [
-        "main",
-        "murder"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “Palace stand statues of the gods, and altars prepared for sacrifices._ _A Watchman_ I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Agamemnon’s return is the anti-Odyssey: the damaged house is not restored but fully exposed.",
-      "sourceRefIds": [
-        "murder",
-        "odyssey"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The opening Watchman’s relief is not the play’s final judgement on victory. Read forward into the damaged household before assuming that a successful war guarantees a safe return.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Heroic success abroad does not settle moral damage at home.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What signal does the Watchman await?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A raven carrying news from Ithaca"
-        },
-        {
-          "id": "b",
-          "text": "A messenger returning the Golden Fleece"
-        },
-        {
-          "id": "c",
-          "text": "A beacon announcing Troy's fall"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Watchman says the beacon will announce Ilion's fall.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Who claims responsibility for Agamemnon's death in the play?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Trojan women"
-        },
-        {
-          "id": "b",
-          "text": "Clytemnestra"
-        },
-        {
-          "id": "c",
-          "text": "The Watchman"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Clytemnestra says, 'By me he fell, by me he died.'",
-      "sourceRefIds": [
-        "murder"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w07d01.agamemnon-returns.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.agem.scene",
+   "text": "How is the murder staged?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-08604",
+   "sourceId": "grc.aeschylus.oresteia",
+   "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+   "author": "Aeschylus",
+   "translator": "E. D. A. Morshead",
+   "locator": "Agamemnon, the Watchman waits for the beacon; local text, normalized characters 3196-4782",
+   "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+   "excerpt": "I pray the gods to quit me of my toils, To close the watch I keep, this livelong year; For as a watch-dog lying, not at rest, Propped on one arm, upon the palace-roof Of Atreus’ race, too long, too well I know The starry conclave of the midnight sky, Too well, the splendours of the firmament, The lords of light, whose kingly aspect shows— What time they set or climb the sky in turn— The year’s divisions, bringing frost or fire. And now, as ever, am I set to mark When shall stream up the glow of signal-flame, The bale-fire bright, and tell its Trojan tale— _Troy town is ta’en:_ such issue holds in hope She in whose woman’s breast beats heart of man. Thus upon mine unrestful couch I lie, Bathed with the dews of night, unvisited By dreams—ah me!—for in the place of sleep Stands Fear as my familiar, and repels The soft repose that would mine eyelids seal. And if at whiles, for the lost balm of sleep, I medicine my soul with melody Of trill or song—anon to tears I turn, Wailing the woe that broods upon this home, Not now by honour guided as of old. But now at last fair fall the welcome hour That sets me free, whene’er the thick night glow With beacon-fire of hope deferred no more. All hail! [_A beacon-light is seen reddening the distant sky._] Fire of the night, that brings my spirit day, Shedding on Argos light, and dance, and song, Greetings to fortune, hail! Let my loud summons ring within the ears Of Agamemnon’s queen, that she anon Start from her couch and with a shrill voice cry A joyous welcome to the beacon-blaze, For Ilion’s fall; such fiery message gleams",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "murder": {
+   "recordId": "pg-08604",
+   "sourceId": "grc.aeschylus.oresteia",
+   "work": "The House of Atreus: Agamemnon, the Libation Bearers, and the Furies",
+   "author": "Aeschylus",
+   "translator": "E. D. A. Morshead",
+   "locator": "Agamemnon, Clytemnestra confesses; local text, normalized characters 78520-78583",
+   "localPath": "content/corpus/greek/primary/aeschylus-house-of-atreus-8604.txt",
+   "excerpt": "By me he fell, by me he died, And now his burial rites be mine!",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "odyssey": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "locator": "Odyssey 23, Odysseus and Penelope reunite; Book 23, normalized characters 10694-11686",
+   "excerpt": "When she heard the sure proofs Ulysses now gave her, she fairly broke down. She flew weeping to his side, flung her arms about his neck, and kissed him. “Do not be angry with me Ulysses,” she cried, “you, who are the wisest of mankind. We have suffered, both of us. Heaven has denied us the happiness of spending our youth, and of growing old, together; do not then be aggrieved or take it amiss that I did not embrace you thus as soon as I saw you. I have been shuddering all the time through fear that someone might come here and deceive me with a lying story; for there are many very wicked people going about. Jove’s daughter Helen would never have yielded herself to a man from a foreign country, if she had known that the sons of Achaeans would come after her and bring her back. Heaven put it in her heart to do wrong, and she gave no thought to that sin, which has been the source of all our sorrows. Now, however, that you have convinced me by showing that you know all about our bed",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The king who paid in blood",
+   "body": "To sail for Troy, Agamemnon sacrificed his daughter Iphigenia — the fleet would not move until the gods had their price. Ten years later he returns a victor; his wife Clytemnestra has never stopped counting.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.agem.motive"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A war won, a house lost",
+   "body": "While he was gone, Clytemnestra took his cousin Aegisthus — whose family Agamemnon's father once fed his own sons to — as lover and co-ruler. The palace has already moved on.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.agem.motive"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The purple carpet",
+   "body": "She greets him in triumph and spreads crimson tapestries across the threshold — an honour fit for gods, which a king should refuse. Agamemnon steps onto the carpet: the audience has just watched him walk into his own pride.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.agem.scene"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "In the bath",
+   "body": "The murder happens offstage and by firelight: Clytemnestra and Aegisthus kill him in his bath — entangled in a robe, defenceless. Then she opens the palace doors and shows the bodies, declaring justice done.",
+   "sourceRefIds": [
+    "murder"
+   ],
+   "objectiveIds": [
+    "obj.agem.scene"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "story",
+   "title": "Cassandra's bonus horror",
+   "body": "Agamemnon brought home a Trojan princess-prophetess as a war-prize — Cassandra, fated to be believed by no one. She foresees the murder and is killed with him, screaming the truth to a city that cannot hear it.",
+   "sourceRefIds": [
+    "odyssey"
+   ],
+   "objectiveIds": [
+    "obj.agem.motive"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Clytemnestra kill Agamemnon?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He sacrificed their daughter Iphigenia to launch the fleet — she has been counting the years since"
+    },
+    {
+     "id": "b",
+     "text": "He refused to share the spoils of Troy"
+    },
+    {
+     "id": "c",
+     "text": "Aegisthus forced her hand"
+    },
+    {
+     "id": "d",
+     "text": "She wanted his throne for herself"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Iphigenia's sacrifice is the wound at the story's heart; Aegisthus adds his own family grievance.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.agem.motive"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the significance of the purple carpet scene?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It marks his official coronation"
+    },
+    {
+     "id": "b",
+     "text": "Spreading honours fit for gods across his threshold is the trap — Agamemnon walks into his own pride moments before the murder"
+    },
+    {
+     "id": "c",
+     "text": "It is a peace offering to the gods"
+    },
+    {
+     "id": "d",
+     "text": "It hides the murder weapon"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The carpet makes him complicit: he knows the gesture is excessive, and steps onto it anyway.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.agem.scene"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

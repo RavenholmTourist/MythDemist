@@ -108,22 +108,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He will take another man's honour-prize to replace his — which means seizing Achilles's prize, Briseis"
-    },
-    {
-     "id": "b",
      "text": "A ransom of seven tripods from the whole army"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "Achilles must publicly apologise to the priest"
+    },
+    {
+     "id": "c",
+     "text": "He will take another man's honour-prize to replace his — which means seizing Achilles's prize, Briseis"
     },
     {
      "id": "d",
      "text": "Immediate sacrifice of a hundred oxen to Apollo"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Agamemnon agrees to return Chryseis but declares he will come to someone's tent and take their prize — the insult that provokes Achilles's withdrawal.",
    "sourceRefIds": [
     "main"
@@ -139,22 +139,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "Agamemnon refused and mocked the priest Chryses, who came to ransom his daughter Chryseis"
-    },
-    {
-     "id": "b",
      "text": "The Greeks forgot a sacrifice before landing"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "The Trojans stole Apollo's sacred tripod"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "Achilles defiled a temple"
+    },
+    {
+     "id": "d",
+     "text": "Agamemnon refused and mocked the priest Chryses, who came to ransom his daughter Chryseis"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "Chryses came to ransom his daughter; Agamemnon's insult moved Apollo to plague the host for nine days.",
    "sourceRefIds": [
     "main"

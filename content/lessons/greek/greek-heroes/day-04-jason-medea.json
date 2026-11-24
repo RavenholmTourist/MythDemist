@@ -109,22 +109,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "A ball of thread — it lets him retrace his path out of the labyrinth after killing the Minotaur"
-    },
-    {
-     "id": "b",
      "text": "A magic sword that can cut through the labyrinth walls"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "A drug that puts the Minotaur to sleep"
+    },
+    {
+     "id": "c",
+     "text": "A ball of thread — it lets him retrace his path out of the labyrinth after killing the Minotaur"
     },
     {
      "id": "d",
      "text": "A map of Crete's hidden harbours"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Ariadne gives him a clue (ball) of thread; he ties it at the entrance, unwinds it through the windings, and follows it back out.",
    "sourceRefIds": [
     "plutarch"
@@ -140,22 +140,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "As a tribute to King Minos — food for the Minotaur sealed inside Daedalus's labyrinth"
-    },
-    {
-     "id": "b",
      "text": "To serve as hostages guaranteeing an alliance"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "To train in Cretan schools"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "To work the silver mines"
+    },
+    {
+     "id": "d",
+     "text": "As a tribute to King Minos — food for the Minotaur sealed inside Daedalus's labyrinth"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "Minos held Athens under a tribute: periodically fourteen youths were shipped to feed the Minotaur in the labyrinth.",
    "sourceRefIds": [
     "plutarch"

@@ -1,186 +1,181 @@
 {
-  "id": "grc.heroes.w06d02.the-minotaur-and-ariadne",
-  "version": 4,
-  "weekId": "grc.heroes.week06",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Minotaur and Ariadne's Clue",
-  "subtitle": "The maze needs help",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "epitome"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim",
-      "text": "Explain this episode: What clue does Ariadne give Theseus?"
-    },
-    {
-      "id": "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source",
-      "text": "Use the cited passage to explain: What problem does her help solve?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "perseus-apollodorus-epitome-frazer",
-      "sourceId": "grc.apollodorus.epitome",
-      "work": "Epitome",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Epitome 1.8-1.9, Ariadne and the thread; chapter 1 · section 8, normalized characters 0-279",
-      "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
-      "excerpt": "And when he came to Crete, Ariadne, daughter of Minos, being amorously disposed to him, offered to help him if he would agree to carry her away to Athens and have her to wife. Theseus having agreed on oath to do so, she besought Daedalus to disclose the way out of the labyrinth.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "escape": {
-      "recordId": "perseus-apollodorus-epitome-frazer",
-      "sourceId": "grc.apollodorus.epitome",
-      "work": "Epitome",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Epitome 1.9, Ariadne's clue and Theseus' escape; chapter 1 · section 9, normalized characters 0-299",
-      "localPath": "content/corpus/greek/primary/apollodorus-epitome-frazer-perseus-eng2.xml",
-      "excerpt": "And at his suggestion she gave Theseus a clue when he went in; Theseus fastened it to the door, and, drawing it after him, entered in. And having found the Minotaur in the last part of the labyrinth, he killed him by smiting him with his fists; and drawing the clue after him made his way out again.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w06d02.the-minotaur-and-ariadne",
+ "version": 5,
+ "weekId": "grc.heroes.week06",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Perseus: The Impossible Errand",
+ "subtitle": "A king's trap, a promise of a Gorgon's head, and divine patrons",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "perseus",
+  "polydectes",
+  "medusa",
+  "quest"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.errand.trap",
+   "text": "How does Polydectes trap Perseus?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In the Epitome, Ariadne asks Daedalus how Theseus can leave the labyrinth and gives him a clue to follow.",
-      "sourceRefIds": [
-        "main",
-        "escape"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “And when he came to Crete, Ariadne, daughter of Minos, being amorously disposed to him, offered to help him if he would agree to carry her away to Athens and have her to wife. Theseus having agreed on oath to do so, she besought Daedalus to disclose the way out of the labyrinth.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The Epitome says Theseus kills the Minotaur and draws the clue after him to find his way out; it does not specify 'thread' in this passage.",
-      "sourceRefIds": [
-        "escape"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Separate killing the monster from escaping the maze. The Epitome calls Ariadne's aid a clue and says Theseus draws it after him to find the exit.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The maze is a test of alliances as much as courage.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Epitome say Ariadne gives Theseus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A magic sword"
-        },
-        {
-          "id": "b",
-          "text": "A golden apple"
-        },
-        {
-          "id": "c",
-          "text": "A clue to help him find the way out"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Epitome calls it a clue and says Theseus draws it after him to escape.",
-      "sourceRefIds": [
-        "escape"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What problem does her help solve?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Preventing Apollo’s plague at Troy"
-        },
-        {
-          "id": "b",
-          "text": "Finding the way out after entering the maze"
-        },
-        {
-          "id": "c",
-          "text": "Winning an election at Athens"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Finding the way out after entering the maze is the passage-specific answer. Check Epitome (Epitome 1.8-1.9, Ariadne and the thread), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d02.the-minotaur-and-ariadne.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.errand.gifts",
+   "text": "What do the gods give him for the quest?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment.",
+   "locator": "Library 2.4.2, Polydectes and the wedding-gift trick",
+   "excerpt": "Polydectes, brother of Dictys, was then king of Seriphus and fell in love with Danae, but could not get access to her, because Perseus was grown to man's estate. So he called together his friends, including Perseus, under the pretext of collecting contributions towards a wedding gift"
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A wedding-gift scam",
+   "body": "Polydectes wants Danae and wants her son gone. He calls his friends together 'to collect contributions toward a wedding gift' — a polite ritual where everyone must offer a horse. Perseus has no horse to give.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.trap"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The fatal boast",
+   "body": "Cornered by pride, young Perseus offers instead any gift the king names — and Polydectes names the one thing that should kill him: the head of the Gorgon Medusa, whose gaze turns men to stone.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.trap"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Gods pick sides",
+   "body": "The quest is suicidal — but Perseus is Zeus's son, and Olympus supplies kit: Athena lends a mirrored shield, Hermes a curved blade, the nymphs give winged sandals, a magic knapsack, the cap of invisibility, and a bag for the head.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.gifts"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The old women who share an eye",
+   "body": "To find the Gorgons he must first find the Graeae — three grey sisters born old, who share one eye and one tooth between them. Perseus snatches the eye mid-pass and ransoms it for directions.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.gifts"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The equipped-hero pattern",
+   "body": "Perseus is the most kitted-out hero in the cycle — every impossible task is matched by a divine tool. Compare Theseus (bare hands, earned each step): two models of how a hero gets the job done.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.gifts"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Polydectes trap Perseus into the Gorgon quest?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He collects 'wedding contributions' — Perseus can't offer a horse and rashly promises any other gift; the king names Medusa's head"
+    },
+    {
+     "id": "b",
+     "text": "He offers Danae's hand to whoever kills Medusa"
+    },
+    {
+     "id": "c",
+     "text": "He banishes Perseus until he returns with treasure"
+    },
+    {
+     "id": "d",
+     "text": "He loses a bet with Perseus at games"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The errand is engineered to remove Perseus so the king can take Danae.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.trap"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Perseus get directions to the Gorgons?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He consults the oracle at Delphi"
+    },
+    {
+     "id": "b",
+     "text": "He steals the Graeae's single shared eye mid-pass and ransoms it for the route"
+    },
+    {
+     "id": "c",
+     "text": "Athena leads him directly to the island"
+    },
+    {
+     "id": "d",
+     "text": "He tortures a captured nymph"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "The Graeae share one eye and one tooth — seizing the eye mid-handoff is the quest's first trick.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.errand.gifts"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite remapped to Perseus; cards retell the story, verbatim Apollodorus excerpts checked. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

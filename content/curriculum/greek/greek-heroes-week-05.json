@@ -1,208 +1,228 @@
 {
-  "id": "grc.heroes.week05",
-  "title": "Heracles",
-  "subtitle": "Strength, service, suffering, and immortality",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week05",
+ "title": "Heracles",
+ "subtitle": "Strength, service, suffering, and immortality",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Heracles: The Twelve Labours",
+   "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-01-the-catalogue-of-labours.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "The Catalogue of Labours",
-      "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-01-the-catalogue-of-labours.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "The Nemean Lion",
-      "lessonId": "grc.heroes.w05d02.the-nemean-lion",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-02-the-nemean-lion.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Madness and Service",
-      "lessonId": "grc.heroes.w05d03.madness-and-service",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-03-madness-and-service.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Death and Apotheosis",
-      "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-04-death-and-apotheosis.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "Strong Man or Problem",
-      "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-05-strong-man-or-problem.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Heracles assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "What should a careful account distinguish?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The first oracle’s ten tasks from the later total of twelve"
-            },
-            {
-              "id": "b",
-              "text": "The first oracle’s ten tasks from a later pair added by Pindar"
-            },
-            {
-              "id": "c",
-              "text": "The first oracle’s ten tasks from twelve versions of the same feat"
-            }
-          ],
-          "answerId": "a",
-          "explanation": "The first oracle’s ten tasks from the later total of twelve is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, the oracle and the initial ten labours); Bibliotheca (Library) (Library 2.5.2, Hydra labour refused because of Iolaus’ help); Bibliotheca (Library) (Library 2.5.5, Augeas labour refused as hired work), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "hydra",
-            "augeas"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w05d01.the-catalogue-of-labours.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w05d02.the-nemean-lion",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "What method defeats the lion after arrows fail?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Iolaus helps cauterize the Hydra's neck."
-            },
-            {
-              "id": "b",
-              "text": "He distracts it with a singing contest."
-            },
-            {
-              "id": "c",
-              "text": "Heracles blocks one cave entrance and chokes the lion through the other."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "The Library says Heracles changes tactics and strangles the lion inside its cave.",
-          "sourceRefIds": [
-            "main",
-            "combat"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w05d02.the-nemean-lion.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w05d03.madness-and-service",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "Why attach the sequence to the Library?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The Library is an eyewitness account that settles every later version."
-            },
-            {
-              "id": "b",
-              "text": "Different works can place the family catastrophe differently."
-            },
-            {
-              "id": "c",
-              "text": "Later tragedies must follow the Library’s sequence exactly."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Different works can place the family catastrophe differently. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, madness, purification, and service), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w05d03.madness-and-service.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "Which passage directly supports this ending?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Library 2.5.2, Heracles’ Hydra labour"
-            },
-            {
-              "id": "b",
-              "text": "Library 2.4.12, the oracle and initial service"
-            },
-            {
-              "id": "c",
-              "text": "Library 2.7.7"
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Library 2.7.7 is the passage-specific answer. Check Bibliotheca (Library) (Library 2.7.7, the pyre and reception among the gods), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w05d04.death-and-apotheosis.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What distinguishes this use of Herakles from the Library’s list?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "It invokes Heracles’ Olympic foundation while praising Theron’s victory."
-            },
-            {
-              "id": "b",
-              "text": "It lists Heracles’ twelve labours to document his whole life."
-            },
-            {
-              "id": "c",
-              "text": "It omits the festival’s founder and focuses only on Theron’s victory."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "It invokes Heracles’ Olympic foundation while praising Theron’s victory. is the passage-specific answer. Check The Extant Odes of Pindar (Olympian 2, opening invocation), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w05d05.strong-man-or-problem.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Heracles: The Nemean Lion",
+   "lessonId": "grc.heroes.w05d02.the-nemean-lion",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-02-the-nemean-lion.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Heracles: Madness and Service",
+   "lessonId": "grc.heroes.w05d03.madness-and-service",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-03-madness-and-service.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Heracles: Death and Apotheosis",
+   "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-04-death-and-apotheosis.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "Heracles: Strong Man or Problem?",
+   "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-05-day-05-strong-man-or-problem.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Heracles assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w05d01.the-catalogue-of-labours",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What event sentences Heracles to twelve years of labours?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He killed his children in Hera-sent madness — the oracle sentences him to serve Eurystheus"
+      },
+      {
+       "id": "b",
+       "text": "He wants to win the throne of Tiryns"
+      },
+      {
+       "id": "c",
+       "text": "Eurystheus hires him as a mercenary"
+      },
+      {
+       "id": "d",
+       "text": "He seeks the gods' favour for a quest"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The labours are penance, not ambition — the darkest origin for the greatest hero.",
+     "sourceRefIds": [
+      "main",
+      "hydra",
+      "augeas"
+     ],
+     "objectiveIds": [
+      "obj.labours.reason"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w05d02.the-nemean-lion",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "How does Heracles overcome the Nemean lion's unbreakable hide?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He beheads it with his nephew Iolaus at his side"
+      },
+      {
+       "id": "b",
+       "text": "He strangles it barehanded, then skins it with its own claws — the trophy becomes his signature garb"
+      },
+      {
+       "id": "c",
+       "text": "He starves it in its cave"
+      },
+      {
+       "id": "d",
+       "text": "He blinds it and ties it up"
+      }
+     ],
+     "answerId": "b",
+     "explanation": "The lionskin and club that identify him in every image start with this fight.",
+     "sourceRefIds": [
+      "main",
+      "combat"
+     ],
+     "objectiveIds": [
+      "obj.lion.fight"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w05d03.madness-and-service",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "What drives the persecution of Heracles?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Eurystheus's envy of his strength"
+      },
+      {
+       "id": "b",
+       "text": "A curse on his father Amphitryon"
+      },
+      {
+       "id": "c",
+       "text": "Hera's hatred of Zeus's mortal-born son — it produces the madness, the kin-killing, and the sentence of service"
+      },
+      {
+       "id": "d",
+       "text": "His refusal of divine honours"
+      }
+     ],
+     "answerId": "c",
+     "explanation": "The whole labour-cycle flows from Hera's jealousy — she is the engine of his suffering.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.mad.hate"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w05d04.death-and-apotheosis",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "How does Heracles die, and what follows?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He falls at Hades’ gate in Library 2.5.2"
+      },
+      {
+       "id": "b",
+       "text": "He is killed by Eurystheus's soldiers"
+      },
+      {
+       "id": "c",
+       "text": "He dies old and forgotten"
+      },
+      {
+       "id": "d",
+       "text": "A poisoned robe from Deianira (the centaur's revenge) — then pyre on Oeta and ascent to Olympus, the only deified hero"
+      }
+     ],
+     "answerId": "d",
+     "explanation": "His end is unique: mortality burned away, divinity ascended.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.apo.god"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w05d05.strong-man-or-problem",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "What makes Heracles dangerous to allies as well as monsters?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The same strength that clears monsters also breaks cities and hospitality — the myths preserve both halves"
+      },
+      {
+       "id": "b",
+       "text": "He is only dangerous when drunk"
+      },
+      {
+       "id": "c",
+       "text": "He refuses all labours but easy ones"
+      },
+      {
+       "id": "d",
+       "text": "He serves the wrong king"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "He is the honest hero: the power that protects is the power that wrecks.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.prob.balance"
+     ]
+    }
+   }
+  ]
+ }
 }

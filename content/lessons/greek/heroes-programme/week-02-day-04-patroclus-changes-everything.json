@@ -151,11 +151,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "Drive the Trojans from the ships, then come back — do not press on to the walls of Troy"
+     "text": "Do not remove the helmet or the disguise will fail"
     },
     {
      "id": "b",
-     "text": "Do not remove the helmet or the disguise will fail"
+     "text": "Drive the Trojans from the ships, then come back — do not press on to the walls of Troy"
     },
     {
      "id": "c",
@@ -166,7 +166,7 @@
      "text": "Return before nightfall or the Myrmidons retreat"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "Achilles tells Patroclus to repel the Trojans and return; Patroclus ignores it, presses to the walls, and is killed by Apollo and Hector.",
    "sourceRefIds": [
     "main"

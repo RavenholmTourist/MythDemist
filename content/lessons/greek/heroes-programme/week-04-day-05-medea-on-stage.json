@@ -1,191 +1,193 @@
 {
-  "id": "grc.heroes.w04d05.medea-on-stage",
-  "version": 5,
-  "weekId": "grc.heroes.week04",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Medea on Stage",
-  "subtitle": "Euripides hears the aftermath",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "euripides"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w04d05.medea-on-stage.claim",
-      "text": "Explain this episode: Where does Euripides’ Medea begin?"
-    },
-    {
-      "id": "obj.grc.heroes.w04d05.medea-on-stage.source",
-      "text": "Use the cited passage to explain: What distinguishes this play from the Argonautica?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-15081",
-      "sourceId": "grc.euripides.medea",
-      "work": "The Tragedies of Euripides, Volume I",
-      "author": "Euripides",
-      "translator": "Theodore Alois Buckley",
-      "locator": "Medea, Nurse's opening account of Jason's new marriage; local text, normalized characters 290272-290495",
-      "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
-      "excerpt": "But now every thing is at variance, and the dearest ties are weakened. For having betrayed his own children, and my mistress, Jason reposes in royal wedlock, having married the daughter of Creon, who is prince of this land.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "argo": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, opening invocation; Book 3, normalized characters 0-476",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "Come now, Erato, stand by my side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the thick reed-beds; but Hera and Athena took note of them, and, apart from Zeus and the other immortals, entered a chamber and took counsel together",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from Seaton's translation of Apollonius' Greek epic; it frames the quest as aided by Medea."
-    }
+ "id": "grc.heroes.w04d05.medea-on-stage",
+ "version": 6,
+ "weekId": "grc.heroes.week04",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Medea on Stage",
+ "subtitle": "Corinth, a poisoned robe, and the end no audience forgets",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "medea",
+  "euripides",
+  "corinth",
+  "tragedy"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.medea.corinth",
+   "text": "Why is Medea in Corinth, and what goes wrong?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Apollonius frames the quest as a voyage for the fleece aided by Medea. Euripides begins later in Corinth, where the Nurse says Jason has married Creon's daughter while Medea is dishonored.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "The Nurse's speech recalls the Argo and Medea's earlier help, then turns to the new marriage and Jason's broken obligations.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Tragedy changes the question from how the fleece was won to what Jason owed the woman whose knowledge made him succeed.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The Nurse’s wish that the Argo had never sailed is a character’s speech in a tragedy. It reframes a remembered expedition; it is not a statement by Apollonius about how his own epic should be read.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This is the clearest lesson in why a myth is never fully described by naming the hero.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Where does Euripides’ Medea begin?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Colchis, before Jason arrives"
-        },
-        {
-          "id": "b",
-          "text": "Troy, before Achilles withdraws"
-        },
-        {
-          "id": "c",
-          "text": "Corinth, after the voyage"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Corinth, after the voyage is the passage-specific answer. Check The Tragedies of Euripides, Volume I (Medea, Nurse's opening account of Jason's new marriage), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What distinguishes this play from the Argonautica?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It stages a later crisis rather than narrating the quest itself."
-        },
-        {
-          "id": "b",
-          "text": "It is a handbook arranging the twelve labours."
-        },
-        {
-          "id": "c",
-          "text": "It is a victory ode for Jason’s chariot race."
-        }
-      ],
-      "answerId": "a",
-      "explanation": "It stages a later crisis rather than narrating the quest itself. is the passage-specific answer. Check The Tragedies of Euripides, Volume I (Medea, Nurse's opening account of Jason's new marriage), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "argo",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d05.medea-on-stage.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.medea.revenge",
+   "text": "What does her revenge cost everyone?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-15081",
+   "sourceId": "grc.euripides.medea",
+   "work": "The Tragedies of Euripides, Volume I",
+   "author": "Euripides",
+   "translator": "Theodore Alois Buckley",
+   "locator": "Medea, Nurse's opening account of Jason's new marriage; local text, normalized characters 290272-290495",
+   "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
+   "excerpt": "But now every thing is at variance, and the dearest ties are weakened. For having betrayed his own children, and my mistress, Jason reposes in royal wedlock, having married the daughter of Creon, who is prince of this land.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "argo": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, opening invocation; Book 3, normalized characters 0-476",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "Come now, Erato, stand by my side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the thick reed-beds; but Hera and Athena took note of them, and, apart from Zeus and the other immortals, entered a chamber and took counsel together",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from Seaton's translation of Apollonius' Greek epic; it frames the quest as aided by Medea."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Exile in Corinth",
+   "body": "After Iolcus, Jason and Medea settle in Corinth with their two young sons — the sorceress now a foreign wife in a Greek city, her power reduced to what a marriage gives her.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.corinth"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The marriage that erases her",
+   "body": "Jason announces he will marry Creon's daughter — a royal, legitimate Greek match. Medea's protests mean nothing legally; the stranger who won her everything now treats her as disposable.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.corinth"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The gift robe",
+   "body": "Medea's revenge begins like a reconciliation: she sends the princess a golden robe and crown — gifts steeped in poison that burns the girl and her father alive when she puts them on.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.revenge"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The unthinkable cut",
+   "body": "Then comes the act Euripides makes unbearable: to take from Jason the only thing he has left, Medea kills their two sons herself. Not madness — deliberate, argued, chosen. She escapes to Athens in the dragon-chariot of her grandfather the Sun.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.revenge"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Where you've met her",
+   "body": "That Athens refuge is why Medea is sitting at Aegeus's court when Theseus arrives in week 1 — the poisoned-cup scene is her second act, not her first.",
+   "sourceRefIds": [
+    "argo"
+   ],
+   "objectiveIds": [
+    "obj.medea.corinth"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Jason's marriage to Creon's daughter provoke Medea?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "It voids the bargain with Aeetes"
+    },
+    {
+     "id": "b",
+     "text": "It prevents their sons inheriting Argos"
+    },
+    {
+     "id": "c",
+     "text": "It casts her aside — a foreign wife with no legal standing — after she betrayed her family for him"
+    },
+    {
+     "id": "d",
+     "text": "It is arranged by the gods"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Everything she gave up — father, brother, home — was traded for this marriage, now dissolved at will.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.corinth"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Medea's revenge consist of?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She burns the palace with everyone inside"
+    },
+    {
+     "id": "b",
+     "text": "She turns Jason to stone"
+    },
+    {
+     "id": "c",
+     "text": "She sends him back to Colchis in chains"
+    },
+    {
+     "id": "d",
+     "text": "A poisoned robe that kills the princess and Creon — then the killing of her own two sons to destroy Jason completely"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "Euripides makes her vengeance total and her reasoning legible — that is what makes the play horrifying.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.revenge"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

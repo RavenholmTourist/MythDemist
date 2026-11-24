@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w06d03.founder-and-unifier",
-  "version": 2,
-  "weekId": "grc.heroes.week06",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Founder and Unifier",
-  "subtitle": "Myth explains civic order",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "lives"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w06d03.founder-and-unifier.claim",
-      "text": "Explain this episode: What political achievement does Plutarch attribute to Theseus?"
-    },
-    {
-      "id": "obj.grc.heroes.w06d03.founder-and-unifier.source",
-      "text": "Use the cited passage to explain: How should this claim be framed?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, unification of Attica; local text, normalized characters 40458-40761",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w06d03.founder-and-unifier",
+ "version": 3,
+ "weekId": "grc.heroes.week06",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Perseus: The Gorgon's Head",
+ "subtitle": "A mirrored shield, a sleeping monster, and a winged horse",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "perseus",
+  "medusa",
+  "pegasus",
+  "quest"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.gorgon.method",
+   "text": "How does Perseus kill Medusa without being turned to stone?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Plutarch credits Theseus with bringing the inhabitants of Attica into one political community. The story presents a founder of civic order, not merely a monster-killer; it is a later biography’s account of a legendary past.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The hero becomes a civic argument. Athens can explain its unity by placing that unity inside a legendary founder’s actions.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Say that Plutarch credits Theseus with civic unification. That wording preserves the distinction between a later foundation narrative and contemporary documentation of how Athens developed.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "A founder is useful because the city can borrow his authority for its own origins.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What political achievement does Plutarch attribute to Theseus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Replacing Zeus as ruler of Olympus"
-        },
-        {
-          "id": "b",
-          "text": "Uniting Attica in one civic community"
-        },
-        {
-          "id": "c",
-          "text": "Founding the kingdom of Colchis"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Uniting Attica in one civic community is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How should this claim be framed?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As a surviving law written by Theseus himself"
-        },
-        {
-          "id": "b",
-          "text": "As an episode narrated by Achilles in the Iliad"
-        },
-        {
-          "id": "c",
-          "text": "As Plutarch’s legendary foundation narrative, not contemporary documentation"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "As Plutarch’s legendary foundation narrative, not contemporary documentation is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, unification of Attica), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d03.founder-and-unifier.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.gorgon.spring",
+   "text": "What is born from her death?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment.",
+   "locator": "Library 2.4.2, the Gorgon's death",
+   "excerpt": "So Perseus stood over them as they slept, and while Athena guided his hand and he looked with averted gaze on a brazen shield, in which he beheld the image of the Gorgon"
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Three sisters, one mortal",
+   "body": "There are three Gorgons — and only Medusa can die. All three have snakes for hair and a gaze that turns the beholder to stone; approaching any of them awake is suicide.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.method"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The mirrored shield",
+   "body": "Perseus finds them asleep and does not look at them. He watches only the reflection in Athena's polished shield, hovering overhead while the goddess steadies his sword-arm — the story's defining image: never look directly at the thing that destroys you.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.method"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "One stroke, two births",
+   "body": "The blade falls and Medusa's head comes off — and from her neck spring two children of Poseidon: the winged horse Pegasus and the warrior Chrysaor. Even monsters' deaths generate new myth.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.spring"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Escape by invisibility",
+   "body": "The immortal sisters wake screaming to pursue. Perseus is already gone — the cap of invisibility, the winged sandals, and the head sealed in the knapsack. The trophy that killed no one looks exactly like a severed head in a bag.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.method"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The trickster's kill",
+   "body": "Unlike Heracles' bare-handed wrestling, Perseus wins by equipment and indirection — the reflection, the cap, the bag. Different heroes, different technologies of victory.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.method"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Perseus behead Medusa safely?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He wears a blindfold and strikes by sound"
+    },
+    {
+     "id": "b",
+     "text": "He turns her to stone with her own gaze"
+    },
+    {
+     "id": "c",
+     "text": "He approaches while the Gorgons sleep and watches only her reflection in Athena's mirrored shield as he strikes"
+    },
+    {
+     "id": "d",
+     "text": "He sends Pegasus to attack first"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Direct sight is fatal; the shield's reflection is the entire trick.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.method"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is born when Medusa dies?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A second, deadlier Gorgon"
+    },
+    {
+     "id": "b",
+     "text": "The Furies to avenge her"
+    },
+    {
+     "id": "c",
+     "text": "A spring of poisonous blood"
+    },
+    {
+     "id": "d",
+     "text": "Pegasus the winged horse and the warrior Chrysaor — her children by Poseidon, springing from her severed neck"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "Greek myth recycles everything — the monster's death generates the hero's mount and another line of giants.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.gorgon.spring"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite remapped to Perseus; cards retell the story, verbatim Apollodorus excerpts checked. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,200 +1,205 @@
 {
-  "id": "grc.heroes.w04d03.medea-chooses",
-  "version": 4,
-  "weekId": "grc.heroes.week04",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Medea Chooses",
-  "subtitle": "Knowledge changes the plot",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "argonautica"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w04d03.medea-chooses.claim",
-      "text": "Explain this episode: Whose knowledge makes Jason’s test survivable?"
-    },
-    {
-      "id": "obj.grc.heroes.w04d03.medea-chooses.source",
-      "text": "Use the cited passage to explain: What conflict shapes Medea’s decision?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Eros' arrow strikes Medea; Book 3, normalized characters 15499-15688",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "the bolt burnt deep down in the maiden’s heart like a flame; and ever she kept darting bright glances straight up at Aeson’s son, and within her breast her heart panted fast through anguish",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "dilemma": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Medea debates helping Jason; Book 3, normalized characters 42267-44013",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "And she thought now that she would give him the charms to cast a spell on the bulls, now that she would not, and that she herself would perish; and again that she would not perish and would not give the charms, but just as she was would endure her fate in silence. Then sitting down she wavered in mind and said: “Poor wretch, must I toss hither and thither in woe? On every side my heart is in despair; nor is there any help for my pain; but it burneth ever thus. Would that I had been slain by the swift shafts of Artemis before I had set eyes on him, before Chalciope’s sons reached the Achaean land. Some god or some Fury brought them hither for our grief, a cause of many tears. Let him perish in the contest if it be his lot to die in the field. For how could I prepare the charms without my parents’ knowledge? What story call I tell them? What trick, what cunning device for aid can I find? If I see him alone, apart from his comrades, shall I greet him? Ill-starred that I am! I cannot hope that I should rest from my sorrows even though he perished; then will evil come to me when he is bereft of life. Perish all shame, perish all glow; may he, saved by my effort, go scatheless wherever his heart desires. But as for me, on the day when he bides the contest in triumph, may I die either straining my neck in the noose from the roof-tree or tasting drugs destructive of life. But even so, when I am dead, they will fling out taunts against me; and every city far away will ring with my doom, and the Colchian women, tossing my name on their lips hither and thither, will revile me with unseemly mocking—the maid who cared so much for a stranger that she died, the maid who disgraced her home and her parents, yielding to a mad passion.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "aid": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Medea gives Jason the charm; Book 3, normalized characters 55498-55621",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w04d03.medea-chooses",
+ "version": 5,
+ "weekId": "grc.heroes.week04",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Medea Chooses",
+ "subtitle": "A sorceress weighs father against stranger — and betrays Colchis",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "medea",
+  "jason",
+  "colchis",
+  "fleece"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.medea.choice",
+   "text": "What does Medea give Jason, and at what price?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Apollonius describes Eros' arrow striking Medea, then narrates her conflict about aiding Jason without her parents' knowledge.",
-      "sourceRefIds": [
-        "main",
-        "dilemma"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “side, and say next how Jason brought back the fleece to Iolcus aided by the love of Medea. For thou sharest the power of Cypris, and by thy love-cares dost charm unwedded maidens; wherefore to thee too is attached a name that tells of love. Thus the heroes, unobserved, were waiting in ambush amid the”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Medea fears shame and her parents' reaction, yet she resolves to provide the charms that can help Jason.",
-      "sourceRefIds": [
-        "dilemma"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The episode holds together divine pressure, Medea's deliberation, and her later action; it is not a simple picture of either total freedom or total passivity.",
-      "sourceRefIds": [
-        "main",
-        "dilemma",
-        "aid"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This is why Euripides can later return to her betrayal with such force.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Medea debate doing in her inner speech?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Returning the fleece to Pelias"
-        },
-        {
-          "id": "b",
-          "text": "Asking Athena to take her to Ithaca"
-        },
-        {
-          "id": "c",
-          "text": "Giving Jason the charms or refusing to help him"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Medea explicitly considers giving the charms and then not giving them.",
-      "sourceRefIds": [
-        "dilemma"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What reputational risk does Medea fear?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "That the crew will forget the route to Colchis"
-        },
-        {
-          "id": "b",
-          "text": "That people will say she disgraced her home for a stranger"
-        },
-        {
-          "id": "c",
-          "text": "That she will lose a contest for the throne of Athens"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Her speech imagines being mocked for disgracing her home and parents while helping a stranger.",
-      "sourceRefIds": [
-        "dilemma"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d03.medea-chooses.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.medea.fleece",
+   "text": "How is the fleece actually won?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, Eros' arrow strikes Medea; Book 3, normalized characters 15499-15688",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "the bolt burnt deep down in the maiden’s heart like a flame; and ever she kept darting bright glances straight up at Aeson’s son, and within her breast her heart panted fast through anguish",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "dilemma": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, Medea debates helping Jason; Book 3, normalized characters 42267-44013",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "And she thought now that she would give him the charms to cast a spell on the bulls, now that she would not, and that she herself would perish; and again that she would not perish and would not give the charms, but just as she was would endure her fate in silence. Then sitting down she wavered in mind and said: “Poor wretch, must I toss hither and thither in woe? On every side my heart is in despair; nor is there any help for my pain; but it burneth ever thus. Would that I had been slain by the swift shafts of Artemis before I had set eyes on him, before Chalciope’s sons reached the Achaean land. Some god or some Fury brought them hither for our grief, a cause of many tears. Let him perish in the contest if it be his lot to die in the field. For how could I prepare the charms without my parents’ knowledge? What story call I tell them? What trick, what cunning device for aid can I find? If I see him alone, apart from his comrades, shall I greet him? Ill-starred that I am! I cannot hope that I should rest from my sorrows even though he perished; then will evil come to me when he is bereft of life. Perish all shame, perish all glow; may he, saved by my effort, go scatheless wherever his heart desires. But as for me, on the day when he bides the contest in triumph, may I die either straining my neck in the noose from the roof-tree or tasting drugs destructive of life. But even so, when I am dead, they will fling out taunts against me; and every city far away will ring with my doom, and the Colchian women, tossing my name on their lips hither and thither, will revile me with unseemly mocking—the maid who cared so much for a stranger that she died, the maid who disgraced her home and her parents, yielding to a mad passion.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "aid": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 3, Medea gives Jason the charm; Book 3, normalized characters 55498-55621",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Medea's dilemma",
+   "body": "Medea is Aeetes's daughter, a priestess of Hecate, and the only person in Colchis whose magic can save Jason. Choosing him means betraying her father, her king, and her home — the story makes the choice visible, not inevitable.",
+   "sourceRefIds": [
+    "dilemma"
+   ],
+   "objectiveIds": [
+    "obj.medea.choice"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The charm and the oath",
+   "body": "In secret she gives Jason a fireproof ointment — smear it on and the bulls' flames cannot touch him — and a plan for the dragon-teeth: throw a stone among the newborn warriors and they will kill each other, mistaking brothers for the thrower.",
+   "sourceRefIds": [
+    "aid"
+   ],
+   "objectiveIds": [
+    "obj.medea.choice"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The tasks accomplished",
+   "body": "Jason yokes the bulls untouched by flame and defeats the earthborn warriors by Medea's trick — the king's murder-proof gauntlet beaten by his own daughter's counsel.",
+   "sourceRefIds": [
+    "aid"
+   ],
+   "objectiveIds": [
+    "obj.medea.fleece"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The sleepless dragon",
+   "body": "Aeetes's betrayal makes flight the only option. Medea leads Jason to the grove at night and lulls the guardian dragon to sleep — the fleece is taken, and she flees with the stranger she has bound herself to.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.fleece"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Whose feat is it really?",
+   "body": "Every decisive step — the ointment, the teeth-trick, the dragon — is Medea's. Jason's heroism is real but dependent; the epic quietly asks whether the quest is his triumph or hers.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.choice"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Medea give Jason to survive Aeetes's tasks?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A magic sword that kills the warriors"
+    },
+    {
+     "id": "b",
+     "text": "A charm that puts Aeetes to sleep"
+    },
+    {
+     "id": "c",
+     "text": "A fireproof ointment against the bulls and a stone-throwing trick to turn the dragon-teeth warriors on each other"
+    },
+    {
+     "id": "d",
+     "text": "Wings to fly past the bulls"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Medea's magic solves both tasks; without her the quest ends in the field.",
+   "sourceRefIds": [
+    "aid"
+   ],
+   "objectiveIds": [
+    "obj.medea.choice"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How is the Golden Fleece finally taken?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Jason defeats the dragon in single combat"
+    },
+    {
+     "id": "b",
+     "text": "Aeetes surrenders it after the tasks"
+    },
+    {
+     "id": "c",
+     "text": "The Argonauts seize it in a night raid"
+    },
+    {
+     "id": "d",
+     "text": "Medea lulls its guardian dragon to sleep at night and flees Colchis with Jason"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The dragon is drugged by Medea; the 'feat' is hers as much as his.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.medea.fleece"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

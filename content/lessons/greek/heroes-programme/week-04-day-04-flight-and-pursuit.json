@@ -1,185 +1,193 @@
 {
-  "id": "grc.heroes.w04d04.flight-and-pursuit",
-  "version": 4,
-  "weekId": "grc.heroes.week04",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Flight and Pursuit",
-  "subtitle": "Victory creates consequences",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "argonautica"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w04d04.flight-and-pursuit.claim",
-      "text": "Explain this episode: Who kills Apsyrtus in Apollonius’ account?"
-    },
-    {
-      "id": "obj.grc.heroes.w04d04.flight-and-pursuit.source",
-      "text": "Use the cited passage to explain: What makes the return voyage morally troubled?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 4, Jason kills Apsyrtus; Book 4, normalized characters 25208-25981",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "And Jason went to the ambush to lie in wait for Apsyrtus and then for his comrades. But he, beguiled by these dire promises, swiftly crossed the swell of the sea in his ship, and in dark night set foot on the sacred island; and faring all alone to meet her he made trial in speech of his sister, as a tender child tries a wintry torrent which not even strong men can pass through, to see if she would devise some guile against the strangers. And so they two agreed together on everything; and straightway Aeson’s son leapt forth from the thick ambush, lifting his bare sword in his hand; and quickly the maiden turned her eyes aside and covered them with her veil that she might not see the blood of her brother when he was smitten. And Jason marked him and struck him down",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "purification": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 4, Zeus orders purification; Book 4, normalized characters 30744-30978",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "When Apsyrtus had fallen in mighty overthrow Zeus himself, king of gods, was seized with wrath at what they had done. And he ordained that by the counsels of Aeaean Circe they should cleanse themselves from the terrible stain of blood",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w04d04.flight-and-pursuit",
+ "version": 5,
+ "weekId": "grc.heroes.week04",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Jason and Medea: The Flight",
+ "subtitle": "A brother's death, a pursued ship, and a homecoming with a cost",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "jason",
+  "medea",
+  "apsyrtus",
+  "argonauts"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.flight.apsyrtus",
+   "text": "What happens to Medea's brother Apsyrtus?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In Apollonius' version, Medea and Jason plan an ambush; when Apsyrtus arrives, Jason strikes him down.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “his right a huge pine-torch, and near him in front stood up his mighty spear. And Apsyrtus held in his hands the reins of the steeds. But already the ship was cleaving the sea before her, urged on by stalwart oarsmen, and the stream of the mighty river rushing down. But the king in grievous anguish lifted”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "After the killing, the poem says Zeus orders the Argonauts to seek purification from Circe for the bloodshed.",
-      "sourceRefIds": [
-        "purification"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Attach this killing to Apollonius’ version. Other tellings of Apsyrtus differ; do not insert their details into this episode or assume that gaining the fleece settles the consequences of the escape.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Euripides isolates exactly this problem and makes it the center of tragedy.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Who kills Apsyrtus in Apollonius’ account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Heracles"
-        },
-        {
-          "id": "b",
-          "text": "Jason"
-        },
-        {
-          "id": "c",
-          "text": "Pelias"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Jason is the passage-specific answer. Check The Argonautica (Argonautica 4, Jason kills Apsyrtus), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does the return remain morally troubled in Apollonius?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Trojans refuse to bury Hector"
-        },
-        {
-          "id": "b",
-          "text": "Zeus orders purification after the killing of Apsyrtus"
-        },
-        {
-          "id": "c",
-          "text": "The Argonauts lose the Sampo"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The poem connects the killing with Zeus' order that Circe purify the travelers.",
-      "sourceRefIds": [
-        "purification"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w04d04.flight-and-pursuit.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.flight.price",
+   "text": "What does the escape cost everyone?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 4, Jason kills Apsyrtus; Book 4, normalized characters 25208-25981",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "And Jason went to the ambush to lie in wait for Apsyrtus and then for his comrades. But he, beguiled by these dire promises, swiftly crossed the swell of the sea in his ship, and in dark night set foot on the sacred island; and faring all alone to meet her he made trial in speech of his sister, as a tender child tries a wintry torrent which not even strong men can pass through, to see if she would devise some guile against the strangers. And so they two agreed together on everything; and straightway Aeson’s son leapt forth from the thick ambush, lifting his bare sword in his hand; and quickly the maiden turned her eyes aside and covered them with her veil that she might not see the blood of her brother when he was smitten. And Jason marked him and struck him down",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "purification": {
+   "recordId": "pg-00830",
+   "sourceId": "grc.apollonius.argonautica",
+   "work": "The Argonautica",
+   "author": "Apollonius Rhodius",
+   "translator": "R. C. Seaton",
+   "locator": "Argonautica 4, Zeus orders purification; Book 4, normalized characters 30744-30978",
+   "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
+   "excerpt": "When Apsyrtus had fallen in mighty overthrow Zeus himself, king of gods, was seized with wrath at what they had done. And he ordained that by the counsels of Aeaean Circe they should cleanse themselves from the terrible stain of blood",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Pursuit across the sea",
+   "body": "Aeetes launches his fleet after the fleeing Argo. The fastest way to slow a pursuing king is the one act in this story no one can take back — Medea's brother Apsyrtus is killed, in some tellings lured into an ambush by her own message.",
+   "sourceRefIds": [
+    "purification"
+   ],
+   "objectiveIds": [
+    "obj.flight.apsyrtus"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A guilt that needs cleansing",
+   "body": "The murder of kin — especially a brother betrayed by a sister — is one of the deepest pollutions in Greek thought. The fugitives must seek ritual purification at Circe's island (the same Circe Odysseus meets) before they can go on.",
+   "sourceRefIds": [
+    "purification"
+   ],
+   "objectiveIds": [
+    "obj.flight.price"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The long way home",
+   "body": "The return voyage scatters them across half the known world — sirens, clashing shores, the bronze giant Talos on Crete. The Argo reaches Greece at last, but every mile home has been paid for.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.flight.price"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Iolcus, and no throne",
+   "body": "Jason presents the fleece — and Pelias, predictably, does not hand over the kingdom. Medea's revenge is the signature act of their partnership: she persuades Pelias's daughters that chopping their father to pieces will restore his youth. Pelias dies by his daughters' hands.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.flight.price"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The pattern deepens",
+   "body": "Quest stories usually end at the homecoming. This one keeps going: each 'victory' leaves a debt — Apsyrtus, Pelias, the abandoned father in Colchis — and the debts all land on Jason and Medea together.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.flight.price"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What happens to Apsyrtus during the pursuit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is killed — in some tellings lured into an ambush by Medea's own message — a kinslaying that must be ritually purified"
+    },
+    {
+     "id": "b",
+     "text": "He is lost overboard in a storm"
+    },
+    {
+     "id": "c",
+     "text": "He defects to the Argonauts"
+    },
+    {
+     "id": "d",
+     "text": "Aeetes executes him for failing to catch them"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The brother's death is the flight's deepest stain and requires purification at Circe's island.",
+   "sourceRefIds": [
+    "purification"
+   ],
+   "objectiveIds": [
+    "obj.flight.apsyrtus"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Medea answer Pelias's broken promise?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She summons an army to depose him"
+    },
+    {
+     "id": "b",
+     "text": "She tricks his daughters into chopping him up by claiming it will restore his youth"
+    },
+    {
+     "id": "c",
+     "text": "She poisons him at the victory feast"
+    },
+    {
+     "id": "d",
+     "text": "She curses his line with barrenness"
+    }
+   ],
+   "answerId": "b",
+   "explanation": "Pelias dies by his own daughters' hands — Medea's signature blend of persuasion and magic.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.flight.price"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -139,11 +139,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "She asks for his bed to be moved — his fury reveals it is rooted to a living olive tree, a secret only he could know"
+     "text": "She recognizes a scar on his leg"
     },
     {
      "id": "b",
-     "text": "She recognizes a scar on his leg"
+     "text": "She asks for his bed to be moved — his fury reveals it is rooted to a living olive tree, a secret only he could know"
     },
     {
      "id": "c",
@@ -154,7 +154,7 @@
      "text": "Telemachus vouches for him"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "The bed built around a rooted olive tree is a secret only the real Odysseus could know — the epic's most intimate recognition.",
    "sourceRefIds": [
     "main"

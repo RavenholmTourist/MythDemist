@@ -121,22 +121,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He refuses — no compensation can repair the stripped honour; he will fight only when fire reaches his own ships"
-    },
-    {
-     "id": "b",
      "text": "He accepts the gifts but refuses to forgive Agamemnon"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "He doubles the demand and keeps negotiating"
+    },
+    {
+     "id": "c",
+     "text": "He refuses — no compensation can repair the stripped honour; he will fight only when fire reaches his own ships"
     },
     {
      "id": "d",
      "text": "He sails home to Phthia that night"
     }
    ],
-   "answerId": "a",
+   "answerId": "c",
    "explanation": "Achilles rejects the whole offer — the insult is beyond material repair — and sets one condition: he fights when the battle reaches his own ships.",
    "sourceRefIds": [
     "main"
@@ -152,22 +152,22 @@
    "choices": [
     {
      "id": "a",
-     "text": "He will fight only when the Trojan fire reaches his own ships"
-    },
-    {
-     "id": "b",
      "text": "He accepts Briseis back but not the gold"
     },
     {
-     "id": "c",
+     "id": "b",
      "text": "He agrees to fight if Agamemnon asks in person"
     },
     {
-     "id": "d",
+     "id": "c",
      "text": "He lends his armour to any volunteer"
+    },
+    {
+     "id": "d",
+     "text": "He will fight only when the Trojan fire reaches his own ships"
     }
    ],
-   "answerId": "a",
+   "answerId": "d",
    "explanation": "Phoenix's and Ajax's pleas shift him only to this: he fights when the battle reaches his own ships.",
    "sourceRefIds": [
     "main"

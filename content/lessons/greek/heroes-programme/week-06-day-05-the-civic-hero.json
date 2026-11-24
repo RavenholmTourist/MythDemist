@@ -1,192 +1,181 @@
 {
-  "id": "grc.heroes.w06d05.the-civic-hero",
-  "version": 4,
-  "weekId": "grc.heroes.week06",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Civic Hero",
-  "subtitle": "Theseus is not Heracles",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "library"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w06d05.the-civic-hero.claim",
-      "text": "Explain this episode: Which pairing fits the cited accounts?"
-    },
-    {
-      "id": "obj.grc.heroes.w06d05.the-civic-hero.source",
-      "text": "Use the cited passage to explain: Why call these roles a comparison rather than fixed definitions?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, the unification narrative; local text, normalized characters 40458-40761",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "heracles": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w06d05.the-civic-hero",
+ "version": 5,
+ "weekId": "grc.heroes.week06",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Perseus: The Reckoning",
+ "subtitle": "Back to Seriphus — the promised gift delivered at last",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "perseus",
+  "polydectes",
+  "acrisius",
+  "gorgon"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.reck.seriphus",
+   "text": "How does Perseus deal with Polydectes?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Compare two source-specific roles: Plutarch’s Theseus brings Attica into a civic community, while the Library’s Heracles serves Eurystheus through imposed labours. These are useful contrasts, not exhaustive definitions of either hero.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased, going”",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The Library says the Pythian priestess directs Heracles to serve Eurystheus for twelve years and perform ten labours; Plutarch separately credits Theseus with unifying Attica.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Keep both citations in view. Plutarch supports the civic-founder comparison; the Library supports imposed service. Neither passage defines everything that Theseus or Heracles can mean in other works.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Civic heroism turns power into an account of belonging and order.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Which pairing fits the cited works?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Iliad's Achilles founds Athens; Pindar's Theron fights the Hydra"
-        },
-        {
-          "id": "b",
-          "text": "Ovid's Theseus kills the Minotaur; Plutarch's Heracles becomes king of Crete"
-        },
-        {
-          "id": "c",
-          "text": "Plutarch's Theseus unites Attica; the Library's Heracles serves Eurystheus"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Plutarch describes Theseus' civic role; the Library gives Heracles' service and labours.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why call these roles a comparison rather than fixed definitions?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A hero can appear in only one genre."
-        },
-        {
-          "id": "b",
-          "text": "Each work selects only part of a larger heroic tradition."
-        },
-        {
-          "id": "c",
-          "text": "Both works were dictated by the same hero."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Each work selects only part of a larger heroic tradition. is the passage-specific answer. Check Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, the unification narrative); Bibliotheca (Library) (Library 2.4.12, oracle assigns service), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main",
-        "heracles"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d05.the-civic-hero.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.reck.prophecy",
+   "text": "How is the original oracle fulfilled?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment.",
+   "locator": "Library 2.4.3, the return to Seriphus",
+   "excerpt": "he entered the palace, where Polydectes had gathered his friends, and with averted face he showed the Gorgon's head; and all who beheld it were turned to stone"
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Home to an occupied island",
+   "body": "Perseus returns to Seriphus to find his mother and foster-father hiding at the altars — Polydectes, assuming him dead, has been pressing Danae in earnest.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.seriphus"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The promised gift, delivered",
+   "body": "Perseus walks into the palace where Polydectes has gathered his court — and produces the promised wedding-gift: he shows the Gorgon's head with averted face, and every man who sees it turns to stone where he sits.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.seriphus"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Argos and the fulfilled oracle",
+   "body": "He then goes home to Argos — and the original prophecy finally lands. Competing in games elsewhere, he throws a discus that swerves and strikes an old spectator dead: his grandfather Acrisius, the man who set the chest adrift.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.prophecy"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "An inheritance refused",
+   "body": "Perseus cannot comfortably rule the kingdom he gained by killing its king — so he swaps Argos for Tiryns and founds Mycenae, the very city whose kings will later field Agamemnon.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.prophecy"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Prophecies don't miss",
+   "body": "The arc closes the way it opened: Acrisius's every evasive move — the chamber, the chest — only ensured the grandson would arrive with the skills, the tools, and the occasion to fulfil the oracle. Fate completes itself on a stray discus.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.prophecy"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Perseus deal with Polydectes on his return?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He duels Polydectes before the people"
+    },
+    {
+     "id": "b",
+     "text": "He has him arrested for treason"
+    },
+    {
+     "id": "c",
+     "text": "He shows the Gorgon's head in the crowded palace — the king and his court are turned to stone"
+    },
+    {
+     "id": "d",
+     "text": "He burns the palace down"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The 'wedding gift' is delivered literally — the trap is repaid with the trophy it demanded.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.seriphus"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the oracle about Acrisius finally come true?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Perseus kills him on sight in Argos"
+    },
+    {
+     "id": "b",
+     "text": "He dies in the palace when the head is shown"
+    },
+    {
+     "id": "c",
+     "text": "He is executed for setting the chest adrift"
+    },
+    {
+     "id": "d",
+     "text": "At funeral games, Perseus's discus swerves and kills an old spectator — his grandfather"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The prophecy is fulfilled by accident — the classic Greek verdict that fate cannot be dodged.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.reck.prophecy"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite remapped to Perseus; cards retell the story, verbatim Apollodorus excerpts checked. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

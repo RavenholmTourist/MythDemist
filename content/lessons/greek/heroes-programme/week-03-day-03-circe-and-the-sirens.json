@@ -139,11 +139,11 @@
    "choices": [
     {
      "id": "a",
-     "text": "He plugs his crew's ears with wax and has himself tied to the mast, ordering them to bind him tighter if he begs"
+     "text": "He steers wide around their island entirely"
     },
     {
      "id": "b",
-     "text": "He steers wide around their island entirely"
+     "text": "He plugs his crew's ears with wax and has himself tied to the mast, ordering them to bind him tighter if he begs"
     },
     {
      "id": "c",
@@ -154,7 +154,7 @@
      "text": "He sends a decoy sailor in his place"
     }
    ],
-   "answerId": "a",
+   "answerId": "b",
    "explanation": "Pre-commitment: the crew cannot hear him or the song; his ropes hold even when he begs to be released.",
    "sourceRefIds": [
     "main"

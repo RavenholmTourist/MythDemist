@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w06d01.the-road-to-athens",
-  "version": 4,
-  "weekId": "grc.heroes.week06",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Road to Athens",
-  "subtitle": "Public usefulness becomes heroic",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "lives"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w06d01.the-road-to-athens.claim",
-      "text": "Explain this episode: Which journey shapes Theseus’ early exploits?"
-    },
-    {
-      "id": "obj.grc.heroes.w06d01.the-road-to-athens.source",
-      "text": "Use the cited passage to explain: Why compare these deeds with Heracles’?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, road to Athens; local text, normalized characters 11878-12184",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "himself of all those that should offer any. And first of all, in a set combat, he slew Periphetes, in the neighborhood of Epidaurus, who used a club for his arms, and from thence had the name of Corynetes, or the club-bearer; who seized upon him, and forbade him to go forward in his journey. Being pleased",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w06d01.the-road-to-athens",
+ "version": 5,
+ "weekId": "grc.heroes.week06",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Perseus: The Golden Shower",
+ "subtitle": "A prophecy dodged, a chest set adrift, and a boy raised by fishermen",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "perseus",
+  "danae",
+  "acrisius",
+  "origin-story"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.perseus.prophecy",
+   "text": "Why does Acrisius imprison Danae?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Plutarch recounts a road encounter at Epidaurus: Periphetes carries a club and tries to stop Theseus from continuing.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “himself of all those that should offer any. And first of all, in a set combat, he slew Periphetes, in the neighborhood of Epidaurus, who used a club for his arms, and from thence had the name of Corynetes, or the club-bearer; who seized upon him, and forbade him to go forward in his journey. Being pleased”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Plutarch says Theseus defeats Periphetes and takes the club as his own weapon; this is one episode in a later biography.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "This passage supports a claim about Plutarch's account, not eyewitness documentation of a historical journey.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "A founder myth turns heroic violence into a claim about safety and shared identity.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What weapon is associated with Periphetes in Plutarch's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A bow made by Hephaestus"
-        },
-        {
-          "id": "b",
-          "text": "A clue from Ariadne"
-        },
-        {
-          "id": "c",
-          "text": "A club"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Plutarch calls Periphetes the club-bearer because he uses a club.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Theseus do with Periphetes' club?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He buries it under the olive bed"
-        },
-        {
-          "id": "b",
-          "text": "He takes it and carries it as his own weapon"
-        },
-        {
-          "id": "c",
-          "text": "He gives it to the Minotaur"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Plutarch says Theseus takes the club and afterward carries it as his own weapon.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w06d01.the-road-to-athens.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.perseus.chest",
+   "text": "How does Perseus reach Seriphus?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment.",
+   "locator": "Library 2.4.1, Acrisius, Danae, and the chest",
+   "excerpt": "putting his daughter with the child in a chest, he cast it into the sea. The chest was washed ashore on Seriphus, and Dictys took up the boy and reared him"
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A king hears his death",
+   "body": "Acrisius, king of Argos, asks the oracle how he will die. The answer: at the hand of his daughter's son. He has no son — only a daughter, Danae. So he seals her in a bronze chamber where no man can reach her.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.prophecy"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Zeus arrives as gold",
+   "body": "Walls don't stop gods. Zeus comes to Danae as a shower of gold pouring through the roof, and she conceives Perseus. Acrisius refuses to believe the father is a god — and now faces the dilemma prophecy always creates: kill the child and risk the gods' wrath, or keep him and risk the oracle.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.prophecy"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The chest in the sea",
+   "body": "His solution is a middle cruelty: mother and infant sealed in a wooden chest and thrown into the sea — let the waves, not his hand, do the killing. The chest drifts to the island of Seriphus, where the fisherman Dictys takes the child in and raises him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.chest"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Growing up unwanted",
+   "body": "Perseus grows up on Seriphus while King Polydectes — Dictys's brother — falls in love with Danae, who wants nothing to do with him. The king's problem: her grown son stands in the way.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.chest"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The impossible dodge",
+   "body": "Like Oedipus's story (week 7), this is a prophecy tale: every move to escape the oracle manufactures it. Acrisius's chest doesn't prevent his death — it just ensures the grandson arrives with every reason to be extraordinary.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.prophecy"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Acrisius imprison Danae in a bronze chamber?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She refuses to marry the king he chose"
+    },
+    {
+     "id": "b",
+     "text": "She is punished for worshipping Zeus"
+    },
+    {
+     "id": "c",
+     "text": "An oracle says her son will kill him — sealing her away is his attempt to prevent the child existing"
+    },
+    {
+     "id": "d",
+     "text": "He wants to hide her from pirates"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The prophecy targets the grandson; the chamber is the grandfather's evasive move.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.prophecy"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How do Danae and infant Perseus survive Acrisius?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They escape to Crete by ship"
+    },
+    {
+     "id": "b",
+     "text": "A temple shelters them from the king"
+    },
+    {
+     "id": "c",
+     "text": "Zeus hides them in the bronze chamber"
+    },
+    {
+     "id": "d",
+     "text": "He seals them in a chest and casts it into the sea — it washes ashore on Seriphus where Dictys raises the boy"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The sea-chest is the second great 'exposed infant' image in Greek myth — and Perseus is raised a fisherman's son.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.perseus.chest"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite remapped to Perseus; cards retell the story, verbatim Apollodorus excerpts checked. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

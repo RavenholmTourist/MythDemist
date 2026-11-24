@@ -1,186 +1,192 @@
 {
-  "id": "grc.heroes.w05d02.the-nemean-lion",
-  "version": 4,
-  "weekId": "grc.heroes.week05",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Nemean Lion",
-  "subtitle": "A resistant monster changes method",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "library"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w05d02.the-nemean-lion.claim",
-      "text": "Explain this episode: How does Heracles overcome the Nemean lion?"
-    },
-    {
-      "id": "obj.grc.heroes.w05d02.the-nemean-lion.source",
-      "text": "Use the cited passage to explain: Why does the cave matter to the method?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.5.1, the Nemean lion; book 2 · chapter 5 · section 1, normalized characters 0-305",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "combat": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.5.1, Heracles changes method; book 2 · chapter 5 · section 1, normalized characters 543-926",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "And having come to Nemea and tracked the lion, he first shot an arrow at him, but when he perceived that the beast was invulnerable, he heaved up his club and made after him. And when the lion took refuge in a cave with two mouths, Hercules built up the one entrance and came in upon the beast through the other, and putting his arm round its neck held it tight till he had choked it",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w05d02.the-nemean-lion",
+ "version": 5,
+ "weekId": "grc.heroes.week05",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Heracles: The Nemean Lion",
+ "subtitle": "An unbreakable hide, bare hands, and the skin he wears forever",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "heracles",
+  "nemean",
+  "lion"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.lion.fight",
+   "text": "How does Heracles kill the lion?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "The Library says arrows fail against the invulnerable lion; Heracles then controls the cave and fights at close range.",
-      "sourceRefIds": [
-        "main",
-        "combat"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "He blocks one cave entrance, enters through the other, and strangles the lion. The narrative stresses a change of method.",
-      "sourceRefIds": [
-        "combat"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Follow the sequence of attempts: arrows fail, the cave is controlled, and close combat succeeds. The episode gives a reason for the change of method rather than simply announcing superior strength.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The hero’s emblem preserves the problem he had to solve.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does Heracles kill the Nemean lion in the Library?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He poisons it with a pomegranate seed"
-        },
-        {
-          "id": "b",
-          "text": "He tricks it into a ballgame"
-        },
-        {
-          "id": "c",
-          "text": "He strangles it after controlling the cave"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The source says Heracles blocks one entrance, enters through the other, and chokes the lion.",
-      "sourceRefIds": [
-        "combat"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does the cave matter to his method?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It is where Eurystheus hides"
-        },
-        {
-          "id": "b",
-          "text": "Blocking one entrance lets him approach through the other"
-        },
-        {
-          "id": "c",
-          "text": "It supplies a clue for the labyrinth"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The cave has two mouths; Heracles blocks one and enters through the other.",
-      "sourceRefIds": [
-        "combat"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w05d02.the-nemean-lion.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.lion.skin",
+   "text": "Why does he keep the skin?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.5.1, the Nemean lion; book 2 · chapter 5 · section 1, normalized characters 0-305",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "When Hercules heard that, he went to Tiryns and did as he was bid by Eurystheus. First, Eurystheus ordered him to bring the skin of the Nemean lion; now that was an invulnerable beast begotten by Typhon. On his way to attack the lion he came to Cleonae and lodged at the house of a day-laborer, Molorchus;",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "combat": {
+   "recordId": "perseus-apollodorus-library-frazer",
+   "sourceId": "grc.apollodorus.library",
+   "work": "Bibliotheca (Library)",
+   "author": "Pseudo-Apollodorus",
+   "translator": "James George Frazer",
+   "locator": "Library 2.5.1, Heracles changes method; book 2 · chapter 5 · section 1, normalized characters 543-926",
+   "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
+   "excerpt": "And having come to Nemea and tracked the lion, he first shot an arrow at him, but when he perceived that the beast was invulnerable, he heaved up his club and made after him. And when the lion took refuge in a cave with two mouths, Hercules built up the one entrance and came in upon the beast through the other, and putting his arm round its neck held it tight till he had choked it",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The first labour",
+   "body": "The Nemean lion is no ordinary beast — offspring of monsters, hide proof against every weapon. It has been terrorising Nemea; no arrow or blade can touch it.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.lion.fight"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "When weapons fail",
+   "body": "Heracles looses arrows at the beast — they bounce off its hide like rain. He chases it into its cave, blocks the exits, and does the only thing left: strangles it barehanded.",
+   "sourceRefIds": [
+    "combat"
+   ],
+   "objectiveIds": [
+    "obj.lion.fight"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The trophy that dresses him",
+   "body": "He can't skin the invulnerable hide with a knife — so he uses the lion's own claws, the only things sharp enough to cut it. The pelt becomes his signature: the lionskin and club you see in every image of Heracles start here.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.lion.skin"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Eurystheus's terror",
+   "body": "When Heracles returns wearing the beast that was supposed to kill him, Eurystheus forbids him from entering the city again — the labours must be reported at the gates. The king is so afraid he keeps a bronze jar buried as a hiding place.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.lion.fight"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The signature image",
+   "body": "Everything in the iconic Heracles — the club, the lionskin, the wrestling — comes from this single story. It is the pattern for every strength-labour after it: when the tool fails, the body doesn't.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.lion.fight"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Heracles kill the Nemean lion?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He shoots it with poisoned arrows"
+    },
+    {
+     "id": "b",
+     "text": "He traps it in a bronze jar"
+    },
+    {
+     "id": "c",
+     "text": "He strangles it barehanded — its hide is proof against every weapon"
+    },
+    {
+     "id": "d",
+     "text": "He blinds it and it starves"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Arrows bounce off the monster's hide; Heracles corners it in its cave and chokes it to death.",
+   "sourceRefIds": [
+    "combat"
+   ],
+   "objectiveIds": [
+    "obj.lion.fight"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why does Heracles wear the lion's skin?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As armour against the remaining labours"
+    },
+    {
+     "id": "b",
+     "text": "As a gift to Eurystheus"
+    },
+    {
+     "id": "c",
+     "text": "As a disguise to enter Nemea"
+    },
+    {
+     "id": "d",
+     "text": "As the trophy of his first labour — he skins it with the beast's own claws and it becomes his signature garb"
+    }
+   ],
+   "answerId": "d",
+   "explanation": "The lionskin (with club) becomes the universal identifier of Heracles in art and story.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.lion.skin"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

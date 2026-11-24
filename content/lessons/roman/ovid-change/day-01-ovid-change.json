@@ -1,208 +1,195 @@
 {
-  "id": "rom.myth.day01.ovid-change",
-  "version": 2,
-  "weekId": "rom.myth.week01",
-  "pantheon": "roman",
-  "themeMode": "pantheon",
-  "title": "Ovid: Change as Story",
-  "subtitle": "A Roman poem opens with transformation",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "roman",
-    "ovid",
-    "metamorphoses",
-    "transformation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.ovid-change.concept",
-      "text": "What subject does Ovid announce in the proem?"
-    },
-    {
-      "id": "obj.ovid-change.source",
-      "text": "What does Daphne become in Ovid's Book I episode?"
-    }
-  ],
-  "sourceReferences": {
-    "proem": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "Metamorphoses, Book I · Proem [I.1-4]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book I · Proem [I.1-4]; Book I · Proem [I.1-4], normalized characters 0-235",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "My design leads me to speak of forms changed into new bodies.[1] Ye Gods, (for you it was who changed them,) favor my attempts,[2] and bring down the lengthened narrative from the very beginning of the world, {even} to my own times.[3]",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    },
-    "daphne": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "Metamorphoses, Book I · Fable XII [I.452-567]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book I · Fable XII [I.452-567]; Book I · Fable XII [I.452-567], normalized characters 6392-7086",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "Her strength being {now} spent, she grows pale, and being quite faint, with the fatigue of so swift a flight, looking upon the waters of Peneus, she says, “Give me, my father, thy aid, if you rivers have divine power. Oh Earth, either yawn {to swallow me}, or by changing it, destroy that form, by which I have pleased too much, and which causes me to be injured.” Hardly had she ended her prayer, {when} a heavy torpor seizes her limbs; {and} her soft breasts are covered with a thin bark. Her hair grows into green leaves, her arms into branches; her feet, the moment before so swift, adhere by sluggish roots; a {leafy} canopy overspreads her features; her elegance alone[84] remains in her.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    }
+ "id": "rom.myth.day01.ovid-change",
+ "version": 3,
+ "weekId": "rom.myth.week01",
+ "pantheon": "roman",
+ "themeMode": "pantheon",
+ "title": "Ovid: Change as Story",
+ "subtitle": "A Roman poem opens with transformation",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "ovid",
+  "metamorphoses",
+  "daphne",
+  "roman"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ovid.change",
+   "text": "What is the Metamorphoses about?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The poem's opening promise",
-      "body": "Ovid's proem announces a poem about forms changed into new bodies, extending from the world's beginning to his own time.",
-      "sourceRefIds": [
-        "proem"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The transformation theme",
-      "body": "Source quotation (Riley's translation; whitespace normalized): “My design leads me to speak of forms changed into new bodies.[1] Ye Gods, (for you it was who changed them,) favor my attempts,[2] and bring down the lengthened narrative from the very beginning of the world, {even} to my own times.[3]”",
-      "sourceRefIds": [
-        "proem"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Daphne becomes a laurel",
-      "body": "In Book I, Daphne flees Apollo and calls for help. Her body changes into a tree; Apollo addresses the laurel as the tree he will wear.",
-      "sourceRefIds": [
-        "daphne"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Roman literary reception",
-      "body": "This is Ovid's Roman epic in Henry T. Riley's nineteenth-century English translation, not neutral evidence for every Greek version or Roman cult practice.",
-      "sourceRefIds": [
-        "proem",
-        "daphne"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Follow the change in the scene",
-      "body": "The proem's promise becomes a concrete episode: pursuit ends in bodily transformation, while Apollo gives the laurel a continuing role in his own story.",
-      "sourceRefIds": [
-        "proem",
-        "daphne"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What subject does Ovid announce in the proem?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Forms changed into new bodies"
-        },
-        {
-          "id": "b",
-          "text": "The founding laws of Rome"
-        },
-        {
-          "id": "c",
-          "text": "The lives of historical emperors"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The translated opening says the poem will speak of forms changed into new bodies.",
-      "sourceRefIds": [
-        "proem"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "proem"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Daphne become in Ovid's Book I episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A constellation"
-        },
-        {
-          "id": "b",
-          "text": "A wolf"
-        },
-        {
-          "id": "c",
-          "text": "A laurel tree"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "After Daphne's prayer, her hair becomes leaves, her arms branches, and her feet roots.",
-      "sourceRefIds": [
-        "daphne"
-      ],
-      "objectiveIds": [
-        "obj.ovid-change.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "daphne"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ovid.daphne",
+   "text": "How does Daphne escape Apollo?"
   }
+ ],
+ "sourceReferences": {
+  "proem": {
+   "recordId": "roman-pg-21765",
+   "sourceId": "rom.ovid.metamorphoses-1-7",
+   "work": "Metamorphoses, Book I · Proem [I.1-4]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book I · Proem [I.1-4]; Book I · Proem [I.1-4], normalized characters 0-235",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+   "excerpt": "My design leads me to speak of forms changed into new bodies.[1] Ye Gods, (for you it was who changed them,) favor my attempts,[2] and bring down the lengthened narrative from the very beginning of the world, {even} to my own times.[3]",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  },
+  "daphne": {
+   "recordId": "roman-pg-21765",
+   "sourceId": "rom.ovid.metamorphoses-1-7",
+   "work": "Metamorphoses, Book I · Fable XII [I.452-567]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book I · Fable XII [I.452-567]; Book I · Fable XII [I.452-567], normalized characters 6392-7086",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+   "excerpt": "Her strength being {now} spent, she grows pale, and being quite faint, with the fatigue of so swift a flight, looking upon the waters of Peneus, she says, “Give me, my father, thy aid, if you rivers have divine power. Oh Earth, either yawn {to swallow me}, or by changing it, destroy that form, by which I have pleased too much, and which causes me to be injured.” Hardly had she ended her prayer, {when} a heavy torpor seizes her limbs; {and} her soft breasts are covered with a thin bark. Her hair grows into green leaves, her arms into branches; her feet, the moment before so swift, adhere by sluggish roots; a {leafy} canopy overspreads her features; her elegance alone[84] remains in her.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Bodies changed into new forms",
+   "body": "Ovid opens the Metamorphoses with a promise: his poem is of shapes changed into new bodies, spun as one unbroken song from the world's creation down to his own day — nothing stable, everything becoming.",
+   "sourceRefIds": [
+    "proem"
+   ],
+   "objectiveIds": [
+    "obj.ovid.change"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Why change?",
+   "body": "For Ovid, transformation is the world's one constant: pursued nymphs become trees, grieving mothers become stone, beloved boys become flowers, emperors become stars. Every myth is a change of state.",
+   "sourceRefIds": [
+    "proem"
+   ],
+   "objectiveIds": [
+    "obj.ovid.change"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Apollo's first desire",
+   "body": "Fresh from killing the serpent Python, Apollo mocks Cupid's toy bow — and Cupid answers with two arrows: gold for Apollo, so he burns with desire for the nymph Daphne; lead for her, so she recoils from love entirely.",
+   "sourceRefIds": [
+    "daphne"
+   ],
+   "objectiveIds": [
+    "obj.ovid.daphne"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The chase and the laurel",
+   "body": "Apollo hunts her through the woods, listing his glories as he runs — at the river's edge Daphne prays to her father the river-god to destroy her beauty. Bark closes over her legs, leaves crown her hair: she becomes the laurel tree.",
+   "sourceRefIds": [
+    "daphne"
+   ],
+   "objectiveIds": [
+    "obj.ovid.daphne"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The laurel as memorial",
+   "body": "Apollo claims the tree as his own: laurel will crown his lyre, his poets, Rome's victors. Ovid's pattern is set — every transformation is both a loss and a monument.",
+   "sourceRefIds": [
+    "proem",
+    "daphne"
+   ],
+   "objectiveIds": [
+    "obj.ovid.daphne"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What do Cupid's two arrows do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Both arrows make them fall in love"
+    },
+    {
+     "id": "b",
+     "text": "Gold wounds Apollo; lead blinds Daphne"
+    },
+    {
+     "id": "c",
+     "text": "Gold makes Apollo burn for Daphne; lead makes her recoil from love — engineered pursuit"
+    },
+    {
+     "id": "d",
+     "text": "One kills, the other heals"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Cupid rigs the chase: desire and refusal at once.",
+   "sourceRefIds": [
+    "daphne"
+   ],
+   "objectiveIds": [
+    "obj.ovid.daphne"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Daphne escape Apollo?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her father transforms her into a laurel tree at her own prayer — escape through transformation"
+    },
+    {
+     "id": "b",
+     "text": "She drowns herself in the river"
+    },
+    {
+     "id": "c",
+     "text": "The gods strike Apollo down"
+    },
+    {
+     "id": "d",
+     "text": "She outruns him to the sea"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "She becomes the laurel — losing her form to keep her freedom.",
+   "sourceRefIds": [
+    "daphne"
+   ],
+   "objectiveIds": [
+    "obj.ovid.daphne"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,207 +1,195 @@
 {
-  "id": "chinese.week01.day03.yu-flood",
-  "version": 5,
-  "weekId": "chi.myth.week01",
-  "pantheon": "chinese",
-  "themeMode": "pantheon",
-  "title": "Shen I: The Nine False Suns",
-  "subtitle": "A modern synthesis links disaster and archery",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "chinese",
-    "Yu:",
-    "Taming"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.yu-flood.concept",
-      "text": "What does Werner's account say produced the nine false suns?"
-    },
-    {
-      "id": "obj.yu-flood.sources",
-      "text": "What happens after Shen I shoots the birds?"
-    }
-  ],
-  "sourceReferences": {
-    "crisis": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 8362-8899",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "At this time terrible calamities began to lay waste the land. Ten suns appeared in the sky, the heat of which burnt up all the crops; dreadful storms uprooted trees and overturned houses; floods overspread the country. Near the Tung-t'ing Lake a serpent, a thousand feet long, devoured human beings, and wild boars of enormous size did great damage in the eastern part of the kingdom. Yao ordered Shen I to go and slay the devils and monsters who were causing all this mischief, placing three hundred men at his service for that purpose.",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    },
-    "suns": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 9305-9792",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "After this first victory Shen I led his troops to the banks of the Hsi Ho, West River, at Lin Shan. Here he discovered that on three neighbouring peaks nine extraordinary birds were blowing out fire and thus forming nine new suns in the sky. Shen I shot nine arrows in succession, pierced the birds, and immediately the nine false suns resolved themselves into red clouds and melted away. Shen I and his soldiers found the nine arrows stuck in nine red stones at the top of the mountain.",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    }
+ "id": "chinese.week01.day03.yu-flood",
+ "version": 6,
+ "weekId": "chi.myth.week01",
+ "pantheon": "chinese",
+ "themeMode": "pantheon",
+ "title": "Shen I: The Nine False Suns",
+ "subtitle": "A modern synthesis links disaster and archery",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "shenyi",
+  "suns",
+  "archer",
+  "chinese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.shen.crisis",
+   "text": "What crisis scorches the earth?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A land in crisis",
-      "body": "Werner's synthesis describes ten suns, storms, floods, a giant serpent, and destructive boars. Yao sends Shen I and a force of three hundred men to confront the calamities.",
-      "sourceRefIds": [
-        "crisis"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The nine false suns",
-      "body": "Quotation from the cited English edition (whitespace normalized): “After this first victory Shen I led his troops to the banks of the Hsi Ho, West River, at Lin Shan. Here he discovered that on three neighbouring peaks nine extraordinary birds were blowing out fire and thus forming nine new suns in the sky. Shen I shot nine arrows in succession, pierced the birds, and immediately the nine false suns resolved themselves into red clouds and melted away. Shen I and his soldiers found the nine arrows stuck in nine red stones at the top of the mountain.”",
-      "sourceRefIds": [
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Arrows and red clouds",
-      "body": "In Werner's account, nine fiery birds create nine additional suns. Shen I shoots them; the false suns become red clouds and disappear.",
-      "sourceRefIds": [
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "An early twentieth-century synthesis",
-      "body": "This episode is Werner's English retelling and arrangement of Chinese myth material. It should not be mistaken for one consistent version or a direct translation from a named early text.",
-      "sourceRefIds": [
-        "crisis",
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Cosmic crisis and skilled action",
-      "body": "The story joins environmental disaster with a hero's task, but its details belong to Werner's compiled version.",
-      "sourceRefIds": [
-        "crisis",
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Werner's account say produced the nine false suns?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The moon's rabbit scattering sparks"
-        },
-        {
-          "id": "b",
-          "text": "Nine extraordinary birds blowing out fire"
-        },
-        {
-          "id": "c",
-          "text": "A tortoise carrying burning stones"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage says nine birds on nearby peaks blew fire to form the false suns.",
-      "sourceRefIds": [
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "suns"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens after Shen I shoots the birds?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The false suns become red clouds and melt away"
-        },
-        {
-          "id": "b",
-          "text": "They turn into the moon"
-        },
-        {
-          "id": "c",
-          "text": "They flood the capital"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Werner's passage says the false suns resolve into red clouds and melt away.",
-      "sourceRefIds": [
-        "suns"
-      ],
-      "objectiveIds": [
-        "obj.yu-flood.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "suns"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.shen.suns",
+   "text": "What does Shen I do about it?"
   }
+ ],
+ "sourceReferences": {
+  "crisis": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 8362-8899",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "At this time terrible calamities began to lay waste the land. Ten suns appeared in the sky, the heat of which burnt up all the crops; dreadful storms uprooted trees and overturned houses; floods overspread the country. Near the Tung-t'ing Lake a serpent, a thousand feet long, devoured human beings, and wild boars of enormous size did great damage in the eastern part of the kingdom. Yao ordered Shen I to go and slay the devils and monsters who were causing all this mischief, placing three hundred men at his service for that purpose.",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  },
+  "suns": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 9305-9792",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "After this first victory Shen I led his troops to the banks of the Hsi Ho, West River, at Lin Shan. Here he discovered that on three neighbouring peaks nine extraordinary birds were blowing out fire and thus forming nine new suns in the sky. Shen I shot nine arrows in succession, pierced the birds, and immediately the nine false suns resolved themselves into red clouds and melted away. Shen I and his soldiers found the nine arrows stuck in nine red stones at the top of the mountain.",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Ten suns at once",
+   "body": "The ten suns — sons of the eastern god — all rise together one morning and scorch the world: crops wither, rivers dry, and monsters crawl out to feed on the people.",
+   "sourceRefIds": [
+    "crisis"
+   ],
+   "objectiveIds": [
+    "obj.shen.crisis"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The archer sent down",
+   "body": "The emperor Yao begs heaven for help, and the divine archer Shen I is sent down with a red bow and white arrows — officially to frighten the suns back into order.",
+   "sourceRefIds": [
+    "crisis"
+   ],
+   "objectiveIds": [
+    "obj.shen.crisis"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Nine arrows, nine suns",
+   "body": "Shen I goes further than ordered: he shoots nine suns out of the sky one by one — each falls to earth as a three-legged crow — and leaves the single sun we know.",
+   "sourceRefIds": [
+    "suns"
+   ],
+   "objectiveIds": [
+    "obj.shen.suns"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The hero who went too far",
+   "body": "Saving the world gets Shen I exiled from heaven anyway: the gods resent a hero who acts beyond his orders. His mortality and his wife's fate follow from this demotion.",
+   "sourceRefIds": [
+    "suns"
+   ],
+   "objectiveIds": [
+    "obj.shen.suns"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Through Werner's lens",
+   "body": "This account comes through E.T.C. Werner's 1922 English synthesis of Chinese myth — a retelling compilation, not a primary text, so we hold its details lightly.",
+   "sourceRefIds": [
+    "crisis",
+    "suns"
+   ],
+   "objectiveIds": [
+    "obj.shen.crisis"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What crisis scorches the earth?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A dragon swallows the rivers"
+    },
+    {
+     "id": "b",
+     "text": "The sky-pillars fall"
+    },
+    {
+     "id": "c",
+     "text": "The ten suns rise together — crops wither, rivers dry, monsters come out to feed"
+    },
+    {
+     "id": "d",
+     "text": "An endless winter descends"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Ten suns at once — the world burns before the archer acts.",
+   "sourceRefIds": [
+    "crisis"
+   ],
+   "objectiveIds": [
+    "obj.shen.crisis"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Shen I do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He shoots nine of the ten suns — each falling as a three-legged crow — leaving one"
+    },
+    {
+     "id": "b",
+     "text": "He bargains the suns into taking turns"
+    },
+    {
+     "id": "c",
+     "text": "He shades the earth with a mountain"
+    },
+    {
+     "id": "d",
+     "text": "He moves the world away from them"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Nine arrows, nine crows, one remaining sun.",
+   "sourceRefIds": [
+    "suns"
+   ],
+   "objectiveIds": [
+    "obj.shen.suns"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

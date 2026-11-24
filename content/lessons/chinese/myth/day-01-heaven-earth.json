@@ -1,206 +1,195 @@
 {
-  "id": "chinese.week01.day01.heaven-earth",
-  "version": 5,
-  "weekId": "chi.myth.week01",
-  "pantheon": "chinese",
-  "themeMode": "pantheon",
-  "title": "P'an Ku: A Taoist Creation Account",
-  "subtitle": "A later cosmogony and its editorial frame",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "chinese",
-    "Heaven,",
-    "Earth,"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.heaven-earth.concept",
-      "text": "How long does Werner's P'an Ku account say his cosmic work lasted?"
-    },
-    {
-      "id": "obj.heaven-earth.sources",
-      "text": "How does Werner classify this P'an Ku creation account?"
-    }
-  ],
-  "sourceReferences": {
-    "creation": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 1680-2330",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "His task occupied eighteen thousand years, during which he formed the sun, moon, and stars, the heavens and the earth, himself increasing in stature day by day, being daily six feet taller than the day before, until, his labours ended, he died that his works might live. His head became the mountains, his breath the wind and clouds, his voice the thunder, his limbs the four quarters of the earth, his blood the rivers, his flesh the soil, his beard the constellations, his skin and hair the herbs and trees, his teeth, bones, and marrow the metals, rocks, and precious stones, his sweat the rain, and the insects creeping over his body human beings",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    },
-    "origin": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 2420-2652",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "This account of P'an Ku and his achievements is of Taoist origin. The Buddhists have given a somewhat different account of him, which is a late adaptation from the Taoist myth, and must not be mistaken for Buddhist cosmogony proper.",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    }
+ "id": "chinese.week01.day01.heaven-earth",
+ "version": 6,
+ "weekId": "chi.myth.week01",
+ "pantheon": "chinese",
+ "themeMode": "pantheon",
+ "title": "P'an Ku: A Taoist Creation Account",
+ "subtitle": "A later cosmogony and its editorial frame",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "panku",
+  "creation",
+  "taoist",
+  "chinese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.pan.egg",
+   "text": "How does P'an Ku make the world?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "P'an Ku shapes Chaos",
-      "body": "Werner's 1922 English synthesis describes P'an Ku as a figure who chisels the universe out of Chaos. In this account, his work lasts eighteen thousand years.",
-      "sourceRefIds": [
-        "creation"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A world formed from a body",
-      "body": "Quotation from the cited English edition (whitespace normalized): “His task occupied eighteen thousand years, during which he formed the sun, moon, and stars, the heavens and the earth, himself increasing in stature day by day, being daily six feet taller than the day before, until, his labours ended, he died that his works might live. His head became the mountains, his breath the wind and clouds, his voice the thunder, his limbs the four quarters of the earth, his blood the rivers, his flesh the soil, his beard the constellations, his skin and hair the herbs and trees, his teeth, bones, and marrow the metals, rocks, and precious stones, his sweat the rain, and the insects creeping over his body human beings”",
-      "sourceRefIds": [
-        "creation"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The body becomes the world",
-      "body": "Werner's account says P'an Ku's head becomes mountains, breath becomes wind and clouds, blood becomes rivers, and flesh becomes soil.",
-      "sourceRefIds": [
-        "creation"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not call this timeless canon",
-      "body": "Werner identifies this as a Taoist-origin account and notes that he sees no evidence for P'an Ku before the surviving written account. This is a modern synthesis, not a translation of one ancient creation text.",
-      "sourceRefIds": [
-        "origin"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The account has a history",
-      "body": "The story explains cosmic features through the transformation of P'an Ku's body, while Werner's discussion also records disagreement about the figure's historical development.",
-      "sourceRefIds": [
-        "creation",
-        "origin"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How long does Werner's P'an Ku account say his cosmic work lasted?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Eighteen thousand years"
-        },
-        {
-          "id": "b",
-          "text": "Seven days"
-        },
-        {
-          "id": "c",
-          "text": "One hundred years"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The passage says his task occupied eighteen thousand years.",
-      "sourceRefIds": [
-        "creation"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "creation"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Werner classify this P'an Ku creation account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As a direct translation of the earliest Chinese scripture"
-        },
-        {
-          "id": "b",
-          "text": "As a story from Macgowan's collected folk tales"
-        },
-        {
-          "id": "c",
-          "text": "As Taoist in origin, with its history treated cautiously"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Werner explicitly calls the account Taoist in origin and discusses uncertainty about when it appeared.",
-      "sourceRefIds": [
-        "creation"
-      ],
-      "objectiveIds": [
-        "obj.heaven-earth.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "creation"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.pan.body",
+   "text": "What does his body become?"
   }
+ ],
+ "sourceReferences": {
+  "creation": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 1680-2330",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "His task occupied eighteen thousand years, during which he formed the sun, moon, and stars, the heavens and the earth, himself increasing in stature day by day, being daily six feet taller than the day before, until, his labours ended, he died that his works might live. His head became the mountains, his breath the wind and clouds, his voice the thunder, his limbs the four quarters of the earth, his blood the rivers, his flesh the soil, his beard the constellations, his skin and hair the herbs and trees, his teeth, bones, and marrow the metals, rocks, and precious stones, his sweat the rain, and the insects creeping over his body human beings",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  },
+  "origin": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 2420-2652",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "This account of P'an Ku and his achievements is of Taoist origin. The Buddhists have given a somewhat different account of him, which is a late adaptation from the Taoist myth, and must not be mistaken for Buddhist cosmogony proper.",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The giant inside the egg",
+   "body": "In the Taoist account, Chaos was a cosmic egg — and inside it grew P'an Ku, who spent eighteen thousand years chiseling it apart: the light, pure parts rose as Heaven, the heavy parts sank as Earth.",
+   "sourceRefIds": [
+    "creation"
+   ],
+   "objectiveIds": [
+    "obj.pan.egg"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Holding the sky apart",
+   "body": "Fearing the two would collapse back together, P'an Ku stands between them — pushing Heaven up and Earth down, growing taller every day for another eighteen thousand years until the separation holds.",
+   "sourceRefIds": [
+    "creation"
+   ],
+   "objectiveIds": [
+    "obj.pan.egg"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The body that became the world",
+   "body": "When at last he dies, his breath becomes wind and clouds, his voice thunder, his left eye the sun and right eye the moon, his limbs the mountains, his blood the rivers, his hair the stars and plants.",
+   "sourceRefIds": [
+    "origin"
+   ],
+   "objectiveIds": [
+    "obj.pan.body"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "A creation made of a body",
+   "body": "Unlike a word-spoken creation, this cosmos is literally built out of one giant's body — the world as the remains of a sacrifice.",
+   "sourceRefIds": [
+    "origin"
+   ],
+   "objectiveIds": [
+    "obj.pan.body"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A written-down folk story",
+   "body": "The account survives through later Chinese scholarship — a literary synthesis of what may be much older folk material. We hold the details at arm's length but the shape is real.",
+   "sourceRefIds": [
+    "creation",
+    "origin"
+   ],
+   "objectiveIds": [
+    "obj.pan.egg"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does P'an Ku make Heaven and Earth?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He molds them from river clay"
+    },
+    {
+     "id": "b",
+     "text": "He calls them into being with a word"
+    },
+    {
+     "id": "c",
+     "text": "He chisels apart the cosmic egg for eighteen thousand years — the light parts rise, the heavy parts sink"
+    },
+    {
+     "id": "d",
+     "text": "He carves them from a mountain"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The egg's two halves become sky and ground — the oldest Chinese creation account.",
+   "sourceRefIds": [
+    "creation"
+   ],
+   "objectiveIds": [
+    "obj.pan.egg"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does P'an Ku's body become at death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The world's features — breath to wind, eyes to sun and moon, limbs to mountains, blood to rivers"
+    },
+    {
+     "id": "b",
+     "text": "A second cosmic egg"
+    },
+    {
+     "id": "c",
+     "text": "The first humans"
+    },
+    {
+     "id": "d",
+     "text": "The gods of the four directions"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The cosmos is literally built from him — the world as his remains.",
+   "sourceRefIds": [
+    "origin"
+   ],
+   "objectiveIds": [
+    "obj.pan.body"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -3,7 +3,7 @@
 // MYTHOS_CACHE on every release: the new worker installs alongside the old,
 // activates, revalidates cached URLs, and drops the previous cache. That is
 // the update-push channel for packaged installs.
-const MYTHOS_CACHE = "mythos-v5";
+const MYTHOS_CACHE = "mythos-v6";
 const APP_SHELL = ["./", "./index.html", "./styles.css", "./manifest.webmanifest", "./src/app.js", "./src/progression.js", "./icons/icon-192.png", "./icons/icon-512.png"];
 
 self.addEventListener("install", (event) => {

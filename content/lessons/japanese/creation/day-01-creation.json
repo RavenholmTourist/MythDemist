@@ -1,194 +1,182 @@
 {
-  "id": "jpn.kami.day01.creation",
-  "version": 2,
-  "weekId": "jpn.kami.week01",
-  "pantheon": "japanese",
-  "themeMode": "pantheon",
-  "title": "Izanagi and Izanami",
-  "subtitle": "A creation retelling and its source frame",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "japanese",
-    "izanagi",
-    "izanami",
-    "creation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.creation.concept",
-      "text": "What forms Onogoro in Rinder's retelling?"
-    },
-    {
-      "id": "obj.creation.source",
-      "text": "What kind of source is Old-World Japan?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-46863",
-      "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan: The creation episode in Old-World Japan",
-      "author": "Frank Rinder",
-      "translator": "Frank Rinder",
-      "locator": "The creation episode in Old-World Japan; local text normalized characters 6915-7386",
-      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess of the Clouds: \"There must needs be a kingdom beneath us, let us visit it.\" When he had so said, he plunged his jewelled spear into the seething mass below. The drops that fell from the point of the spear congealed and became the island of Onogoro.",
-      "evidenceType": "quotation",
-      "note": "Rinder's modern retelling, not a direct Kojiki translation."
-    }
+ "id": "jpn.kami.day01.creation",
+ "version": 3,
+ "weekId": "jpn.kami.week01",
+ "pantheon": "japanese",
+ "themeMode": "pantheon",
+ "title": "Izanagi and Izanami",
+ "subtitle": "A creation retelling and its source frame",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "izanagi",
+  "izanami",
+  "creation",
+  "japanese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.iz.creation",
+   "text": "How do Izanagi and Izanami create the islands?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Rinder's retelling opens with Izanagi and Izanami above an unformed world. Izanagi stirs the waters with a jeweled spear; drops from its point congeal as the island of Onogoro.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The spear stirs the unformed world",
-      "body": "Source quotation (local English retelling; whitespace normalized): “Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess of the Clouds: \"There must needs be a kingdom beneath us, let us visit it.\" When he had so said, he plunged his jewelled spear into the seething mass below. The drops that fell from the point of the spear congealed and became the island of Onogoro.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The source gives a literary creation scene, not a direct quotation from an ancient Japanese chronicle. Name Rinder's retelling when describing its details.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the source boundary",
-      "body": "This local record is a modern English compilation by Frank Rinder, not a direct Kojiki translation. Use it for the story as retold in this book; seek the Kojiki text for claims about its wording.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Track the sequence: divine pair, jeweled spear, drops, island. Do not turn this one retelling into the whole of Japanese creation tradition.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What forms Onogoro in Rinder's retelling?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Drops falling from Izanagi's jeweled spear"
-        },
-        {
-          "id": "b",
-          "text": "A mirror thrown by Amaterasu"
-        },
-        {
-          "id": "c",
-          "text": "A box carried home by Urashima"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The passage says the drops from the spear congeal into Onogoro.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "main"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of source is Old-World Japan?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A direct English translation of the Kojiki"
-        },
-        {
-          "id": "b",
-          "text": "A contemporary witness to the creation story"
-        },
-        {
-          "id": "c",
-          "text": "A modern compilation and retelling"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The local record is Rinder's early-modern English-language retelling, not a translation presented as the Kojiki itself.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.creation.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "main"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.iz.flaw",
+   "text": "What goes wrong at their wedding?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-46863",
+   "sourceId": "jpn.old-world-japan",
+   "work": "Old-World Japan: The creation episode in Old-World Japan",
+   "author": "Frank Rinder",
+   "translator": "Frank Rinder",
+   "locator": "The creation episode in Old-World Japan; local text normalized characters 6915-7386",
+   "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+   "excerpt": "Now Izanagi and Izanami wandered on the Floating Bridge of Heaven. This bridge spanned the gulf between heaven and the unformed world; it was upheld in the air, and it stood secure. The God of the Air spoke to the Goddess of the Clouds: \"There must needs be a kingdom beneath us, let us visit it.\" When he had so said, he plunged his jewelled spear into the seething mass below. The drops that fell from the point of the spear congealed and became the island of Onogoro.",
+   "evidenceType": "quotation",
+   "note": "Rinder's modern retelling, not a direct Kojiki translation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The spear and the brine",
+   "body": "The elder gods send Izanagi and Izanami down from the Floating Bridge of Heaven. They thrust the jeweled spear into the ocean brine and lift it — and the drops falling from its point become Onogoro, the first island.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.creation"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The wedding around the pillar",
+   "body": "On Onogoro they build the heavenly pillar and marry by circling it — but Izanami greets her husband first, a breach of order. Their firstborn is the deformed Hiruko, the leech-child, set adrift in a boat of reeds.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.flaw"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A second rite, a better birth",
+   "body": "They redo the wedding properly — the man speaking first — and this time the union succeeds: from their embrace are born the islands of Japan itself, then the kami of wind, trees, mountains, and seas.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.creation"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The birth that burns",
+   "body": "Then Izanami bears the fire god, and it kills her. The creation that began with drops of brine ends at death's door — and Izanagi's grief will take him into the underworld later this week.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.flaw"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Gods who live close",
+   "body": "In Shinto, the kami are not remote: the land itself is born of gods, and gods marry, err, grieve, and die. That closeness shapes every story this week.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.creation"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What do the drops from the jeweled spear become?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The sea-serpent Orochi"
+    },
+    {
+     "id": "b",
+     "text": "The Heavenly Rock Dwelling"
+    },
+    {
+     "id": "c",
+     "text": "Onogoro — the first island, where Izanagi and Izanami begin creation"
+    },
+    {
+     "id": "d",
+     "text": "The islands of Japan directly"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The spear-drops make Onogoro — the platform for everything after.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.creation"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why is the first child, Hiruko, deformed?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Because Izanami spoke first at the pillar wedding — a breach of the rite's order"
+    },
+    {
+     "id": "b",
+     "text": "The gods cursed the union"
+    },
+    {
+     "id": "c",
+     "text": "The fire god burned him in the womb"
+    },
+    {
+     "id": "d",
+     "text": "He was born in the underworld"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The flawed rite produces the flawed child — ritual order matters.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.iz.flaw"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

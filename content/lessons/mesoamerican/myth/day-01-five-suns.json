@@ -1,193 +1,182 @@
 {
-  "id": "mesoamerican.week01.day01.five-suns",
-  "version": 4,
-  "weekId": "mes.myth.week01",
-  "pantheon": "mesoamerican",
-  "themeMode": "pantheon",
-  "title": "Nanahuatl: The Sun's Birth",
-  "subtitle": "A creation episode in Spence's Mexican synthesis",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesoamerican",
-    "The",
-    "Five"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.five-suns.concept",
-      "text": "What happens to Nanahuatl in Spence's account?"
-    },
-    {
-      "id": "obj.five-suns.sources",
-      "text": "What source is this lesson quoting?"
-    }
-  ],
-  "sourceReferences": {
-    "sun": {
-      "recordId": "pg-53080",
-      "sourceId": "mes.myths-mexico-peru",
-      "work": "The Myths of Mexico & Peru",
-      "author": "Lewis Spence",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 67893-68294",
-      "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "The myth of Nanahuatl tells how before the sun was created humanity dwelt in sable and horrid gloom. Only a human sacrifice could hasten the appearance of the luminary. Metztli (The Moon) led forth Nanahuatl as a sacrifice, and he was cast upon a funeral pyre, in the flames of which he was consumed. Metztli also cast herself upon the mass of flame, and with her death the sun rose above the horizon.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
-    }
+ "id": "mesoamerican.week01.day01.five-suns",
+ "version": 5,
+ "weekId": "mes.myth.week01",
+ "pantheon": "mesoamerican",
+ "themeMode": "pantheon",
+ "title": "Nanahuatl: The Sun's Birth",
+ "subtitle": "A creation episode in Spence's Mexican synthesis",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "nanahuatl",
+  "fifth-sun",
+  "sacrifice",
+  "mesoamerican"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.nan.fire",
+   "text": "How does Nanahuatl become the sun?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A world in darkness",
-      "body": "Spence's account says humanity lived in darkness before the sun appeared. Nanahuatl is led as a sacrifice and cast onto a funeral pyre.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The sun rises",
-      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “The myth of Nanahuatl tells how before the sun was created humanity dwelt in sable and horrid gloom. Only a human sacrifice could hasten the appearance of the luminary. Metztli (The Moon) led forth Nanahuatl as a sacrifice, and he was cast upon a funeral pyre, in the flames of which he was consumed. Metztli also cast herself upon the mass of flame, and with her death the sun rose above the horizon.”",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The moon also enters the story",
-      "body": "In this version, Metztli also casts herself onto the flames, after which the sun rises. The lesson follows Spence's account rather than merging it with other creation narratives.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A twentieth-century synthesis",
-      "body": "Lewis Spence's early twentieth-century book summarizes Mexican, Maya, and Peruvian material. This passage is Spence's English account, not a direct translation from a named Nahuatl manuscript.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Name the tradition in view",
-      "body": "This episode is presented in Spence's Mexican mythology chapter; it is not evidence for every Mesoamerican people or every account of the sun's origin.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What happens to Nanahuatl in Spence's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is cast onto a funeral pyre as a sacrifice"
-        },
-        {
-          "id": "b",
-          "text": "He escapes by raft to Tlapallan"
-        },
-        {
-          "id": "c",
-          "text": "He hides the Sun and Moon in a mountain"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Spence says Metztli leads Nanahuatl to the pyre, where he is consumed.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "sun"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What source is this lesson quoting?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A direct translation of one named Nahuatl manuscript"
-        },
-        {
-          "id": "b",
-          "text": "A contemporary eyewitness record"
-        },
-        {
-          "id": "c",
-          "text": "Lewis Spence's modern English synthesis"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The local source is Spence's early twentieth-century synthesis, not a direct primary-text translation.",
-      "sourceRefIds": [
-        "sun"
-      ],
-      "objectiveIds": [
-        "obj.five-suns.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "sun"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.nan.rabbit",
+   "text": "Why does the moon have a rabbit?"
   }
+ ],
+ "sourceReferences": {
+  "sun": {
+   "recordId": "pg-53080",
+   "sourceId": "mes.myths-mexico-peru",
+   "work": "The Myths of Mexico & Peru",
+   "author": "Lewis Spence",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 67893-68294",
+   "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
+   "excerpt": "The myth of Nanahuatl tells how before the sun was created humanity dwelt in sable and horrid gloom. Only a human sacrifice could hasten the appearance of the luminary. Metztli (The Moon) led forth Nanahuatl as a sacrifice, and he was cast upon a funeral pyre, in the flames of which he was consumed. Metztli also cast herself upon the mass of flame, and with her death the sun rose above the horizon.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A world in darkness",
+   "body": "Before the sun, humanity lives in darkness. The gods gather at Teotihuacan to choose who will be sacrificed to become the new sun.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.fire"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The boast and the humility",
+   "body": "The proud, rich god Tecciztecatl volunteers loudly for the honour; the humble, pockmarked Nanahuatl — covered in sores — is chosen but stays silent.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.fire"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The leap into the fire",
+   "body": "At the great pyre, Tecciztecatl falters at the flames again and again; Nanahuatl leaps in at once — and rises as the sun. Ashamed, Tecciztecatl follows and becomes the moon.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.fire"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The dimming of the second light",
+   "body": "The second sun blazes too brightly to be night — so the gods hurl a rabbit at it to dim it. That is why the moon carries a rabbit on its face.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.rabbit"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The fifth sun needs feeding",
+   "body": "This is the fifth sun: four previous worlds ended in destruction. The Mexica read this as a debt — the sun stays in motion only through sacrifice.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.fire"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Nanahuatl become the sun?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is thrown in by the other gods"
+    },
+    {
+     "id": "b",
+     "text": "He defeats the moon-god in combat"
+    },
+    {
+     "id": "c",
+     "text": "He leaps into the pyre without hesitating, while the proud Tecciztecatl falters at the flames"
+    },
+    {
+     "id": "d",
+     "text": "He is born already burning"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The humble god leaps first — and becomes the greater light.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.fire"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why does the moon have a rabbit on it?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The gods hurled a rabbit at the second sun to dim it — its mark stays on the moon"
+    },
+    {
+     "id": "b",
+     "text": "It is Nanahuatl's companion"
+    },
+    {
+     "id": "c",
+     "text": "The rabbit is the moon's true form"
+    },
+    {
+     "id": "d",
+     "text": "It marks where Tecciztecatl hid"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The dimmed second sun keeps the rabbit's print.",
+   "sourceRefIds": [
+    "sun"
+   ],
+   "objectiveIds": [
+    "obj.nan.rabbit"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

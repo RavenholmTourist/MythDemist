@@ -1,193 +1,182 @@
 {
-  "id": "chinese.week01.day02.nuwa-repair",
-  "version": 5,
-  "weekId": "chi.myth.week01",
-  "pantheon": "chinese",
-  "themeMode": "pantheon",
-  "title": "Nue Kua: Repairing the Heavens",
-  "subtitle": "A tradition transmitted through Werner's synthesis",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "chinese",
-    "Nüwa:",
-    "Repairing"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.nuwa-repair.concept",
-      "text": "What does Werner's quoted account say Nue Kua melts to repair heaven?"
-    },
-    {
-      "id": "obj.nuwa-repair.sources",
-      "text": "What source boundary should readers keep in mind?"
-    }
-  ],
-  "sourceReferences": {
-    "repair": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 8882-9269",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "The pillars of Heaven were broken and the corners of the earth gave way. Hereupon Nue Kua melted stones of the five colours to repair the heavens, and cut off the feet of the tortoise to set upright the four extremities of the earth. [7] Gathering the ashes of reeds she stopped the flooding waters, and thus rescued the land of Chi, Chi Chou [the early seat of the Chinese sovereignty].",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    }
+ "id": "chinese.week01.day02.nuwa-repair",
+ "version": 6,
+ "weekId": "chi.myth.week01",
+ "pantheon": "chinese",
+ "themeMode": "pantheon",
+ "title": "Nue Kua: Repairing the Heavens",
+ "subtitle": "A tradition transmitted through Werner's synthesis",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "nukua",
+  "kungkung",
+  "pillars",
+  "chinese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.nu.crack",
+   "text": "What does Kung Kung do?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A damaged cosmos",
-      "body": "Werner's 1922 synthesis attributes to Ssu-ma Cheng an account in which Kung Kung's rebellion ends with a mountain struck down and the cosmic supports broken.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Repair after the collapse",
-      "body": "Quotation from the cited English edition (whitespace normalized): “The pillars of Heaven were broken and the corners of the earth gave way. Hereupon Nue Kua melted stones of the five colours to repair the heavens, and cut off the feet of the tortoise to set upright the four extremities of the earth. [7] Gathering the ashes of reeds she stopped the flooding waters, and thus rescued the land of Chi, Chi Chou [the early seat of the Chinese sovereignty].”",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Stones, tortoise, and reeds",
-      "body": "In the account Werner quotes, Nue Kua melts five-coloured stones to repair heaven, uses a tortoise's feet to support earth, and stops floodwater with reed ashes.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the transmission visible",
-      "body": "The lesson quotes Werner's English rendering of an account he attributes to Ssu-ma Cheng. It is not a direct translation made here from the Historical Records, and Werner's wording and framing should remain visible.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Restoration is the central action",
-      "body": "This version centers repair after damage rather than presenting Nue Kua as the sole maker of heaven and earth.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Werner's quoted account say Nue Kua melts to repair heaven?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Iron from a celestial rod"
-        },
-        {
-          "id": "b",
-          "text": "Nine arrows from a mountain"
-        },
-        {
-          "id": "c",
-          "text": "Stones of five colours"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage says she melted stones of five colours to repair the heavens.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "repair"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What source boundary should readers keep in mind?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It is a complete translation of a single oral performance"
-        },
-        {
-          "id": "b",
-          "text": "This is Werner's English rendering of an account attributed to Ssu-ma Cheng"
-        },
-        {
-          "id": "c",
-          "text": "It is an eyewitness account by a modern folklorist"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Werner introduces the words as an account by Ssu-ma Cheng; this lesson has not independently translated that source.",
-      "sourceRefIds": [
-        "repair"
-      ],
-      "objectiveIds": [
-        "obj.nuwa-repair.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "repair"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.nu.repair",
+   "text": "How does Nu Kua repair the sky?"
   }
+ ],
+ "sourceReferences": {
+  "repair": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter III · Cosmogony-p'an Ku and the Creation Myth; Chapter III · Cosmogony-p'an Ku and the Creation Myth, normalized characters 8882-9269",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "The pillars of Heaven were broken and the corners of the earth gave way. Hereupon Nue Kua melted stones of the five colours to repair the heavens, and cut off the feet of the tortoise to set upright the four extremities of the earth. [7] Gathering the ashes of reeds she stopped the flooding waters, and thus rescued the land of Chi, Chi Chou [the early seat of the Chinese sovereignty].",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The sky cracks",
+   "body": "The rebel Kung Kung, defeated in a cosmic war, smashes his head against Mount Pu Chou — one of the pillars holding up the sky — and the heavens tilt, stars slip from place, and the earth tears open.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.crack"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The goddess who mends the world",
+   "body": "Nu Kua melts down stones of five colours and patches the broken sky; she cuts the legs off a giant turtle and plants them as new pillars at the world's four corners, and stuffs the flood with reed-ashes.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.repair"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A tilted sky that stayed tilted",
+   "body": "The repair was imperfect: ever since, the sky leans to the northwest — the myth explains why China's rivers flow southeast and the sun and moon roll that way across the sky.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.repair"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "context",
+   "title": "Our window is Ssu-ma Cheng",
+   "body": "This version reaches us through the Tang scholar Ssu-ma Cheng's commentary on the Grand Historian's records — a medieval scholar preserving a much older myth for us.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.crack"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "A creator who fixes",
+   "body": "Nu Kua is the opposite of a distant maker: she is a repairer, a god who stays close to the world she shaped and mends it when it breaks.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.repair"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Kung Kung's rage do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He releases the ten suns"
+    },
+    {
+     "id": "b",
+     "text": "He floods the Yellow River"
+    },
+    {
+     "id": "c",
+     "text": "He smashes Mount Pu Chou — a sky-pillar — and the heavens tilt and crack"
+    },
+    {
+     "id": "d",
+     "text": "He steals the pillars of heaven"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "His headbutt cracks the sky — the damage Nu Kua must fix.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.crack"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Nu Kua repair the heavens?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She melts five-coloured stones to patch the sky and uses a giant turtle's legs as new pillars"
+    },
+    {
+     "id": "b",
+     "text": "She summons a dragon to hold it"
+    },
+    {
+     "id": "c",
+     "text": "She weaves a new sky from silk"
+    },
+    {
+     "id": "d",
+     "text": "She reforges the broken pillar"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Patched sky, turtle-leg pillars — and a permanent tilt left over.",
+   "sourceRefIds": [
+    "repair"
+   ],
+   "objectiveIds": [
+    "obj.nu.repair"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

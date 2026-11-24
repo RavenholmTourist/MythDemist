@@ -1,208 +1,195 @@
 {
-  "id": "japanese.week01.day04.kami-boundaries",
-  "version": 2,
-  "weekId": "jpn.kami.week01",
-  "pantheon": "japanese",
-  "themeMode": "pantheon",
-  "title": "Urashima Taro: A Return Across Time",
-  "subtitle": "A folktale boundary and a forbidden box",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "kami",
-    "sacred",
-    "place"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.kami-boundaries.concept",
-      "text": "What does Otohime tell Urashima not to do?"
-    },
-    {
-      "id": "obj.kami-boundaries.source",
-      "text": "What does Urashima learn when he returns home?"
-    }
-  ],
-  "sourceReferences": {
-    "warning": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales: Urashima Taro, the box and promise",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Urashima Taro, the box and promise; local text normalized characters 49241-49353",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "you will never open this box!” And Urashima promised that he would never, never open the box whatever happened.",
-      "evidenceType": "quotation",
-      "note": "Ozaki's literary retelling of a traditional story, not a primary mythographic text."
-    },
-    "return": {
-      "recordId": "pg-4018",
-      "sourceId": "jpn.folklore.japanese-fairy-tales",
-      "work": "Japanese Fairy Tales: Urashima Taro returns to his village",
-      "author": "traditional tales; collected by Yei Theodora Ozaki",
-      "translator": "Yei Theodora Ozaki",
-      "locator": "Urashima Taro returns to his village; local text normalized characters 51533-52153",
-      "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
-      "excerpt": "When Urashima heard these strange words he was frightened, and said: “Please, please, you must not joke with me, I am greatly perplexed. I am really Urashima Taro, and I certainly have not lived three hundred years. Till four or five days ago I lived on this spot. Tell me what I want to know without more joking, please.” But the man’s face grew more and more grave, and he answered: “You may or may not be Urashima Taro, I don’t know. But the Urashima Taro of whom I have heard is a man who lived three hundred years ago. Perhaps you are his spirit come to revisit your old home?” “Why do you mock me?” said Urashima.",
-      "evidenceType": "quotation",
-      "note": "Ozaki's literary retelling of a traditional story, not a primary mythographic text."
-    }
+ "id": "japanese.week01.day04.kami-boundaries",
+ "version": 3,
+ "weekId": "jpn.kami.week01",
+ "pantheon": "japanese",
+ "themeMode": "pantheon",
+ "title": "Urashima Taro: A Return Across Time",
+ "subtitle": "A folktale boundary and a forbidden box",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "urashima",
+  "folktale",
+  "time",
+  "japanese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ura.voyage",
+   "text": "Where does the turtle take Urashima?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In Ozaki's literary retelling of the Urashima folktale, the fisherman returns from the Sea King's palace and finds that three hundred years have passed. Otohime had warned him not to open a box.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The warning about the box",
-      "body": "Source quotation (local English retelling; whitespace normalized): “you will never open this box!” And Urashima promised that he would never, never open the box whatever happened.”",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "This is a popular folktale retelling, not a primary source for the kami myths in the Kojiki. Its otherworld and time boundary belong to this story's version.",
-      "sourceRefIds": [
-        "warning",
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the source boundary",
-      "body": "Keep genre and source visible: Ozaki's Japanese Fairy Tales is a collected literary retelling. Do not use Urashima as evidence for the Amaterasu myth or a universal Japanese belief about the afterlife.",
-      "sourceRefIds": [
-        "warning",
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Track the promise, the return, and the changed time-scale before interpreting the box as a symbol.",
-      "sourceRefIds": [
-        "warning",
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Otohime tell Urashima not to do?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Open the box she gives him"
-        },
-        {
-          "id": "b",
-          "text": "Return to his village"
-        },
-        {
-          "id": "c",
-          "text": "Speak to the Sea King"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "She asks him to promise never to open the box.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "warning"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Urashima learn when he returns home?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He has returned to the same evening"
-        },
-        {
-          "id": "b",
-          "text": "The Sea King has taken his place as fisherman"
-        },
-        {
-          "id": "c",
-          "text": "The village accounts say he has been gone for three hundred years"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "In Ozaki's retelling, people in the village say Urashima lived three hundred years earlier.",
-      "sourceRefIds": [
-        "return"
-      ],
-      "objectiveIds": [
-        "obj.kami-boundaries.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "return"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ura.box",
+   "text": "What does opening the box do?"
   }
+ ],
+ "sourceReferences": {
+  "warning": {
+   "recordId": "pg-4018",
+   "sourceId": "jpn.folklore.japanese-fairy-tales",
+   "work": "Japanese Fairy Tales: Urashima Taro, the box and promise",
+   "author": "traditional tales; collected by Yei Theodora Ozaki",
+   "translator": "Yei Theodora Ozaki",
+   "locator": "Urashima Taro, the box and promise; local text normalized characters 49241-49353",
+   "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
+   "excerpt": "you will never open this box!” And Urashima promised that he would never, never open the box whatever happened.",
+   "evidenceType": "quotation",
+   "note": "Ozaki's literary retelling of a traditional story, not a primary mythographic text."
+  },
+  "return": {
+   "recordId": "pg-4018",
+   "sourceId": "jpn.folklore.japanese-fairy-tales",
+   "work": "Japanese Fairy Tales: Urashima Taro returns to his village",
+   "author": "traditional tales; collected by Yei Theodora Ozaki",
+   "translator": "Yei Theodora Ozaki",
+   "locator": "Urashima Taro returns to his village; local text normalized characters 51533-52153",
+   "localPath": "content/corpus/japanese/primary/japanese-fairy-tales-ozaki-4018.txt",
+   "excerpt": "When Urashima heard these strange words he was frightened, and said: “Please, please, you must not joke with me, I am greatly perplexed. I am really Urashima Taro, and I certainly have not lived three hundred years. Till four or five days ago I lived on this spot. Tell me what I want to know without more joking, please.” But the man’s face grew more and more grave, and he answered: “You may or may not be Urashima Taro, I don’t know. But the Urashima Taro of whom I have heard is a man who lived three hundred years ago. Perhaps you are his spirit come to revisit your old home?” “Why do you mock me?” said Urashima.",
+   "evidenceType": "quotation",
+   "note": "Ozaki's literary retelling of a traditional story, not a primary mythographic text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The boy who saved a turtle",
+   "body": "The fisherman Urashima Taro rescues a turtle from boys tormenting it on the beach. Days later the turtle returns and offers to carry him under the sea to the Dragon King's palace.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ura.voyage"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Three years that feel like days",
+   "body": "In the palace he is feasted by the princess Otohime — dances, wonders, days that slip by like hours. Three years pass without his noticing: enchanted places run on a different clock.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ura.voyage"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The forbidden box",
+   "body": "When homesickness finally wins, Otohime lets him go with a parting gift: a jeweled box he must NEVER open. Every wonderland has its one rule.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ura.box"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Three hundred years late",
+   "body": "He lands and knows no one. In the village records a stranger reads him an old entry: Urashima Taro went to sea three hundred years ago and never returned. He opens the box — white smoke rises, his stolen centuries, and he becomes an old man on the shore.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ura.box"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "A folktale, not a myth of gods",
+   "body": "Unlike this week's Kojiki stories, Urashima is a Japanese folktale — a village story about time, wonder, and the cost of leaving home. Different shelf, same questions.",
+   "sourceRefIds": [
+    "warning",
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ura.box"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Urashima find when he returns home?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "His village has become a city"
+    },
+    {
+     "id": "b",
+     "text": "Otohime is waiting on the shore"
+    },
+    {
+     "id": "c",
+     "text": "Centuries have passed — his name is in the village records as a man lost at sea three hundred years ago"
+    },
+    {
+     "id": "d",
+     "text": "The turtle has aged into a dragon"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Time ran differently under the sea — three years down, three hundred up.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ura.voyage"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens when he opens the box?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "White smoke escapes — his true age — and he becomes an old man on the shore"
+    },
+    {
+     "id": "b",
+     "text": "A flood drowns the village"
+    },
+    {
+     "id": "c",
+     "text": "He forgets the palace entirely"
+    },
+    {
+     "id": "d",
+     "text": "Otohime appears to reclaim him"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The box held his stolen years — opening it lets them catch up.",
+   "sourceRefIds": [
+    "return"
+   ],
+   "objectiveIds": [
+    "obj.ura.box"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

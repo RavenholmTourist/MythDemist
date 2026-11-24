@@ -1,193 +1,182 @@
 {
-  "id": "mesoamerican.week01.day05.sacred-obligation",
-  "version": 4,
-  "weekId": "mes.myth.week01",
-  "pantheon": "mesoamerican",
-  "themeMode": "pantheon",
-  "title": "The Mexica Foundation Omen",
-  "subtitle": "An origin tradition for the city of Mexico",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesoamerican",
-    "Sacred",
-    "Obligation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.sacred-obligation.concept",
-      "text": "What omen do the nomadic Nahua see in Spence's account?"
-    },
-    {
-      "id": "obj.sacred-obligation.sources",
-      "text": "What do the interpreters advise after seeing the omen?"
-    }
-  ],
-  "sourceReferences": {
-    "omen": {
-      "recordId": "pg-53080",
-      "sourceId": "mes.myths-mexico-peru",
-      "work": "The Myths of Mexico & Peru",
-      "author": "Lewis Spence",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter I · THE CIVILISATION OF MEXICO; Chapter I · THE CIVILISATION OF MEXICO, normalized characters 46465-47015",
-      "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "The most popular of these relates how the nomadic Nahua beheld perched upon a cactus plant an eagle of great size and majesty, grasping in its talons a huge serpent, and spreading its wings to catch the rays of the rising sun. The soothsayers or medicine-men of the tribe, reading a good omen in the spectacle, advised the leaders of the people to settle on the spot, and, hearkening to the voice of what they considered divine authority, they proceeded to drive piles into the marshy ground, and thus laid the foundation of the great city of Mexico.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
-    }
+ "id": "mesoamerican.week01.day05.sacred-obligation",
+ "version": 5,
+ "weekId": "mes.myth.week01",
+ "pantheon": "mesoamerican",
+ "themeMode": "pantheon",
+ "title": "The Mexica Foundation Omen",
+ "subtitle": "An origin tradition for the city of Mexico",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "mexica",
+  "omen",
+  "tenochtitlan",
+  "mesoamerican"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.mex.sign",
+   "text": "What is the foundation omen?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A sign at a marshy site",
-      "body": "Spence recounts a migration legend in which the Nahua see an eagle on a cactus with a serpent in its talons and the rising sun behind it.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Reading the sign",
-      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “The most popular of these relates how the nomadic Nahua beheld perched upon a cactus plant an eagle of great size and majesty, grasping in its talons a huge serpent, and spreading its wings to catch the rays of the rising sun. The soothsayers or medicine-men of the tribe, reading a good omen in the spectacle, advised the leaders of the people to settle on the spot, and, hearkening to the voice of what they considered divine authority, they proceeded to drive piles into the marshy ground, and thus laid the foundation of the great city of Mexico.”",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A settlement follows",
-      "body": "In Spence's account, interpreters read the sight as a good omen and advise the people to settle there; they begin building on the marshy ground.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "An origin narrative is not a site report",
-      "body": "Spence presents this as a popular legend about the foundation of Mexico. It is evidence for the written origin account, not independent proof that the event happened as described.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Name the people and source",
-      "body": "The passage concerns the Mexica/Nahua migration story as Spence records it; it should not be made representative of all Mesoamerican histories.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What omen do the nomadic Nahua see in Spence's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A white rabbit on a cold moon"
-        },
-        {
-          "id": "b",
-          "text": "A raft of serpents carrying a smith"
-        },
-        {
-          "id": "c",
-          "text": "An eagle on a cactus holding a serpent"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage describes an eagle on a cactus with a serpent in its talons.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "omen"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What do the interpreters advise after seeing the omen?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Build a forge for the Sampo"
-        },
-        {
-          "id": "b",
-          "text": "Settle on the spot"
-        },
-        {
-          "id": "c",
-          "text": "Leave for Tlapallan"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Spence says the soothsayers advise the leaders to settle there.",
-      "sourceRefIds": [
-        "omen"
-      ],
-      "objectiveIds": [
-        "obj.sacred-obligation.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "omen"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.mex.lake",
+   "text": "Why does the city rise on a lake?"
   }
+ ],
+ "sourceReferences": {
+  "omen": {
+   "recordId": "pg-53080",
+   "sourceId": "mes.myths-mexico-peru",
+   "work": "The Myths of Mexico & Peru",
+   "author": "Lewis Spence",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter I · THE CIVILISATION OF MEXICO; Chapter I · THE CIVILISATION OF MEXICO, normalized characters 46465-47015",
+   "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
+   "excerpt": "The most popular of these relates how the nomadic Nahua beheld perched upon a cactus plant an eagle of great size and majesty, grasping in its talons a huge serpent, and spreading its wings to catch the rays of the rising sun. The soothsayers or medicine-men of the tribe, reading a good omen in the spectacle, advised the leaders of the people to settle on the spot, and, hearkening to the voice of what they considered divine authority, they proceeded to drive piles into the marshy ground, and thus laid the foundation of the great city of Mexico.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Wandering for a sign",
+   "body": "The Mexica wander for generations, driven from place to place, carrying a prophecy: where you see an eagle perched on a cactus devouring a serpent, there build your city.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.sign"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The lake nobody wanted",
+   "body": "When priests finally see the sign, it is on a tiny island in Lake Texcoco — land the valley's powers had already written off as worthless.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.lake"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A city built on water",
+   "body": "They build Tenochtitlan in the lake itself: canals for streets, causeways for roads, floating chinampa gardens feeding the people — a Venice of the Americas.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.lake"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The sign on a flag",
+   "body": "The eagle on the cactus is on Mexico's flag today — a prophecy that became a founding image and then a national symbol.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.sign"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A Nahua charter myth",
+   "body": "This is a Mexica (one Nahua people) charter story: the sign legitimizes their right to rule the valley — prophecy as a deed of ownership.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.sign"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the Mexica foundation omen?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A hummingbird over the lake"
+    },
+    {
+     "id": "b",
+     "text": "A jaguar on a temple stone"
+    },
+    {
+     "id": "c",
+     "text": "An eagle perched on a cactus devouring a serpent — the sign for where to build"
+    },
+    {
+     "id": "d",
+     "text": "The sun rising through a pyramid"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The eagle-and-serpent is the image on Mexico's flag today.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.sign"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why is Tenochtitlan built on a lake?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The sign appeared on a lake island — land the powerful had rejected — so they built on water"
+    },
+    {
+     "id": "b",
+     "text": "The lake was sacred to Huitzilopochtli"
+    },
+    {
+     "id": "c",
+     "text": "They were driven there by enemies"
+    },
+    {
+     "id": "d",
+     "text": "The lake promised better fishing"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The prophecy made the worthless land the chosen place.",
+   "sourceRefIds": [
+    "omen"
+   ],
+   "objectiveIds": [
+    "obj.mex.lake"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

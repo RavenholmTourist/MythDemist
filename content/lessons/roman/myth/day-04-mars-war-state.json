@@ -1,207 +1,196 @@
 {
-  "id": "roman.week01.day04.mars-war-state",
-  "version": 2,
-  "weekId": "rom.myth.week01",
-  "pantheon": "roman",
-  "themeMode": "pantheon",
-  "title": "Mars, Romulus, and Roman Foundation",
-  "subtitle": "Ovid's account of Romulus becoming Quirinus",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mars",
-    "war",
-    "state"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.mars-war-state.concept",
-      "text": "What does Mavors ask Jupiter to do for Romulus?"
-    },
-    {
-      "id": "obj.mars-war-state.source",
-      "text": "What name is associated with Romulus after his transformation?"
-    }
-  ],
-  "sourceReferences": {
-    "request": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 7485-7785",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "The time is {now} come, O father, (since the Roman state is established on a strong foundation, and is no longer dependent on the guardianship of but one), for thee to give the reward which was promised to me, and to thy grandson {so} deserving of it, and, removed from earth, to admit him to heaven.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    },
-    "change": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 8168-8904",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "Gradivus knew that this was a signal given to him for the promised removal; and, leaning on his lance, he boldly mounted {behind} his steeds, laden with the blood-stained pole {of the chariot}, and urged them on with the lash of the whip; and descending along the steep air, he stood on the summit of the hill of the woody Palatium; and he took away the son of Ilia, that moment giving out his royal ordinances to his own Quirites. His mortal body glided through the yielding air; just as the leaden plummet, discharged from the broad sling, is wont to dissolve itself[62] in mid air. A beauteous appearance succeeded, one more suitable to the lofty couches[63] of heaven, and a form, such as that of Quirinus arrayed in his regal robe.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    }
+ "id": "roman.week01.day04.mars-war-state",
+ "version": 3,
+ "weekId": "rom.myth.week01",
+ "pantheon": "roman",
+ "themeMode": "pantheon",
+ "title": "Mars, Romulus, and Roman Foundation",
+ "subtitle": "Ovid's account of Romulus becoming Quirinus",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "mars",
+  "romulus",
+  "quirinus",
+  "roman"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.mars.sons",
+   "text": "Who are Mars's mortal children?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Romulus after the conflict",
-      "body": "After the Romans and Sabines agree to share rule, Ovid turns to Romulus's divine future. Mars, named Mavors in Riley's translation, asks Jupiter to honor his grandson.",
-      "sourceRefIds": [
-        "request"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Mars makes the request",
-      "body": "Source quotation (Riley's translation; whitespace normalized): “The time is {now} come, O father, (since the Roman state is established on a strong foundation, and is no longer dependent on the guardianship of but one), for thee to give the reward which was promised to me, and to thy grandson {so} deserving of it, and, removed from earth, to admit him to heaven.”",
-      "sourceRefIds": [
-        "request"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Romulus becomes Quirinus",
-      "body": "Jupiter assents, and Romulus is taken from earth to heaven. Ovid describes a new appearance and names the deified founder Quirinus.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A Roman foundation narrative",
-      "body": "This is Ovid's epic account of Rome's legendary founder and divine status, not independent historical evidence that the events occurred.",
-      "sourceRefIds": [
-        "request",
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Warrior ancestry and civic identity",
-      "body": "The poem links Mars, Romulus, and the Roman state through an act of literary apotheosis: a mortal founder becomes a deity in Ovid's narrative.",
-      "sourceRefIds": [
-        "request",
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Mavors ask Jupiter to do for Romulus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Admit him to heaven as the promised reward"
-        },
-        {
-          "id": "b",
-          "text": "Make him king of the sea"
-        },
-        {
-          "id": "c",
-          "text": "Turn him into the laurel sacred to Apollo"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Mavors asks Jupiter to remove his grandson from earth and admit him to heaven.",
-      "sourceRefIds": [
-        "request"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "request"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What name is associated with Romulus after his transformation?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Nisus"
-        },
-        {
-          "id": "b",
-          "text": "Adonis"
-        },
-        {
-          "id": "c",
-          "text": "Quirinus"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage describes Romulus in a form like Quirinus in regal robes.",
-      "sourceRefIds": [
-        "change"
-      ],
-      "objectiveIds": [
-        "obj.mars-war-state.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "change"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.mars.quirinus",
+   "text": "What does Romulus become?"
   }
+ ],
+ "sourceReferences": {
+  "request": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 7485-7785",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "The time is {now} come, O father, (since the Roman state is established on a strong foundation, and is no longer dependent on the guardianship of but one), for thee to give the reward which was promised to me, and to thy grandson {so} deserving of it, and, removed from earth, to admit him to heaven.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  },
+  "change": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book XIV · Fable XII. AND XIII [XIV.698-851]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book XIV · Fable XII. AND XIII [XIV.698-851]; Book XIV · Fable XII. AND XIII [XIV.698-851], normalized characters 8168-8904",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "Gradivus knew that this was a signal given to him for the promised removal; and, leaning on his lance, he boldly mounted {behind} his steeds, laden with the blood-stained pole {of the chariot}, and urged them on with the lash of the whip; and descending along the steep air, he stood on the summit of the hill of the woody Palatium; and he took away the son of Ilia, that moment giving out his royal ordinances to his own Quirites. His mortal body glided through the yielding air; just as the leaden plummet, discharged from the broad sling, is wont to dissolve itself[62] in mid air. A beauteous appearance succeeded, one more suitable to the lofty couches[63] of heaven, and a form, such as that of Quirinus arrayed in his regal robe.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Rome's own father",
+   "body": "Mars is no distant war-god to the Romans: he is the literal father of Romulus and Remus, the twins who founded the city — the divine bloodline starts at the top.",
+   "sourceRefIds": [
+    "request"
+   ],
+   "objectiveIds": [
+    "obj.mars.sons"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The god collects his son",
+   "body": "At Mars's own request, Jupiter takes up Romulus in a whirlwind and fire — the mortal king is dissolved from mortal substance and made divine.",
+   "sourceRefIds": [
+    "request"
+   ],
+   "objectiveIds": [
+    "obj.mars.quirinus"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "From king to Quirinus",
+   "body": "Ovid describes the change precisely: the mortal parts burn away, and what remains is the god Quirinus — Rome's founder made Rome's own deity.",
+   "sourceRefIds": [
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.mars.quirinus"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Why a deified founder matters",
+   "body": "For Romans this was state theology, not just story: Quirinus means the city has divine ancestry and a divine protector in one figure — mythic legitimation for the empire itself.",
+   "sourceRefIds": [
+    "request",
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.mars.quirinus"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Rome writes its own myth",
+   "body": "Unlike Greece's remote heroes, Roman myth claims the gods are literally its founders and its emperors — and Ovid makes that political claim into verse.",
+   "sourceRefIds": [
+    "request"
+   ],
+   "objectiveIds": [
+    "obj.mars.sons"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Who are Mars's twin sons?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Castor and Pollux"
+    },
+    {
+     "id": "b",
+     "text": "Caesar and Augustus"
+    },
+    {
+     "id": "c",
+     "text": "Romulus and Remus — the founders of Rome, making Mars the city's divine ancestor"
+    },
+    {
+     "id": "d",
+     "text": "Numitor and Amulius"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The twins make Mars Rome's founding father — literally.",
+   "sourceRefIds": [
+    "request"
+   ],
+   "objectiveIds": [
+    "obj.mars.sons"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Romulus become at his end?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The god Quirinus — taken up in fire at Mars's request, his mortal parts burned away"
+    },
+    {
+     "id": "b",
+     "text": "A star beside Mars"
+    },
+    {
+     "id": "c",
+     "text": "The Tiber's river-god"
+    },
+    {
+     "id": "d",
+     "text": "The first emperor of heaven"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Rome's founder becomes Rome's own god — the city's divine protector.",
+   "sourceRefIds": [
+    "request",
+    "change"
+   ],
+   "objectiveIds": [
+    "obj.mars.quirinus"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

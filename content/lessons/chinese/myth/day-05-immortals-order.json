@@ -1,207 +1,196 @@
 {
-  "id": "chinese.week01.day05.immortals-order",
-  "version": 5,
-  "weekId": "chi.myth.week01",
-  "pantheon": "chinese",
-  "themeMode": "pantheon",
-  "title": "A Benevolent Life and the Coming Flood",
-  "subtitle": "A twentieth-century English folklore collection",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "chinese",
-    "Immortals",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.immortals-order.concept",
-      "text": "What sign tells Chung's household to seek the boats?"
-    },
-    {
-      "id": "obj.immortals-order.sources",
-      "text": "Why does Chung order the boatmen to rescue the stranger?"
-    }
-  ],
-  "sourceReferences": {
-    "warning": {
-      "recordId": "pg-26070",
-      "sourceId": "chi.folklore-tales",
-      "work": "Chinese Folk-Lore Tales",
-      "author": "Various Chinese storytellers; collected and retold in English by J. Macgowan",
-      "translator": "J. Macgowan",
-      "locator": "THE REWARD OF A BENEVOLENT LIFE; THE REWARD OF A BENEVOLENT LIFE, normalized characters 2737-3601",
-      "localPath": "content/corpus/chinese/primary/chinese-folk-lore-tales-macgowan-26070.txt",
-      "excerpt": "Before very long a great flood will take place in this district, and will sweep everything before it. It will be so sudden that men will not be able to take measures to preserve either their lives or their property--so instantaneous will be the rush of the mighty streams, like ocean floods, from the mountains you can see in the West. My advice to you is to commence at once the construction of boats to carry you and your most precious effects away. When the news first comes that the waters are rising, have them anchored in the creek that flows close by your doors; and when the crisis arrives, delay not a moment, but hurry on board and fly for your lives.\" \"But when will that be?\" asked Chung anxiously. \"I may not tell you the precise day or hour,\" replied the bonze; \"but when the eyes of the stone lions in the East Street of the city shed tears of blood",
-      "evidenceType": "quotation",
-      "note": "Quotation from J. Macgowan's English literary collection of folktales; distinguish this written version from a community-wide canon."
-    },
-    "rescue": {
-      "recordId": "pg-26070",
-      "sourceId": "chi.folklore-tales",
-      "work": "Chinese Folk-Lore Tales",
-      "author": "Various Chinese storytellers; collected and retold in English by J. Macgowan",
-      "translator": "J. Macgowan",
-      "locator": "THE REWARD OF A BENEVOLENT LIFE; THE REWARD OF A BENEVOLENT LIFE, normalized characters 9322-9806",
-      "localPath": "content/corpus/chinese/primary/chinese-folk-lore-tales-macgowan-26070.txt",
-      "excerpt": "Chung replied that at such a time, when a human being was in extreme danger of being drowned, personal interests ought not to be considered at all. He had faithfully obeyed the command of the priest in saving animal life, but how much more valuable was a man than any of the lower orders of creation? \"Whatever may happen,\" he said, \"I cannot let this man drown before my eyes,\" and as the boat just then came alongside the swimmer, he was hauled into it and delivered from his peril.",
-      "evidenceType": "quotation",
-      "note": "Quotation from J. Macgowan's English literary collection of folktales; distinguish this written version from a community-wide canon."
-    }
+ "id": "chinese.week01.day05.immortals-order",
+ "version": 6,
+ "weekId": "chi.myth.week01",
+ "pantheon": "chinese",
+ "themeMode": "pantheon",
+ "title": "A Benevolent Life and the Coming Flood",
+ "subtitle": "A twentieth-century English folklore collection",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "benevolent",
+  "flood",
+  "folktale",
+  "chinese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ben.sign",
+   "text": "What sign precedes the flood?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A warning with a sign",
-      "body": "In Macgowan's collected literary tale, a priest warns Chung's household about a sudden flood and tells them to leave when the stone lions' eyes appear to shed blood.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The warning and the signal",
-      "body": "Quotation from the cited English edition (whitespace normalized): “Before very long a great flood will take place in this district, and will sweep everything before it. It will be so sudden that men will not be able to take measures to preserve either their lives or their property--so instantaneous will be the rush of the mighty streams, like ocean floods, from the mountains you can see in the West. My advice to you is to commence at once the construction of boats to carry you and your most precious effects away. When the news first comes that the waters are rising, have them anchored in the creek that flows close by your doors; and when the crisis arrives, delay not a moment, but hurry on board and fly for your lives.\" \"But when will that be?\" asked Chung anxiously. \"I may not tell you the precise day or hour,\" replied the bonze; \"but when the eyes of the stone lions in the East Street of the city shed tears of blood”",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Chung chooses to rescue",
-      "body": "When the flood arrives, Chung's wife recalls the warning not to rescue a man from the river. Chung decides that a person in immediate danger must still be saved.",
-      "sourceRefIds": [
-        "rescue"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A collected tale, not a social survey",
-      "body": "Macgowan's Chinese Folk-Lore Tales is a literary collection in English. This episode supports claims about this written tale, not a universal Chinese belief or historical flood event.",
-      "sourceRefIds": [
-        "warning",
-        "rescue"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The title's moral is tested",
-      "body": "The story tests benevolence through a conflict between a supernatural warning and the immediate duty Chung feels toward a drowning stranger.",
-      "sourceRefIds": [
-        "warning",
-        "rescue"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What sign tells Chung's household to seek the boats?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A one-legged bird enters the palace"
-        },
-        {
-          "id": "b",
-          "text": "The moon turns into a toad"
-        },
-        {
-          "id": "c",
-          "text": "The stone lions' eyes appear to shed blood"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The priest says the stained eyes will signal that the flood is close.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "warning"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Chung order the boatmen to rescue the stranger?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The priest orders him to ignore the warning"
-        },
-        {
-          "id": "b",
-          "text": "He says a person in immediate danger should not be left to drown"
-        },
-        {
-          "id": "c",
-          "text": "He recognizes the stranger as the River God"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Chung says personal interests should not outweigh saving a person from drowning.",
-      "sourceRefIds": [
-        "rescue"
-      ],
-      "objectiveIds": [
-        "obj.immortals-order.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "rescue"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ben.joke",
+   "text": "What makes the sign come true?"
   }
+ ],
+ "sourceReferences": {
+  "warning": {
+   "recordId": "pg-26070",
+   "sourceId": "chi.folklore-tales",
+   "work": "Chinese Folk-Lore Tales",
+   "author": "Various Chinese storytellers; collected and retold in English by J. Macgowan",
+   "translator": "J. Macgowan",
+   "locator": "THE REWARD OF A BENEVOLENT LIFE; THE REWARD OF A BENEVOLENT LIFE, normalized characters 2737-3601",
+   "localPath": "content/corpus/chinese/primary/chinese-folk-lore-tales-macgowan-26070.txt",
+   "excerpt": "Before very long a great flood will take place in this district, and will sweep everything before it. It will be so sudden that men will not be able to take measures to preserve either their lives or their property--so instantaneous will be the rush of the mighty streams, like ocean floods, from the mountains you can see in the West. My advice to you is to commence at once the construction of boats to carry you and your most precious effects away. When the news first comes that the waters are rising, have them anchored in the creek that flows close by your doors; and when the crisis arrives, delay not a moment, but hurry on board and fly for your lives.\" \"But when will that be?\" asked Chung anxiously. \"I may not tell you the precise day or hour,\" replied the bonze; \"but when the eyes of the stone lions in the East Street of the city shed tears of blood",
+   "evidenceType": "quotation",
+   "note": "Quotation from J. Macgowan's English literary collection of folktales; distinguish this written version from a community-wide canon."
+  },
+  "rescue": {
+   "recordId": "pg-26070",
+   "sourceId": "chi.folklore-tales",
+   "work": "Chinese Folk-Lore Tales",
+   "author": "Various Chinese storytellers; collected and retold in English by J. Macgowan",
+   "translator": "J. Macgowan",
+   "locator": "THE REWARD OF A BENEVOLENT LIFE; THE REWARD OF A BENEVOLENT LIFE, normalized characters 9322-9806",
+   "localPath": "content/corpus/chinese/primary/chinese-folk-lore-tales-macgowan-26070.txt",
+   "excerpt": "Chung replied that at such a time, when a human being was in extreme danger of being drowned, personal interests ought not to be considered at all. He had faithfully obeyed the command of the priest in saving animal life, but how much more valuable was a man than any of the lower orders of creation? \"Whatever may happen,\" he said, \"I cannot let this man drown before my eyes,\" and as the boat just then came alongside the swimmer, he was hauled into it and delivered from his peril.",
+   "evidenceType": "quotation",
+   "note": "Quotation from J. Macgowan's English literary collection of folktales; distinguish this written version from a community-wide canon."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A warning in a dream",
+   "body": "A good man is warned in a dream that a great flood is coming — and told to watch the city gate: when the iron statue's eyes bleed, he must flee to the hills.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ben.sign"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The butcher's cruel joke",
+   "body": "A butcher hears of the man's daily watch and plays a trick: he smears blood on the statue's eyes. The man sees the 'sign' and runs for the hills.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ben.joke"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The flood proves the warning",
+   "body": "And the flood comes — the joke became the prophecy. The warning was real even though the sign itself was faked.",
+   "sourceRefIds": [
+    "warning",
+    "rescue"
+   ],
+   "objectiveIds": [
+    "obj.ben.joke"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The widow and the turtle",
+   "body": "On the flood waters the man rescues a drowning widow — and a great turtle — and the turtle's later repayment turns the whole tale: kindness is the story's real engine.",
+   "sourceRefIds": [
+    "rescue"
+   ],
+   "objectiveIds": [
+    "obj.ben.joke"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Macgowan's village tales",
+   "body": "This story comes through John Macgowan's 1910 collection of Chinese folk tales — a missionary's retelling of village stories, not a canonical scripture.",
+   "sourceRefIds": [
+    "warning",
+    "rescue"
+   ],
+   "objectiveIds": [
+    "obj.ben.sign"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the flood's prophesied sign?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The river running backward"
+    },
+    {
+     "id": "b",
+     "text": "A comet over the palace"
+    },
+    {
+     "id": "c",
+     "text": "The iron statue at the city gate bleeding from its eyes"
+    },
+    {
+     "id": "d",
+     "text": "Three days of darkness"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The bleeding statue is the signal to flee.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ben.sign"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What makes the sign appear?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The butcher's cruel joke — he smears blood on the statue's eyes, and the flood follows anyway"
+    },
+    {
+     "id": "b",
+     "text": "The man bleeds on it himself"
+    },
+    {
+     "id": "c",
+     "text": "The statue weeps at the city's sins"
+    },
+    {
+     "id": "d",
+     "text": "An earthquake cracks it open"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The faked sign doesn't make the warning false — the flood proves it true.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ben.joke"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

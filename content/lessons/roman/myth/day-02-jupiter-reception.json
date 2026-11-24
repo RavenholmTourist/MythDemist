@@ -1,193 +1,182 @@
 {
-  "id": "roman.week01.day02.jupiter-reception",
-  "version": 2,
-  "weekId": "rom.myth.week01",
-  "pantheon": "roman",
-  "themeMode": "pantheon",
-  "title": "Jupiter and Lycaon: Judgment and Change",
-  "subtitle": "A test of divine power in Ovid's Book I",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "jupiter",
-    "reception",
-    "power"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.jupiter-reception.concept",
-      "text": "What does Lycaon do to test the visitor in Ovid's account?"
-    },
-    {
-      "id": "obj.jupiter-reception.source",
-      "text": "What happens to Lycaon?"
-    }
-  ],
-  "sourceReferences": {
-    "lycaon": {
-      "recordId": "roman-pg-21765",
-      "sourceId": "rom.ovid.metamorphoses-1-7",
-      "work": "Metamorphoses, Book I · Fable VII [I.216-243]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book I · Fable VII [I.216-243]; Book I · Fable VII [I.216-243], normalized characters 361-1445",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
-      "excerpt": "In the first place, Lycaon derided their pious supplications. Afterwards, he said, I will make trial, by a plain proof, whether this is a God, or whether he is a mortal; nor shall the truth remain a matter of doubt. He then makes preparations to destroy me, when sunk in sleep, by an unexpected death; this mode of testing the truth pleases him. And not content with that, with the sword he cuts the throat of an hostage that had been sent from the nation of the Molossians,[45] and then softens part of the quivering limbs, in boiling water, and part he roasts with fire placed beneath. Soon as he had placed these on the table, I, with avenging flames, overthrew the house upon the household Gods,[46] worthy of their master. Alarmed, he himself takes to flight, and having reached the solitude of the country, he howls aloud, and in vain attempts to speak; his mouth gathers rage from himself, and through its {usual} desire for slaughter, it is directed against the sheep, and even still delights in blood. His garments are changed into hair, his arms into legs; he becomes a wolf",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    }
+ "id": "roman.week01.day02.jupiter-reception",
+ "version": 3,
+ "weekId": "rom.myth.week01",
+ "pantheon": "roman",
+ "themeMode": "pantheon",
+ "title": "Jupiter and Lycaon: Judgment and Change",
+ "subtitle": "A test of divine power in Ovid's Book I",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "lycaon",
+  "jupiter",
+  "flood",
+  "roman"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.lyc.test",
+   "text": "How does Lycaon test Jupiter?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A guest is tested",
-      "body": "In Ovid's account, Jupiter tells the gods how he visited Arcadia. Lycaon mocks the worshippers and tests the visitor, preparing a murder and serving human flesh.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Lycaon's punishment",
-      "body": "Source quotation (Riley's translation; whitespace normalized): “In the first place, Lycaon derided their pious supplications. Afterwards, he said, I will make trial, by a plain proof, whether this is a God, or whether he is a mortal; nor shall the truth remain a matter of doubt. He then makes preparations to destroy me, when sunk in sleep, by an unexpected death; this mode of testing the truth pleases him. And not content with that, with the sword he cuts the throat of an hostage that had been sent from the nation of the Molossians,[45] and then softens part of the quivering limbs, in boiling water, and part he roasts with fire placed beneath. Soon as he had placed these on the table, I, with avenging flames, overthrew the house upon the household Gods,[46] worthy of their master. Alarmed, he himself takes to flight, and having reached the solitude of the country, he howls aloud, and in vain attempts to speak; his mouth gathers rage from himself, and through its {usual} desire for slaughter, it is directed against the sheep, and even still delights in blood. His garments are changed into hair, his arms into legs; he becomes a wolf”",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Judgment becomes transformation",
-      "body": "Jupiter responds by changing Lycaon into a wolf. The episode is a poetic account of divine punishment, not a record of a historical trial.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the Roman poem in view",
-      "body": "This is Ovid's literary portrayal of Jupiter in a Greek-myth setting. It cannot establish one universal Roman belief or a ritual practice.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "The wolf retains traces",
-      "body": "The translated passage says the wolf keeps marks of its former appearance as well as its ferocity.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Lycaon do to test the visitor in Ovid's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He locks the visitor in a labyrinth"
-        },
-        {
-          "id": "b",
-          "text": "He challenges the visitor to a chariot race"
-        },
-        {
-          "id": "c",
-          "text": "He prepares a murder and serves human flesh"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Jupiter's narrated account describes Lycaon's attempted murder and the meal made from a captive.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "lycaon"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens to Lycaon?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is placed among the stars"
-        },
-        {
-          "id": "b",
-          "text": "He becomes a wolf"
-        },
-        {
-          "id": "c",
-          "text": "He becomes a laurel"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage describes his garments becoming hair and his arms becoming legs before he becomes a wolf.",
-      "sourceRefIds": [
-        "lycaon"
-      ],
-      "objectiveIds": [
-        "obj.jupiter-reception.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "lycaon"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.lyc.wolf",
+   "text": "What is his punishment?"
   }
+ ],
+ "sourceReferences": {
+  "lycaon": {
+   "recordId": "roman-pg-21765",
+   "sourceId": "rom.ovid.metamorphoses-1-7",
+   "work": "Metamorphoses, Book I · Fable VII [I.216-243]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book I · Fable VII [I.216-243]; Book I · Fable VII [I.216-243], normalized characters 361-1445",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-1-7-21765.txt",
+   "excerpt": "In the first place, Lycaon derided their pious supplications. Afterwards, he said, I will make trial, by a plain proof, whether this is a God, or whether he is a mortal; nor shall the truth remain a matter of doubt. He then makes preparations to destroy me, when sunk in sleep, by an unexpected death; this mode of testing the truth pleases him. And not content with that, with the sword he cuts the throat of an hostage that had been sent from the nation of the Molossians,[45] and then softens part of the quivering limbs, in boiling water, and part he roasts with fire placed beneath. Soon as he had placed these on the table, I, with avenging flames, overthrew the house upon the household Gods,[46] worthy of their master. Alarmed, he himself takes to flight, and having reached the solitude of the country, he howls aloud, and in vain attempts to speak; his mouth gathers rage from himself, and through its {usual} desire for slaughter, it is directed against the sheep, and even still delights in blood. His garments are changed into hair, his arms into legs; he becomes a wolf",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The council of the gods",
+   "body": "Jupiter summons the gods to report on humanity: the wickedness has grown unbearable, and he tells them of the test he ran in person on King Lycaon of Arcadia.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.test"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The feast of human flesh",
+   "body": "Disguised as a mortal, Jupiter visits Lycaon's court. The king, to see whether his guest is truly a god, murders a hostage and serves the flesh at dinner — a crime dressed as an experiment.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.test"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The lightning answer",
+   "body": "Jupiter's lightning blasts the palace; Lycaon flees howling into the fields — and the howl continues as his body changes: his savagery made literal, he becomes a wolf.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.wolf"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The case for the flood",
+   "body": "One monster convicted, Jupiter argues the whole species has failed — and the gods agree: the flood that will drown the world is coming. Lycaon is the evidence.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.wolf"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Ovid's Roman frame",
+   "body": "This flood is not Mesopotamia's whim or the Bible's covenant — in Ovid it is a judgment on a corrupt age, argued before a senate of gods, with the wolf-king as Exhibit A.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.test"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Lycaon test his divine guest?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He challenges Jupiter to a hunt"
+    },
+    {
+     "id": "b",
+     "text": "He hides the god's thunderbolt"
+    },
+    {
+     "id": "c",
+     "text": "He murders a hostage and serves the flesh at dinner — crime disguised as experiment"
+    },
+    {
+     "id": "d",
+     "text": "He refuses the god shelter"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The cannibal feast is the test — and it proves the charge against humanity.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.test"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is Lycaon's punishment?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Blasted by lightning and transformed into a wolf — his savagery made literal"
+    },
+    {
+     "id": "b",
+     "text": "Chained beneath the volcano"
+    },
+    {
+     "id": "c",
+     "text": "Turned to stone mid-flight"
+    },
+    {
+     "id": "d",
+     "text": "Drowned in the flood he caused"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Ovid's justice: the inner beast becomes the outer form.",
+   "sourceRefIds": [
+    "lycaon"
+   ],
+   "objectiveIds": [
+    "obj.lyc.wolf"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

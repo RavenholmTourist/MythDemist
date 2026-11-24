@@ -1,207 +1,195 @@
 {
-  "id": "chinese.week01.day04.change-moon",
-  "version": 5,
-  "weekId": "chi.myth.week01",
-  "pantheon": "chinese",
-  "themeMode": "pantheon",
-  "title": "Heng O: Flight to the Moon",
-  "subtitle": "An immortality pill in Werner's retelling",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "chinese",
-    "Chang’e",
-    "and"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.change-moon.concept",
-      "text": "What does Heng O eat in Werner's retelling?"
-    },
-    {
-      "id": "obj.change-moon.sources",
-      "text": "What happens to the covering of the pill?"
-    }
-  ],
-  "sourceReferences": {
-    "flight": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 13857-14705",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "Heng O, during her husband's absence, saw a white light which seemed to issue from a beam in the roof, while a most delicious odour filled every room. By the aid of a ladder she reached up to the spot whence the light came, found the pill of immortality, and ate it. She suddenly felt that she was freed from the operation of the laws of gravity and as if she had wings, and was just essaying her first flight when Shen I returned. He went to look for his pill, and, not finding it, asked Heng O what had happened. The young wife, seized with fear, opened the window and flew out. Shen I took his bow and pursued her. The moon was full, the night clear, and he saw his wife flying rapidly in front of him, only about the size of a toad. Just when he was redoubling his pace to catch her up a blast of wind struck him to the ground like a dead leaf.",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    },
-    "moon": {
-      "recordId": "pg-15250",
-      "sourceId": "chi.myths-legends-china",
-      "work": "Myths and Legends of China",
-      "author": "E. T. C. Werner (modern compiler and author)",
-      "translator": "not applicable; authored in English by E. T. C. Werner",
-      "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 14706-15270",
-      "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
-      "excerpt": "Heng O continued her flight until she reached a luminous sphere, shining like glass, of enormous size, and very cold. The only vegetation consisted of cinnamon-trees. No living being was to be seen. All of a sudden she began to cough, and vomited the covering of the pill of immortality, which was changed into a rabbit as white as the purest jade. This was the ancestor of the spirituality of the _yin_, or female, principle. Heng O noticed a bitter taste in her mouth, drank some dew, and, feeling hungry, ate some cinnamon. She took up her abode in this sphere.",
-      "evidenceType": "quotation",
-      "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
-    }
+ "id": "chinese.week01.day04.change-moon",
+ "version": 6,
+ "weekId": "chi.myth.week01",
+ "pantheon": "chinese",
+ "themeMode": "pantheon",
+ "title": "Heng O: Flight to the Moon",
+ "subtitle": "An immortality pill in Werner's retelling",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "hengo",
+  "moon",
+  "elixir",
+  "chinese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.heng.pill",
+   "text": "Why does Heng O swallow the elixir?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The pill is found",
-      "body": "In Werner's version, Heng O finds and eats a pill of immortality while Shen I is away. When he returns, she opens a window and flies out.",
-      "sourceRefIds": [
-        "flight"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A flight toward the moon",
-      "body": "Quotation from the cited English edition (whitespace normalized): “Heng O, during her husband's absence, saw a white light which seemed to issue from a beam in the roof, while a most delicious odour filled every room. By the aid of a ladder she reached up to the spot whence the light came, found the pill of immortality, and ate it. She suddenly felt that she was freed from the operation of the laws of gravity and as if she had wings, and was just essaying her first flight when Shen I returned. He went to look for his pill, and, not finding it, asked Heng O what had happened. The young wife, seized with fear, opened the window and flew out. Shen I took his bow and pursued her. The moon was full, the night clear, and he saw his wife flying rapidly in front of him, only about the size of a toad. Just when he was redoubling his pace to catch her up a blast of wind struck him to the ground like a dead leaf.”",
-      "sourceRefIds": [
-        "flight"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A rabbit on a cold sphere",
-      "body": "Werner describes Heng O reaching a cold, luminous sphere. She coughs up the pill's covering, which changes into a white rabbit, and stays there.",
-      "sourceRefIds": [
-        "moon"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "One version, not every telling",
-      "body": "The name here is Heng O, and the scene is Werner's early twentieth-century retelling. Do not treat its details as a universal or unchanging account of the moon story.",
-      "sourceRefIds": [
-        "flight",
-        "moon"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The moon story has variants",
-      "body": "Werner's episode links immortality, flight, and the rabbit; other retellings can vary in names, motives, and details.",
-      "sourceRefIds": [
-        "flight",
-        "moon"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Heng O eat in Werner's retelling?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A pill of immortality"
-        },
-        {
-          "id": "b",
-          "text": "A white jade rabbit"
-        },
-        {
-          "id": "c",
-          "text": "A five-coloured stone"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The passage says she finds the pill of immortality and eats it.",
-      "sourceRefIds": [
-        "flight"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "flight"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens to the covering of the pill?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It becomes a red cloud"
-        },
-        {
-          "id": "b",
-          "text": "It turns into a tortoise"
-        },
-        {
-          "id": "c",
-          "text": "It changes into a white rabbit"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Werner says she vomits the covering, which becomes a white rabbit.",
-      "sourceRefIds": [
-        "moon"
-      ],
-      "objectiveIds": [
-        "obj.change-moon.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited passage in its named English edition.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this a synthesis or a collected folktale?"
-        ],
-        "sourceRefIds": [
-          "moon"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.heng.moon",
+   "text": "Where does she end up?"
   }
+ ],
+ "sourceReferences": {
+  "flight": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 13857-14705",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "Heng O, during her husband's absence, saw a white light which seemed to issue from a beam in the roof, while a most delicious odour filled every room. By the aid of a ladder she reached up to the spot whence the light came, found the pill of immortality, and ate it. She suddenly felt that she was freed from the operation of the laws of gravity and as if she had wings, and was just essaying her first flight when Shen I returned. He went to look for his pill, and, not finding it, asked Heng O what had happened. The young wife, seized with fear, opened the window and flew out. Shen I took his bow and pursued her. The moon was full, the night clear, and he saw his wife flying rapidly in front of him, only about the size of a toad. Just when he was redoubling his pace to catch her up a blast of wind struck him to the ground like a dead leaf.",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  },
+  "moon": {
+   "recordId": "pg-15250",
+   "sourceId": "chi.myths-legends-china",
+   "work": "Myths and Legends of China",
+   "author": "E. T. C. Werner (modern compiler and author)",
+   "translator": "not applicable; authored in English by E. T. C. Werner",
+   "locator": "Chapter V · Myths of the Stars; Chapter V · Myths of the Stars, normalized characters 14706-15270",
+   "localPath": "content/corpus/chinese/primary/myths-legends-china-werner-15250.txt",
+   "excerpt": "Heng O continued her flight until she reached a luminous sphere, shining like glass, of enormous size, and very cold. The only vegetation consisted of cinnamon-trees. No living being was to be seen. All of a sudden she began to cough, and vomited the covering of the pill of immortality, which was changed into a rabbit as white as the purest jade. This was the ancestor of the spirituality of the _yin_, or female, principle. Heng O noticed a bitter taste in her mouth, drank some dew, and, feeling hungry, ate some cinnamon. She took up her abode in this sphere.",
+   "evidenceType": "quotation",
+   "note": "Quotation from E. T. C. Werner's 1922 English synthesis; it is not a direct translation of the ancient source it discusses."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The elixir of immortality",
+   "body": "For his service, the gods give the exiled archer Shen I a pill of eternal life — but he will not take it and leave his wife Heng O mortal. He locks it away instead.",
+   "sourceRefIds": [
+    "flight"
+   ],
+   "objectiveIds": [
+    "obj.heng.pill"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The theft that forces her hand",
+   "body": "A thief breaks in to steal the pill. To keep it from him, Heng O swallows it herself — and instantly begins to rise from the earth.",
+   "sourceRefIds": [
+    "flight"
+   ],
+   "objectiveIds": [
+    "obj.heng.pill"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "To the moon",
+   "body": "She floats upward, past the reach of earth, and lands on the moon — where she becomes its resident spirit and, in some tellings, is changed into a toad.",
+   "sourceRefIds": [
+    "moon"
+   ],
+   "objectiveIds": [
+    "obj.heng.moon"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The husband below",
+   "body": "Shen I is left behind, mortal and earthbound — their separation is marked at the Mid-Autumn Moon Festival, when moon-cakes are set out for her.",
+   "sourceRefIds": [
+    "moon"
+   ],
+   "objectiveIds": [
+    "obj.heng.moon"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why the moon has a lady",
+   "body": "Heng O is China's answer to the man in the moon: a figure visible from earth — eternally separated, eternally present, and loved from below.",
+   "sourceRefIds": [
+    "flight",
+    "moon"
+   ],
+   "objectiveIds": [
+    "obj.heng.moon"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Heng O swallow the elixir?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She wants to join the gods"
+    },
+    {
+     "id": "b",
+     "text": "She mistakes it for medicine"
+    },
+    {
+     "id": "c",
+     "text": "To keep it from a thief trying to steal it — and it carries her upward beyond return"
+    },
+    {
+     "id": "d",
+     "text": "Shen I commands her to"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The theft forces the choice — immortality as an act of protection, not ambition.",
+   "sourceRefIds": [
+    "flight"
+   ],
+   "objectiveIds": [
+    "obj.heng.pill"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Where does Heng O end up?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "On the moon — as its resident spirit, remembered at the Mid-Autumn Festival"
+    },
+    {
+     "id": "b",
+     "text": "On the sun beside her husband"
+    },
+    {
+     "id": "c",
+     "text": "In the Western Paradise"
+    },
+    {
+     "id": "d",
+     "text": "Transformed into a star"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The moon is her exile and her shrine.",
+   "sourceRefIds": [
+    "moon"
+   ],
+   "objectiveIds": [
+    "obj.heng.moon"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

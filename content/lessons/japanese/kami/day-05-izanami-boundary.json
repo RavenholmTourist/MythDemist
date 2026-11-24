@@ -1,193 +1,182 @@
 {
-  "id": "japanese.week01.day05.izanami-boundary",
-  "version": 2,
-  "weekId": "jpn.kami.week01",
-  "pantheon": "japanese",
-  "themeMode": "pantheon",
-  "title": "Izanami: Death and Separation",
-  "subtitle": "A return from the underworld is refused",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "izanami",
-    "creation",
-    "boundary"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.izanami-boundary.concept",
-      "text": "Why does Izanami say she cannot return to earth?"
-    },
-    {
-      "id": "obj.izanami-boundary.source",
-      "text": "How does Izanagi escape the underworld guardians?"
-    }
-  ],
-  "sourceReferences": {
-    "yomi": {
-      "recordId": "pg-46863",
-      "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan: Old-World Japan, Izanagi finds Izanami in the underworld",
-      "author": "Frank Rinder",
-      "translator": "Frank Rinder",
-      "locator": "Old-World Japan, Izanagi finds Izanami in the underworld; local text normalized characters 12540-13428",
-      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "he gazed intently into her eyes ere he could recognise her. Izanami was angry that Izanagi had not listened to her commands, for she knew how fruitless would be his efforts. Without the sanction of the ruler of the under-world, she could not return to earth, and this consent she had tried in vain to obtain. Izanagi, hard pressed by the eight monsters who guard the Land of Gloom, had to flee for his life. He defended himself valiantly with his sword; then he threw down his head-dress, and it was transformed into bunches of purple grapes; he also cast behind him the comb, by means of which he had obtained light, and from it sprang tender shoots of bamboo. While the monsters eagerly devoured the luscious grapes and tender shoots, Izanagi gained the broad flight of steps which led back to earth. At the top he paused and cried to Izanami: \"All hope of our reunion is now at an end.",
-      "evidenceType": "quotation",
-      "note": "Rinder's modern retelling, not a direct Kojiki translation."
-    }
+ "id": "japanese.week01.day05.izanami-boundary",
+ "version": 3,
+ "weekId": "jpn.kami.week01",
+ "pantheon": "japanese",
+ "themeMode": "pantheon",
+ "title": "Izanami: Death and Separation",
+ "subtitle": "A return from the underworld is refused",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "izanami",
+  "yomi",
+  "izanagi",
+  "japanese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.yomi.descent",
+   "text": "What happens when Izanagi looks at Izanami?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Rinder's retelling has Izanagi find Izanami in the underworld, changed and unable to return without the ruler's sanction. He flees, distracting the guardians with grapes and bamboo; then he declares their separation eternal.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The failed return",
-      "body": "Source quotation (local English retelling; whitespace normalized): “he gazed intently into her eyes ere he could recognise her. Izanami was angry that Izanagi had not listened to her commands, for she knew how fruitless would be his efforts. Without the sanction of the ruler of the under-world, she could not return to earth, and this consent she had tried in vain to obtain. Izanagi, hard pressed by the eight monsters who guard the Land of Gloom, had to flee for his life. He defended himself valiantly with his sword; then he threw down his head-dress, and it was transformed into bunches of purple grapes; he also cast behind him the comb, by means of which he had obtained light, and from it sprang tender shoots of bamboo. While the monsters eagerly devoured the luscious grapes and tender shoots, Izanagi gained the broad flight of steps which led back to earth. At the top he paused and cried to Izanami: \"”",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "The story sets a boundary between the living and the dead through a failed attempt at reunion. This is Rinder's retelling, not a transcript of one fixed Japanese doctrine.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the source boundary",
-      "body": "Read the underworld episode as a narrative in a modern compilation. Keep the translator's choices, names, and story sequence attached to it.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Compare this attempted return with Urashima's return: distinct stories, distinct source genres, and different consequences.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Why does Izanami say she cannot return to earth?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Izanagi has opened Urashima's box"
-        },
-        {
-          "id": "b",
-          "text": "The heavenly bridge has disappeared"
-        },
-        {
-          "id": "c",
-          "text": "She has not received the underworld ruler's consent"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The retelling says Izanami tried in vain to obtain the ruler's sanction.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "yomi"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Izanagi escape the underworld guardians?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asks Susanoo to carry him"
-        },
-        {
-          "id": "b",
-          "text": "He throws grapes and bamboo behind him, distracting them"
-        },
-        {
-          "id": "c",
-          "text": "He bargains with the Dragon King"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage says the guardians chase him while he scatters food and plants behind him.",
-      "sourceRefIds": [
-        "yomi"
-      ],
-      "objectiveIds": [
-        "obj.izanami-boundary.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "yomi"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.yomi.vow",
+   "text": "What do the two gods vow at the boulder?"
   }
+ ],
+ "sourceReferences": {
+  "yomi": {
+   "recordId": "pg-46863",
+   "sourceId": "jpn.old-world-japan",
+   "work": "Old-World Japan: Old-World Japan, Izanagi finds Izanami in the underworld",
+   "author": "Frank Rinder",
+   "translator": "Frank Rinder",
+   "locator": "Old-World Japan, Izanagi finds Izanami in the underworld; local text normalized characters 12540-13428",
+   "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+   "excerpt": "he gazed intently into her eyes ere he could recognise her. Izanami was angry that Izanagi had not listened to her commands, for she knew how fruitless would be his efforts. Without the sanction of the ruler of the under-world, she could not return to earth, and this consent she had tried in vain to obtain. Izanagi, hard pressed by the eight monsters who guard the Land of Gloom, had to flee for his life. He defended himself valiantly with his sword; then he threw down his head-dress, and it was transformed into bunches of purple grapes; he also cast behind him the comb, by means of which he had obtained light, and from it sprang tender shoots of bamboo. While the monsters eagerly devoured the luscious grapes and tender shoots, Izanagi gained the broad flight of steps which led back to earth. At the top he paused and cried to Izanami: \"All hope of our reunion is now at an end.",
+   "evidenceType": "quotation",
+   "note": "Rinder's modern retelling, not a direct Kojiki translation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Into the Land of Gloom",
+   "body": "Izanagi cannot accept Izanami's death by fire-birth. He descends to Yomi — the Land of Gloom — to beg her to come back to the world they made together.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.descent"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Wait in the dark",
+   "body": "She agrees to ask the gods of Yomi — but on one condition: he must not look at her. He waits in the darkened hall until patience breaks: he snaps a tooth from his comb, lights it, and looks.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.descent"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The rotting beloved",
+   "body": "Her body is a mass of maggots and thunder-deities. Shamed beyond forgiveness, she sends the hags of Yomi after him — he slows them by throwing his comb, then grapes, then bamboo shoots, and at last blocks the pass of Yomi with a giant boulder.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.descent"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The divorce spoken through stone",
+   "body": "Through the boulder Izanami vows: 'I will strangle a thousand of your people every day.' Izanagi answers: 'Then I will cause fifteen hundred to be born.' The world's rates of death and birth are their divorce settlement.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.vow"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Purification begins here",
+   "body": "Polluted by the land of death, Izanagi washes in a river — and from his washed face are born the week's great gods: Amaterasu from his left eye, Tsukuyomi from his right, Susanoo from his nose. Cleansing makes the gods.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.descent"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Izanagi see when he lights his comb-tooth?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Her spirit already reborn"
+    },
+    {
+     "id": "b",
+     "text": "The throne of Yomi's king"
+    },
+    {
+     "id": "c",
+     "text": "Izanami's rotting corpse — a mass of maggots and thunder-deities"
+    },
+    {
+     "id": "d",
+     "text": "Her face unchanged and sleeping"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The look breaks her bargain — and earns her eternal rage.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.descent"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What do Izanagi and Izanami vow through the boulder?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She will kill a thousand people a day; he will see fifteen hundred born — death and birth as their settlement"
+    },
+    {
+     "id": "b",
+     "text": "To share rule of Yomi"
+    },
+    {
+     "id": "c",
+     "text": "To forget each other forever"
+    },
+    {
+     "id": "d",
+     "text": "To divide the islands between them"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The world's birth-death balance is fixed by their divorce.",
+   "sourceRefIds": [
+    "yomi"
+   ],
+   "objectiveIds": [
+    "obj.yomi.vow"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

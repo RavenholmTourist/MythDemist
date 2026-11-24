@@ -1,193 +1,182 @@
 {
-  "id": "mesoamerican.week01.day04.underworld-road",
-  "version": 4,
-  "weekId": "mes.myth.week01",
-  "pantheon": "mesoamerican",
-  "themeMode": "pantheon",
-  "title": "Mictlan: A Journey after Death",
-  "subtitle": "A posthumous journey in Spence's Mexica chapter",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesoamerican",
-    "The",
-    "Road"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.underworld-road.concept",
-      "text": "What animal accompanies the dead person in Spence's account?"
-    },
-    {
-      "id": "obj.underworld-road.sources",
-      "text": "Which boundary matters when using this passage?"
-    }
-  ],
-  "sourceReferences": {
-    "journey": {
-      "recordId": "pg-53080",
-      "sourceId": "mes.myths-mexico-peru",
-      "work": "The Myths of Mexico & Peru",
-      "author": "Lewis Spence",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter I · THE CIVILISATION OF MEXICO; Chapter I · THE CIVILISATION OF MEXICO, normalized characters 62370-63137",
-      "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "The dead person is given over to the tests which precede entrance to the abode of the dead, the realm of Mictlan, and so that he may not have to meet the perils of the journey in a defenceless condition a sheaf of javelins is bestowed upon him. He first passes between two lofty peaks, which may fall and crush him if he cannot skilfully escape them. A terrible serpent then intercepts his path, and, if he succeeds in defeating this monster, the fierce alligator Xochitonal awaits him. Eight deserts and a corresponding number of mountains have then to be negotiated by the hapless spirit, and a whirlwind sharp as a sword, which cuts even through solid rocks, must be withstood. Accompanied by the shade of his favourite dog, the harassed ghost at length encounters",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
-    }
+ "id": "mesoamerican.week01.day04.underworld-road",
+ "version": 5,
+ "weekId": "mes.myth.week01",
+ "pantheon": "mesoamerican",
+ "themeMode": "pantheon",
+ "title": "Mictlan: A Journey after Death",
+ "subtitle": "A posthumous journey in Spence's Mexica chapter",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "mictlan",
+  "death",
+  "xolo",
+  "mesoamerican"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.mic.journey",
+   "text": "How do the dead reach Mictlan?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A journey with dangers",
-      "body": "Spence describes a dead person being sent toward Mictlan and facing collapsing peaks, a serpent, an alligator, deserts, mountains, and a sharp whirlwind.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The road to Mictlan",
-      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “The dead person is given over to the tests which precede entrance to the abode of the dead, the realm of Mictlan, and so that he may not have to meet the perils of the journey in a defenceless condition a sheaf of javelins is bestowed upon him. He first passes between two lofty peaks, which may fall and crush him if he cannot skilfully escape them. A terrible serpent then intercepts his path, and, if he succeeds in defeating this monster, the fierce alligator Xochitonal awaits him. Eight deserts and a corresponding number of mountains have then to be negotiated by the hapless spirit, and a whirlwind sharp as a sword, which cuts even through solid rocks, must be withstood. Accompanied by the shade of his favourite dog, the harassed ghost at length encounters”",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A companion for the dead",
-      "body": "In this account, a favourite dog accompanies the ghost through the journey. This is Spence's summary of a source tradition, not a universal Mesoamerican afterlife map.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not generalize across peoples",
-      "body": "Spence's discussion is an early twentieth-century synthesis. The location and sequence should be attributed to the Mexican material as he presents it, not generalized to Maya, Peruvian, or all Indigenous traditions.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A source-specific afterlife account",
-      "body": "Read the route as one account within Spence's compilation; keep its monsters, tests, and companion attached to that written framing.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What animal accompanies the dead person in Spence's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A favourite dog"
-        },
-        {
-          "id": "b",
-          "text": "A nine-headed serpent"
-        },
-        {
-          "id": "c",
-          "text": "An eagle carrying a cactus"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Spence says the ghost is accompanied by the shade of a favourite dog.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "journey"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which boundary matters when using this passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It is a direct Maya inscription"
-        },
-        {
-          "id": "b",
-          "text": "It is a Peruvian eyewitness report"
-        },
-        {
-          "id": "c",
-          "text": "It is Spence's account of Mexican material, not a universal Mesoamerican belief"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The citation comes from Spence's broad synthesis and should not be generalized to distinct traditions.",
-      "sourceRefIds": [
-        "journey"
-      ],
-      "objectiveIds": [
-        "obj.underworld-road.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "journey"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.mic.dog",
+   "text": "What helps them cross the river?"
   }
+ ],
+ "sourceReferences": {
+  "journey": {
+   "recordId": "pg-53080",
+   "sourceId": "mes.myths-mexico-peru",
+   "work": "The Myths of Mexico & Peru",
+   "author": "Lewis Spence",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter I · THE CIVILISATION OF MEXICO; Chapter I · THE CIVILISATION OF MEXICO, normalized characters 62370-63137",
+   "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
+   "excerpt": "The dead person is given over to the tests which precede entrance to the abode of the dead, the realm of Mictlan, and so that he may not have to meet the perils of the journey in a defenceless condition a sheaf of javelins is bestowed upon him. He first passes between two lofty peaks, which may fall and crush him if he cannot skilfully escape them. A terrible serpent then intercepts his path, and, if he succeeds in defeating this monster, the fierce alligator Xochitonal awaits him. Eight deserts and a corresponding number of mountains have then to be negotiated by the hapless spirit, and a whirlwind sharp as a sword, which cuts even through solid rocks, must be withstood. Accompanied by the shade of his favourite dog, the harassed ghost at length encounters",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The four-year road",
+   "body": "For the Mexica, most dead went to Mictlan — a nine-level underworld reached by a four-year journey downward. It is not a judgment: nearly everyone takes the road.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.journey"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The dog that ferries",
+   "body": "At the first river, the soul needs a red dog — the xoloitzcuintli — to carry it across. That is why dogs were buried with the dead: the ferryman is waiting.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.dog"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Nine trials down",
+   "body": "The soul passes clashing mountains, a wind of knives, rivers and deserts — each level stripping away another layer of attachment to the world above.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.journey"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The lord of death's palace",
+   "body": "At the deepest level, Mictlantecuhtli, lord of the dead, receives the soul into final rest — an extinction more than a paradise or a punishment.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.journey"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A different moral map",
+   "body": "Unlike the Greek judgment hall, Mictlan is not earned — it is a process every ordinary soul walks. In this cosmos, how you die matters more than how you lived.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.journey"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How do the dead reach Mictlan?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are carried by the sun's rays"
+    },
+    {
+     "id": "b",
+     "text": "A single night of travel"
+    },
+    {
+     "id": "c",
+     "text": "A four-year journey down through nine levels — clashing mountains, knife-winds, rivers, deserts"
+    },
+    {
+     "id": "d",
+     "text": "Through the fire that took them"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The road is long and takes years — the underworld is a pilgrimage, not a doorway.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.journey"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What helps the soul cross the river?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A red dog — the xoloitzcuintli — buried with them for exactly this purpose"
+    },
+    {
+     "id": "b",
+     "text": "A silver coin under the tongue"
+    },
+    {
+     "id": "c",
+     "text": "The prayers of the living"
+    },
+    {
+     "id": "d",
+     "text": "A feathered boatman"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The buried dog is the ferryman — hence dogs in the graves.",
+   "sourceRefIds": [
+    "journey"
+   ],
+   "objectiveIds": [
+    "obj.mic.dog"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

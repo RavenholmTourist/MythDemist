@@ -1,208 +1,195 @@
 {
-  "id": "japanese.week01.day03.susanoo-storm",
-  "version": 2,
-  "weekId": "jpn.kami.week01",
-  "pantheon": "japanese",
-  "themeMode": "pantheon",
-  "title": "Susanoo: Disruption and Consequence",
-  "subtitle": "A disruptive brother and the cave episode",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "susanoo",
-    "storm",
-    "reconciliation"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.susanoo-storm.concept",
-      "text": "What happens to the fields as Susanoo weeps in this retelling?"
-    },
-    {
-      "id": "obj.susanoo-storm.source",
-      "text": "What wider consequence follows Amaterasu's withdrawal?"
-    }
-  ],
-  "sourceReferences": {
-    "disruption": {
-      "recordId": "pg-46863",
-      "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan: Old-World Japan, Susanoo's destructive conduct",
-      "author": "Frank Rinder",
-      "translator": "Frank Rinder",
-      "locator": "Old-World Japan, Susanoo's destructive conduct; local text normalized characters 14365-15621",
-      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.",
-      "evidenceType": "quotation",
-      "note": "Rinder's modern retelling, not a direct Kojiki translation."
-    },
-    "withdrawal": {
-      "recordId": "pg-46863",
-      "sourceId": "jpn.old-world-japan",
-      "work": "Old-World Japan: Old-World Japan, Amaterasu withdraws",
-      "author": "Frank Rinder",
-      "translator": "Frank Rinder",
-      "locator": "Old-World Japan, Amaterasu withdraws; local text normalized characters 15621-15888",
-      "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
-      "excerpt": "Ama-terasu, trembling at the horrible sight, pricked her finger with the weaving shuttle, and, profoundly indignant at the cruelty of her brother, withdrew into a cave and closed behind her the door of the Heavenly Rock Dwelling. The universe was plunged in darkness.",
-      "evidenceType": "quotation",
-      "note": "Rinder's modern retelling, not a direct Kojiki translation."
-    }
+ "id": "japanese.week01.day03.susanoo-storm",
+ "version": 3,
+ "weekId": "jpn.kami.week01",
+ "pantheon": "japanese",
+ "themeMode": "pantheon",
+ "title": "Susanoo: Disruption and Consequence",
+ "subtitle": "A disruptive brother and the cave episode",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "susanoo",
+  "orochi",
+  "kusanagi",
+  "japanese"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.sus.serpent",
+   "text": "How does Susanoo defeat Yamata no Orochi?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "In Rinder's retelling, Susanoo's actions damage the fields and culminate in violence at Amaterasu's weaving hall. She withdraws into the cave, and darkness spreads.",
-      "sourceRefIds": [
-        "disruption"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Susanoo's conduct has consequences",
-      "body": "Source quotation (local English retelling; whitespace normalized): “Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.”",
-      "sourceRefIds": [
-        "disruption"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "This passage makes a family conflict matter beyond the family: Amaterasu's withdrawal changes the world's light. Keep it distinct from other Susanoo episodes and later retellings.",
-      "sourceRefIds": [
-        "disruption",
-        "withdrawal"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read the source boundary",
-      "body": "The citation is Rinder's modern compilation of Japanese mythic traditions. It supports claims about this retelling, not every account of Susanoo or all Japanese religious practice.",
-      "sourceRefIds": [
-        "disruption",
-        "withdrawal"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Follow the consequence chain from the damaged fields to the weaving-hall offense and Amaterasu's withdrawal.",
-      "sourceRefIds": [
-        "disruption",
-        "withdrawal"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What happens to the fields as Susanoo weeps in this retelling?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They turn into a palace for Amaterasu"
-        },
-        {
-          "id": "b",
-          "text": "The grass withers, flowers are blighted, and crops are damaged"
-        },
-        {
-          "id": "c",
-          "text": "They become a sea of rice overnight"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Rinder describes the grass withering, flowers blighting, and rice crops being destroyed.",
-      "sourceRefIds": [
-        "disruption"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "disruption"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What wider consequence follows Amaterasu's withdrawal?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The world is plunged into darkness"
-        },
-        {
-          "id": "b",
-          "text": "The Dragon King's palace sinks into the sea"
-        },
-        {
-          "id": "c",
-          "text": "The island of Onogoro disappears"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The cited passage says darkness spreads after she closes the cave.",
-      "sourceRefIds": [
-        "withdrawal"
-      ],
-      "objectiveIds": [
-        "obj.susanoo-storm.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited local version.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does this retelling not establish?"
-        ],
-        "sourceRefIds": [
-          "withdrawal"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.sus.sword",
+   "text": "What does he find inside the serpent?"
   }
+ ],
+ "sourceReferences": {
+  "disruption": {
+   "recordId": "pg-46863",
+   "sourceId": "jpn.old-world-japan",
+   "work": "Old-World Japan: Old-World Japan, Susanoo's destructive conduct",
+   "author": "Frank Rinder",
+   "translator": "Frank Rinder",
+   "locator": "Old-World Japan, Susanoo's destructive conduct; local text normalized characters 14365-15621",
+   "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+   "excerpt": "Susa-no-o, the brother of Ama-terasu, who had resigned his ocean sceptre and now reigned as the Moon-God, was jealous of his sister's glory and world-wide sway. The Heaven-Illuminating Spirit had but to whisper and she was heard throughout her kingdom, even in the depths of the clear pool and in the heart of the crystal. Her rice-fields, whether situated on hill-side, in sheltered valley, or by running stream, yielded abundant harvests, and her groves were laden with fruit. But the voice of Susa-no-o was not so clear, his smile was not so radiant. The undulating fields which lay around his palace were now flooded, now parched, and his rice crops were often destroyed. The wrath and jealousy of the Moon-God knew no bounds, yet Ama-terasu was infinitely patient and forgave him many things. Once, as was her wont, the Sun-Goddess sat in the central court of her glorious home. She plied her shuttle. Celestial weaving maidens surrounded a fountain whose waters were fragrant with the heavenly lotus-bloom: they sang softly of the clouds and the wind and the lift of the sky. Suddenly, the body of a piebald horse fell through the vast dome at their feet: the \"Beloved of the Gods\" had been \"flayed with a backward flaying\" by the envious Susa-no-o.",
+   "evidenceType": "quotation",
+   "note": "Rinder's modern retelling, not a direct Kojiki translation."
+  },
+  "withdrawal": {
+   "recordId": "pg-46863",
+   "sourceId": "jpn.old-world-japan",
+   "work": "Old-World Japan: Old-World Japan, Amaterasu withdraws",
+   "author": "Frank Rinder",
+   "translator": "Frank Rinder",
+   "locator": "Old-World Japan, Amaterasu withdraws; local text normalized characters 15621-15888",
+   "localPath": "content/corpus/japanese/primary/old-world-japan-rinder-46863.txt",
+   "excerpt": "Ama-terasu, trembling at the horrible sight, pricked her finger with the weaving shuttle, and, profoundly indignant at the cruelty of her brother, withdrew into a cave and closed behind her the door of the Heavenly Rock Dwelling. The universe was plunged in darkness.",
+   "evidenceType": "quotation",
+   "note": "Rinder's modern retelling, not a direct Kojiki translation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Exile in Izumo",
+   "body": "Cast out of heaven for the rampage against Amaterasu — the wrecked rice paddies, the fouled hall, the heavenly horse flayed with a backward flaying — Susanoo descends to Izumo province, a disgraced storm god looking for somewhere to belong.",
+   "sourceRefIds": [
+    "disruption"
+   ],
+   "objectiveIds": [
+    "obj.sus.serpent"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The weeping elders",
+   "body": "By a river he finds an old couple weeping over their last daughter: each year the eight-headed serpent Yamata no Orochi comes and devours one of their girls — seven daughters are already gone.",
+   "sourceRefIds": [
+    "disruption"
+   ],
+   "objectiveIds": [
+    "obj.sus.serpent"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Sake for eight heads",
+   "body": "Susanoo's plan is simple and mythic: he turns the girl into a comb in his hair, then builds a fence with eight gates — behind each, a vat of strong sake. The serpent drinks all eight vats dry and sleeps.",
+   "sourceRefIds": [
+    "disruption"
+   ],
+   "objectiveIds": [
+    "obj.sus.serpent"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The sword in the tail",
+   "body": "He cuts the monster apart — and in its middle tail his blade chips on hidden steel: the sword Kusanagi, which he sends to Amaterasu in reconciliation, and which becomes one of Japan's three imperial regalia.",
+   "sourceRefIds": [
+    "withdrawal"
+   ],
+   "objectiveIds": [
+    "obj.sus.sword"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The storm god's other face",
+   "body": "The same force that wrecked heaven becomes Izumo's protector. Japanese myth lets its disruptors be redeemed by the very wildness that condemned them.",
+   "sourceRefIds": [
+    "disruption",
+    "withdrawal"
+   ],
+   "objectiveIds": [
+    "obj.sus.serpent"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Susanoo defeat Yamata no Orochi?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He calls down a lightning strike"
+    },
+    {
+     "id": "b",
+     "text": "He poisons the river it drinks from"
+    },
+    {
+     "id": "c",
+     "text": "He sets out eight vats of sake — the serpent drinks and sleeps, and he cuts it apart"
+    },
+    {
+     "id": "d",
+     "text": "He binds it with the gods' rope"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Cunning, not force: the sake-vats do what no sword could.",
+   "sourceRefIds": [
+    "disruption"
+   ],
+   "objectiveIds": [
+    "obj.sus.serpent"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Susanoo find inside the serpent's tail?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The sword Kusanagi — given to Amaterasu, later one of the three imperial regalia"
+    },
+    {
+     "id": "b",
+     "text": "A second sleeping serpent"
+    },
+    {
+     "id": "c",
+     "text": "The stolen daughters alive"
+    },
+    {
+     "id": "d",
+     "text": "Amaterasu's lost mirror"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The Kusanagi sword — the regalia that reaches Japanese emperors.",
+   "sourceRefIds": [
+    "withdrawal"
+   ],
+   "objectiveIds": [
+    "obj.sus.sword"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

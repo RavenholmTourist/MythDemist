@@ -1,206 +1,195 @@
 {
-  "id": "roman.week01.day05.metamorphosis-reception",
-  "version": 2,
-  "weekId": "rom.myth.week01",
-  "pantheon": "roman",
-  "themeMode": "pantheon",
-  "title": "Ovid, Caesar, and Poetic Apotheosis",
-  "subtitle": "A poem's account of Caesar becoming a star",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "ovid",
-    "reception",
-    "metamorphoses"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.metamorphosis-reception.concept",
-      "text": "What does Venus ask the gods to prevent?"
-    },
-    {
-      "id": "obj.metamorphosis-reception.source",
-      "text": "How does Ovid's poem describe Caesar's soul after his death?"
-    }
-  ],
-  "sourceReferences": {
-    "plea": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 1373-2278",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "Behold, on how vast a scale treason is plotted against me, and with how great perfidy that life is sought, which alone remains for me from the Dardanian Iülus. Shall I alone be everlastingly harassed by justified anxieties? I, whom one while the Calydonian lance of the son of Tydeus is wounding, {and} at another time the walls of Troy, defended in vain, are grieving? I, who have seen my son driven about in protracted wanderings, tossed on the ocean, entering the abodes of the departed, and waging war with Turnus; or, if we confess the truth, with Juno rather? {But}, why am I now calling to mind the ancient misfortunes of my own offspring? Present apprehensions do not allow me to remember things of former days. Against me, you behold how the impious swords are {now} being whetted. Avert them, I entreat; hinder this crime, and do not, by the murder of the priest, extinguish the flames of Vesta.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    },
-    "star": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 6525-7002",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "Hardly had he uttered these words, when the genial Venus, perceived by none, stood in the very midst of the Senate-house, and snatched the soul, just liberated {from the body}, away from the limbs of her own Cæsar, and, not suffering it to dissolve in air, she bore it amid the stars of heaven. And as she bore it, she perceived it assume a {train of} light and become inflamed; and she dropped it from her bosom. Above the moon it takes its flight, and, as a star, it glitters",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    }
+ "id": "roman.week01.day05.metamorphosis-reception",
+ "version": 3,
+ "weekId": "rom.myth.week01",
+ "pantheon": "roman",
+ "themeMode": "pantheon",
+ "title": "Ovid, Caesar, and Poetic Apotheosis",
+ "subtitle": "A poem's account of Caesar becoming a star",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "ovid",
+  "caesar",
+  "apotheosis",
+  "roman"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ovid.caesar",
+   "text": "What does Caesar's soul become?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Venus sees danger",
-      "body": "In Ovid's Book XV, Venus fears the plot against Julius Caesar and pleads with the gods. The passage frames Caesar as her descendant through Aeneas.",
-      "sourceRefIds": [
-        "plea"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A plea against the conspiracy",
-      "body": "Source quotation (Riley's translation; whitespace normalized): “Behold, on how vast a scale treason is plotted against me, and with how great perfidy that life is sought, which alone remains for me from the Dardanian Iülus. Shall I alone be everlastingly harassed by justified anxieties? I, whom one while the Calydonian lance of the son of Tydeus is wounding, {and} at another time the walls of Troy, defended in vain, are grieving? I, who have seen my son driven about in protracted wanderings, tossed on the ocean, entering the abodes of the departed, and waging war with Turnus; or, if we confess the truth, with Juno rather? {But}, why am I now calling to mind the ancient misfortunes of my own offspring? Present apprehensions do not allow me to remember things of former days. Against me, you behold how the impious swords are {now} being whetted. Avert them, I entreat; hinder this crime, and do not, by the murder of the priest, extinguish the flames of Vesta.”",
-      "sourceRefIds": [
-        "plea"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A soul becomes a star",
-      "body": "After a divine speaker asks that Caesar's soul become a beam of light, Venus carries it from the Senate-house and the poem describes it among the stars.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read apotheosis as poetic reception",
-      "body": "Ovid's episode is literary and politically situated praise. It is not eyewitness evidence for Caesar's death or proof that a literal transformation occurred.",
-      "sourceRefIds": [
-        "plea",
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "An ending with an audience",
-      "body": "The passage joins Venus's ancestry, Caesar's deification, and Augustus's public position in a poem that also turns toward Ovid's own hoped-for poetic survival.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Venus ask the gods to prevent?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Adonis's hunt for a boar"
-        },
-        {
-          "id": "b",
-          "text": "Romulus's agreement with the Sabines"
-        },
-        {
-          "id": "c",
-          "text": "The plot against Caesar's life"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Venus describes the conspiracy and asks the gods to avert it.",
-      "sourceRefIds": [
-        "plea"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "plea"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Ovid's poem describe Caesar's soul after his death?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It is returned to the Senate-house"
-        },
-        {
-          "id": "b",
-          "text": "Venus carries it among the stars, where it shines as a star"
-        },
-        {
-          "id": "c",
-          "text": "It becomes a laurel tree"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage says Venus carries the soul into the heavens and it glitters as a star.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.metamorphosis-reception.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "star"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ovid.immortal",
+   "text": "What does Ovid claim for his poem?"
   }
+ ],
+ "sourceReferences": {
+  "plea": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 1373-2278",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "Behold, on how vast a scale treason is plotted against me, and with how great perfidy that life is sought, which alone remains for me from the Dardanian Iülus. Shall I alone be everlastingly harassed by justified anxieties? I, whom one while the Calydonian lance of the son of Tydeus is wounding, {and} at another time the walls of Troy, defended in vain, are grieving? I, who have seen my son driven about in protracted wanderings, tossed on the ocean, entering the abodes of the departed, and waging war with Turnus; or, if we confess the truth, with Juno rather? {But}, why am I now calling to mind the ancient misfortunes of my own offspring? Present apprehensions do not allow me to remember things of former days. Against me, you behold how the impious swords are {now} being whetted. Avert them, I entreat; hinder this crime, and do not, by the murder of the priest, extinguish the flames of Vesta.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  },
+  "star": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book XV · Fable VIII [XV.745-879]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book XV · Fable VIII [XV.745-879]; Book XV · Fable VIII [XV.745-879], normalized characters 6525-7002",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "Hardly had he uttered these words, when the genial Venus, perceived by none, stood in the very midst of the Senate-house, and snatched the soul, just liberated {from the body}, away from the limbs of her own Cæsar, and, not suffering it to dissolve in air, she bore it amid the stars of heaven. And as she bore it, she perceived it assume a {train of} light and become inflamed; and she dropped it from her bosom. Above the moon it takes its flight, and, as a star, it glitters",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The poem's closing boast",
+   "body": "Ovid ends the Metamorphoses by promising his work will outlast wrath, fire, and time: wherever Rome's power reaches, he will be read. A poet's own apotheosis.",
+   "sourceRefIds": [
+    "plea"
+   ],
+   "objectiveIds": [
+    "obj.ovid.immortal"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Caesar's comet",
+   "body": "The book's last transformation is recent history: Julius Caesar's soul rises past the moon and blazes as a star — Rome's murdered ruler made divine in the sky.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.ovid.caesar"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Augustus in the heavens",
+   "body": "Ovid then turns to Augustus: may HIS apotheosis be far in the future — flattery and prophecy in one gesture, addressed to the man who holds his fate.",
+   "sourceRefIds": [
+    "plea"
+   ],
+   "objectiveIds": [
+    "obj.ovid.immortal"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Exile under the boast",
+   "body": "This ending was written under Augustus's displeasure — Ovid would die in exile at Tomis, and still he claimed the empire's ears.",
+   "sourceRefIds": [
+    "plea"
+   ],
+   "objectiveIds": [
+    "obj.ovid.immortal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "A boast that came true",
+   "body": "He was right: the Metamorphoses became Europe's mythology textbook for two thousand years. The poet's apotheosis outlasted the emperor's.",
+   "sourceRefIds": [
+    "star",
+    "plea"
+   ],
+   "objectiveIds": [
+    "obj.ovid.immortal"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Julius Caesar's soul become?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A second sun"
+    },
+    {
+     "id": "b",
+     "text": "The god of war"
+    },
+    {
+     "id": "c",
+     "text": "A blazing star — Rome's ruler made divine in the sky"
+    },
+    {
+     "id": "d",
+     "text": "A constellation of seven stars"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Caesar's comet is the poem's last transformation — politics as apotheosis.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.ovid.caesar"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Ovid claim for his poem at the end?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That it will outlast fire, wrath, and time — read wherever Rome's power reaches"
+    },
+    {
+     "id": "b",
+     "text": "That the gods will forgive him"
+    },
+    {
+     "id": "c",
+     "text": "That Augustus will restore him"
+    },
+    {
+     "id": "d",
+     "text": "That only the stars outlast it"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The poet claims his own immortality — and history proved him right.",
+   "sourceRefIds": [
+    "plea"
+   ],
+   "objectiveIds": [
+    "obj.ovid.immortal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

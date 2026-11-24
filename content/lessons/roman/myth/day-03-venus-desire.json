@@ -1,207 +1,195 @@
 {
-  "id": "roman.week01.day03.venus-desire",
-  "version": 2,
-  "weekId": "rom.myth.week01",
-  "pantheon": "roman",
-  "themeMode": "pantheon",
-  "title": "Venus and Adonis: Warning and Loss",
-  "subtitle": "A warning, a hunt, and a flower",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "venus",
-    "desire",
-    "legacy"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.venus-desire.concept",
-      "text": "What danger does Venus tell Adonis to avoid?"
-    },
-    {
-      "id": "obj.venus-desire.source",
-      "text": "What happens to Adonis's blood in the later episode?"
-    }
-  ],
-  "sourceReferences": {
-    "warning": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book X · Fable IX [X.519-707]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book X · Fable IX [X.519-707]; Book X · Fable IX [X.519-707], normalized characters 1723-2214",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "Forbear, youth, to be rash at my hazard, and attack not the wild beasts to which nature has granted arms, lest thy {thirst for} glory should cost me dear. Neither thy age, nor thy beauty, nor {other} things which have made an impression on Venus, make any impression on lions and bristly boars, and the eyes and the tempers of wild beasts. The fierce boars carry lightning[54] in their curving tusks; there is rage and fury unlimited in the tawny lions; and the {whole} race is odious to me.",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    },
-    "flower": {
-      "recordId": "roman-pg-26073",
-      "sourceId": "rom.ovid.metamorphoses-8-15",
-      "work": "Metamorphoses, Book X · Fable X [X.708-739]",
-      "author": "Ovid",
-      "translator": "Henry T. Riley",
-      "locator": "Book X · Fable X [X.708-739]; Book X · Fable X [X.708-739], normalized characters 1254-1745",
-      "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
-      "excerpt": "But thy blood shall be changed into a flower. Was it formerly allowed thee, Persephone, to change the limbs[65] of a female into fragrant mint; and shall the hero, the son of Cinyras, {if} changed, be a cause of displeasure against me?’ Having thus said, she sprinkles his blood with odoriferous nectar, which, touched by it, effervesces, just as the transparent bubbles are wont to rise in rainy weather. Nor was there a pause longer than a full hour, when a flower sprang up from the blood",
-      "evidenceType": "quotation",
-      "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
-    }
+ "id": "roman.week01.day03.venus-desire",
+ "version": 3,
+ "weekId": "rom.myth.week01",
+ "pantheon": "roman",
+ "themeMode": "pantheon",
+ "title": "Venus and Adonis: Warning and Loss",
+ "subtitle": "A warning, a hunt, and a flower",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "venus",
+  "adonis",
+  "anemone",
+  "roman"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ven.warning",
+   "text": "What warning does Venus give Adonis?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Venus warns Adonis",
-      "body": "Venus warns Adonis against attacking dangerous wild animals, especially boars and lions. Her warning is part of Ovid's narrative of their relationship.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The warning names the danger",
-      "body": "Source quotation (Riley's translation; whitespace normalized): “Forbear, youth, to be rash at my hazard, and attack not the wild beasts to which nature has granted arms, lest thy {thirst for} glory should cost me dear. Neither thy age, nor thy beauty, nor {other} things which have made an impression on Venus, make any impression on lions and bristly boars, and the eyes and the tempers of wild beasts. The fierce boars carry lightning[54] in their curving tusks; there is rage and fury unlimited in the tawny lions; and the {whole} race is odious to me.”",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The warning is not obeyed",
-      "body": "In the next episode, Adonis is killed by a boar while hunting. Venus says his blood will become a flower and marks his death with mourning.",
-      "sourceRefIds": [
-        "flower"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A literary version, not a universal rite",
-      "body": "The lesson follows Ovid's Book X sequence in Riley's translation. The poem describes Venus's action; it does not prove that every community told the story or marked the death in the same way.",
-      "sourceRefIds": [
-        "warning",
-        "flower"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Advice and consequence",
-      "body": "The two passages connect Venus's warning with the later transformation of Adonis's blood into a flower.",
-      "sourceRefIds": [
-        "warning",
-        "flower"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What danger does Venus tell Adonis to avoid?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Looking into a reflective pool"
-        },
-        {
-          "id": "b",
-          "text": "Attacking wild animals armed by nature"
-        },
-        {
-          "id": "c",
-          "text": "Sailing during a storm"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Venus specifically warns him not to attack wild animals such as boars and lions.",
-      "sourceRefIds": [
-        "warning"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "warning"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What happens to Adonis's blood in the later episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Venus changes it into a flower"
-        },
-        {
-          "id": "b",
-          "text": "It becomes a laurel tree"
-        },
-        {
-          "id": "c",
-          "text": "It turns into a constellation"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Venus says his blood will become a flower, and the narrator describes one springing up.",
-      "sourceRefIds": [
-        "flower"
-      ],
-      "objectiveIds": [
-        "obj.venus-desire.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the cited book and fable in Ovid's translated poem.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Is this narrative evidence or a later editorial explanation?"
-        ],
-        "sourceRefIds": [
-          "flower"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ven.flower",
+   "text": "What does Adonis become?"
   }
+ ],
+ "sourceReferences": {
+  "warning": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book X · Fable IX [X.519-707]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book X · Fable IX [X.519-707]; Book X · Fable IX [X.519-707], normalized characters 1723-2214",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "Forbear, youth, to be rash at my hazard, and attack not the wild beasts to which nature has granted arms, lest thy {thirst for} glory should cost me dear. Neither thy age, nor thy beauty, nor {other} things which have made an impression on Venus, make any impression on lions and bristly boars, and the eyes and the tempers of wild beasts. The fierce boars carry lightning[54] in their curving tusks; there is rage and fury unlimited in the tawny lions; and the {whole} race is odious to me.",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  },
+  "flower": {
+   "recordId": "roman-pg-26073",
+   "sourceId": "rom.ovid.metamorphoses-8-15",
+   "work": "Metamorphoses, Book X · Fable X [X.708-739]",
+   "author": "Ovid",
+   "translator": "Henry T. Riley",
+   "locator": "Book X · Fable X [X.708-739]; Book X · Fable X [X.708-739], normalized characters 1254-1745",
+   "localPath": "content/corpus/roman/primary/ovid-metamorphoses-books-8-15-26073.txt",
+   "excerpt": "But thy blood shall be changed into a flower. Was it formerly allowed thee, Persephone, to change the limbs[65] of a female into fragrant mint; and shall the hero, the son of Cinyras, {if} changed, be a cause of displeasure against me?’ Having thus said, she sprinkles his blood with odoriferous nectar, which, touched by it, effervesces, just as the transparent bubbles are wont to rise in rainy weather. Nor was there a pause longer than a full hour, when a flower sprang up from the blood",
+   "evidenceType": "quotation",
+   "note": "Verbatim translated verse from Ovid. Riley's arguments, synopses, notes, and explanations are separately indexed and are not quoted as primary verse."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The goddess who fell for a hunter",
+   "body": "Scratched by Cupid's arrow, Venus falls hopelessly for the mortal hunter Adonis — and abandons heaven to tramp the hills at his side, a goddess acting the huntress.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ven.warning"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A lover's warning",
+   "body": "She warns him as she leaves: hunt only the timid creatures — never the fierce beasts that turn and fight. She even tells him Atalanta's story to make the lesson stick.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ven.warning"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The wound that kills",
+   "body": "Adonis ignores her: his hounds rouse a wild boar, his spear only wounds it — and the boar gores him to death in the groin. The hunter dies as hunters die.",
+   "sourceRefIds": [
+    "flower"
+   ],
+   "objectiveIds": [
+    "obj.ven.flower"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Blood into anemone",
+   "body": "Venus finds him dying and pours nectar on his blood: it swells and blooms into the anemone — the wind-flower, beautiful and as brief as the boy it remembers.",
+   "sourceRefIds": [
+    "flower"
+   ],
+   "objectiveIds": [
+    "obj.ven.flower"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Love and loss, one poem",
+   "body": "Ovid's Adonis is the pattern of the whole book: desire and grief are the same story, and a flower is the shape mourning takes.",
+   "sourceRefIds": [
+    "warning",
+    "flower"
+   ],
+   "objectiveIds": [
+    "obj.ven.flower"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What warning does Venus give Adonis?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Never hunt alone"
+    },
+    {
+     "id": "b",
+     "text": "Never boast of his kills"
+    },
+    {
+     "id": "c",
+     "text": "Hunt only timid game — never the fierce beasts that turn to fight"
+    },
+    {
+     "id": "d",
+     "text": "Never hunt at dawn"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "She warns him off the dangerous game — and he ignores it.",
+   "sourceRefIds": [
+    "warning"
+   ],
+   "objectiveIds": [
+    "obj.ven.warning"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Adonis become at death?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The anemone — the wind-flower sprung from his nectar-sprinkled blood"
+    },
+    {
+     "id": "b",
+     "text": "A stream where hunters drink"
+    },
+    {
+     "id": "c",
+     "text": "The wild rose"
+    },
+    {
+     "id": "d",
+     "text": "A star in Orion's belt"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The brief anemone is his memorial — beauty as short-lived as he was.",
+   "sourceRefIds": [
+    "flower"
+   ],
+   "objectiveIds": [
+    "obj.ven.flower"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

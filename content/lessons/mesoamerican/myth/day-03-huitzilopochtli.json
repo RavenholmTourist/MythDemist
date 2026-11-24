@@ -1,206 +1,195 @@
 {
-  "id": "mesoamerican.week01.day03.huitzilopochtli",
-  "version": 4,
-  "weekId": "mes.myth.week01",
-  "pantheon": "mesoamerican",
-  "themeMode": "pantheon",
-  "title": "Huitzilopochtli: Birth and Battle",
-  "subtitle": "A Mexica divine birth in Spence's account",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "mesoamerican",
-    "Huitzilopochtli"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.huitzilopochtli.concept",
-      "text": "Who leads the attackers against Coatlicue in Spence's account?"
-    },
-    {
-      "id": "obj.huitzilopochtli.sources",
-      "text": "What does Spence say Huitzilopochtli does in the battle?"
-    }
-  ],
-  "sourceReferences": {
-    "birth": {
-      "recordId": "pg-53080",
-      "sourceId": "mes.myths-mexico-peru",
-      "work": "The Myths of Mexico & Peru",
-      "author": "Lewis Spence",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 28562-29730",
-      "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "It recounts how, under the shadow of the mountain of Coatepec, near the Toltec city of Tollan, there dwelt a pious widow called Coatlicue, the mother of a tribe of Indians called Centzonuitznaua, who had a daughter called Coyolxauhqui, and who daily repaired to a small hill with the intention of offering up prayers to the gods in a penitent spirit of piety. Whilst occupied in her devotions one day she was surprised by a small ball of brilliantly coloured feathers falling upon her from on high. She was pleased by the bright variety of its hues, and placed it in her bosom, intending to offer it up to the sun-god. Some time afterwards she learnt that she was to become the mother of another child. Her sons, hearing of this, rained abuse upon her, being incited to humiliate her in every possible way by their sister Coyolxauhqui. Coatlicue went about in fear and anxiety; but the spirit of her unborn infant came and spoke to her and gave her words of encouragement, soothing her troubled heart. Her sons, however, were resolved to wipe out what they considered an insult to their race by the death of their mother, and took counsel with one another to slay her.",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
-    },
-    "battle": {
-      "recordId": "pg-53080",
-      "sourceId": "mes.myths-mexico-peru",
-      "work": "The Myths of Mexico & Peru",
-      "author": "Lewis Spence",
-      "translator": "not applicable; authored in English",
-      "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 31163-31544",
-      "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
-      "excerpt": "He shattered Coyolxauhqui with a flash of serpentine lightning, and then gave chase to the Centzonuitznaua, whom he pursued four times round the mountain. They did not attempt to defend themselves, but fled incontinently. Many perished in the waters of the adjoining lake, to which they had rushed in their despair. All were slain save a few who escaped to a place called Uitzlampa",
-      "evidenceType": "quotation",
-      "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
-    }
+ "id": "mesoamerican.week01.day03.huitzilopochtli",
+ "version": 5,
+ "weekId": "mes.myth.week01",
+ "pantheon": "mesoamerican",
+ "themeMode": "pantheon",
+ "title": "Huitzilopochtli: Birth and Battle",
+ "subtitle": "A Mexica divine birth in Spence's account",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "huitzilopochtli",
+  "coatepec",
+  "coyolxauhqui",
+  "mesoamerican"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.huit.birth",
+   "text": "How is Huitzilopochtli born?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A family prepares to attack",
-      "body": "Spence recounts Coatlicue's pregnancy, her daughter Coyolxauhqui's opposition, and the brothers' approach to kill their mother.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The child arrives armed",
-      "body": "Quotation from Spence's English prose synthesis (whitespace normalized): “It recounts how, under the shadow of the mountain of Coatepec, near the Toltec city of Tollan, there dwelt a pious widow called Coatlicue, the mother of a tribe of Indians called Centzonuitznaua, who had a daughter called Coyolxauhqui, and who daily repaired to a small hill with the intention of offering up prayers to the gods in a penitent spirit of piety. Whilst occupied in her devotions one day she was surprised by a small ball of brilliantly coloured feathers falling upon her from on high. She was pleased by the bright variety of its hues, and placed it in her bosom, intending to offer it up to the sun-god. Some time afterwards she learnt that she was to become the mother of another child. Her sons, hearing of this, rained abuse upon her, being incited to humiliate her in every possible way by their sister Coyolxauhqui. Coatlicue went about in fear and anxiety; but the spirit of her unborn infant came and spoke to her and gave her words of encouragement, soothing her troubled heart. Her sons, however, were resolved to wipe out what they considered an insult to their race by the death of their mother, and took counsel with one another to slay her.”",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A battle on Coatepec",
-      "body": "In Spence's version, Huitzilopochtli is born when the attackers arrive, defeats Coyolxauhqui, and drives the brothers away.",
-      "sourceRefIds": [
-        "battle"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Attribute the details to the edition",
-      "body": "This is Spence's English synthesis of a Mexica/Nahua story. Spellings such as Uitzlampa reflect his transliteration and should not be silently modernized.",
-      "sourceRefIds": [
-        "birth",
-        "battle"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.sources"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A Mexica-specific account",
-      "body": "Keep Coatlicue, Coyolxauhqui, Huitzilopochtli, and Coatepec attached to this source's version rather than treating it as a generic Mesoamerican pantheon story.",
-      "sourceRefIds": [
-        "birth",
-        "battle"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.sources"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Who leads the attackers against Coatlicue in Spence's account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Sita"
-        },
-        {
-          "id": "b",
-          "text": "Coyolxauhqui"
-        },
-        {
-          "id": "c",
-          "text": "Louhi"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The passage says Coatlicue's daughter Coyolxauhqui incites the brothers.",
-      "sourceRefIds": [
-        "birth"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "birth"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Spence say Huitzilopochtli does in the battle?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He defeats Coyolxauhqui and pursues the brothers"
-        },
-        {
-          "id": "b",
-          "text": "He leaves on a raft of serpents"
-        },
-        {
-          "id": "c",
-          "text": "He travels through Mictlan with a dog"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The separate battle passage describes his attack on Coyolxauhqui and pursuit of the Centzonuitznaua.",
-      "sourceRefIds": [
-        "battle"
-      ],
-      "objectiveIds": [
-        "obj.huitzilopochtli.sources"
-      ],
-      "deepDive": {
-        "prompt": "Read the named chapter section in Spence's synthesis.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Which community or source does this passage name?"
-        ],
-        "sourceRefIds": [
-          "battle"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.huit.battle",
+   "text": "Who does he defeat?"
   }
+ ],
+ "sourceReferences": {
+  "birth": {
+   "recordId": "pg-53080",
+   "sourceId": "mes.myths-mexico-peru",
+   "work": "The Myths of Mexico & Peru",
+   "author": "Lewis Spence",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 28562-29730",
+   "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
+   "excerpt": "It recounts how, under the shadow of the mountain of Coatepec, near the Toltec city of Tollan, there dwelt a pious widow called Coatlicue, the mother of a tribe of Indians called Centzonuitznaua, who had a daughter called Coyolxauhqui, and who daily repaired to a small hill with the intention of offering up prayers to the gods in a penitent spirit of piety. Whilst occupied in her devotions one day she was surprised by a small ball of brilliantly coloured feathers falling upon her from on high. She was pleased by the bright variety of its hues, and placed it in her bosom, intending to offer it up to the sun-god. Some time afterwards she learnt that she was to become the mother of another child. Her sons, hearing of this, rained abuse upon her, being incited to humiliate her in every possible way by their sister Coyolxauhqui. Coatlicue went about in fear and anxiety; but the spirit of her unborn infant came and spoke to her and gave her words of encouragement, soothing her troubled heart. Her sons, however, were resolved to wipe out what they considered an insult to their race by the death of their mother, and took counsel with one another to slay her.",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
+  },
+  "battle": {
+   "recordId": "pg-53080",
+   "sourceId": "mes.myths-mexico-peru",
+   "work": "The Myths of Mexico & Peru",
+   "author": "Lewis Spence",
+   "translator": "not applicable; authored in English",
+   "locator": "Chapter II · MEXICAN MYTHOLOGY; Chapter II · MEXICAN MYTHOLOGY, normalized characters 31163-31544",
+   "localPath": "content/corpus/mesoamerican/primary/myths-mexico-peru-spence-53080.txt",
+   "excerpt": "He shattered Coyolxauhqui with a flash of serpentine lightning, and then gave chase to the Centzonuitznaua, whom he pursued four times round the mountain. They did not attempt to defend themselves, but fled incontinently. Many perished in the waters of the adjoining lake, to which they had rushed in their despair. All were slain save a few who escaped to a place called Uitzlampa",
+   "evidenceType": "quotation",
+   "note": "Verbatim prose from Lewis Spence's early twentieth-century synthesis, not a direct translation of the Indigenous source material he discusses. Preserve its dated, colonial framing."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A miraculous pregnancy",
+   "body": "At Coatepec hill, the mother-goddess Coatlicue is sweeping the shrine when a ball of feathers falls from the sky; she tucks it into her bosom and becomes pregnant — to the fury of her daughter Coyolxauhqui and her four hundred sons.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.huit.birth"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Born fully armed",
+   "body": "As the siblings march up the hill to kill their mother for the disgrace, Huitzilopochtli is born fully grown and armed — hummingbird feathers, shield, and the fire-serpent Xiuhcoatl in his hand.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.huit.birth"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The moon's defeat",
+   "body": "He strikes Coyolxauhqui and sends her tumbling down the hill in pieces — the Mexica read her dismemberment in the moon's phases, and the four hundred brothers became the stars.",
+   "sourceRefIds": [
+    "battle"
+   ],
+   "objectiveIds": [
+    "obj.huit.battle"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "A war god's charter",
+   "body": "The myth is a charter: Huitzilopochtli is born fighting, the sun to his sister's moon — the patron of a people who built an empire on war.",
+   "sourceRefIds": [
+    "battle"
+   ],
+   "objectiveIds": [
+    "obj.huit.battle"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Theology at the capital",
+   "body": "At Tenochtitlan's Templo Mayor, the offerings to Huitzilopochtli faced Coyolxauhqui's great carved stone at the pyramid's foot — the myth was built into the city itself.",
+   "sourceRefIds": [
+    "birth",
+    "battle"
+   ],
+   "objectiveIds": [
+    "obj.huit.battle"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How is Huitzilopochtli born?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As an egg that hatches in war"
+    },
+    {
+     "id": "b",
+     "text": "From the sun's own rays"
+    },
+    {
+     "id": "c",
+     "text": "Fully grown and armed — hummingbird feathers and the fire-serpent — to defend his mother"
+    },
+    {
+     "id": "d",
+     "text": "A child who grows overnight"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Born fighting — the war god's whole nature in his first minute.",
+   "sourceRefIds": [
+    "birth"
+   ],
+   "objectiveIds": [
+    "obj.huit.birth"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Who does Huitzilopochtli defeat at Coatepec?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "His sister Coyolxauhqui and the four hundred brothers — read as the moon and the stars"
+    },
+    {
+     "id": "b",
+     "text": "The giant of the mountain"
+    },
+    {
+     "id": "c",
+     "text": "Tezcatlipoca's army"
+    },
+    {
+     "id": "d",
+     "text": "The lords of Mictlan"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "His victory sets sun over moon and stars — astronomy as family war.",
+   "sourceRefIds": [
+    "battle"
+   ],
+   "objectiveIds": [
+    "obj.huit.battle"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

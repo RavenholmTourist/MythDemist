@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T19:19:59.291585+00:00",
+  "generatedAt": "2026-11-24T19:28:11.265869+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -2022,19 +2022,18 @@
       "assessment": null,
       "themes": [
         "amaterasu",
-        "boundary",
+        "cave",
         "creation",
+        "folktale",
         "izanagi",
         "izanami",
         "japanese",
-        "kami",
-        "light",
-        "place",
-        "reconciliation",
-        "retreat",
-        "sacred",
-        "storm",
-        "susanoo"
+        "kusanagi",
+        "orochi",
+        "susanoo",
+        "time",
+        "urashima",
+        "yomi"
       ]
     },
     {
@@ -2052,19 +2051,21 @@
       ],
       "assessment": null,
       "themes": [
-        "desire",
+        "adonis",
+        "anemone",
+        "apotheosis",
+        "caesar",
+        "daphne",
+        "flood",
         "jupiter",
-        "legacy",
+        "lycaon",
         "mars",
         "metamorphoses",
         "ovid",
-        "power",
-        "reception",
+        "quirinus",
         "roman",
-        "state",
-        "transformation",
-        "venus",
-        "war"
+        "romulus",
+        "venus"
       ]
     },
     {
@@ -2082,16 +2083,22 @@
       ],
       "assessment": null,
       "themes": [
-        "Chang\u2019e",
-        "Earth,",
-        "Heaven,",
-        "Immortals",
-        "N\u00fcwa:",
-        "Repairing",
-        "Taming",
-        "Yu:",
-        "and",
-        "chinese"
+        "archer",
+        "benevolent",
+        "chinese",
+        "creation",
+        "elixir",
+        "flood",
+        "folktale",
+        "hengo",
+        "kungkung",
+        "moon",
+        "nukua",
+        "panku",
+        "pillars",
+        "shenyi",
+        "suns",
+        "taoist"
       ]
     },
     {
@@ -2109,14 +2116,22 @@
       ],
       "assessment": null,
       "themes": [
-        "Five",
-        "Huitzilopochtli",
-        "Obligation",
-        "Quetzalcoatl",
-        "Road",
-        "Sacred",
-        "The",
-        "mesoamerican"
+        "coatepec",
+        "coyolxauhqui",
+        "death",
+        "departure",
+        "fifth-sun",
+        "huitzilopochtli",
+        "mesoamerican",
+        "mexica",
+        "mictlan",
+        "nanahuatl",
+        "omen",
+        "quetzalcoatl",
+        "sacrifice",
+        "tenochtitlan",
+        "tollan",
+        "xolo"
       ]
     },
     {
@@ -4623,21 +4638,21 @@
     },
     {
       "id": "jpn.kami.day01.creation",
-      "version": 2,
+      "version": 3,
       "pantheon": "japanese",
       "title": "Izanagi and Izanami",
       "weekId": "jpn.kami.week01",
       "tags": [
-        "japanese",
         "izanagi",
         "izanami",
-        "creation"
+        "creation",
+        "japanese"
       ],
       "difficulty": 2,
       "path": "content/lessons/japanese/creation/day-01-creation.json",
       "objectiveIds": [
-        "obj.creation.concept",
-        "obj.creation.source"
+        "obj.iz.creation",
+        "obj.iz.flaw"
       ],
       "recordIds": [
         "pg-46863"
@@ -4660,20 +4675,21 @@
     },
     {
       "id": "japanese.week01.day02.amaterasu-light",
-      "version": 2,
+      "version": 3,
       "pantheon": "japanese",
       "title": "Amaterasu: Light and Withdrawal",
       "weekId": "jpn.kami.week01",
       "tags": [
         "amaterasu",
-        "light",
-        "retreat"
+        "susanoo",
+        "cave",
+        "japanese"
       ],
       "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-02-amaterasu-light.json",
       "objectiveIds": [
-        "obj.amaterasu-light.concept",
-        "obj.amaterasu-light.source"
+        "obj.ama.rampage",
+        "obj.ama.return"
       ],
       "recordIds": [
         "pg-46863"
@@ -4683,31 +4699,34 @@
       "cardCount": 5,
       "themes": [
         "amaterasu",
-        "light",
-        "retreat"
+        "cave",
+        "japanese",
+        "susanoo"
       ],
       "entities": [
         "amaterasu",
-        "light",
-        "retreat"
+        "cave",
+        "japanese",
+        "susanoo"
       ]
     },
     {
       "id": "japanese.week01.day03.susanoo-storm",
-      "version": 2,
+      "version": 3,
       "pantheon": "japanese",
       "title": "Susanoo: Disruption and Consequence",
       "weekId": "jpn.kami.week01",
       "tags": [
         "susanoo",
-        "storm",
-        "reconciliation"
+        "orochi",
+        "kusanagi",
+        "japanese"
       ],
       "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-03-susanoo-storm.json",
       "objectiveIds": [
-        "obj.susanoo-storm.concept",
-        "obj.susanoo-storm.source"
+        "obj.sus.serpent",
+        "obj.sus.sword"
       ],
       "recordIds": [
         "pg-46863"
@@ -4716,32 +4735,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "reconciliation",
-        "storm",
+        "japanese",
+        "kusanagi",
+        "orochi",
         "susanoo"
       ],
       "entities": [
-        "reconciliation",
-        "storm",
+        "japanese",
+        "kusanagi",
+        "orochi",
         "susanoo"
       ]
     },
     {
       "id": "japanese.week01.day04.kami-boundaries",
-      "version": 2,
+      "version": 3,
       "pantheon": "japanese",
       "title": "Urashima Taro: A Return Across Time",
       "weekId": "jpn.kami.week01",
       "tags": [
-        "kami",
-        "sacred",
-        "place"
+        "urashima",
+        "folktale",
+        "time",
+        "japanese"
       ],
       "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-04-kami-boundaries.json",
       "objectiveIds": [
-        "obj.kami-boundaries.concept",
-        "obj.kami-boundaries.source"
+        "obj.ura.voyage",
+        "obj.ura.box"
       ],
       "recordIds": [
         "pg-4018"
@@ -4750,32 +4772,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "kami",
-        "place",
-        "sacred"
+        "folktale",
+        "japanese",
+        "time",
+        "urashima"
       ],
       "entities": [
-        "kami",
-        "place",
-        "sacred"
+        "folktale",
+        "japanese",
+        "time",
+        "urashima"
       ]
     },
     {
       "id": "japanese.week01.day05.izanami-boundary",
-      "version": 2,
+      "version": 3,
       "pantheon": "japanese",
       "title": "Izanami: Death and Separation",
       "weekId": "jpn.kami.week01",
       "tags": [
         "izanami",
-        "creation",
-        "boundary"
+        "yomi",
+        "izanagi",
+        "japanese"
       ],
       "difficulty": 2,
       "path": "content/lessons/japanese/kami/day-05-izanami-boundary.json",
       "objectiveIds": [
-        "obj.izanami-boundary.concept",
-        "obj.izanami-boundary.source"
+        "obj.yomi.descent",
+        "obj.yomi.vow"
       ],
       "recordIds": [
         "pg-46863"
@@ -4784,33 +4809,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "boundary",
-        "creation",
-        "izanami"
+        "izanagi",
+        "izanami",
+        "japanese",
+        "yomi"
       ],
       "entities": [
-        "boundary",
-        "creation",
-        "izanami"
+        "izanagi",
+        "izanami",
+        "japanese",
+        "yomi"
       ]
     },
     {
       "id": "rom.myth.day01.ovid-change",
-      "version": 2,
+      "version": 3,
       "pantheon": "roman",
       "title": "Ovid: Change as Story",
       "weekId": "rom.myth.week01",
       "tags": [
-        "roman",
         "ovid",
         "metamorphoses",
-        "transformation"
+        "daphne",
+        "roman"
       ],
       "difficulty": 2,
       "path": "content/lessons/roman/ovid-change/day-01-ovid-change.json",
       "objectiveIds": [
-        "obj.ovid-change.concept",
-        "obj.ovid-change.source"
+        "obj.ovid.change",
+        "obj.ovid.daphne"
       ],
       "recordIds": [
         "roman-pg-21765"
@@ -4819,34 +4846,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "daphne",
         "metamorphoses",
         "ovid",
-        "roman",
-        "transformation"
+        "roman"
       ],
       "entities": [
+        "daphne",
         "metamorphoses",
         "ovid",
-        "roman",
-        "transformation"
+        "roman"
       ]
     },
     {
       "id": "roman.week01.day02.jupiter-reception",
-      "version": 2,
+      "version": 3,
       "pantheon": "roman",
       "title": "Jupiter and Lycaon: Judgment and Change",
       "weekId": "rom.myth.week01",
       "tags": [
+        "lycaon",
         "jupiter",
-        "reception",
-        "power"
+        "flood",
+        "roman"
       ],
       "difficulty": 2,
       "path": "content/lessons/roman/myth/day-02-jupiter-reception.json",
       "objectiveIds": [
-        "obj.jupiter-reception.concept",
-        "obj.jupiter-reception.source"
+        "obj.lyc.test",
+        "obj.lyc.wolf"
       ],
       "recordIds": [
         "roman-pg-21765"
@@ -4855,32 +4883,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "flood",
         "jupiter",
-        "power",
-        "reception"
+        "lycaon",
+        "roman"
       ],
       "entities": [
+        "flood",
         "jupiter",
-        "power",
-        "reception"
+        "lycaon",
+        "roman"
       ]
     },
     {
       "id": "roman.week01.day03.venus-desire",
-      "version": 2,
+      "version": 3,
       "pantheon": "roman",
       "title": "Venus and Adonis: Warning and Loss",
       "weekId": "rom.myth.week01",
       "tags": [
         "venus",
-        "desire",
-        "legacy"
+        "adonis",
+        "anemone",
+        "roman"
       ],
       "difficulty": 2,
       "path": "content/lessons/roman/myth/day-03-venus-desire.json",
       "objectiveIds": [
-        "obj.venus-desire.concept",
-        "obj.venus-desire.source"
+        "obj.ven.warning",
+        "obj.ven.flower"
       ],
       "recordIds": [
         "roman-pg-26073"
@@ -4889,32 +4920,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "desire",
-        "legacy",
+        "adonis",
+        "anemone",
+        "roman",
         "venus"
       ],
       "entities": [
-        "desire",
-        "legacy",
+        "adonis",
+        "anemone",
+        "roman",
         "venus"
       ]
     },
     {
       "id": "roman.week01.day04.mars-war-state",
-      "version": 2,
+      "version": 3,
       "pantheon": "roman",
       "title": "Mars, Romulus, and Roman Foundation",
       "weekId": "rom.myth.week01",
       "tags": [
         "mars",
-        "war",
-        "state"
+        "romulus",
+        "quirinus",
+        "roman"
       ],
       "difficulty": 2,
       "path": "content/lessons/roman/myth/day-04-mars-war-state.json",
       "objectiveIds": [
-        "obj.mars-war-state.concept",
-        "obj.mars-war-state.source"
+        "obj.mars.sons",
+        "obj.mars.quirinus"
       ],
       "recordIds": [
         "roman-pg-26073"
@@ -4924,31 +4958,34 @@
       "cardCount": 5,
       "themes": [
         "mars",
-        "state",
-        "war"
+        "quirinus",
+        "roman",
+        "romulus"
       ],
       "entities": [
         "mars",
-        "state",
-        "war"
+        "quirinus",
+        "roman",
+        "romulus"
       ]
     },
     {
       "id": "roman.week01.day05.metamorphosis-reception",
-      "version": 2,
+      "version": 3,
       "pantheon": "roman",
       "title": "Ovid, Caesar, and Poetic Apotheosis",
       "weekId": "rom.myth.week01",
       "tags": [
         "ovid",
-        "reception",
-        "metamorphoses"
+        "caesar",
+        "apotheosis",
+        "roman"
       ],
       "difficulty": 2,
       "path": "content/lessons/roman/myth/day-05-metamorphosis-reception.json",
       "objectiveIds": [
-        "obj.metamorphosis-reception.concept",
-        "obj.metamorphosis-reception.source"
+        "obj.ovid.caesar",
+        "obj.ovid.immortal"
       ],
       "recordIds": [
         "roman-pg-26073"
@@ -4957,32 +4994,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "metamorphoses",
+        "apotheosis",
+        "caesar",
         "ovid",
-        "reception"
+        "roman"
       ],
       "entities": [
-        "metamorphoses",
+        "apotheosis",
+        "caesar",
         "ovid",
-        "reception"
+        "roman"
       ]
     },
     {
       "id": "chinese.week01.day01.heaven-earth",
-      "version": 5,
+      "version": 6,
       "pantheon": "chinese",
       "title": "P'an Ku: A Taoist Creation Account",
       "weekId": "chi.myth.week01",
       "tags": [
-        "chinese",
-        "Heaven,",
-        "Earth,"
+        "panku",
+        "creation",
+        "taoist",
+        "chinese"
       ],
       "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-01-heaven-earth.json",
       "objectiveIds": [
-        "obj.heaven-earth.concept",
-        "obj.heaven-earth.sources"
+        "obj.pan.egg",
+        "obj.pan.body"
       ],
       "recordIds": [
         "pg-15250"
@@ -4991,32 +5031,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Earth,",
-        "Heaven,",
-        "chinese"
+        "chinese",
+        "creation",
+        "panku",
+        "taoist"
       ],
       "entities": [
-        "Earth,",
-        "Heaven,",
-        "chinese"
+        "chinese",
+        "creation",
+        "panku",
+        "taoist"
       ]
     },
     {
       "id": "chinese.week01.day02.nuwa-repair",
-      "version": 5,
+      "version": 6,
       "pantheon": "chinese",
       "title": "Nue Kua: Repairing the Heavens",
       "weekId": "chi.myth.week01",
       "tags": [
-        "chinese",
-        "N\u00fcwa:",
-        "Repairing"
+        "nukua",
+        "kungkung",
+        "pillars",
+        "chinese"
       ],
       "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-02-nuwa-repair.json",
       "objectiveIds": [
-        "obj.nuwa-repair.concept",
-        "obj.nuwa-repair.sources"
+        "obj.nu.crack",
+        "obj.nu.repair"
       ],
       "recordIds": [
         "pg-15250"
@@ -5025,32 +5068,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "N\u00fcwa:",
-        "Repairing",
-        "chinese"
+        "chinese",
+        "kungkung",
+        "nukua",
+        "pillars"
       ],
       "entities": [
-        "N\u00fcwa:",
-        "Repairing",
-        "chinese"
+        "chinese",
+        "kungkung",
+        "nukua",
+        "pillars"
       ]
     },
     {
       "id": "chinese.week01.day03.yu-flood",
-      "version": 5,
+      "version": 6,
       "pantheon": "chinese",
       "title": "Shen I: The Nine False Suns",
       "weekId": "chi.myth.week01",
       "tags": [
-        "chinese",
-        "Yu:",
-        "Taming"
+        "shenyi",
+        "suns",
+        "archer",
+        "chinese"
       ],
       "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-03-yu-flood.json",
       "objectiveIds": [
-        "obj.yu-flood.concept",
-        "obj.yu-flood.sources"
+        "obj.shen.crisis",
+        "obj.shen.suns"
       ],
       "recordIds": [
         "pg-15250"
@@ -5059,32 +5105,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Taming",
-        "Yu:",
-        "chinese"
+        "archer",
+        "chinese",
+        "shenyi",
+        "suns"
       ],
       "entities": [
-        "Taming",
-        "Yu:",
-        "chinese"
+        "archer",
+        "chinese",
+        "shenyi",
+        "suns"
       ]
     },
     {
       "id": "chinese.week01.day04.change-moon",
-      "version": 5,
+      "version": 6,
       "pantheon": "chinese",
       "title": "Heng O: Flight to the Moon",
       "weekId": "chi.myth.week01",
       "tags": [
-        "chinese",
-        "Chang\u2019e",
-        "and"
+        "hengo",
+        "moon",
+        "elixir",
+        "chinese"
       ],
       "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-04-change-moon.json",
       "objectiveIds": [
-        "obj.change-moon.concept",
-        "obj.change-moon.sources"
+        "obj.heng.pill",
+        "obj.heng.moon"
       ],
       "recordIds": [
         "pg-15250"
@@ -5093,32 +5142,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Chang\u2019e",
-        "and",
-        "chinese"
+        "chinese",
+        "elixir",
+        "hengo",
+        "moon"
       ],
       "entities": [
-        "Chang\u2019e",
-        "and",
-        "chinese"
+        "chinese",
+        "elixir",
+        "hengo",
+        "moon"
       ]
     },
     {
       "id": "chinese.week01.day05.immortals-order",
-      "version": 5,
+      "version": 6,
       "pantheon": "chinese",
       "title": "A Benevolent Life and the Coming Flood",
       "weekId": "chi.myth.week01",
       "tags": [
-        "chinese",
-        "Immortals",
-        "and"
+        "benevolent",
+        "flood",
+        "folktale",
+        "chinese"
       ],
       "difficulty": 2,
       "path": "content/lessons/chinese/myth/day-05-immortals-order.json",
       "objectiveIds": [
-        "obj.immortals-order.concept",
-        "obj.immortals-order.sources"
+        "obj.ben.sign",
+        "obj.ben.joke"
       ],
       "recordIds": [
         "pg-26070"
@@ -5127,32 +5179,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Immortals",
-        "and",
-        "chinese"
+        "benevolent",
+        "chinese",
+        "flood",
+        "folktale"
       ],
       "entities": [
-        "Immortals",
-        "and",
-        "chinese"
+        "benevolent",
+        "chinese",
+        "flood",
+        "folktale"
       ]
     },
     {
       "id": "mesoamerican.week01.day01.five-suns",
-      "version": 4,
+      "version": 5,
       "pantheon": "mesoamerican",
       "title": "Nanahuatl: The Sun's Birth",
       "weekId": "mes.myth.week01",
       "tags": [
-        "mesoamerican",
-        "The",
-        "Five"
+        "nanahuatl",
+        "fifth-sun",
+        "sacrifice",
+        "mesoamerican"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-01-five-suns.json",
       "objectiveIds": [
-        "obj.five-suns.concept",
-        "obj.five-suns.sources"
+        "obj.nan.fire",
+        "obj.nan.rabbit"
       ],
       "recordIds": [
         "pg-53080"
@@ -5161,31 +5216,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Five",
-        "The",
-        "mesoamerican"
+        "fifth-sun",
+        "mesoamerican",
+        "nanahuatl",
+        "sacrifice"
       ],
       "entities": [
-        "Five",
-        "The",
-        "mesoamerican"
+        "fifth-sun",
+        "mesoamerican",
+        "nanahuatl",
+        "sacrifice"
       ]
     },
     {
       "id": "mesoamerican.week01.day02.quetzalcoatl",
-      "version": 4,
+      "version": 5,
       "pantheon": "mesoamerican",
       "title": "Quetzalcoatl: Departure from Tollan",
       "weekId": "mes.myth.week01",
       "tags": [
-        "mesoamerican",
-        "Quetzalcoatl"
+        "quetzalcoatl",
+        "tollan",
+        "departure",
+        "mesoamerican"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-02-quetzalcoatl.json",
       "objectiveIds": [
-        "obj.quetzalcoatl.concept",
-        "obj.quetzalcoatl.sources"
+        "obj.quet.king",
+        "obj.quet.leave"
       ],
       "recordIds": [
         "pg-53080"
@@ -5194,29 +5253,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Quetzalcoatl",
-        "mesoamerican"
+        "departure",
+        "mesoamerican",
+        "quetzalcoatl",
+        "tollan"
       ],
       "entities": [
-        "Quetzalcoatl",
-        "mesoamerican"
+        "departure",
+        "mesoamerican",
+        "quetzalcoatl",
+        "tollan"
       ]
     },
     {
       "id": "mesoamerican.week01.day03.huitzilopochtli",
-      "version": 4,
+      "version": 5,
       "pantheon": "mesoamerican",
       "title": "Huitzilopochtli: Birth and Battle",
       "weekId": "mes.myth.week01",
       "tags": [
-        "mesoamerican",
-        "Huitzilopochtli"
+        "huitzilopochtli",
+        "coatepec",
+        "coyolxauhqui",
+        "mesoamerican"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-03-huitzilopochtli.json",
       "objectiveIds": [
-        "obj.huitzilopochtli.concept",
-        "obj.huitzilopochtli.sources"
+        "obj.huit.birth",
+        "obj.huit.battle"
       ],
       "recordIds": [
         "pg-53080"
@@ -5225,30 +5290,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Huitzilopochtli",
+        "coatepec",
+        "coyolxauhqui",
+        "huitzilopochtli",
         "mesoamerican"
       ],
       "entities": [
-        "Huitzilopochtli",
+        "coatepec",
+        "coyolxauhqui",
+        "huitzilopochtli",
         "mesoamerican"
       ]
     },
     {
       "id": "mesoamerican.week01.day04.underworld-road",
-      "version": 4,
+      "version": 5,
       "pantheon": "mesoamerican",
       "title": "Mictlan: A Journey after Death",
       "weekId": "mes.myth.week01",
       "tags": [
-        "mesoamerican",
-        "The",
-        "Road"
+        "mictlan",
+        "death",
+        "xolo",
+        "mesoamerican"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-04-underworld-road.json",
       "objectiveIds": [
-        "obj.underworld-road.concept",
-        "obj.underworld-road.sources"
+        "obj.mic.journey",
+        "obj.mic.dog"
       ],
       "recordIds": [
         "pg-53080"
@@ -5257,32 +5327,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Road",
-        "The",
-        "mesoamerican"
+        "death",
+        "mesoamerican",
+        "mictlan",
+        "xolo"
       ],
       "entities": [
-        "Road",
-        "The",
-        "mesoamerican"
+        "death",
+        "mesoamerican",
+        "mictlan",
+        "xolo"
       ]
     },
     {
       "id": "mesoamerican.week01.day05.sacred-obligation",
-      "version": 4,
+      "version": 5,
       "pantheon": "mesoamerican",
       "title": "The Mexica Foundation Omen",
       "weekId": "mes.myth.week01",
       "tags": [
-        "mesoamerican",
-        "Sacred",
-        "Obligation"
+        "mexica",
+        "omen",
+        "tenochtitlan",
+        "mesoamerican"
       ],
       "difficulty": 2,
       "path": "content/lessons/mesoamerican/myth/day-05-sacred-obligation.json",
       "objectiveIds": [
-        "obj.sacred-obligation.concept",
-        "obj.sacred-obligation.sources"
+        "obj.mex.sign",
+        "obj.mex.lake"
       ],
       "recordIds": [
         "pg-53080"
@@ -5291,14 +5364,16 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "Obligation",
-        "Sacred",
-        "mesoamerican"
+        "mesoamerican",
+        "mexica",
+        "omen",
+        "tenochtitlan"
       ],
       "entities": [
-        "Obligation",
-        "Sacred",
-        "mesoamerican"
+        "mesoamerican",
+        "mexica",
+        "omen",
+        "tenochtitlan"
       ]
     },
     {

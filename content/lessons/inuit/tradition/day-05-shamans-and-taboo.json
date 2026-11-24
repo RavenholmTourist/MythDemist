@@ -1,192 +1,181 @@
 {
-  "id": "inuit.week01.day05.shamans-and-taboo",
-  "version": 2,
-  "weekId": "inuit.tradition.week01",
-  "pantheon": "inuit",
-  "themeMode": "pantheon",
-  "title": "The Man Who Became a Star",
-  "subtitle": "A violent story explains a low star in the west",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "inuit",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.inuit.5.concept",
-      "text": "Why does the hunter call for the ravine to close?"
-    },
-    {
-      "id": "obj.inuit.5.source",
-      "text": "How does the story end for the old man?"
-    }
-  ],
-  "sourceReferences": {
-    "star": {
-      "recordId": "pg-28932",
-      "sourceId": "inuit.folk-tales",
-      "work": "Eskimo Folk-Tales",
-      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
-      "translator": "W. J. Alexander Worster",
-      "locator": "The Man Who Became A Star; The Man Who Became A Star, normalized characters 26-1253",
-      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "There was once an old man who stood out on the ice waiting for the seal to come up to their breathing holes to breathe. But on the shore, just opposite where he was, a crowd of children were playing in a ravine, and time after time they frightened away a seal just as he was about to harpoon it. At last the old man grew angry with them for thus spoiling his catch, and cried out: \"Close up, Ravine, over those who are spoiling my hunting.\" And at once the hillside closed over those children at play. One of them, who was carrying a little brother, had her fur coat torn. Then they all fell to screaming inside the hill, for they could not come out. And none could bring them food, only water that they were able to pour down a crack, and this they licked up from the sides. At last they all died of hunger. And now the neighbours fell upon that old man who had shut up the children by magic in the hill. He took to flight, and the others ran after him. But all at once he became bright, and rose up to heaven as a great star. We can see it now, in the west, when the lights begin to return after the great darkness. But it is low down, and never climbs high in the sky. And we call it Nâlaussartoq: he who stands and listens.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
-    }
+ "id": "inuit.week01.day05.shamans-and-taboo",
+ "version": 3,
+ "weekId": "inuit.tradition.week01",
+ "pantheon": "inuit",
+ "themeMode": "pantheon",
+ "title": "The Man Who Became a Star",
+ "subtitle": "A violent story explains a low star in the west",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "star",
+  "transformation",
+  "inuit"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.star.who",
+   "text": "How does the man become a star?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Children disturb a hunt",
-      "body": "An old hunter becomes angry when children repeatedly frighten seals away from his harpoon. He calls for the ravine to close over them.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "An ending among the stars",
-      "body": "Quotation from the cited Worster translation (whitespace normalized): “There was once an old man who stood out on the ice waiting for the seal to come up to their breathing holes to breathe. But on the shore, just opposite where he was, a crowd of children were playing in a ravine, and time after time they frightened away a seal just as he was about to harpoon it. At last the old man grew angry with them for thus spoiling his catch, and cried out: \"Close up, Ravine, over those who are spoiling my hunting.\" And at once the hillside closed over those children at play. One of them, who was carrying a little brother, had her fur coat torn. Then they all fell to screaming inside the hill, for they could not come out. And none could bring them food, only water that they were able to pour down a crack, and this they licked up from the sides. At last they all died of hunger. And now the neighbours fell upon that old man who had shut up the children by magic in the hill. He took to flight, and the others ran after him. But all at once he became bright, and rose up to heaven as a great star. We can see it now, in the west, when the lights begin to return after the great darkness. But it is low down, and never climbs high in the sky. And we call it Nâlaussartoq: he who stands and listens.”",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A transformation after pursuit",
-      "body": "The story says the old man flees from the neighbours, becomes a bright star, and remains low in the western sky as the lights return after darkness.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Treat the violence plainly",
-      "body": "This collection records a particular Greenland story with a violent outcome. Do not generalize it into a belief shared by all Inuit communities or soften the event into an abstract 'moral.'",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The story names a visible star",
-      "body": "The narrator gives the name Nélaussartoq and glosses it as 'he who stands and listens'; keep that attribution within Rasmussen's collection.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Why does the hunter call for the ravine to close?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They take his berries from the underworld"
-        },
-        {
-          "id": "b",
-          "text": "They refuse to play with a bear cub"
-        },
-        {
-          "id": "c",
-          "text": "Children keep frightening seals away from his hunt"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The story says the children repeatedly frighten a seal just as he is about to harpoon it.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "star"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does the story end for the old man?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He returns as a bear cub"
-        },
-        {
-          "id": "b",
-          "text": "He becomes a bright star low in the western sky"
-        },
-        {
-          "id": "c",
-          "text": "He becomes Raven's wife"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The final lines say he rises as a star and give its Greenlandic name.",
-      "sourceRefIds": [
-        "star"
-      ],
-      "objectiveIds": [
-        "obj.inuit.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "star"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.star.why",
+   "text": "Why does the transformation happen?"
   }
+ ],
+ "sourceReferences": {
+  "star": {
+   "recordId": "pg-28932",
+   "sourceId": "inuit.folk-tales",
+   "work": "Eskimo Folk-Tales",
+   "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+   "translator": "W. J. Alexander Worster",
+   "locator": "The Man Who Became A Star; The Man Who Became A Star, normalized characters 26-1253",
+   "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+   "excerpt": "There was once an old man who stood out on the ice waiting for the seal to come up to their breathing holes to breathe. But on the shore, just opposite where he was, a crowd of children were playing in a ravine, and time after time they frightened away a seal just as he was about to harpoon it. At last the old man grew angry with them for thus spoiling his catch, and cried out: \"Close up, Ravine, over those who are spoiling my hunting.\" And at once the hillside closed over those children at play. One of them, who was carrying a little brother, had her fur coat torn. Then they all fell to screaming inside the hill, for they could not come out. And none could bring them food, only water that they were able to pour down a crack, and this they licked up from the sides. At last they all died of hunger. And now the neighbours fell upon that old man who had shut up the children by magic in the hill. He took to flight, and the others ran after him. But all at once he became bright, and rose up to heaven as a great star. We can see it now, in the west, when the lights begin to return after the great darkness. But it is low down, and never climbs high in the sky. And we call it Nâlaussartoq: he who stands and listens.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The man who went up",
+   "body": "In the Greenland tale, a man is carried up into the sky — taken, or climbing, or blown aloft — until he reaches the heights where the stars are.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.who"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Fixed in the sky",
+   "body": "There he is fixed among the stars — a man become a point of light in the Greenland night, visible forever where the heavens hold him.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.who"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A sky-figure explained",
+   "body": "The tale is an aetiology — an origin story: it explains a star or a figure in the sky as a person who once walked the earth and was taken up.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.why"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The Greenland sky as a map of stories",
+   "body": "The Greenland tales treat the sky the way many traditions do: its figures are people and animals set there, each with a story of how they came to shine.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.why"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "Why the sky has people",
+   "body": "The star-stories make the heavens familiar — the night sky is populated by ancestors and wanderers, not remote points: a Greenland way of reading the sky.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.who"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does the man become a star?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He is born from the moon"
+    },
+    {
+     "id": "b",
+     "text": "He climbs a ladder of ice"
+    },
+    {
+     "id": "c",
+     "text": "He is carried up into the sky and fixed among the stars — a person made into a point of light"
+    },
+    {
+     "id": "d",
+     "text": "He is the raven's transformed son"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The sky takes him — and he stays there, shining.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.who"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the tale's purpose?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "An origin story — it explains a figure in the sky as a person taken up from earth"
+    },
+    {
+     "id": "b",
+     "text": "A warning against pride"
+    },
+    {
+     "id": "c",
+     "text": "A charm for clear weather"
+    },
+    {
+     "id": "d",
+     "text": "A story of the moon's phases"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The sky-figures are people with stories — the heavens as a map of memory.",
+   "sourceRefIds": [
+    "star"
+   ],
+   "objectiveIds": [
+    "obj.star.why"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

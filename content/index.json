@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-24T19:34:19.648298+00:00",
+  "generatedAt": "2026-11-24T19:38:25.284761+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -2299,8 +2299,21 @@
       ],
       "assessment": null,
       "themes": [
+        "acheria",
+        "basa-andre",
+        "basa-jauna",
         "basque",
-        "tradition"
+        "fairy",
+        "fox",
+        "gratitude",
+        "heren-suge",
+        "labourd",
+        "ring",
+        "servant",
+        "tartaro",
+        "time",
+        "trickster",
+        "wild"
       ]
     },
     {
@@ -2318,8 +2331,22 @@
       ],
       "assessment": null,
       "themes": [
+        "animals",
+        "buzzard",
         "cherokee",
-        "tradition"
+        "conjurer",
+        "corn",
+        "creation",
+        "crystal",
+        "disease",
+        "kanati",
+        "plants",
+        "rabbit",
+        "selu",
+        "tar-wolf",
+        "trickster",
+        "uktena",
+        "water-beetle"
       ]
     },
     {
@@ -2337,8 +2364,21 @@
       ],
       "assessment": null,
       "themes": [
+        "bear",
+        "colours",
+        "creation",
+        "foster-son",
+        "goose",
+        "greenland",
         "inuit",
-        "tradition"
+        "kunigseq",
+        "loyalty",
+        "origins",
+        "raven",
+        "shades",
+        "star",
+        "transformation",
+        "underworld"
       ]
     },
     {
@@ -2375,8 +2415,22 @@
       ],
       "assessment": null,
       "themes": [
+        "animals",
         "baltic",
-        "tradition"
+        "betrayal",
+        "dragon",
+        "exile",
+        "gratitude",
+        "healing",
+        "helpers",
+        "lithuanian",
+        "princes",
+        "rescue",
+        "return",
+        "roads",
+        "tree",
+        "warning",
+        "youngest"
       ]
     },
     {
@@ -2395,7 +2449,20 @@
       "assessment": null,
       "themes": [
         "akan",
-        "tradition"
+        "anansi",
+        "blind",
+        "fanti",
+        "fisherman",
+        "gift",
+        "gold-coast",
+        "nothing",
+        "nyankupon",
+        "pot",
+        "punishment",
+        "stick",
+        "tales",
+        "thunder",
+        "wisdom"
       ]
     },
     {
@@ -6332,19 +6399,21 @@
     },
     {
       "id": "basque.week01.day01.mari-and-sacred-mountains",
-      "version": 2,
+      "version": 3,
       "pantheon": "basque",
       "title": "The Tartaro and the Talking Ring",
       "weekId": "basque.tradition.week01",
       "tags": [
-        "basque",
-        "tradition"
+        "tartaro",
+        "ring",
+        "labourd",
+        "basque"
       ],
       "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-01-mari-and-sacred-mountains.json",
       "objectiveIds": [
-        "obj.basque.1.concept",
-        "obj.basque.1.source"
+        "obj.ring.gift",
+        "obj.ring.escape"
       ],
       "recordIds": [
         "pg-34902"
@@ -6354,28 +6423,34 @@
       "cardCount": 5,
       "themes": [
         "basque",
-        "tradition"
+        "labourd",
+        "ring",
+        "tartaro"
       ],
       "entities": [
         "basque",
-        "tradition"
+        "labourd",
+        "ring",
+        "tartaro"
       ]
     },
     {
       "id": "basque.week01.day02.basa-jaun",
-      "version": 2,
+      "version": 3,
       "pantheon": "basque",
       "title": "Acheria the Fox",
       "weekId": "basque.tradition.week01",
       "tags": [
-        "basque",
-        "tradition"
+        "acheria",
+        "fox",
+        "trickster",
+        "basque"
       ],
       "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-02-basa-jaun.json",
       "objectiveIds": [
-        "obj.basque.2.concept",
-        "obj.basque.2.source"
+        "obj.fox.trick",
+        "obj.fox.kind"
       ],
       "recordIds": [
         "pg-34902"
@@ -6384,29 +6459,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "acheria",
         "basque",
-        "tradition"
+        "fox",
+        "trickster"
       ],
       "entities": [
+        "acheria",
         "basque",
-        "tradition"
+        "fox",
+        "trickster"
       ]
     },
     {
       "id": "basque.week01.day03.laminak-and-waters",
-      "version": 2,
+      "version": 3,
       "pantheon": "basque",
       "title": "The Grateful Tartaro and the Heren-Suge",
       "weekId": "basque.tradition.week01",
       "tags": [
-        "basque",
-        "tradition"
+        "tartaro",
+        "heren-suge",
+        "gratitude",
+        "basque"
       ],
       "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-03-laminak-and-waters.json",
       "objectiveIds": [
-        "obj.basque.3.concept",
-        "obj.basque.3.source"
+        "obj.grate.ball",
+        "obj.grate.serpent"
       ],
       "recordIds": [
         "pg-34902"
@@ -6416,28 +6497,34 @@
       "cardCount": 5,
       "themes": [
         "basque",
-        "tradition"
+        "gratitude",
+        "heren-suge",
+        "tartaro"
       ],
       "entities": [
         "basque",
-        "tradition"
+        "gratitude",
+        "heren-suge",
+        "tartaro"
       ]
     },
     {
       "id": "basque.week01.day04.tartaro-and-giants",
-      "version": 2,
+      "version": 3,
       "pantheon": "basque",
       "title": "Basa-Jauna and the Three Brothers",
       "weekId": "basque.tradition.week01",
       "tags": [
-        "basque",
-        "tradition"
+        "basa-jauna",
+        "basa-andre",
+        "wild",
+        "basque"
       ],
       "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-04-tartaro-and-giants.json",
       "objectiveIds": [
-        "obj.basque.4.concept",
-        "obj.basque.4.source"
+        "obj.wild.who",
+        "obj.wild.brothers"
       ],
       "recordIds": [
         "pg-34902"
@@ -6446,29 +6533,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "basa-andre",
+        "basa-jauna",
         "basque",
-        "tradition"
+        "wild"
       ],
       "entities": [
+        "basa-andre",
+        "basa-jauna",
         "basque",
-        "tradition"
+        "wild"
       ]
     },
     {
       "id": "basque.week01.day05.witches-and-village-tales",
-      "version": 2,
+      "version": 3,
       "pantheon": "basque",
       "title": "The Servant at the Fairy's",
       "weekId": "basque.tradition.week01",
       "tags": [
-        "basque",
-        "tradition"
+        "fairy",
+        "servant",
+        "time",
+        "basque"
       ],
       "difficulty": 2,
       "path": "content/lessons/basque/tradition/day-05-witches-and-village-tales.json",
       "objectiveIds": [
-        "obj.basque.5.concept",
-        "obj.basque.5.source"
+        "obj.fair.service",
+        "obj.fair.time"
       ],
       "recordIds": [
         "pg-34902"
@@ -6478,28 +6571,34 @@
       "cardCount": 5,
       "themes": [
         "basque",
-        "tradition"
+        "fairy",
+        "servant",
+        "time"
       ],
       "entities": [
         "basque",
-        "tradition"
+        "fairy",
+        "servant",
+        "time"
       ]
     },
     {
       "id": "cherokee.week01.day01.how-the-world-was-made",
-      "version": 3,
+      "version": 4,
       "pantheon": "cherokee",
       "title": "How the World Was Made",
       "weekId": "cherokee.tradition.week01",
       "tags": [
-        "cherokee",
-        "tradition"
+        "creation",
+        "water-beetle",
+        "buzzard",
+        "cherokee"
       ],
       "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-01-how-the-world-was-made.json",
       "objectiveIds": [
-        "obj.cherokee.1.concept",
-        "obj.cherokee.1.source"
+        "obj.world.dive",
+        "obj.world.buzzard"
       ],
       "recordIds": [
         "pg-45634"
@@ -6508,29 +6607,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "buzzard",
         "cherokee",
-        "tradition"
+        "creation",
+        "water-beetle"
       ],
       "entities": [
+        "buzzard",
         "cherokee",
-        "tradition"
+        "creation",
+        "water-beetle"
       ]
     },
     {
       "id": "cherokee.week01.day02.kanati-and-selu",
-      "version": 3,
+      "version": 4,
       "pantheon": "cherokee",
       "title": "Kana'ti and Selu: Game and Corn",
       "weekId": "cherokee.tradition.week01",
       "tags": [
-        "cherokee",
-        "tradition"
+        "kanati",
+        "selu",
+        "corn",
+        "cherokee"
       ],
       "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-02-kanati-and-selu.json",
       "objectiveIds": [
-        "obj.cherokee.2.concept",
-        "obj.cherokee.2.source"
+        "obj.selu.secret",
+        "obj.selu.corn"
       ],
       "recordIds": [
         "pg-45634"
@@ -6540,28 +6645,35 @@
       "cardCount": 5,
       "themes": [
         "cherokee",
-        "tradition"
+        "corn",
+        "kanati",
+        "selu"
       ],
       "entities": [
         "cherokee",
-        "tradition"
+        "corn",
+        "kanati",
+        "selu"
       ]
     },
     {
       "id": "cherokee.week01.day03.uktena-and-danger",
-      "version": 3,
+      "version": 4,
       "pantheon": "cherokee",
       "title": "Agan-Unitsi's Search for the Uktena",
       "weekId": "cherokee.tradition.week01",
       "tags": [
-        "cherokee",
-        "tradition"
+        "uktena",
+        "crystal",
+        "conjurer",
+        "cherokee"
       ],
       "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-03-uktena-and-danger.json",
       "objectiveIds": [
-        "obj.cherokee.3.concept",
-        "obj.cherokee.3.source"
+        "obj.ukt.beast",
+        "obj.ukt.hunt",
+        "obj.ukt.crystal"
       ],
       "recordIds": [
         "pg-45634"
@@ -6571,28 +6683,34 @@
       "cardCount": 5,
       "themes": [
         "cherokee",
-        "tradition"
+        "conjurer",
+        "crystal",
+        "uktena"
       ],
       "entities": [
         "cherokee",
-        "tradition"
+        "conjurer",
+        "crystal",
+        "uktena"
       ]
     },
     {
       "id": "cherokee.week01.day04.animal-stories",
-      "version": 3,
+      "version": 4,
       "pantheon": "cherokee",
       "title": "The Rabbit and the Tar Wolf",
       "weekId": "cherokee.tradition.week01",
       "tags": [
-        "cherokee",
-        "tradition"
+        "rabbit",
+        "tar-wolf",
+        "trickster",
+        "cherokee"
       ],
       "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-04-animal-stories.json",
       "objectiveIds": [
-        "obj.cherokee.4.concept",
-        "obj.cherokee.4.source"
+        "obj.tar.trick",
+        "obj.tar.rabbit"
       ],
       "recordIds": [
         "pg-45634"
@@ -6602,28 +6720,34 @@
       "cardCount": 5,
       "themes": [
         "cherokee",
-        "tradition"
+        "rabbit",
+        "tar-wolf",
+        "trickster"
       ],
       "entities": [
         "cherokee",
-        "tradition"
+        "rabbit",
+        "tar-wolf",
+        "trickster"
       ]
     },
     {
       "id": "cherokee.week01.day05.medicine-and-sacred-speech",
-      "version": 3,
+      "version": 4,
       "pantheon": "cherokee",
       "title": "Origin of Disease and Medicine",
       "weekId": "cherokee.tradition.week01",
       "tags": [
-        "cherokee",
-        "tradition"
+        "disease",
+        "animals",
+        "plants",
+        "cherokee"
       ],
       "difficulty": 2,
       "path": "content/lessons/cherokee/tradition/day-05-medicine-and-sacred-speech.json",
       "objectiveIds": [
-        "obj.cherokee.5.concept",
-        "obj.cherokee.5.source"
+        "obj.med.council",
+        "obj.med.plants"
       ],
       "recordIds": [
         "pg-45634"
@@ -6632,29 +6756,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "animals",
         "cherokee",
-        "tradition"
+        "disease",
+        "plants"
       ],
       "entities": [
+        "animals",
         "cherokee",
-        "tradition"
+        "disease",
+        "plants"
       ]
     },
     {
       "id": "inuit.week01.day01.the-sea-and-survival",
-      "version": 2,
+      "version": 3,
       "pantheon": "inuit",
       "title": "The Coming of Men",
       "weekId": "inuit.tradition.week01",
       "tags": [
-        "inuit",
-        "tradition"
+        "creation",
+        "greenland",
+        "origins",
+        "inuit"
       ],
       "difficulty": 2,
       "path": "content/lessons/inuit/tradition/day-01-the-sea-and-survival.json",
       "objectiveIds": [
-        "obj.inuit.1.concept",
-        "obj.inuit.1.source"
+        "obj.com.people",
+        "obj.com.light"
       ],
       "recordIds": [
         "pg-28932"
@@ -6663,29 +6793,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "creation",
+        "greenland",
         "inuit",
-        "tradition"
+        "origins"
       ],
       "entities": [
+        "creation",
+        "greenland",
         "inuit",
-        "tradition"
+        "origins"
       ]
     },
     {
       "id": "inuit.week01.day02.raven-and-daylight",
-      "version": 2,
+      "version": 3,
       "pantheon": "inuit",
       "title": "The Raven and the Goose",
       "weekId": "inuit.tradition.week01",
       "tags": [
-        "inuit",
-        "tradition"
+        "raven",
+        "goose",
+        "colours",
+        "inuit"
       ],
       "difficulty": 2,
       "path": "content/lessons/inuit/tradition/day-02-raven-and-daylight.json",
       "objectiveIds": [
-        "obj.inuit.2.concept",
-        "obj.inuit.2.source"
+        "obj.rav.paint",
+        "obj.rav.black"
       ],
       "recordIds": [
         "pg-28932"
@@ -6694,29 +6830,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "colours",
+        "goose",
         "inuit",
-        "tradition"
+        "raven"
       ],
       "entities": [
+        "colours",
+        "goose",
         "inuit",
-        "tradition"
+        "raven"
       ]
     },
     {
       "id": "inuit.week01.day03.animal-helpers",
-      "version": 2,
+      "version": 3,
       "pantheon": "inuit",
       "title": "The Woman and Her Bear Foster-Son",
       "weekId": "inuit.tradition.week01",
       "tags": [
-        "inuit",
-        "tradition"
+        "bear",
+        "foster-son",
+        "loyalty",
+        "inuit"
       ],
       "difficulty": 2,
       "path": "content/lessons/inuit/tradition/day-03-animal-helpers.json",
       "objectiveIds": [
-        "obj.inuit.3.concept",
-        "obj.inuit.3.source"
+        "obj.bear.raise",
+        "obj.bear.end"
       ],
       "recordIds": [
         "pg-28932"
@@ -6725,29 +6867,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "bear",
+        "foster-son",
         "inuit",
-        "tradition"
+        "loyalty"
       ],
       "entities": [
+        "bear",
+        "foster-son",
         "inuit",
-        "tradition"
+        "loyalty"
       ]
     },
     {
       "id": "inuit.week01.day04.moon-tides-and-danger",
-      "version": 2,
+      "version": 3,
       "pantheon": "inuit",
       "title": "K\u00fanigseq Visits the Land of Shades",
       "weekId": "inuit.tradition.week01",
       "tags": [
-        "inuit",
-        "tradition"
+        "kunigseq",
+        "underworld",
+        "shades",
+        "inuit"
       ],
       "difficulty": 2,
       "path": "content/lessons/inuit/tradition/day-04-moon-tides-and-danger.json",
       "objectiveIds": [
-        "obj.inuit.4.concept",
-        "obj.inuit.4.source"
+        "obj.kun.journey",
+        "obj.kun.shades"
       ],
       "recordIds": [
         "pg-28932"
@@ -6757,28 +6905,33 @@
       "cardCount": 5,
       "themes": [
         "inuit",
-        "tradition"
+        "kunigseq",
+        "shades",
+        "underworld"
       ],
       "entities": [
         "inuit",
-        "tradition"
+        "kunigseq",
+        "shades",
+        "underworld"
       ]
     },
     {
       "id": "inuit.week01.day05.shamans-and-taboo",
-      "version": 2,
+      "version": 3,
       "pantheon": "inuit",
       "title": "The Man Who Became a Star",
       "weekId": "inuit.tradition.week01",
       "tags": [
-        "inuit",
-        "tradition"
+        "star",
+        "transformation",
+        "inuit"
       ],
       "difficulty": 2,
       "path": "content/lessons/inuit/tradition/day-05-shamans-and-taboo.json",
       "objectiveIds": [
-        "obj.inuit.5.concept",
-        "obj.inuit.5.source"
+        "obj.star.who",
+        "obj.star.why"
       ],
       "recordIds": [
         "pg-28932"
@@ -6788,11 +6941,13 @@
       "cardCount": 5,
       "themes": [
         "inuit",
-        "tradition"
+        "star",
+        "transformation"
       ],
       "entities": [
         "inuit",
-        "tradition"
+        "star",
+        "transformation"
       ]
     },
     {
@@ -6955,19 +7110,21 @@
     },
     {
       "id": "baltic.week01.day01.baltic-folk-traditions",
-      "version": 2,
+      "version": 3,
       "pantheon": "baltic",
       "title": "The Exiled Princes",
       "weekId": "baltic.tradition.week01",
       "tags": [
-        "baltic",
-        "tradition"
+        "princes",
+        "exile",
+        "lithuanian",
+        "baltic"
       ],
       "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-01-baltic-folk-traditions.json",
       "objectiveIds": [
-        "obj.baltic.1.concept",
-        "obj.baltic.1.source"
+        "obj.exile.cause",
+        "obj.exile.stepsister"
       ],
       "recordIds": [
         "pg-66919"
@@ -6977,28 +7134,34 @@
       "cardCount": 5,
       "themes": [
         "baltic",
-        "tradition"
+        "exile",
+        "lithuanian",
+        "princes"
       ],
       "entities": [
         "baltic",
-        "tradition"
+        "exile",
+        "lithuanian",
+        "princes"
       ]
     },
     {
       "id": "baltic.week01.day02.lithuanian-heroes",
-      "version": 2,
+      "version": 3,
       "pantheon": "baltic",
       "title": "The Animals Become Helpers",
       "weekId": "baltic.tradition.week01",
       "tags": [
-        "baltic",
-        "tradition"
+        "animals",
+        "helpers",
+        "gratitude",
+        "baltic"
       ],
       "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-02-lithuanian-heroes.json",
       "objectiveIds": [
-        "obj.baltic.2.concept",
-        "obj.baltic.2.source"
+        "obj.help.kind",
+        "obj.help.who"
       ],
       "recordIds": [
         "pg-66919"
@@ -7007,29 +7170,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
+        "animals",
         "baltic",
-        "tradition"
+        "gratitude",
+        "helpers"
       ],
       "entities": [
+        "animals",
         "baltic",
-        "tradition"
+        "gratitude",
+        "helpers"
       ]
     },
     {
       "id": "baltic.week01.day03.sun-and-sacred-groves",
-      "version": 2,
+      "version": 3,
       "pantheon": "baltic",
       "title": "Three Roads and a Tree's Warning",
       "weekId": "baltic.tradition.week01",
       "tags": [
-        "baltic",
-        "tradition"
+        "roads",
+        "tree",
+        "warning",
+        "baltic"
       ],
       "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-03-sun-and-sacred-groves.json",
       "objectiveIds": [
-        "obj.baltic.3.concept",
-        "obj.baltic.3.source"
+        "obj.road.notch",
+        "obj.road.milk"
       ],
       "recordIds": [
         "pg-66919"
@@ -7039,28 +7208,34 @@
       "cardCount": 5,
       "themes": [
         "baltic",
-        "tradition"
+        "roads",
+        "tree",
+        "warning"
       ],
       "entities": [
         "baltic",
-        "tradition"
+        "roads",
+        "tree",
+        "warning"
       ]
     },
     {
       "id": "baltic.week01.day04.fate-and-helpers",
-      "version": 2,
+      "version": 3,
       "pantheon": "baltic",
       "title": "The Dragon and the Youngest Prince",
       "weekId": "baltic.tradition.week01",
       "tags": [
-        "baltic",
-        "tradition"
+        "dragon",
+        "youngest",
+        "rescue",
+        "baltic"
       ],
       "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-04-fate-and-helpers.json",
       "objectiveIds": [
-        "obj.baltic.4.concept",
-        "obj.baltic.4.source"
+        "obj.drag.prince",
+        "obj.drag.beast"
       ],
       "recordIds": [
         "pg-66919"
@@ -7070,28 +7245,34 @@
       "cardCount": 5,
       "themes": [
         "baltic",
-        "tradition"
+        "dragon",
+        "rescue",
+        "youngest"
       ],
       "entities": [
         "baltic",
-        "tradition"
+        "dragon",
+        "rescue",
+        "youngest"
       ]
     },
     {
       "id": "baltic.week01.day05.european-variants",
-      "version": 2,
+      "version": 3,
       "pantheon": "baltic",
       "title": "Betrayal, Healing, and Return",
       "weekId": "baltic.tradition.week01",
       "tags": [
-        "baltic",
-        "tradition"
+        "betrayal",
+        "healing",
+        "return",
+        "baltic"
       ],
       "difficulty": 2,
       "path": "content/lessons/baltic/tradition/day-05-european-variants.json",
       "objectiveIds": [
-        "obj.baltic.5.concept",
-        "obj.baltic.5.source"
+        "obj.ret.betrayal",
+        "obj.ret.return"
       ],
       "recordIds": [
         "pg-66919"
@@ -7101,28 +7282,34 @@
       "cardCount": 5,
       "themes": [
         "baltic",
-        "tradition"
+        "betrayal",
+        "healing",
+        "return"
       ],
       "entities": [
         "baltic",
-        "tradition"
+        "betrayal",
+        "healing",
+        "return"
       ]
     },
     {
       "id": "akan.week01.day01.anansi-the-spider",
-      "version": 3,
+      "version": 4,
       "pantheon": "akan",
       "title": "How Anansi Earned the Name Spider Tales",
       "weekId": "akan.tradition.week01",
       "tags": [
-        "akan",
-        "tradition"
+        "anansi",
+        "nyankupon",
+        "tales",
+        "akan"
       ],
       "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-01-anansi-the-spider.json",
       "objectiveIds": [
-        "obj.akan.1.concept",
-        "obj.akan.1.source"
+        "obj.nan.name",
+        "obj.nan.price"
       ],
       "recordIds": [
         "pg-66923"
@@ -7132,28 +7319,34 @@
       "cardCount": 5,
       "themes": [
         "akan",
-        "tradition"
+        "anansi",
+        "nyankupon",
+        "tales"
       ],
       "entities": [
         "akan",
-        "tradition"
+        "anansi",
+        "nyankupon",
+        "tales"
       ]
     },
     {
       "id": "akan.week01.day02.wisdom-becomes-human",
-      "version": 3,
+      "version": 4,
       "pantheon": "akan",
       "title": "Anansi and the Pot of Wisdom",
       "weekId": "akan.tradition.week01",
       "tags": [
-        "akan",
-        "tradition"
+        "wisdom",
+        "pot",
+        "fanti",
+        "akan"
       ],
       "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-02-wisdom-becomes-human.json",
       "objectiveIds": [
-        "obj.akan.2.concept",
-        "obj.akan.2.source"
+        "obj.wis.pot",
+        "obj.wis.spill"
       ],
       "recordIds": [
         "pg-66923"
@@ -7163,28 +7356,34 @@
       "cardCount": 5,
       "themes": [
         "akan",
-        "tradition"
+        "fanti",
+        "pot",
+        "wisdom"
       ],
       "entities": [
         "akan",
-        "tradition"
+        "fanti",
+        "pot",
+        "wisdom"
       ]
     },
     {
       "id": "akan.week01.day03.diaspora-and-transformation",
-      "version": 3,
+      "version": 4,
       "pantheon": "akan",
       "title": "Anansi and Nothing: A Gold Coast Story",
       "weekId": "akan.tradition.week01",
       "tags": [
-        "akan",
-        "tradition"
+        "anansi",
+        "nothing",
+        "gold-coast",
+        "akan"
       ],
       "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-03-diaspora-and-transformation.json",
       "objectiveIds": [
-        "obj.akan.3.concept",
-        "obj.akan.3.source"
+        "obj.noth.who",
+        "obj.noth.lesson"
       ],
       "recordIds": [
         "pg-66923"
@@ -7194,28 +7393,34 @@
       "cardCount": 5,
       "themes": [
         "akan",
-        "tradition"
+        "anansi",
+        "gold-coast",
+        "nothing"
       ],
       "entities": [
         "akan",
-        "tradition"
+        "anansi",
+        "gold-coast",
+        "nothing"
       ]
     },
     {
       "id": "akan.week01.day04.tiger-and-dangerous-rivals",
-      "version": 3,
+      "version": 4,
       "pantheon": "akan",
       "title": "Thunder and Anansi: The Gifted Stick",
       "weekId": "akan.tradition.week01",
       "tags": [
-        "akan",
-        "tradition"
+        "thunder",
+        "stick",
+        "gift",
+        "akan"
       ],
       "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-04-tiger-and-dangerous-rivals.json",
       "objectiveIds": [
-        "obj.akan.4.concept",
-        "obj.akan.4.source"
+        "obj.stick.gift",
+        "obj.stick.cost"
       ],
       "recordIds": [
         "pg-66923"
@@ -7225,28 +7430,34 @@
       "cardCount": 5,
       "themes": [
         "akan",
-        "tradition"
+        "gift",
+        "stick",
+        "thunder"
       ],
       "entities": [
         "akan",
-        "tradition"
+        "gift",
+        "stick",
+        "thunder"
       ]
     },
     {
       "id": "akan.week01.day05.stories-as-social-power",
-      "version": 3,
+      "version": 4,
       "pantheon": "akan",
       "title": "Anansi the Blind Fisherman",
       "weekId": "akan.tradition.week01",
       "tags": [
-        "akan",
-        "tradition"
+        "fisherman",
+        "blind",
+        "punishment",
+        "akan"
       ],
       "difficulty": 2,
       "path": "content/lessons/akan/tradition/day-05-stories-as-social-power.json",
       "objectiveIds": [
-        "obj.akan.5.concept",
-        "obj.akan.5.source"
+        "obj.fish.trick",
+        "obj.fish.end"
       ],
       "recordIds": [
         "pg-66923"
@@ -7256,11 +7467,15 @@
       "cardCount": 5,
       "themes": [
         "akan",
-        "tradition"
+        "blind",
+        "fisherman",
+        "punishment"
       ],
       "entities": [
         "akan",
-        "tradition"
+        "blind",
+        "fisherman",
+        "punishment"
       ]
     }
   ],

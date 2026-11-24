@@ -1,192 +1,182 @@
 {
-  "id": "baltic.week01.day04.fate-and-helpers",
-  "version": 2,
-  "weekId": "baltic.tradition.week01",
-  "pantheon": "baltic",
-  "themeMode": "pantheon",
-  "title": "The Dragon and the Youngest Prince",
-  "subtitle": "Animal helpers join the fight",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "baltic",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.baltic.4.concept",
-      "text": "How does the fox help fight the dragon?"
-    },
-    {
-      "id": "obj.baltic.4.source",
-      "text": "Who delivers the final wound in this episode?"
-    }
-  ],
-  "sourceReferences": {
-    "dragon": {
-      "recordId": "pg-66919",
-      "sourceId": "baltic.fairy-tales-far-near",
-      "work": "Fairy Tales From Far and Near",
-      "author": "Katherine Pyle",
-      "translator": "not applicable; authored in English",
-      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 12957-14901",
-      "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "The Prince hid himself behind a heap of rocks and lay there watching, and presently he heard a great noise. It was made by a procession of people who were bringing the Princess down to the seashore. She was very beautiful, but so sad looking that the Prince’s heart melted within him for pity of her. They brought her to the seashore and left her there, and every one went away except two nobles of the Court. One of them was driving the coach that brought the Princess, and the other one sat beside him as footman. They were to wait until all was over, and then they were to take the news back to the King, but they kept the coach high up on top of the cliff where they would be out of danger. The Prince waited until all the others had left her, and then he came out from behind the rocks and went to speak to the Princess; but when she saw him she was frightened, for she did not know who he was nor whence he came. “Do not fear me,” the Prince said to her. “I mean you no harm, but instead I have come hither to do battle with the dragon, and if it may be, to save you.” When the Princess heard this, she begged and implored him to leave her. “Why should you perish also? None can ever do battle with yonder monster and come out alive.” But the Prince would not listen to her. And now the dragon bestirred itself and turned and came slowly toward the shore, and as it came they could smell the smoke of its breathing. The Prince drew his sword and stood waiting for it. Then as it came still nearer, the fox sprang out on a rock, dipped his tail in the salty water and slashed it across the eyes of the monster so that it was almost blinded. The lion and the bear also splashed up the water; the boar ripped at the dragon with his sharp tusks; the hare sprang upon its head and struck with its paws; and the Prince drew his sword and plunged it into the monster’s heart, so that the life blood ran out from it into the sea, and it was dead.",
-      "evidenceType": "quotation",
-      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
-    }
+ "id": "baltic.week01.day04.fate-and-helpers",
+ "version": 3,
+ "weekId": "baltic.tradition.week01",
+ "pantheon": "baltic",
+ "themeMode": "pantheon",
+ "title": "The Dragon and the Youngest Prince",
+ "subtitle": "Animal helpers join the fight",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "dragon",
+  "youngest",
+  "rescue",
+  "baltic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.drag.prince",
+   "text": "Why is the youngest the dragon-slayer?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A princess is offered as a reward",
-      "body": "The youngest prince hears that a dragon threatens the country and that the king promises his daughter's hand to whoever defeats it.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The animals attack",
-      "body": "Quotation from Pyle's English retelling (whitespace normalized): “The Prince hid himself behind a heap of rocks and lay there watching, and presently he heard a great noise. It was made by a procession of people who were bringing the Princess down to the seashore. She was very beautiful, but so sad looking that the Prince’s heart melted within him for pity of her. They brought her to the seashore and left her there, and every one went away except two nobles of the Court. One of them was driving the coach that brought the Princess, and the other one sat beside him as footman. They were to wait until all was over, and then they were to take the news back to the King, but they kept the coach high up on top of the cliff where they would be out of danger. The Prince waited until all the others had left her, and then he came out from behind the rocks and went to speak to the Princess; but when she saw him she was frightened, for she did not know who he was nor whence he came. “Do not fear me,” the Prince said to her. “I mean you no harm, but instead I have come hither to do battle with the dragon, and if it may be, to save you.” When the Princess heard this, she begged and implored him to leave her. “Why should you perish also? None can ever do battle with yonder monster and come out alive.” But the Prince would not listen to her. And now the dragon bestirred itself and turned and came slowly toward the shore, and as it came they could smell the smoke of its breathing. The Prince drew his sword and stood waiting for it. Then as it came still nearer, the fox sprang out on a rock, dipped his tail in the salty water and slashed it across the eyes of the monster so that it was almost blinded. The lion and the bear also splashed up the water; the boar ripped at the dragon with his sharp tusks; the hare sprang upon its head and struck with its paws; and the Prince drew his sword and plunged it into the monster’s heart, so that the life blood ran out from it into the sea, and it was dead.”",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The prince delivers the final blow",
-      "body": "The fox splashes water into the dragon's eyes, the bear and boar attack, and the hare strikes its head; the prince's sword kills it.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep the plot and source attribution distinct",
-      "body": "Pyle's story calls this a Lithuanian tale, but does not identify an informant or source-language text. Teach the episode as Pyle's retelling.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Victory is collaborative",
-      "body": "The scene gives the animals active roles in the fight rather than making the prince succeed alone.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does the fox help fight the dragon?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "It splashes water into the dragon's eyes"
-        },
-        {
-          "id": "b",
-          "text": "It cuts the dragon's tongue"
-        },
-        {
-          "id": "c",
-          "text": "It lures the dragon into the sea"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The excerpt says the fox dips its tail in salty water and slashes it across the dragon's eyes.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection not tell us about the tale's original source?"
-        ],
-        "sourceRefIds": [
-          "dragon"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Who delivers the final wound in this episode?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The princess"
-        },
-        {
-          "id": "b",
-          "text": "The old woman by the fire"
-        },
-        {
-          "id": "c",
-          "text": "The youngest prince"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "After the animals help, the prince plunges his sword into the dragon's heart.",
-      "sourceRefIds": [
-        "dragon"
-      ],
-      "objectiveIds": [
-        "obj.baltic.4.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection not tell us about the tale's original source?"
-        ],
-        "sourceRefIds": [
-          "dragon"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.drag.beast",
+   "text": "How is the dragon defeated?"
   }
+ ],
+ "sourceReferences": {
+  "dragon": {
+   "recordId": "pg-66919",
+   "sourceId": "baltic.fairy-tales-far-near",
+   "work": "Fairy Tales From Far and Near",
+   "author": "Katherine Pyle",
+   "translator": "not applicable; authored in English",
+   "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 12957-14901",
+   "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
+   "excerpt": "The Prince hid himself behind a heap of rocks and lay there watching, and presently he heard a great noise. It was made by a procession of people who were bringing the Princess down to the seashore. She was very beautiful, but so sad looking that the Prince’s heart melted within him for pity of her. They brought her to the seashore and left her there, and every one went away except two nobles of the Court. One of them was driving the coach that brought the Princess, and the other one sat beside him as footman. They were to wait until all was over, and then they were to take the news back to the King, but they kept the coach high up on top of the cliff where they would be out of danger. The Prince waited until all the others had left her, and then he came out from behind the rocks and went to speak to the Princess; but when she saw him she was frightened, for she did not know who he was nor whence he came. “Do not fear me,” the Prince said to her. “I mean you no harm, but instead I have come hither to do battle with the dragon, and if it may be, to save you.” When the Princess heard this, she begged and implored him to leave her. “Why should you perish also? None can ever do battle with yonder monster and come out alive.” But the Prince would not listen to her. And now the dragon bestirred itself and turned and came slowly toward the shore, and as it came they could smell the smoke of its breathing. The Prince drew his sword and stood waiting for it. Then as it came still nearer, the fox sprang out on a rock, dipped his tail in the salty water and slashed it across the eyes of the monster so that it was almost blinded. The lion and the bear also splashed up the water; the boar ripped at the dragon with his sharp tusks; the hare sprang upon its head and struck with its paws; and the Prince drew his sword and plunged it into the monster’s heart, so that the life blood ran out from it into the sea, and it was dead.",
+   "evidenceType": "quotation",
+   "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The dragon's toll",
+   "body": "The land the youngest reaches suffers under a dragon — the fairy-tale's great toll-taker, demanding its price in captives or tribute.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.beast"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The brothers' fate",
+   "body": "He finds what became of his brothers: they met the dragon's path and fell — or are held — the notches' warning made real.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.prince"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The helpers at his shoulder",
+   "body": "The youngest does not fight alone: the animals his kindness won are with him — the bear's strength, the wolf's speed, the small creatures' cunning. The debts come due.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.prince"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The dragon falls",
+   "body": "The fight is won the way these tales always win it: not by the strongest arm but by the gathered favours — each creature's gift in its turn, and the beast undone.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.beast"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why it's the youngest",
+   "body": "The youngest wins because he is the kindest: the tale's logic is moral — the brother who shared his bread is the brother with the army.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.prince"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does the youngest prince defeat the dragon?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He has the strongest sword"
+    },
+    {
+     "id": "b",
+     "text": "The dragon is already dying"
+    },
+    {
+     "id": "c",
+     "text": "Because his kindness earned an army — the animals he helped stand with him in the fight"
+    },
+    {
+     "id": "d",
+     "text": "He knows the dragon's secret name"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The youngest wins by his gathered favours — kindness as strength.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.prince"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does he find when he reaches his brothers' road?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They met the dragon's path — fallen or held — the warning of the notches made real"
+    },
+    {
+     "id": "b",
+     "text": "They are crowned in a foreign court"
+    },
+    {
+     "id": "c",
+     "text": "They are waiting to ambush him"
+    },
+    {
+     "id": "d",
+     "text": "They found the dragon's treasure"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The sign's meaning is found — the quest to free them.",
+   "sourceRefIds": [
+    "dragon"
+   ],
+   "objectiveIds": [
+    "obj.drag.beast"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

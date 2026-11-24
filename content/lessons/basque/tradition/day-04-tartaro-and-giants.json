@@ -1,192 +1,182 @@
 {
-  "id": "basque.week01.day04.tartaro-and-giants",
-  "version": 2,
-  "weekId": "basque.tradition.week01",
-  "pantheon": "basque",
-  "themeMode": "pantheon",
-  "title": "Basa-Jauna and the Three Brothers",
-  "subtitle": "A wild-man household in a Basque story",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "basque",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.basque.4.concept",
-      "text": "What does the youngest brother see from the tree?"
-    },
-    {
-      "id": "obj.basque.4.source",
-      "text": "Who warns the brothers about the Basa-Jaun?"
-    }
-  ],
-  "sourceReferences": {
-    "wildman": {
-      "recordId": "pg-34902",
-      "sourceId": "basque.legends",
-      "work": "Basque Legends",
-      "author": "Basque storytellers; collected and translated by Wentworth Webster",
-      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
-      "locator": "BASA-JAUNA, THE WILD MAN.; BASA-JAUNA, THE WILD MAN., normalized characters 1091-1635",
-      "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "the three brothers set out together. At eight o'clock in the evening they come to a grand castle, and they knock at the door, and the Basa-Andre (wild woman) comes to answer. She asks: \"Who is there?\" And they reply, \"It is we who are here.\" \"What do you want, young children? Where are you going to at this time of night?\" \"We ask and beg of you to give us shelter for to-night; we will be satisfied with a corner of the floor, poor wretches as we are.\" \"I have my husband, the Basa-Jaun, and if he catches you he will eat you; that's certain.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
-    }
+ "id": "basque.week01.day04.tartaro-and-giants",
+ "version": 3,
+ "weekId": "basque.tradition.week01",
+ "pantheon": "basque",
+ "themeMode": "pantheon",
+ "title": "Basa-Jauna and the Three Brothers",
+ "subtitle": "A wild-man household in a Basque story",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "basa-jauna",
+  "basa-andre",
+  "wild",
+  "basque"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.wild.who",
+   "text": "Who are Basa-Jauna and Basa-Andre?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A trail of smoke",
-      "body": "Three brothers travel through a forest at night. The youngest sees a thin column of smoke in the distance and leads them toward a castle.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A warning at the castle",
-      "body": "Source quotation (Webster's English collection; whitespace normalized): “the three brothers set out together. At eight o'clock in the evening they come to a grand castle, and they knock at the door, and the Basa-Andre (wild woman) comes to answer. She asks: \"Who is there?\" And they reply, \"It is we who are here.\" \"What do you want, young children? Where are you going to at this time of night?\" \"We ask and beg of you to give us shelter for to-night; we will be satisfied with a corner of the floor, poor wretches as we are.\" \"I have my husband, the Basa-Jaun, and if he catches you he will eat you; that's certain.”",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The Basa-Andre opens the door",
-      "body": "The brothers ask for shelter. The Basa-Andre warns them that her husband, the Basa-Jaun, may eat them, but lets them in.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Name the collection's variant",
-      "body": "Basa-Jauna and Basa-Andre appear in Webster's collection of Labourd stories. Preserve these names and this written version rather than treating them as the same figure in every local account.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Hospitality exists beside danger",
-      "body": "The story begins with shelter offered in a household that the visitors have reason to fear.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the youngest brother see from the tree?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A thin column of smoke far away"
-        },
-        {
-          "id": "b",
-          "text": "A moon hidden in a mountain"
-        },
-        {
-          "id": "c",
-          "text": "A fox carrying a milk jug"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The youngest brother says he sees a thin column of smoke and leads them toward it.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "wildman"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Who warns the brothers about the Basa-Jaun?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Tartaro"
-        },
-        {
-          "id": "b",
-          "text": "Acheria the fox"
-        },
-        {
-          "id": "c",
-          "text": "The Basa-Andre"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Basa-Andre tells the brothers her husband may eat them.",
-      "sourceRefIds": [
-        "wildman"
-      ],
-      "objectiveIds": [
-        "obj.basque.4.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "wildman"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.wild.brothers",
+   "text": "How do the three brothers fare?"
   }
+ ],
+ "sourceReferences": {
+  "wildman": {
+   "recordId": "pg-34902",
+   "sourceId": "basque.legends",
+   "work": "Basque Legends",
+   "author": "Basque storytellers; collected and translated by Wentworth Webster",
+   "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+   "locator": "BASA-JAUNA, THE WILD MAN.; BASA-JAUNA, THE WILD MAN., normalized characters 1091-1635",
+   "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
+   "excerpt": "the three brothers set out together. At eight o'clock in the evening they come to a grand castle, and they knock at the door, and the Basa-Andre (wild woman) comes to answer. She asks: \"Who is there?\" And they reply, \"It is we who are here.\" \"What do you want, young children? Where are you going to at this time of night?\" \"We ask and beg of you to give us shelter for to-night; we will be satisfied with a corner of the floor, poor wretches as we are.\" \"I have my husband, the Basa-Jaun, and if he catches you he will eat you; that's certain.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The wild man of the woods",
+   "body": "Basa-Jauna is the Basque wild man — the shaggy, mountain-dwelling lord of the flocks who knows the secrets of the wild. His mate is Basa-Andre, the wild woman — equally powerful, often more dangerous.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.who"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The three brothers go in",
+   "body": "Three brothers go up into the mountains and one by one encounter the wild couple — the elder two fail or flee, but the youngest, who treats the wild ones rightly, wins their favour.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.brothers"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The secret of the wild",
+   "body": "The wild man's secret is the land's knowledge — where the flocks go, what the mountains hide — and he shares it only with the courteous.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.brothers"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Basa-Andre's danger",
+   "body": "The wild woman is the tale's edge: beautiful and deadly, she lures the unwary — the youngest brother survives because he keeps his wits and his manners both.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.brothers"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The wild couple's meaning",
+   "body": "Basa-Jauna and Basa-Andre are the mountains themselves made person: generous to the respectful shepherd, fatal to the arrogant — the Pyrenees' own mythology.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.who"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Who is Basa-Andre?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The shepherd's lost daughter"
+    },
+    {
+     "id": "b",
+     "text": "The queen of the fairies"
+    },
+    {
+     "id": "c",
+     "text": "The wild woman of the woods — Basa-Jauna's mate, beautiful and dangerous to the unwary"
+    },
+    {
+     "id": "d",
+     "text": "A mountain witch who owns the flocks"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The wild couple are the mountains made person.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.who"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the youngest brother succeed where the elders fail?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He treats Basa-Jauna and Basa-Andre courteously — and keeps his wits about the wild woman's lures"
+    },
+    {
+     "id": "b",
+     "text": "He is stronger in a fight"
+    },
+    {
+     "id": "c",
+     "text": "He carries a priest's blessing"
+    },
+    {
+     "id": "d",
+     "text": "He knows the wild man's name"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Courtesy to the wild is the survival skill.",
+   "sourceRefIds": [
+    "wildman"
+   ],
+   "objectiveIds": [
+    "obj.wild.brothers"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

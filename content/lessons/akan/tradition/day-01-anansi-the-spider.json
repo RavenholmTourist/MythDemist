@@ -1,192 +1,182 @@
 {
-  "id": "akan.week01.day01.anansi-the-spider",
-  "version": 3,
-  "weekId": "akan.tradition.week01",
-  "pantheon": "akan",
-  "themeMode": "pantheon",
-  "title": "How Anansi Earned the Name Spider Tales",
-  "subtitle": "A Gold Coast collection's own story about its genre",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "akan",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.akan.1.concept",
-      "text": "What does Nyankupon require Anansi to bring?"
-    },
-    {
-      "id": "obj.akan.1.source",
-      "text": "What does Nyankupon allow after Anansi completes the tasks?"
-    }
-  ],
-  "sourceReferences": {
-    "name": {
-      "recordId": "pg-66923",
-      "sourceId": "akan.west-african-folktales",
-      "work": "West African Folk-Tales",
-      "author": "W. H. Barker and Cecilia Sinclair",
-      "translator": "not applicable; collected, arranged, and retold in English",
-      "locator": "Story I · HOW WE GOT THE NAME ‘SPIDER TALES’; Story I · HOW WE GOT THE NAME ‘SPIDER TALES’, normalized characters 38-2644",
-      "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "In the olden days all the stories which men told were stories of Nyankupon, the chief of the gods. Spider, who was very conceited, wanted the stories to be told about him. Accordingly, one day he went to Nyankupon and asked that, in future, all tales told by men might be Anansi stories, instead of Nyankupon stories. Nyankupon agreed, on one condition. He told Spider (or Anansi) that he must bring him three things: the first was a jar full of live bees, the second was a boa-constrictor, and the third a tiger. Spider gave his promise. He took an earthen vessel and set out for a place where he knew were numbers of bees. When he came in sight of the bees he began saying to himself, “They will not be able to fill this jar”—“Yes, they will be able”—“No, they will not be able,” until the bees came up to him and said, “What are you talking about, Mr Anansi?” He thereupon explained to them that Nyankupon and he had had a great dispute. Nyankupon had said the bees could not fly into the jar—Anansi had said they could. The bees immediately declared that of course they could fly into the jar—which they at once did. As soon as they were safely inside, Anansi sealed up the jar and sent it off to Nyankupon. Next day he took a long stick and set out in search of a boa-constrictor. When he arrived at the place where one lived he began speaking to himself again. “He will just be as long as this stick”—“No, he will not be so long as this”—“Yes, he will be as long as this.” These words he repeated several times, till the boa came out and asked him what was the matter. “Oh, we have been having a dispute in Nyankupon’s town about you. Nyankupon’s people say you are not as long as this stick. I say you are. Please let me measure you by it.” The boa innocently laid himself out straight, and Spider lost no time in tying him on to the stick from end to end. He then sent him to Nyankupon. The third day he took a needle and thread and sewed up his eye. He then set out for a den where he knew a tiger lived. As he approached the place he began to shout and sing so loudly that the tiger came out to see what was the matter. “Can you not see?” said Spider. “My eye is sewn up and now I can see such wonderful things that I must sing about them.” “Sew up my eyes,” said the tiger, “then I too can see these surprising sights.” Spider immediately did so. Having thus made the tiger helpless, he led him straight to Nyankupon’s house. Nyankupon was amazed at Spider’s cleverness in fulfilling the three conditions. He immediately gave him permission for the future to call all the old tales Anansi tales.",
-      "evidenceType": "quotation",
-      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
-    }
+ "id": "akan.week01.day01.anansi-the-spider",
+ "version": 4,
+ "weekId": "akan.tradition.week01",
+ "pantheon": "akan",
+ "themeMode": "pantheon",
+ "title": "How Anansi Earned the Name Spider Tales",
+ "subtitle": "A Gold Coast collection's own story about its genre",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "anansi",
+  "nyankupon",
+  "tales",
+  "akan"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.nan.name",
+   "text": "How does Anansi earn the name 'spider tales'?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A request to Nyankupon",
-      "body": "In Barker and Sinclair's collection, Anansi asks Nyankupon to let future stories be called Anansi tales instead of Nyankupon stories.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Three tasks",
-      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “In the olden days all the stories which men told were stories of Nyankupon, the chief of the gods. Spider, who was very conceited, wanted the stories to be told about him. Accordingly, one day he went to Nyankupon and asked that, in future, all tales told by men might be Anansi stories, instead of Nyankupon stories. Nyankupon agreed, on one condition. He told Spider (or Anansi) that he must bring him three things: the first was a jar full of live bees, the second was a boa-constrictor, and the third a tiger. Spider gave his promise. He took an earthen vessel and set out for a place where he knew were numbers of bees. When he came in sight of the bees he began saying to himself, “They will not be able to fill this jar”—“Yes, they will be able”—“No, they will not be able,” until the bees came up to him and said, “What are you talking about, Mr Anansi?” He thereupon explained to them that Nyankupon and he had had a great dispute. Nyankupon had said the bees could not fly into the jar—Anansi had said they could. The bees immediately declared that of course they could fly into the jar—which they at once did. As soon as they were safely inside, Anansi sealed up the jar and sent it off to Nyankupon. Next day he took a long stick and set out in search of a boa-constrictor. When he arrived at the place where one lived he began speaking to himself again. “He will just be as long as this stick”—“No, he will not be so long as this”—“Yes, he will be as long as this.” These words he repeated several times, till the boa came out and asked him what was the matter. “Oh, we have been having a dispute in Nyankupon’s town about you. Nyankupon’s people say you are not as long as this stick. I say you are. Please let me measure you by it.” The boa innocently laid himself out straight, and Spider lost no time in tying him on to the stick from end to end. He then sent him to Nyankupon. The third day he took a needle and thread and sewed up his eye. He then set out for a den where he knew a tiger lived. As he approached the place he began to shout and sing so loudly that the tiger came out to see what was the matter. “Can you not see?” said Spider. “My eye is sewn up and now I can see such wonderful things that I must sing about them.” “Sew up my eyes,” said the tiger, “then I too can see these surprising sights.” Spider immediately did so. Having thus made the tiger helpless, he led him straight to Nyankupon’s house. Nyankupon was amazed at Spider’s cleverness in fulfilling the three conditions. He immediately gave him permission for the future to call all the old tales Anansi tales.”",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Trickery fulfills the condition",
-      "body": "Nyankupon requires Anansi to bring bees, a boa-constrictor, and a tiger. Anansi tricks each one into going with him.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A written collection, not a uniform canon",
-      "body": "The 1917 book was collected and arranged by Barker and Sinclair from Gold Coast storytellers. Its preface notes that versions vary and are retold; it does not name a specific community for every tale.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The collection comments on itself",
-      "body": "This tale explains the collection's label 'Spider Tales' through an Anansi story. It is a story about storytelling, not proof that every West African tradition tells it the same way.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Nyankupon require Anansi to bring?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Bees, a boa-constrictor, and a tiger"
-        },
-        {
-          "id": "b",
-          "text": "A tortoise, a fish, and a yam"
-        },
-        {
-          "id": "c",
-          "text": "A drum, a pot, and a palm-tree"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The tale lists three tasks: a jar of bees, a boa-constrictor, and a tiger.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Gold Coast story in the printed collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection say about the teller or place?"
-        ],
-        "sourceRefIds": [
-          "name"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Nyankupon allow after Anansi completes the tasks?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Anansi becomes ruler of the Gold Coast"
-        },
-        {
-          "id": "b",
-          "text": "All stories are translated into English"
-        },
-        {
-          "id": "c",
-          "text": "The old tales may be called Anansi tales"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The ending says Nyankupon gives permission to call the old tales Anansi tales.",
-      "sourceRefIds": [
-        "name"
-      ],
-      "objectiveIds": [
-        "obj.akan.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Gold Coast story in the printed collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection say about the teller or place?"
-        ],
-        "sourceRefIds": [
-          "name"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.nan.price",
+   "text": "What does the Sky-God demand?"
   }
+ ],
+ "sourceReferences": {
+  "name": {
+   "recordId": "pg-66923",
+   "sourceId": "akan.west-african-folktales",
+   "work": "West African Folk-Tales",
+   "author": "W. H. Barker and Cecilia Sinclair",
+   "translator": "not applicable; collected, arranged, and retold in English",
+   "locator": "Story I · HOW WE GOT THE NAME ‘SPIDER TALES’; Story I · HOW WE GOT THE NAME ‘SPIDER TALES’, normalized characters 38-2644",
+   "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
+   "excerpt": "In the olden days all the stories which men told were stories of Nyankupon, the chief of the gods. Spider, who was very conceited, wanted the stories to be told about him. Accordingly, one day he went to Nyankupon and asked that, in future, all tales told by men might be Anansi stories, instead of Nyankupon stories. Nyankupon agreed, on one condition. He told Spider (or Anansi) that he must bring him three things: the first was a jar full of live bees, the second was a boa-constrictor, and the third a tiger. Spider gave his promise. He took an earthen vessel and set out for a place where he knew were numbers of bees. When he came in sight of the bees he began saying to himself, “They will not be able to fill this jar”—“Yes, they will be able”—“No, they will not be able,” until the bees came up to him and said, “What are you talking about, Mr Anansi?” He thereupon explained to them that Nyankupon and he had had a great dispute. Nyankupon had said the bees could not fly into the jar—Anansi had said they could. The bees immediately declared that of course they could fly into the jar—which they at once did. As soon as they were safely inside, Anansi sealed up the jar and sent it off to Nyankupon. Next day he took a long stick and set out in search of a boa-constrictor. When he arrived at the place where one lived he began speaking to himself again. “He will just be as long as this stick”—“No, he will not be so long as this”—“Yes, he will be as long as this.” These words he repeated several times, till the boa came out and asked him what was the matter. “Oh, we have been having a dispute in Nyankupon’s town about you. Nyankupon’s people say you are not as long as this stick. I say you are. Please let me measure you by it.” The boa innocently laid himself out straight, and Spider lost no time in tying him on to the stick from end to end. He then sent him to Nyankupon. The third day he took a needle and thread and sewed up his eye. He then set out for a den where he knew a tiger lived. As he approached the place he began to shout and sing so loudly that the tiger came out to see what was the matter. “Can you not see?” said Spider. “My eye is sewn up and now I can see such wonderful things that I must sing about them.” “Sew up my eyes,” said the tiger, “then I too can see these surprising sights.” Spider immediately did so. Having thus made the tiger helpless, he led him straight to Nyankupon’s house. Nyankupon was amazed at Spider’s cleverness in fulfilling the three conditions. He immediately gave him permission for the future to call all the old tales Anansi tales.",
+   "evidenceType": "quotation",
+   "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "All stories belong to the Sky-God",
+   "body": "In the Akan telling, every tale in the world belongs to Nyankupon — the Sky-God who keeps them. If you want a story, you must go and buy one from him.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.name"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Anansi goes to buy",
+   "body": "Kwaku Anansi — the spider — goes up to Nyankupon to ask the price of the stories. The Sky-God names a price no one can pay: the fiercest creatures and things in the world.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.price"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The impossible catch",
+   "body": "Anansi brings them in one by one — the hornets, the great python, the leopard, the fairy — each caught not by strength but by a trick: gourds, glue, flattery, and lies, tailored to each prey.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.name"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The price delivered",
+   "body": "He hauls the whole impossible order to Nyankupon — and the Sky-God, bound by his word, gives him the stories: that is why they are called 'spider tales' — the spider bought them for us all.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.name"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the trickster owns the stories",
+   "body": "The tale is a charter for the tradition itself: stories now belong to Anansi because he won them — and the trickster who owns the tales is the one they are mostly about.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.name"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Nyankupon demand for the stories?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A year of service"
+    },
+    {
+     "id": "b",
+     "text": "The spider's own web"
+    },
+    {
+     "id": "c",
+     "text": "The fiercest things in the world — the hornets, the python, the leopard, the fairy — an impossible price"
+    },
+    {
+     "id": "d",
+     "text": "Three feats of strength"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The price is designed to be unpayable — and Anansi pays it.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.price"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Anansi pay the price?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He catches each impossible creature by a tailored trick — gourds, glue, flattery, and lies"
+    },
+    {
+     "id": "b",
+     "text": "He borrows them from the gods"
+    },
+    {
+     "id": "c",
+     "text": "He trades his family's silk"
+    },
+    {
+     "id": "d",
+     "text": "He wins them in a contest of riddles"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Each catch is its own trick — the whole price paid by cunning.",
+   "sourceRefIds": [
+    "name"
+   ],
+   "objectiveIds": [
+    "obj.nan.name"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

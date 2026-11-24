@@ -1,192 +1,182 @@
 {
-  "id": "inuit.week01.day02.raven-and-daylight",
-  "version": 2,
-  "weekId": "inuit.tradition.week01",
-  "pantheon": "inuit",
-  "themeMode": "pantheon",
-  "title": "The Raven and the Goose",
-  "subtitle": "A short story about colour and stubbornness",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "inuit",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.inuit.2.concept",
-      "text": "What does Goose do after Raven complains about the pattern?"
-    },
-    {
-      "id": "obj.inuit.2.source",
-      "text": "What kind of story is this passage?"
-    }
-  ],
-  "sourceReferences": {
-    "colours": {
-      "recordId": "pg-28932",
-      "sourceId": "inuit.folk-tales",
-      "work": "Eskimo Folk-Tales",
-      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
-      "translator": "W. J. Alexander Worster",
-      "locator": "The Raven And The Goose; The Raven And The Goose, normalized characters 144-698",
-      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "It happened in the days when all the birds were getting their colours and the pattern in their coats. And the raven and the goose happened to meet, and they agreed to paint each other. The raven began, and painted the other black, with a nice white pattern showing between. The goose thought that very fine indeed, and began to do the same by the raven, painting it a coat exactly like its own. But then the raven fell into a rage, and declared the pattern was frightfully ugly, and the goose, offended at all the fuss, simply splashed it black all over.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
-    }
+ "id": "inuit.week01.day02.raven-and-daylight",
+ "version": 3,
+ "weekId": "inuit.tradition.week01",
+ "pantheon": "inuit",
+ "themeMode": "pantheon",
+ "title": "The Raven and the Goose",
+ "subtitle": "A short story about colour and stubbornness",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "raven",
+  "goose",
+  "colours",
+  "inuit"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.rav.paint",
+   "text": "What do the birds do to each other?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Two birds agree to paint",
-      "body": "In this story, Raven and Goose agree to paint each other's feathers while birds are receiving their colours and patterns.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The painting goes wrong",
-      "body": "Quotation from the cited Worster translation (whitespace normalized): “It happened in the days when all the birds were getting their colours and the pattern in their coats. And the raven and the goose happened to meet, and they agreed to paint each other. The raven began, and painted the other black, with a nice white pattern showing between. The goose thought that very fine indeed, and began to do the same by the raven, painting it a coat exactly like its own. But then the raven fell into a rage, and declared the pattern was frightfully ugly, and the goose, offended at all the fuss, simply splashed it black all over.”",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The source offers an explanation",
-      "body": "The story says Raven becomes angry about the pattern Goose paints, and Goose responds by splashing Raven all over with black.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not turn a story into natural history",
-      "body": "This is a narrative in Rasmussen's Greenland collection, not a zoological account or a claim that every Inuit group tells this exact bird story.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A just-so ending",
-      "body": "The final line links Raven's black colour to the quarrel in this tale.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Goose do after Raven complains about the pattern?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She splashes Raven all over with black"
-        },
-        {
-          "id": "b",
-          "text": "She hides him in a mountain"
-        },
-        {
-          "id": "c",
-          "text": "She turns into the Moon"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The story ends by saying Goose splashes Raven black all over.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "colours"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What kind of story is this passage?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A scientific account of raven plumage"
-        },
-        {
-          "id": "b",
-          "text": "A direct description of a historical hunt"
-        },
-        {
-          "id": "c",
-          "text": "A folk narrative that explains an animal feature"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The story uses a quarrel to explain why Raven is black.",
-      "sourceRefIds": [
-        "colours"
-      ],
-      "objectiveIds": [
-        "obj.inuit.2.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "colours"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.rav.black",
+   "text": "Why is the raven black?"
   }
+ ],
+ "sourceReferences": {
+  "colours": {
+   "recordId": "pg-28932",
+   "sourceId": "inuit.folk-tales",
+   "work": "Eskimo Folk-Tales",
+   "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+   "translator": "W. J. Alexander Worster",
+   "locator": "The Raven And The Goose; The Raven And The Goose, normalized characters 144-698",
+   "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+   "excerpt": "It happened in the days when all the birds were getting their colours and the pattern in their coats. And the raven and the goose happened to meet, and they agreed to paint each other. The raven began, and painted the other black, with a nice white pattern showing between. The goose thought that very fine indeed, and began to do the same by the raven, painting it a coat exactly like its own. But then the raven fell into a rage, and declared the pattern was frightfully ugly, and the goose, offended at all the fuss, simply splashed it black all over.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Two birds, one game",
+   "body": "In the beginning the Raven and the Goose are friends — or rivals in courtesy — and they agree to paint each other: each will make the other beautiful.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.paint"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The raven's careful work",
+   "body": "The Raven goes first and paints the goose beautifully — white body, patterned wings, elegant markings — the goose is delighted.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.paint"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The quarrel over the turn",
+   "body": "Then the goose takes the brush — but the raven is restless, quarrelsome, never satisfied with the work — and the goose loses patience mid-job.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.paint"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Splashed black all over",
+   "body": "The goose simply splashed the raven black all over — and flew away. That is why the raven wears black ever since: the job was left unfinished.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.black"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A colour-origin tale",
+   "body": "The Greenland story is a colour-myth — the birds' quarrel explains the plumage we see: the goose well-painted, the raven's job abandoned in anger.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.black"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What do the Raven and the Goose do for each other?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They race across the sky"
+    },
+    {
+     "id": "b",
+     "text": "They share a stolen seal"
+    },
+    {
+     "id": "c",
+     "text": "They agree to paint each other — each making the other beautiful"
+    },
+    {
+     "id": "d",
+     "text": "They build a nest together"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "A mutual-painting pact — the setup for the colour-myth.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.paint"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why is the raven black?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The goose, annoyed at his quarrelsomeness, splashed him black all over and flew off"
+    },
+    {
+     "id": "b",
+     "text": "He stole the colour from the goose"
+    },
+    {
+     "id": "c",
+     "text": "He dove into a tar-pool"
+    },
+    {
+     "id": "d",
+     "text": "He was scorched in a fire"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "An unfinished paint-job — the raven's black is the goose's temper.",
+   "sourceRefIds": [
+    "colours"
+   ],
+   "objectiveIds": [
+    "obj.rav.black"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

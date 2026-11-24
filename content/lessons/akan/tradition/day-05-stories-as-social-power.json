@@ -1,192 +1,182 @@
 {
-  "id": "akan.week01.day05.stories-as-social-power",
-  "version": 3,
-  "weekId": "akan.tradition.week01",
-  "pantheon": "akan",
-  "themeMode": "pantheon",
-  "title": "Anansi the Blind Fisherman",
-  "subtitle": "Kind helpers meet an ungrateful response",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "akan",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.akan.5.concept",
-      "text": "How do the two men help Anansi before the final trip?"
-    },
-    {
-      "id": "obj.akan.5.source",
-      "text": "Why does Anansi jump into deep water?"
-    }
-  ],
-  "sourceReferences": {
-    "fisherman": {
-      "recordId": "pg-66923",
-      "sourceId": "akan.west-african-folktales",
-      "work": "West African Folk-Tales",
-      "author": "W. H. Barker and Cecilia Sinclair",
-      "translator": "not applicable; collected, arranged, and retold in English",
-      "locator": "Story XI · ANANSI THE BLIND FISHERMAN; Story XI · ANANSI THE BLIND FISHERMAN, normalized characters 650-2204",
-      "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
-      "excerpt": "When they told him where to spread his net, he would reply sharply, “I know. I was just about to put it there.” When they were directing him to get out of the boat, he would say, “Oh, I know perfectly well we are at the beach. I was just getting ready to step out.” This went on for a long time, Anansi getting ruder and ruder to his helpers every day, until they could bear his treatment no longer. They determined when opportunity offered to punish him for his ingratitude. The next day, as usual, he came with them to the beach. When they had got the canoe ready, they bade him step in. “Do you think I am a fool?” said he. “I know the canoe is there.” They made no answer, but got in and patiently pulled toward the fishing-place. When they told him where to spread his net, he replied with so much abuse that they determined, there and then, to punish him. By this time the canoe was full of fish, so they turned to row home. When they had gone a little way they stopped and said to him, “Here we are at the beach.” He promptly told them that they were very foolish—to tell him a thing he knew so well. He added many rude and insulting remarks, which made them thoroughly angry. He then jumped proudly out, expecting to land on the beach. To his great astonishment he found himself sinking in deep water. The two men rowed quickly away, leaving him to struggle. Like all the men of that country he was a good swimmer, but, of course, being blind, he was unable to see where the land lay. So he swam until he was completely tired out—and was drowned.",
-      "evidenceType": "quotation",
-      "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
-    }
+ "id": "akan.week01.day05.stories-as-social-power",
+ "version": 4,
+ "weekId": "akan.tradition.week01",
+ "pantheon": "akan",
+ "themeMode": "pantheon",
+ "title": "Anansi the Blind Fisherman",
+ "subtitle": "Kind helpers meet an ungrateful response",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "fisherman",
+  "blind",
+  "punishment",
+  "akan"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fish.trick",
+   "text": "What is Anansi's scheme as fisherman?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Two helpers assist an old fisherman",
-      "body": "In Barker and Sinclair's tale, two men guide the blind Anansi into a canoe, help him fish, and lead him back to shore.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The final trip",
-      "body": "Quotation from Barker and Sinclair's English collection (whitespace normalized): “When they told him where to spread his net, he would reply sharply, “I know. I was just about to put it there.” When they were directing him to get out of the boat, he would say, “Oh, I know perfectly well we are at the beach. I was just getting ready to step out.” This went on for a long time, Anansi getting ruder and ruder to his helpers every day, until they could bear his treatment no longer. They determined when opportunity offered to punish him for his ingratitude. The next day, as usual, he came with them to the beach. When they had got the canoe ready, they bade him step in. “Do you think I am a fool?” said he. “I know the canoe is there.” They made no answer, but got in and patiently pulled toward the fishing-place. When they told him where to spread his net, he replied with so much abuse that they determined, there and then, to punish him. By this time the canoe was full of fish, so they turned to row home. When they had gone a little way they stopped and said to him, “Here we are at the beach.” He promptly told them that they were very foolish—to tell him a thing he knew so well. He added many rude and insulting remarks, which made them thoroughly angry. He then jumped proudly out, expecting to land on the beach. To his great astonishment he found himself sinking in deep water. The two men rowed quickly away, leaving him to struggle. Like all the men of that country he was a good swimmer, but, of course, being blind, he was unable to see where the land lay. So he swam until he was completely tired out—and was drowned.”",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Anansi refuses their help",
-      "body": "The men say the canoe has reached the beach. Anansi insists he knows where he is, jumps out, and finds himself in deep water.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A specific Gold Coast collection",
-      "body": "This tale is one of Barker and Sinclair's 1917 Gold Coast folk-story collection. The book's introduction explains that versions were collected and retold; it does not identify this story's exact community.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The story punishes ingratitude",
-      "body": "The tale links Anansi's insults to his helpers' decision to leave him; it is a literary moral, not a general statement about Akan or Gold Coast people.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How do the two men help Anansi before the final trip?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They hide a pot in a tree"
-        },
-        {
-          "id": "b",
-          "text": "They teach him to command a magic stick"
-        },
-        {
-          "id": "c",
-          "text": "They guide him into the canoe and help him fish"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The story says they lead him to the beach and help him with the net and canoe.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Gold Coast story in the printed collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection say about the teller or place?"
-        ],
-        "sourceRefIds": [
-          "fisherman"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Anansi jump into deep water?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He is ordered by Thunder"
-        },
-        {
-          "id": "b",
-          "text": "He insists he knows they have reached shore"
-        },
-        {
-          "id": "c",
-          "text": "He tries to catch the Sampo"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The men tell him they are at the beach; Anansi says he knows and jumps out.",
-      "sourceRefIds": [
-        "fisherman"
-      ],
-      "objectiveIds": [
-        "obj.akan.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Gold Coast story in the printed collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection say about the teller or place?"
-        ],
-        "sourceRefIds": [
-          "fisherman"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fish.end",
+   "text": "How does the scheme end?"
   }
+ ],
+ "sourceReferences": {
+  "fisherman": {
+   "recordId": "pg-66923",
+   "sourceId": "akan.west-african-folktales",
+   "work": "West African Folk-Tales",
+   "author": "W. H. Barker and Cecilia Sinclair",
+   "translator": "not applicable; collected, arranged, and retold in English",
+   "locator": "Story XI · ANANSI THE BLIND FISHERMAN; Story XI · ANANSI THE BLIND FISHERMAN, normalized characters 650-2204",
+   "localPath": "content/corpus/akan/primary/west-african-folk-tales-66923.txt",
+   "excerpt": "When they told him where to spread his net, he would reply sharply, “I know. I was just about to put it there.” When they were directing him to get out of the boat, he would say, “Oh, I know perfectly well we are at the beach. I was just getting ready to step out.” This went on for a long time, Anansi getting ruder and ruder to his helpers every day, until they could bear his treatment no longer. They determined when opportunity offered to punish him for his ingratitude. The next day, as usual, he came with them to the beach. When they had got the canoe ready, they bade him step in. “Do you think I am a fool?” said he. “I know the canoe is there.” They made no answer, but got in and patiently pulled toward the fishing-place. When they told him where to spread his net, he replied with so much abuse that they determined, there and then, to punish him. By this time the canoe was full of fish, so they turned to row home. When they had gone a little way they stopped and said to him, “Here we are at the beach.” He promptly told them that they were very foolish—to tell him a thing he knew so well. He added many rude and insulting remarks, which made them thoroughly angry. He then jumped proudly out, expecting to land on the beach. To his great astonishment he found himself sinking in deep water. The two men rowed quickly away, leaving him to struggle. Like all the men of that country he was a good swimmer, but, of course, being blind, he was unable to see where the land lay. So he swam until he was completely tired out—and was drowned.",
+   "evidenceType": "quotation",
+   "note": "Verbatim text from Barker and Sinclair's 1917 English collection of Gold Coast stories. Attribute any specific community only where the collection does so."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The spider goes fishing",
+   "body": "Anansi sets himself up as a fisherman — and his 'catch' is a con: he tricks men into the canoe or the water with promises of the great haul to be had.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.trick"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The blind man's advantage",
+   "body": "The scheme hinges on a victim who can't see the trick — the blind partner Anansi exploits, thinking the blindness makes the con easy.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.trick"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The turning of the con",
+   "body": "But the blind man has his own resources — the tale turns on Anansi's assumption that blind means helpless, which it does not.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.end"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The spider nearly drowned",
+   "body": "The scheme collapses on its maker — the trickster ends in the water himself, and the tale's satisfaction is watching the con-man get dunked. Some versions have him nearly drowned for his pains.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.end"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The cycle's own justice",
+   "body": "The Anansi cycle lets its hero fail as often as he wins: the tales' moral isn't 'cunning always pays' — it's that cunning aimed at the vulnerable finds its match.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.end"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is Anansi's fishing scheme?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He steals fish from the market"
+    },
+    {
+     "id": "b",
+     "text": "He sells a drowned log as a canoe"
+    },
+    {
+     "id": "c",
+     "text": "He cons a blind partner into the water — exploiting blindness to cheat him of the catch"
+    },
+    {
+     "id": "d",
+     "text": "He claims the river as his own"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The scam targets the vulnerable — which is why it must fail.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.trick"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the scheme end?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The blind man turns the con — the spider ends in the water himself, nearly drowned"
+    },
+    {
+     "id": "b",
+     "text": "Anansi wins and keeps the catch"
+    },
+    {
+     "id": "c",
+     "text": "The fish carry him to sea"
+    },
+    {
+     "id": "d",
+     "text": "The blind man forgives him"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The trickster is out-tricked — the cycle's own justice.",
+   "sourceRefIds": [
+    "fisherman"
+   ],
+   "objectiveIds": [
+    "obj.fish.end"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,206 +1,195 @@
 {
-  "id": "cherokee.week01.day05.medicine-and-sacred-speech",
-  "version": 3,
-  "weekId": "cherokee.tradition.week01",
-  "pantheon": "cherokee",
-  "themeMode": "pantheon",
-  "title": "Origin of Disease and Medicine",
-  "subtitle": "A story about animals, plants, and human conduct",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "cherokee",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.cherokee.5.concept",
-      "text": "Why do the animals hold a council in the story?"
-    },
-    {
-      "id": "obj.cherokee.5.source",
-      "text": "What do the plants agree to provide?"
-    }
-  ],
-  "sourceReferences": {
-    "animals": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 353-760",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "This was bad enough, but to make it worse Man invented bows, knives, blowguns, spears, and hooks, and began to slaughter the larger animals, birds, and fishes for their flesh or their skins, while the smaller creatures, such as the frogs and worms, were crushed and trodden upon without thought, out of pure carelessness or contempt. So the animals resolved to consult upon measures for their common safety.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    },
-    "plants": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 6412-6772",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "When the Plants, who were friendly to Man, heard what had been done by the animals, they determined to defeat the latters' evil designs. Each Tree, Shrub, and Herb, down even to the Grasses and Mosses, agreed to furnish a cure for some one of the diseases named, and each said: \"I shall appear to help Man when he calls upon me in his need.\" Thus came medicine",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    }
+ "id": "cherokee.week01.day05.medicine-and-sacred-speech",
+ "version": 4,
+ "weekId": "cherokee.tradition.week01",
+ "pantheon": "cherokee",
+ "themeMode": "pantheon",
+ "title": "Origin of Disease and Medicine",
+ "subtitle": "A story about animals, plants, and human conduct",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "disease",
+  "animals",
+  "plants",
+  "cherokee"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.med.council",
+   "text": "What do the animals decide?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Animals call a council",
-      "body": "In Mooney's recorded narrative, animals complain that people hunt and kill them, and decide to meet in council.",
-      "sourceRefIds": [
-        "animals"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Plants respond after the animals",
-      "body": "Quotation from Mooney's English record (whitespace normalized): “When the Plants, who were friendly to Man, heard what had been done by the animals, they determined to defeat the latters' evil designs. Each Tree, Shrub, and Herb, down even to the Grasses and Mosses, agreed to furnish a cure for some one of the diseases named, and each said: \"I shall appear to help Man when he calls upon me in his need.\" Thus came medicine”",
-      "sourceRefIds": [
-        "plants"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The story gives each plant a role",
-      "body": "The narrative says trees, shrubs, herbs, grasses, and mosses agree to provide remedies for diseases.",
-      "sourceRefIds": [
-        "plants"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A historical narrative, not medical advice",
-      "body": "This is Mooney's 1902 English record of a Cherokee story. It does not validate treatments or describe all present-day Cherokee medicine.",
-      "sourceRefIds": [
-        "animals",
-        "plants"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The tale links human behavior and consequence",
-      "body": "The story frames disease as a response to harm done to animals and medicine as help offered by plants; keep that explanation inside this particular narrative.",
-      "sourceRefIds": [
-        "animals",
-        "plants"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Why do the animals hold a council in the story?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The princes need help escaping a maze"
-        },
-        {
-          "id": "b",
-          "text": "The Sun asks them to move the mountains"
-        },
-        {
-          "id": "c",
-          "text": "People hunt, kill, and use them without regard"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The opening says animals object to being killed for food and skins and to being carelessly harmed.",
-      "sourceRefIds": [
-        "animals"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "animals"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What do the plants agree to provide?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A magic spear for the Uktena"
-        },
-        {
-          "id": "b",
-          "text": "A cure for some of the diseases named"
-        },
-        {
-          "id": "c",
-          "text": "A new king for the Cherokee"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The story says each plant offers a remedy for one of the diseases.",
-      "sourceRefIds": [
-        "plants"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "plants"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.med.plants",
+   "text": "What do the plants offer?"
   }
+ ],
+ "sourceReferences": {
+  "animals": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 353-760",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "This was bad enough, but to make it worse Man invented bows, knives, blowguns, spears, and hooks, and began to slaughter the larger animals, birds, and fishes for their flesh or their skins, while the smaller creatures, such as the frogs and worms, were crushed and trodden upon without thought, out of pure carelessness or contempt. So the animals resolved to consult upon measures for their common safety.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  },
+  "plants": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 4 · ORIGIN OF DISEASE AND MEDICINE, normalized characters 6412-6772",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "When the Plants, who were friendly to Man, heard what had been done by the animals, they determined to defeat the latters' evil designs. Each Tree, Shrub, and Herb, down even to the Grasses and Mosses, agreed to furnish a cure for some one of the diseases named, and each said: \"I shall appear to help Man when he calls upon me in his need.\" Thus came medicine",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A council of the animals",
+   "body": "The animals hold council: humans multiply without limit and kill them carelessly — so, to even the balance, the animals invent diseases to afflict the people.",
+   "sourceRefIds": [
+    "animals"
+   ],
+   "objectiveIds": [
+    "obj.med.council"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Every beast a sickness",
+   "body": "Each animal devises its own ailment — the deer brings rheumatism for the hunter who forgets to ask pardon, and the rest follow: a catalog of diseases sent as a judgment.",
+   "sourceRefIds": [
+    "animals"
+   ],
+   "objectiveIds": [
+    "obj.med.council"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The plants' counter-council",
+   "body": "Then the plants — friends of humankind — hold their own council, and each offers itself as a cure: every animal's disease, a plant's answer.",
+   "sourceRefIds": [
+    "plants"
+   ],
+   "objectiveIds": [
+    "obj.med.plants"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Medicine as alliance",
+   "body": "That is why the Cherokee world treats healing as alliance: the plant offers, the healer asks properly, and the cure is the plant keeping its ancient promise.",
+   "sourceRefIds": [
+    "plants"
+   ],
+   "objectiveIds": [
+    "obj.med.plants"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A sacred story, not a remedy",
+   "body": "This is a Cherokee sacred account collected by James Mooney — it explains the world's moral balance. It is not medical instruction, and it does not validate treatments — the plants' cures belong to the story's own framework.",
+   "sourceRefIds": [
+    "animals",
+    "plants"
+   ],
+   "objectiveIds": [
+    "obj.med.plants"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why do the animals invent diseases?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "To test the shamans"
+    },
+    {
+     "id": "b",
+     "text": "To avenge the Uktena"
+    },
+    {
+     "id": "c",
+     "text": "To punish humanity for multiplying and killing them carelessly — a judgment-council"
+    },
+    {
+     "id": "d",
+     "text": "To prevent the hunt entirely"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "Disease is the animals' balancing answer to unchecked hunting.",
+   "sourceRefIds": [
+    "animals"
+   ],
+   "objectiveIds": [
+    "obj.med.council"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What do the plants offer in their council?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Each offers itself as a cure — every animal-made disease gets a plant-made answer"
+    },
+    {
+     "id": "b",
+     "text": "They hide their healing powers"
+    },
+    {
+     "id": "c",
+     "text": "They poison the animals in turn"
+    },
+    {
+     "id": "d",
+     "text": "They demand sacrifices first"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The plants are humanity's allies — the counter to the animal judgment.",
+   "sourceRefIds": [
+    "plants"
+   ],
+   "objectiveIds": [
+    "obj.med.plants"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

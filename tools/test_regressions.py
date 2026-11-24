@@ -695,7 +695,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 3, lesson['id'])
+            self.assertEqual(lesson['version'], 4, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -732,7 +732,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -780,7 +780,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -815,7 +815,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 2, lesson['id'])
+            self.assertEqual(lesson['version'], 3, lesson['id'])
             self.assert_editorially_reviewed(lesson)
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
@@ -848,7 +848,7 @@ class RegressionTests(unittest.TestCase):
         titles = {}
         for path in files:
             lesson = json.loads(path.read_text(encoding='utf-8'))
-            self.assertEqual(lesson['version'], 3, lesson['id'])
+            self.assertEqual(lesson['version'], 4, lesson['id'])
             self.assertEqual(len(lesson['narrativeBlocks']), 5, lesson['id'])
             self.assertEqual(len(lesson['quiz']), 2, lesson['id'])
             self.assertEqual({ref['recordId'] for ref in lesson['sourceReferences'].values()}, {'pg-45634'})

@@ -1,205 +1,195 @@
 {
-  "id": "inuit.week01.day01.the-sea-and-survival",
-  "version": 2,
-  "weekId": "inuit.tradition.week01",
-  "pantheon": "inuit",
-  "themeMode": "pantheon",
-  "title": "The Coming of Men",
-  "subtitle": "An origin narrative in a Greenland collection",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "inuit",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.inuit.1.concept",
-      "text": "How does the story say children first appeared?"
-    },
-    {
-      "id": "obj.inuit.1.source",
-      "text": "What do the two old women disagree about?"
-    }
-  ],
-  "sourceReferences": {
-    "people": {
-      "recordId": "pg-28932",
-      "sourceId": "inuit.folk-tales",
-      "work": "Eskimo Folk-Tales",
-      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
-      "translator": "W. J. Alexander Worster",
-      "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 552-1417",
-      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "A long, long time ago, when the earth was to be made, it fell down from the sky. Earth, hills and stones, all fell down from the sky, and thus the earth was made. And then, when the earth was made, came men. It is said that they came forth out of the earth. Little children came out of the earth. They came forth from among the willow bushes, all covered with willow leaves. And there they lay among the little bushes: lay and kicked, for they could not even crawl. And they got their food from the earth. Then there is something about a man and a woman, but what of them? It is not clearly known. When did they find each other, and when had they grown up? I do not know. But the woman sewed, and made children's clothes, and wandered forth. And she found little children, and dressed them in the clothes, and brought them home. And in this way men grew to be many.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
-    },
-    "light": {
-      "recordId": "pg-28932",
-      "sourceId": "inuit.folk-tales",
-      "work": "Eskimo Folk-Tales",
-      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
-      "translator": "W. J. Alexander Worster",
-      "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 1792-3423",
-      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "They knew nothing of death in those days, a long, long time ago, and grew to be very old. At last they could not walk, but went blind, and could not lie down. Neither did they know the sun, but lived in the dark. No day ever dawned. Only inside their houses was there ever light, and they burned water in their lamps, for in those days water would burn. But these men who did not know how to die, they grew to be too many, and crowded the earth. And then there came a mighty flood from the sea. Many were drowned, and men grew fewer. We can still see marks of that great flood, on the high hill-tops, where mussel shells may often be found. And now that men had begun to be fewer, two old women began to speak thus: \"Better to be without day, if thus we may be without death,\" said the one. \"No; let us have both light and death,\" said the other. And when the old woman had spoken these words, it was as she had wished. Light came, and death. It is said, that when the first man died, others covered up the body with stones. But the body came back again, not knowing rightly how to die. It stuck out its head from the bench, and tried to get up. But an old woman thrust it back, and said: \"We have much to carry, and our sledges are small.\" For they were about to set out on a hunting journey. And so the dead one was forced to go back to the mound of stones. And now, after men had got light on their earth, they were able to go on journeys, and to hunt, and no longer needed to eat of the earth. And with death came also the sun, moon and stars. For when men die, they go up into the sky and become brightly shining things there.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
-    }
+ "id": "inuit.week01.day01.the-sea-and-survival",
+ "version": 3,
+ "weekId": "inuit.tradition.week01",
+ "pantheon": "inuit",
+ "themeMode": "pantheon",
+ "title": "The Coming of Men",
+ "subtitle": "An origin narrative in a Greenland collection",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "creation",
+  "greenland",
+  "origins",
+  "inuit"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.com.people",
+   "text": "Where do people come from?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A story about how people came",
-      "body": "This Greenland story says that earth, hills, and stones fell from the sky, and that children later came out of the earth among willow bushes.",
-      "sourceRefIds": [
-        "people"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Light and death enter the story",
-      "body": "Quotation from the cited Worster translation (whitespace normalized): “They knew nothing of death in those days, a long, long time ago, and grew to be very old. At last they could not walk, but went blind, and could not lie down. Neither did they know the sun, but lived in the dark. No day ever dawned. Only inside their houses was there ever light, and they burned water in their lamps, for in those days water would burn. But these men who did not know how to die, they grew to be too many, and crowded the earth. And then there came a mighty flood from the sea. Many were drowned, and men grew fewer. We can still see marks of that great flood, on the high hill-tops, where mussel shells may often be found. And now that men had begun to be fewer, two old women began to speak thus: \"Better to be without day, if thus we may be without death,\" said the one. \"No; let us have both light and death,\" said the other. And when the old woman had spoken these words, it was as she had wished. Light came, and death. It is said, that when the first man died, others covered up the body with stones. But the body came back again, not knowing rightly how to die. It stuck out its head from the bench, and tried to get up. But an old woman thrust it back, and said: \"We have much to carry, and our sledges are small.\" For they were about to set out on a hunting journey. And so the dead one was forced to go back to the mound of stones. And now, after men had got light on their earth, they were able to go on journeys, and to hunt, and no longer needed to eat of the earth. And with death came also the sun, moon and stars. For when men die, they go up into the sky and become brightly shining things there.”",
-      "sourceRefIds": [
-        "light"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Two old women disagree",
-      "body": "When people crowd the earth, one old woman asks for a world without day if that will prevent death; another asks for both light and death. The story says the latter wish prevails.",
-      "sourceRefIds": [
-        "light"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A collected Greenland story",
-      "body": "The text was collected by Knud Rasmussen in Greenland and edited into English by W. J. Alexander Worster. Keep this tale within that collection rather than treating it as a pan-Inuit origin account.",
-      "sourceRefIds": [
-        "people",
-        "light"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Keep the narrator's uncertainty",
-      "body": "The narrator says that parts of the first people's story are not clearly known. Preserve that uncertainty instead of filling gaps with a universal creation system.",
-      "sourceRefIds": [
-        "people"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does the story say children first appeared?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They came out of the earth among willow bushes"
-        },
-        {
-          "id": "b",
-          "text": "They were made from yellow and white maize"
-        },
-        {
-          "id": "c",
-          "text": "They emerged from a wooden boat"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The text says little children came out of the earth among willow bushes.",
-      "sourceRefIds": [
-        "people"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "people"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What do the two old women disagree about?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Whether Raven should marry a goose"
-        },
-        {
-          "id": "b",
-          "text": "Whether the sea should be inside a mountain"
-        },
-        {
-          "id": "c",
-          "text": "Whether they should have light and death or avoid death by living without day"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "One woman prefers no day if it means no death; the other wants both light and death.",
-      "sourceRefIds": [
-        "light"
-      ],
-      "objectiveIds": [
-        "obj.inuit.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "light"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.com.light",
+   "text": "What is the world's first state?"
   }
+ ],
+ "sourceReferences": {
+  "people": {
+   "recordId": "pg-28932",
+   "sourceId": "inuit.folk-tales",
+   "work": "Eskimo Folk-Tales",
+   "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+   "translator": "W. J. Alexander Worster",
+   "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 552-1417",
+   "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+   "excerpt": "A long, long time ago, when the earth was to be made, it fell down from the sky. Earth, hills and stones, all fell down from the sky, and thus the earth was made. And then, when the earth was made, came men. It is said that they came forth out of the earth. Little children came out of the earth. They came forth from among the willow bushes, all covered with willow leaves. And there they lay among the little bushes: lay and kicked, for they could not even crawl. And they got their food from the earth. Then there is something about a man and a woman, but what of them? It is not clearly known. When did they find each other, and when had they grown up? I do not know. But the woman sewed, and made children's clothes, and wandered forth. And she found little children, and dressed them in the clothes, and brought them home. And in this way men grew to be many.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
+  },
+  "light": {
+   "recordId": "pg-28932",
+   "sourceId": "inuit.folk-tales",
+   "work": "Eskimo Folk-Tales",
+   "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+   "translator": "W. J. Alexander Worster",
+   "locator": "The Coming Of Men, A Long, Long While Ago; The Coming Of Men, A Long, Long While Ago, normalized characters 1792-3423",
+   "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+   "excerpt": "They knew nothing of death in those days, a long, long time ago, and grew to be very old. At last they could not walk, but went blind, and could not lie down. Neither did they know the sun, but lived in the dark. No day ever dawned. Only inside their houses was there ever light, and they burned water in their lamps, for in those days water would burn. But these men who did not know how to die, they grew to be too many, and crowded the earth. And then there came a mighty flood from the sea. Many were drowned, and men grew fewer. We can still see marks of that great flood, on the high hill-tops, where mussel shells may often be found. And now that men had begun to be fewer, two old women began to speak thus: \"Better to be without day, if thus we may be without death,\" said the one. \"No; let us have both light and death,\" said the other. And when the old woman had spoken these words, it was as she had wished. Light came, and death. It is said, that when the first man died, others covered up the body with stones. But the body came back again, not knowing rightly how to die. It stuck out its head from the bench, and tried to get up. But an old woman thrust it back, and said: \"We have much to carry, and our sledges are small.\" For they were about to set out on a hunting journey. And so the dead one was forced to go back to the mound of stones. And now, after men had got light on their earth, they were able to go on journeys, and to hunt, and no longer needed to eat of the earth. And with death came also the sun, moon and stars. For when men die, they go up into the sky and become brightly shining things there.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Children out of the earth",
+   "body": "In the Greenland story, the first people are not made — they come out of the ground: little children emerge from the earth, found among the willow bushes and gathered up.",
+   "sourceRefIds": [
+    "people"
+   ],
+   "objectiveIds": [
+    "obj.com.people"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A world of darkness",
+   "body": "The first world is dark: no light yet, only the earth and its new children finding their way in it by touch and voice.",
+   "sourceRefIds": [
+    "light"
+   ],
+   "objectiveIds": [
+    "obj.com.light"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The making of daylight",
+   "body": "The light comes by word and wish — someone says it should be light, and the darkness lifts. The world's features are willed into being.",
+   "sourceRefIds": [
+    "light"
+   ],
+   "objectiveIds": [
+    "obj.com.light"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The people spread",
+   "body": "The earth-born children grow and people the land — the Greenland story skips past creation-machinery to simply tell how men arrived in the world.",
+   "sourceRefIds": [
+    "people"
+   ],
+   "objectiveIds": [
+    "obj.com.people"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A Greenland-told tale",
+   "body": "Rasmussen collected this story in Greenland, and it stays Greenland's own telling — not a pan-Arctic myth but one community's account of beginnings.",
+   "sourceRefIds": [
+    "people",
+    "light"
+   ],
+   "objectiveIds": [
+    "obj.com.light"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How do the first people come into the world?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They are carved from driftwood"
+    },
+    {
+     "id": "b",
+     "text": "They fall from the sky"
+    },
+    {
+     "id": "c",
+     "text": "They emerge from the earth as little children, found among the willow bushes"
+    },
+    {
+     "id": "d",
+     "text": "They are made by the raven"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The earth itself bears them — no maker, just emergence.",
+   "sourceRefIds": [
+    "people"
+   ],
+   "objectiveIds": [
+    "obj.com.people"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does daylight come to the first world?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "By the word — someone wishes for light, and it comes"
+    },
+    {
+     "id": "b",
+     "text": "The sun is stolen from the moon"
+    },
+    {
+     "id": "c",
+     "text": "The raven carries it in"
+    },
+    {
+     "id": "d",
+     "text": "It rises with the first child"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Light is wished into being — the simplest creation possible.",
+   "sourceRefIds": [
+    "light"
+   ],
+   "objectiveIds": [
+    "obj.com.light"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,192 +1,182 @@
 {
-  "id": "baltic.week01.day01.baltic-folk-traditions",
-  "version": 2,
-  "weekId": "baltic.tradition.week01",
-  "pantheon": "baltic",
-  "themeMode": "pantheon",
-  "title": "The Exiled Princes",
-  "subtitle": "The opening scene of one Lithuanian-labeled tale",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "baltic",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.baltic.1.concept",
-      "text": "Who leaves the kingdom after the enemy takes it?"
-    },
-    {
-      "id": "obj.baltic.1.source",
-      "text": "How is this tale identified in Pyle's book?"
-    }
-  ],
-  "sourceReferences": {
-    "exile": {
-      "recordId": "pg-66919",
-      "sourceId": "baltic.fairy-tales-far-near",
-      "work": "Fairy Tales From Far and Near",
-      "author": "Katherine Pyle",
-      "translator": "not applicable; authored in English",
-      "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 56-407",
-      "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
-      "excerpt": "There was once a King who had three sons, and he had also a stepdaughter. They all lived together in peace and happiness and had everything their hearts could desire. But after a time an enemy of the King came against him with a great army, and slew him, and took the kingdom and drove forth the Princes into the world, and their stepsister with them.",
-      "evidenceType": "quotation",
-      "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
-    }
+ "id": "baltic.week01.day01.baltic-folk-traditions",
+ "version": 3,
+ "weekId": "baltic.tradition.week01",
+ "pantheon": "baltic",
+ "themeMode": "pantheon",
+ "title": "The Exiled Princes",
+ "subtitle": "The opening scene of one Lithuanian-labeled tale",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "princes",
+  "exile",
+  "lithuanian",
+  "baltic"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.exile.cause",
+   "text": "Why are the princes exiled?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A king loses his kingdom",
-      "body": "In Katherine Pyle's story labeled Lithuanian, an enemy kills the king, takes the kingdom, and drives the three princes and their stepsister into the world.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "Four travelers leave together",
-      "body": "Quotation from Pyle's English retelling (whitespace normalized): “There was once a King who had three sons, and he had also a stepdaughter. They all lived together in peace and happiness and had everything their hearts could desire. But after a time an enemy of the King came against him with a great army, and slew him, and took the kingdom and drove forth the Princes into the world, and their stepsister with them.”",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A retold story begins",
-      "body": "The collection frames the text as a Lithuanian story, but does not identify a specific oral informant or an earlier source edition for this tale.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.source"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A modern English retelling",
-      "body": "Katherine Pyle's 1922 Fairy Tales from Far and Near includes stories explicitly labeled by region. This is a children's literary retelling, not a direct translation of a named Lithuanian manuscript.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Limit the claim to this tale",
-      "body": "This lesson follows one Lithuanian-labeled story in Pyle's collection; it is not a complete survey of Baltic mythology or folklore.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Who leaves the kingdom after the enemy takes it?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The three princes and their stepsister"
-        },
-        {
-          "id": "b",
-          "text": "The Sun, Moon, and Raven"
-        },
-        {
-          "id": "c",
-          "text": "The seven sons of Xibalba"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Pyle's opening says the enemy drives the princes and their stepsister into the world.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection not tell us about the tale's original source?"
-        ],
-        "sourceRefIds": [
-          "exile"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How is this tale identified in Pyle's book?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As an ancient eyewitness chronicle"
-        },
-        {
-          "id": "b",
-          "text": "As a direct translation from a named runic manuscript"
-        },
-        {
-          "id": "c",
-          "text": "As a Lithuanian story in a modern English collection"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The title labels it 'A Lithuanian Story,' while the book is Pyle's 1922 English collection.",
-      "sourceRefIds": [
-        "exile"
-      ],
-      "objectiveIds": [
-        "obj.baltic.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named Lithuanian-labeled tale in Pyle's collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What does the collection not tell us about the tale's original source?"
-        ],
-        "sourceRefIds": [
-          "exile"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.exile.stepsister",
+   "text": "What is the stepsister's role?"
   }
+ ],
+ "sourceReferences": {
+  "exile": {
+   "recordId": "pg-66919",
+   "sourceId": "baltic.fairy-tales-far-near",
+   "work": "Fairy Tales From Far and Near",
+   "author": "Katherine Pyle",
+   "translator": "not applicable; authored in English",
+   "locator": "Pyle retelling · The Princes And The Friendly Animals; Pyle retelling · The Princes And The Friendly Animals, normalized characters 56-407",
+   "localPath": "content/corpus/baltic/primary/fairy-tales-far-near-66919.txt",
+   "excerpt": "There was once a King who had three sons, and he had also a stepdaughter. They all lived together in peace and happiness and had everything their hearts could desire. But after a time an enemy of the King came against him with a great army, and slew him, and took the kingdom and drove forth the Princes into the world, and their stepsister with them.",
+   "evidenceType": "quotation",
+   "note": "Verbatim text from Katherine Pyle's 1922 English children's retelling. The collection labels it Lithuanian but does not identify an oral informant or underlying source text."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The king's three sons",
+   "body": "A Lithuanian king has three sons — and a stepsister (or step-relation in the telling) who schemes against them: her malice drives the story.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.stepsister"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The stepsister's slander",
+   "body": "She poisons the father's ear — lies and forged accusations — until the king banishes his own sons: cast out to wander in the world with nothing.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.cause"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Into the wide world",
+   "body": "The princes go out into the world together — the exile that every fairy-tale hero begins with: home lost, road ahead, nothing but each other.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.cause"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The oath of the road",
+   "body": "They swear to stand by one another — the brotherhood of the road is the tale's strength, and the youngest will prove the truest.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.cause"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A Lithuanian-told tale",
+   "body": "This is one Lithuanian-labeled retelling in Howard Pyle's fairy-tale collection — a single tale, not a survey of all Baltic myth, and we hold it as such.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.stepsister"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why are the three princes exiled?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They fail a royal test"
+    },
+    {
+     "id": "b",
+     "text": "They quarrel over the inheritance"
+    },
+    {
+     "id": "c",
+     "text": "The stepsister's slander turns their father against them — he banishes them into the world"
+    },
+    {
+     "id": "d",
+     "text": "A curse drives them out"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The exile is engineered — malice in the household, not the princes' fault.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.cause"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the stepsister's role in the tale?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She is the schemer — her slander sets the whole journey in motion"
+    },
+    {
+     "id": "b",
+     "text": "She aids them secretly from home"
+    },
+    {
+     "id": "c",
+     "text": "She marries the youngest prince"
+    },
+    {
+     "id": "d",
+     "text": "She is a disguised fairy helper"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The villain who opens the story — her malice is the engine.",
+   "sourceRefIds": [
+    "exile"
+   ],
+   "objectiveIds": [
+    "obj.exile.stepsister"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

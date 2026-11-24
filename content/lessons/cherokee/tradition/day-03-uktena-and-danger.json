@@ -1,218 +1,211 @@
 {
-  "id": "cherokee.week01.day03.uktena-and-danger",
-  "version": 3,
-  "weekId": "cherokee.tradition.week01",
-  "pantheon": "cherokee",
-  "themeMode": "pantheon",
-  "title": "Agan-Unitsi's Search for the Uktena",
-  "subtitle": "A dangerous hunt for the serpent's talisman",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "cherokee",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.cherokee.3.concept",
-      "text": "Where does Agan-Unitsi finally find the Uktena?"
-    },
-    {
-      "id": "obj.cherokee.3.source",
-      "text": "How does he keep the serpent's poison from reaching him?"
-    }
-  ],
-  "sourceReferences": {
-    "search": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 51 ·, normalized characters 2502-2608",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Other places he tried, going always southward, and at last on Gahû'ti mountain he found the Uktena asleep.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    },
-    "hunt": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 51 ·, normalized characters 2915-3699",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "The Uktena was still asleep, and, putting an arrow to his bow, Âgan-uni'tsi shot and sent the arrow through its heart, which was under the seventh spot from the serpent's head. The great snake raised his head, with the diamond in front flashing fire, and came straight at his enemy, but the magician, turning quickly, ran at full speed down the mountain, cleared the circle of fire and the trench at one bound, and lay down on the ground inside. The Uktena tried to follow, but the arrow was through his heart, and in another moment he rolled over in his death struggle, spitting poison over all the mountain side. But the poison drops could not pass the circle of fire, but only hissed and sputtered in the blaze, and the magician on the inside was untouched except by one small drop",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    },
-    "crystal": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 50 ·, normalized characters 1120-1292",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "The blazing diamond is called Ulûñsû'ti, \"Transparent,\" and he who can win it may become the greatest wonder worker of the tribe, but it is worth a man's life to attempt it",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    }
+ "id": "cherokee.week01.day03.uktena-and-danger",
+ "version": 4,
+ "weekId": "cherokee.tradition.week01",
+ "pantheon": "cherokee",
+ "themeMode": "pantheon",
+ "title": "Agan-Unitsi's Search for the Uktena",
+ "subtitle": "A dangerous hunt for the serpent's talisman",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "uktena",
+  "crystal",
+  "conjurer",
+  "cherokee"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ukt.beast",
+   "text": "What is the Uktena?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A promise to find the Uktena",
-      "body": "Mooney's story says Agan-Unitsi is captured in war and promises to find the dangerous Uktena and its bright talisman.",
-      "sourceRefIds": [
-        "search",
-        "crystal"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The search reaches Gahû'ti",
-      "body": "Quotation from Mooney's English record (whitespace normalized): “Other places he tried, going always southward, and at last on Gahû'ti mountain he found the Uktena asleep.”",
-      "sourceRefIds": [
-        "search"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A plan rather than a direct attack",
-      "body": "Agan-Unitsi makes a circle of pine cones, a trench, and fire before shooting the sleeping serpent beneath the seventh spot.",
-      "sourceRefIds": [
-        "hunt"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not turn this into a safety guide",
-      "body": "This is a recorded Cherokee narrative about a dangerous being and a powerful object. It is not advice for approaching wildlife or a claim about present-day Cherokee practice.",
-      "sourceRefIds": [
-        "hunt",
-        "crystal"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The prize carries danger",
-      "body": "The narrative pairs the Uktena's crystal with danger to the hunter and his family; its power is not presented as consequence-free.",
-      "sourceRefIds": [
-        "crystal"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Where does Agan-Unitsi finally find the Uktena?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Inside the labyrinth at Crete"
-        },
-        {
-          "id": "b",
-          "text": "Asleep on Gahû'ti mountain"
-        },
-        {
-          "id": "c",
-          "text": "At the edge of the Achaean ships"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The story says he finds the Uktena asleep on Gahû'ti mountain.",
-      "sourceRefIds": [
-        "search"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "search"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does he keep the serpent's poison from reaching him?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He hides inside a ring of fire and a trench"
-        },
-        {
-          "id": "b",
-          "text": "He uses Ariadne's clue"
-        },
-        {
-          "id": "c",
-          "text": "He climbs onto a ship's mast"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The account says the poison cannot pass the fire circle and trench.",
-      "sourceRefIds": [
-        "hunt"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.3.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "hunt"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ukt.hunt",
+   "text": "How does he hunt it?"
+  },
+  {
+   "id": "obj.ukt.crystal",
+   "text": "What is the crystal in its forehead?"
   }
+ ],
+ "sourceReferences": {
+  "search": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 51 ·, normalized characters 2502-2608",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "Other places he tried, going always southward, and at last on Gahû'ti mountain he found the Uktena asleep.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  },
+  "hunt": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 51 ·, normalized characters 2915-3699",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "The Uktena was still asleep, and, putting an arrow to his bow, Âgan-uni'tsi shot and sent the arrow through its heart, which was under the seventh spot from the serpent's head. The great snake raised his head, with the diamond in front flashing fire, and came straight at his enemy, but the magician, turning quickly, ran at full speed down the mountain, cleared the circle of fire and the trench at one bound, and lay down on the ground inside. The Uktena tried to follow, but the arrow was through his heart, and in another moment he rolled over in his death struggle, spitting poison over all the mountain side. But the poison drops could not pass the circle of fire, but only hissed and sputtered in the blaze, and the magician on the inside was untouched except by one small drop",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  },
+  "crystal": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 50 ·, normalized characters 1120-1292",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "The blazing diamond is called Ulûñsû'ti, \"Transparent,\" and he who can win it may become the greatest wonder worker of the tribe, but it is worth a man's life to attempt it",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The great horned serpent",
+   "body": "The Uktena is the Cherokee world's most dangerous being — a great horned serpent with a blazing crystal set in its forehead, so powerful that to see it is to be drawn to death.",
+   "sourceRefIds": [
+    "search"
+   ],
+   "objectiveIds": [
+    "obj.ukt.beast"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The conjurer's vow",
+   "body": "Agan-Unitsi — the keen-eyed one — is a great conjurer who vows to take the Uktena's crystal: a charm that can foretell and heal, worth any risk.",
+   "sourceRefIds": [
+    "search"
+   ],
+   "objectiveIds": [
+    "obj.ukt.hunt"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The hunt through the mountains",
+   "body": "The search leads through the mountains, asking the animals for the serpent's trail — each helper points him further on toward the hidden den.",
+   "sourceRefIds": [
+    "hunt"
+   ],
+   "objectiveIds": [
+    "obj.ukt.hunt"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The crystal won",
+   "body": "By cunning and magic — a circle the serpent cannot cross, arrows, seven trials of nerve — he wins the blazing crystal from the Uktena's forehead, the charm that makes him the greatest conjurer.",
+   "sourceRefIds": [
+    "crystal"
+   ],
+   "objectiveIds": [
+    "obj.ukt.crystal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Power at a price",
+   "body": "The crystal is the most powerful charm in the Cherokee world — and the tale warns: it must be fed and guarded, for a power that great is always dangerous to hold.",
+   "sourceRefIds": [
+    "crystal",
+    "search"
+   ],
+   "objectiveIds": [
+    "obj.ukt.crystal"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the Uktena?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A giant eagle of the peaks"
+    },
+    {
+     "id": "b",
+     "text": "A horned water-panther"
+    },
+    {
+     "id": "c",
+     "text": "The great horned serpent — blazing crystal in its forehead, fatal to look upon"
+    },
+    {
+     "id": "d",
+     "text": "The spirit of the storm"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The Cherokee world's most dangerous being — and its greatest prize.",
+   "sourceRefIds": [
+    "search"
+   ],
+   "objectiveIds": [
+    "obj.ukt.beast"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Agan-Unitsi take from the Uktena?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The blazing crystal in its forehead — the charm that makes him the greatest conjurer"
+    },
+    {
+     "id": "b",
+     "text": "Its horn for a spearhead"
+    },
+    {
+     "id": "c",
+     "text": "Its heart for medicine"
+    },
+    {
+     "id": "d",
+     "text": "Its venom for hunting"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The crystal is the prize — foresight and healing in one stone.",
+   "sourceRefIds": [
+    "crystal"
+   ],
+   "objectiveIds": [
+    "obj.ukt.crystal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

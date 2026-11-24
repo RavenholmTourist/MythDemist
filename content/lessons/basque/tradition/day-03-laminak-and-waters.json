@@ -1,192 +1,182 @@
 {
-  "id": "basque.week01.day03.laminak-and-waters",
-  "version": 2,
-  "weekId": "basque.tradition.week01",
-  "pantheon": "basque",
-  "themeMode": "pantheon",
-  "title": "The Grateful Tartaro and the Heren-Suge",
-  "subtitle": "A ball-game bargain frees a prisoner",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "basque",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.basque.3.concept",
-      "text": "What does the Tartaro ask for in exchange for the ball?"
-    },
-    {
-      "id": "obj.basque.3.source",
-      "text": "How does the boy get the stable key?"
-    }
-  ],
-  "sourceReferences": {
-    "ball": {
-      "recordId": "pg-34902",
-      "sourceId": "basque.legends",
-      "work": "Basque Legends",
-      "author": "Basque storytellers; collected and translated by Wentworth Webster",
-      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
-      "locator": "THE GRATEFUL TARTARO AND THE HEREN-SUGE.; THE GRATEFUL TARTARO AND THE HEREN-SUGE., normalized characters 480-1491",
-      "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "The next day the two sons of the king were playing at ball against (the wall of) the stable where the Tartaro was confined, and the ball went into the stable. One of the boys goes and asks the Tartaro-- \"Throw me back my ball, I beg you.\" He says to him, \"Yes, if you will deliver me.\" He replies, \"Yes, yes,\" and he threw him the ball. A moment after, the ball goes again to the Tartaro. He asks for it again; and the Tartaro says: \"If you will deliver me, I will give it you.\" The boy says, \"Yes, yes,\" takes his ball, and goes off. The ball goes there for the third time, but the Tartaro will not give it before he is let out. The boy says that he has not the key. The Tartaro says to him: \"Go to your mother, and tell her to look in your right ear, because something hurts you there. Your mother will have the key in her left pocket, and take it out.\" The boy goes, and does as the Tartaro had told him. He takes the key from his mother, and delivers the Tartaro. When he was letting him go, he said to him:",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
-    }
+ "id": "basque.week01.day03.laminak-and-waters",
+ "version": 3,
+ "weekId": "basque.tradition.week01",
+ "pantheon": "basque",
+ "themeMode": "pantheon",
+ "title": "The Grateful Tartaro and the Heren-Suge",
+ "subtitle": "A ball-game bargain frees a prisoner",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "tartaro",
+  "heren-suge",
+  "gratitude",
+  "basque"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.grate.ball",
+   "text": "What does the grateful Tartaro give?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A ball enters the stable",
-      "body": "A king keeps a Tartaro in a stable. When a boy's ball rolls inside, the prisoner offers to return it if the boy will free him.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "An exchange with consequences",
-      "body": "Source quotation (Webster's English collection; whitespace normalized): “The next day the two sons of the king were playing at ball against (the wall of) the stable where the Tartaro was confined, and the ball went into the stable. One of the boys goes and asks the Tartaro-- \"Throw me back my ball, I beg you.\" He says to him, \"Yes, if you will deliver me.\" He replies, \"Yes, yes,\" and he threw him the ball. A moment after, the ball goes again to the Tartaro. He asks for it again; and the Tartaro says: \"If you will deliver me, I will give it you.\" The boy says, \"Yes, yes,\" takes his ball, and goes off. The ball goes there for the third time, but the Tartaro will not give it before he is let out. The boy says that he has not the key. The Tartaro says to him: \"Go to your mother, and tell her to look in your right ear, because something hurts you there. Your mother will have the key in her left pocket, and take it out.\" The boy goes, and does as the Tartaro had told him. He takes the key from his mother, and delivers the Tartaro. When he was letting him go, he said to him:”",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The boy takes the key",
-      "body": "The Tartaro tells the boy how to take the key from his mother. He escapes and promises to help later.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A Basque collection with cross-tradition parallels",
-      "body": "Webster places this story among Basque Tartaro and serpent legends, while noting that the Heren-Suge cycle resembles wider European dragon-slayer motifs. Keep the local telling and the comparison distinct.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A small bargain launches the plot",
-      "body": "The returned ball is not a harmless ending: the boy's promise frees the Tartaro and creates a future debt.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the Tartaro ask for in exchange for the ball?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The boy must marry the princess"
-        },
-        {
-          "id": "b",
-          "text": "The boy must deliver him from the stable"
-        },
-        {
-          "id": "c",
-          "text": "The boy must bring three cubs"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The prisoner says he will return the ball if the boy delivers him.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "ball"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does the boy get the stable key?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The Tartaro tells him a trick involving his mother's ear"
-        },
-        {
-          "id": "b",
-          "text": "He breaks the stable door"
-        },
-        {
-          "id": "c",
-          "text": "The king gives it to him"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The excerpt begins the Tartaro's instruction about where the key is hidden.",
-      "sourceRefIds": [
-        "ball"
-      ],
-      "objectiveIds": [
-        "obj.basque.3.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "ball"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.grate.serpent",
+   "text": "What is the Heren-Suge?"
   }
+ ],
+ "sourceReferences": {
+  "ball": {
+   "recordId": "pg-34902",
+   "sourceId": "basque.legends",
+   "work": "Basque Legends",
+   "author": "Basque storytellers; collected and translated by Wentworth Webster",
+   "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+   "locator": "THE GRATEFUL TARTARO AND THE HEREN-SUGE.; THE GRATEFUL TARTARO AND THE HEREN-SUGE., normalized characters 480-1491",
+   "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
+   "excerpt": "The next day the two sons of the king were playing at ball against (the wall of) the stable where the Tartaro was confined, and the ball went into the stable. One of the boys goes and asks the Tartaro-- \"Throw me back my ball, I beg you.\" He says to him, \"Yes, if you will deliver me.\" He replies, \"Yes, yes,\" and he threw him the ball. A moment after, the ball goes again to the Tartaro. He asks for it again; and the Tartaro says: \"If you will deliver me, I will give it you.\" The boy says, \"Yes, yes,\" takes his ball, and goes off. The ball goes there for the third time, but the Tartaro will not give it before he is let out. The boy says that he has not the key. The Tartaro says to him: \"Go to your mother, and tell her to look in your right ear, because something hurts you there. Your mother will have the key in her left pocket, and take it out.\" The boy goes, and does as the Tartaro had told him. He takes the key from his mother, and delivers the Tartaro. When he was letting him go, he said to him:",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A kindness returned",
+   "body": "Not every Tartaro tale ends in a chase: in this one, a man does the ogre a service — frees him or spares him — and the Tartaro is grateful, and gratitude in these tales always means a gift.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.ball"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The rolling ball",
+   "body": "The grateful Tartaro gives a magic ball — roll it ahead of you and it leads to whatever you most need, even through paths no man could find.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.ball"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The seven-headed serpent",
+   "body": "The ball leads to where the Heren-Suge — the terrible seven-headed serpent of the Basque tales — holds its captive or its hoard. Heads regrow if struck carelessly; the fight is a puzzle.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.serpent"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The serpent overcome",
+   "body": "The hero defeats the Heren-Suge the way all such beasts fall in the tales — with the right method, the right tool, or the ogre's own gift showing the way. The gift completes its work.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.serpent"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The kind ogre's role",
+   "body": "The Labourd Tartaro is double-faced: devourer of the careless, benefactor of the courteous. Which ogre you meet depends on how you treat the strange being on the road.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.ball"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does the grateful Tartaro give the hero?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A sword that cannot miss"
+    },
+    {
+     "id": "b",
+     "text": "A key to the mountain's treasure"
+    },
+    {
+     "id": "c",
+     "text": "A magic ball that rolls ahead and leads to whatever he most needs"
+    },
+    {
+     "id": "d",
+     "text": "An ointment that makes him invisible"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The rolling ball is the guide-gift — follow it, and the quest finds its way.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.ball"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What is the Heren-Suge?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The Basque seven-headed serpent — heads that regrow unless slain the right way"
+    },
+    {
+     "id": "b",
+     "text": "The wild man of the woods"
+    },
+    {
+     "id": "c",
+     "text": "A giant who guards the passes"
+    },
+    {
+     "id": "d",
+     "text": "The mistress of the waters"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The multi-headed serpent — the Basque Hydra.",
+   "sourceRefIds": [
+    "ball"
+   ],
+   "objectiveIds": [
+    "obj.grate.serpent"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

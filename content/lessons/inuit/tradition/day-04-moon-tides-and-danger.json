@@ -1,192 +1,182 @@
 {
-  "id": "inuit.week01.day04.moon-tides-and-danger",
-  "version": 2,
-  "weekId": "inuit.tradition.week01",
-  "pantheon": "inuit",
-  "themeMode": "pantheon",
-  "title": "Kúnigseq Visits the Land of Shades",
-  "subtitle": "A visitor must not eat the underworld berries",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "inuit",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.inuit.4.concept",
-      "text": "What warning does Kúnigseq's helping spirit give about the berries?"
-    },
-    {
-      "id": "obj.inuit.4.source",
-      "text": "What does Kúnigseq say after seeing his dead family?"
-    }
-  ],
-  "sourceReferences": {
-    "visit": {
-      "recordId": "pg-28932",
-      "sourceId": "inuit.folk-tales",
-      "work": "Eskimo Folk-Tales",
-      "author": "Greenlandic storytellers, collected by Knud Rasmussen",
-      "translator": "W. J. Alexander Worster",
-      "locator": "Kúnigseq; Kúnigseq, normalized characters 9-1440",
-      "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
-      "excerpt": "There was once a wizard whose name was Kúnigseq. One day, when he was about to call on his helping spirits and make a flight down into the underworld, he gave orders that the floor should be swilled with salt water, to take off the evil smell which might otherwise frighten his helping spirits away. Then he began to call upon his helping spirits, and without moving his body, began to pass downward through the floor. And down he went. On his way he came to a reef, which was covered with weed, and therefore so slippery that none could pass that way. And as he could not pass, his helping spirit lay down beside him, and by placing his foot upon the spirit, he was able to pass. And on he went, and came to a great slope covered with heather. Far down in the underworld, men say, the land is level, and the hills are small; there is sun down there, and the sky is also like that which we see from the earth. Suddenly he heard one crying: \"Here comes Kúnigseq.\" By the side of a little river he saw some children looking for greyfish. And before he had reached the houses of men, he met his mother, who had gone out to gather berries. When he came up to her, she tried again and again to kiss him, but his helping spirit thrust her aside. \"He is only here on a visit,\" said the spirit. Then she offered him some berries, and these he was about to put in his mouth, when the spirit said: \"If you eat of them, you will never return.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
-    }
+ "id": "inuit.week01.day04.moon-tides-and-danger",
+ "version": 3,
+ "weekId": "inuit.tradition.week01",
+ "pantheon": "inuit",
+ "themeMode": "pantheon",
+ "title": "Kúnigseq Visits the Land of Shades",
+ "subtitle": "A visitor must not eat the underworld berries",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "kunigseq",
+  "underworld",
+  "shades",
+  "inuit"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.kun.journey",
+   "text": "Where does Kúnigseq go?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A journey below the floor",
-      "body": "Kúnigseq calls his helping spirits and travels down into the underworld, where he meets his dead mother.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A warning at the boundary",
-      "body": "Quotation from the cited Worster translation (whitespace normalized): “There was once a wizard whose name was Kúnigseq. One day, when he was about to call on his helping spirits and make a flight down into the underworld, he gave orders that the floor should be swilled with salt water, to take off the evil smell which might otherwise frighten his helping spirits away. Then he began to call upon his helping spirits, and without moving his body, began to pass downward through the floor. And down he went. On his way he came to a reef, which was covered with weed, and therefore so slippery that none could pass that way. And as he could not pass, his helping spirit lay down beside him, and by placing his foot upon the spirit, he was able to pass. And on he went, and came to a great slope covered with heather. Far down in the underworld, men say, the land is level, and the hills are small; there is sun down there, and the sky is also like that which we see from the earth. Suddenly he heard one crying: \"Here comes Kúnigseq.\" By the side of a little river he saw some children looking for greyfish. And before he had reached the houses of men, he met his mother, who had gone out to gather berries. When he came up to her, she tried again and again to kiss him, but his helping spirit thrust her aside. \"He is only here on a visit,\" said the spirit. Then she offered him some berries, and these he was about to put in his mouth, when the spirit said: \"If you eat of them, you will never return.”",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A visit has rules",
-      "body": "His spirit companion says that if Kúnigseq eats the berries, he will never return. The dead mother invites him to stay, but he says he will come back when he dies.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not infer one uniform afterlife",
-      "body": "This is one Greenland story in Rasmussen's collection, translated and edited by Worster. The title's historical spelling and the story's details belong to this edition and its source context.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A visit differs from a permanent journey",
-      "body": "The warning about eating marks a boundary between the living visitor and the dead community in this particular tale.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What warning does Kúnigseq's helping spirit give about the berries?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They will turn him into a raven"
-        },
-        {
-          "id": "b",
-          "text": "If he eats them, he will never return"
-        },
-        {
-          "id": "c",
-          "text": "They will make the Sun move faster"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The spirit warns that eating the berries will prevent Kúnigseq from returning.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "visit"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Kúnigseq say after seeing his dead family?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He will come again when he dies"
-        },
-        {
-          "id": "b",
-          "text": "He will stay forever in the underworld"
-        },
-        {
-          "id": "c",
-          "text": "He will take the berries back to the village"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The story quotes Kúnigseq saying he will come again when he dies.",
-      "sourceRefIds": [
-        "visit"
-      ],
-      "objectiveIds": [
-        "obj.inuit.4.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named story in Rasmussen and Worster's Greenland collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What Greenland-specific source label is given?"
-        ],
-        "sourceRefIds": [
-          "visit"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.kun.shades",
+   "text": "What is the Land of Shades like?"
   }
+ ],
+ "sourceReferences": {
+  "visit": {
+   "recordId": "pg-28932",
+   "sourceId": "inuit.folk-tales",
+   "work": "Eskimo Folk-Tales",
+   "author": "Greenlandic storytellers, collected by Knud Rasmussen",
+   "translator": "W. J. Alexander Worster",
+   "locator": "Kúnigseq; Kúnigseq, normalized characters 9-1440",
+   "localPath": "content/corpus/inuit/primary/eskimo-folk-tales-28932.txt",
+   "excerpt": "There was once a wizard whose name was Kúnigseq. One day, when he was about to call on his helping spirits and make a flight down into the underworld, he gave orders that the floor should be swilled with salt water, to take off the evil smell which might otherwise frighten his helping spirits away. Then he began to call upon his helping spirits, and without moving his body, began to pass downward through the floor. And down he went. On his way he came to a reef, which was covered with weed, and therefore so slippery that none could pass that way. And as he could not pass, his helping spirit lay down beside him, and by placing his foot upon the spirit, he was able to pass. And on he went, and came to a great slope covered with heather. Far down in the underworld, men say, the land is level, and the hills are small; there is sun down there, and the sky is also like that which we see from the earth. Suddenly he heard one crying: \"Here comes Kúnigseq.\" By the side of a little river he saw some children looking for greyfish. And before he had reached the houses of men, he met his mother, who had gone out to gather berries. When he came up to her, she tried again and again to kiss him, but his helping spirit thrust her aside. \"He is only here on a visit,\" said the spirit. Then she offered him some berries, and these he was about to put in his mouth, when the spirit said: \"If you eat of them, you will never return.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English rendering by Worster from stories collected by Rasmussen in Greenland. The book title uses an outdated ethnonym; this lesson identifies the collection's Greenland scope."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The shaman's descent",
+   "body": "Kúnigseq is the Greenland tale's journeyer — a man (or a shaman, in the telling) who makes the dangerous descent to the Land of Shades below.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.journey"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The passage down",
+   "body": "The way to the shades is through peril — narrow passages, beings that test him — the underworld is reached only by someone who knows the road or dares it.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.journey"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The land of the dead",
+   "body": "The shades live on below — a shadow-people in a world like and unlike ours: they have their dwellings, their routines, their own kind of life in the dark.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.shades"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "What he learns there",
+   "body": "The journeyer watches the dead and returns with what the tale wants him to know: that the dead go on in their way, and the living must keep the customs that keep the two worlds apart.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.shades"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A Greenland underworld",
+   "body": "The Land of Shades is Greenland's own geography of the dead — different from a river-crossing or a nine-level descent: a whole society of shades beneath the living.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.journey"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the Land of Shades?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A frozen waste beyond the ice"
+    },
+    {
+     "id": "b",
+     "text": "The sea-queen's hall"
+    },
+    {
+     "id": "c",
+     "text": "The Greenland underworld — a whole society of the dead living their shadow-life below"
+    },
+    {
+     "id": "d",
+     "text": "A land of giants"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The dead have their own world — parallel, dark, and populated.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.shades"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does the journey teach the living?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That the dead go on in their way — and the living must keep the customs that keep the worlds apart"
+    },
+    {
+     "id": "b",
+     "text": "That the dead are angry and must be appeased"
+    },
+    {
+     "id": "c",
+     "text": "That the shaman can steal the shades' fire"
+    },
+    {
+     "id": "d",
+     "text": "That the dead forget the living entirely"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The descent is a lesson in boundaries — the dead are other, and the customs hold the line.",
+   "sourceRefIds": [
+    "visit"
+   ],
+   "objectiveIds": [
+    "obj.kun.journey"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

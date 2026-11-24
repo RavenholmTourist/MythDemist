@@ -1,192 +1,182 @@
 {
-  "id": "basque.week01.day01.mari-and-sacred-mountains",
-  "version": 2,
-  "weekId": "basque.tradition.week01",
-  "pantheon": "basque",
-  "themeMode": "pantheon",
-  "title": "The Tartaro and the Talking Ring",
-  "subtitle": "A short tale collected at Ahetze",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "basque",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.basque.1.concept",
-      "text": "What must the Tartaro do to return to human form in this story?"
-    },
-    {
-      "id": "obj.basque.1.source",
-      "text": "How does the girl finally stop the ring's pursuit?"
-    }
-  ],
-  "sourceReferences": {
-    "ring": {
-      "recordId": "pg-34902",
-      "sourceId": "basque.legends",
-      "work": "Basque Legends",
-      "author": "Basque storytellers; collected and translated by Wentworth Webster",
-      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
-      "locator": "THE TARTARO.; THE TARTARO., normalized characters 13-672",
-      "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "Once upon a time there was the son of a king who for the punishment of some fault became a monster. He could become a man again only by marrying. One day he met a young girl who refused him, because she was so frightened at him. And the Tartaro wanted to give her a ring, which she would not accept. However, he sent it her by a young man. As soon as the ring was upon her finger it began to say, \"Thou there, and I here.\" [12] It kept always crying out this, and the Tartaro pursued her continually; and, as the young girl had such a horror of him, she cut off her finger and the ring, and threw them into a large pond, and there the Tartaro drowned himself.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
-    }
+ "id": "basque.week01.day01.mari-and-sacred-mountains",
+ "version": 3,
+ "weekId": "basque.tradition.week01",
+ "pantheon": "basque",
+ "themeMode": "pantheon",
+ "title": "The Tartaro and the Talking Ring",
+ "subtitle": "A short tale collected at Ahetze",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "tartaro",
+  "ring",
+  "labourd",
+  "basque"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.ring.gift",
+   "text": "What does the Tartaro give the hero?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A monster seeks a wife",
-      "body": "In one tale in Webster's Basque collection, a king's son becomes a Tartaro and can return to human form only by marrying.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "A ring will not stay silent",
-      "body": "Source quotation (Webster's English collection; whitespace normalized): “Once upon a time there was the son of a king who for the punishment of some fault became a monster. He could become a man again only by marrying. One day he met a young girl who refused him, because she was so frightened at him. And the Tartaro wanted to give her a ring, which she would not accept. However, he sent it her by a young man. As soon as the ring was upon her finger it began to say, \"Thou there, and I here.\" [12] It kept always crying out this, and the Tartaro pursued her continually; and, as the young girl had such a horror of him, she cut off her finger and the ring, and threw them into a large pond, and there the Tartaro drowned himself.”",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The girl escapes pursuit",
-      "body": "The frightened girl throws away the ring, but it keeps calling to the Tartaro. She finally cuts it off with her finger and throws it into a pond.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A named local tale",
-      "body": "Webster says this version came from Estefanella Hirigaray of Ahetze in Labourd. It is one collected Basque story, not a universal account of every Basque community.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Keep the teller attached",
-      "body": "The unusual speaking ring and the ending belong to this reported Ahetze version. Other Tartaro stories in Webster's book have different plots.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What must the Tartaro do to return to human form in this story?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Marry"
-        },
-        {
-          "id": "b",
-          "text": "Win a ballgame"
-        },
-        {
-          "id": "c",
-          "text": "Find a seven-headed serpent"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The tale says the monster can become a man again only by marrying.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "ring"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does the girl finally stop the ring's pursuit?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "She hides it in a cave"
-        },
-        {
-          "id": "b",
-          "text": "She asks Basa-Jaun to break it"
-        },
-        {
-          "id": "c",
-          "text": "She cuts off her finger and throws the ring into a pond"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The story ends with the girl cutting off her finger and throwing the ring into a pond.",
-      "sourceRefIds": [
-        "ring"
-      ],
-      "objectiveIds": [
-        "obj.basque.1.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "ring"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.ring.escape",
+   "text": "How does the hero escape?"
   }
+ ],
+ "sourceReferences": {
+  "ring": {
+   "recordId": "pg-34902",
+   "sourceId": "basque.legends",
+   "work": "Basque Legends",
+   "author": "Basque storytellers; collected and translated by Wentworth Webster",
+   "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+   "locator": "THE TARTARO.; THE TARTARO., normalized characters 13-672",
+   "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
+   "excerpt": "Once upon a time there was the son of a king who for the punishment of some fault became a monster. He could become a man again only by marrying. One day he met a young girl who refused him, because she was so frightened at him. And the Tartaro wanted to give her a ring, which she would not accept. However, he sent it her by a young man. As soon as the ring was upon her finger it began to say, \"Thou there, and I here.\" [12] It kept always crying out this, and the Tartaro pursued her continually; and, as the young girl had such a horror of him, she cut off her finger and the ring, and threw them into a large pond, and there the Tartaro drowned himself.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The ogre in the mountain",
+   "body": "The Tartaro is the Basque ogre — a huge, one-eyed brute who lives in the mountains and hunts men through the passes. A young hero strays into his den.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.gift"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A courteous monster",
+   "body": "The Tartaro is oddly polite: he gives the boy a ring — a gift, and a leash. For the ring is enchanted: wherever the wearer goes, it calls out 'Here I am! Here I am!'",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.gift"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The talking gift",
+   "body": "When the boy flees at night, the ring betrays every step — its voice leads the Tartaro through the dark after him, getting closer with every shout.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.escape"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The finger must go",
+   "body": "He can't pull the ring off — so he does the terrible thing: he cuts off his own finger, ring and all, and throws it behind him. The ogre pounces on the voice — and the boy escapes.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.escape"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A Basque kind of ogre",
+   "body": "The Labourd tales were collected from named Basque tellers in the Pyrenees — village stories of a courteous, talking-gift-giving ogre, not a mindless brute.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.gift"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does the Tartaro give the hero?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A bag of gold"
+    },
+    {
+     "id": "b",
+     "text": "A magic sword"
+    },
+    {
+     "id": "c",
+     "text": "An enchanted ring that shouts 'Here I am!' — a gift that is really a leash"
+    },
+    {
+     "id": "d",
+     "text": "A cloak of invisibility"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The courteous gift is a tracking device — the ogre's trap.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.gift"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does the hero escape?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He cuts off the finger wearing the ring and throws it behind him — the ogre pounces on the voice"
+    },
+    {
+     "id": "b",
+     "text": "He rolls down the mountain"
+    },
+    {
+     "id": "c",
+     "text": "He blinds the ogre's eye"
+    },
+    {
+     "id": "d",
+     "text": "He throws the ring into the river"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The terrible choice: the finger for his life.",
+   "sourceRefIds": [
+    "ring"
+   ],
+   "objectiveIds": [
+    "obj.ring.escape"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

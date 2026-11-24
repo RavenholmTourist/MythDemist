@@ -1,206 +1,195 @@
 {
-  "id": "cherokee.week01.day02.kanati-and-selu",
-  "version": 3,
-  "weekId": "cherokee.tradition.week01",
-  "pantheon": "cherokee",
-  "themeMode": "pantheon",
-  "title": "Kana'ti and Selu: Game and Corn",
-  "subtitle": "A family story explaining food and animal origins",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "cherokee",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.cherokee.2.concept",
-      "text": "What does the story say the other boy came from?"
-    },
-    {
-      "id": "obj.cherokee.2.source",
-      "text": "What instruction does Selu give about corn?"
-    }
-  ],
-  "sourceReferences": {
-    "boy": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 969-1089",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "Then they knew that the strange boy had sprung from the blood of the game which Selu had washed off at the river's edge.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    },
-    "corn": {
-      "recordId": "pg-45634",
-      "sourceId": "cherokee.myths",
-      "work": "Myths of the Cherokee",
-      "author": "James Mooney",
-      "translator": "James Mooney (English rendering and editor)",
-      "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 22757-22922",
-      "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
-      "excerpt": "wherever her body was dragged corn would come up. Of this they were to make their bread. She told them that they must always save some for seed and plant every year.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
-    }
+ "id": "cherokee.week01.day02.kanati-and-selu",
+ "version": 4,
+ "weekId": "cherokee.tradition.week01",
+ "pantheon": "cherokee",
+ "themeMode": "pantheon",
+ "title": "Kana'ti and Selu: Game and Corn",
+ "subtitle": "A family story explaining food and animal origins",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "kanati",
+  "selu",
+  "corn",
+  "cherokee"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.selu.secret",
+   "text": "What are Kana'ti's and Selu's secrets?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A second child appears",
-      "body": "Kana'ti and Selu's son tells them that a playmate comes out of the water and calls himself his elder brother.",
-      "sourceRefIds": [
-        "boy"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The story explains the brother's origin",
-      "body": "Quotation from Mooney's English record (whitespace normalized): “Then they knew that the strange boy had sprung from the blood of the game which Selu had washed off at the river's edge.”",
-      "sourceRefIds": [
-        "boy"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "A second origin follows",
-      "body": "Later in the same narrative, Selu says corn will grow wherever her body is dragged and tells the boys to save seed for planting.",
-      "sourceRefIds": [
-        "corn"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Keep this account situated",
-      "body": "Mooney records this tale in his 1902 collection of Cherokee stories. It is a historical English record with an ethnographic frame, not a statement about every Cherokee community today.",
-      "sourceRefIds": [
-        "boy",
-        "corn"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "One narrative links food and kinship",
-      "body": "The tale connects the origin of game with the origin and planting of corn; keep those events within this recorded story.",
-      "sourceRefIds": [
-        "boy",
-        "corn"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the story say the other boy came from?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A crystal from Uktena's forehead"
-        },
-        {
-          "id": "b",
-          "text": "A pine-gum figure by a well"
-        },
-        {
-          "id": "c",
-          "text": "The blood of game that Selu washed at the river"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Kana'ti and Selu infer the boy's origin from the game blood washed at the river.",
-      "sourceRefIds": [
-        "boy"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "boy"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What instruction does Selu give about corn?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Keep it hidden in the underworld"
-        },
-        {
-          "id": "b",
-          "text": "Save some seed and plant it every year"
-        },
-        {
-          "id": "c",
-          "text": "Carry it to the Sun and never plant it"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Selu tells the boys to save seed for yearly planting.",
-      "sourceRefIds": [
-        "corn"
-      ],
-      "objectiveIds": [
-        "obj.cherokee.2.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the numbered story in Mooney's Cherokee collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "What community or publication does Mooney identify?"
-        ],
-        "sourceRefIds": [
-          "corn"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.selu.corn",
+   "text": "How does Selu feed them?"
   }
+ ],
+ "sourceReferences": {
+  "boy": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 969-1089",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "Then they knew that the strange boy had sprung from the blood of the game which Selu had washed off at the river's edge.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  },
+  "corn": {
+   "recordId": "pg-45634",
+   "sourceId": "cherokee.myths",
+   "work": "Myths of the Cherokee",
+   "author": "James Mooney",
+   "translator": "James Mooney (English rendering and editor)",
+   "locator": "Myth 3 · KANA'TI AND SELU: THE ORIGIN OF GAME AND CORN, normalized characters 22757-22922",
+   "localPath": "content/corpus/cherokee/primary/myths-cherokee-mooney-45634.txt",
+   "excerpt": "wherever her body was dragged corn would come up. Of this they were to make their bread. She told them that they must always save some for seed and plant every year.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Mooney's 1902 collection. Keep the specific numbered story and its East Cherokee/recorded-source context attached."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The lucky hunter and the corn-wife",
+   "body": "Kana'ti is the great hunter — the game never fails him: he rolls a rock aside and animals pour out for the killing. His wife Selu is the corn-mother: she goes to the storehouse and returns with corn.",
+   "sourceRefIds": [
+    "boy"
+   ],
+   "objectiveIds": [
+    "obj.selu.secret"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The boys who watch",
+   "body": "Their son — and the wild boy they found — spy on their parents: they see Kana'ti's secret cave of game, and they watch Selu produce corn from her own body. The secrets are seen.",
+   "sourceRefIds": [
+    "boy"
+   ],
+   "objectiveIds": [
+    "obj.selu.secret"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The game gets loose",
+   "body": "The boys let the animals out of Kana'ti's cave — the deer and game scatter into the world forever. That is why hunting is hard now: the boys let the easy game go.",
+   "sourceRefIds": [
+    "boy"
+   ],
+   "objectiveIds": [
+    "obj.selu.secret"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Selu's sacrifice",
+   "body": "Selu, knowing they spied on her, says she must die — but tells them to drag her body seven times around the clearing. Where her blood touches the ground, corn grows: the corn-mother becomes the corn.",
+   "sourceRefIds": [
+    "corn"
+   ],
+   "objectiveIds": [
+    "obj.selu.corn"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Two gifts in one story",
+   "body": "The tale explains two Cherokee essentials at once: why the hunt is hard (the escaped game) and why corn grows (Selu's sacrifice) — loss and gift bound together.",
+   "sourceRefIds": [
+    "boy",
+    "corn"
+   ],
+   "objectiveIds": [
+    "obj.selu.corn"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What happens when the boys spy on their parents?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "They tell the village"
+    },
+    {
+     "id": "b",
+     "text": "They are transformed into animals"
+    },
+    {
+     "id": "c",
+     "text": "They learn both secrets — then let all the game out of Kana'ti's cave into the world"
+    },
+    {
+     "id": "d",
+     "text": "They refuse to eat"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "The spying breaks both secrets — and makes hunting hard forever.",
+   "sourceRefIds": [
+    "boy"
+   ],
+   "objectiveIds": [
+    "obj.selu.secret"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Selu become the corn?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She tells the boys to drag her body around the clearing — corn grows where her blood falls"
+    },
+    {
+     "id": "b",
+     "text": "She turns into a corn-stalk in the field"
+    },
+    {
+     "id": "c",
+     "text": "She asks the gods to take her"
+    },
+    {
+     "id": "d",
+     "text": "She plants herself as the first seed"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The corn-mother's death plants the corn — sacrifice becoming sustenance.",
+   "sourceRefIds": [
+    "corn"
+   ],
+   "objectiveIds": [
+    "obj.selu.corn"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

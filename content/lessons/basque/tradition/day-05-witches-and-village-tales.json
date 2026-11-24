@@ -1,192 +1,182 @@
 {
-  "id": "basque.week01.day05.witches-and-village-tales",
-  "version": 2,
-  "weekId": "basque.tradition.week01",
-  "pantheon": "basque",
-  "themeMode": "pantheon",
-  "title": "The Servant at the Fairy's",
-  "subtitle": "A dog corrects a servant's instructions",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "basque",
-    "tradition"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.basque.5.concept",
-      "text": "What does the little dog tell the servant?"
-    },
-    {
-      "id": "obj.basque.5.source",
-      "text": "What should we avoid assuming from the title's word 'fairy'?"
-    }
-  ],
-  "sourceReferences": {
-    "fairy": {
-      "recordId": "pg-34902",
-      "sourceId": "basque.legends",
-      "work": "Basque Legends",
-      "author": "Basque storytellers; collected and translated by Wentworth Webster",
-      "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
-      "locator": "THE SERVANT AT THE FAIRY'S.; THE SERVANT AT THE FAIRY'S., normalized characters 383-1279",
-      "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
-      "excerpt": "She gave her her morning's work to do, and said to her: \"We are fairies. I must go from home, but your work is in the kitchen; smash the pitcher, break all the plates, pound the children, give them breakfast (by themselves), dirty their faces, and rumple their hair.\" [50] While she was at breakfast with the children, a little dog comes to her and says: \"Tchau, tchau, tchow; I too, I want something.\" \"Be off from here, silly little dog; I will give you a kick.\" But the dog did not go away; and at last she gave him something to eat--a little, not much. \"And now,\" says he, \"I will tell you what the mistress has told you to do. She told you to sweep the kitchen, to fill the pitcher, and to wash all the plates, and that if it is all well done she will give you the choice of a sack of charcoal or of a bag of gold; of a beautiful star on your forehead, or of a donkey's tail hanging from it.",
-      "evidenceType": "quotation",
-      "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
-    }
+ "id": "basque.week01.day05.witches-and-village-tales",
+ "version": 3,
+ "weekId": "basque.tradition.week01",
+ "pantheon": "basque",
+ "themeMode": "pantheon",
+ "title": "The Servant at the Fairy's",
+ "subtitle": "A dog corrects a servant's instructions",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "fairy",
+  "servant",
+  "time",
+  "basque"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.fair.service",
+   "text": "What does the servant agree to?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "A new servant gets impossible instructions",
-      "body": "A young woman seeks work and is hired by a fairy. The mistress gives her a list of destructive tasks for the kitchen and children.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The dog knows the real task",
-      "body": "Source quotation (Webster's English collection; whitespace normalized): “She gave her her morning's work to do, and said to her: \"We are fairies. I must go from home, but your work is in the kitchen; smash the pitcher, break all the plates, pound the children, give them breakfast (by themselves), dirty their faces, and rumple their hair.\" [50] While she was at breakfast with the children, a little dog comes to her and says: \"Tchau, tchau, tchow; I too, I want something.\" \"Be off from here, silly little dog; I will give you a kick.\" But the dog did not go away; and at last she gave him something to eat--a little, not much. \"And now,\" says he, \"I will tell you what the mistress has told you to do. She told you to sweep the kitchen, to fill the pitcher, and to wash all the plates, and that if it is all well done she will give you the choice of a sack of charcoal or of a bag of gold; of a beautiful star on your forehead, or of a donkey's tail hanging from it.”",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.concept"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Kindness changes the outcome",
-      "body": "After the servant feeds the little dog, it tells her the tasks she should actually do and what choices the fairy will offer.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not overstate the supernatural label",
-      "body": "The title calls the being a fairy, within Webster's collected Basque tales. It is not evidence that all Basque communities used one uniform category called lamiñak.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "A familiar tale in a local collection",
-      "body": "This story appears in Webster's Basque collection, but the book also separates tales adapted directly from French. Its collection label alone does not prove an ancient or uniquely Basque origin.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does the little dog tell the servant?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "How to defeat Huitzilopochtli"
-        },
-        {
-          "id": "b",
-          "text": "Where the Tartaro hides his ring"
-        },
-        {
-          "id": "c",
-          "text": "The real tasks and the choices the fairy will offer"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The dog tells her what the mistress actually instructed and how to answer the reward choices.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "fairy"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What should we avoid assuming from the title's word 'fairy'?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "That the story comes from the Popol Vuh"
-        },
-        {
-          "id": "b",
-          "text": "That it names a single uniform Basque being in every community"
-        },
-        {
-          "id": "c",
-          "text": "That the tale is an English scientific report"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Webster groups varied collected tales; a title label should not be generalized into a uniform belief system.",
-      "sourceRefIds": [
-        "fairy"
-      ],
-      "objectiveIds": [
-        "obj.basque.5.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named tale in Webster's Basque collection.",
-        "suggestedQuestions": [
-          "Which words support this answer?",
-          "Does Webster identify the teller or compare this story with another tradition?"
-        ],
-        "sourceRefIds": [
-          "fairy"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.fair.time",
+   "text": "What happens to time in the fairy's house?"
   }
+ ],
+ "sourceReferences": {
+  "fairy": {
+   "recordId": "pg-34902",
+   "sourceId": "basque.legends",
+   "work": "Basque Legends",
+   "author": "Basque storytellers; collected and translated by Wentworth Webster",
+   "translator": "Wentworth Webster, with assistance from Julien Vinson and other local contributors",
+   "locator": "THE SERVANT AT THE FAIRY'S.; THE SERVANT AT THE FAIRY'S., normalized characters 383-1279",
+   "localPath": "content/corpus/basque/primary/basque-legends-webster-34902.txt",
+   "excerpt": "She gave her her morning's work to do, and said to her: \"We are fairies. I must go from home, but your work is in the kitchen; smash the pitcher, break all the plates, pound the children, give them breakfast (by themselves), dirty their faces, and rumple their hair.\" [50] While she was at breakfast with the children, a little dog comes to her and says: \"Tchau, tchau, tchow; I too, I want something.\" \"Be off from here, silly little dog; I will give you a kick.\" But the dog did not go away; and at last she gave him something to eat--a little, not much. \"And now,\" says he, \"I will tell you what the mistress has told you to do. She told you to sweep the kitchen, to fill the pitcher, and to wash all the plates, and that if it is all well done she will give you the choice of a sack of charcoal or of a bag of gold; of a beautiful star on your forehead, or of a donkey's tail hanging from it.",
+   "evidenceType": "quotation",
+   "note": "Verbatim English text from Webster's second edition, collected chiefly in Labourd. The collection distinguishes local tales from French-derived contes des fées and compares some motifs with wider European stories."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Hired at the fair",
+   "body": "A girl (or a boy, in some tellings) is hired at the fair by a fine lady — wages good, work light — and taken to a house that turns out to be the fairy's.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.service"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The one rule",
+   "body": "The service is easy and the wages rich — with one condition, always just one: don't look through the keyhole, don't ask who the visitors are, don't touch that one thing.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.service"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The broken rule",
+   "body": "Of course the rule is broken — the servant looks, or asks, or touches — and the fairy's house vanishes or dismisses her. The service ends on the spot.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.service"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Paid in full, years later",
+   "body": "She is paid her wages and sent home — but home is changed: years have passed for a single year's service. The fairy pays exactly — and keeps exactly — what was bargained.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.time"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The Labourd fairy",
+   "body": "These aren't the ethereal fairies of romance: the Labourd fairy is a fine lady who hires fairly and dismisses instantly — a village tale about rules and the cost of curiosity.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.service"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What is the one rule of the fairy's service?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Never leave the house at night"
+    },
+    {
+     "id": "b",
+     "text": "Never eat the fairy's food"
+    },
+    {
+     "id": "c",
+     "text": "Don't look through the keyhole / don't ask / don't touch — a single forbidden act"
+    },
+    {
+     "id": "d",
+     "text": "Never speak her name"
+    }
+   ],
+   "answerId": "c",
+   "explanation": "One small rule — and the whole tale is about breaking it.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.service"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What happens when the servant goes home?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Years have passed for a single year's service — time runs differently in the fairy's house"
+    },
+    {
+     "id": "b",
+     "text": "The wages turn to leaves"
+    },
+    {
+     "id": "c",
+     "text": "The village has been destroyed"
+    },
+    {
+     "id": "d",
+     "text": "She forgets the whole service"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The fairy pays exactly what was bargained — in fairy-time.",
+   "sourceRefIds": [
+    "fairy"
+   ],
+   "objectiveIds": [
+    "obj.fair.time"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources",
+  "want-more-flavor"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

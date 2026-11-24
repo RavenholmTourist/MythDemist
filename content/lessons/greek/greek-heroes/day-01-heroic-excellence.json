@@ -1,211 +1,181 @@
 {
-  "id": "grc.heroes.day01.heroic-excellence",
-  "version": 4,
-  "weekId": "grc.heroes.week01",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "rewardArtId": "art.met.254187",
-  "title": "Heroes Are Not Moral Certificates",
-  "subtitle": "Two epic openings, two different pressures",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
-  "tags": [
-    "heroes",
-    "homer",
-    "iliad",
-    "odyssey",
-    "source-variants"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.heroic-excellence.source-specific",
-      "text": "What consequence does the Iliad's invocation connect with Achilles' anger?"
-    },
-    {
-      "id": "obj.heroic-excellence.achilles-vs-odysseus",
-      "text": "How does the Odyssey's invocation describe its hero?"
-    }
-  ],
-  "sourceReferences": {
-    "ref-iliad-1-opening": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "locator": "Iliad 1, proem; Book 1, normalized characters 0-362",
-      "excerpt": "Sing, O goddess, the anger of Achilles son of Peleus, that brought countless ills upon the Achaeans. Many a brave soul did it send hurrying down to Hades, and many a hero did it yield a prey to dogs and vultures, for so were the counsels of Jove fulfilled from the day on which the son of Atreus, king of men, and great Achilles, first fell out with one another.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    },
-    "ref-odyssey-1-opening": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "locator": "Odyssey 1, invocation and proem; Book 1, normalized characters 0-453",
-      "excerpt": "Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his own life and bring his men safely home; but do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion;",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    }
+ "id": "grc.heroes.day01.heroic-excellence",
+ "version": 4,
+ "weekId": "grc.heroes.week01",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Theseus: The Boy Under the Rock",
+ "subtitle": "A hidden inheritance and a dangerous choice of road",
+ "estimatedMinutes": 3,
+ "difficulty": 1,
+ "tags": [
+  "theseus",
+  "aegeus",
+  "troezen",
+  "origin-story"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.theseus.tokens",
+   "text": "What did Aegeus hide under the rock, and why?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The Iliad names a costly anger",
-      "body": "The invocation names Achilles' anger and connects it to loss among the Achaeans. It begins with a conflict, not a complete biography of the hero.",
-      "sourceRefIds": [
-        "ref-iliad-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.source-specific"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The Odyssey names an ingenious wanderer",
-      "body": "Verbatim opening from Samuel Butler's translation: “Tell me, O Muse, of that ingenious hero who travelled far and wide after he had sacked the famous town of Troy. Many cities did he visit, and many were the nations with whose manners and customs he was acquainted; moreover he suffered much by sea while trying to save his own life and bring his men safely home; but do what he might he could not save his men, for they perished through their own sheer folly in eating the cattle of the Sun-god Hyperion;”",
-      "sourceRefIds": [
-        "ref-odyssey-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.achilles-vs-odysseus"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "One proem, a different emphasis",
-      "body": "The Odyssey's opening describes travel, suffering at sea, and the crew's failure to return. The Iliad's opening foregrounds anger and its consequences.",
-      "sourceRefIds": [
-        "ref-iliad-1-opening",
-        "ref-odyssey-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.source-specific"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Translations are evidence, not the Greek wording",
-      "body": "These quotations are Samuel Butler's English translations. Keep the work and book locator attached, and do not treat either opening as a universal definition of Greek heroism.",
-      "sourceRefIds": [
-        "ref-iliad-1-opening",
-        "ref-odyssey-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.achilles-vs-odysseus"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Compare the poems, not a single canon",
-      "body": "The two openings present different narrative problems. Comparison is useful precisely because the poems remain distinct.",
-      "sourceRefIds": [
-        "ref-iliad-1-opening",
-        "ref-odyssey-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.source-specific"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What consequence does the Iliad's invocation connect with Achilles' anger?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A safe return for every crew member"
-        },
-        {
-          "id": "b",
-          "text": "The founding of a unified Athens"
-        },
-        {
-          "id": "c",
-          "text": "Countless ills for the Achaeans and the deaths of heroes"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The Iliad's opening directly links Achilles' anger with ills for the Achaeans and dead heroes.",
-      "sourceRefIds": [
-        "ref-iliad-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.source-specific"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "ref-iliad-1-opening"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does the Odyssey's invocation describe its hero?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "As a warrior whose anger ends the Trojan War"
-        },
-        {
-          "id": "b",
-          "text": "As an ingenious traveler who suffers while trying to return"
-        },
-        {
-          "id": "c",
-          "text": "As a king who never leaves Ithaca"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Butler's invocation calls him ingenious, widely travelled, and struggling to save his men and return home.",
-      "sourceRefIds": [
-        "ref-odyssey-1-opening"
-      ],
-      "objectiveIds": [
-        "obj.heroic-excellence.achilles-vs-odysseus"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "ref-odyssey-1-opening"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.theseus.road",
+   "text": "Why did Theseus refuse the safer sea route?"
   }
+ ],
+ "sourceReferences": {
+  "plutarch": {
+   "recordId": "pg-00674",
+   "sourceId": "grc.plutarch.lives",
+   "work": "Life of Theseus",
+   "author": "Plutarch",
+   "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+   "locator": "Life of Theseus, Aegeus' tokens under the stone",
+   "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+   "excerpt": "to take from thence the tokens that Aegeus had left, and to sail to Athens. He without any difficulty set himself to the stone and lifted it up; but refused to take his journey by sea, though it was much the safer way",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage; locator selects this local source segment."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A king hides his tokens",
+   "body": "Before returning to Athens, King Aegeus places his sword and sandals under a great rock at Troezen. His instruction to Aethra: if the child is a boy, let him grow up unnamed — and when he can lift the rock himself, send him to Athens with the tokens beneath it.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.tokens"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Sixteen years later",
+   "body": "Theseus grows into the strongest youth in Troezen. Aethra finally tells him of the rock. He lifts it without difficulty and takes up the sword and sandals — proof of who his father is.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.tokens"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The road nobody chooses",
+   "body": "Two ways to Athens: a short, safe voyage by sea, or the land road along the isthmus — infested with bandits who murder travellers. His mother and grandfather beg him to sail. Theseus refuses: a hero should arrive having done something worth remembering.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.road"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "context",
+   "title": "Why the choice matters",
+   "body": "The road is not recklessness — it is Theseus deliberately imitating Heracles, the hero he admires, who cleared monsters rather than avoided them. He wants his first deeds to be public service, not safe passage.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.road"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The pattern of a hero",
+   "body": "This is the archetypal hero's beginning: hidden parentage, a test of strength revealing the truth, then a deliberate choice of the hard path. Watch for the same shape in other heroes this week.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.road"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Theseus choose the dangerous land road to Athens over the safe sea voyage?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He wants to prove himself through deeds, like his model Heracles — arriving as a hero, not merely a passenger"
+    },
+    {
+     "id": "b",
+     "text": "He cannot afford a ship"
+    },
+    {
+     "id": "c",
+     "text": "The sea is enchanted against him"
+    },
+    {
+     "id": "d",
+     "text": "He does not know the sea route exists"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Plutarch says Theseus refused the sea 'though it was much the safer way' — deliberately imitating Heracles by seeking trials, not avoiding them.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.road"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What did Aegeus hide under the rock at Troezen?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "His sword and sandals — tokens to prove Theseus's parentage when he was strong enough to lift it"
+    },
+    {
+     "id": "b",
+     "text": "A chest of gold for Theseus's inheritance"
+    },
+    {
+     "id": "c",
+     "text": "A letter naming Theseus his heir"
+    },
+    {
+     "id": "d",
+     "text": "His shield and spear"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Aegeus hid his sword and sandals; Theseus lifts the rock at sixteen and takes the tokens to Athens.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.theseus.tokens"
+   ]
+  }
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ },
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ]
 }

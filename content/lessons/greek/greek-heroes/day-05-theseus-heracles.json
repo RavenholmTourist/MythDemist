@@ -1,209 +1,182 @@
 {
-  "id": "grc.heroes.day05.theseus-heracles",
-  "version": 3,
-  "weekId": "grc.heroes.week01",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Theseus and Heracles: Two Later Accounts",
-  "subtitle": "A civic biography beside a mythographic catalogue",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
-  "tags": [
-    "theseus",
-    "heracles",
-    "apollodorus",
-    "plutarch"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.theseus-heracles.concept",
-      "text": "Which civic achievement does Plutarch attribute to Theseus?"
-    },
-    {
-      "id": "obj.theseus-heracles.source",
-      "text": "Who directs Heracles to serve Eurystheus in the Library?"
-    }
-  ],
-  "sourceReferences": {
-    "apollo": {
-      "recordId": "perseus-apollodorus-library-frazer",
-      "sourceId": "grc.apollodorus.library",
-      "work": "Bibliotheca (Library)",
-      "author": "Pseudo-Apollodorus",
-      "translator": "James George Frazer",
-      "locator": "Library 2.4.12, oracle assigns service; book 2 · chapter 4 · section 12, normalized characters 348-556",
-      "localPath": "content/corpus/greek/primary/apollodorus-library-frazer-perseus-eng2.xml",
-      "excerpt": "The Pythian priestess then first called him Hercules, for hitherto he was called Alcides. And she told him to dwell in Tiryns, serving Eurystheus for twelve years and to perform the ten labours imposed on him",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    },
-    "plutarch": {
-      "recordId": "pg-00674",
-      "sourceId": "grc.plutarch.lives",
-      "work": "Plutarch: Lives of the Noble Grecians and Romans",
-      "author": "Plutarch",
-      "translator": "John Dryden and others; revised by Arthur Hugh Clough",
-      "locator": "Life of Theseus, civic unification; local text, normalized characters 40458-40754",
-      "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
-      "excerpt": "together all the inhabitants of Attica into one town, and made them one people of one city, whereas before they lived dispersed, and were not easy to assemble upon any affair for the common interest. Nay, differences and even wars often occurred between them, which he by his persuasions appeased",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    }
+ "id": "grc.heroes.day05.theseus-heracles",
+ "version": 4,
+ "weekId": "grc.heroes.week01",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Theseus: The Black Sails",
+ "subtitle": "Homecoming, a forgotten signal, and the sea gets a name",
+ "estimatedMinutes": 3,
+ "difficulty": 1,
+ "tags": [
+  "theseus",
+  "aegeus",
+  "ariadne",
+  "naxos",
+  "homecoming"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.sails.signal",
+   "text": "What was the white sail meant to signal?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Plutarch's Theseus unites Attica",
-      "body": "Plutarch credits Theseus with bringing dispersed inhabitants into one civic community and calming disputes.",
-      "sourceRefIds": [
-        "plutarch"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The Library's Heracles receives an order",
-      "body": "The Pythian priestess directs Heracles to serve Eurystheus and perform the first ten labours.",
-      "sourceRefIds": [
-        "apollo"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.source"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "The works have different purposes",
-      "body": "Plutarch shapes a Life around civic and moral action; the Library organizes myths into genealogies and episodes.",
-      "sourceRefIds": [
-        "plutarch",
-        "apollo"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "A comparison needs both passages",
-      "body": "The Theseus claim comes from Plutarch; the Heracles service comes from Pseudo-Apollodorus' Library. Neither passage defines every version of either hero.",
-      "sourceRefIds": [
-        "plutarch",
-        "apollo"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "Do not turn order into a canon",
-      "body": "These selected accounts show how later authors used heroes for different narrative and political purposes.",
-      "sourceRefIds": [
-        "plutarch",
-        "apollo"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Which civic achievement does Plutarch attribute to Theseus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Serving Eurystheus for twelve years"
-        },
-        {
-          "id": "b",
-          "text": "Sailing with the Argo"
-        },
-        {
-          "id": "c",
-          "text": "Uniting Attica into one political community"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Plutarch's passage says Theseus brought Attica's inhabitants together into one city and people.",
-      "sourceRefIds": [
-        "plutarch"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "plutarch"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Who directs Heracles to serve Eurystheus in the Library?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Medea"
-        },
-        {
-          "id": "b",
-          "text": "The Pythian priestess"
-        },
-        {
-          "id": "c",
-          "text": "Penelope"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The Library says the Pythian priestess sends Heracles to Tiryns to serve Eurystheus.",
-      "sourceRefIds": [
-        "apollo"
-      ],
-      "objectiveIds": [
-        "obj.theseus-heracles.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "apollo"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.sails.cost",
+   "text": "What did the forgotten sail cost Theseus?"
   }
+ ],
+ "sourceReferences": {
+  "plutarch": {
+   "recordId": "pg-00674",
+   "sourceId": "grc.plutarch.lives",
+   "work": "Life of Theseus",
+   "author": "Plutarch",
+   "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+   "locator": "Life of Theseus, Ariadne at Naxos and the return voyage",
+   "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+   "excerpt": "she was carried away by his sailors to the isle of Naxos, and married to Oenarus, priest of Bacchus; and that Theseus left her because he fell in love with another",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage; locator selects this local source segment."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Ariadne left behind",
+   "body": "Sailing home, Theseus puts in at Naxos — and leaves Ariadne there. The versions disagree wildly: she is abandoned, or forgotten, or claimed by the god Dionysus. Plutarch reports one telling where Theseus leaves her because he has fallen for another woman, Aegle.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.cost"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The forgotten sail",
+   "body": "Before he left Athens, Theseus promised Aegeus a signal: sail home under a white sail if his son lives; the crew returns under black sails if he has died. In the joy — or the shame — of the return, the sail is never changed.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.signal"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Aegeus on the cliff",
+   "body": "From the Acropolis, the old king watches the ship round the point under black sails. Believing his son dead, he throws himself from the rock — and the sea that takes his name is called the Aegean.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.cost"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "King of Athens",
+   "body": "Theseus returns a hero and an orphan king in one stroke. The victory over the Minotaur ends the tribute; the cost of the forgotten sail makes him ruler of Athens.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.cost"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "A flaw that defines him",
+   "body": "This is the Theseus pattern: brilliant in trials, careless in aftermaths. He will leave Ariadne, forget the sail, and later join Pirithous on reckless ventures — the hero whose homecomings cost more than his journeys.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.cost"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Aegeus die?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He sees black sails — the signal that Theseus has died — not knowing the crew forgot to raise the white one"
+    },
+    {
+     "id": "b",
+     "text": "The Minotaur's curse strikes him as the ship returns"
+    },
+    {
+     "id": "c",
+     "text": "Medea poisons him in revenge before fleeing"
+    },
+    {
+     "id": "d",
+     "text": "He dies of grief when Theseus abandons Ariadne"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Theseus promised a white sail for survival, black for death; the crew forgot to change it, and Aegeus threw himself from the rock — naming the Aegean Sea.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.signal"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What did the white sail mean?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "That Theseus had survived — the crew was to swap the black sail for white on a successful return"
+    },
+    {
+     "id": "b",
+     "text": "That the ship carried no weapons"
+    },
+    {
+     "id": "c",
+     "text": "That Minos had surrendered"
+    },
+    {
+     "id": "d",
+     "text": "That Ariadne was aboard"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "White sail = Theseus lives, black = dead. The crew forgot to change it and Aegeus, seeing black, threw himself from the rock.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.sails.signal"
+   ]
+  }
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ },
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ]
 }

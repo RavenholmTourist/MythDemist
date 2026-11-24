@@ -1,209 +1,225 @@
 {
-  "id": "grc.heroes.week02",
-  "title": "Achilles and the Iliad",
-  "subtitle": "Anger, honor, grief, and compassion",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week02",
+ "title": "Achilles and the Iliad",
+ "subtitle": "Anger, honor, grief, and compassion",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "The Iliad: Apollo's Plague",
+   "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "The Quarrel and the Ransom",
-      "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Briseis and Withdrawal",
-      "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-02-briseis-and-withdrawal.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "The Embassy Fails",
-      "lessonId": "grc.heroes.w02d03.the-embassy-fails",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-03-the-embassy-fails.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Patroclus Changes Everything",
-      "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-04-patroclus-changes-everything.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "Priam and Achilles",
-      "lessonId": "grc.heroes.w02d05.priam-and-achilles",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-05-priam-and-achilles.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Achilles and the Iliad assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "Which sequence opens the Iliad’s crisis?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Patroclus dies before Chryses visits the camp."
-            },
-            {
-              "id": "b",
-              "text": "Priam offers ransom before Achilles withdraws."
-            },
-            {
-              "id": "c",
-              "text": "A rejected petition leads to plague and a dispute among leaders."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "Which sequence does Butler's Book 1 narrate?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Achilles kills Agamemnon, then sails to Crete."
-            },
-            {
-              "id": "b",
-              "text": "Priam ransoms Hector, then Athena stops the war."
-            },
-            {
-              "id": "c",
-              "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
-          "sourceRefIds": [
-            "main",
-            "restraint",
-            "aftermath"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w02d03.the-embassy-fails",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "How does Book 9 complicate heroic honour?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The embassy proves Achilles cares only about armour."
-            },
-            {
-              "id": "b",
-              "text": "Material rewards do not automatically restore damaged trust."
-            },
-            {
-              "id": "c",
-              "text": "A larger reward immediately ends Achilles’ anger."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "offer",
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w02d03.the-embassy-fails.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Hector now holds the armour that Patroclus wore."
-            },
-            {
-              "id": "b",
-              "text": "The armour is returned to Chryses."
-            },
-            {
-              "id": "c",
-              "text": "Patroclus gives it to Priam as a ransom."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w02d05.priam-and-achilles",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What changes in Book 24 without undoing the war?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Achilles recognises Priam’s grief and permits Hector’s burial."
-            },
-            {
-              "id": "b",
-              "text": "Priam’s appeal brings Hector back to life."
-            },
-            {
-              "id": "c",
-              "text": "Achilles agrees to lead Troy against Agamemnon."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Achilles recognises Priam’s grief and permits Hector’s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam’s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main",
-            "release"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w02d05.priam-and-achilles.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "The Iliad: Achilles Withdraws",
+   "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-02-briseis-and-withdrawal.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "The Iliad: The Embassy Fails",
+   "lessonId": "grc.heroes.w02d03.the-embassy-fails",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-03-the-embassy-fails.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "The Iliad: Patroclus Changes Everything",
+   "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-04-patroclus-changes-everything.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "The Iliad: Priam and Achilles",
+   "lessonId": "grc.heroes.w02d05.priam-and-achilles",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-02-day-05-priam-and-achilles.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Achilles and the Iliad assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "What triggers Apollo's plague on the Greek camp at the Iliad's opening?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
+      },
+      {
+       "id": "b",
+       "text": "Achilles refuses to fight the Trojans"
+      },
+      {
+       "id": "c",
+       "text": "The Greeks steal Apollo's golden tripod"
+      },
+      {
+       "id": "d",
+       "text": "Chryses poisons the wells"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.plague.cause"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w02d02.briseis-and-withdrawal",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "After Briseis is taken, what does Achilles ask his mother Thetis to win from Zeus?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "That the Trojans prevail — so the Greeks suffer until they learn what Achilles was worth"
+      },
+      {
+       "id": "b",
+       "text": "That Agamemnon be struck by lightning"
+      },
+      {
+       "id": "c",
+       "text": "That he be made king of the army"
+      },
+      {
+       "id": "d",
+       "text": "That his ships be spared for the voyage home"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth — and nearly destroys it.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.withdraw.ask"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w02d03.the-embassy-fails",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "Why does Achilles reject Agamemnon's enormous offer of gifts in Iliad 9?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The stripped honour is beyond material compensation — he will fight only when fire reaches his own ships"
+      },
+      {
+       "id": "b",
+       "text": "The offer arrives too late; he has already sailed"
+      },
+      {
+       "id": "c",
+       "text": "He demands the kingship, not gifts"
+      },
+      {
+       "id": "d",
+       "text": "He has sworn an oath to Hector"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.embassy.refusal"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w02d04.patroclus-changes-everything",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "What sequence leads to Patroclus being killed at Troy?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Wearing Achilles's armour, he presses past the warning to Troy's walls, where Apollo and Hector kill him"
+      },
+      {
+       "id": "b",
+       "text": "Defending the ships as they burn"
+      },
+      {
+       "id": "c",
+       "text": "In single combat with Aeneas"
+      },
+      {
+       "id": "d",
+       "text": "Caught in an ambush returning to camp"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Patroclus ignores the warning, chases to the walls, and dies to Apollo and Hector — redirecting Achilles's rage.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.patroclus.turn"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w02d05.priam-and-achilles",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "Why does Achilles release Hector to Priam after dragging the body for days?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Priam kneels and asks him to think of his own father, Peleus — the two enemies weep together"
+      },
+      {
+       "id": "b",
+       "text": "Zeus orders it directly"
+      },
+      {
+       "id": "c",
+       "text": "The ransom gold outweighs his rage"
+      },
+      {
+       "id": "d",
+       "text": "The Greek commanders demand it"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.priam.release"
+     ]
+    }
+   }
+  ]
+ }
 }

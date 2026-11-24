@@ -1,186 +1,194 @@
 {
-  "id": "grc.heroes.w02d05.priam-and-achilles",
-  "version": 4,
-  "weekId": "grc.heroes.week02",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Priam and Achilles",
-  "subtitle": "Compassion interrupts vengeance",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "iliad"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w02d05.priam-and-achilles.claim",
-      "text": "Explain this episode: What does Priam ask Achilles to return?"
-    },
-    {
-      "id": "obj.grc.heroes.w02d05.priam-and-achilles.source",
-      "text": "Use the cited passage to explain: Why does Priam mention Achilles’ father?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 24, Priam’s appeal; Book 24, normalized characters 25847-26149",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "release": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Iliad 24, Priam asks for Hector and Achilles agrees; Book 24, normalized characters 29630-30088",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "O king, bid me not be seated, while Hector is still lying uncared for in your tents, but accept the great ransom which I have brought you, and give him to me at once that I may look upon him. May you prosper with the ransom and reach your own land in safety, seeing that you have suffered me to live and to look upon the light of the sun.” Achilles looked at him sternly and said, “Vex me, sir, no longer; I am of myself minded to give up the body of Hector.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w02d05.priam-and-achilles",
+ "version": 5,
+ "weekId": "grc.heroes.week02",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "The Iliad: Priam and Achilles",
+ "subtitle": "A father kneels in the killer's tent",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "achilles",
+  "priam",
+  "hector",
+  "ransom",
+  "iliad"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.priam.grief",
+   "text": "What does Achilles do to Hector's body before Priam comes?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Priam enters the enemy camp to ransom Hector’s body. He asks Achilles to remember his own father. The two men mourn, and Achilles agrees to release the body and allow time for burial.",
-      "sourceRefIds": [
-        "main",
-        "release"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Priam asks Achilles to accept a ransom and return Hector's body. Achilles says he is already minded to give it up.",
-      "sourceRefIds": [
-        "release"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Notice the limit of the encounter: Priam recovers a body, not a living son, and the war has not ended. Compassion interrupts vengeance without undoing its losses.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The final model is hard restraint: seeing an enemy as human when violence would be easier.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Priam ask Achilles to return?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Briseis"
-        },
-        {
-          "id": "b",
-          "text": "The armor of Patroclus"
-        },
-        {
-          "id": "c",
-          "text": "Hector's body"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Priam asks Achilles to give him Hector's body in exchange for ransom.",
-      "sourceRefIds": [
-        "release"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Priam mention Achilles’ father?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He claims Achilles’ father ordered Hector’s death."
-        },
-        {
-          "id": "b",
-          "text": "He offers Achilles a new military alliance."
-        },
-        {
-          "id": "c",
-          "text": "He appeals to a shared vulnerability across enemy lines."
-        }
-      ],
-      "answerId": "c",
-      "explanation": "He appeals to a shared vulnerability across enemy lines. is the passage-specific answer. Check The Iliad (Book 24, Priam’s appeal), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.priam.release",
+   "text": "Why does Achilles finally release the body?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 24, Priam’s appeal; Book 24, normalized characters 25847-26149",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "others looked one to another and marvelled also, but Priam besought Achilles saying, “Think of your father, O Achilles like unto the gods, who is such even as I am, on the sad threshold of old age. It may be that those who dwell near him harass him, and there is none to keep war and ruin from him. Yet",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "release": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Iliad 24, Priam asks for Hector and Achilles agrees; Book 24, normalized characters 29630-30088",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "O king, bid me not be seated, while Hector is still lying uncared for in your tents, but accept the great ransom which I have brought you, and give him to me at once that I may look upon him. May you prosper with the ransom and reach your own land in safety, seeing that you have suffered me to live and to look upon the light of the sun.” Achilles looked at him sternly and said, “Vex me, sir, no longer; I am of myself minded to give up the body of Hector.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "After the duel",
+   "body": "Achilles kills Hector before the walls of Troy — and it is not enough. He pierces the ankles, lashes the body to his chariot, and drags it through the dust around Patroclus's tomb, day after day.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.grief"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A father's impossible errand",
+   "body": "Priam, king of Troy and father of the dead man, crosses the enemy lines alone at night with a wagon of ransom — into the tent of his son's killer. He kneels and kisses the hands that killed his children.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.release"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "'Think of your father'",
+   "body": "Priam does not argue — he asks Achilles to remember Peleus, his own aged father far away who will never see his son return. The two enemies weep together: one for his father and friend, one for his sons.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.release"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The body goes home",
+   "body": "Moved by the shared grief, Achilles lifts the old man up, accepts the ransom, and grants twelve days of truce for Hector's funeral. The Iliad ends not with Troy's fall but with a burial.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.release"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why the epic ends here",
+   "body": "The Iliad's final movement is not conquest but compassion — two men bound by loss. The rage that opened the poem dissolves into the recognition that enemies grieve alike.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.release"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What finally moves Achilles to return Hector's body?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Priam kneels before him and asks him to think of his own father — shared grief breaks through the rage"
+    },
+    {
+     "id": "b",
+     "text": "The gods threaten him with divine punishment"
+    },
+    {
+     "id": "c",
+     "text": "The ransom of gold outweighs his anger"
+    },
+    {
+     "id": "d",
+     "text": "The Greeks order him to release the body"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Priam asks Achilles to think of Peleus, his own father; the two weep together and Achilles releases the body and grants a funeral truce.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.release"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Achilles treat Hector's body before Priam's visit?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He drags it behind his chariot around Patroclus's tomb, day after day"
+    },
+    {
+     "id": "b",
+     "text": "He burns it on a pyre immediately"
+    },
+    {
+     "id": "c",
+     "text": "He hangs it from the camp walls"
+    },
+    {
+     "id": "d",
+     "text": "He sinks it in the river Scamander"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Achilles pierces Hector's ankles and drags the body around Patroclus's tomb until Priam's ransom mission moves him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.priam.grief"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

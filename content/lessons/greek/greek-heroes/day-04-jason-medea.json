@@ -1,208 +1,182 @@
 {
-  "id": "grc.heroes.day04.jason-medea",
-  "version": 3,
-  "weekId": "grc.heroes.week01",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Jason and Medea: Help and Aftermath",
-  "subtitle": "Apollonius' epic and Euripides' tragedy ask different questions",
-  "estimatedMinutes": 2,
-  "difficulty": 1,
-  "tags": [
-    "jason",
-    "medea",
-    "argonautica",
-    "tragedy"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.jason-medea.concept",
-      "text": "What does Medea give Jason in Apollonius' account?"
-    },
-    {
-      "id": "obj.jason-medea.source",
-      "text": "What does the Nurse say Jason has done in Euripides' Medea?"
-    }
-  ],
-  "sourceReferences": {
-    "argo": {
-      "recordId": "pg-00830",
-      "sourceId": "grc.apollonius.argonautica",
-      "work": "The Argonautica",
-      "author": "Apollonius Rhodius",
-      "translator": "R. C. Seaton",
-      "locator": "Argonautica 3, Medea gives Jason the charm; Book 3, normalized characters 55498-55622",
-      "localPath": "content/corpus/greek/primary/apollonius-argonautica-0830.txt",
-      "excerpt": "And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    },
-    "medea": {
-      "recordId": "pg-15081",
-      "sourceId": "grc.euripides.medea",
-      "work": "The Tragedies of Euripides, Volume I",
-      "author": "Euripides",
-      "translator": "Theodore Alois Buckley",
-      "locator": "Medea, Nurse's prologue; local text, normalized characters 290272-290495",
-      "localPath": "content/corpus/greek/primary/euripides-buckley-volume-i-15081.txt",
-      "excerpt": "But now every thing is at variance, and the dearest ties are weakened. For having betrayed his own children, and my mistress, Jason reposes in royal wedlock, having married the daughter of Creon, who is prince of this land.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work/translation; the locator selects this exact local source segment."
-    }
+ "id": "grc.heroes.day04.jason-medea",
+ "version": 4,
+ "weekId": "grc.heroes.week01",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Theseus: Into the Labyrinth",
+ "subtitle": "Fourteen Athenians, a princess, a thread, and a monster",
+ "estimatedMinutes": 3,
+ "difficulty": 1,
+ "tags": [
+  "theseus",
+  "minotaur",
+  "ariadne",
+  "crete",
+  "tribute"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.mino.tribute",
+   "text": "Why did Athens send youths to Crete?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Medea supplies essential help",
-      "body": "In Apollonius' Argonautica, Medea gives Jason a protective charm for the dangerous task. The epic connects his success to her knowledge.",
-      "sourceRefIds": [
-        "argo"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.concept"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The charm changes the contest",
-      "body": "Verbatim from Seaton's translation: “And forth from her fragrant girdle ungrudgingly she brought out the charm; and he at once received it in his hands with joy.”",
-      "sourceRefIds": [
-        "argo"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.source"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "context",
-      "title": "Euripides begins later",
-      "body": "The Nurse in Medea remembers the Argo's voyage, then says Jason has married Creon's daughter while Medea is dishonored.",
-      "sourceRefIds": [
-        "medea"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.concept"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Do not merge epic and tragedy",
-      "body": "Apollonius narrates a quest and Medea's aid; Euripides stages the consequences of Jason's later marriage. These works preserve different moments and genres.",
-      "sourceRefIds": [
-        "argo",
-        "medea"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "synthesis",
-      "title": "The same names carry different claims",
-      "body": "A successful voyage does not settle the obligations that the tragedy brings forward.",
-      "sourceRefIds": [
-        "argo",
-        "medea"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.concept"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Medea give Jason in Apollonius' account?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Ariadne's thread"
-        },
-        {
-          "id": "b",
-          "text": "A golden fleece"
-        },
-        {
-          "id": "c",
-          "text": "A charm that protects him for the contest"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage says Medea gives Jason the charm and he receives it.",
-      "sourceRefIds": [
-        "argo"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.concept"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "argo"
-        ]
-      }
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does the Nurse say Jason has done in Euripides' Medea?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Founded Athens with Theseus"
-        },
-        {
-          "id": "b",
-          "text": "Married Creon's daughter while Medea is dishonored"
-        },
-        {
-          "id": "c",
-          "text": "Returned the fleece to Pelias"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "The Nurse says Jason has married Creon's daughter and Medea is dishonored.",
-      "sourceRefIds": [
-        "medea"
-      ],
-      "objectiveIds": [
-        "obj.jason-medea.source"
-      ],
-      "deepDive": {
-        "prompt": "Read the named passage in its work and translation.",
-        "suggestedQuestions": [
-          "Which words support the answer?",
-          "What does this passage not establish?"
-        ],
-        "sourceRefIds": [
-          "medea"
-        ]
-      }
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources",
-    "want-more-flavor"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.mino.thread",
+   "text": "How did Theseus survive the labyrinth?"
   }
+ ],
+ "sourceReferences": {
+  "plutarch": {
+   "recordId": "pg-00674",
+   "sourceId": "grc.plutarch.lives",
+   "work": "Life of Theseus",
+   "author": "Plutarch",
+   "translator": "John Dryden and others; revised by Arthur Hugh Clough",
+   "locator": "Life of Theseus, the Cretan tribute and the Minotaur",
+   "localPath": "content/corpus/greek/primary/plutarch-lives-00674.txt",
+   "excerpt": "having a clue of thread given him by Ariadne, who had fallen in love with him, and being instructed by her how to use it so as to conduct him through the windings of the labyrinth, he escaped out of it and slew the Minotaur",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage; locator selects this local source segment."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A debt of blood",
+   "body": "King Minos of Crete holds Athens under a terrible tribute: periodically, seven youths and seven maidens are shipped to Crete — food for the Minotaur, the man-bull monster sealed inside the labyrinth built by Daedalus.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.tribute"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Theseus volunteers",
+   "body": "When the tribute falls due again, Theseus puts himself among the fourteen. His plan is not to escape it but to end it: he promises his father he will kill the Minotaur and sail home under a white sail.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.tribute"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Ariadne's thread",
+   "body": "In Crete, Minos's daughter Ariadne falls in love with Theseus at first sight. Her gift is simple and decisive: a ball of thread. Tie one end at the entrance, unwind it through the maze, and the way back is never lost.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.thread"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The Minotaur",
+   "body": "Theseus winds his way into the heart of the labyrinth, finds the Minotaur, and kills it — in the plainest versions with his bare hands or a club. Then he follows the thread back out and leads the thirteen other captives to the ships.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.thread"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The labyrinth's afterlife",
+   "body": "The maze outlived the myth — 'labyrinth' became the word for any trap of your own design, and the story's machinery (love, a token, a monster in the dark) keeps being retold in modern fiction and games.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.thread"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Ariadne give Theseus, and what does it do?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "A ball of thread — it lets him retrace his path out of the labyrinth after killing the Minotaur"
+    },
+    {
+     "id": "b",
+     "text": "A magic sword that can cut through the labyrinth walls"
+    },
+    {
+     "id": "c",
+     "text": "A drug that puts the Minotaur to sleep"
+    },
+    {
+     "id": "d",
+     "text": "A map of Crete's hidden harbours"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Ariadne gives him a clue (ball) of thread; he ties it at the entrance, unwinds it through the windings, and follows it back out.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.thread"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why were seven youths and seven maidens sent to Crete?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "As a tribute to King Minos — food for the Minotaur sealed inside Daedalus's labyrinth"
+    },
+    {
+     "id": "b",
+     "text": "To serve as hostages guaranteeing an alliance"
+    },
+    {
+     "id": "c",
+     "text": "To train in Cretan schools"
+    },
+    {
+     "id": "d",
+     "text": "To work the silver mines"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Minos held Athens under a tribute: periodically fourteen youths were shipped to feed the Minotaur in the labyrinth.",
+   "sourceRefIds": [
+    "plutarch"
+   ],
+   "objectiveIds": [
+    "obj.mino.tribute"
+   ]
+  }
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ },
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ]
 }

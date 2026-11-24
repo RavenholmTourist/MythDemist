@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
-  "version": 4,
-  "weekId": "grc.heroes.week02",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Quarrel and the Ransom",
-  "subtitle": "Book 1 opens the crisis",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "iliad"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim",
-      "text": "Explain this episode: Who asks the Achaeans to release his daughter?"
-    },
-    {
-      "id": "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source",
-      "text": "Use the cited passage to explain: Why does the plague become an army-wide problem?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Iliad 1, Chryses petitions and Agamemnon refuses; Book 1, normalized characters 421-1518",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "It was the son of Jove and Leto; for he was angry with the king and sent a pestilence upon the host to plague the people, because the son of Atreus had dishonoured Chryses his priest. Now Chryses had come to the ships of the Achaeans to free his daughter, and had brought with him a great ransom: moreover he bore in his hand the sceptre of Apollo wreathed with a suppliant’s wreath, and he besought the Achaeans, but most of all the two sons of Atreus, who were their chiefs. “Sons of Atreus,” he cried, “and all other Achaeans, may the gods who dwell in Olympus grant you to sack the city of Priam, and to reach your homes in safety; but free my daughter, and accept a ransom for her, in reverence to Apollo, son of Jove.” On this the rest of the Achaeans with one voice were for respecting the priest and taking the ransom that he offered; but not so Agamemnon, who spoke fiercely to him and sent him roughly away. “Old man,” said he, “let me not find you tarrying about our ships, nor yet coming hereafter. Your sceptre of the god and your wreath shall profit you nothing. I will not free her.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
+ "version": 5,
+ "weekId": "grc.heroes.week02",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "The Iliad: Apollo's Plague",
+ "subtitle": "A priest, a ransom, and a king's insult that starts it all",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "achilles",
+  "agamemnon",
+  "apollo",
+  "iliad"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.plague.cause",
+   "text": "Why does Apollo send the plague on the Greek camp?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Chryses offers ransom for his captive daughter. Agamemnon refuses him; Apollo sends plague, and the army must confront the cost of its leader’s decision.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation from Butler's translation (whitespace normalized): “It was the son of Jove and Leto; for he was angry with the king and sent a pestilence upon the host to plague the people, because the son of Atreus had dishonoured Chryses his priest. Now Chryses had come to the ships of the Achaeans to free his daughter, and had brought with him a great ransom: moreover he bore in his hand the sceptre of Apollo wreathed with a suppliant’s wreath, and he besought the Achaeans, but most of all the two sons of Atreus, who were their chiefs. “Sons of Atreus,” he cried, “and all other Achaeans, may the gods who dwell in Olympus grant you to sack the city of Priam, and to reach your homes in safety; but free my daughter, and accept a ransom for her, in reverence to Apollo, son of Jove.” On this the rest of the Achaeans with one voice were for respecting the priest and taking the ransom that he offered; but not so Agamemnon, who spoke fiercely to him and sent him roughly away. “Old man,” said he, “let me not find you tarrying about our ships, nor yet coming hereafter. Your sceptre of the god and your wreath shall profit you nothing. I will not free her.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The episode makes honor social rather than private: Agamemnon has power, but he cannot wound a sacred obligation without cost.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Follow the causal sequence: Chryses petitions, Agamemnon refuses, Apollo sends plague. The army suffers for a decision made by its leader; this is more than a private disagreement.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Watch how the poem keeps returning to ransom, gift, and public recognition.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "Who asks the Achaeans to release his daughter?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Chryses"
-        },
-        {
-          "id": "b",
-          "text": "Priam"
-        },
-        {
-          "id": "c",
-          "text": "Calchas"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Chryses is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does the plague become an army-wide problem?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The ransom has been paid to the wrong king."
-        },
-        {
-          "id": "b",
-          "text": "Agamemnon’s insult to Apollo’s priest brings divine punishment."
-        },
-        {
-          "id": "c",
-          "text": "Achilles has already killed Hector."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Agamemnon’s insult to Apollo’s priest brings divine punishment. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.plague.price",
+   "text": "What does Agamemnon demand for returning Chryseis?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Iliad 1, Chryses petitions and Agamemnon refuses; Book 1, normalized characters 421-1518",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "It was the son of Jove and Leto; for he was angry with the king and sent a pestilence upon the host to plague the people, because the son of Atreus had dishonoured Chryses his priest. Now Chryses had come to the ships of the Achaeans to free his daughter, and had brought with him a great ransom: moreover he bore in his hand the sceptre of Apollo wreathed with a suppliant’s wreath, and he besought the Achaeans, but most of all the two sons of Atreus, who were their chiefs. “Sons of Atreus,” he cried, “and all other Achaeans, may the gods who dwell in Olympus grant you to sack the city of Priam, and to reach your homes in safety; but free my daughter, and accept a ransom for her, in reverence to Apollo, son of Jove.” On this the rest of the Achaeans with one voice were for respecting the priest and taking the ransom that he offered; but not so Agamemnon, who spoke fiercely to him and sent him roughly away. “Old man,” said he, “let me not find you tarrying about our ships, nor yet coming hereafter. Your sceptre of the god and your wreath shall profit you nothing. I will not free her.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "A priest comes begging",
+   "body": "For nine days the Greek camp has been dying. Apollo's arrows — the plague itself — fell because Agamemnon refused a ransom: the priest Chryses came to buy back his daughter Chryseis, taken as a war-prize, and the king mocked and dismissed him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.cause"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Achilles calls the assembly",
+   "body": "It is Achilles, not the king, who calls the army together and demands they ask a prophet why the god is angry. Calchas speaks: the plague will not lift until Chryseis goes home — unpaid, unransomed.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.cause"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The king's counter-demand",
+   "body": "Agamemnon gives way with a snarl: he will return the girl, but only if the army makes good his loss. 'I shall come to your tent and take your own prize' — someone's honour-prize will pay for his pride.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.price"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Why a girl is a war-prize",
+   "body": "Chryseis is not a character with choices here; she is time — honour made physical. In the Greek camp, prizes measure a man's standing. Take one and you have not stolen property, you have publicly degraded a warrior.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.price"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The quarrel that launches the epic",
+   "body": "The Iliad does not start with the war — it starts with this argument over honour. Everything that follows, every death including Patroclus and Hector, flows from this moment of wounded pride.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.price"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What does Agamemnon demand in exchange for releasing Chryseis?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He will take another man's honour-prize to replace his — which means seizing Achilles's prize, Briseis"
+    },
+    {
+     "id": "b",
+     "text": "A ransom of seven tripods from the whole army"
+    },
+    {
+     "id": "c",
+     "text": "Achilles must publicly apologise to the priest"
+    },
+    {
+     "id": "d",
+     "text": "Immediate sacrifice of a hundred oxen to Apollo"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Agamemnon agrees to return Chryseis but declares he will come to someone's tent and take their prize — the insult that provokes Achilles's withdrawal.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.price"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "Why does Apollo send a plague on the Greek camp?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Agamemnon refused and mocked the priest Chryses, who came to ransom his daughter Chryseis"
+    },
+    {
+     "id": "b",
+     "text": "The Greeks forgot a sacrifice before landing"
+    },
+    {
+     "id": "c",
+     "text": "The Trojans stole Apollo's sacred tripod"
+    },
+    {
+     "id": "d",
+     "text": "Achilles defiled a temple"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Chryses came to ransom his daughter; Agamemnon's insult moved Apollo to plague the host for nine days.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.plague.cause"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

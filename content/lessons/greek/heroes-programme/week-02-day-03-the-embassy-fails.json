@@ -1,186 +1,194 @@
 {
-  "id": "grc.heroes.w02d03.the-embassy-fails",
-  "version": 4,
-  "weekId": "grc.heroes.week02",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Embassy Fails",
-  "subtitle": "Compensation is not repair",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "iliad"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w02d03.the-embassy-fails.claim",
-      "text": "Explain this episode: What does the embassy offer Achilles?"
-    },
-    {
-      "id": "obj.grc.heroes.w02d03.the-embassy-fails.source",
-      "text": "Use the cited passage to explain: Why is the embassy more than a payment negotiation?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 9, Achilles answers the embassy; Book 9, normalized characters 15931-16232",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "purpose that there be no more of this cajoling, from whatsoever quarter it may come. Him do I hate even as the gates of hell who says one thing while he hides another in his heart; therefore I will say what I mean. I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans,",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "offer": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Iliad 9, Agamemnon lists gifts for Achilles; Book 9, normalized characters 6248-6873",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "will make amends, and will give him great gifts by way of atonement. I will tell them in the presence of you all. I will give him seven tripods that have never yet been on the fire, and ten talents of gold. I will give him twenty iron cauldrons and twelve strong horses that have won races and carried off prizes. Rich, indeed, both in land and gold is he that has as many prizes as my horses have won me. I will give him seven excellent workwomen, Lesbians, whom I chose for myself when he took Lesbos—all of surpassing beauty. I will give him these, and with them her whom I erewhile took from him, the daughter of Briseus;",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w02d03.the-embassy-fails",
+ "version": 5,
+ "weekId": "grc.heroes.week02",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "The Iliad: The Embassy Fails",
+ "subtitle": "The Greeks' best offer meets Achilles's immovable no",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "achilles",
+  "embassy",
+  "phoenix",
+  "ajax",
+  "iliad"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.embassy.offer",
+   "text": "What does Agamemnon offer Achilles to return?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Odysseus, Phoenix, and Ajax visit Achilles with an offer of gifts. Achilles does not accept a return on those terms: compensation has not settled the injury to his standing or his doubts about fighting.",
-      "sourceRefIds": [
-        "offer",
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “purpose that there be no more of this cajoling, from whatsoever quarter it may come. Him do I hate even as the gates of hell who says one thing while he hides another in his heart; therefore I will say what I mean. I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans,”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Achilles’ refusal is emotionally intelligible and strategically disastrous; the poem makes both things true at once.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Distinguish an offer from a reconciliation. Book 9 lets Achilles question the rewards of fighting; do not reduce his refusal to bargaining for a higher price.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This tests whether a hero can be wronged and destructive at the same time.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Agamemnon offer Achilles through the embassy?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The throne of Ithaca"
-        },
-        {
-          "id": "b",
-          "text": "A place among the gods"
-        },
-        {
-          "id": "c",
-          "text": "Gifts, including Briseis, if he returns to battle"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "Agamemnon's speech lists material gifts and Briseis as part of his offer.",
-      "sourceRefIds": [
-        "offer"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "How does Achilles answer the embassy?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asks Odysseus to lead the Myrmidons"
-        },
-        {
-          "id": "b",
-          "text": "He says Agamemnon and the Danaans will not appease him"
-        },
-        {
-          "id": "c",
-          "text": "He accepts the gifts immediately"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Achilles says he will not be appeased by Agamemnon or the other Danaans.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.embassy.refusal",
+   "text": "Why does Achilles refuse?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 9, Achilles answers the embassy; Book 9, normalized characters 15931-16232",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "purpose that there be no more of this cajoling, from whatsoever quarter it may come. Him do I hate even as the gates of hell who says one thing while he hides another in his heart; therefore I will say what I mean. I will be appeased neither by Agamemnon son of Atreus nor by any other of the Danaans,",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "offer": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Iliad 9, Agamemnon lists gifts for Achilles; Book 9, normalized characters 6248-6873",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "will make amends, and will give him great gifts by way of atonement. I will tell them in the presence of you all. I will give him seven tripods that have never yet been on the fire, and ten talents of gold. I will give him twenty iron cauldrons and twelve strong horses that have won races and carried off prizes. Rich, indeed, both in land and gold is he that has as many prizes as my horses have won me. I will give him seven excellent workwomen, Lesbians, whom I chose for myself when he took Lesbos—all of surpassing beauty. I will give him these, and with them her whom I erewhile took from him, the daughter of Briseus;",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Defeat forces humility",
+   "body": "With Achilles out, the war turns. Hector drives the Greeks back to their ships, and Agamemnon — desperate — finally admits the quarrel was madness. He sends an embassy to Achilles's tent.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.offer"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The shopping-list of amends",
+   "body": "The offer is staggering: seven tripods, ten talents of gold, twenty cauldrons, twelve prize horses, seven skilled women, Briseis returned untouched — and his daughter's hand in marriage after the war.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.offer"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Achilles's answer",
+   "body": "He hates 'even as the gates of hell' the man who says one thing and hides another. He will not fight. Gifts cannot buy back the honour that was stripped — and tomorrow, he says, he may simply sail home.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.refusal"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Phoenix's last plea",
+   "body": "Old Phoenix, who raised Achilles as a child, begs him by their bond. Ajax is blunter: this stubbornness is destroying your friends. Achilles softens just slightly — he will fight only when fire reaches his own ships.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.refusal"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The loneliest 'no' in literature",
+   "body": "The embassy fails because Achilles's grievance has outgrown any compensation. Honour cannot be repaid in tripods — only the coming catastrophe will move him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.refusal"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Achilles respond to Agamemnon's enormous offer of gifts?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He refuses — no compensation can repair the stripped honour; he will fight only when fire reaches his own ships"
+    },
+    {
+     "id": "b",
+     "text": "He accepts the gifts but refuses to forgive Agamemnon"
+    },
+    {
+     "id": "c",
+     "text": "He doubles the demand and keeps negotiating"
+    },
+    {
+     "id": "d",
+     "text": "He sails home to Phthia that night"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Achilles rejects the whole offer — the insult is beyond material repair — and sets one condition: he fights when the battle reaches his own ships.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.refusal"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What slight concession does Achilles finally make to the embassy?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He will fight only when the Trojan fire reaches his own ships"
+    },
+    {
+     "id": "b",
+     "text": "He accepts Briseis back but not the gold"
+    },
+    {
+     "id": "c",
+     "text": "He agrees to fight if Agamemnon asks in person"
+    },
+    {
+     "id": "d",
+     "text": "He lends his armour to any volunteer"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Phoenix's and Ajax's pleas shift him only to this: he fights when the battle reaches his own ships.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.embassy.refusal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

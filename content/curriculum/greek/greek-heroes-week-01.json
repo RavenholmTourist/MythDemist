@@ -1,254 +1,271 @@
 {
-  "id": "grc.heroes.week01",
-  "title": "Greek Heroes",
-  "subtitle": "Excellence, cleverness, cost, and competing versions",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week01",
+ "title": "Greek Heroes",
+ "subtitle": "Excellence, cleverness, cost, and competing versions",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Theseus: The Boy Under the Rock",
+   "lessonId": "grc.heroes.day01.heroic-excellence",
+   "lessonPath": "content/lessons/greek/greek-heroes/day-01-heroic-excellence.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "Heroes Are Not Moral Certificates",
-      "lessonId": "grc.heroes.day01.heroic-excellence",
-      "lessonPath": "content/lessons/greek/greek-heroes/day-01-heroic-excellence.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Achilles: Anger and Honor",
-      "status": "available",
-      "lessonId": "grc.heroes.day02.achilles-anger",
-      "lessonPath": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json"
-    },
-    {
-      "day": 3,
-      "title": "Odysseus: Cunning and Return",
-      "status": "available",
-      "lessonId": "grc.heroes.day03.odysseus-cunning",
-      "lessonPath": "content/lessons/greek/greek-heroes/day-03-odysseus-cunning.json"
-    },
-    {
-      "day": 4,
-      "title": "Jason and Medea",
-      "status": "available",
-      "lessonId": "grc.heroes.day04.jason-medea",
-      "lessonPath": "content/lessons/greek/greek-heroes/day-04-jason-medea.json"
-    },
-    {
-      "day": 5,
-      "title": "Theseus and Heracles",
-      "status": "available",
-      "lessonId": "grc.heroes.day05.theseus-heracles",
-      "lessonPath": "content/lessons/greek/greek-heroes/day-05-theseus-heracles.json"
-    }
-  ],
-  "suggestedTopics": [
-    {
-      "id": "topic.iliad-anger-honor",
-      "title": "Anger, honor, and consequence",
-      "description": "Follow how the Iliad turns Achilles’ injured honor into a story about cost, grief, and responsibility.",
-      "relatedDay": 1,
-      "recordIds": [
-        "pg-02199"
-      ],
-      "prompt": "Track how Achilles’ anger changes from Book 1 through Patroclus’ death and Priam’s visit."
-    },
-    {
-      "id": "topic.odyssey-cunning-identity",
-      "title": "Cunning, names, and disguise",
-      "description": "Explore how Odysseus survives through intelligence, false names, patience, and recognition scenes.",
-      "relatedDay": 1,
-      "recordIds": [
-        "pg-01727"
-      ],
-      "prompt": "Compare the Cyclops episode with the recognition scenes back on Ithaca."
-    },
-    {
-      "id": "topic.heroic-variants",
-      "title": "When heroic stories change",
-      "description": "Use later mythography and biography to see how heroic genealogies and adventures are reorganized.",
-      "relatedDay": 1,
-      "recordIds": [
-        "perseus-apollodorus-library-frazer",
-        "perseus-apollodorus-epitome-frazer",
-        "pg-00674"
-      ],
-      "prompt": "Ask which source tells the version, when it was written, and what kind of work it is."
-    },
-    {
-      "id": "topic.heroic-tragedy",
-      "title": "Heroes on the tragic stage",
-      "description": "Prepare for later lessons on how Athenian drama reshapes heroic traditions into conflict, suffering, and debate.",
-      "relatedDay": 1,
-      "recordIds": [
-        "pg-08604",
-        "pg-00031",
-        "pg-15081"
-      ],
-      "prompt": "Look for where a tragedy chooses one version and sharpens its moral or political conflict."
-    }
-  ],
-  "assessment": {
-    "title": "Greek Heroes assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.day01.heroic-excellence",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "How do the two openings differ in what they foreground?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The Iliad begins with the Argo while the Odyssey begins with Theseus."
-            },
-            {
-              "id": "b",
-              "text": "The Iliad names anger and loss; the Odyssey names travel, suffering, and return."
-            },
-            {
-              "id": "c",
-              "text": "Both openings describe the same battle scene."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "The Iliad's invocation foregrounds Achilles' anger; the Odyssey's invocation foregrounds a journey and its costs.",
-          "sourceRefIds": [
-            "ref-iliad-1-opening",
-            "ref-odyssey-1-opening"
-          ],
-          "objectiveIds": [
-            "obj.heroic-excellence.achilles-vs-odysseus"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.day02.achilles-anger",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "After the heralds take Briseis, where does Achilles go and whom does he call?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "He goes to the seashore and calls on Thetis."
-            },
-            {
-              "id": "b",
-              "text": "He sails to Crete and calls on Ariadne."
-            },
-            {
-              "id": "c",
-              "text": "He goes to Mount Oeta and calls on Zeus."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "Book 1 says Achilles goes alone to the sea and prays to his mother Thetis.",
-          "sourceRefIds": [
-            "aftermath"
-          ],
-          "objectiveIds": [
-            "obj.achilles-anger.concept"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.day03.odysseus-cunning",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "What does the Odyssey say Odysseus suffers while trying to save his men?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "He loses his armor in the Nemean cave."
-            },
-            {
-              "id": "b",
-              "text": "He is trapped by the suitors in Ithaca."
-            },
-            {
-              "id": "c",
-              "text": "Much suffering by sea, and he cannot save his crew."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Butler's invocation says Odysseus suffers by sea and cannot save his men.",
-          "sourceRefIds": [
-            "odyssey"
-          ],
-          "objectiveIds": [
-            "obj.odysseus-cunning.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.day04.jason-medea",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "Why keep Apollonius and Euripides distinct?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "One is an eyewitness translation of the other."
-            },
-            {
-              "id": "b",
-              "text": "Their genres and narrative settings shape different presentations of Medea."
-            },
-            {
-              "id": "c",
-              "text": "They are aliases for Homer."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Their genres and narrative settings shape different presentations of Medea. is the passage-specific answer. Check The Argonautica (Argonautica 3, Medea gives Jason the charm); The Tragedies of Euripides, Volume I (Medea, Nurse's prologue), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "argo",
-            "medea"
-          ],
-          "objectiveIds": [
-            "obj.jason-medea.concept"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.day05.theseus-heracles",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What is a responsible claim about Plutarch’s Theseus?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Plutarch records his personal meeting with Theseus."
-            },
-            {
-              "id": "b",
-              "text": "Theseus wrote Plutarch’s account of Athens."
-            },
-            {
-              "id": "c",
-              "text": "Plutarch presents a legendary founder through later biography."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Plutarch presents a legendary founder through later biography. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, oracle assigns service); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, civic unification), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "apollo",
-            "plutarch"
-          ],
-          "objectiveIds": [
-            "obj.theseus-heracles.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Theseus: The Road of Trials",
+   "status": "available",
+   "lessonId": "grc.heroes.day02.achilles-anger",
+   "lessonPath": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json"
+  },
+  {
+   "day": 3,
+   "title": "Theseus: The Poisoned Cup",
+   "status": "available",
+   "lessonId": "grc.heroes.day03.odysseus-cunning",
+   "lessonPath": "content/lessons/greek/greek-heroes/day-03-odysseus-cunning.json"
+  },
+  {
+   "day": 4,
+   "title": "Theseus: Into the Labyrinth",
+   "status": "available",
+   "lessonId": "grc.heroes.day04.jason-medea",
+   "lessonPath": "content/lessons/greek/greek-heroes/day-04-jason-medea.json"
+  },
+  {
+   "day": 5,
+   "title": "Theseus: The Black Sails",
+   "status": "available",
+   "lessonId": "grc.heroes.day05.theseus-heracles",
+   "lessonPath": "content/lessons/greek/greek-heroes/day-05-theseus-heracles.json"
   }
+ ],
+ "suggestedTopics": [
+  {
+   "id": "topic.iliad-anger-honor",
+   "title": "Anger, honor, and consequence",
+   "description": "Follow how the Iliad turns Achilles’ injured honor into a story about cost, grief, and responsibility.",
+   "relatedDay": 1,
+   "recordIds": [
+    "pg-02199"
+   ],
+   "prompt": "Track how Achilles’ anger changes from Book 1 through Patroclus’ death and Priam’s visit."
+  },
+  {
+   "id": "topic.odyssey-cunning-identity",
+   "title": "Cunning, names, and disguise",
+   "description": "Explore how Odysseus survives through intelligence, false names, patience, and recognition scenes.",
+   "relatedDay": 1,
+   "recordIds": [
+    "pg-01727"
+   ],
+   "prompt": "Compare the Cyclops episode with the recognition scenes back on Ithaca."
+  },
+  {
+   "id": "topic.heroic-variants",
+   "title": "When heroic stories change",
+   "description": "Use later mythography and biography to see how heroic genealogies and adventures are reorganized.",
+   "relatedDay": 1,
+   "recordIds": [
+    "perseus-apollodorus-library-frazer",
+    "perseus-apollodorus-epitome-frazer",
+    "pg-00674"
+   ],
+   "prompt": "Ask which source tells the version, when it was written, and what kind of work it is."
+  },
+  {
+   "id": "topic.heroic-tragedy",
+   "title": "Heroes on the tragic stage",
+   "description": "Prepare for later lessons on how Athenian drama reshapes heroic traditions into conflict, suffering, and debate.",
+   "relatedDay": 1,
+   "recordIds": [
+    "pg-08604",
+    "pg-00031",
+    "pg-15081"
+   ],
+   "prompt": "Look for where a tragedy chooses one version and sharpens its moral or political conflict."
+  }
+ ],
+ "assessment": {
+  "title": "Greek Heroes assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.day01.heroic-excellence",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "Why does Theseus choose the bandit-ridden land road to Athens instead of the safe sea voyage?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He wants to win renown through deeds, imitating Heracles — arriving having done something worth remembering"
+      },
+      {
+       "id": "b",
+       "text": "He cannot pay for a ship"
+      },
+      {
+       "id": "c",
+       "text": "The sea route is blocked by storms"
+      },
+      {
+       "id": "d",
+       "text": "He wants to avoid recognition"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Theseus refuses the safer way deliberately: a hero should earn his arrival, as Heracles cleared monsters.",
+     "sourceRefIds": [
+      "plutarch"
+     ],
+     "objectiveIds": [
+      "obj.theseus.road"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.day02.achilles-anger",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "What pattern unites Theseus's victories over the road bandits?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He turns each bandit's own cruelty back on them — club, bent pines, cliff, and bed"
+      },
+      {
+       "id": "b",
+       "text": "He spares each bandit after winning surrender"
+      },
+      {
+       "id": "c",
+       "text": "He traps each bandit in a labyrinth"
+      },
+      {
+       "id": "d",
+       "text": "Each duel is won by divine intervention"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
+     "sourceRefIds": [
+      "plutarch"
+     ],
+     "objectiveIds": [
+      "obj.road.mirror"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.day03.odysseus-cunning",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "How does Aegeus save Theseus from Medea's poisoned cup?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He recognizes the sword Theseus draws at dinner — the token he left under the rock — and knocks the cup away"
+      },
+      {
+       "id": "b",
+       "text": "Medea confesses before Theseus drinks"
+      },
+      {
+       "id": "c",
+       "text": "A servant switches the cups"
+      },
+      {
+       "id": "d",
+       "text": "An oracle warns him at the table"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
+     "sourceRefIds": [
+      "plutarch"
+     ],
+     "objectiveIds": [
+      "obj.medea.recognition"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.day04.jason-medea",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "How does Theseus escape the labyrinth after killing the Minotaur?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He follows Ariadne's thread — tied at the entrance and unwound through the maze — back out"
+      },
+      {
+       "id": "b",
+       "text": "He memorizes Daedalus's floor plan"
+      },
+      {
+       "id": "c",
+       "text": "The Minotaur's dying cry opens the walls"
+      },
+      {
+       "id": "d",
+       "text": "Ariadne leads him out by hand"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
+     "sourceRefIds": [
+      "plutarch"
+     ],
+     "objectiveIds": [
+      "obj.mino.thread"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.day05.theseus-heracles",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "Why does King Aegeus die at Theseus's homecoming?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "The crew forgets to raise the white sail; seeing black sails, Aegeus believes his son dead and throws himself down"
+      },
+      {
+       "id": "b",
+       "text": "Medea poisons him before fleeing Athens"
+      },
+      {
+       "id": "c",
+       "text": "The Minotaur's curse reaches him"
+      },
+      {
+       "id": "d",
+       "text": "He dies of old age while Theseus is at sea"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The forgotten sail signal costs Aegeus his life — and names the Aegean Sea.",
+     "sourceRefIds": [
+      "plutarch"
+     ],
+     "objectiveIds": [
+      "obj.sails.signal"
+     ]
+    }
+   }
+  ]
+ }
 }

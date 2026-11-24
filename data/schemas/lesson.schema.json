@@ -75,7 +75,7 @@
         "additionalProperties": false,
         "properties": {
           "id": { "type": "string" },
-          "kind": { "enum": ["context", "source", "synthesis", "method", "flavor"] },
+          "kind": { "enum": ["story", "context", "source", "synthesis", "method", "flavor"] },
           "title": { "type": "string" },
           "body": { "type": "string" },
           "sourceRefIds": { "type": "array", "items": { "type": "string" }, "minItems": 1 },

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generatedAt": "2026-11-10T10:35:16.371656+00:00",
+  "generatedAt": "2026-11-24T12:34:10.210349+00:00",
   "pantheons": {
     "greek": {
       "id": "greek",
@@ -227,29 +227,32 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "How do the two openings differ in what they foreground?",
+              "prompt": "Why does Theseus choose the bandit-ridden land road to Athens instead of the safe sea voyage?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The Iliad begins with the Argo while the Odyssey begins with Theseus."
+                  "text": "He wants to win renown through deeds, imitating Heracles \u2014 arriving having done something worth remembering"
                 },
                 {
                   "id": "b",
-                  "text": "The Iliad names anger and loss; the Odyssey names travel, suffering, and return."
+                  "text": "He cannot pay for a ship"
                 },
                 {
                   "id": "c",
-                  "text": "Both openings describe the same battle scene."
+                  "text": "The sea route is blocked by storms"
+                },
+                {
+                  "id": "d",
+                  "text": "He wants to avoid recognition"
                 }
               ],
-              "answerId": "b",
-              "explanation": "The Iliad's invocation foregrounds Achilles' anger; the Odyssey's invocation foregrounds a journey and its costs.",
+              "answerId": "a",
+              "explanation": "Theseus refuses the safer way deliberately: a hero should earn his arrival, as Heracles cleared monsters.",
               "sourceRefIds": [
-                "ref-iliad-1-opening",
-                "ref-odyssey-1-opening"
+                "plutarch"
               ],
               "objectiveIds": [
-                "obj.heroic-excellence.achilles-vs-odysseus"
+                "obj.theseus.road"
               ]
             }
           },
@@ -258,28 +261,32 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "After the heralds take Briseis, where does Achilles go and whom does he call?",
+              "prompt": "What pattern unites Theseus's victories over the road bandits?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "He goes to the seashore and calls on Thetis."
+                  "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
                 },
                 {
                   "id": "b",
-                  "text": "He sails to Crete and calls on Ariadne."
+                  "text": "He spares each bandit after winning surrender"
                 },
                 {
                   "id": "c",
-                  "text": "He goes to Mount Oeta and calls on Zeus."
+                  "text": "He traps each bandit in a labyrinth"
+                },
+                {
+                  "id": "d",
+                  "text": "Each duel is won by divine intervention"
                 }
               ],
               "answerId": "a",
-              "explanation": "Book 1 says Achilles goes alone to the sea and prays to his mother Thetis.",
+              "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
               "sourceRefIds": [
-                "aftermath"
+                "plutarch"
               ],
               "objectiveIds": [
-                "obj.achilles-anger.concept"
+                "obj.road.mirror"
               ]
             }
           },
@@ -288,28 +295,32 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "What does the Odyssey say Odysseus suffers while trying to save his men?",
+              "prompt": "How does Aegeus save Theseus from Medea's poisoned cup?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "He loses his armor in the Nemean cave."
+                  "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
                 },
                 {
                   "id": "b",
-                  "text": "He is trapped by the suitors in Ithaca."
+                  "text": "Medea confesses before Theseus drinks"
                 },
                 {
                   "id": "c",
-                  "text": "Much suffering by sea, and he cannot save his crew."
+                  "text": "A servant switches the cups"
+                },
+                {
+                  "id": "d",
+                  "text": "An oracle warns him at the table"
                 }
               ],
-              "answerId": "c",
-              "explanation": "Butler's invocation says Odysseus suffers by sea and cannot save his men.",
+              "answerId": "a",
+              "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
               "sourceRefIds": [
-                "odyssey"
+                "plutarch"
               ],
               "objectiveIds": [
-                "obj.odysseus-cunning.source"
+                "obj.medea.recognition"
               ]
             }
           },
@@ -318,29 +329,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "Why keep Apollonius and Euripides distinct?",
+              "prompt": "How does Theseus escape the labyrinth after killing the Minotaur?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "One is an eyewitness translation of the other."
+                  "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
                 },
                 {
                   "id": "b",
-                  "text": "Their genres and narrative settings shape different presentations of Medea."
+                  "text": "He memorizes Daedalus's floor plan"
                 },
                 {
                   "id": "c",
-                  "text": "They are aliases for Homer."
+                  "text": "The Minotaur's dying cry opens the walls"
+                },
+                {
+                  "id": "d",
+                  "text": "Ariadne leads him out by hand"
                 }
               ],
-              "answerId": "b",
-              "explanation": "Their genres and narrative settings shape different presentations of Medea. is the passage-specific answer. Check The Argonautica (Argonautica 3, Medea gives Jason the charm); The Tragedies of Euripides, Volume I (Medea, Nurse's prologue), keeping each work and version distinct.",
+              "answerId": "a",
+              "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
               "sourceRefIds": [
-                "argo",
-                "medea"
+                "plutarch"
               ],
               "objectiveIds": [
-                "obj.jason-medea.concept"
+                "obj.mino.thread"
               ]
             }
           },
@@ -349,52 +363,55 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What is a responsible claim about Plutarch\u2019s Theseus?",
+              "prompt": "Why does King Aegeus die at Theseus's homecoming?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Plutarch records his personal meeting with Theseus."
+                  "text": "The crew forgets to raise the white sail; seeing black sails, Aegeus believes his son dead and throws himself down"
                 },
                 {
                   "id": "b",
-                  "text": "Theseus wrote Plutarch\u2019s account of Athens."
+                  "text": "Medea poisons him before fleeing Athens"
                 },
                 {
                   "id": "c",
-                  "text": "Plutarch presents a legendary founder through later biography."
+                  "text": "The Minotaur's curse reaches him"
+                },
+                {
+                  "id": "d",
+                  "text": "He dies of old age while Theseus is at sea"
                 }
               ],
-              "answerId": "c",
-              "explanation": "Plutarch presents a legendary founder through later biography. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, oracle assigns service); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, civic unification), keeping each work and version distinct.",
+              "answerId": "a",
+              "explanation": "The forgotten sail signal costs Aegeus his life \u2014 and names the Aegean Sea.",
               "sourceRefIds": [
-                "apollo",
                 "plutarch"
               ],
               "objectiveIds": [
-                "obj.theseus-heracles.source"
+                "obj.sails.signal"
               ]
             }
           }
         ]
       },
       "themes": [
-        "achilles",
-        "apollodorus",
-        "argonautica",
-        "cunning",
-        "heracles",
-        "heroes",
-        "homer",
-        "honor",
-        "iliad",
-        "jason",
+        "aegeus",
+        "ariadne",
+        "crete",
+        "homecoming",
         "medea",
-        "odysseus",
-        "odyssey",
-        "plutarch",
-        "source-variants",
+        "minotaur",
+        "naxos",
+        "origin-story",
+        "periphetes",
+        "procrustes",
+        "recognition",
+        "road-to-athens",
+        "sciron",
+        "sinis",
         "theseus",
-        "tragedy"
+        "tribute",
+        "troezen"
       ]
     },
     {
@@ -420,28 +437,32 @@
             "question": {
               "id": "q1",
               "type": "single-choice",
-              "prompt": "Which sequence opens the Iliad\u2019s crisis?",
+              "prompt": "What triggers Apollo's plague on the Greek camp at the Iliad's opening?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Patroclus dies before Chryses visits the camp."
+                  "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
                 },
                 {
                   "id": "b",
-                  "text": "Priam offers ransom before Achilles withdraws."
+                  "text": "Achilles refuses to fight the Trojans"
                 },
                 {
                   "id": "c",
-                  "text": "A rejected petition leads to plague and a dispute among leaders."
+                  "text": "The Greeks steal Apollo's golden tripod"
+                },
+                {
+                  "id": "d",
+                  "text": "Chryses poisons the wells"
                 }
               ],
-              "answerId": "c",
-              "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
+              "answerId": "a",
+              "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+                "obj.plague.cause"
               ]
             }
           },
@@ -450,30 +471,32 @@
             "question": {
               "id": "q2",
               "type": "single-choice",
-              "prompt": "Which sequence does Butler's Book 1 narrate?",
+              "prompt": "After Briseis is taken, what does Achilles ask his mother Thetis to win from Zeus?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Achilles kills Agamemnon, then sails to Crete."
+                  "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
                 },
                 {
                   "id": "b",
-                  "text": "Priam ransoms Hector, then Athena stops the war."
+                  "text": "That Agamemnon be struck by lightning"
                 },
                 {
                   "id": "c",
-                  "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
+                  "text": "That he be made king of the army"
+                },
+                {
+                  "id": "d",
+                  "text": "That his ships be spared for the voyage home"
                 }
               ],
-              "answerId": "c",
-              "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
+              "answerId": "a",
+              "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth \u2014 and nearly destroys it.",
               "sourceRefIds": [
-                "main",
-                "restraint",
-                "aftermath"
+                "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+                "obj.withdraw.ask"
               ]
             }
           },
@@ -482,29 +505,32 @@
             "question": {
               "id": "q3",
               "type": "single-choice",
-              "prompt": "How does Book 9 complicate heroic honour?",
+              "prompt": "Why does Achilles reject Agamemnon's enormous offer of gifts in Iliad 9?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "The embassy proves Achilles cares only about armour."
+                  "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
                 },
                 {
                   "id": "b",
-                  "text": "Material rewards do not automatically restore damaged trust."
+                  "text": "The offer arrives too late; he has already sailed"
                 },
                 {
                   "id": "c",
-                  "text": "A larger reward immediately ends Achilles\u2019 anger."
+                  "text": "He demands the kingship, not gifts"
+                },
+                {
+                  "id": "d",
+                  "text": "He has sworn an oath to Hector"
                 }
               ],
-              "answerId": "b",
-              "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
+              "answerId": "a",
+              "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
               "sourceRefIds": [
-                "offer",
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w02d03.the-embassy-fails.source"
+                "obj.embassy.refusal"
               ]
             }
           },
@@ -513,28 +539,32 @@
             "question": {
               "id": "q4",
               "type": "single-choice",
-              "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
+              "prompt": "What sequence leads to Patroclus being killed at Troy?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Hector now holds the armour that Patroclus wore."
+                  "text": "Wearing Achilles's armour, he presses past the warning to Troy's walls, where Apollo and Hector kill him"
                 },
                 {
                   "id": "b",
-                  "text": "The armour is returned to Chryses."
+                  "text": "Defending the ships as they burn"
                 },
                 {
                   "id": "c",
-                  "text": "Patroclus gives it to Priam as a ransom."
+                  "text": "In single combat with Aeneas"
+                },
+                {
+                  "id": "d",
+                  "text": "Caught in an ambush returning to camp"
                 }
               ],
               "answerId": "a",
-              "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
+              "explanation": "Patroclus ignores the warning, chases to the walls, and dies to Apollo and Hector \u2014 redirecting Achilles's rage.",
               "sourceRefIds": [
                 "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+                "obj.patroclus.turn"
               ]
             }
           },
@@ -543,39 +573,51 @@
             "question": {
               "id": "q5",
               "type": "single-choice",
-              "prompt": "What changes in Book 24 without undoing the war?",
+              "prompt": "Why does Achilles release Hector to Priam after dragging the body for days?",
               "choices": [
                 {
                   "id": "a",
-                  "text": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial."
+                  "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
                 },
                 {
                   "id": "b",
-                  "text": "Priam\u2019s appeal brings Hector back to life."
+                  "text": "Zeus orders it directly"
                 },
                 {
                   "id": "c",
-                  "text": "Achilles agrees to lead Troy against Agamemnon."
+                  "text": "The ransom gold outweighs his rage"
+                },
+                {
+                  "id": "d",
+                  "text": "The Greek commanders demand it"
                 }
               ],
               "answerId": "a",
-              "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam\u2019s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
+              "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
               "sourceRefIds": [
-                "main",
-                "release"
+                "main"
               ],
               "objectiveIds": [
-                "obj.grc.heroes.w02d05.priam-and-achilles.source"
+                "obj.priam.release"
               ]
             }
           }
         ]
       },
       "themes": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "agamemnon",
+        "ajax",
+        "apollo",
+        "briseis",
+        "embassy",
+        "hector",
         "iliad",
-        "source-method"
+        "patroclus",
+        "phoenix",
+        "priam",
+        "ransom",
+        "thetis"
       ]
     },
     {
@@ -2183,204 +2225,216 @@
       "id": "grc.heroes.day01.heroic-excellence",
       "version": 4,
       "pantheon": "greek",
-      "title": "Heroes Are Not Moral Certificates",
+      "title": "Theseus: The Boy Under the Rock",
       "weekId": "grc.heroes.week01",
       "tags": [
-        "heroes",
-        "homer",
-        "iliad",
-        "odyssey",
-        "source-variants"
+        "theseus",
+        "aegeus",
+        "troezen",
+        "origin-story"
       ],
       "difficulty": 1,
       "path": "content/lessons/greek/greek-heroes/day-01-heroic-excellence.json",
       "objectiveIds": [
-        "obj.heroic-excellence.source-specific",
-        "obj.heroic-excellence.achilles-vs-odysseus"
+        "obj.theseus.tokens",
+        "obj.theseus.road"
       ],
       "recordIds": [
-        "pg-01727",
-        "pg-02199"
-      ],
-      "rewardArtId": "art.met.254187",
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "heroes",
-        "homer",
-        "iliad",
-        "odyssey",
-        "source-variants"
-      ],
-      "entities": [
-        "heroes",
-        "homer",
-        "iliad",
-        "odyssey",
-        "source-variants"
-      ]
-    },
-    {
-      "id": "grc.heroes.day02.achilles-anger",
-      "version": 4,
-      "pantheon": "greek",
-      "title": "Achilles: Anger, Honor, and Restraint",
-      "weekId": "grc.heroes.week01",
-      "tags": [
-        "achilles",
-        "iliad",
-        "honor"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json",
-      "objectiveIds": [
-        "obj.achilles-anger.concept",
-        "obj.achilles-anger.source"
-      ],
-      "recordIds": [
-        "pg-02199"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "achilles",
-        "honor",
-        "iliad"
-      ],
-      "entities": [
-        "achilles",
-        "honor",
-        "iliad"
-      ]
-    },
-    {
-      "id": "grc.heroes.day03.odysseus-cunning",
-      "version": 4,
-      "pantheon": "greek",
-      "title": "Odysseus: Journey and Loss",
-      "weekId": "grc.heroes.week01",
-      "tags": [
-        "odysseus",
-        "odyssey",
-        "cunning"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/greek/greek-heroes/day-03-odysseus-cunning.json",
-      "objectiveIds": [
-        "obj.odysseus-cunning.concept",
-        "obj.odysseus-cunning.source"
-      ],
-      "recordIds": [
-        "pg-01727"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "cunning",
-        "odysseus",
-        "odyssey"
-      ],
-      "entities": [
-        "cunning",
-        "odysseus",
-        "odyssey"
-      ]
-    },
-    {
-      "id": "grc.heroes.day04.jason-medea",
-      "version": 3,
-      "pantheon": "greek",
-      "title": "Jason and Medea: Help and Aftermath",
-      "weekId": "grc.heroes.week01",
-      "tags": [
-        "jason",
-        "medea",
-        "argonautica",
-        "tragedy"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/greek/greek-heroes/day-04-jason-medea.json",
-      "objectiveIds": [
-        "obj.jason-medea.concept",
-        "obj.jason-medea.source"
-      ],
-      "recordIds": [
-        "pg-00830",
-        "pg-15081"
-      ],
-      "rewardArtId": null,
-      "questionCount": 2,
-      "cardCount": 5,
-      "themes": [
-        "argonautica",
-        "jason",
-        "medea",
-        "tragedy"
-      ],
-      "entities": [
-        "argonautica",
-        "jason",
-        "medea",
-        "tragedy"
-      ]
-    },
-    {
-      "id": "grc.heroes.day05.theseus-heracles",
-      "version": 3,
-      "pantheon": "greek",
-      "title": "Theseus and Heracles: Two Later Accounts",
-      "weekId": "grc.heroes.week01",
-      "tags": [
-        "theseus",
-        "heracles",
-        "apollodorus",
-        "plutarch"
-      ],
-      "difficulty": 1,
-      "path": "content/lessons/greek/greek-heroes/day-05-theseus-heracles.json",
-      "objectiveIds": [
-        "obj.theseus-heracles.concept",
-        "obj.theseus-heracles.source"
-      ],
-      "recordIds": [
-        "perseus-apollodorus-library-frazer",
         "pg-00674"
       ],
       "rewardArtId": null,
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "apollodorus",
-        "heracles",
-        "plutarch",
+        "aegeus",
+        "origin-story",
+        "theseus",
+        "troezen"
+      ],
+      "entities": [
+        "aegeus",
+        "origin-story",
+        "theseus",
+        "troezen"
+      ]
+    },
+    {
+      "id": "grc.heroes.day02.achilles-anger",
+      "version": 4,
+      "pantheon": "greek",
+      "title": "Theseus: The Road of Trials",
+      "weekId": "grc.heroes.week01",
+      "tags": [
+        "theseus",
+        "periphetes",
+        "sinis",
+        "sciron",
+        "procrustes",
+        "road-to-athens"
+      ],
+      "difficulty": 1,
+      "path": "content/lessons/greek/greek-heroes/day-02-achilles-anger.json",
+      "objectiveIds": [
+        "obj.road.bandits",
+        "obj.road.mirror"
+      ],
+      "recordIds": [
+        "pg-00674"
+      ],
+      "rewardArtId": null,
+      "questionCount": 2,
+      "cardCount": 5,
+      "themes": [
+        "periphetes",
+        "procrustes",
+        "road-to-athens",
+        "sciron",
+        "sinis",
         "theseus"
       ],
       "entities": [
-        "apollodorus",
-        "heracles",
-        "plutarch",
+        "periphetes",
+        "procrustes",
+        "road-to-athens",
+        "sciron",
+        "sinis",
+        "theseus"
+      ]
+    },
+    {
+      "id": "grc.heroes.day03.odysseus-cunning",
+      "version": 4,
+      "pantheon": "greek",
+      "title": "Theseus: The Poisoned Cup",
+      "weekId": "grc.heroes.week01",
+      "tags": [
+        "theseus",
+        "aegeus",
+        "medea",
+        "recognition"
+      ],
+      "difficulty": 1,
+      "path": "content/lessons/greek/greek-heroes/day-03-odysseus-cunning.json",
+      "objectiveIds": [
+        "obj.medea.threat",
+        "obj.medea.recognition"
+      ],
+      "recordIds": [
+        "pg-00674"
+      ],
+      "rewardArtId": null,
+      "questionCount": 2,
+      "cardCount": 5,
+      "themes": [
+        "aegeus",
+        "medea",
+        "recognition",
+        "theseus"
+      ],
+      "entities": [
+        "aegeus",
+        "medea",
+        "recognition",
+        "theseus"
+      ]
+    },
+    {
+      "id": "grc.heroes.day04.jason-medea",
+      "version": 4,
+      "pantheon": "greek",
+      "title": "Theseus: Into the Labyrinth",
+      "weekId": "grc.heroes.week01",
+      "tags": [
+        "theseus",
+        "minotaur",
+        "ariadne",
+        "crete",
+        "tribute"
+      ],
+      "difficulty": 1,
+      "path": "content/lessons/greek/greek-heroes/day-04-jason-medea.json",
+      "objectiveIds": [
+        "obj.mino.tribute",
+        "obj.mino.thread"
+      ],
+      "recordIds": [
+        "pg-00674"
+      ],
+      "rewardArtId": null,
+      "questionCount": 2,
+      "cardCount": 5,
+      "themes": [
+        "ariadne",
+        "crete",
+        "minotaur",
+        "theseus",
+        "tribute"
+      ],
+      "entities": [
+        "ariadne",
+        "crete",
+        "minotaur",
+        "theseus",
+        "tribute"
+      ]
+    },
+    {
+      "id": "grc.heroes.day05.theseus-heracles",
+      "version": 4,
+      "pantheon": "greek",
+      "title": "Theseus: The Black Sails",
+      "weekId": "grc.heroes.week01",
+      "tags": [
+        "theseus",
+        "aegeus",
+        "ariadne",
+        "naxos",
+        "homecoming"
+      ],
+      "difficulty": 1,
+      "path": "content/lessons/greek/greek-heroes/day-05-theseus-heracles.json",
+      "objectiveIds": [
+        "obj.sails.signal",
+        "obj.sails.cost"
+      ],
+      "recordIds": [
+        "pg-00674"
+      ],
+      "rewardArtId": null,
+      "questionCount": 2,
+      "cardCount": 5,
+      "themes": [
+        "aegeus",
+        "ariadne",
+        "homecoming",
+        "naxos",
+        "theseus"
+      ],
+      "entities": [
+        "aegeus",
+        "ariadne",
+        "homecoming",
+        "naxos",
         "theseus"
       ]
     },
     {
       "id": "grc.heroes.w02d01.the-quarrel-and-the-ransom",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Quarrel and the Ransom",
+      "title": "The Iliad: Apollo's Plague",
       "weekId": "grc.heroes.week02",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
+        "achilles",
+        "agamemnon",
+        "apollo",
         "iliad"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-02-day-01-the-quarrel-and-the-ransom.json",
       "objectiveIds": [
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.claim",
-        "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+        "obj.plague.cause",
+        "obj.plague.price"
       ],
       "recordIds": [
         "pg-02199"
@@ -2389,35 +2443,35 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
-        "iliad",
-        "source-method"
+        "achilles",
+        "agamemnon",
+        "apollo",
+        "iliad"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
-        "iliad",
-        "source-method"
+        "achilles",
+        "agamemnon",
+        "apollo",
+        "iliad"
       ]
     },
     {
       "id": "grc.heroes.w02d02.briseis-and-withdrawal",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Briseis and Withdrawal",
+      "title": "The Iliad: Achilles Withdraws",
       "weekId": "grc.heroes.week02",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
+        "achilles",
+        "briseis",
+        "thetis",
         "iliad"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-02-day-02-briseis-and-withdrawal.json",
       "objectiveIds": [
-        "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim",
-        "obj.grc.heroes.w02d02.briseis-and-withdrawal.source"
+        "obj.withdraw.choice",
+        "obj.withdraw.ask"
       ],
       "recordIds": [
         "pg-02199"
@@ -2426,35 +2480,36 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "briseis",
         "iliad",
-        "source-method"
+        "thetis"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "briseis",
         "iliad",
-        "source-method"
+        "thetis"
       ]
     },
     {
       "id": "grc.heroes.w02d03.the-embassy-fails",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "The Embassy Fails",
+      "title": "The Iliad: The Embassy Fails",
       "weekId": "grc.heroes.week02",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
+        "achilles",
+        "embassy",
+        "phoenix",
+        "ajax",
         "iliad"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-02-day-03-the-embassy-fails.json",
       "objectiveIds": [
-        "obj.grc.heroes.w02d03.the-embassy-fails.claim",
-        "obj.grc.heroes.w02d03.the-embassy-fails.source"
+        "obj.embassy.offer",
+        "obj.embassy.refusal"
       ],
       "recordIds": [
         "pg-02199"
@@ -2463,35 +2518,37 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "ajax",
+        "embassy",
         "iliad",
-        "source-method"
+        "phoenix"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "ajax",
+        "embassy",
         "iliad",
-        "source-method"
+        "phoenix"
       ]
     },
     {
       "id": "grc.heroes.w02d04.patroclus-changes-everything",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Patroclus Changes Everything",
+      "title": "The Iliad: Patroclus Changes Everything",
       "weekId": "grc.heroes.week02",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
+        "achilles",
+        "patroclus",
+        "hector",
         "iliad"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-02-day-04-patroclus-changes-everything.json",
       "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim",
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
+        "obj.patroclus.deal",
+        "obj.patroclus.turn"
       ],
       "recordIds": [
         "pg-02199"
@@ -2500,35 +2557,36 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "hector",
         "iliad",
-        "source-method"
+        "patroclus"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "hector",
         "iliad",
-        "source-method"
+        "patroclus"
       ]
     },
     {
       "id": "grc.heroes.w02d05.priam-and-achilles",
-      "version": 4,
+      "version": 5,
       "pantheon": "greek",
-      "title": "Priam and Achilles",
+      "title": "The Iliad: Priam and Achilles",
       "weekId": "grc.heroes.week02",
       "tags": [
-        "greek-heroes",
-        "heroes",
-        "source-method",
+        "achilles",
+        "priam",
+        "hector",
+        "ransom",
         "iliad"
       ],
       "difficulty": 2,
       "path": "content/lessons/greek/heroes-programme/week-02-day-05-priam-and-achilles.json",
       "objectiveIds": [
-        "obj.grc.heroes.w02d05.priam-and-achilles.claim",
-        "obj.grc.heroes.w02d05.priam-and-achilles.source"
+        "obj.priam.grief",
+        "obj.priam.release"
       ],
       "recordIds": [
         "pg-02199"
@@ -2537,16 +2595,18 @@
       "questionCount": 2,
       "cardCount": 5,
       "themes": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "hector",
         "iliad",
-        "source-method"
+        "priam",
+        "ransom"
       ],
       "entities": [
-        "greek-heroes",
-        "heroes",
+        "achilles",
+        "hector",
         "iliad",
-        "source-method"
+        "priam",
+        "ransom"
       ]
     },
     {
@@ -7664,29 +7724,32 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "How do the two openings differ in what they foreground?",
+                  "prompt": "Why does Theseus choose the bandit-ridden land road to Athens instead of the safe sea voyage?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The Iliad begins with the Argo while the Odyssey begins with Theseus."
+                      "text": "He wants to win renown through deeds, imitating Heracles \u2014 arriving having done something worth remembering"
                     },
                     {
                       "id": "b",
-                      "text": "The Iliad names anger and loss; the Odyssey names travel, suffering, and return."
+                      "text": "He cannot pay for a ship"
                     },
                     {
                       "id": "c",
-                      "text": "Both openings describe the same battle scene."
+                      "text": "The sea route is blocked by storms"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He wants to avoid recognition"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "The Iliad's invocation foregrounds Achilles' anger; the Odyssey's invocation foregrounds a journey and its costs.",
+                  "answerId": "a",
+                  "explanation": "Theseus refuses the safer way deliberately: a hero should earn his arrival, as Heracles cleared monsters.",
                   "sourceRefIds": [
-                    "ref-iliad-1-opening",
-                    "ref-odyssey-1-opening"
+                    "plutarch"
                   ],
                   "objectiveIds": [
-                    "obj.heroic-excellence.achilles-vs-odysseus"
+                    "obj.theseus.road"
                   ]
                 }
               },
@@ -7695,28 +7758,32 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "After the heralds take Briseis, where does Achilles go and whom does he call?",
+                  "prompt": "What pattern unites Theseus's victories over the road bandits?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He goes to the seashore and calls on Thetis."
+                      "text": "He turns each bandit's own cruelty back on them \u2014 club, bent pines, cliff, and bed"
                     },
                     {
                       "id": "b",
-                      "text": "He sails to Crete and calls on Ariadne."
+                      "text": "He spares each bandit after winning surrender"
                     },
                     {
                       "id": "c",
-                      "text": "He goes to Mount Oeta and calls on Zeus."
+                      "text": "He traps each bandit in a labyrinth"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Each duel is won by divine intervention"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Book 1 says Achilles goes alone to the sea and prays to his mother Thetis.",
+                  "explanation": "Plutarch notes Theseus imitated Heracles by returning on assailants the same violence they dealt.",
                   "sourceRefIds": [
-                    "aftermath"
+                    "plutarch"
                   ],
                   "objectiveIds": [
-                    "obj.achilles-anger.concept"
+                    "obj.road.mirror"
                   ]
                 }
               },
@@ -7725,28 +7792,32 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "What does the Odyssey say Odysseus suffers while trying to save his men?",
+                  "prompt": "How does Aegeus save Theseus from Medea's poisoned cup?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "He loses his armor in the Nemean cave."
+                      "text": "He recognizes the sword Theseus draws at dinner \u2014 the token he left under the rock \u2014 and knocks the cup away"
                     },
                     {
                       "id": "b",
-                      "text": "He is trapped by the suitors in Ithaca."
+                      "text": "Medea confesses before Theseus drinks"
                     },
                     {
                       "id": "c",
-                      "text": "Much suffering by sea, and he cannot save his crew."
+                      "text": "A servant switches the cups"
+                    },
+                    {
+                      "id": "d",
+                      "text": "An oracle warns him at the table"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Butler's invocation says Odysseus suffers by sea and cannot save his men.",
+                  "answerId": "a",
+                  "explanation": "Theseus draws his sword 'as if he designed to cut with it'; Aegeus recognizes the token and throws down the cup.",
                   "sourceRefIds": [
-                    "odyssey"
+                    "plutarch"
                   ],
                   "objectiveIds": [
-                    "obj.odysseus-cunning.source"
+                    "obj.medea.recognition"
                   ]
                 }
               },
@@ -7755,29 +7826,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "Why keep Apollonius and Euripides distinct?",
+                  "prompt": "How does Theseus escape the labyrinth after killing the Minotaur?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "One is an eyewitness translation of the other."
+                      "text": "He follows Ariadne's thread \u2014 tied at the entrance and unwound through the maze \u2014 back out"
                     },
                     {
                       "id": "b",
-                      "text": "Their genres and narrative settings shape different presentations of Medea."
+                      "text": "He memorizes Daedalus's floor plan"
                     },
                     {
                       "id": "c",
-                      "text": "They are aliases for Homer."
+                      "text": "The Minotaur's dying cry opens the walls"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Ariadne leads him out by hand"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "Their genres and narrative settings shape different presentations of Medea. is the passage-specific answer. Check The Argonautica (Argonautica 3, Medea gives Jason the charm); The Tragedies of Euripides, Volume I (Medea, Nurse's prologue), keeping each work and version distinct.",
+                  "answerId": "a",
+                  "explanation": "Ariadne gives him a clue (ball) of thread; he unwinds it through the windings and follows it out.",
                   "sourceRefIds": [
-                    "argo",
-                    "medea"
+                    "plutarch"
                   ],
                   "objectiveIds": [
-                    "obj.jason-medea.concept"
+                    "obj.mino.thread"
                   ]
                 }
               },
@@ -7786,29 +7860,32 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What is a responsible claim about Plutarch\u2019s Theseus?",
+                  "prompt": "Why does King Aegeus die at Theseus's homecoming?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Plutarch records his personal meeting with Theseus."
+                      "text": "The crew forgets to raise the white sail; seeing black sails, Aegeus believes his son dead and throws himself down"
                     },
                     {
                       "id": "b",
-                      "text": "Theseus wrote Plutarch\u2019s account of Athens."
+                      "text": "Medea poisons him before fleeing Athens"
                     },
                     {
                       "id": "c",
-                      "text": "Plutarch presents a legendary founder through later biography."
+                      "text": "The Minotaur's curse reaches him"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He dies of old age while Theseus is at sea"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "Plutarch presents a legendary founder through later biography. is the passage-specific answer. Check Bibliotheca (Library) (Library 2.4.12, oracle assigns service); Plutarch: Lives of the Noble Grecians and Romans (Life of Theseus, civic unification), keeping each work and version distinct.",
+                  "answerId": "a",
+                  "explanation": "The forgotten sail signal costs Aegeus his life \u2014 and names the Aegean Sea.",
                   "sourceRefIds": [
-                    "apollo",
                     "plutarch"
                   ],
                   "objectiveIds": [
-                    "obj.theseus-heracles.source"
+                    "obj.sails.signal"
                   ]
                 }
               }
@@ -7831,28 +7908,32 @@
                 "question": {
                   "id": "q1",
                   "type": "single-choice",
-                  "prompt": "Which sequence opens the Iliad\u2019s crisis?",
+                  "prompt": "What triggers Apollo's plague on the Greek camp at the Iliad's opening?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Patroclus dies before Chryses visits the camp."
+                      "text": "Agamemnon refuses and mocks the priest Chryses, who came to ransom his daughter Chryseis"
                     },
                     {
                       "id": "b",
-                      "text": "Priam offers ransom before Achilles withdraws."
+                      "text": "Achilles refuses to fight the Trojans"
                     },
                     {
                       "id": "c",
-                      "text": "A rejected petition leads to plague and a dispute among leaders."
+                      "text": "The Greeks steal Apollo's golden tripod"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Chryses poisons the wells"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "A rejected petition leads to plague and a dispute among leaders. is the passage-specific answer. Check The Iliad (Iliad 1, Chryses petitions and Agamemnon refuses), keeping each work and version distinct.",
+                  "answerId": "a",
+                  "explanation": "Chryses came to ransom his daughter; the king's insult brought Apollo's arrows on the host.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w02d01.the-quarrel-and-the-ransom.source"
+                    "obj.plague.cause"
                   ]
                 }
               },
@@ -7861,30 +7942,32 @@
                 "question": {
                   "id": "q2",
                   "type": "single-choice",
-                  "prompt": "Which sequence does Butler's Book 1 narrate?",
+                  "prompt": "After Briseis is taken, what does Achilles ask his mother Thetis to win from Zeus?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Achilles kills Agamemnon, then sails to Crete."
+                      "text": "That the Trojans prevail \u2014 so the Greeks suffer until they learn what Achilles was worth"
                     },
                     {
                       "id": "b",
-                      "text": "Priam ransoms Hector, then Athena stops the war."
+                      "text": "That Agamemnon be struck by lightning"
                     },
                     {
                       "id": "c",
-                      "text": "Agamemnon threatens to take Briseis, Athena restrains Achilles, and Achilles appeals to Thetis."
+                      "text": "That he be made king of the army"
+                    },
+                    {
+                      "id": "d",
+                      "text": "That his ships be spared for the voyage home"
                     }
                   ],
-                  "answerId": "c",
-                  "explanation": "The Book 1 sequence runs from the threat to Athena's intervention and Achilles' appeal.",
+                  "answerId": "a",
+                  "explanation": "Achilles asks Zeus to favour the Trojans; the army's suffering will prove his worth \u2014 and nearly destroys it.",
                   "sourceRefIds": [
-                    "main",
-                    "restraint",
-                    "aftermath"
+                    "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w02d02.briseis-and-withdrawal.claim"
+                    "obj.withdraw.ask"
                   ]
                 }
               },
@@ -7893,29 +7976,32 @@
                 "question": {
                   "id": "q3",
                   "type": "single-choice",
-                  "prompt": "How does Book 9 complicate heroic honour?",
+                  "prompt": "Why does Achilles reject Agamemnon's enormous offer of gifts in Iliad 9?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "The embassy proves Achilles cares only about armour."
+                      "text": "The stripped honour is beyond material compensation \u2014 he will fight only when fire reaches his own ships"
                     },
                     {
                       "id": "b",
-                      "text": "Material rewards do not automatically restore damaged trust."
+                      "text": "The offer arrives too late; he has already sailed"
                     },
                     {
                       "id": "c",
-                      "text": "A larger reward immediately ends Achilles\u2019 anger."
+                      "text": "He demands the kingship, not gifts"
+                    },
+                    {
+                      "id": "d",
+                      "text": "He has sworn an oath to Hector"
                     }
                   ],
-                  "answerId": "b",
-                  "explanation": "Material rewards do not automatically restore damaged trust. is the passage-specific answer. Check The Iliad (Iliad 9, Agamemnon lists gifts for Achilles); The Iliad (Book 9, Achilles answers the embassy), keeping each work and version distinct.",
+                  "answerId": "a",
+                  "explanation": "Achilles refuses everything; no list of tripods and gold can repair the public insult to his honour.",
                   "sourceRefIds": [
-                    "offer",
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w02d03.the-embassy-fails.source"
+                    "obj.embassy.refusal"
                   ]
                 }
               },
@@ -7924,28 +8010,32 @@
                 "question": {
                   "id": "q4",
                   "type": "single-choice",
-                  "prompt": "What does the report of Patroclus' death add to the story of Achilles' borrowed armour?",
+                  "prompt": "What sequence leads to Patroclus being killed at Troy?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Hector now holds the armour that Patroclus wore."
+                      "text": "Wearing Achilles's armour, he presses past the warning to Troy's walls, where Apollo and Hector kill him"
                     },
                     {
                       "id": "b",
-                      "text": "The armour is returned to Chryses."
+                      "text": "Defending the ships as they burn"
                     },
                     {
                       "id": "c",
-                      "text": "Patroclus gives it to Priam as a ransom."
+                      "text": "In single combat with Aeneas"
+                    },
+                    {
+                      "id": "d",
+                      "text": "Caught in an ambush returning to camp"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Antilochus says Patroclus has fallen and Hector holds his armour.",
+                  "explanation": "Patroclus ignores the warning, chases to the walls, and dies to Apollo and Hector \u2014 redirecting Achilles's rage.",
                   "sourceRefIds": [
                     "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
+                    "obj.patroclus.turn"
                   ]
                 }
               },
@@ -7954,29 +8044,32 @@
                 "question": {
                   "id": "q5",
                   "type": "single-choice",
-                  "prompt": "What changes in Book 24 without undoing the war?",
+                  "prompt": "Why does Achilles release Hector to Priam after dragging the body for days?",
                   "choices": [
                     {
                       "id": "a",
-                      "text": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial."
+                      "text": "Priam kneels and asks him to think of his own father, Peleus \u2014 the two enemies weep together"
                     },
                     {
                       "id": "b",
-                      "text": "Priam\u2019s appeal brings Hector back to life."
+                      "text": "Zeus orders it directly"
                     },
                     {
                       "id": "c",
-                      "text": "Achilles agrees to lead Troy against Agamemnon."
+                      "text": "The ransom gold outweighs his rage"
+                    },
+                    {
+                      "id": "d",
+                      "text": "The Greek commanders demand it"
                     }
                   ],
                   "answerId": "a",
-                  "explanation": "Achilles recognises Priam\u2019s grief and permits Hector\u2019s burial. is the passage-specific answer. Check The Iliad (Book 24, Priam\u2019s appeal); The Iliad (Iliad 24, Priam asks for Hector and Achilles agrees), keeping each work and version distinct.",
+                  "explanation": "Shared grief breaks the rage: Priam's plea for his son's body recalls Achilles's own father.",
                   "sourceRefIds": [
-                    "main",
-                    "release"
+                    "main"
                   ],
                   "objectiveIds": [
-                    "obj.grc.heroes.w02d05.priam-and-achilles.source"
+                    "obj.priam.release"
                   ]
                 }
               }
@@ -9717,7 +9810,7 @@
       ],
       "localPath": "content/corpus/greek/primary/euripides-medea-35451.txt",
       "accessScope": "personal-local-only",
-      "available": false
+      "available": true
     },
     {
       "id": "pg-35173",
@@ -9729,7 +9822,7 @@
       ],
       "localPath": "content/corpus/greek/primary/euripides-bacchae-35173.txt",
       "accessScope": "personal-local-only",
-      "available": false
+      "available": true
     },
     {
       "id": "perseus-trojan-women-coleridge",
@@ -9753,7 +9846,7 @@
       ],
       "localPath": "content/corpus/greek/primary/euripides-trojan-women-35171.txt",
       "accessScope": "personal-local-only",
-      "available": false
+      "available": true
     },
     {
       "id": "pg-21765",

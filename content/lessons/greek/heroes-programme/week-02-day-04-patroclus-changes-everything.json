@@ -1,185 +1,193 @@
 {
-  "id": "grc.heroes.w02d04.patroclus-changes-everything",
-  "version": 4,
-  "weekId": "grc.heroes.week02",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Patroclus Changes Everything",
-  "subtitle": "Grief redirects rage",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "iliad"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w02d04.patroclus-changes-everything.claim",
-      "text": "Explain this episode: Whose death changes Achilles’ decision to fight?"
-    },
-    {
-      "id": "obj.grc.heroes.w02d04.patroclus-changes-everything.source",
-      "text": "Use the cited passage to explain: What makes the borrowed armour important?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 18, Antilochus reports Patroclus' death; Book 18, normalized characters 1024-1088",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "Patroclus has fallen, and a fight is raging about his naked body",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "armor": {
-      "recordId": "pg-02199",
-      "sourceId": "grc.homer.iliad",
-      "work": "The Iliad",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 16, Achilles lends Patroclus his armour; Book 16, normalized characters 3336-3687",
-      "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
-      "excerpt": "now gird my armour about your shoulders, and lead the Myrmidons to battle, for the dark cloud of Trojans has burst furiously over our fleet; the Argives are driven back on to the beach, cooped within a narrow space, and the whole people of Troy has taken heart to sally out against them, because they see not the visor of my helmet gleaming near them.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. This Book 16 passage records Achilles' instructions before Patroclus enters the fight."
-    }
+ "id": "grc.heroes.w02d04.patroclus-changes-everything",
+ "version": 5,
+ "weekId": "grc.heroes.week02",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "The Iliad: Patroclus Changes Everything",
+ "subtitle": "Borrowed armour, a friend's death, and rage redirected",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "achilles",
+  "patroclus",
+  "hector",
+  "iliad"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.patroclus.deal",
+   "text": "Why does Achilles let Patroclus fight in his place?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "Achilles lends his armour",
-      "body": "Achilles tells Patroclus to wear his armour and lead the Myrmidons against the Trojans. This is a temporary substitution, not a transfer of Achilles' whole identity or fate.",
-      "sourceRefIds": [
-        "armor"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "The messenger brings news",
-      "body": "Source quotation from Book 18 (Butler translation; whitespace normalized): “Patroclus has fallen, and a fight is raging about his naked body”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "The equipment has a limit",
-      "body": "Book 16 says Patroclus wears Achilles' armour but does not take Achilles' spear, which no other Achaean can wield. Keep that detail attached to this episode.",
-      "sourceRefIds": [
-        "armor"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Grief changes the situation",
-      "body": "Antilochus reports Patroclus' death and Hector's possession of the armour. The poem describes Achilles' grief before showing how he responds; do not collapse these steps into an instant cure.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "These passages connect a borrowed role in Book 16 with the cost of Patroclus' death in Book 18.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What news does Antilochus bring Achilles?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Patroclus has fallen, and Hector holds his armour"
-        },
-        {
-          "id": "b",
-          "text": "Agamemnon has returned Briseis"
-        },
-        {
-          "id": "c",
-          "text": "The Trojans have surrendered"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Antilochus reports Patroclus' death and says Hector holds his armour.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.claim"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Which item does Patroclus not take because no other Achaean can wield it?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Achilles' spear"
-        },
-        {
-          "id": "b",
-          "text": "The chariot of Nestor"
-        },
-        {
-          "id": "c",
-          "text": "The shield of Ajax"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Book 16 says Patroclus does not take the spear because none of the other Achaeans can wield it.",
-      "sourceRefIds": [
-        "armor"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w02d04.patroclus-changes-everything.source"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.patroclus.turn",
+   "text": "What does Patroclus's death do to Achilles's anger?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 18, Antilochus reports Patroclus' death; Book 18, normalized characters 1024-1088",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "Patroclus has fallen, and a fight is raging about his naked body",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "armor": {
+   "recordId": "pg-02199",
+   "sourceId": "grc.homer.iliad",
+   "work": "The Iliad",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 16, Achilles lends Patroclus his armour; Book 16, normalized characters 3336-3687",
+   "localPath": "content/corpus/greek/primary/homer-iliad-2199.txt",
+   "excerpt": "now gird my armour about your shoulders, and lead the Myrmidons to battle, for the dark cloud of Trojans has burst furiously over our fleet; the Argives are driven back on to the beach, cooped within a narrow space, and the whole people of Troy has taken heart to sally out against them, because they see not the visor of my helmet gleaming near them.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. This Book 16 passage records Achilles' instructions before Patroclus enters the fight."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The compromise",
+   "body": "The battle reaches the ships — the exact point Achilles said he would fight. But he still will not yield his pride: instead Patroclus begs to borrow his armour so the Trojans, thinking Achilles returned, will panic. Achilles agrees — with a warning: drive them off, then come back. Do not chase glory to the walls.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.deal"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The disguise works — then fails",
+   "body": "The Trojans see the armour and break. But Patroclus, drunk on his own rampage, ignores the warning and presses toward Troy itself — where Apollo strikes him from behind, and Hector finishes him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.turn"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The news",
+   "body": "'Patroclus has fallen, and a fight is raging about his naked body.' Achilles's grief is volcanic — he pours dust over his head, and the sound of his crying reaches Thetis under the sea.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.turn"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Rage finds its true target",
+   "body": "The quarrel with Agamemnon now means nothing to him. He reconciles instantly — the gifts, Briseis, all irrelevant. His rage has a new name: Hector. He will return to battle knowing his own death follows, because the Fates have already promised it.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.turn"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The price of pride",
+   "body": "Every death at Troy traces back to that first quarrel — but Patroclus's death is the one Achilles caused himself, by staying out and letting another man wear his armour.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.turn"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Patroclus die?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Wearing Achilles's armour, he presses past the warning and attacks Troy itself, where Apollo and Hector kill him"
+    },
+    {
+     "id": "b",
+     "text": "He is killed guarding the ships when the Trojans burn them"
+    },
+    {
+     "id": "c",
+     "text": "Achilles kills him in a quarrel over Briseis"
+    },
+    {
+     "id": "d",
+     "text": "He is struck by a stray arrow during a truce"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Patroclus goes beyond his mission — chasing to Troy's walls, Apollo strikes him, Hector kills him. His death turns Achilles's rage from Agamemnon to Hector.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.turn"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What warning does Achilles give Patroclus before lending his armour?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Drive the Trojans from the ships, then come back — do not press on to the walls of Troy"
+    },
+    {
+     "id": "b",
+     "text": "Do not remove the helmet or the disguise will fail"
+    },
+    {
+     "id": "c",
+     "text": "Do not fight Hector under any circumstances"
+    },
+    {
+     "id": "d",
+     "text": "Return before nightfall or the Myrmidons retreat"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Achilles tells Patroclus to repel the Trojans and return; Patroclus ignores it, presses to the walls, and is killed by Apollo and Hector.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.patroclus.deal"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

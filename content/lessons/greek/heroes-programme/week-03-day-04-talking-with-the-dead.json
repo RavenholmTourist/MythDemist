@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w03d04.talking-with-the-dead",
-  "version": 3,
-  "weekId": "grc.heroes.week03",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Talking with the Dead",
-  "subtitle": "Glory is measured by loss",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w03d04.talking-with-the-dead.claim",
-      "text": "Explain this episode: How does the dead Achilles respond to praise of his status?"
-    },
-    {
-      "id": "obj.grc.heroes.w03d04.talking-with-the-dead.source",
-      "text": "Use the cited passage to explain: What does Achilles’ reply challenge?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 11, Achilles among the dead; Book 11, normalized characters 23440-23742",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w03d04.talking-with-the-dead",
+ "version": 4,
+ "weekId": "grc.heroes.week03",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Odysseus: Talking with the Dead",
+ "subtitle": "Blood for ghosts: Tiresias, his mother, and the fallen at Troy",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odysseus",
+  "tiresias",
+  "underworld",
+  "odyssey"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.dead.journey",
+   "text": "Why must Odysseus consult the dead?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Odysseus encounters Achilles among the dead and praises his status. Achilles answers by preferring even a poor living servant’s life to rule among the dead. The exchange tests the value of glory against the loss of life.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The dead return memory, grief, and unfinished obligation. Glory looks different when the people who paid for it can speak.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Hear Achilles’ reply before summarising the episode as praise of fame. His preference for humble life puts pressure on Odysseus’ attempt to console him with status among the dead.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "This prepares you to compare other underworld journeys as encounters with a tradition's memory system.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How does the dead Achilles respond to praise of his status?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "He asks Odysseus to win another war for him."
-        },
-        {
-          "id": "b",
-          "text": "He says death has fulfilled every heroic wish."
-        },
-        {
-          "id": "c",
-          "text": "He says he would rather be alive in humble service."
-        }
-      ],
-      "answerId": "c",
-      "explanation": "He says he would rather be alive in humble service. is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What does Achilles’ reply challenge?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "The assumption that posthumous glory compensates for lost life"
-        },
-        {
-          "id": "b",
-          "text": "The fact that Odysseus fought at Troy"
-        },
-        {
-          "id": "c",
-          "text": "The possibility of remembering the dead"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "The assumption that posthumous glory compensates for lost life is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.dead.price",
+   "text": "What does the visit reveal about the cost of glory?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 11, Achilles among the dead; Book 11, normalized characters 23440-23742",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "are dead.’ “‘Say not a word,’ he answered, ‘in death’s favour; I would rather be a paid servant in a poor man’s house and be above ground than king of kings among the dead. But give me news about my son; is he gone to the wars and will he be a great soldier, or is this not so? Tell me also if you have",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "To the edge of the world",
+   "body": "Circe's direction is unthinkable: the way home runs through Hades. Odysseus sails to the world's edge, digs a trench, and pours out sheep's blood — the price for the dead to speak.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.journey"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Tiresias's map home",
+   "body": "The blind prophet drinks and foretells: the journey can still succeed — if his men do not touch the Sun's cattle on Thrinacia. If they do, Odysseus will come home late, alone, on a foreign ship, to find trouble in his hall.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.journey"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "His mother, dead of grief",
+   "body": "Among the shades is Anticleia — his own mother, dead while he wandered, of longing for him. He tries three times to hold her; she slips through his arms like smoke. The hero's greatest adventures are invisible to the people who paid for them.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.price"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Achilles regrets",
+   "body": "The shade of Achilles delivers the epic's verdict on glory: better to be a living labourer under a poor man than king over all the dead. The anger-epic's hero, in the underworld, would trade his fame for an ordinary life.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.price"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Why epics go underground",
+   "body": "Every great hero must eventually descend — Heracles, Theseus, Aeneas, Dante after them all. The underworld visit is where the story prices its own glory in the currency of the living.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.price"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Circe send Odysseus to consult the dead?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The dead prophet Tiresias alone can tell him how to reach home — and what will doom the voyage"
+    },
+    {
+     "id": "b",
+     "text": "He must retrieve a token of Hades as proof"
+    },
+    {
+     "id": "c",
+     "text": "His dead father demands an inheritance rite"
+    },
+    {
+     "id": "d",
+     "text": "The underworld holds the stolen Palladium"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Tiresias's prophecy gives the route and the fatal condition: touch the Sun's cattle and all is lost.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.journey"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Achilles's shade tell Odysseus about glory?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He would rather be a poor living labourer than king of all the dead"
+    },
+    {
+     "id": "b",
+     "text": "That he regrets ever sailing to Troy"
+    },
+    {
+     "id": "c",
+     "text": "That death in battle brings the finest honour"
+    },
+    {
+     "id": "d",
+     "text": "That Patroclus waits for him beyond the river"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The greatest hero of the Iliad values life over posthumous fame — the Odyssey's central counterweight to epic glory.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.dead.price"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

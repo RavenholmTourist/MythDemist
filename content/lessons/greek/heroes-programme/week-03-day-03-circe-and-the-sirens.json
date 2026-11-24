@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w03d03.circe-and-the-sirens",
-  "version": 4,
-  "weekId": "grc.heroes.week03",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Circe and the Sirens",
-  "subtitle": "Planning survives temptation",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w03d03.circe-and-the-sirens.claim",
-      "text": "Explain this episode: How are the crew protected from the Sirens’ song?"
-    },
-    {
-      "id": "obj.grc.heroes.w03d03.circe-and-the-sirens.source",
-      "text": "Use the cited passage to explain: Why does Odysseus give instructions before hearing the song?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 12, Circe’s instructions about the Sirens; local text file lines 5365-5370 (physical file lines, not ancient verse numbers)",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "Therefore pass these Sirens by, and stop your men’s ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,99 and they must lash the rope’s ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w03d03.circe-and-the-sirens",
+ "version": 5,
+ "weekId": "grc.heroes.week03",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Odysseus: Circe and the Sirens",
+ "subtitle": "A year in an enchantress's bed, then ropes and beeswax",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odysseus",
+  "circe",
+  "sirens",
+  "odyssey"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.circe.swine",
+   "text": "How does Odysseus resist Circe's magic?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Circe warns Odysseus about the Sirens. The crew must block their ears with wax; Odysseus can listen only while bound to the mast, with orders that prevent his later wishes from overruling the plan.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “Therefore pass these Sirens by, and stop your men’s ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,99 and they must lash the rope’s ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: This is a model of practical wisdom: know the danger, accept the limit, and design a safeguard before the test begins.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "The crew and their captain use different safeguards. Wax prevents hearing; the mast prevents action. The instructions matter because the plan anticipates a later demand to abandon it.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Use the same question later with tragic heroes: do they plan for weakness, or mistake confidence for strength?",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "How are the crew protected from the Sirens’ song?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They answer with a louder song."
-        },
-        {
-          "id": "b",
-          "text": "Wax blocks their ears."
-        },
-        {
-          "id": "c",
-          "text": "They all bind themselves to the mast."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Wax blocks their ears. is the passage-specific answer. Check The Odyssey (Book 12, Circe’s instructions about the Sirens), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What must the crew do if Odysseus begs to be released?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Remove the wax from their ears"
-        },
-        {
-          "id": "b",
-          "text": "Bind him more tightly to the mast"
-        },
-        {
-          "id": "c",
-          "text": "Let him steer toward the Sirens"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Circe anticipates his plea and tells the crew to bind him faster.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d03.circe-and-the-sirens.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.sirens.rope",
+   "text": "How does he hear the Sirens safely?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 12, Circe’s instructions about the Sirens; local text file lines 5365-5370 (physical file lines, not ancient verse numbers)",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "Therefore pass these Sirens by, and stop your men’s ears with wax that none of them may hear; but if you like you can listen yourself, for you may get the men to bind you as you stand upright on a cross piece half way up the mast,99 and they must lash the rope’s ends to the mast itself, that you may have the pleasure of listening. If you beg and pray the men to unloose you, then they must bind you faster.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "The men become swine",
+   "body": "On Circe's island, a scouting party finds an enchantress who turns guests into animals. They drink her potion and become pigs in a sty — men inside, beasts outside.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.circe.swine"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "The herb moly",
+   "body": "Hermes intercepts Odysseus on the path and gives him moly — a plant that neutralises her potion. When the magic fails and Circe reaches for him, Odysseus draws his sword; she yields, and restores his crew.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.circe.swine"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "A year gone like a summer",
+   "body": "Circe becomes his lover and host — and the crew stays a full year, feasting, while Ithaca waits. It is the men who finally remind him what he is for. Her parting gift is the road itself: you must first speak with the dead prophet Tiresias.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.circe.swine"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Rope and beeswax",
+   "body": "Passing the Sirens — singers whose song wrecks every ship that listens — Odysseus wants to hear what no man has survived hearing. He plugs the crew's ears with wax, has himself lashed to the mast, and makes them swear: if he begs, bind him tighter.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.sirens.rope"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "flavor",
+   "title": "The original 'want to but shouldn't'",
+   "body": "The Sirens episode is the ancestor of every temptation scene: the only safe way to experience a fatal thing is to engineer your own helplessness in advance — a lesson in pre-commitment that economists still cite.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.sirens.rope"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does Odysseus resist Circe's transformation spell?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Hermes gives him the herb moly, which neutralises her potion — then he draws his sword and she yields"
+    },
+    {
+     "id": "b",
+     "text": "He covers his eyes so her magic cannot reach him"
+    },
+    {
+     "id": "c",
+     "text": "He offers her his ship in exchange for his men"
+    },
+    {
+     "id": "d",
+     "text": "Athene strikes her wand from her hand"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Moly protects him from the potion; once it fails, his drawn sword forces her to restore his crew.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.circe.swine"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Odysseus hear the Sirens and live?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "He plugs his crew's ears with wax and has himself tied to the mast, ordering them to bind him tighter if he begs"
+    },
+    {
+     "id": "b",
+     "text": "He steers wide around their island entirely"
+    },
+    {
+     "id": "c",
+     "text": "He drowns their song by shouting counter-verses"
+    },
+    {
+     "id": "d",
+     "text": "He sends a decoy sailor in his place"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Pre-commitment: the crew cannot hear him or the song; his ropes hold even when he begs to be released.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.sirens.rope"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

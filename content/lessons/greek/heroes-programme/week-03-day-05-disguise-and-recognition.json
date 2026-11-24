@@ -1,173 +1,181 @@
 {
-  "id": "grc.heroes.w03d05.disguise-and-recognition",
-  "version": 2,
-  "weekId": "grc.heroes.week03",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Disguise and Recognition",
-  "subtitle": "Identity is proven slowly",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w03d05.disguise-and-recognition.claim",
-      "text": "Explain this episode: What does Penelope use to test Odysseus?"
-    },
-    {
-      "id": "obj.grc.heroes.w03d05.disguise-and-recognition.source",
-      "text": "Use the cited passage to explain: Why is the bed a strong recognition test?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    }
+ "id": "grc.heroes.w03d05.disguise-and-recognition",
+ "version": 3,
+ "weekId": "grc.heroes.week03",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Odysseus: The Beggar in His Own Hall",
+ "subtitle": "Disguised homecoming, a bow only he can string, and a bed that cannot move",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odysseus",
+  "penelope",
+  "recognition",
+  "odyssey"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.home.beggar",
+   "text": "Why does Odysseus return disguised as a beggar?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Penelope does not accept the stranger’s identity on appearance alone. Her instruction about moving their bed draws out knowledge of its construction around a rooted olive tree: a private, shared history becomes evidence of identity.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Identity in the Odyssey is proved relationally. The hero must be recognized by the people and places that can still read him correctly.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Penelope’s test asks for private knowledge, not another boast of heroic achievement. The rooted bed connects identity with the particular household to which Odysseus is returning.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "The final heroic skill is patience after arrival, when revenge is available but restoration is not yet complete.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What does Penelope use to test Odysseus?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Their marriage bed"
-        },
-        {
-          "id": "b",
-          "text": "The Cyclops’ cup"
-        },
-        {
-          "id": "c",
-          "text": "A shield left at Troy"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "Their marriage bed is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why is the bed a strong recognition test?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Athena has written Odysseus’ name on it."
-        },
-        {
-          "id": "b",
-          "text": "Its construction is knowledge shared within their marriage."
-        },
-        {
-          "id": "c",
-          "text": "Every visitor to Ithaca has seen it moved."
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Its construction is knowledge shared within their marriage. is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d05.disguise-and-recognition.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.home.bed",
+   "text": "How does Penelope test him?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 23, Odysseus explains the rooted bed; local text file lines 10218-10223 (physical file lines, not ancient verse numbers)",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "There was a young olive growing within the precincts of the house, in full vigour, and about as thick as a bearing-post. I built my room round this with strong walls of stone and a roof to cover them, and I made the doors strong and well-fitting. Then I cut off the top boughs of the olive tree and left the stump standing.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Alone, on a foreign ship",
+   "body": "Twenty years after leaving, Odysseus reaches Ithaca — as the prophecy said, alone and on another man's ship. Athena wrinkles him into an old beggar: the suiters would kill a stranger outright; a beggar can walk his own hall and take its measure.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.beggar"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Insults at his own table",
+   "body": "The beggar begs from the suitors in his palace, takes their mockery and their thrown footstool, and memorises every insult. His old dog Argos, dying on the dungheap, wags his tail once and dies — the only one who knows him.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.beggar"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The bow contest",
+   "body": "Penelope announces she will marry whoever strings Odysseus's great bow and shoots through twelve axe-heads. Every suitor fails. The beggar asks to try — they laugh — strings it effortlessly, and sends an arrow through all twelve.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.beggar"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The reckoning",
+   "body": "The beggar drops the disguise and the hall becomes an archery range: every suitor dies. Twenty years of patience, disguises, and restraint end in one afternoon — the slow story finally cashes its cheques.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.beggar"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "story",
+   "title": "The immovable bed",
+   "body": "Penelope tests the stranger: she orders his bed moved outside. Odysseus explodes — the bed is built around a living olive tree; it cannot move unless a man has cut it. Only her husband could know that. The test is passed — the epic's last recognition is the quietest and the best.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.bed"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "Why does Athena disguise Odysseus as a beggar?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "The suiters would kill a stranger — as a beggar he can enter his own hall unseen and judge them"
+    },
+    {
+     "id": "b",
+     "text": "He lost his memory on the voyage"
+    },
+    {
+     "id": "c",
+     "text": "The disguise is punishment from Poseidon"
+    },
+    {
+     "id": "d",
+     "text": "He is hiding from Penelope"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Disguise lets him assess the enemy in his own house before striking — Odysseus's signature patience.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.beggar"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Penelope finally confirm it is Odysseus?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She asks for his bed to be moved — his fury reveals it is rooted to a living olive tree, a secret only he could know"
+    },
+    {
+     "id": "b",
+     "text": "She recognizes a scar on his leg"
+    },
+    {
+     "id": "c",
+     "text": "He produces the ring from their wedding"
+    },
+    {
+     "id": "d",
+     "text": "Telemachus vouches for him"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The bed built around a rooted olive tree is a secret only the real Odysseus could know — the epic's most intimate recognition.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.home.bed"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

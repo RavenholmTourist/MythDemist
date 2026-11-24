@@ -1,207 +1,227 @@
 {
-  "id": "grc.heroes.week03",
-  "title": "Odysseus and Return",
-  "subtitle": "Cunning, endurance, home, and recognition",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "visual": {
-    "logo": "greek-bolt",
-    "accent": "gold"
+ "id": "grc.heroes.week03",
+ "title": "Odysseus and Return",
+ "subtitle": "Cunning, endurance, home, and recognition",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "visual": {
+  "logo": "greek-bolt",
+  "accent": "gold"
+ },
+ "days": [
+  {
+   "day": 1,
+   "title": "Odysseus: The Broken House",
+   "lessonId": "grc.heroes.w03d01.the-broken-house",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-01-the-broken-house.json",
+   "status": "available"
   },
-  "days": [
-    {
-      "day": 1,
-      "title": "The Broken House",
-      "lessonId": "grc.heroes.w03d01.the-broken-house",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-01-the-broken-house.json",
-      "status": "available"
-    },
-    {
-      "day": 2,
-      "title": "Nobody and the Cyclops",
-      "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-02-nobody-and-the-cyclops.json",
-      "status": "available"
-    },
-    {
-      "day": 3,
-      "title": "Circe and the Sirens",
-      "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-03-circe-and-the-sirens.json",
-      "status": "available"
-    },
-    {
-      "day": 4,
-      "title": "Talking with the Dead",
-      "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-04-talking-with-the-dead.json",
-      "status": "available"
-    },
-    {
-      "day": 5,
-      "title": "Disguise and Recognition",
-      "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
-      "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-05-disguise-and-recognition.json",
-      "status": "available"
-    }
-  ],
-  "assessment": {
-    "title": "Odysseus and Return assessment",
-    "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
-    "questionCount": 5,
-    "questions": [
-      {
-        "lessonId": "grc.heroes.w03d01.the-broken-house",
-        "question": {
-          "id": "q1",
-          "type": "single-choice",
-          "prompt": "What do the suitors do in Odysseus' home while he is absent?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "They guard the house for Telemachus."
-            },
-            {
-              "id": "b",
-              "text": "They return the estate to Odysseus."
-            },
-            {
-              "id": "c",
-              "text": "They consume his resources and press Penelope about remarriage."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "Telemachus says the suitors eat up his house and press his mother about marriage.",
-          "sourceRefIds": [
-            "main",
-            "pressure"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w03d01.the-broken-house.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
-        "question": {
-          "id": "q2",
-          "type": "single-choice",
-          "prompt": "What does Odysseus' boast reveal, and what does Polyphemus do next?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "His father's name; Polyphemus returns his crew."
-            },
-            {
-              "id": "b",
-              "text": "His name; Polyphemus prays to Poseidon to prevent his return."
-            },
-            {
-              "id": "c",
-              "text": "His ship's location; Polyphemus gives him a safe passage."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Odysseus reveals his name, and Polyphemus invokes Poseidon against his return.",
-          "sourceRefIds": [
-            "boast",
-            "curse"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
-        "question": {
-          "id": "q3",
-          "type": "single-choice",
-          "prompt": "Which distinction matters in the Sirens plan?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Every sailor listens without any restraint."
-            },
-            {
-              "id": "b",
-              "text": "Odysseus uses the false name from the Cyclops episode."
-            },
-            {
-              "id": "c",
-              "text": "The crew avoid hearing, while Odysseus listens under restraint."
-            }
-          ],
-          "answerId": "c",
-          "explanation": "The crew avoid hearing, while Odysseus listens under restraint. is the passage-specific answer. Check The Odyssey (Book 12, Circe’s instructions about the Sirens), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w03d03.circe-and-the-sirens.source"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
-        "question": {
-          "id": "q4",
-          "type": "single-choice",
-          "prompt": "How should this passage qualify a reading of heroic fame?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "The dead hero himself voices a cost that praise can conceal."
-            },
-            {
-              "id": "b",
-              "text": "It proves every Greek text rejects honour."
-            },
-            {
-              "id": "c",
-              "text": "It is an account of a funeral contest, not an encounter with the dead."
-            }
-          ],
-          "answerId": "a",
-          "explanation": "The dead hero himself voices a cost that praise can conceal. is the passage-specific answer. Check The Odyssey (Book 11, Achilles among the dead), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w03d04.talking-with-the-dead.claim"
-          ]
-        }
-      },
-      {
-        "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
-        "question": {
-          "id": "q5",
-          "type": "single-choice",
-          "prompt": "What does the recognition scene add to the idea of return?",
-          "choices": [
-            {
-              "id": "a",
-              "text": "Penelope recognises him because he describes Troy’s walls."
-            },
-            {
-              "id": "b",
-              "text": "Reaching home is not the same as being recognised and trusted."
-            },
-            {
-              "id": "c",
-              "text": "Physical arrival makes all further tests unnecessary."
-            }
-          ],
-          "answerId": "b",
-          "explanation": "Reaching home is not the same as being recognised and trusted. is the passage-specific answer. Check The Odyssey (Book 23, Odysseus explains the rooted bed), keeping each work and version distinct.",
-          "sourceRefIds": [
-            "main"
-          ],
-          "objectiveIds": [
-            "obj.grc.heroes.w03d05.disguise-and-recognition.source"
-          ]
-        }
-      }
-    ]
+  {
+   "day": 2,
+   "title": "Odysseus: Nobody and the Cyclops",
+   "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-02-nobody-and-the-cyclops.json",
+   "status": "available"
+  },
+  {
+   "day": 3,
+   "title": "Odysseus: Circe and the Sirens",
+   "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-03-circe-and-the-sirens.json",
+   "status": "available"
+  },
+  {
+   "day": 4,
+   "title": "Odysseus: Talking with the Dead",
+   "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-04-talking-with-the-dead.json",
+   "status": "available"
+  },
+  {
+   "day": 5,
+   "title": "Odysseus: The Beggar in His Own Hall",
+   "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
+   "lessonPath": "content/lessons/greek/heroes-programme/week-03-day-05-disguise-and-recognition.json",
+   "status": "available"
   }
+ ],
+ "assessment": {
+  "title": "Odysseus and Return assessment",
+  "prompt": "Five new questions revisit the week’s events, interpretations, and source distinctions. Taking the assessment completes the week; missed answers remain practice priorities.",
+  "questionCount": 5,
+  "questions": [
+   {
+    "lessonId": "grc.heroes.w03d01.the-broken-house",
+    "question": {
+     "id": "q1",
+     "type": "single-choice",
+     "prompt": "How does Penelope hold off the suitors for three years?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "She weaves a burial shroud by day and unravels it by night"
+      },
+      {
+       "id": "b",
+       "text": "She feigns illness in a locked tower"
+      },
+      {
+       "id": "c",
+       "text": "She makes them sail to Delphi first"
+      },
+      {
+       "id": "d",
+       "text": "She marries one in secret"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The loom trick is undone only by a servant's betrayal.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.house.penelope"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w03d02.nobody-and-the-cyclops",
+    "question": {
+     "id": "q2",
+     "type": "single-choice",
+     "prompt": "What does the Cyclops episode cost Odysseus?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "His boast gives Polyphemus his name — Poseidon's curse ensures the voyage home is slow and solitary"
+      },
+      {
+       "id": "b",
+       "text": "He loses his best crewmen to the Cyclops's club"
+      },
+      {
+       "id": "c",
+       "text": "His ship is wrecked on the island's rocks"
+      },
+      {
+       "id": "d",
+       "text": "He is trapped for seven years"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Outis saves him; the boast curses him — every later trial rides on Poseidon's anger.",
+     "sourceRefIds": [
+      "main",
+      "boast",
+      "curse"
+     ],
+     "objectiveIds": [
+      "obj.cyclops.boast"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w03d03.circe-and-the-sirens",
+    "question": {
+     "id": "q3",
+     "type": "single-choice",
+     "prompt": "What lets Odysseus hear the Sirens' song and survive?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "He plugs his crew's ears and has himself bound to the mast — engineering helplessness in advance"
+      },
+      {
+       "id": "b",
+       "text": "He memorises a counter-song from Circe"
+      },
+      {
+       "id": "c",
+       "text": "He kills the Sirens before passing"
+      },
+      {
+       "id": "d",
+       "text": "He steers by their island at night"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The Sirens teach pre-commitment: the only safe exposure to a fatal lure is arranged while you are still rational.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.sirens.rope"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w03d04.talking-with-the-dead",
+    "question": {
+     "id": "q4",
+     "type": "single-choice",
+     "prompt": "What do the dead reveal about the price of glory?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "Achilles would trade his fame for a poor man's life — the dead measure what the living pay for renown"
+      },
+      {
+       "id": "b",
+       "text": "They demand gold before speaking"
+      },
+      {
+       "id": "c",
+       "text": "They reveal only the way through Scylla"
+      },
+      {
+       "id": "d",
+       "text": "They tell him his crew is doomed by hubris alone"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "Anticleia died of longing; Achilles prefers labour to lordship of the dead.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.dead.price"
+     ]
+    }
+   },
+   {
+    "lessonId": "grc.heroes.w03d05.disguise-and-recognition",
+    "question": {
+     "id": "q5",
+     "type": "single-choice",
+     "prompt": "How does Penelope prove the beggar is Odysseus?",
+     "choices": [
+      {
+       "id": "a",
+       "text": "She tests him with the bed — it is rooted to a living olive tree, a secret only he could know"
+      },
+      {
+       "id": "b",
+       "text": "She checks the scar on his thigh"
+      },
+      {
+       "id": "c",
+       "text": "She asks about the Trojan Horse"
+      },
+      {
+       "id": "d",
+       "text": "She watches him defeat the suitors"
+      }
+     ],
+     "answerId": "a",
+     "explanation": "The immovable bed is the recognition the epic saves for last.",
+     "sourceRefIds": [
+      "main"
+     ],
+     "objectiveIds": [
+      "obj.home.bed"
+     ]
+    }
+   }
+  ]
+ }
 }

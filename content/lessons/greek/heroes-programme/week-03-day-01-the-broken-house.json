@@ -1,186 +1,193 @@
 {
-  "id": "grc.heroes.w03d01.the-broken-house",
-  "version": 4,
-  "weekId": "grc.heroes.week03",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "The Broken House",
-  "subtitle": "Ithaca before the return",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w03d01.the-broken-house.claim",
-      "text": "Explain this episode: Who is struggling with the suitors in Ithaca?"
-    },
-    {
-      "id": "obj.grc.heroes.w03d01.the-broken-house.source",
-      "text": "Use the cited passage to explain: What makes the suitors a threat to the household?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 1, the suitors’ feast; local text file lines 499-503 (physical file lines, not ancient verse numbers)",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "Then the suitors came in and took their places on the benches and seats.3 Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them.",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "pressure": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Odyssey 1, Telemachus describes the suitors' pressure; Book 1, normalized characters 11814-12202",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "the chiefs from all our islands, Dulichium, Same, and the woodland island of Zacynthus, as also all the principal men of Ithaca itself, are eating up my house under the pretext of paying their court to my mother, who will neither point blank say that she will not marry,7 nor yet bring matters to an end; so they are making havoc of my estate, and before long will do so also with myself.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w03d01.the-broken-house",
+ "version": 5,
+ "weekId": "grc.heroes.week03",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Odysseus: The Broken House",
+ "subtitle": "Ten years of war, ten years lost, and strangers eating his home",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odysseus",
+  "penelope",
+  "suitors",
+  "odyssey"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.house.suitors",
+   "text": "What are the suitors doing in Odysseus's house?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Odysseus is absent while suitors eat his household's food and court Penelope, who has not agreed to marry one of them.",
-      "sourceRefIds": [
-        "main",
-        "pressure"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “Then the suitors came in and took their places on the benches and seats.3 Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them.”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: Homecoming matters because absence has already changed the home. The poem measures return not only in miles survived but in what remains to recover.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Read the household as part of the homecoming problem. The suitors’ behaviour shows what absence costs Penelope and Telemachus; the hero’s story is not confined to his own travels.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Carry this forward whenever Odysseus hides his name: identity and home are both being rebuilt.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What do the suitors do in Odysseus' hall?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They escort Odysseus home"
-        },
-        {
-          "id": "b",
-          "text": "They guard the house from the Trojans"
-        },
-        {
-          "id": "c",
-          "text": "They sit down and eat the household's food"
-        }
-      ],
-      "answerId": "c",
-      "explanation": "The passage describes the suitors taking their places and eating the household's food.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "Why does Telemachus call the suitors a threat to his household?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "They are protecting the estate for Odysseus"
-        },
-        {
-          "id": "b",
-          "text": "They consume his property while pressuring his mother to marry"
-        },
-        {
-          "id": "c",
-          "text": "They have taken the household to Troy"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "Telemachus says the suitors eat up his house, press his mother, and make havoc of his estate.",
-      "sourceRefIds": [
-        "pressure"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d01.the-broken-house.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.house.penelope",
+   "text": "How does Penelope hold them off?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 1, the suitors’ feast; local text file lines 499-503 (physical file lines, not ancient verse numbers)",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "Then the suitors came in and took their places on the benches and seats.3 Forthwith men servants poured water over their hands, maids went round with the bread-baskets, pages filled the mixing-bowls with wine and water, and they laid their hands upon the good things that were before them.",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "pressure": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Odyssey 1, Telemachus describes the suitors' pressure; Book 1, normalized characters 11814-12202",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "the chiefs from all our islands, Dulichium, Same, and the woodland island of Zacynthus, as also all the principal men of Ithaca itself, are eating up my house under the pretext of paying their court to my mother, who will neither point blank say that she will not marry,7 nor yet bring matters to an end; so they are making havoc of my estate, and before long will do so also with myself.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "Twenty years gone",
+   "body": "Odysseus left for Troy when his son Telemachus was a baby. The war ended ten years ago — every other king is home or dead, but no word has come from Ithaca's. On his island, most have stopped believing he will return.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.suitors"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "Wolves at the table",
+   "body": "Over a hundred young nobles have moved into his palace — not as guests but as squatters courting his 'widow'. They slaughter his herds for daily feasts, drink his wine, and dare anyone to stop them. Taking Penelope means taking the kingdom.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.suitors"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "Penelope's loom",
+   "body": "Penelope cannot refuse outright without a revolt. So she weaves a burial shroud for old Laertes by day — and unravels it by torchlight each night. The trick holds three years before a maid betrays it. Time bought, nothing more.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.penelope"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "Telemachus comes of age",
+   "body": "Her son, raised in a house of occupation, finally acts: Athena, disguised, sends him abroad for news of his father — his first command, and the moment he stops being a boy in his own hall.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.suitors"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "The Odyssey starts at home",
+   "body": "Unlike the Iliad, this epic opens on the cost of absence — a hero's journey matters because something at home depends on it. Keep the suitors' table in mind: every delay at sea is another feast off Odysseus's stores.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.suitors"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "What are the suitors doing in Odysseus's hall?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Feasting daily on his herds and wine while courting Penelope — and through her, the kingdom"
+    },
+    {
+     "id": "b",
+     "text": "Guarding the palace until Odysseus returns"
+    },
+    {
+     "id": "c",
+     "text": "Negotiating trade treaties for Ithaca"
+    },
+    {
+     "id": "d",
+     "text": "Holding funeral games in his honour"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The suitors squat in his house, consuming his wealth and pressing Penelope to remarry.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.suitors"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "How does Penelope delay the suitors?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "She weaves Laertes's burial shroud by day and secretly unravels it each night"
+    },
+    {
+     "id": "b",
+     "text": "She locks herself in a tower"
+    },
+    {
+     "id": "c",
+     "text": "She stages fake funeral rites for Odysseus"
+    },
+    {
+     "id": "d",
+     "text": "She sets the suitors to ploughing contests"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The loom trick buys three years before a servant betrays her.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.house.penelope"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }

@@ -1,199 +1,205 @@
 {
-  "id": "grc.heroes.w03d02.nobody-and-the-cyclops",
-  "version": 4,
-  "weekId": "grc.heroes.week03",
-  "pantheon": "greek",
-  "themeMode": "pantheon",
-  "title": "Nobody and the Cyclops",
-  "subtitle": "Information beats force",
-  "estimatedMinutes": 3,
-  "difficulty": 2,
-  "tags": [
-    "greek-heroes",
-    "heroes",
-    "source-method",
-    "odyssey"
-  ],
-  "learningObjectives": [
-    {
-      "id": "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim",
-      "text": "Explain this episode: What helps Odysseus conceal who attacked the Cyclops?"
-    },
-    {
-      "id": "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source",
-      "text": "Use the cited passage to explain: How does the later boast undermine the escape?"
-    }
-  ],
-  "sourceReferences": {
-    "main": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Book 9, the Cyclops and the false name; Book 9, normalized characters 19074-19375",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "I will tell it you; give me, therefore, the present you promised me; my name is Noman; this is what my father and mother and my friends have always called me.’ “But the cruel wretch said, ‘Then I will eat all Noman’s comrades before Noman himself, and will keep Noman for the last. This is the present",
-      "evidenceType": "quotation",
-      "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
-    },
-    "boast": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Odyssey 9, Odysseus reveals his name to Polyphemus; Book 9, normalized characters 26337-26500",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "Cyclops, if any one asks you who it was that put your eye out and spoiled your beauty, say it was the valiant warrior Ulysses, son of Laertes, who lives in Ithaca.",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    },
-    "curse": {
-      "recordId": "pg-01727",
-      "sourceId": "grc.homer.odyssey",
-      "work": "The Odyssey",
-      "author": "Homer",
-      "translator": "Samuel Butler",
-      "locator": "Odyssey 9, Polyphemus prays to Poseidon; Book 9, normalized characters 27551-27746",
-      "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
-      "excerpt": "On this he lifted up his hands to the firmament of heaven and prayed, saying, ‘Hear me, great Neptune; if I am indeed your own true begotten son, grant that Ulysses may never reach his home alive",
-      "evidenceType": "quotation",
-      "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
-    }
+ "id": "grc.heroes.w03d02.nobody-and-the-cyclops",
+ "version": 5,
+ "weekId": "grc.heroes.week03",
+ "pantheon": "greek",
+ "themeMode": "pantheon",
+ "title": "Odysseus: Nobody and the Cyclops",
+ "subtitle": "Wine, a sharpened stake, and a name that isn't one",
+ "estimatedMinutes": 3,
+ "difficulty": 2,
+ "tags": [
+  "odysseus",
+  "polyphemus",
+  "cyclops",
+  "odyssey"
+ ],
+ "learningObjectives": [
+  {
+   "id": "obj.cyclops.trick",
+   "text": "How does Odysseus escape the Cyclops's cave?"
   },
-  "narrativeBlocks": [
-    {
-      "id": "card-01",
-      "kind": "context",
-      "title": "The scene",
-      "body": "Trapped by Polyphemus, Odysseus uses wine, a false name, a stake, and the sheep to escape. He later reveals his identity in a boast, allowing the Cyclops to invoke Poseidon against him.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
-      ]
-    },
-    {
-      "id": "card-02",
-      "kind": "source",
-      "title": "What the source does",
-      "body": "Source quotation (translation; whitespace normalized): “I will tell it you; give me, therefore, the present you promised me; my name is Noman; this is what my father and mother and my friends have always called me.’ “But the cruel wretch said, ‘Then I will eat all Noman’s comrades before Noman himself, and will keep Noman for the last. This is the present”",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
-      ]
-    },
-    {
-      "id": "card-03",
-      "kind": "synthesis",
-      "title": "Why it matters",
-      "body": "Interpretation: The trick works because Polyphemus can repeat only the wrong information. Cunning here is control over words, timing, and the enemy's expectations.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
-      ]
-    },
-    {
-      "id": "card-04",
-      "kind": "method",
-      "title": "Read it carefully",
-      "body": "Separate the successful escape plan from the later boast. Secrecy helps the crew survive; declaring his name satisfies Odysseus’ desire for recognition but creates a new danger.",
-      "sourceRefIds": [
-        "boast",
-        "curse"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
-      ]
-    },
-    {
-      "id": "card-05",
-      "kind": "flavor",
-      "title": "Carry it forward",
-      "body": "Compare this with Achilles: Odysseus wins by temporary invisibility, not public honor.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
-      ]
-    }
-  ],
-  "quiz": [
-    {
-      "id": "q1",
-      "type": "single-choice",
-      "prompt": "What helps Odysseus conceal who attacked the Cyclops?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "A false name"
-        },
-        {
-          "id": "b",
-          "text": "A forged letter from Zeus"
-        },
-        {
-          "id": "c",
-          "text": "A disguise as Athena"
-        }
-      ],
-      "answerId": "a",
-      "explanation": "A false name is the passage-specific answer. Check The Odyssey (Book 9, the Cyclops and the false name), keeping each work and version distinct.",
-      "sourceRefIds": [
-        "main"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.source"
-      ]
-    },
-    {
-      "id": "q2",
-      "type": "single-choice",
-      "prompt": "What follows Odysseus' boast of his real name?",
-      "choices": [
-        {
-          "id": "a",
-          "text": "Athena immediately brings the crew to Ithaca"
-        },
-        {
-          "id": "b",
-          "text": "Polyphemus prays to Poseidon to keep him from reaching home"
-        },
-        {
-          "id": "c",
-          "text": "The Cyclops agrees to guide the ship"
-        }
-      ],
-      "answerId": "b",
-      "explanation": "After Odysseus names himself, Polyphemus raises his hands and prays to Poseidon.",
-      "sourceRefIds": [
-        "boast",
-        "curse"
-      ],
-      "objectiveIds": [
-        "obj.grc.heroes.w03d02.nobody-and-the-cyclops.claim"
-      ]
-    }
-  ],
-  "feedbackOptions": [
-    "too-long",
-    "too-easy",
-    "too-hard",
-    "unclear",
-    "want-more-sources"
-  ],
-  "review": {
-    "status": "reviewed",
-    "reviewedBy": "Devin (AI editorial review)",
-    "reviewedAt": "2026-11-09",
-    "reviewType": "editorial",
-    "notes": "AI editorial review by Devin on 2026-11-09: checked the local work, genre, edition, source excerpt and locator, factual card claims, quiz answers, and version boundaries. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+  {
+   "id": "obj.cyclops.boast",
+   "text": "What does his boasting cost him?"
   }
+ ],
+ "sourceReferences": {
+  "main": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Book 9, the Cyclops and the false name; Book 9, normalized characters 19074-19375",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "I will tell it you; give me, therefore, the present you promised me; my name is Noman; this is what my father and mother and my friends have always called me.’ “But the cruel wretch said, ‘Then I will eat all Noman’s comrades before Noman himself, and will keep Noman for the last. This is the present",
+   "evidenceType": "quotation",
+   "note": "Verbatim local text with whitespace normalized. Lesson analysis is interpretation, not part of this quotation."
+  },
+  "boast": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Odyssey 9, Odysseus reveals his name to Polyphemus; Book 9, normalized characters 26337-26500",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "Cyclops, if any one asks you who it was that put your eye out and spoiled your beauty, say it was the valiant warrior Ulysses, son of Laertes, who lives in Ithaca.",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  },
+  "curse": {
+   "recordId": "pg-01727",
+   "sourceId": "grc.homer.odyssey",
+   "work": "The Odyssey",
+   "author": "Homer",
+   "translator": "Samuel Butler",
+   "locator": "Odyssey 9, Polyphemus prays to Poseidon; Book 9, normalized characters 27551-27746",
+   "localPath": "content/corpus/greek/primary/homer-odyssey-1727.txt",
+   "excerpt": "On this he lifted up his hands to the firmament of heaven and prayed, saying, ‘Hear me, great Neptune; if I am indeed your own true begotten son, grant that Ulysses may never reach his home alive",
+   "evidenceType": "quotation",
+   "note": "Verbatim passage from the named work and translation; this locator selects the exact local narrative passage."
+  }
+ },
+ "narrativeBlocks": [
+  {
+   "id": "card-01",
+   "kind": "story",
+   "title": "One curiosity too many",
+   "body": "Odysseus lands his crew on the Cyclopes' island and insists on exploring — hospitality or plunder, either way a story. In Polyphemus's cave they help themselves to cheese — until the giant returns, seals the entrance with a boulder, and eats two men for dinner.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.trick"
+   ]
+  },
+  {
+   "id": "card-02",
+   "kind": "story",
+   "title": "A name that isn't one",
+   "body": "Odysseus offers the Cyclops strong wine as a gift. Drunk, the giant asks his guest's name. 'Nobody,' says Odysseus — Outis in Greek. Polyphemus laughs and promises to eat Nobody last. He eats two more men and falls asleep.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.trick"
+   ]
+  },
+  {
+   "id": "card-03",
+   "kind": "story",
+   "title": "The stake",
+   "body": "Odysseus and his men drive a fire-hardened stake into the giant's single eye. Polyphemus bellows to the neighbouring Cyclopes that 'Nobody is killing me' — and they go back to sleep. Come morning, the Greeks cling beneath the bellies of his sheep as they file out to graze.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.trick"
+   ]
+  },
+  {
+   "id": "card-04",
+   "kind": "story",
+   "title": "The boast that costs the sea",
+   "body": "Safely aboard, Odysseus cannot resist shouting his real name. Polyphemus prays to his father — Poseidon — and curses Odysseus: let him come home late, alone, in another man's ship, to find trouble in his house. Every trial that follows sails on that prayer.",
+   "sourceRefIds": [
+    "boast"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.boast"
+   ]
+  },
+  {
+   "id": "card-05",
+   "kind": "context",
+   "title": "Cleverness is double-edged",
+   "body": "The same wit that saves him (Outis) damns him (the boast). The Odyssey keeps asking whether Odysseus's cunning is a gift or a flaw — watch it repeat with the sirens and the homecoming.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.boast"
+   ]
+  }
+ ],
+ "quiz": [
+  {
+   "id": "q1",
+   "type": "single-choice",
+   "prompt": "How does the 'Nobody' trick work?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Odysseus gives his name as Nobody — when the blinded Cyclops cries that Nobody is killing him, the other giants dismiss it"
+    },
+    {
+     "id": "b",
+     "text": "He hides his men under a false name of the island"
+    },
+    {
+     "id": "c",
+     "text": "He tells the Cyclops he is a god in disguise"
+    },
+    {
+     "id": "d",
+     "text": "He names himself after the Cyclops's father"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "Outis/'Nobody' means the Cyclops's cries for help are nonsense to his neighbours.",
+   "sourceRefIds": [
+    "main"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.trick"
+   ]
+  },
+  {
+   "id": "q2",
+   "type": "single-choice",
+   "prompt": "What does Odysseus's boast cost him?",
+   "choices": [
+    {
+     "id": "a",
+     "text": "Polyphemus prays to his father Poseidon, whose curse makes the voyage home slow, bloody, and lonely"
+    },
+    {
+     "id": "b",
+     "text": "The Cyclops hurls a rock that sinks his flagship"
+    },
+    {
+     "id": "c",
+     "text": "His crew mutinies when they learn his name"
+    },
+    {
+     "id": "d",
+     "text": "Athena abandons him for the insult"
+    }
+   ],
+   "answerId": "a",
+   "explanation": "The curse — late, alone, another man's ship, trouble at home — is fulfilled across the rest of the epic.",
+   "sourceRefIds": [
+    "curse"
+   ],
+   "objectiveIds": [
+    "obj.cyclops.boast"
+   ]
+  }
+ ],
+ "feedbackOptions": [
+  "too-long",
+  "too-easy",
+  "too-hard",
+  "unclear",
+  "want-more-sources"
+ ],
+ "review": {
+  "status": "reviewed",
+  "reviewedBy": "Devin (AI editorial review)",
+  "reviewedAt": "2026-11-24",
+  "reviewType": "editorial",
+  "notes": "AI editorial review by Devin on 2026-11-24: narrative-first rewrite; cards retell the story, verbatim source excerpts preserved, quiz answers checked against the retold material. This is not independent scholarly review or scholarly certification; specialist and community review remains recommended."
+ }
 }
